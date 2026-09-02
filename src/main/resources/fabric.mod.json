@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "Origin Lore",
   "description": "自定义物品堆叠组件信息，让物品从世界生成时就自带自定义属性",
-  "authors": ["You"],
+  "authors": ["2233DevJian"],
   "contact": {},
   "license": "MIT",
   "environment": "*",
