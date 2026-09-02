@@ -11,7 +11,7 @@ OriginLore 是面向 Minecraft 1.21.1 的 Fabric 物品来源与数据组件管�
 - 普通玩家不需要安装 OriginLore 客户端，也能看到并使用服务端生成的数据组件。
 - 运行环境固定为 Minecraft 1.21.1 和 Java 21。
 
-将 `build/libs/originlore-2.0.1.jar` 放入实例的 `mods` 目录。首次启动会创建：
+从项目的 Releases 页面下载 `originlore-2.0.1.jar`，放入实例的 `mods` 目录；自行构建时产物同样位于 `build/libs`。首次启动会创建：
 
 ```text
 config/originlore/item_components.json
@@ -121,12 +121,12 @@ SMELTING    CUTTING     SMITHING     UNKNOWN
 
 标准 `ItemStack`、LootTable、原版配方体系和持久数据组件可自动工作。模组在 Java 中写死、且没有用数据组件表达的行为需要单独适配。来源入口不可识别时物品仍可通过 `UNKNOWN` 规则接管。
 
-OriginLore 不修改第三方 JAR。完整整合包兼容测试应在隔离实例中引用原始模组目录，只把 OriginLore JAR 和测试世界写入隔离目录。
+OriginLore 不修改第三方模组的 JAR、配置或资源。与其他模组的共存细节、自动识别的来源入口和已知限制见 [兼容性说明](COMPATIBILITY_TESTS.md)。
 
 ## 构建与测试
 
 ```powershell
-.\gradlew.bat clean test runGametest build --console=plain
+.\gradlew.bat test runGametest build --console=plain
 ```
 
 默认构建目标是 Loader 0.19.2。快速回归 0.19.3 可显式覆盖：
