@@ -24,6 +24,7 @@ import net.minecraft.component.type.NbtComponent;
 import net.minecraft.component.type.ToolComponent;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.entity.FurnaceBlockEntity;
+import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.SimpleInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -375,6 +376,47 @@ public final class OriginLoreGameTests implements FabricGameTest {
     }
 
     @GameTest(templateName = FabricGameTest.EMPTY_STRUCTURE)
+    public void playerInventoryInsertionAppliesUnknownFallback(TestContext context) {
+        ItemComponentConfig config = Originlore.getConfig();
+        check(config != null, "server configuration is unavailable");
+        ConfigSnapshot original = config.snapshot();
+        ItemEntry carrot = new ItemEntry("minecraft:carrot");
+        carrot.base.lore = List.of("granted straight into the inventory");
+        SourceRule unknown = new SourceRule("UNKNOWN");
+        unknown.rule.customName = "Carrot Of Unknown Origin";
+        carrot.sources.add(unknown);
+        config.setItemConfig(carrot.itemId, carrot);
+        check(config.save().success(), "inventory fallback config save failed");
+
+        try {
+            ServerPlayerEntity player = context.createMockCreativeServerPlayerInWorld();
+            PlayerInventory inventory = player.getInventory();
+
+            // Each overload starts from an empty inventory so a failure names the exact
+            // entry point that never received the injection.
+            inventory.clear();
+            ItemStack loose = new ItemStack(Items.CARROT);
+            check(inventory.insertStack(loose), "insertStack(ItemStack) reported failure");
+            assertUnknownFallback(inventory, "insertStack(ItemStack)");
+
+            inventory.clear();
+            ItemStack slotted = new ItemStack(Items.CARROT);
+            check(inventory.insertStack(3, slotted), "insertStack(int, ItemStack) reported failure");
+            assertUnknownFallback(inventory, "insertStack(int, ItemStack)");
+
+            inventory.clear();
+            inventory.setStack(5, new ItemStack(Items.CARROT));
+            assertUnknownFallback(inventory, "setStack(int, ItemStack)");
+
+            player.networkHandler.disconnect(Text.literal("OriginLore GameTest complete"));
+        } finally {
+            check(config.replaceSnapshot(original, config.getRevision()).success(),
+                    "inventory fallback config restore failed");
+        }
+        context.complete();
+    }
+
+    @GameTest(templateName = FabricGameTest.EMPTY_STRUCTURE)
     public void furnacePausesAfterEveryOriginLoreResultAndRerolls(TestContext context) {
         ItemComponentConfig config = Originlore.getConfig();
         check(config != null, "server configuration is unavailable");
@@ -509,6 +551,26 @@ public final class OriginLoreGameTests implements FabricGameTest {
         NbtCompound root = data.copyNbt();
         check(root.contains(ItemComponentManager.METADATA_KEY), "stack has no OriginLore metadata");
         return root.getCompound(ItemComponentManager.METADATA_KEY);
+    }
+
+    private static void assertUnknownFallback(PlayerInventory inventory, String entryPoint) {
+        ItemStack managed = ItemStack.EMPTY;
+        for (int slot = 0; slot < inventory.size(); slot++) {
+            ItemStack stack = inventory.getStack(slot);
+            if (!stack.isEmpty() && stack.isOf(Items.CARROT)) {
+                managed = stack;
+                break;
+            }
+        }
+        check(!managed.isEmpty(), entryPoint + " did not place the item in the inventory");
+        check(managed.get(DataComponentTypes.LORE) != null
+                        && !managed.get(DataComponentTypes.LORE).lines().isEmpty(),
+                entryPoint + " did not apply the base Lore");
+        Text name = managed.get(DataComponentTypes.CUSTOM_NAME);
+        check(name != null && name.getString().equals("Carrot Of Unknown Origin"),
+                entryPoint + " did not match the UNKNOWN source rule");
+        check(originMetadata(managed).getString("source_type").equals("UNKNOWN"),
+                entryPoint + " did not record the UNKNOWN source");
     }
 
     private static void check(boolean condition, String message) {

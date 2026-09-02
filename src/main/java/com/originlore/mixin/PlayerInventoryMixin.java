@@ -19,14 +19,15 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public abstract class PlayerInventoryMixin {
     @Shadow @Final public PlayerEntity player;
 
-    @Inject(
-            method = {
-                    "insertStack(Lnet/minecraft/item/ItemStack;)Z",
-                    "insertStack(ILnet/minecraft/item/ItemStack;)Z"
-            },
-            at = @At("HEAD")
-    )
+    // One handler cannot cover both overloads: the (int, ItemStack) target needs a matching
+    // parameter list, and a mismatch there is silent once the other overload satisfies require.
+    @Inject(method = "insertStack(Lnet/minecraft/item/ItemStack;)Z", at = @At("HEAD"))
     private void originlore$applyBeforeInsert(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
+        applyIfServerPlayer(stack);
+    }
+
+    @Inject(method = "insertStack(ILnet/minecraft/item/ItemStack;)Z", at = @At("HEAD"))
+    private void originlore$applyBeforeInsertIntoSlot(int slot, ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
         applyIfServerPlayer(stack);
     }
 

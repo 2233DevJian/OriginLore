@@ -1,7 +1,36 @@
-# OriginLore 2.0.0 兼容性测试报告
+# OriginLore 兼容性测试报告
 
 测试日期：2026-09-02  
 目标版本：Minecraft 1.21.1、Fabric Loader 0.19.2、Java 21
+
+本报告以 2.0.0 的整合包实机测试为基线，2.0.1 的增量验证见下一节。除下一节明确列出的项目外，其余整合包实机结果均取得于 2.0.0，未在 2.0.1 上重跑。
+
+## v2.0.1 增量验证
+
+2.0.1 修复了两个缺陷：`PlayerInventoryMixin` 从未注册到 `originlore.mixins.json`；以及该 Mixin 用单个回调同时声明两个 `insertStack` 重载，导致两参数重载的注入静默失败。
+
+### 已重跑
+
+- `.\gradlew.bat build runGametest --console=plain`（Loader 0.19.2）：JUnit 18 项、GameTest 12 项全部通过，日志中无任何 Mixin 注入错误或警告。
+- `.\gradlew.bat test runGametest '-Ploader_version=0.19.3' --console=plain`：日志确认实际加载 `Fabric Loader 0.19.3`，同样 18 + 12 全部通过。
+- 新增 GameTest `playerInventoryInsertionAppliesUnknownFallback`，分别覆盖 `insertStack(ItemStack)`、`insertStack(int, ItemStack)` 与 `setStack(int, ItemStack)`，并同时断言基础规则（Lore）与 `UNKNOWN` 来源规则（`customName`）生效。拆分回调**之前**，该测试精确报出 `insertStack(int, ItemStack) did not apply the base Lore`，而服务端日志中没有任何 Mixin 错误——即静默半覆盖；拆分之后通过。
+- 生产 JAR 核验：`originlore.mixins.json` 注册 16 个真实 Mixin（含 `PlayerInventoryMixin`），`originlore.refmap.json` 存在且该 Mixin 的三个目标均已映射。
+
+### 生产形态静态核验
+
+- 用 `javap` 对生产形态的 intermediary jar（`minecraft-common-intermediary-1.21.1`）核验 `net.minecraft.class_1661` 上 `method_7394(Lnet/minecraft/class_1799;)Z`、`method_7367(ILnet/minecraft/class_1799;)Z`、`method_5447(ILnet/minecraft/class_1799;)V` 真实存在且描述符与 refmap 完全一致。这补上了 GameTest 开发环境（named 映射）覆盖不到的生产解析路径。
+- 静态扫描隔离整合包 138 个模组 JAR 的 refmap，只有两个模组触及 `class_1661` 的这两个方法，且均为打在**调用点**上的 `@Redirect`：
+  - `fabric-carpet-1.21-1.4.147+v240613`：`Inventory_scarpetEventMixin` 在 `insertStack(ItemStack)` 内部重定向对 `insertStack(int, ItemStack)` 的调用。
+  - `collective-1.21.1-8.25`：`ItemEntityMixin` 在 `ItemEntity.playerTouch` 内部重定向对 `insertStack(ItemStack)` 的调用。
+
+  两者的调用点与宿主方法各不相同，不构成 redirector 冲突；OriginLore 的 `@Inject` 位于方法 HEAD，与 `@Redirect` 可共存。
+- carpet 的这条重定向同时证明 `insertStack(ItemStack)` 委托给 `insertStack(int, ItemStack)`，因此单次调用会触发两次组件应用。`ItemComponentManager.applyComponents` 在元数据版本、配置 revision 与来源均未变化时提前返回 `unchanged`，重复应用幂等且不会重掷随机变体。
+
+### 未重跑
+
+- 下文"Fabric Loader 0.19.2 整合包服务端"的 239 模组实机启动仍为 2.0.0 结果。
+- 下文"Fabric Loader 0.19.2 整合包客户端"的 271 模组实机启动仍为 2.0.0 结果。
+- 上述静态扫描属于 JAR 层面分析，不等价于实机 Mixin 应用结果；`PlayerInventory` 是热门注入目标，2.0.1 尚未在真实整合包服务端实机运行过。
 
 ## 隔离与数据保护
 
@@ -11,6 +40,8 @@
 - 第三方模组取自专用 0.19.2 测试实例及其 AutoModpack 模组集合。
 - 未修改原始 AutoModpack 内容、第三方模组 JAR 或原始存档。
 - 测试世界为隔离生成的 `build/compat-server-0192/compat-world`，不属于原始实例。
+
+> 上述两个隔离目录已于 2026-09-02 被 `gradlew clean build` 删除（位于 `build/` 内，属于清理范围）。下文所有整合包实机结果均取自删除前的 2.0.0 运行；若需重跑，须先从原始 AutoModpack 实例重建隔离目录。
 
 ## 自动化测试
 
@@ -58,7 +89,9 @@ Done (4.416s)!
 - OriginLore 2.0.0 初始化成功，配置 revision 1 加载成功。
 - 服务端到达可接收玩家连接的完成状态，并可正常停止。
 - 没有 OriginLore Mixin 应用失败、refmap 缺失、注册表错误或客户端类误加载。
-- 生产 JAR 包含 `originlore.refmap.json`，配置中注册的 17 个生产 Mixin 均有对应类。
+- 生产 JAR 包含 `originlore.refmap.json`。
+
+  **计数更正**：本条原先写作"配置中注册的 17 个生产 Mixin 均有对应类"，该数字有误。2.0.0 的 `originlore.mixins.json` 实际注册 15 项；`RecipeMixin.class` 虽编译进 JAR，但它本身没有 `@Mixin`，只是四个嵌套 Mixin 的容器，本就不应注册。同时 `PlayerInventoryMixin.class` 也已编译进 JAR 却未出现在注册列表中——这正是 2.0.1 修复的缺陷。2.0.1 起注册数为 16。
 
 ### 来源与随机变体
 
@@ -121,8 +154,8 @@ AutoModpack mod for fabric modloader is required to play on this server!
 
 ## 产物
 
-- 生产 JAR：`build/libs/originlore-2.0.0.jar`
-- 源码 JAR：`build/libs/originlore-2.0.0-sources.jar`
+- 生产 JAR：`build/libs/originlore-2.0.1.jar`
+- 源码 JAR：`build/libs/originlore-2.0.1-sources.jar`
 - JUnit 报告：`build/reports/tests/test/index.html`
 - GameTest 结果：`build/gametest-results.xml`
-- 0.19.2 服务端日志：`build/compat-server-0192/logs/latest.log`
+- 0.19.2 服务端日志：`build/compat-server-0192/logs/latest.log` —— **已不存在**。2026-09-02 执行 `gradlew clean build` 时连带删除了 `build/compat-server-0192` 与 `build/compat-client-0192`，因此上文 2.0.0 的整合包实机日志已无法复查，只能依据本报告的记录。原始整合包（`.minecraft` 下的 AutoModpack 实例）未受影响，隔离环境可据此重建。

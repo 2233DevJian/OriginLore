@@ -11,7 +11,7 @@ OriginLore 是面向 Minecraft 1.21.1 的 Fabric 物品来源与数据组件管�
 - 普通玩家不需要安装 OriginLore 客户端，也能看到并使用服务端生成的数据组件。
 - 运行环境固定为 Minecraft 1.21.1 和 Java 21。
 
-将 `build/libs/originlore-2.0.0.jar` 放入实例的 `mods` 目录。首次启动会创建：
+将 `build/libs/originlore-2.0.1.jar` 放入实例的 `mods` 目录。首次启动会创建：
 
 ```text
 config/originlore/item_components.json
