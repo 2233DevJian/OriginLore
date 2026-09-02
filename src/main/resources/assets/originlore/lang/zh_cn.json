@@ -1,0 +1,19 @@
+{
+  "key.originlore.open_gui": "打开物品组件配置界面",
+  "category.originlore": "OriginLore",
+  "originlore.source.selected": "来源：%s",
+  "originlore.source.block_drop": "方块掉落",
+  "originlore.source.chest_loot": "箱子战利品",
+  "originlore.source.entity_drop": "实体掉落",
+  "originlore.source.fishing": "钓鱼",
+  "originlore.source.archaeology": "考古",
+  "originlore.source.barter": "猪灵以物易物",
+  "originlore.source.gift": "赠礼",
+  "originlore.source.vault": "宝库",
+  "originlore.source.command": "命令生成",
+  "originlore.source.crafting": "工作台合成",
+  "originlore.source.smelting": "熔炼",
+  "originlore.source.cutting": "切石",
+  "originlore.source.smithing": "锻造",
+  "originlore.source.unknown": "未知来源"
+}

@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 3,
+  "revision": 0,
+  "items": {
+    "minecraft:sweet_berries": {
+      "base": {
+        "loreJson": [
+          {
+            "text": "酸甜可口的浆果，吃起来不错！",
+            "color": "green",
+            "italic": false
+          }
+        ]
+      },
+      "sources": [
+        {
+          "type": "CHEST_LOOT",
+          "rule": {},
+          "variants": [
+            {
+              "id": "fresh",
+              "weight": 6.0,
+              "rule": {}
+            },
+            {
+              "id": "stored",
+              "weight": 3.0,
+              "rule": {
+                "loreJson": [
+                  {
+                    "text": "存放很久的浆果，吃着有股怪味...",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "food": {
+                  "nutrition": 1,
+                  "saturation": 0.1,
+                  "eatSeconds": 1.6
+                }
+              }
+            },
+            {
+              "id": "rotten",
+              "weight": 1.0,
+              "rule": {
+                "loreJson": [
+                  {
+                    "text": "腐烂的浆果，好恶心...",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                "food": {
+                  "nutrition": 1,
+                  "saturation": 0.0,
+                  "effects": [
+                    {
+                      "id": "minecraft:nausea",
+                      "duration": 160,
+                      "amplifier": 0,
+                      "probability": 1.0
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "duration": 200,
+                      "amplifier": 1,
+                      "probability": 0.75
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "minecraft:iron_sword": {
+      "base": {
+        "lore": [
+          "一把普通的铁剑。"
+        ]
+      },
+      "sources": [
+        {
+          "type": "CRAFTING",
+          "recipeId": "minecraft:iron_sword",
+          "rule": {
+            "lore": [
+              "由玩家亲手锻造的铁剑。"
+            ]
+          },
+          "variants": []
+        },
+        {
+          "type": "CHEST_LOOT",
+          "lootTableId": "minecraft:chests/village/village_weaponsmith",
+          "rule": {},
+          "variants": [
+            {
+              "id": "maintained",
+              "weight": 3.0,
+              "rule": {
+                "customNameJson": {
+                  "text": "铁匠保养的铁剑",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "lore": [
+                  "刃口平直，保养得当。"
+                ],
+                "rarityName": "uncommon"
+              }
+            },
+            {
+              "id": "rusted",
+              "weight": 1.0,
+              "rule": {
+                "loreJson": [
+                  {
+                    "text": "剑身锈蚀，已经有些年头。",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ],
+                "currentDamage": 180
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "minecraft:paper": {
+      "base": {
+        "customName": "带有组件的纸张",
+        "customModelData": 7,
+        "setComponents": {
+          "minecraft:enchantment_glint_override": true
+        }
+      },
+      "sources": []
+    }
+  }
+}

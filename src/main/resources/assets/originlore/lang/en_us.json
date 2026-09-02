@@ -1,0 +1,19 @@
+{
+  "key.originlore.open_gui": "Open Item Component Config GUI",
+  "category.originlore": "OriginLore",
+  "originlore.source.selected": "Source: %s",
+  "originlore.source.block_drop": "Block drop",
+  "originlore.source.chest_loot": "Chest loot",
+  "originlore.source.entity_drop": "Entity drop",
+  "originlore.source.fishing": "Fishing",
+  "originlore.source.archaeology": "Archaeology",
+  "originlore.source.barter": "Piglin barter",
+  "originlore.source.gift": "Gift",
+  "originlore.source.vault": "Vault",
+  "originlore.source.command": "Command",
+  "originlore.source.crafting": "Crafting",
+  "originlore.source.smelting": "Smelting",
+  "originlore.source.cutting": "Stonecutting",
+  "originlore.source.smithing": "Smithing",
+  "originlore.source.unknown": "Unknown source"
+}

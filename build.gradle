@@ -1,0 +1,78 @@
+plugins {
+    id 'fabric-loom' version '1.14-SNAPSHOT'
+    id 'maven-publish'
+}
+version = project.mod_version
+group = project.maven_group
+base {
+    archivesName = project.archives_base_name
+}
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    
+    // Gson for JSON serialization
+    implementation "com.google.code.gson:gson:2.10.1"
+
+    testImplementation "org.junit.jupiter:junit-jupiter:5.11.4"
+    testRuntimeOnly "org.junit.platform:junit-platform-launcher"
+}
+sourceSets {
+    gametest {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+loom {
+    splitEnvironmentSourceSets()
+
+    mods {
+        "originlore" {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+        "originlore-gametest" {
+            sourceSet sourceSets.gametest
+        }
+    }
+
+    runs {
+        gametest {
+            server()
+            name "OriginLore GameTest"
+            source sourceSets.gametest
+            runDir "build/gametest"
+            vmArg "-Dfabric-api.gametest"
+            vmArg "-Dfabric-api.gametest.report-file=${project.layout.buildDirectory.file('gametest-results.xml').get()}"
+        }
+    }
+
+    // 启用 mixin refmap 生成（使用 legacy mixin AP，确保生产环境方法名映射正确）
+    mixin {
+        defaultRefmapName = "originlore.refmap.json"
+        useLegacyMixinAp = true
+    }
+}
+repositories {
+    // Loom会自动添加所需的仓库
+}
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 21
+}
+processResources {
+    inputs.property "version", project.version
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+tasks.withType(Test).configureEach {
+    useJUnitPlatform()
+}
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+    withSourcesJar()
+}

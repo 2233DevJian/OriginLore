@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 3,
+  "revision": 0,
+  "items": {
+    "farmersdelight:beef_stew": {
+      "base": {
+        "lore": [
+          "一碗热气腾腾的炖牛肉。"
+        ]
+      },
+      "sources": [
+        {
+          "type": "CHEST_LOOT",
+          "rule": {},
+          "variants": [
+            {
+              "id": "sealed",
+              "weight": 4.0,
+              "rule": {
+                "lore": [
+                  "密封保存，味道尚可。"
+                ]
+              }
+            },
+            {
+              "id": "spoiled",
+              "weight": 1.0,
+              "rule": {
+                "loreJson": [
+                  {
+                    "text": "已经变质，闻起来很可疑。",
+                    "color": "red",
+                    "italic": true
+                  }
+                ],
+                "food": {
+                  "nutrition": 2,
+                  "saturation": 0.1,
+                  "effects": [
+                    {
+                      "id": "minecraft:nausea",
+                      "duration": 200,
+                      "amplifier": 0,
+                      "probability": 1.0
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "farmersdelight:iron_knife": {
+      "base": {},
+      "sources": [
+        {
+          "type": "CRAFTING",
+          "recipeId": "farmersdelight:iron_knife",
+          "rule": {
+            "lore": [
+              "玩家制作的实用厨刀。"
+            ]
+          },
+          "variants": []
+        },
+        {
+          "type": "CHEST_LOOT",
+          "rule": {
+            "lore": [
+              "从旧厨房中找到的厨刀。"
+            ],
+            "currentDamage": 80
+          },
+          "variants": []
+        }
+      ]
+    },
+    "minecraft:iron_sword": {
+      "base": {},
+      "sources": [
+        {
+          "type": "CHEST_LOOT",
+          "rule": {},
+          "variants": [
+            {
+              "id": "structure_prize",
+              "weight": 3.0,
+              "rule": {
+                "lore": [
+                  "结构战利品中的完好铁剑。"
+                ]
+              }
+            },
+            {
+              "id": "structure_worn",
+              "weight": 1.0,
+              "rule": {
+                "lore": [
+                  "在遗迹中存放已久。"
+                ],
+                "currentDamage": 150
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

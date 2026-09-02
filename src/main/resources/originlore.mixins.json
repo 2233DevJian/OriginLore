@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "package": "com.originlore.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LootTableMixin",
+    "CraftingScreenHandlerMixin",
+    "RecipeMixin$AbstractCookingRecipeMixin",
+    "RecipeMixin$CuttingRecipeMixin",
+    "RecipeMixin$SmithingTransformRecipeMixin",
+    "RecipeMixin$SmithingTrimRecipeMixin",
+    "StonecutterScreenHandlerMixin",
+    "SmithingScreenHandlerMixin",
+    "FurnaceMixin",
+    "ItemStackMixin",
+    "ItemStackArgumentMixin",
+    "ItemStackAccessor",
+    "AnvilScreenHandlerMixin",
+    "BlockEntityMixin",
+    "SimpleInventoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,50 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+
+# dev-run artifacts (generated when the dev client is launched with the project root as cwd)
+# anchored to the repo root so same-named dirs under src/ stay tracked
+
+/logs/
+/.mixin.out/
+/tmp-decompile/
+/config/
+/patchouli_data.json
+/patchouli_books/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
