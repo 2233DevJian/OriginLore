@@ -3,9 +3,13 @@
   "id": "originlore",
   "version": "${version}",
   "name": "Origin Lore",
-  "description": "自定义物品堆叠组件信息，让物品从世界生成时就自带自定义属性",
+  "description": "服务端权威的物品来源与数据组件管理：按来源和变体为物品写入名称、Lore 与属性，原版客户端无需安装 / Server-authoritative item source and data component manager: writes names, lore and attributes per source and variant, with no client mod required.",
   "authors": ["2233DevJian"],
-  "contact": {},
+  "contact": {
+    "homepage": "https://github.com/2233DevJian/OriginLore",
+    "repo": "https://github.com/2233DevJian/OriginLore",
+    "issues": "https://github.com/2233DevJian/OriginLore/issues"
+  },
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
