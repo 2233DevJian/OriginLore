@@ -1,42 +1,67 @@
+**English** | [简体中文](README.zh-CN.md)
+
 # OriginLore
 
-OriginLore 是面向 Minecraft 1.21.1 的 Fabric 物品来源与数据组件管理模组。配置、来源判定、随机变体和物品刷新均由服务端决定；客户端模组只为管理员提供 GUI 和注册表 Tab 补全。
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-6f58a2)
+![Fabric Loader](https://img.shields.io/badge/Fabric_Loader-%E2%89%A50.19.2-dbd0b4)
+![Java](https://img.shields.io/badge/Java-21-ed8b00)
+![Install](https://img.shields.io/badge/Install-server--side-3d8c40)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Build](https://github.com/2233DevJian/OriginLore/actions/workflows/build.yml/badge.svg)
 
-第一次使用 GUI 请先阅读 [中文使用手册](使用手册.md)，其中包含基础 Lore、来源规则、随机变体、食物效果和铁剑差异化的完整操作示例。
+OriginLore decides what an item *is* based on where it *came from*. Chest loot, block drops, entity drops, fishing, archaeology, piglin bartering, trial vaults, crafting, smelting, stonecutting, smithing, the anvil and `/give` are each recognised as a distinct source, and every source can carry its own name, lore, rarity, food effects, enchantments, attribute modifiers and tool rules — including weighted random variants rolled the first time an item is created.
 
-## 安装
+All rule resolution, variant rolls and item refreshing happen on the logical server and are written into **vanilla data components**. Players install nothing: a vanilla client reads and uses the result exactly as if a datapack or a command had written it. The optional client module exists only to give operators an in-game admin GUI and registry-aware tab completion.
 
-- 服务端必须安装 OriginLore、Fabric API 和 Fabric Loader 0.19.2 或更高版本。
-- 需要使用管理 GUI 的 OP 客户端安装同一个 OriginLore JAR 和 Fabric API。
-- 普通玩家不需要安装 OriginLore 客户端，也能看到并使用服务端生成的数据组件。
-- 运行环境固定为 Minecraft 1.21.1 和 Java 21。
+## Highlights
 
-从项目的 Releases 页面下载 `originlore-2.0.1.jar`，放入实例的 `mods` 目录；自行构建时产物同样位于 `build/libs`。首次启动会创建：
+- **Three-tier rule model** — base rule → most specific matching source rule → the variant rolled on first creation. Unfilled fields inherit; they never blank out a value the item already had.
+- **14 recognised sources** with optional loot table / recipe ID matching, plus a safe `UNKNOWN` bucket for legacy items and mod-added creation paths. OriginLore never guesses a source.
+- **Stable random variants** — rolled once, then persisted. Restarts, chunk reloads, splitting, stacking and reconnection never re-roll, and different variants never stack together.
+- **Reversible** — delete a field from the config and the item gets back the exact component patch it had before OriginLore first touched it, instead of being left with an empty value.
+- **Live refresh** — saving the config updates online inventories, ender chests, equipment, open containers, loaded block inventories and item entities incrementally. Unloaded chunks and offline saves are never scanned.
+- **Server-authoritative GUI** — the config is only ever sent to operators at permission level 2 or above, and every edit is re-validated server-side before an atomic write. Transactional copies, version-conflict detection and disconnect protection are built in.
+- **Advanced component editor** — arbitrary `ComponentType` JSON, validated against the live registry and that component's own persistence codec plus the full `ItemStack` component validator. Invalid components are rejected, never written.
+- **Non-invasive** — never modifies another mod's JAR, config or resources. Third-party data under `minecraft:custom_data` is preserved; OriginLore keeps its own bookkeeping separately under `minecraft:custom_data.originlore`.
+
+## Installation
+
+| Where | What to install |
+| --- | --- |
+| Server / modpack server | OriginLore + Fabric API + Fabric Loader 0.19.2 or newer |
+| OP client that needs the admin GUI | the same OriginLore JAR + Fabric API |
+| Regular player clients | nothing |
+
+Target environment is fixed at Minecraft 1.21.1 and Java 21.
+
+Download `originlore-2.0.1.jar` from the [Releases page](https://github.com/2233DevJian/OriginLore/releases) and drop it into the instance's `mods` folder; building from source produces the same artifact in `build/libs`. Deploy that JAR only — never the `-dev` or `-sources` variants. On first launch the mod creates:
 
 ```text
 config/originlore/item_components.json
 ```
 
-## 管理 GUI
+## Quick start
 
-进入世界或服务器后按 `O` 打开管理界面。服务端只向权限等级至少为 2 的玩家发送配置；无权限、服务端未安装模组、协议不兼容或已经断线时，编辑功能会被禁用。
+Join a world or server and press `O` to open the admin GUI (rebindable under Options → Controls). The server only sends the config to players at permission level 2+; without permission, without the mod on the server, with an incompatible protocol or while disconnected, editing is disabled rather than silently failing.
 
-GUI 支持：
+> **GUI language:** the admin interface is currently Chinese-only. Source type names are the exception — they come from the game's language file, so they appear in English under `en_us`. The [English user guide](docs/en/USER_GUIDE.md) quotes every on-screen label as the Chinese string with an English gloss, so you can match what you see.
 
-- 基础、来源、变体三层规则编辑。
-- 物品、战利品表、配方、组件、附魔、属性、状态效果和方块 ID 补全。
-- Tab、方向键、Enter、Escape 和鼠标操作补全列表。
-- 名称和 Lore 的颜色、粗体、斜体，以及完整 Text JSON。
-- 食物、附魔、属性修饰符、工具规则和高级数据组件编辑。
-- 事务副本、服务端校验错误和配置版本冲突保护。
+The GUI covers:
 
-保存操作始终发往逻辑服务端，包括单人世界中的集成服务端。服务端校验并原子写盘成功后才会广播新版本并刷新物品。
+- Base / source / variant rule editing in one tree.
+- Tab completion for items, loot tables, recipes, components, enchantments, attributes, status effects and block IDs, driven by a server-supplied registry catalog.
+- `Tab`, arrow keys, `Enter`, `Escape` and mouse control of the completion popup.
+- Colour, bold and italic for names and lore, plus full vanilla Text JSON.
+- Food, enchantment, attribute modifier, tool rule and advanced data component editors.
+- Transactional copies, server-side validation errors and config version conflict protection.
 
-`/originlore reload` 可由权限等级至少为 2 的命令源执行，用于强制从磁盘重新加载。损坏或无效的文件不会替换上一份有效配置。
+Saving always goes to the logical server, including the integrated server of a single-player world. The server validates and atomically writes the file before broadcasting the new revision and refreshing items.
 
-## 规则模型
+`/originlore reload` can be run by any command source at permission level 2+ to force a reload from disk. A corrupt or invalid file never replaces the last known-good config.
 
-配置文件使用 schema v3：
+## Rule model
+
+The config file uses schema v3:
 
 ```json
 {
@@ -45,7 +70,7 @@ GUI 支持：
   "items": {
     "minecraft:sweet_berries": {
       "base": {
-        "lore": ["酸甜可口的浆果，吃起来不错！"]
+        "lore": ["Sweet and tangy berries. Not bad!"]
       },
       "sources": [
         {
@@ -54,7 +79,7 @@ GUI 支持：
           "rule": {},
           "variants": [
             {"id": "fresh", "weight": 6, "rule": {}},
-            {"id": "stored", "weight": 3, "rule": {"lore": ["存放很久的浆果。"]}}
+            {"id": "stored", "weight": 3, "rule": {"lore": ["Berries that have been stored for a long time."]}}
           ]
         }
       ]
@@ -63,15 +88,15 @@ GUI 支持：
 }
 ```
 
-对每个物品，OriginLore 先选择最具体的一个来源规则，再按以下顺序合并：
+For each item, OriginLore picks the single most specific source rule, then merges in this order:
 
 ```text
-基础规则 -> 来源规则 -> 首次抽取的变体规则
+base rule -> source rule -> variant rule rolled on first creation
 ```
 
-未填写的字段保持物品原值。字段从配置中删除后，OriginLore 会恢复首次接管前记录的原始组件补丁。特定战利品表或配方 ID 无法取得时，只匹配没有具体 ID 限制的来源大类规则。
+Fields you leave out keep the item's own value. When a field is removed from the config, OriginLore restores the original component patch it recorded before first taking over that field. If a specific loot table or recipe ID cannot be obtained at runtime, only source rules without an ID constraint are eligible — the item is never reassigned to a different source.
 
-支持的来源类型：
+Supported source types:
 
 ```text
 BLOCK_DROP  CHEST_LOOT  ENTITY_DROP  FISHING  ARCHAEOLOGY
@@ -79,71 +104,84 @@ BARTER      GIFT        VAULT        COMMAND  CRAFTING
 SMELTING    CUTTING     SMITHING     UNKNOWN
 ```
 
-无法可靠追溯来源的旧物品或模组自定义入口归入 `UNKNOWN`，不会猜测成箱子或合成来源。
+Legacy items and mod-added creation paths whose origin cannot be traced reliably land in `UNKNOWN`. You can configure `UNKNOWN` like any other source to adopt them in bulk.
 
-## 常用字段
+## Field reference
 
-| 字段 | 含义 |
+| Field | Meaning |
 | --- | --- |
-| `customName` / `customNameJson` | 纯文本名称或原版 Text JSON |
-| `lore` / `loreJson` | 纯文本 Lore 行或 Text JSON 行 |
-| `rarityName` | `common`、`uncommon`、`rare`、`epic` |
-| `maxStackSize` / `maxStackSizeRange` | 固定或首次生成时随机的最大堆叠数 |
-| `maxDamage` / `maxDamageRange` | 固定或首次生成时随机的最大耐久 |
-| `currentDamage` | 当前耐久损耗 |
-| `fireResistant` | 是否拥有防火组件 |
-| `enchantments` / `storedEnchantments` | 附魔 ID 到等级的映射 |
-| `food` | 营养、饱和度、食用时间、随时食用和概率效果 |
-| `attributes` | 属性、修饰符 ID、数值、运算和槽位 |
-| `attackDamageRange` | 首次生成时抽取并持久保存的额外主手攻击伤害 |
-| `tool` | 方块集合、挖掘速度、正确掉落和每方块耐久损耗 |
-| `customModelData` | 自定义模型数据 |
-| `hideTooltip` / `hideAdditionalTooltip` | Tooltip 隐藏组件 |
-| `setComponents` / `removeComponents` | 高级组件 JSON 设置或移除 |
+| `customName` / `customNameJson` | plain-text name, or vanilla Text JSON |
+| `lore` / `loreJson` | plain-text lore lines, or Text JSON lines |
+| `rarityName` | `common`, `uncommon`, `rare`, `epic` |
+| `maxStackSize` / `maxStackSizeRange` | fixed, or randomised once on first creation |
+| `maxDamage` / `maxDamageRange` | fixed, or randomised once on first creation |
+| `currentDamage` | current durability loss |
+| `fireResistant` | whether the fire-resistant component is present |
+| `enchantments` / `storedEnchantments` | enchantment ID → level map |
+| `food` | nutrition, saturation, eat time, always-edible and chance-based effects |
+| `attributes` | attribute, modifier ID, amount, operation and slot |
+| `attackDamageRange` | extra main-hand attack damage, rolled once and persisted |
+| `tool` | block set, mining speed, correct drops and per-block damage |
+| `customModelData` | custom model data |
+| `hideTooltip` / `hideAdditionalTooltip` | tooltip-hiding components |
+| `setComponents` / `removeComponents` | advanced component JSON, set or remove |
 
-高级组件值由对应 Minecraft `ComponentType` 的持久化 Codec 和完整 `ItemStack` 组件校验器验证。不存在、不可持久化或无法按当前注册表解析的组件会被拒绝，不会写入配置或物品。
+Advanced component values are validated by the persistence codec of the corresponding Minecraft `ComponentType` and by the full `ItemStack` component validator. Components that do not exist, are not persistable, or cannot be resolved against the current registry are rejected and never reach the config or the item.
 
-完整示例见 [config_example.json](config_example.json)；专用整合包中的模组物品示例见 [modpack_config_example.json](modpack_config_example.json)。
+See [config_example.json](config_example.json) for a full example, and [modpack_config_example.json](modpack_config_example.json) for modded items in a dedicated modpack.
 
-## 来源身份与热刷新
+## Source identity and hot refresh
 
-被接管的物品会在 `minecraft:custom_data.originlore` 中保存来源、具体 ID、变体 ID、配置 revision、随机值和受管理字段的原始组件补丁。
+Adopted items store their source, concrete ID, variant ID, config revision, rolled random values and the original component patch of every managed field under `minecraft:custom_data.originlore`.
 
-- 变体只在首次接管时按权重抽取，重启、复制、拆分和区块重载后保持不变。
-- 不同变体带有不同身份，因此不会错误堆叠；相同变体即使分别由熔炉和烟熏炉产出，只要实际组件一致也可堆叠。
-- 熔炉、烟熏炉和高炉每完成一件 OriginLore 物品后暂停，取走产物后才按最新权重开始下一件，避免单个产物槽混入不同变体。
-- 已有明确来源的物品经过 `UNKNOWN` 回退入口时仍保留原来源。
-- 配置保存后，在线玩家背包、末影箱、装备、打开的容器、已加载方块库存和物品实体会增量刷新。
-- 玩家登录、区块加载、实体加载和库存变更时会惰性刷新。
-- 模组不会扫描未加载区块，也不会直接改写离线存档。
+- Variants are rolled by weight only on first adoption and then survive restarts, duplication, splitting and chunk reloads unchanged.
+- Different variants carry different identities, so they cannot stack by mistake; identical variants stack normally even when one came from a furnace and the other from a smoker, as long as the resulting components match.
+- Furnaces, smokers and blast furnaces pause after finishing each OriginLore item and resume only once the output is taken, so the next item is rolled against the newest weights and a single output slot never mixes variants.
+- An item that already has a definite source keeps it when it passes through the `UNKNOWN` fallback; it is never downgraded.
+- After a config save, online player inventories, ender chests, equipment, open containers, loaded block inventories and item entities are refreshed incrementally.
+- Player login, chunk load, entity load and inventory change trigger lazy refresh.
+- Unloaded chunks are never scanned and offline saves are never rewritten directly.
 
-## 兼容性边界
+## Compatibility
 
-标准 `ItemStack`、LootTable、原版配方体系和持久数据组件可自动工作。模组在 Java 中写死、且没有用数据组件表达的行为需要单独适配。来源入口不可识别时物品仍可通过 `UNKNOWN` 规则接管。
+Standard `ItemStack` construction, loot tables, the vanilla recipe system and persistent data components work automatically. Behaviour that another mod hardcodes in Java without expressing it through data components needs dedicated integration. When a creation path is unrecognised, the item can still be adopted through an `UNKNOWN` rule.
 
-OriginLore 不修改第三方模组的 JAR、配置或资源。与其他模组的共存细节、自动识别的来源入口和已知限制见 [兼容性说明](COMPATIBILITY_TESTS.md)。
+OriginLore never modifies another mod's JAR, config or resources. For coexistence details, the automatically recognised creation paths and known limitations, see the [compatibility notes](docs/en/COMPATIBILITY.md).
 
-## 构建与测试
+## Documentation
+
+| Topic | English | 中文 |
+| --- | --- | --- |
+| Overview | this file | [README.zh-CN.md](README.zh-CN.md) |
+| User guide — full GUI walkthrough | [docs/en/USER_GUIDE.md](docs/en/USER_GUIDE.md) | [使用手册.md](使用手册.md) |
+| Compatibility, tests and limitations | [docs/en/COMPATIBILITY.md](docs/en/COMPATIBILITY.md) | [COMPATIBILITY_TESTS.md](COMPATIBILITY_TESTS.md) |
+| Changelog | [docs/en/CHANGELOG.md](docs/en/CHANGELOG.md) | [更新日志.md](更新日志.md) |
+
+Read the user guide before using the GUI for the first time. It walks through basic lore, source rules, random variants, food effects, differentiating iron swords by origin, and the advanced component editor.
+
+## Building from source
 
 ```powershell
 .\gradlew.bat test runGametest build --console=plain
 ```
 
-默认构建目标是 Loader 0.19.2。快速回归 0.19.3 可显式覆盖：
+The default target is Fabric Loader 0.19.2. For a quick regression run against 0.19.3, override it explicitly:
 
 ```powershell
 .\gradlew.bat test runGametest '-Ploader_version=0.19.3' --console=plain
 ```
 
-PowerShell 中带点号的 Gradle 属性参数应使用引号。生产 JAR 位于 `build/libs`，不应使用 `-dev` 或 `-sources` JAR 部署。
+Quote Gradle property arguments that contain dots when using PowerShell. The production JAR lands in `build/libs`.
 
-## 实现结构
+## Implementation layout
 
-- `ItemComponentConfig`: schema、迁移、事务快照、原子保存和 revision。
-- `ItemComponentManager`: 原始值恢复、规则合并、稳定随机值、Codec 校验和组件事务提交。
-- `SourceContext` 与来源 Mixin: Loot、命令、合成、熔炼、切石、锻造和通用回退。
-- `RefreshService`: 在线及已加载对象的有界增量刷新。
-- `OriginLoreNetworking`: OP 权限、压缩分片、大小限制、冲突检查和版本广播。
-- `ClientConfigSession` 与各 Screen: 只读快照缓存和事务式管理员 GUI。
+- `ItemComponentConfig` — schema, migration, transactional snapshots, atomic saves and revisions.
+- `ItemComponentManager` — original-value restoration, rule merging, stable random values, codec validation and component transaction commit.
+- `SourceContext` and the source mixins — loot, commands, crafting, smelting, stonecutting, smithing, player inventory and the generic fallback.
+- `RefreshService` — bounded incremental refresh of online and loaded objects.
+- `OriginLoreNetworking` — OP permission checks, compressed fragmentation, size limits, conflict detection and revision broadcast.
+- `ClientConfigSession` and the screens — read-only snapshot cache and the transactional admin GUI.
 
-许可证：MIT。
+## License
+
+MIT.

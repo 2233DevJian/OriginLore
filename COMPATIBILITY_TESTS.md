@@ -1,3 +1,5 @@
+[English version](docs/en/COMPATIBILITY.md) | [项目概览](README.zh-CN.md)
+
 # OriginLore 兼容性说明
 
 适用版本：OriginLore 2.0.1  
