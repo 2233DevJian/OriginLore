@@ -21,6 +21,7 @@ All rule resolution, variant rolls and item refreshing happen on the logical ser
 - **Reversible** — delete a field from the config and the item gets back the exact component patch it had before OriginLore first touched it, instead of being left with an empty value.
 - **Live refresh** — saving the config updates online inventories, ender chests, equipment, open containers, loaded block inventories and item entities incrementally. Unloaded chunks and offline saves are never scanned.
 - **Server-authoritative GUI** — the config is only ever sent to operators at permission level 2 or above, and every edit is re-validated server-side before an atomic write. Transactional copies, version-conflict detection and disconnect protection are built in.
+- **Held-item quick edit** — press `O` with an item in your main hand to jump straight to that item's rule editor. An item with no rule yet gets a new one with its ID prefilled and locked.
 - **Advanced component editor** — arbitrary `ComponentType` JSON, validated against the live registry and that component's own persistence codec plus the full `ItemStack` component validator. Invalid components are rejected, never written.
 - **Non-invasive** — never modifies another mod's JAR, config or resources. Third-party data under `minecraft:custom_data` is preserved; OriginLore keeps its own bookkeeping separately under `minecraft:custom_data.originlore`.
 
@@ -34,7 +35,7 @@ All rule resolution, variant rolls and item refreshing happen on the logical ser
 
 Target environment is fixed at Minecraft 1.21.1 and Java 21.
 
-Download `originlore-2.0.1.jar` from the [Releases page](https://github.com/2233DevJian/OriginLore/releases) and drop it into the instance's `mods` folder; building from source produces the same artifact in `build/libs`. Deploy that JAR only — never the `-dev` or `-sources` variants. On first launch the mod creates:
+Download `originlore-2.1.0.jar` from the [Releases page](https://github.com/2233DevJian/OriginLore/releases) and drop it into the instance's `mods` folder; building from source produces the same artifact in `build/libs`. Deploy that JAR only — never the `-dev` or `-sources` variants. On first launch the mod creates:
 
 ```text
 config/originlore/item_components.json
@@ -42,7 +43,7 @@ config/originlore/item_components.json
 
 ## Quick start
 
-Join a world or server and press `O` to open the admin GUI (rebindable under Options → Controls). The server only sends the config to players at permission level 2+; without permission, without the mod on the server, with an incompatible protocol or while disconnected, editing is disabled rather than silently failing.
+Join a world or server and press `O` to open the admin GUI (rebindable under Options → Controls). Holding an item in your main hand makes `O` jump straight to that item's rule editor instead — creating a new rule with the ID prefilled and locked if none exists yet — while an empty hand opens the item list. The server only sends the config to players at permission level 2+; without permission, without the mod on the server, with an incompatible protocol or while disconnected, editing is disabled rather than silently failing.
 
 > **GUI language:** the admin interface is currently Chinese-only. Source type names are the exception — they come from the game's language file, so they appear in English under `en_us`. The [English user guide](docs/en/USER_GUIDE.md) quotes every on-screen label as the Chinese string with an English gloss, so you can match what you see.
 

@@ -2,7 +2,7 @@
 
 # OriginLore 兼容性说明
 
-适用版本：OriginLore 2.0.1  
+适用版本：OriginLore 2.1.0  
 运行环境：Minecraft 1.21.1、Fabric Loader 0.19.2 或更高、Java 21
 
 ## 安装要求
@@ -72,4 +72,4 @@ Fabric Loader 0.19.2 与 0.19.3 下，两套测试均全部通过。
 
 PowerShell 中带点号的 Gradle 属性参数需要加引号。
 
-生产 JAR 输出到 `build/libs/originlore-2.0.1.jar`。部署时请使用这个 JAR，不要使用 `-dev` 或 `-sources` 版本。
+生产 JAR 输出到 `build/libs/originlore-2.1.0.jar`。部署时请使用这个 JAR，不要使用 `-dev` 或 `-sources` 版本。

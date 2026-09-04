@@ -1,5 +1,5 @@
 {
-  "key.originlore.open_gui": "打开物品组件配置界面",
+  "key.originlore.open_gui": "打开管理界面（手持物品时直接编辑该物品）",
   "category.originlore": "OriginLore",
   "originlore.source.selected": "来源：%s",
   "originlore.source.block_drop": "方块掉落",

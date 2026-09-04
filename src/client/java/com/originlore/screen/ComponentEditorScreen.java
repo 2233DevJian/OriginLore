@@ -32,6 +32,7 @@ public final class ComponentEditorScreen extends Screen {
     private static final String[] COLORS = {"", "white", "gray", "green", "aqua", "gold", "red", "light_purple"};
     private final Screen parent;
     private final String originalItemId;
+    private final boolean preexisting;
     private final ConfigSnapshot baseSnapshot;
     private final ItemEntry working;
     private int sourceIndex = -1;
@@ -73,13 +74,20 @@ public final class ComponentEditorScreen extends Screen {
     private final List<IdSuggestionController> suggestions = new ArrayList<>();
 
     public ComponentEditorScreen(Screen parent, String itemId) {
-        super(Text.literal(itemId == null ? "新增物品规则" : "编辑物品规则"));
+        super(Text.literal(isConfigured(itemId) ? "编辑物品规则" : "新增物品规则"));
         this.parent = parent;
         this.originalItemId = itemId;
         ConfigSnapshot current = ClientConfigSession.snapshot();
         this.baseSnapshot = current == null ? new ConfigSnapshot(0, Map.of()) : current;
         ItemEntry existing = itemId == null ? null : this.baseSnapshot.items().get(itemId);
+        this.preexisting = existing != null;
         this.working = existing == null ? new ItemEntry(itemId == null ? "" : itemId) : existing.copy();
+    }
+
+    private static boolean isConfigured(String itemId) {
+        if (itemId == null) return false;
+        ConfigSnapshot current = ClientConfigSession.snapshot();
+        return current != null && current.items().containsKey(itemId);
     }
 
     @Override
@@ -641,7 +649,7 @@ public final class ComponentEditorScreen extends Screen {
         working.itemId = itemId;
         items.put(itemId, working.copy());
         ConfigSnapshot transaction = new ConfigSnapshot(baseSnapshot.revision(), items);
-        if (ClientConfigSession.submit(transaction, originalItemId == null ? "CREATE" : "UPDATE")) {
+        if (ClientConfigSession.submit(transaction, preexisting ? "UPDATE" : "CREATE")) {
             pendingSave = true;
             responseGeneration = ClientConfigSession.generation();
             status = "正在保存...";

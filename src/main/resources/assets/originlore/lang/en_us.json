@@ -1,5 +1,5 @@
 {
-  "key.originlore.open_gui": "Open Item Component Config GUI",
+  "key.originlore.open_gui": "Open admin GUI (edits the held item directly)",
   "category.originlore": "OriginLore",
   "originlore.source.selected": "Source: %s",
   "originlore.source.block_drop": "Block drop",

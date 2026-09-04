@@ -2,7 +2,7 @@
 
 # OriginLore Compatibility Notes
 
-Applies to: OriginLore 2.0.1  
+Applies to: OriginLore 2.1.0  
 Environment: Minecraft 1.21.1, Fabric Loader 0.19.2 or newer, Java 21
 
 ## Installation requirements
@@ -72,4 +72,4 @@ The default target is Fabric Loader 0.19.2. For a quick regression run against 0
 
 Quote Gradle property arguments that contain dots when using PowerShell.
 
-The production JAR is written to `build/libs/originlore-2.0.1.jar`. Deploy that JAR — not the `-dev` or `-sources` variants.
+The production JAR is written to `build/libs/originlore-2.1.0.jar`. Deploy that JAR — not the `-dev` or `-sources` variants.

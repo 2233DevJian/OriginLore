@@ -22,10 +22,17 @@ public final class ItemListScreen extends Screen {
     private final List<String> filteredItems = new ArrayList<>();
     private int currentPage;
     private long seenGeneration = -1;
+    private String pendingAutoOpen;
 
     public ItemListScreen(Screen parent) {
+        this(parent, null);
+    }
+
+    /** {@code autoOpenItemId} jumps to that item's editor once the server snapshot arrives. */
+    public ItemListScreen(Screen parent, String autoOpenItemId) {
         super(Text.literal("OriginLore 管理"));
         this.parent = parent;
+        this.pendingAutoOpen = autoOpenItemId;
     }
 
     @Override
@@ -148,10 +155,19 @@ public final class ItemListScreen extends Screen {
     @Override
     public void tick() {
         super.tick();
+        if (tryAutoOpen()) return;
         if (seenGeneration != ClientConfigSession.generation()) {
             seenGeneration = ClientConfigSession.generation();
             refreshKeepingSearch();
         }
+    }
+
+    private boolean tryAutoOpen() {
+        if (pendingAutoOpen == null || !ClientConfigSession.canEdit()) return false;
+        String itemId = pendingAutoOpen;
+        pendingAutoOpen = null;
+        if (client != null) client.setScreen(new ComponentEditorScreen(null, itemId));
+        return true;
     }
 
     @Override

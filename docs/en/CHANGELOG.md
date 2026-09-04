@@ -2,6 +2,31 @@
 
 # OriginLore Changelog
 
+## v2.1.0 (2026-09-04)
+
+### Added
+
+- **Held-item quick edit.** Pressing `O` with an item in your main hand opens that item's rule editor directly, instead of making you search for it in the list. If the item has no rule yet, one is created with the item ID prefilled and locked, so it cannot be mistyped into a different item.
+- Quick edit returns straight to the game after closing, cancelling or saving — it never drops you back into the item list.
+- Pressing `O` before the server snapshot has finished syncing waits on the list screen and jumps to the target item's editor as soon as the snapshot is ready. This prevents the editor from capturing an empty snapshot, which would leave the save button permanently disabled.
+- An empty main hand behaves as before and opens the item list. Only the main hand is considered; the off-hand is ignored.
+
+### Changed
+
+- The editor title and the submitted operation type (`CREATE` / `UPDATE`) are now decided by **whether the rule actually exists**, not by whether an item ID was passed when the editor opened. Quick-editing an item that has no rule yet passes a non-empty item ID for a rule that does not exist; under the old logic that showed `编辑物品规则` (Edit item rule) and submitted `UPDATE`. It now correctly shows `新增物品规则` (New item rule) and submits `CREATE`. The server only uses this string for value validation and for the broadcast message — the write is always a full snapshot replacement — so the change has no effect on data safety.
+- The keybind description is now “打开管理界面（手持物品时直接编辑该物品）” / "Open admin GUI (edits the held item directly)". Neither the keybind ID `key.originlore.open_gui` nor the default binding `O` changed, so existing custom bindings are not reset.
+
+### Documentation
+
+- Both user guides gained a “main hand → what `O` does” table, and the Quick start section of both READMEs describes the same behaviour.
+
+### Tests
+
+- Every change is confined to the client source set and the language resources; server logic and the network protocol are untouched.
+- Under Fabric Loader 0.19.2, all 18 JUnit tests pass and all 12 GameTests passed across four consecutive runs.
+- All three held-item cases were verified in the development client: holding an already-configured item, holding an unconfigured item, and an empty hand.
+- Known issue: `identityApplicationFailureDoesNotMutateTarget` in `runGametest` fails intermittently with `invalid test config save failed`. It failed once during this development cycle, then passed four consecutive standalone runs. `compileJava` was UP-TO-DATE at the time, so the main source set was byte-identical, and the client source set is never loaded by the GameTest server — this is a pre-existing flake, unrelated to the current change. CI runs `./gradlew build` only and does not run GameTests.
+
 ## v2.0.1 (2026-09-02)
 
 ### Fixed

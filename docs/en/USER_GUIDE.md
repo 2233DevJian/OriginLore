@@ -2,7 +2,7 @@
 
 # OriginLore User Guide
 
-This guide covers OriginLore 2.0.1, Minecraft 1.21.1 and Fabric Loader 0.19.2.
+This guide covers OriginLore 2.1.0, Minecraft 1.21.1 and Fabric Loader 0.19.2.
 
 > **About the GUI language.** The admin interface is currently Chinese-only. Source type names are the exception — they come from the game's language file, so they follow your Minecraft language and appear in English under `en_us`. Every other button, tab, field and status message is a hardcoded Chinese string. Throughout this guide, GUI labels are quoted as `` `中文` `` followed by an English gloss, for example `` `保存` (Save) ``. Match the Chinese characters on screen, not the gloss.
 
@@ -18,11 +18,20 @@ Any client that needs to open the admin GUI installs the same OriginLore JAR. Re
 
 Only operators at permission level 2 or above can read or modify the config. After joining a world, press `O` to open the admin GUI; the keybind can be changed under Minecraft's Options → Controls.
 
+What `O` does depends on your main hand:
+
+| Main hand | Result of pressing `O` |
+| --- | --- |
+| Holding an item | Opens that item's rule editor directly. If it has no rule yet, a new one is created with the item ID prefilled and locked. |
+| Empty | Opens the admin GUI (item list). |
+
+Quick-edit returns straight to the game after closing, cancelling or saving — it never drops you back into the item list. The off-hand is not considered.
+
 ## 2. Your first lore line in five minutes
 
 This example makes every sweet berry, from any source, show one lore line by default.
 
-1. Join a single-player world or a server and press `O`.
+1. Join a single-player world or a server and press `O` with an empty hand to open the admin GUI. If you are already holding the sweet berries, `O` takes you straight to their editor and you can skip steps 3 and 4.
 2. Wait until the top-right shows the server's config revision instead of `正在同步...` (Syncing...) or `无管理员权限` (No admin permission).
 3. Click `+ 新增` (Add).
 4. Type `minecraft:sweet_berries` into `物品 ID` (Item ID). After a few characters you can press `Tab` to complete it.
