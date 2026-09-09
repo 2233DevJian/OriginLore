@@ -3,7 +3,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Hot-yellow powder feels warm, fuelling a brewing stand or making strength potions.",
+          "text": "Glowing golden-red dust ground from a blaze's core, crackling with raw heat to fuel brewing stands and potent elixirs.",
           "color": "gray",
           "italic": true
         }
@@ -14,7 +14,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A narrow column branches into three bottle rests, needing blaze powder to begin brewing.",
+          "text": "A heavy stone plinth braced around a glowing blaze rod, holding glass flasks above blistering heat to brew transformative draughts.",
           "color": "gray",
           "italic": true
         }
@@ -25,7 +25,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Purple breath rolls against the glass, material needed for a lingering potion.",
+          "text": "Swirling purple mist collected from an Ender Dragon's breath, pulsing with volatile planar magic for lingering potions.",
           "color": "gray",
           "italic": true
         }
@@ -36,7 +36,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Green lights float inside the bottle, releasing their experience when broken.",
+          "text": "A glass flask filled with dancing green starlight, shattering upon the stones to shower the thrower in pure experience.",
           "color": "gray",
           "italic": true
         }
@@ -47,7 +47,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A sharp smell rises from the fermented eye, enough to turn a potion's effect around.",
+          "text": "A spider's eye steeped in sugar and damp mushroom spores, its pungent dark brine capable of inverting gentle potions into sinister curses.",
           "color": "gray",
           "italic": true
         }
@@ -58,7 +58,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A milky drop has set into a firm bead, useful in a potion that restores health over time.",
+          "text": "A crystallized tear harvested from a weeping Ghast, cool as marble and pulsing with potent regenerative magic for master brewers.",
           "color": "gray",
           "italic": true
         }
@@ -69,7 +69,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin glass forms a little vessel, convenient for water or honey once clean.",
+          "text": "A clear blown-glass vial with a smooth lip, ready to draw river water, scoop sweet wild honey, or hold volatile magical brews.",
           "color": "gray",
           "italic": true
         }
@@ -80,7 +80,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Gold surrounds a red slice, unsuitable as a meal but useful in healing potions.",
+          "text": "A slice of red melon gilded in pure gold nuggets, transformed from common fruit into a vital catalyst for restorative alchemy.",
           "color": "gray",
           "italic": true
         }
@@ -91,7 +91,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Evenly bright golden grains strengthen certain potions in small amounts.",
+          "text": "Brilliant golden dust crushed from Nether crystals, tingling with light and serving to empower potion potencies on the brewing stand.",
           "color": "gray",
           "italic": true
         }
@@ -102,7 +102,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Fine dry grey-black powder gives a mixture the means to burst apart.",
+          "text": "Fine, dry grey-black sulfurous dust harvested from volatile horrors, crackling with dormant explosive fury at the slightest spark.",
           "color": "gray",
           "italic": true
         }
@@ -124,7 +124,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The sticky orange mass holds heat and brews into protection from fire.",
+          "text": "A warm, sticky lump harvested from magma cubes, holding dense elemental heat to brew miraculous elixirs of fire resistance.",
           "color": "gray",
           "italic": true
         }
@@ -135,7 +135,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Dark-red knobs gather on a short stem, the beginning of most potions.",
+          "text": "A gnarled red fungus that festers only within soul sand, thick and bulbous, serving as the essential foundation for nearly every potent brew.",
           "color": "gray",
           "italic": true
         }
@@ -146,7 +146,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The blue liquid looks sombre and brings an ill omen when drunk.",
+          "text": "A dark vial swirling with ill-omened mist. Swallowing its bitter draught draws down the wrath of raids and trial spawner challenges.",
           "color": "gray",
           "italic": true
         }
@@ -157,7 +157,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A light, tough membrane passes light through and serves for elytra repair or slow falling.",
+          "text": "A thin, leathery membrane harvested from night-stalking Phantoms, feather-light and vital for mending Elytra wings or brewing slow-falling elixirs.",
           "color": "gray",
           "italic": true
         }
@@ -168,7 +168,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Liquid shifts inside the narrow-necked bottle, its effect depending on what was brewed into it.",
+          "text": "A clear glass flask brimming with shimmering alchemical brew, releasing swirling magical vapors to empower the body when drained.",
           "color": "gray",
           "italic": true
         }
@@ -179,7 +179,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Fine spines cover the swollen body, edible in a narrow sense but seriously poisonous.",
+          "text": "A spiked, toxic globe-fish netted from tropical reefs, deadly to taste raw yet prized by master alchemists to brew water-breathing draughts.",
           "color": "gray",
           "italic": true
         }
@@ -510,7 +510,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Short fur covers fine bones, an ingredient that adds spring to a potion.",
+          "text": "A soft, dried hare's foot treasured as a charm of good fortune and prized by master brewers to distill elixirs of leaping prowess.",
           "color": "gray",
           "italic": true
         }
@@ -521,7 +521,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A tight seal closes the thin bottle, which scatters its contents when thrown.",
+          "text": "A curved alchemical flask charged with fine gunpowder, shattering upon impact to blast its transformative draught over all nearby allies and foes.",
           "color": "gray",
           "italic": true
         }

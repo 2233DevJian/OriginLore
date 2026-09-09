@@ -3,7 +3,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Tight layers cross the deep-brown fracture, resistant to fire but yielding scrap in a furnace.",
+          "text": "Ancient scrap forged beneath countless ages of Nether heat, yielding its indestructible essence only to the hottest furnaces.",
           "color": "gray",
           "italic": true
         }
@@ -14,7 +14,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround a fish on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "A weathered terracotta shard brushed clean of ash, depicting a fish etched by forgotten hands.",
           "color": "gray",
           "italic": true
         }
@@ -25,7 +25,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround a bent bow on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "An ancient shard bearing the figure of a drawn bow, preserving the hunting lore of a lost age.",
           "color": "gray",
           "italic": true
         }
@@ -36,7 +36,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Curved, tough plates overlap into protection for a wolf's body.",
+          "text": "A tough, curved horn plate shed by an armadillo, exceptionally light and durable for tailoring wolf armour.",
           "color": "gray",
           "italic": true
         }
@@ -47,7 +47,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround raised arms on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "A clay shard portraying raised arms, frozen in a ritual gesture of prayer or celebration.",
           "color": "gray",
           "italic": true
         }
@@ -58,7 +58,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Small brown seeds have rough coats and need farmland to grow into beetroot.",
+          "text": "Small, craggy brown seeds carrying the vitality to sprout into lush red-veined leaves and sweet roots.",
           "color": "gray",
           "italic": true
         }
@@ -69,7 +69,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround a straight sword on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "A clay shard etched with a keen blade, keeping silent memory of ancient skirmishes and fallen sentinels.",
           "color": "gray",
           "italic": true
         }
@@ -80,7 +80,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Heat remains in the yellow rod, useful whole in a brewing stand or ground into powder.",
+          "text": "A glowing rod taken from fallen Nether sentinels, vibrating with permanent, unquenchable elemental fire.",
           "color": "gray",
           "italic": true
         }
@@ -91,7 +91,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries rivets set along an edge, adding decoration to armour without changing its protection.",
+          "text": "A heavy smithing template recovered from trial chambers, embossing armour edges with rugged, industrial bolt motifs.",
           "color": "gray",
           "italic": true
         }
@@ -102,7 +102,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A hollow runs through the hard white bone, which grinds into plant-feeding meal.",
+          "text": "A sun-bleached, marrow-hollow bone scavenged from the wild, useful for befriending wolves or crushing into garden meal.",
           "color": "gray",
           "italic": true
         }
@@ -113,7 +113,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "White powder carries small fragments and encourages a suitable plant to grow.",
+          "text": "Fine white meal crushed from weathered bones, pulsing with nutrients that coax dormant seeds into immediate bloom.",
           "color": "gray",
           "italic": true
         }
@@ -124,7 +124,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Even pages are sewn into a leather cover, ready for writing or enchantment.",
+          "text": "Bound in supple leather and filled with clean parchment pages, ready to chronicle world histories or cradle arcane enchantments.",
           "color": "gray",
           "italic": true
         }
@@ -135,7 +135,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The grey-purple rod is unusually light, suitable for wind charges or a mace.",
+          "text": "A condensed core of wind taken from a defeated Breeze. Weightless in the palm, it hums with the trapped fury of a roaring gale.",
           "color": "gray",
           "italic": true
         }
@@ -146,7 +146,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround a potion bottle on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "A dusty clay shard depicting an ancient brewing flask, bearing silent witness to the forgotten art of primeval alchemists.",
           "color": "gray",
           "italic": true
         }
@@ -157,7 +157,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Neat edges line the little fired brick, useful in brickwork or a flowerpot.",
+          "text": "A dense block of kiln-fired red clay, true-cornered and fireproof, forged to withstand hearth blaze and winter frost alike.",
           "color": "gray",
           "italic": true
         }
@@ -168,7 +168,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround flames on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "A scorched clay shard bearing the image of dancing flames, left behind by forgotten folk who worshipped the sacred hearth.",
           "color": "gray",
           "italic": true
         }
@@ -179,7 +179,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Wood grain remains in the blackened lump, sound material for smelting or torches.",
+          "text": "Lump fuel born of timber smouldering in an airless earthen mound, retaining wood grain while burning hot and steady.",
           "color": "gray",
           "italic": true
         }
@@ -190,7 +190,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The damp clay lump has no sharp edges and fires into a small brick.",
+          "text": "A damp, cool ball of smooth clay, ready to be spun on a potter's wheel or baked in fire into a hard red brick.",
           "color": "gray",
           "italic": true
         }
@@ -201,7 +201,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries curves like a shoreline, adding decoration to armour without changing its protection.",
+          "text": "A salvage-worn template plucked from sunken galleons, embossing armour with the rolling, wave-crest lines of the open sea.",
           "color": "gray",
           "italic": true
         }
@@ -212,7 +212,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Brown beans carry a bitter scent, suitable for cookies or brown dye.",
+          "text": "Sun-dried beans harvested from jungle pods, carrying a warm, bitter scent prized for chocolate baking and rich dyes.",
           "color": "gray",
           "italic": true
         }
@@ -223,7 +223,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Fine red copper shines at the surface, suitable for a lightning rod or building stock.",
+          "text": "A refined ingot of warm red metal, malleable and conductive, indispensable for spyglasses, lightning rods, and alloys.",
           "color": "gray",
           "italic": true
         }
@@ -234,7 +234,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The paper pattern shows a creeper face, ready to guide the same image into a banner at a loom.",
+          "text": "A paper template detailing the hollow stare of a creeper, ready to transfer the iconic dread of the night onto silk banners.",
           "color": "gray",
           "italic": true
         }
@@ -245,7 +245,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround a warning figure on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "An ancient shard bearing a symbol of peril, left behind as a silent warning by those who walked these ruins before.",
           "color": "gray",
           "italic": true
         }
@@ -256,7 +256,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges break the thin black piece, requiring matching fragments to restore a disc.",
+          "text": "A jagged fragment of black vinyl, humming with static. Reassembling the pieces unveils an ominous audio chronicle.",
           "color": "gray",
           "italic": true
         }
@@ -267,7 +267,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries bands like sand dunes, adding decoration to armour without changing its protection.",
+          "text": "A sand-scoured template recovered from desert crypts, embossing armour edges with the rolling, wind-swept ripples of vast dunes.",
           "color": "gray",
           "italic": true
         }
@@ -278,7 +278,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Blue-green light sits inside the dark shard, guiding a compass toward the last place of death.",
+          "text": "A dark cyan crystal fragment pulsating with faint sonic memories, guiding a recovery compass back to the site of one's demise.",
           "color": "gray",
           "italic": true
         }
@@ -289,7 +289,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Writing glows between the pages, transferring a suitable enchantment at an anvil.",
+          "text": "A leather-bound grimoire glowing with dancing runes, ready to impart ancient magical enchantments onto steel and bowstring.",
           "color": "gray",
           "italic": true
         }
@@ -300,7 +300,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A pupil sits in the green sphere, which travels toward a stronghold when released.",
+          "text": "An attuned celestial eye forged of pearl and blaze dust, floating aloft to guide seekers toward buried stronghold portals.",
           "color": "gray",
           "italic": true
         }
@@ -311,7 +311,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Deep light sits beneath the dark-green surface, carrying its thrower to the landing point.",
+          "text": "A dark, shimmering orb harvested from fallen Endermen, folding space to teleport its thrower to wherever it lands.",
           "color": "gray",
           "italic": true
         }
@@ -322,7 +322,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround an exploring figure on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "A weathered clay shard depicting a lone traveler stride, left by ancient wanderers who first charted these wild lands.",
           "color": "gray",
           "italic": true
         }
@@ -333,7 +333,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries a central eye, adding decoration to armour without changing its protection.",
+          "text": "A mysterious template recovered from stronghold crypts, embossing armour with the watchful, unfaltering eye of the Void.",
           "color": "gray",
           "italic": true
         }
@@ -344,7 +344,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Even vanes line the light quill, useful for steady arrow flight or writing.",
+          "text": "A clean quill shed from a bird's wing, its supple vane balancing arrow flight or dipping into iron gall ink for scholarly treatises.",
           "color": "gray",
           "italic": true
         }
@@ -355,7 +355,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Sharp edges split the grey-black stone, useful for arrowheads or sparks against iron.",
+          "text": "Sharp, conchoidal stone struck from river gravel, keen-edged for arrowhead chipping or striking sparks against iron.",
           "color": "gray",
           "italic": true
         }
@@ -366,7 +366,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries turning currents, adding decoration to armour without changing its protection.",
+          "text": "A trial-chamber relic etched with swirling vortex lines, embossing armour with the swift, untamed current of the gale.",
           "color": "gray",
           "italic": true
         }
@@ -377,7 +377,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The paper pattern shows a turning swirl, ready to guide the same image into a banner at a loom.",
+          "text": "A loom template charting the turning spiral of the wind, weaving the restless majesty of storms into woolen standards.",
           "color": "gray",
           "italic": true
         }
@@ -388,7 +388,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround turning lines on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "A weathered clay shard depicting dynamic swirls of wind, bearing silent witness to primeval folk who worshipped the sky.",
           "color": "gray",
           "italic": true
         }
@@ -399,7 +399,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The paper pattern shows a flower, ready to guide the same image into a banner at a loom.",
+          "text": "A drafting pattern outlining open flower petals, guiding the loom to weave botanical emblems upon noble heraldry.",
           "color": "gray",
           "italic": true
         }
@@ -410,7 +410,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround a companion figure on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "An ancient shard depicting two companions side by side, preserving the warmth of primeval fellowship against centuries of dust.",
           "color": "gray",
           "italic": true
         }
@@ -421,7 +421,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The paper pattern shows a globe, ready to guide the same image into a banner at a loom.",
+          "text": "A drafting template detailing terrestrial longitude and latitude, weaving the sovereign mark of world-conquerors into grand banners.",
           "color": "gray",
           "italic": true
         }
@@ -432,7 +432,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Faint light floats in the ink, making sign lettering visible in the dark.",
+          "text": "A soft sac filled with luminescent cyan ink, making sign runes and item frame borders blaze with clear light in pitch darkness.",
           "color": "gray",
           "italic": true
         }
@@ -443,7 +443,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Warm yellow metal is cast into a bar for fittings, gilded food or bartering with piglins.",
+          "text": "A standard bar of refined yellow gold, malleable and lustrous, coveted alike by clockmakers, jewellers, and bartering piglin hordes.",
           "color": "gray",
           "italic": true
         }
@@ -454,7 +454,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The little gold piece shines distinctly, useful with a carrot or pressed into an ingot.",
+          "text": "A tiny droplet of pure native gold, sparkling in the hand and ready to be beaten into thin foil or gathered into a standard ingot.",
           "color": "gray",
           "italic": true
         }
@@ -465,7 +465,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The paper pattern shows a gust outline, ready to guide the same image into a banner at a loom.",
+          "text": "A loom template charting the howling eye of the gust, weaving the untamed fury of trial-chamber storms into proud standards.",
           "color": "gray",
           "italic": true
         }
@@ -476,7 +476,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround the outline of a gust on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "A weathered clay shard depicting the swirling contours of a gale, holding the memory of ancient wind-dancers against centuries of dust.",
           "color": "gray",
           "italic": true
         }
@@ -487,7 +487,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround a whole heart on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "An ancient shard bearing the tender shape of a heart, holding the warmth of forgotten devotion against the cold march of ages.",
           "color": "gray",
           "italic": true
         }
@@ -498,7 +498,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround a broken heart on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "A weathered clay shard depicting a fractured heart, keeping silent vigil over an ancient sorrow buried beneath the sands.",
           "color": "gray",
           "italic": true
         }
@@ -509,7 +509,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The dark iron core weighs heavily in the palm, weight put to use in a mace.",
+          "text": "A dense, ominous block of abyssal iron salvaged from ominous vaults, lending its terrifying, crushing gravity to the deadly mace.",
           "color": "gray",
           "italic": true
         }
@@ -520,7 +520,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Hexagonal wax cells smell faintly of honey, useful for hives, candles and sealing copper.",
+          "text": "A neat hexagonal cake of fragrant beeswax pulled from the hive, indispensable for tailoring wooden apiaries, candles, and sealing copper.",
           "color": "gray",
           "italic": true
         }
@@ -531,7 +531,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries joined ancient marks, adding decoration to armour without changing its protection.",
+          "text": "An ancient template recovered from trail ruins, embossing armour edges with the bold, interlocking geometric marks of primeval host-lords.",
           "color": "gray",
           "italic": true
         }
@@ -542,7 +542,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround an upturned wolf head on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "A weathered clay shard depicting a wolf baying at the moon, keeping the spirit of ancient hunts alive through centuries of silence.",
           "color": "gray",
           "italic": true
         }
@@ -553,7 +553,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin sac holds dense black ink for dyeing or preparing writing supplies.",
+          "text": "A supple sac holding dense cephalopod ink, prized by dyers for jet-black textiles and by scribes for indelible manuscript runes.",
           "color": "gray",
           "italic": true
         }
@@ -564,7 +564,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A tiny iron piece has weight in the palm, useful gathered into an ingot or a lantern.",
+          "text": "A small bead of native iron salvaged from the furnace, easily gathered by the handful and recast into standard bars.",
           "color": "gray",
           "italic": true
         }
@@ -575,7 +575,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Deep-blue mineral grains hold their colour firmly and are needed at an enchanting table.",
+          "text": "Deep cobalt mineral crystals prized by dyers for royal blue textiles and demanded by enchanters to awaken slumbering runes.",
           "color": "gray",
           "italic": true
         }
@@ -597,7 +597,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Pale brown seeds have flat edges and need farmland to grow into melons.",
+          "text": "Small flat brown seeds holding the vitality to sprout sprawling vines and heavy, sun-ripened melon gourds.",
           "color": "gray",
           "italic": true
         }
@@ -608,7 +608,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround a mining pick on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "An ancient shard depicting a miner swinging a pickaxe, keeping silent memory of forgotten delvers who first pierced the deep stone.",
           "color": "gray",
           "italic": true
         }
@@ -619,7 +619,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The paper pattern shows an unusual emblem, ready to guide the same image into a banner at a loom.",
+          "text": "A legendary drafting template charting the enigmatic Mojang emblem, weaving primeval creator runes upon woolen standards.",
           "color": "gray",
           "italic": true
         }
@@ -630,7 +630,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround a bowed figure on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "An ancient clay shard portraying a bowed, mourning figure, keeping vigil over long-lost ancestors beneath the desert sands.",
           "color": "gray",
           "italic": true
         }
@@ -641,7 +641,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Fine lines follow the pale spiral, useful with a heart of the sea in a conduit.",
+          "text": "A spiraled, pearlescent shell salvaged from deep ocean swells, perfectly chambered and echoing with the silent hum of the tides to encase conduits.",
           "color": "gray",
           "italic": true
         }
@@ -652,7 +652,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The dark-red fired brick is hard, ready to gather into Nether brickwork.",
+          "text": "Netherrack baked in blistering kiln fire until dense and dark as iron slag, forged to withstand hellish heat and build unyielding fortress walls.",
           "color": "gray",
           "italic": true
         }
@@ -663,7 +663,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin hard scraps remain after smelting and need gold before further forging.",
+          "text": "Tough, porous dark flakes smelted from ancient debris, carrying primeval resilience ready to be bound with gold into ingots.",
           "color": "gray",
           "italic": true
         }
@@ -674,7 +674,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "An upgrade pattern sits in the red base, guiding the smithing table from diamond to netherite.",
+          "text": "A rare smithing template salvaged from piglin bastions, unlocking the ancient technique to coat diamond arms in indestructible Netherite.",
           "color": "gray",
           "italic": true
         }
@@ -685,7 +685,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Blue light marks the dark key, whose teeth fit only an ominous vault.",
+          "text": "A sinister key crackling with dark trial energy, shaped to unlock ominous vaults laden with the rarest relics of the deep.",
           "color": "gray",
           "italic": true
         }
@@ -696,7 +696,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Fine fibres make the thin sheet useful for maps, books and firework rolls.",
+          "text": "Smooth sheets pressed from dried sugar cane fibers, crisp and absorbent for ink, mapmaking, and rolling firework rockets.",
           "color": "gray",
           "italic": true
         }
@@ -707,7 +707,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The paper pattern shows a piglin snout, ready to guide the same image into a banner at a loom.",
+          "text": "A drafting pattern salvaged from bastion ruins, guiding the loom to weave the snarling snout emblem of Nether piglin hordes.",
           "color": "gray",
           "italic": true
         }
@@ -718,7 +718,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A rounded pod encloses a new shoot and need farmland to grow into pitcher plants.",
+          "text": "A prehistoric seed pod recovered from primeval dust, ready to take root in tilled soil and sprout into a towering pitcher flower.",
           "color": "gray",
           "italic": true
         }
@@ -729,7 +729,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround a sign of plenty on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "An ancient clay shard depicting an overflowing treasure chest, preserving the memory of a golden age of boundless harvest.",
           "color": "gray",
           "italic": true
         }
@@ -740,7 +740,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Clear little clusters hold a sea-green tint, material for an underwater lamp.",
+          "text": "Shimmering, translucent crystals harvested from fallen guardians, pulsing with aquatic luminescence to forge sea lanterns and conduits.",
           "color": "gray",
           "italic": true
         }
@@ -751,7 +751,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven breaks line the blue-green shard, still useful in rebuilding monument stone.",
+          "text": "Rugged, sea-green shards chipped from guardian armor, tough as dragon scales and essential for assembling maritime masonry.",
           "color": "gray",
           "italic": true
         }
@@ -762,7 +762,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround a prize motif on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "An ancient clay shard depicting a crowned trophy of honor, keeping silent memory of grand triumphs celebrated in fallen empires.",
           "color": "gray",
           "italic": true
         }
@@ -773,7 +773,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "White seed pieces are thin and broad and need farmland to grow into pumpkins.",
+          "text": "Flat pale seeds holding the vitality to sprout thick, creeping vines that swell into heavy orange gourds under the autumn sun.",
           "color": "gray",
           "italic": true
         }
@@ -784,7 +784,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Distinct edges shape the milky crystal, needed in decorative blocks and redstone fittings.",
+          "text": "A sharp, brilliant crystal chipped from Nether seams, prized by masons for snow-white masonry and by engineers for redstone logic gates.",
           "color": "gray",
           "italic": true
         }
@@ -795,7 +795,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The little soft hide has uneven edges and needs companions to make a full leather piece.",
+          "text": "A small, soft pelt taken from a wild hare, supple and easily stitched by the four into a standard sheet of tough leather.",
           "color": "gray",
           "italic": true
         }
@@ -806,7 +806,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries rising layered lines, adding decoration to armour without changing its protection.",
+          "text": "An ancient template recovered from trail ruins, embossing armour with the soaring, mountain-crest lines of primeval empire builders.",
           "color": "gray",
           "italic": true
         }
@@ -817,7 +817,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Red and green grains form an uneven lump that smelts into workable copper.",
+          "text": "A rough, unrefined nugget of native copper flecked with verdigris, heavy in the hand and ready to yield pure metal in the furnace.",
           "color": "gray",
           "italic": true
         }
@@ -828,7 +828,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Gold grains sit in a grey-brown shell, ready to melt into a complete ingot.",
+          "text": "A dense, glittering nugget of raw native gold washed from deep rock, promising rich currency once purified in the smelting hearth.",
           "color": "gray",
           "italic": true
         }
@@ -839,7 +839,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Brown rocky skin encloses bright iron grains that need smelting before use.",
+          "text": "A heavy, unrefined chunk of raw hematite chipped from stone veins, the honest, unworked seed of all future steel and armor.",
           "color": "gray",
           "italic": true
         }
@@ -850,7 +850,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries rows of ribs, adding decoration to armour without changing its protection.",
+          "text": "A sinister template salvaged from Nether bastions, embossing armour with the interlocking, skeletal rib lines of ancient warlords.",
           "color": "gray",
           "italic": true
         }
@@ -861,7 +861,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround a scraping mark on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "An ancient clay shard portraying a craftsman scraping stone, keeping silent vigil over the forgotten artisans of primeval eras.",
           "color": "gray",
           "italic": true
         }
@@ -872,7 +872,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries ordered sentry bands, adding decoration to armour without changing its protection.",
+          "text": "A rugged smithing template taken from pillager watchtowers, embossing armor borders with the watchful, fortress-guard lines of ancient sentinels.",
           "color": "gray",
           "italic": true
         }
@@ -883,7 +883,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries sharply turning lines, adding decoration to armour without changing its protection.",
+          "text": "An ancient template recovered from dusty trail ruins, embossing armor with the bold, constructive geometric motifs of primeval artisans.",
           "color": "gray",
           "italic": true
         }
@@ -905,7 +905,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround tree-like shelter on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "An ancient clay shard depicting the roofline of a sturdy haven, keeping memory of the first shelters raised against primeval nights.",
           "color": "gray",
           "italic": true
         }
@@ -916,7 +916,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A light, tough purple shell pairs with another to protect portable storage.",
+          "text": "A curved carapace plate harvested from a defeated shulker, resonant with the strange spatial magic needed to assemble portable storage vaults.",
           "color": "gray",
           "italic": true
         }
@@ -927,7 +927,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries close-set dark patterns, adding decoration to armour without changing its protection.",
+          "text": "A legendary template recovered from the deep dark city, embossing full-suit armor with the haunting, soundless flowing lines of the ancient void.",
           "color": "gray",
           "italic": true
         }
@@ -938,7 +938,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The paper pattern shows a skull face, ready to guide the same image into a banner at a loom.",
+          "text": "A drafting template detailing a skull and crossed bones, ready to guide the loom in weaving grim banners of defiance and dread.",
           "color": "gray",
           "italic": true
         }
@@ -949,7 +949,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround a skull on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "A weathered clay shard bearing the hollow gaze of a skull, keeping silent vigil over forgotten crypts and primeval battlegrounds.",
           "color": "gray",
           "italic": true
         }
@@ -960,7 +960,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The translucent lump sticks and springs back, useful for pistons or leads.",
+          "text": "A sticky, gelatinous green sphere harvested from slimes, brimming with bouncy elasticity to bind leads, pistons, and alchemical pastes.",
           "color": "gray",
           "italic": true
         }
@@ -971,7 +971,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Uneven edges surround a sniffer outline on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "text": "An ancient clay shard portraying a sniffer's broad snout, capturing the primeval breath of giant beasts that roamed the dawn world.",
           "color": "gray",
           "italic": true
         }
@@ -982,7 +982,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries a squared snout, adding decoration to armour without changing its protection.",
+          "text": "A battle-worn template looted from Nether bastions, embossing armor with the brutal, snout-shaped war crests of ancient piglin chieftains.",
           "color": "gray",
           "italic": true
         }
@@ -993,7 +993,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Loose snow is pressed into a little ball that breaks on impact and proves useful against blazes.",
+          "text": "A handful of fresh winter snow packed into a tight sphere, cooling the palm and flying with stinging force to quench blazing Nether fiends.",
           "color": "gray",
           "italic": true
         }
@@ -1004,7 +1004,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries long spire lines, adding decoration to armour without changing its protection.",
+          "text": "A rare template plucked from the spires of outer End cities, embossing armor with the clean, soaring lines of void-conquering citadels.",
           "color": "gray",
           "italic": true
         }
@@ -1015,7 +1015,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Fine grain remains on the straight little stick, useful for handles, frames and kindling.",
+          "text": "A clean wooden shaft whittled from seasoned timber, serving as the universal handle for picks, blades, torches, and bows.",
           "color": "gray",
           "italic": true
         }
@@ -1026,7 +1026,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Even fine threads are useful for bowstrings, weaving and tripwire mechanisms.",
+          "text": "A length of supple, high-tensile silk pulled from spider webs, indispensable for stringing bows, fishing lines, and weaving cloth.",
           "color": "gray",
           "italic": true
         }
@@ -1037,7 +1037,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries overlapping tides, adding decoration to armour without changing its protection.",
+          "text": "A legendary template wrested from fallen elder guardians, embossing armor with the rolling, unyielding tidal crests of the abyss.",
           "color": "gray",
           "italic": true
         }
@@ -1048,7 +1048,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Dark seeds wear firm coats and need farmland to grow into torchflowers.",
+          "text": "A prehistoric, heat-hardened seed dug from primeval loam, holding the ancient spark to sprout into a radiant, torch-like blossom.",
           "color": "gray",
           "italic": true
         }
@@ -1059,7 +1059,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Distinct teeth line the copper-coloured key, suited to an ordinary vault.",
+          "text": "A copper key humming with kinetic energy, forged to unlock trial vaults and reward bold challengers with subterranean wealth.",
           "color": "gray",
           "italic": true
         }
@@ -1081,7 +1081,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries narrow wing shapes, adding decoration to armour without changing its protection.",
+          "text": "A sinister template looted from woodland mansions, embossing armor with the twisted, flying wing-crests of ethereal vexes.",
           "color": "gray",
           "italic": true
         }
@@ -1092,7 +1092,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries a warding chest pattern, adding decoration to armour without changing its protection.",
+          "text": "A rare template recovered from ancient city crypts, embossing armor with the massive, warding chest-crest of subterranean sentinels.",
           "color": "gray",
           "italic": true
         }
@@ -1103,7 +1103,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries paths reaching outward, adding decoration to armour without changing its protection.",
+          "text": "An ancient template recovered from trail ruins, embossing armor with the bold, star-charting compass lines of primeval pathfinders.",
           "color": "gray",
           "italic": true
         }
@@ -1114,7 +1114,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Fine green seeds are almost weightless and need farmland to grow into wheat.",
+          "text": "Small brown seeds holding the vital spark of civilization, sprouting into golden stalks when sown into tilled, watered soil.",
           "color": "gray",
           "italic": true
         }
@@ -1125,7 +1125,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The template carries crossing jungle cuts, adding decoration to armour without changing its protection.",
+          "text": "An ancient template recovered from mossy jungle temples, embossing armor with the tangled, wild vine lines of primeval forest scouts.",
           "color": "gray",
           "italic": true
         }
@@ -1136,7 +1136,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A quill sits among blank pages, ready to record a route or an observation.",
+          "text": "A leather-bound volume paired with an inky feather quill, awaiting the traveler's hand to chronicle grand deeds and chart coordinates.",
           "color": "gray",
           "italic": true
         }
@@ -1147,7 +1147,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The ink has settled into a finished text that remains unchanged when copied.",
+          "text": "An indelible codex sealed with the author's personal signet, preserving written lore, binding treaties, and traveler tales for all time.",
           "color": "gray",
           "italic": true
         }

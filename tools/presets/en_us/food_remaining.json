@@ -3,7 +3,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Soft flesh sits under a wrinkled skin, opening with a starchy scent and a filling portion.",
+          "text": "Slow-baked in the embers of a campfire until the skin crisps and the steaming flesh within turns fluffy.",
           "color": "gray",
           "italic": true
         }
@@ -33,10 +33,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Baked Potato",
+              "itemName": "Cold Baked Potato",
               "loreJson": [
                 {
-                  "text": "Soft flesh sits under a wrinkled skin, opening with a starchy scent and a filling portion. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "The campfire heat has long faded, leaving a tough skin and dense, cold starch that still wards off hunger.",
                   "color": "gray",
                   "italic": true
                 }
@@ -93,10 +93,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Baked Potato",
+              "itemName": "Hearth-baked Potato",
               "loreJson": [
                 {
-                  "text": "Soft flesh sits under a wrinkled skin, opening with a starchy scent and a filling portion. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Baked through to the core, opening with a comforting plume of earthy steam. A staple of roadside hearths.",
                   "color": "white",
                   "italic": true
                 }
@@ -140,10 +140,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Baked Potato",
+              "itemName": "Golden Roasted Potato",
               "loreJson": [
                 {
-                  "text": "Soft flesh sits under a wrinkled skin, opening with a starchy scent and a filling portion. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "Crisped to a golden blister on the outside and buttery-soft within, cooked to absolute perfection over hot stones.",
                   "color": "green",
                   "italic": true
                 }
@@ -192,10 +192,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Baked Potato",
+              "itemName": "Cold Baked Potato",
               "loreJson": [
                 {
-                  "text": "Soft flesh sits under a wrinkled skin, opening with a starchy scent and a filling portion. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "The campfire heat has long faded, leaving a tough skin and dense, cold starch that still wards off hunger.",
                   "color": "gray",
                   "italic": true
                 }
@@ -252,10 +252,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Baked Potato",
+              "itemName": "Hearth-baked Potato",
               "loreJson": [
                 {
-                  "text": "Soft flesh sits under a wrinkled skin, opening with a starchy scent and a filling portion. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Baked through to the core, opening with a comforting plume of earthy steam. A staple of roadside hearths.",
                   "color": "white",
                   "italic": true
                 }
@@ -299,10 +299,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Baked Potato",
+              "itemName": "Golden Roasted Potato",
               "loreJson": [
                 {
-                  "text": "Soft flesh sits under a wrinkled skin, opening with a starchy scent and a filling portion. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "Crisped to a golden blister on the outside and buttery-soft within, cooked to absolute perfection over hot stones.",
                   "color": "green",
                   "italic": true
                 }
@@ -352,7 +352,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Firm grain runs through the deep-red cut, with juices at the edge; cooking makes it more filling.",
+          "text": "Deep-red muscle marbled with pale fat, firm to the touch and ready to yield a hearty meal over glowing campfire embers.",
           "color": "gray",
           "italic": true
         }
@@ -382,10 +382,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Beef",
+              "itemName": "Darkened Dry-aged Beef",
               "loreJson": [
                 {
-                  "text": "Firm grain runs through the deep-red cut, with juices at the edge; cooking makes it more filling. The cut is dark and its juices tacky; even an empty stomach calls for a careful sniff.",
+                  "text": "Left long in cold storage, its surface has hardened into a dark crust. Thorough searing over high flames is needed to make it fit for the road.",
                   "color": "gray",
                   "italic": true
                 }
@@ -442,10 +442,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Beef",
+              "itemName": "Fresh-cut Raw Beef",
               "loreJson": [
                 {
-                  "text": "Firm grain runs through the deep-red cut, with juices at the edge; cooking makes it more filling. The flesh has kept its colour and the membrane is moist, though it remains raw until cooked.",
+                  "text": "Cleanly dressed with rich red color and moist membrane, ready to surrender a savory, fatty aroma at the hearth.",
                   "color": "white",
                   "italic": true
                 }
@@ -489,10 +489,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Beef",
+              "itemName": "Prime Marbled Beef",
               "loreJson": [
                 {
-                  "text": "Firm grain runs through the deep-red cut, with juices at the edge; cooking makes it more filling. Firm flesh and clear juices make this a cut worth taking straight to the fire.",
+                  "text": "Thick ribbons of tender white fat weave through prime muscle. A pinch of coarse salt over hot stones turns this into a feast.",
                   "color": "green",
                   "italic": true
                 }
@@ -541,10 +541,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Beef",
+              "itemName": "Darkened Dry-aged Beef",
               "loreJson": [
                 {
-                  "text": "Firm grain runs through the deep-red cut, with juices at the edge; cooking makes it more filling. The cut is dark and its juices tacky; even an empty stomach calls for a careful sniff.",
+                  "text": "Left long in cold storage, its surface has hardened into a dark crust. Thorough searing over high flames is needed to make it fit for the road.",
                   "color": "gray",
                   "italic": true
                 }
@@ -601,10 +601,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Beef",
+              "itemName": "Fresh-cut Raw Beef",
               "loreJson": [
                 {
-                  "text": "Firm grain runs through the deep-red cut, with juices at the edge; cooking makes it more filling. The flesh has kept its colour and the membrane is moist, though it remains raw until cooked.",
+                  "text": "Cleanly dressed with rich red color and moist membrane, ready to surrender a savory, fatty aroma at the hearth.",
                   "color": "white",
                   "italic": true
                 }
@@ -648,10 +648,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Beef",
+              "itemName": "Prime Marbled Beef",
               "loreJson": [
                 {
-                  "text": "Firm grain runs through the deep-red cut, with juices at the edge; cooking makes it more filling. Firm flesh and clear juices make this a cut worth taking straight to the fire.",
+                  "text": "Thick ribbons of tender white fat weave through prime muscle. A pinch of coarse salt over hot stones turns this into a feast.",
                   "color": "green",
                   "italic": true
                 }
@@ -683,7 +683,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Damp soil coats the dark-red root, edible when washed and useful gathered for soup.",
+          "text": "An earthy, ruby-red root pulled fresh from damp soil, sweet and solid enough for trail rations or the soup kettle.",
           "color": "gray",
           "italic": true
         }
@@ -713,10 +713,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Beetroot",
+              "itemName": "Withered Beetroot",
               "loreJson": [
                 {
-                  "text": "Damp soil coats the dark-red root, edible when washed and useful gathered for soup. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Shrunken from dry storage, its skin tough and wrinkled. Though lacking crisp juice, it still lends a mild, earthy sweetness to the pot.",
                   "color": "gray",
                   "italic": true
                 }
@@ -773,10 +773,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Beetroot",
+              "itemName": "Fresh-picked Beetroot",
               "loreJson": [
                 {
-                  "text": "Damp soil coats the dark-red root, edible when washed and useful gathered for soup. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Dusted with garden loam and showing firm crimson skin. Rinsed in a stream, it gives a clean crunch with a lingering rustic sweetness.",
                   "color": "white",
                   "italic": true
                 }
@@ -820,10 +820,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Beetroot",
+              "itemName": "Plump Sugar Beetroot",
               "loreJson": [
                 {
-                  "text": "Damp soil coats the dark-red root, edible when washed and useful gathered for soup. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "A heavy, unblemished root bleeding deep wine-red juice when sliced, prized by village cooks for rich, velvet stews.",
                   "color": "green",
                   "italic": true
                 }
@@ -855,7 +855,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Fine root pieces remain in the red broth, mild in flavour but enough for a meal.",
+          "text": "A warm wooden bowl filled with rich crimson broth, steaming with earthy warmth to ward off the chill of long night watches.",
           "color": "gray",
           "italic": true
         }
@@ -885,10 +885,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Beetroot Soup",
+              "itemName": "Cold Beetroot Broth",
               "loreJson": [
                 {
-                  "text": "Fine root pieces remain in the red broth, mild in flavour but enough for a meal. Set fat films the surface and the pieces at the bottom have softened past their best.",
+                  "text": "A dull film has settled across the cooled red broth with softened vegetable bits at the bottom. Still filling when washed down with dry crusts.",
                   "color": "gray",
                   "italic": true
                 }
@@ -945,10 +945,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Beetroot Soup",
+              "itemName": "Country Beetroot Soup",
               "loreJson": [
                 {
-                  "text": "Fine root pieces remain in the red broth, mild in flavour but enough for a meal. The broth still holds its ingredients together, releasing their separate scents when stirred.",
+                  "text": "Simmered steadily over a cottage hearth until the root pieces turn tender, blending a mild sweetness into a satisfying soup.",
                   "color": "white",
                   "italic": true
                 }
@@ -992,10 +992,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Beetroot Soup",
+              "itemName": "Hearty Crimson Potage",
               "loreJson": [
                 {
-                  "text": "Fine root pieces remain in the red broth, mild in flavour but enough for a meal. A clean broth carries ingredients cooked tender without falling apart.",
+                  "text": "Glistening like liquid garnet and cooked to perfection, balancing root sweetness and rich broth into a truly revitalising meal.",
                   "color": "green",
                   "italic": true
                 }
@@ -1044,10 +1044,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Beetroot Soup",
+              "itemName": "Cold Beetroot Broth",
               "loreJson": [
                 {
-                  "text": "Fine root pieces remain in the red broth, mild in flavour but enough for a meal. Set fat films the surface and the pieces at the bottom have softened past their best.",
+                  "text": "A dull film has settled across the cooled red broth with softened vegetable bits at the bottom. Still filling when washed down with dry crusts.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1104,10 +1104,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Beetroot Soup",
+              "itemName": "Country Beetroot Soup",
               "loreJson": [
                 {
-                  "text": "Fine root pieces remain in the red broth, mild in flavour but enough for a meal. The broth still holds its ingredients together, releasing their separate scents when stirred.",
+                  "text": "Simmered steadily over a cottage hearth until the root pieces turn tender, blending a mild sweetness into a satisfying soup.",
                   "color": "white",
                   "italic": true
                 }
@@ -1151,10 +1151,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Beetroot Soup",
+              "itemName": "Hearty Crimson Potage",
               "loreJson": [
                 {
-                  "text": "Fine root pieces remain in the red broth, mild in flavour but enough for a meal. A clean broth carries ingredients cooked tender without falling apart.",
+                  "text": "Glistening like liquid garnet and cooked to perfection, balancing root sweetness and rich broth into a truly revitalising meal.",
                   "color": "green",
                   "italic": true
                 }
@@ -1204,7 +1204,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "White icing covers a soft cake that can be shared bite by bite once set down.",
+          "text": "A tiered sponge cake baked with sweet milk, eggs, and refined sugar, topped with rich white icing for grand celebrations.",
           "color": "gray",
           "italic": true
         }
@@ -1234,10 +1234,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cake",
+              "itemName": "Hardened Stale Cake",
               "loreJson": [
                 {
-                  "text": "White icing covers a soft cake that can be shared bite by bite once set down. Dry edges shed crumbs at a touch, still serviceable as provisions for the road.",
+                  "text": "The white icing has cracked dry and the sponge has hardened with age. Sheds crumbs at a touch, yet retains a lingering, sugary core.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1294,10 +1294,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cake",
+              "itemName": "Sweet Cream Cake",
               "loreJson": [
                 {
-                  "text": "White icing covers a soft cake that can be shared bite by bite once set down. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Fluffy and golden beneath a blanket of sweet icing, carrying the rich, comforting fragrance of farm dairy and fresh sugar.",
                   "color": "white",
                   "italic": true
                 }
@@ -1341,10 +1341,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cake",
+              "itemName": "Royal Velvet Feast Cake",
               "loreJson": [
                 {
-                  "text": "White icing covers a soft cake that can be shared bite by bite once set down. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "A masterpiece of pastry craft, boasting a velvet-soft crumb and luscious cream that melts away upon the tongue.",
                   "color": "green",
                   "italic": true
                 }
@@ -1393,10 +1393,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cake",
+              "itemName": "Hardened Stale Cake",
               "loreJson": [
                 {
-                  "text": "White icing covers a soft cake that can be shared bite by bite once set down. Dry edges shed crumbs at a touch, still serviceable as provisions for the road.",
+                  "text": "The white icing has cracked dry and the sponge has hardened with age. Sheds crumbs at a touch, yet retains a lingering, sugary core.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1453,10 +1453,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cake",
+              "itemName": "Sweet Cream Cake",
               "loreJson": [
                 {
-                  "text": "White icing covers a soft cake that can be shared bite by bite once set down. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Fluffy and golden beneath a blanket of sweet icing, carrying the rich, comforting fragrance of farm dairy and fresh sugar.",
                   "color": "white",
                   "italic": true
                 }
@@ -1500,10 +1500,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cake",
+              "itemName": "Royal Velvet Feast Cake",
               "loreJson": [
                 {
-                  "text": "White icing covers a soft cake that can be shared bite by bite once set down. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "A masterpiece of pastry craft, boasting a velvet-soft crumb and luscious cream that melts away upon the tongue.",
                   "color": "green",
                   "italic": true
                 }
@@ -1570,10 +1570,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cake",
+              "itemName": "Hardened Stale Cake",
               "loreJson": [
                 {
-                  "text": "White icing covers a soft cake that can be shared bite by bite once set down. Dry edges shed crumbs at a touch, still serviceable as provisions for the road.",
+                  "text": "The white icing has cracked dry and the sponge has hardened with age. Sheds crumbs at a touch, yet retains a lingering, sugary core.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1630,10 +1630,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cake",
+              "itemName": "Sweet Cream Cake",
               "loreJson": [
                 {
-                  "text": "White icing covers a soft cake that can be shared bite by bite once set down. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Fluffy and golden beneath a blanket of sweet icing, carrying the rich, comforting fragrance of farm dairy and fresh sugar.",
                   "color": "white",
                   "italic": true
                 }
@@ -1677,10 +1677,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cake",
+              "itemName": "Royal Velvet Feast Cake",
               "loreJson": [
                 {
-                  "text": "White icing covers a soft cake that can be shared bite by bite once set down. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "A masterpiece of pastry craft, boasting a velvet-soft crumb and luscious cream that melts away upon the tongue.",
                   "color": "green",
                   "italic": true
                 }
@@ -1712,7 +1712,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A firm orange root has a clean crunch, serving as food or planting stock.",
+          "text": "A firm, crisp orange taproot pulled fresh from the garden furrow, sweet to crunch raw and vital for seeding new plots.",
           "color": "gray",
           "italic": true
         }
@@ -1742,10 +1742,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Carrot",
+              "itemName": "Shriveled Carrot",
               "loreJson": [
                 {
-                  "text": "A firm orange root has a clean crunch, serving as food or planting stock. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Dulled and rubbery from dry days in the pack. Though its crisp snap is gone, it still provides an honest mouthful of fuel.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1802,10 +1802,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Carrot",
+              "itemName": "Crisp Garden Carrot",
               "loreJson": [
                 {
-                  "text": "A firm orange root has a clean crunch, serving as food or planting stock. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Plump and bright orange, snapped clean of soil to yield a refreshing, sweet crunch that quenches thirst on dusty trails.",
                   "color": "white",
                   "italic": true
                 }
@@ -1849,10 +1849,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Carrot",
+              "itemName": "Prize Honey-Root Carrot",
               "loreJson": [
                 {
-                  "text": "A firm orange root has a clean crunch, serving as food or planting stock. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "A golden-hued root grown in prime composted loam, remarkably sweet and tender without a trace of bitter woody core.",
                   "color": "green",
                   "italic": true
                 }
@@ -1901,10 +1901,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Carrot",
+              "itemName": "Shriveled Carrot",
               "loreJson": [
                 {
-                  "text": "A firm orange root has a clean crunch, serving as food or planting stock. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Dulled and rubbery from dry days in the pack. Though its crisp snap is gone, it still provides an honest mouthful of fuel.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1961,10 +1961,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Carrot",
+              "itemName": "Crisp Garden Carrot",
               "loreJson": [
                 {
-                  "text": "A firm orange root has a clean crunch, serving as food or planting stock. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Plump and bright orange, snapped clean of soil to yield a refreshing, sweet crunch that quenches thirst on dusty trails.",
                   "color": "white",
                   "italic": true
                 }
@@ -2008,10 +2008,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Carrot",
+              "itemName": "Prize Honey-Root Carrot",
               "loreJson": [
                 {
-                  "text": "A firm orange root has a clean crunch, serving as food or planting stock. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "A golden-hued root grown in prime composted loam, remarkably sweet and tender without a trace of bitter woody core.",
                   "color": "green",
                   "italic": true
                 }
@@ -2060,10 +2060,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Carrot",
+              "itemName": "Shriveled Carrot",
               "loreJson": [
                 {
-                  "text": "A firm orange root has a clean crunch, serving as food or planting stock. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Dulled and rubbery from dry days in the pack. Though its crisp snap is gone, it still provides an honest mouthful of fuel.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2120,10 +2120,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Carrot",
+              "itemName": "Crisp Garden Carrot",
               "loreJson": [
                 {
-                  "text": "A firm orange root has a clean crunch, serving as food or planting stock. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Plump and bright orange, snapped clean of soil to yield a refreshing, sweet crunch that quenches thirst on dusty trails.",
                   "color": "white",
                   "italic": true
                 }
@@ -2167,10 +2167,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Carrot",
+              "itemName": "Prize Honey-Root Carrot",
               "loreJson": [
                 {
-                  "text": "A firm orange root has a clean crunch, serving as food or planting stock. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "A golden-hued root grown in prime composted loam, remarkably sweet and tender without a trace of bitter woody core.",
                   "color": "green",
                   "italic": true
                 }
@@ -2202,7 +2202,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin skin covers pale flesh that calls for care and is better eaten cooked.",
+          "text": "Pale, freshly dressed fowl wrapped in thin skin. Humble and blood-raw, but roasting it to a golden blister makes it a welcome meal.",
           "color": "gray",
           "italic": true
         }
@@ -2232,10 +2232,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Chicken",
+              "itemName": "Tacky Raw Chicken",
               "loreJson": [
                 {
-                  "text": "Thin skin covers pale flesh that calls for care and is better eaten cooked. The cut is dark and its juices tacky; even an empty stomach calls for a careful sniff.",
+                  "text": "Left unchilled for days, its pale skin has turned tacky and dried at the wings. Nothing short of scorching fire makes it safe for consumption.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2292,10 +2292,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Chicken",
+              "itemName": "Dressed Raw Chicken",
               "loreJson": [
                 {
-                  "text": "Thin skin covers pale flesh that calls for care and is better eaten cooked. The flesh has kept its colour and the membrane is moist, though it remains raw until cooked.",
+                  "text": "Cleanly plucked and dressed with moist, pale muscle, ready to take the salt and roast cleanly over open embers.",
                   "color": "white",
                   "italic": true
                 }
@@ -2339,10 +2339,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Chicken",
+              "itemName": "Plump Grain-fed Chicken",
               "loreJson": [
                 {
-                  "text": "Thin skin covers pale flesh that calls for care and is better eaten cooked. Firm flesh and clear juices make this a cut worth taking straight to the fire.",
+                  "text": "A plump, grain-fattened bird rich with golden schmaltz under its smooth skin, promising exceptional tenderness in the roasting pan.",
                   "color": "green",
                   "italic": true
                 }
@@ -2391,10 +2391,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Chicken",
+              "itemName": "Tacky Raw Chicken",
               "loreJson": [
                 {
-                  "text": "Thin skin covers pale flesh that calls for care and is better eaten cooked. The cut is dark and its juices tacky; even an empty stomach calls for a careful sniff.",
+                  "text": "Left unchilled for days, its pale skin has turned tacky and dried at the wings. Nothing short of scorching fire makes it safe for consumption.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2451,10 +2451,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Chicken",
+              "itemName": "Dressed Raw Chicken",
               "loreJson": [
                 {
-                  "text": "Thin skin covers pale flesh that calls for care and is better eaten cooked. The flesh has kept its colour and the membrane is moist, though it remains raw until cooked.",
+                  "text": "Cleanly plucked and dressed with moist, pale muscle, ready to take the salt and roast cleanly over open embers.",
                   "color": "white",
                   "italic": true
                 }
@@ -2498,10 +2498,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Chicken",
+              "itemName": "Plump Grain-fed Chicken",
               "loreJson": [
                 {
-                  "text": "Thin skin covers pale flesh that calls for care and is better eaten cooked. Firm flesh and clear juices make this a cut worth taking straight to the fire.",
+                  "text": "A plump, grain-fattened bird rich with golden schmaltz under its smooth skin, promising exceptional tenderness in the roasting pan.",
                   "color": "green",
                   "italic": true
                 }
@@ -2533,7 +2533,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Purple skin encloses soft flesh that may leave the eater standing elsewhere.",
+          "text": "A strange purple fruit plucked in the void, enclosing airy flesh that warps the fabric of space when swallowed by a hungry traveler.",
           "color": "gray",
           "italic": true
         }
@@ -2563,10 +2563,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Chorus Fruit",
+              "itemName": "Shriveled Chorus Fruit",
               "loreJson": [
                 {
-                  "text": "Purple skin encloses soft flesh that may leave the eater standing elsewhere. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Stored long away from the void winds, its rind has hardened and shriveled. Its spatial hum is erratic, yet it remains edible trail fuel.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2623,10 +2623,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Chorus Fruit",
+              "itemName": "Fresh Chorus Fruit",
               "loreJson": [
                 {
-                  "text": "Purple skin encloses soft flesh that may leave the eater standing elsewhere. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Plump and humming with quiet planar resonance, its tart alien juice jolting the consumer across a short spatial leap.",
                   "color": "white",
                   "italic": true
                 }
@@ -2670,10 +2670,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Chorus Fruit",
+              "itemName": "Resonant Chorus Fruit",
               "loreJson": [
                 {
-                  "text": "Purple skin encloses soft flesh that may leave the eater standing elsewhere. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "A radiant specimen harvested from the highest canopy, crackling with pure void energy that shifts the eater smoothly to solid ground.",
                   "color": "green",
                   "italic": true
                 }
@@ -2705,7 +2705,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Pale flesh holds to fine bones, a simple meal when the whole fish is cooked.",
+          "text": "A common pale fish netted from cold oceanic swells, its delicate, flaking flesh providing an honest maritime supper.",
           "color": "gray",
           "italic": true
         }
@@ -2735,10 +2735,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Cod",
+              "itemName": "Clouded Raw Cod",
               "loreJson": [
                 {
-                  "text": "Pale flesh holds to fine bones, a simple meal when the whole fish is cooked. Dark gills and a soft belly let a stale smell overpower what freshness remains.",
+                  "text": "Left unchilled, its eyes have turned milky and its gills dull slate. A pungent stench clings to the soft, fading flesh.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2795,10 +2795,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Cod",
+              "itemName": "Ocean-caught Cod",
               "loreJson": [
                 {
-                  "text": "Pale flesh holds to fine bones, a simple meal when the whole fish is cooked. Wet scales catch the light and the flesh holds to the bones, enough for a simple meal after cleaning.",
+                  "text": "Cleanly taken from the briny swell with glistening scales. Skewered on a green twig over camp coals, it yields tender white flakes.",
                   "color": "white",
                   "italic": true
                 }
@@ -2842,10 +2842,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Cod",
+              "itemName": "Prime Silver Cod",
               "loreJson": [
                 {
-                  "text": "Pale flesh holds to fine bones, a simple meal when the whole fish is cooked. Bright gills and firm flesh still carry the sheen of a fish newly taken from water.",
+                  "text": "A prize catch pulled from arctic deeps, bursting with clean maritime fat and bright ruby gills, fit for a noble feast.",
                   "color": "green",
                   "italic": true
                 }
@@ -2894,10 +2894,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Cod",
+              "itemName": "Clouded Raw Cod",
               "loreJson": [
                 {
-                  "text": "Pale flesh holds to fine bones, a simple meal when the whole fish is cooked. Dark gills and a soft belly let a stale smell overpower what freshness remains.",
+                  "text": "Left unchilled, its eyes have turned milky and its gills dull slate. A pungent stench clings to the soft, fading flesh.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2954,10 +2954,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Cod",
+              "itemName": "Ocean-caught Cod",
               "loreJson": [
                 {
-                  "text": "Pale flesh holds to fine bones, a simple meal when the whole fish is cooked. Wet scales catch the light and the flesh holds to the bones, enough for a simple meal after cleaning.",
+                  "text": "Cleanly taken from the briny swell with glistening scales. Skewered on a green twig over camp coals, it yields tender white flakes.",
                   "color": "white",
                   "italic": true
                 }
@@ -3001,10 +3001,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Cod",
+              "itemName": "Prime Silver Cod",
               "loreJson": [
                 {
-                  "text": "Pale flesh holds to fine bones, a simple meal when the whole fish is cooked. Bright gills and firm flesh still carry the sheen of a fish newly taken from water.",
+                  "text": "A prize catch pulled from arctic deeps, bursting with clean maritime fat and bright ruby gills, fit for a noble feast.",
                   "color": "green",
                   "italic": true
                 }
@@ -3053,10 +3053,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Cod",
+              "itemName": "Clouded Raw Cod",
               "loreJson": [
                 {
-                  "text": "Pale flesh holds to fine bones, a simple meal when the whole fish is cooked. Dark gills and a soft belly let a stale smell overpower what freshness remains.",
+                  "text": "Left unchilled, its eyes have turned milky and its gills dull slate. A pungent stench clings to the soft, fading flesh.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3113,10 +3113,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Cod",
+              "itemName": "Ocean-caught Cod",
               "loreJson": [
                 {
-                  "text": "Pale flesh holds to fine bones, a simple meal when the whole fish is cooked. Wet scales catch the light and the flesh holds to the bones, enough for a simple meal after cleaning.",
+                  "text": "Cleanly taken from the briny swell with glistening scales. Skewered on a green twig over camp coals, it yields tender white flakes.",
                   "color": "white",
                   "italic": true
                 }
@@ -3160,10 +3160,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Cod",
+              "itemName": "Prime Silver Cod",
               "loreJson": [
                 {
-                  "text": "Pale flesh holds to fine bones, a simple meal when the whole fish is cooked. Bright gills and firm flesh still carry the sheen of a fish newly taken from water.",
+                  "text": "A prize catch pulled from arctic deeps, bursting with clean maritime fat and bright ruby gills, fit for a noble feast.",
                   "color": "green",
                   "italic": true
                 }
@@ -3212,10 +3212,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Cod",
+              "itemName": "Clouded Raw Cod",
               "loreJson": [
                 {
-                  "text": "Pale flesh holds to fine bones, a simple meal when the whole fish is cooked. Dark gills and a soft belly let a stale smell overpower what freshness remains.",
+                  "text": "Left unchilled, its eyes have turned milky and its gills dull slate. A pungent stench clings to the soft, fading flesh.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3272,10 +3272,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Cod",
+              "itemName": "Ocean-caught Cod",
               "loreJson": [
                 {
-                  "text": "Pale flesh holds to fine bones, a simple meal when the whole fish is cooked. Wet scales catch the light and the flesh holds to the bones, enough for a simple meal after cleaning.",
+                  "text": "Cleanly taken from the briny swell with glistening scales. Skewered on a green twig over camp coals, it yields tender white flakes.",
                   "color": "white",
                   "italic": true
                 }
@@ -3319,10 +3319,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Cod",
+              "itemName": "Prime Silver Cod",
               "loreJson": [
                 {
-                  "text": "Pale flesh holds to fine bones, a simple meal when the whole fish is cooked. Bright gills and firm flesh still carry the sheen of a fish newly taken from water.",
+                  "text": "A prize catch pulled from arctic deeps, bursting with clean maritime fat and bright ruby gills, fit for a noble feast.",
                   "color": "green",
                   "italic": true
                 }
@@ -3354,7 +3354,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin skin has browned lightly over flesh that tears apart without much effort.",
+          "text": "Whole fowl roasted to a gleaming golden crunch, its tender white meat pulling cleanly away from the bone in hot, savory shreds.",
           "color": "gray",
           "italic": true
         }
@@ -3384,10 +3384,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Chicken",
+              "itemName": "Cold Dried Roast Fowl",
               "loreJson": [
                 {
-                  "text": "Thin skin has browned lightly over flesh that tears apart without much effort. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Cooled long in the pack, its skin is tough and the white meat fibrous and dry. Simple trail nourishment for stubborn miles.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3444,10 +3444,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Chicken",
+              "itemName": "Spit-roasted Chicken",
               "loreJson": [
                 {
-                  "text": "Thin skin has browned lightly over flesh that tears apart without much effort. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Roasted evenly over a crackling hearth until the skin shines, offering juicy, comforting poultry for the weary traveler.",
                   "color": "white",
                   "italic": true
                 }
@@ -3491,10 +3491,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Chicken",
+              "itemName": "Golden Crisp-skin Roast Capon",
               "loreJson": [
                 {
-                  "text": "Thin skin has browned lightly over flesh that tears apart without much effort. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Glazed with wildflower honey and herbs to achieve a paper-crisp skin that bursts with steaming, tender meat at the first bite.",
                   "color": "green",
                   "italic": true
                 }
@@ -3543,10 +3543,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Chicken",
+              "itemName": "Cold Dried Roast Fowl",
               "loreJson": [
                 {
-                  "text": "Thin skin has browned lightly over flesh that tears apart without much effort. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Cooled long in the pack, its skin is tough and the white meat fibrous and dry. Simple trail nourishment for stubborn miles.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3603,10 +3603,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Chicken",
+              "itemName": "Spit-roasted Chicken",
               "loreJson": [
                 {
-                  "text": "Thin skin has browned lightly over flesh that tears apart without much effort. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Roasted evenly over a crackling hearth until the skin shines, offering juicy, comforting poultry for the weary traveler.",
                   "color": "white",
                   "italic": true
                 }
@@ -3650,10 +3650,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Chicken",
+              "itemName": "Golden Crisp-skin Roast Capon",
               "loreJson": [
                 {
-                  "text": "Thin skin has browned lightly over flesh that tears apart without much effort. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Glazed with wildflower honey and herbs to achieve a paper-crisp skin that bursts with steaming, tender meat at the first bite.",
                   "color": "green",
                   "italic": true
                 }
@@ -3702,10 +3702,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Chicken",
+              "itemName": "Cold Dried Roast Fowl",
               "loreJson": [
                 {
-                  "text": "Thin skin has browned lightly over flesh that tears apart without much effort. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Cooled long in the pack, its skin is tough and the white meat fibrous and dry. Simple trail nourishment for stubborn miles.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3762,10 +3762,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Chicken",
+              "itemName": "Spit-roasted Chicken",
               "loreJson": [
                 {
-                  "text": "Thin skin has browned lightly over flesh that tears apart without much effort. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Roasted evenly over a crackling hearth until the skin shines, offering juicy, comforting poultry for the weary traveler.",
                   "color": "white",
                   "italic": true
                 }
@@ -3809,10 +3809,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Chicken",
+              "itemName": "Golden Crisp-skin Roast Capon",
               "loreJson": [
                 {
-                  "text": "Thin skin has browned lightly over flesh that tears apart without much effort. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Glazed with wildflower honey and herbs to achieve a paper-crisp skin that bursts with steaming, tender meat at the first bite.",
                   "color": "green",
                   "italic": true
                 }
@@ -3861,10 +3861,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Chicken",
+              "itemName": "Cold Dried Roast Fowl",
               "loreJson": [
                 {
-                  "text": "Thin skin has browned lightly over flesh that tears apart without much effort. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Cooled long in the pack, its skin is tough and the white meat fibrous and dry. Simple trail nourishment for stubborn miles.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3921,10 +3921,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Chicken",
+              "itemName": "Spit-roasted Chicken",
               "loreJson": [
                 {
-                  "text": "Thin skin has browned lightly over flesh that tears apart without much effort. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Roasted evenly over a crackling hearth until the skin shines, offering juicy, comforting poultry for the weary traveler.",
                   "color": "white",
                   "italic": true
                 }
@@ -3968,10 +3968,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Chicken",
+              "itemName": "Golden Crisp-skin Roast Capon",
               "loreJson": [
                 {
-                  "text": "Thin skin has browned lightly over flesh that tears apart without much effort. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Glazed with wildflower honey and herbs to achieve a paper-crisp skin that bursts with steaming, tender meat at the first bite.",
                   "color": "green",
                   "italic": true
                 }
@@ -4038,10 +4038,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Chicken",
+              "itemName": "Cold Dried Roast Fowl",
               "loreJson": [
                 {
-                  "text": "Thin skin has browned lightly over flesh that tears apart without much effort. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Cooled long in the pack, its skin is tough and the white meat fibrous and dry. Simple trail nourishment for stubborn miles.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4098,10 +4098,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Chicken",
+              "itemName": "Spit-roasted Chicken",
               "loreJson": [
                 {
-                  "text": "Thin skin has browned lightly over flesh that tears apart without much effort. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Roasted evenly over a crackling hearth until the skin shines, offering juicy, comforting poultry for the weary traveler.",
                   "color": "white",
                   "italic": true
                 }
@@ -4145,10 +4145,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Chicken",
+              "itemName": "Golden Crisp-skin Roast Capon",
               "loreJson": [
                 {
-                  "text": "Thin skin has browned lightly over flesh that tears apart without much effort. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Glazed with wildflower honey and herbs to achieve a paper-crisp skin that bursts with steaming, tender meat at the first bite.",
                   "color": "green",
                   "italic": true
                 }
@@ -4180,7 +4180,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "White flesh flakes along its grain, mild enough to finish without fuss.",
+          "text": "Fresh ocean cod baked over embers until the white flesh flakes gently from the bone with an honest, mild maritime flavour.",
           "color": "gray",
           "italic": true
         }
@@ -4210,10 +4210,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Cod",
+              "itemName": "Desiccated Baked Cod",
               "loreJson": [
                 {
-                  "text": "White flesh flakes along its grain, mild enough to finish without fuss. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Salted and baked dry, this fish has hardened into tough jerky. It demands patient chewing, but resists spoil in moist holds.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4270,10 +4270,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Cod",
+              "itemName": "Pan-seared Cod Flake",
               "loreJson": [
                 {
-                  "text": "White flesh flakes along its grain, mild enough to finish without fuss. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Seasoned with sea salt and cooked through, offering light, savory flakes that digest easily on the march.",
                   "color": "white",
                   "italic": true
                 }
@@ -4317,10 +4317,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Cod",
+              "itemName": "Butter-crisp Prime Cod",
               "loreJson": [
                 {
-                  "text": "White flesh flakes along its grain, mild enough to finish without fuss. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Seared to a golden, butter-crisp crust while keeping the snow-white meat meltingly soft and fragrant with ocean sweetness.",
                   "color": "green",
                   "italic": true
                 }
@@ -4369,10 +4369,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Cod",
+              "itemName": "Desiccated Baked Cod",
               "loreJson": [
                 {
-                  "text": "White flesh flakes along its grain, mild enough to finish without fuss. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Salted and baked dry, this fish has hardened into tough jerky. It demands patient chewing, but resists spoil in moist holds.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4429,10 +4429,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Cod",
+              "itemName": "Pan-seared Cod Flake",
               "loreJson": [
                 {
-                  "text": "White flesh flakes along its grain, mild enough to finish without fuss. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Seasoned with sea salt and cooked through, offering light, savory flakes that digest easily on the march.",
                   "color": "white",
                   "italic": true
                 }
@@ -4476,10 +4476,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Cod",
+              "itemName": "Butter-crisp Prime Cod",
               "loreJson": [
                 {
-                  "text": "White flesh flakes along its grain, mild enough to finish without fuss. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Seared to a golden, butter-crisp crust while keeping the snow-white meat meltingly soft and fragrant with ocean sweetness.",
                   "color": "green",
                   "italic": true
                 }
@@ -4528,10 +4528,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Cod",
+              "itemName": "Desiccated Baked Cod",
               "loreJson": [
                 {
-                  "text": "White flesh flakes along its grain, mild enough to finish without fuss. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Salted and baked dry, this fish has hardened into tough jerky. It demands patient chewing, but resists spoil in moist holds.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4588,10 +4588,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Cod",
+              "itemName": "Pan-seared Cod Flake",
               "loreJson": [
                 {
-                  "text": "White flesh flakes along its grain, mild enough to finish without fuss. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Seasoned with sea salt and cooked through, offering light, savory flakes that digest easily on the march.",
                   "color": "white",
                   "italic": true
                 }
@@ -4635,10 +4635,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Cod",
+              "itemName": "Butter-crisp Prime Cod",
               "loreJson": [
                 {
-                  "text": "White flesh flakes along its grain, mild enough to finish without fuss. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Seared to a golden, butter-crisp crust while keeping the snow-white meat meltingly soft and fragrant with ocean sweetness.",
                   "color": "green",
                   "italic": true
                 }
@@ -4705,10 +4705,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Cod",
+              "itemName": "Desiccated Baked Cod",
               "loreJson": [
                 {
-                  "text": "White flesh flakes along its grain, mild enough to finish without fuss. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Salted and baked dry, this fish has hardened into tough jerky. It demands patient chewing, but resists spoil in moist holds.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4765,10 +4765,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Cod",
+              "itemName": "Pan-seared Cod Flake",
               "loreJson": [
                 {
-                  "text": "White flesh flakes along its grain, mild enough to finish without fuss. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Seasoned with sea salt and cooked through, offering light, savory flakes that digest easily on the march.",
                   "color": "white",
                   "italic": true
                 }
@@ -4812,10 +4812,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Cod",
+              "itemName": "Butter-crisp Prime Cod",
               "loreJson": [
                 {
-                  "text": "White flesh flakes along its grain, mild enough to finish without fuss. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Seared to a golden, butter-crisp crust while keeping the snow-white meat meltingly soft and fragrant with ocean sweetness.",
                   "color": "green",
                   "italic": true
                 }
@@ -4847,7 +4847,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The fat has browned around a clearly grained cut, substantial enough to quiet hunger.",
+          "text": "Thick cuts of mutton roasted over open flame, rendering rich fat around savory red meat to fortify against highland blizzards.",
           "color": "gray",
           "italic": true
         }
@@ -4877,10 +4877,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Mutton",
+              "itemName": "Cold Mutton Chop",
               "loreJson": [
                 {
-                  "text": "The fat has browned around a clearly grained cut, substantial enough to quiet hunger. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Stiffened with white tallow after cooling in the chill. Heavily scented of sheepfold, but full of rugged calories for cold treks.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4937,10 +4937,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Mutton",
+              "itemName": "Hearth-roasted Mutton",
               "loreJson": [
                 {
-                  "text": "The fat has browned around a clearly grained cut, substantial enough to quiet hunger. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Cooked slowly over burning birch logs, offering a hearty, savory mouthful that pairs naturally with rough ale and hard bread.",
                   "color": "white",
                   "italic": true
                 }
@@ -4984,10 +4984,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Mutton",
+              "itemName": "Sizzling Herb-crusted Lamb",
               "loreJson": [
                 {
-                  "text": "The fat has browned around a clearly grained cut, substantial enough to quiet hunger. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "A tender rack of spring lamb browned to perfection, its rendered juices and crisp fat bursting with delicate, savory herbs.",
                   "color": "green",
                   "italic": true
                 }
@@ -5036,10 +5036,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Mutton",
+              "itemName": "Cold Mutton Chop",
               "loreJson": [
                 {
-                  "text": "The fat has browned around a clearly grained cut, substantial enough to quiet hunger. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Stiffened with white tallow after cooling in the chill. Heavily scented of sheepfold, but full of rugged calories for cold treks.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5096,10 +5096,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Mutton",
+              "itemName": "Hearth-roasted Mutton",
               "loreJson": [
                 {
-                  "text": "The fat has browned around a clearly grained cut, substantial enough to quiet hunger. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Cooked slowly over burning birch logs, offering a hearty, savory mouthful that pairs naturally with rough ale and hard bread.",
                   "color": "white",
                   "italic": true
                 }
@@ -5143,10 +5143,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Mutton",
+              "itemName": "Sizzling Herb-crusted Lamb",
               "loreJson": [
                 {
-                  "text": "The fat has browned around a clearly grained cut, substantial enough to quiet hunger. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "A tender rack of spring lamb browned to perfection, its rendered juices and crisp fat bursting with delicate, savory herbs.",
                   "color": "green",
                   "italic": true
                 }
@@ -5195,10 +5195,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Mutton",
+              "itemName": "Cold Mutton Chop",
               "loreJson": [
                 {
-                  "text": "The fat has browned around a clearly grained cut, substantial enough to quiet hunger. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Stiffened with white tallow after cooling in the chill. Heavily scented of sheepfold, but full of rugged calories for cold treks.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5255,10 +5255,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Mutton",
+              "itemName": "Hearth-roasted Mutton",
               "loreJson": [
                 {
-                  "text": "The fat has browned around a clearly grained cut, substantial enough to quiet hunger. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Cooked slowly over burning birch logs, offering a hearty, savory mouthful that pairs naturally with rough ale and hard bread.",
                   "color": "white",
                   "italic": true
                 }
@@ -5302,10 +5302,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Mutton",
+              "itemName": "Sizzling Herb-crusted Lamb",
               "loreJson": [
                 {
-                  "text": "The fat has browned around a clearly grained cut, substantial enough to quiet hunger. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "A tender rack of spring lamb browned to perfection, its rendered juices and crisp fat bursting with delicate, savory herbs.",
                   "color": "green",
                   "italic": true
                 }
@@ -5355,7 +5355,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey.",
+          "text": "A generous pork cutlet grilled over hot coals, locking savory juices beneath rendered crackling to fuel exhausting journeys.",
           "color": "gray",
           "italic": true
         }
@@ -5385,10 +5385,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Porkchop",
+              "itemName": "Cold-salted Pork Chop",
               "loreJson": [
                 {
-                  "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Its crispy crackling has gone soft and the meat has dried firm. Solid, resilient sustenance that keeps well in any rucksack.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5445,10 +5445,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Porkchop",
+              "itemName": "Spit-roasted Pork Chop",
               "loreJson": [
                 {
-                  "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Cooked golden-brown over wood embers with its fat crisped to an honest, savory chew. A feast fit for roadside taverns.",
                   "color": "white",
                   "italic": true
                 }
@@ -5492,10 +5492,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Porkchop",
+              "itemName": "Glazed Crackling Pork Chop",
               "loreJson": [
                 {
-                  "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Masterfully glazed and crackled over intense heat, sealing steaming pockets of rich sweet fat within unyielding tenderness.",
                   "color": "green",
                   "italic": true
                 }
@@ -5544,10 +5544,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Porkchop",
+              "itemName": "Cold-salted Pork Chop",
               "loreJson": [
                 {
-                  "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Its crispy crackling has gone soft and the meat has dried firm. Solid, resilient sustenance that keeps well in any rucksack.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5604,10 +5604,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Porkchop",
+              "itemName": "Spit-roasted Pork Chop",
               "loreJson": [
                 {
-                  "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Cooked golden-brown over wood embers with its fat crisped to an honest, savory chew. A feast fit for roadside taverns.",
                   "color": "white",
                   "italic": true
                 }
@@ -5651,10 +5651,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Porkchop",
+              "itemName": "Glazed Crackling Pork Chop",
               "loreJson": [
                 {
-                  "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Masterfully glazed and crackled over intense heat, sealing steaming pockets of rich sweet fat within unyielding tenderness.",
                   "color": "green",
                   "italic": true
                 }
@@ -5703,10 +5703,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Porkchop",
+              "itemName": "Cold-salted Pork Chop",
               "loreJson": [
                 {
-                  "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Its crispy crackling has gone soft and the meat has dried firm. Solid, resilient sustenance that keeps well in any rucksack.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5763,10 +5763,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Porkchop",
+              "itemName": "Spit-roasted Pork Chop",
               "loreJson": [
                 {
-                  "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Cooked golden-brown over wood embers with its fat crisped to an honest, savory chew. A feast fit for roadside taverns.",
                   "color": "white",
                   "italic": true
                 }
@@ -5810,10 +5810,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Porkchop",
+              "itemName": "Glazed Crackling Pork Chop",
               "loreJson": [
                 {
-                  "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Masterfully glazed and crackled over intense heat, sealing steaming pockets of rich sweet fat within unyielding tenderness.",
                   "color": "green",
                   "italic": true
                 }
@@ -5862,10 +5862,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Porkchop",
+              "itemName": "Cold-salted Pork Chop",
               "loreJson": [
                 {
-                  "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Its crispy crackling has gone soft and the meat has dried firm. Solid, resilient sustenance that keeps well in any rucksack.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5922,10 +5922,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Porkchop",
+              "itemName": "Spit-roasted Pork Chop",
               "loreJson": [
                 {
-                  "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Cooked golden-brown over wood embers with its fat crisped to an honest, savory chew. A feast fit for roadside taverns.",
                   "color": "white",
                   "italic": true
                 }
@@ -5969,10 +5969,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Porkchop",
+              "itemName": "Glazed Crackling Pork Chop",
               "loreJson": [
                 {
-                  "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Masterfully glazed and crackled over intense heat, sealing steaming pockets of rich sweet fat within unyielding tenderness.",
                   "color": "green",
                   "italic": true
                 }
@@ -6039,10 +6039,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Porkchop",
+              "itemName": "Cold-salted Pork Chop",
               "loreJson": [
                 {
-                  "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Its crispy crackling has gone soft and the meat has dried firm. Solid, resilient sustenance that keeps well in any rucksack.",
                   "color": "gray",
                   "italic": true
                 }
@@ -6099,10 +6099,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Porkchop",
+              "itemName": "Spit-roasted Pork Chop",
               "loreJson": [
                 {
-                  "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Cooked golden-brown over wood embers with its fat crisped to an honest, savory chew. A feast fit for roadside taverns.",
                   "color": "white",
                   "italic": true
                 }
@@ -6146,10 +6146,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Porkchop",
+              "itemName": "Glazed Crackling Pork Chop",
               "loreJson": [
                 {
-                  "text": "A browned surface and rendered fat retain some juice, useful provisions for a journey. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Masterfully glazed and crackled over intense heat, sealing steaming pockets of rich sweet fat within unyielding tenderness.",
                   "color": "green",
                   "italic": true
                 }
@@ -6181,7 +6181,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The lean meat has cooked firm, a small portion still useful in a stew.",
+          "text": "A small wild hare roasted whole, lean and firm, packing light protein into trail packs or serving as the base for rich stews.",
           "color": "gray",
           "italic": true
         }
@@ -6211,10 +6211,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Rabbit",
+              "itemName": "Dry-aged Roast Hare",
               "loreJson": [
                 {
-                  "text": "The lean meat has cooked firm, a small portion still useful in a stew. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Having cooled into dry strips, this lean game meat requires slow chewing or a dunk in boiling broth to unlock its fuel.",
                   "color": "gray",
                   "italic": true
                 }
@@ -6271,10 +6271,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Rabbit",
+              "itemName": "Campfire Roast Hare",
               "loreJson": [
                 {
-                  "text": "The lean meat has cooked firm, a small portion still useful in a stew. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Skewered on a hazel branch over glowing coals, offering a clean, gamey mouthful for quiet scouts on lone patrol.",
                   "color": "white",
                   "italic": true
                 }
@@ -6318,10 +6318,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Rabbit",
+              "itemName": "Tender Spiced Forest Hare",
               "loreJson": [
                 {
-                  "text": "The lean meat has cooked firm, a small portion still useful in a stew. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Basted in herbs and rendered lard, turning lean woodland hare into a succulent, mouthwatering roast of exceptional softness.",
                   "color": "green",
                   "italic": true
                 }
@@ -6370,10 +6370,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Rabbit",
+              "itemName": "Dry-aged Roast Hare",
               "loreJson": [
                 {
-                  "text": "The lean meat has cooked firm, a small portion still useful in a stew. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Having cooled into dry strips, this lean game meat requires slow chewing or a dunk in boiling broth to unlock its fuel.",
                   "color": "gray",
                   "italic": true
                 }
@@ -6430,10 +6430,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Rabbit",
+              "itemName": "Campfire Roast Hare",
               "loreJson": [
                 {
-                  "text": "The lean meat has cooked firm, a small portion still useful in a stew. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Skewered on a hazel branch over glowing coals, offering a clean, gamey mouthful for quiet scouts on lone patrol.",
                   "color": "white",
                   "italic": true
                 }
@@ -6477,10 +6477,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Rabbit",
+              "itemName": "Tender Spiced Forest Hare",
               "loreJson": [
                 {
-                  "text": "The lean meat has cooked firm, a small portion still useful in a stew. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Basted in herbs and rendered lard, turning lean woodland hare into a succulent, mouthwatering roast of exceptional softness.",
                   "color": "green",
                   "italic": true
                 }
@@ -6529,10 +6529,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Rabbit",
+              "itemName": "Dry-aged Roast Hare",
               "loreJson": [
                 {
-                  "text": "The lean meat has cooked firm, a small portion still useful in a stew. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Having cooled into dry strips, this lean game meat requires slow chewing or a dunk in boiling broth to unlock its fuel.",
                   "color": "gray",
                   "italic": true
                 }
@@ -6589,10 +6589,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Rabbit",
+              "itemName": "Campfire Roast Hare",
               "loreJson": [
                 {
-                  "text": "The lean meat has cooked firm, a small portion still useful in a stew. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Skewered on a hazel branch over glowing coals, offering a clean, gamey mouthful for quiet scouts on lone patrol.",
                   "color": "white",
                   "italic": true
                 }
@@ -6636,10 +6636,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Rabbit",
+              "itemName": "Tender Spiced Forest Hare",
               "loreJson": [
                 {
-                  "text": "The lean meat has cooked firm, a small portion still useful in a stew. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Basted in herbs and rendered lard, turning lean woodland hare into a succulent, mouthwatering roast of exceptional softness.",
                   "color": "green",
                   "italic": true
                 }
@@ -6689,7 +6689,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Cooking firms the orange flesh, with a thin film of oil keeping it from drying out.",
+          "text": "A thick slab of cold-water salmon seared to a radiant orange, its rich natural oils keeping the flaked meat succulent and hearty.",
           "color": "gray",
           "italic": true
         }
@@ -6719,10 +6719,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Salmon",
+              "itemName": "Cold Cured Salmon",
               "loreJson": [
                 {
-                  "text": "Cooking firms the orange flesh, with a thin film of oil keeping it from drying out. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Cooled and dried in the rucksack, its orange fat has set into a firm coat. Highly nutritious, if a little stiff on the jaw.",
                   "color": "gray",
                   "italic": true
                 }
@@ -6779,10 +6779,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Salmon",
+              "itemName": "Hearth-baked Red Salmon",
               "loreJson": [
                 {
-                  "text": "Cooking firms the orange flesh, with a thin film of oil keeping it from drying out. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Baked across hot stones until the rich orange flakes separate smoothly, rich with natural omega oils and timber smoke.",
                   "color": "white",
                   "italic": true
                 }
@@ -6826,10 +6826,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Salmon",
+              "itemName": "Glazed Royal Red Salmon",
               "loreJson": [
                 {
-                  "text": "Cooking firms the orange flesh, with a thin film of oil keeping it from drying out. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "A masterwork of the hearth, featuring a wafer-thin caramelized skin and meltingly tender, ruby-rich flakes of prime arctic fish.",
                   "color": "green",
                   "italic": true
                 }
@@ -6878,10 +6878,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Salmon",
+              "itemName": "Cold Cured Salmon",
               "loreJson": [
                 {
-                  "text": "Cooking firms the orange flesh, with a thin film of oil keeping it from drying out. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Cooled and dried in the rucksack, its orange fat has set into a firm coat. Highly nutritious, if a little stiff on the jaw.",
                   "color": "gray",
                   "italic": true
                 }
@@ -6938,10 +6938,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Salmon",
+              "itemName": "Hearth-baked Red Salmon",
               "loreJson": [
                 {
-                  "text": "Cooking firms the orange flesh, with a thin film of oil keeping it from drying out. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Baked across hot stones until the rich orange flakes separate smoothly, rich with natural omega oils and timber smoke.",
                   "color": "white",
                   "italic": true
                 }
@@ -6985,10 +6985,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Salmon",
+              "itemName": "Glazed Royal Red Salmon",
               "loreJson": [
                 {
-                  "text": "Cooking firms the orange flesh, with a thin film of oil keeping it from drying out. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "A masterwork of the hearth, featuring a wafer-thin caramelized skin and meltingly tender, ruby-rich flakes of prime arctic fish.",
                   "color": "green",
                   "italic": true
                 }
@@ -7037,10 +7037,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Salmon",
+              "itemName": "Cold Cured Salmon",
               "loreJson": [
                 {
-                  "text": "Cooking firms the orange flesh, with a thin film of oil keeping it from drying out. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Cooled and dried in the rucksack, its orange fat has set into a firm coat. Highly nutritious, if a little stiff on the jaw.",
                   "color": "gray",
                   "italic": true
                 }
@@ -7097,10 +7097,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Salmon",
+              "itemName": "Hearth-baked Red Salmon",
               "loreJson": [
                 {
-                  "text": "Cooking firms the orange flesh, with a thin film of oil keeping it from drying out. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Baked across hot stones until the rich orange flakes separate smoothly, rich with natural omega oils and timber smoke.",
                   "color": "white",
                   "italic": true
                 }
@@ -7144,10 +7144,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Salmon",
+              "itemName": "Glazed Royal Red Salmon",
               "loreJson": [
                 {
-                  "text": "Cooking firms the orange flesh, with a thin film of oil keeping it from drying out. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "A masterwork of the hearth, featuring a wafer-thin caramelized skin and meltingly tender, ruby-rich flakes of prime arctic fish.",
                   "color": "green",
                   "italic": true
                 }
@@ -7214,10 +7214,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cooked Salmon",
+              "itemName": "Cold Cured Salmon",
               "loreJson": [
                 {
-                  "text": "Cooking firms the orange flesh, with a thin film of oil keeping it from drying out. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Cooled and dried in the rucksack, its orange fat has set into a firm coat. Highly nutritious, if a little stiff on the jaw.",
                   "color": "gray",
                   "italic": true
                 }
@@ -7274,10 +7274,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cooked Salmon",
+              "itemName": "Hearth-baked Red Salmon",
               "loreJson": [
                 {
-                  "text": "Cooking firms the orange flesh, with a thin film of oil keeping it from drying out. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Baked across hot stones until the rich orange flakes separate smoothly, rich with natural omega oils and timber smoke.",
                   "color": "white",
                   "italic": true
                 }
@@ -7321,10 +7321,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cooked Salmon",
+              "itemName": "Glazed Royal Red Salmon",
               "loreJson": [
                 {
-                  "text": "Cooking firms the orange flesh, with a thin film of oil keeping it from drying out. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "A masterwork of the hearth, featuring a wafer-thin caramelized skin and meltingly tender, ruby-rich flakes of prime arctic fish.",
                   "color": "green",
                   "italic": true
                 }
@@ -7356,7 +7356,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Cocoa flecks sit in the little biscuit, crisp but small enough for only a quick bite.",
+          "text": "A small, golden-baked biscuit studded with dark cocoa nibs, offering a crisp, sweet bite that fits easily in a traveling pouch.",
           "color": "gray",
           "italic": true
         }
@@ -7386,10 +7386,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cookie",
+              "itemName": "Brittle Dry Cookie",
               "loreJson": [
                 {
-                  "text": "Cocoa flecks sit in the little biscuit, crisp but small enough for only a quick bite. Dry edges shed crumbs at a touch, still serviceable as provisions for the road.",
+                  "text": "Stiff and shedding dusty crumbs at a touch, though the dark cocoa flecks within still deliver a comforting whisper of sugar.",
                   "color": "gray",
                   "italic": true
                 }
@@ -7446,10 +7446,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cookie",
+              "itemName": "Crisp Cocoa Biscuit",
               "loreJson": [
                 {
-                  "text": "Cocoa flecks sit in the little biscuit, crisp but small enough for only a quick bite. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Baked to a dry, pleasant snap, balancing the earthiness of whole wheat with the rich luxury of roasted chocolate bits.",
                   "color": "white",
                   "italic": true
                 }
@@ -7493,10 +7493,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cookie",
+              "itemName": "Melt-in-Mouth Fudge Cookie",
               "loreJson": [
                 {
-                  "text": "Cocoa flecks sit in the little biscuit, crisp but small enough for only a quick bite. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "An opulent, buttery confection baked with generous dark cocoa chunks that soften into warm velvet richness upon the tongue.",
                   "color": "green",
                   "italic": true
                 }
@@ -7563,10 +7563,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cookie",
+              "itemName": "Brittle Dry Cookie",
               "loreJson": [
                 {
-                  "text": "Cocoa flecks sit in the little biscuit, crisp but small enough for only a quick bite. Dry edges shed crumbs at a touch, still serviceable as provisions for the road.",
+                  "text": "Stiff and shedding dusty crumbs at a touch, though the dark cocoa flecks within still deliver a comforting whisper of sugar.",
                   "color": "gray",
                   "italic": true
                 }
@@ -7623,10 +7623,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cookie",
+              "itemName": "Crisp Cocoa Biscuit",
               "loreJson": [
                 {
-                  "text": "Cocoa flecks sit in the little biscuit, crisp but small enough for only a quick bite. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Baked to a dry, pleasant snap, balancing the earthiness of whole wheat with the rich luxury of roasted chocolate bits.",
                   "color": "white",
                   "italic": true
                 }
@@ -7670,10 +7670,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cookie",
+              "itemName": "Melt-in-Mouth Fudge Cookie",
               "loreJson": [
                 {
-                  "text": "Cocoa flecks sit in the little biscuit, crisp but small enough for only a quick bite. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "An opulent, buttery confection baked with generous dark cocoa chunks that soften into warm velvet richness upon the tongue.",
                   "color": "green",
                   "italic": true
                 }
@@ -7722,10 +7722,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Cookie",
+              "itemName": "Brittle Dry Cookie",
               "loreJson": [
                 {
-                  "text": "Cocoa flecks sit in the little biscuit, crisp but small enough for only a quick bite. Dry edges shed crumbs at a touch, still serviceable as provisions for the road.",
+                  "text": "Stiff and shedding dusty crumbs at a touch, though the dark cocoa flecks within still deliver a comforting whisper of sugar.",
                   "color": "gray",
                   "italic": true
                 }
@@ -7782,10 +7782,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Cookie",
+              "itemName": "Crisp Cocoa Biscuit",
               "loreJson": [
                 {
-                  "text": "Cocoa flecks sit in the little biscuit, crisp but small enough for only a quick bite. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Baked to a dry, pleasant snap, balancing the earthiness of whole wheat with the rich luxury of roasted chocolate bits.",
                   "color": "white",
                   "italic": true
                 }
@@ -7829,10 +7829,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Cookie",
+              "itemName": "Melt-in-Mouth Fudge Cookie",
               "loreJson": [
                 {
-                  "text": "Cocoa flecks sit in the little biscuit, crisp but small enough for only a quick bite. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "An opulent, buttery confection baked with generous dark cocoa chunks that soften into warm velvet richness upon the tongue.",
                   "color": "green",
                   "italic": true
                 }
@@ -7864,7 +7864,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin blades dry wrinkled and crisp, quick to chew but needed in numbers when hungry.",
+          "text": "Sun-scorched ocean kelp curled into crisp, salty ribbons, lightweight and ready for immediate chewing on dusty marches.",
           "color": "gray",
           "italic": true
         }
@@ -7894,10 +7894,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Dried Kelp",
+              "itemName": "Brittle Desiccated Kelp",
               "loreJson": [
                 {
-                  "text": "Thin blades dry wrinkled and crisp, quick to chew but needed in numbers when hungry. Dry edges shed crumbs at a touch, still serviceable as provisions for the road.",
+                  "text": "Broken into brittle shards from long days in the rucksack. Salty and dry, it demands water to swallow, but still wards off hunger.",
                   "color": "gray",
                   "italic": true
                 }
@@ -7954,10 +7954,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Dried Kelp",
+              "itemName": "Crisp Salted Kelp",
               "loreJson": [
                 {
-                  "text": "Thin blades dry wrinkled and crisp, quick to chew but needed in numbers when hungry. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Roasted to a clean, chewy snap with a dusting of natural sea salt, offering quick maritime nourishment on long voyages.",
                   "color": "white",
                   "italic": true
                 }
@@ -8001,10 +8001,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Dried Kelp",
+              "itemName": "Golden Roasted Kelp Wafer",
               "loreJson": [
                 {
-                  "text": "Thin blades dry wrinkled and crisp, quick to chew but needed in numbers when hungry. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "Tender kelp fronds toasted to golden crispness, melting across the tongue with a sweet, umami-rich sea crunch.",
                   "color": "green",
                   "italic": true
                 }
@@ -8071,10 +8071,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Dried Kelp",
+              "itemName": "Brittle Desiccated Kelp",
               "loreJson": [
                 {
-                  "text": "Thin blades dry wrinkled and crisp, quick to chew but needed in numbers when hungry. Dry edges shed crumbs at a touch, still serviceable as provisions for the road.",
+                  "text": "Broken into brittle shards from long days in the rucksack. Salty and dry, it demands water to swallow, but still wards off hunger.",
                   "color": "gray",
                   "italic": true
                 }
@@ -8131,10 +8131,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Dried Kelp",
+              "itemName": "Crisp Salted Kelp",
               "loreJson": [
                 {
-                  "text": "Thin blades dry wrinkled and crisp, quick to chew but needed in numbers when hungry. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Roasted to a clean, chewy snap with a dusting of natural sea salt, offering quick maritime nourishment on long voyages.",
                   "color": "white",
                   "italic": true
                 }
@@ -8178,10 +8178,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Dried Kelp",
+              "itemName": "Golden Roasted Kelp Wafer",
               "loreJson": [
                 {
-                  "text": "Thin blades dry wrinkled and crisp, quick to chew but needed in numbers when hungry. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "Tender kelp fronds toasted to golden crispness, melting across the tongue with a sweet, umami-rich sea crunch.",
                   "color": "green",
                   "italic": true
                 }
@@ -8231,7 +8231,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin hard shell holds the egg, useful in baking or occasionally hatching when thrown.",
+          "text": "A smooth-shelled egg laid by farm hens, essential for rich cake batter or hurled into the field to hatch newborn chicks.",
           "color": "gray",
           "italic": true
         }
@@ -8242,7 +8242,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin orange-yellow skins hold a soft glow, still a small snack once picked.",
+          "text": "Luminous orange berries plucked from cave vines, bursting with sweet juice and casting a cozy, golden radiance in the darkness.",
           "color": "gray",
           "italic": true
         }
@@ -8272,10 +8272,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Glow Berries",
+              "itemName": "Dimmed Dried Glow Berries",
               "loreJson": [
                 {
-                  "text": "Thin orange-yellow skins hold a soft glow, still a small snack once picked. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Shriveled from days in the rucksack, their orange glow fading to a faint ember. Still yields a modest, sweet mouthful to stave off hunger.",
                   "color": "gray",
                   "italic": true
                 }
@@ -8332,10 +8332,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Glow Berries",
+              "itemName": "Luminescent Cave Berries",
               "loreJson": [
                 {
-                  "text": "Thin orange-yellow skins hold a soft glow, still a small snack once picked. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Plump and glowing brightly with cave-born light, offering crisp, juicy sweetness that quenches thirst on deep underground treks.",
                   "color": "white",
                   "italic": true
                 }
@@ -8379,10 +8379,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Glow Berries",
+              "itemName": "Radiant Sun-Drop Berries",
               "loreJson": [
                 {
-                  "text": "Thin orange-yellow skins hold a soft glow, still a small snack once picked. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "A prize cluster harvested from ancient boughs, glowing with blazing amber brilliance and bursting with luscious, nectar-rich flavor.",
                   "color": "green",
                   "italic": true
                 }
@@ -8431,10 +8431,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Glow Berries",
+              "itemName": "Dimmed Dried Glow Berries",
               "loreJson": [
                 {
-                  "text": "Thin orange-yellow skins hold a soft glow, still a small snack once picked. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Shriveled from days in the rucksack, their orange glow fading to a faint ember. Still yields a modest, sweet mouthful to stave off hunger.",
                   "color": "gray",
                   "italic": true
                 }
@@ -8491,10 +8491,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Glow Berries",
+              "itemName": "Luminescent Cave Berries",
               "loreJson": [
                 {
-                  "text": "Thin orange-yellow skins hold a soft glow, still a small snack once picked. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Plump and glowing brightly with cave-born light, offering crisp, juicy sweetness that quenches thirst on deep underground treks.",
                   "color": "white",
                   "italic": true
                 }
@@ -8538,10 +8538,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Glow Berries",
+              "itemName": "Radiant Sun-Drop Berries",
               "loreJson": [
                 {
-                  "text": "Thin orange-yellow skins hold a soft glow, still a small snack once picked. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "A prize cluster harvested from ancient boughs, glowing with blazing amber brilliance and bursting with luscious, nectar-rich flavor.",
                   "color": "green",
                   "italic": true
                 }
@@ -8590,10 +8590,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Glow Berries",
+              "itemName": "Dimmed Dried Glow Berries",
               "loreJson": [
                 {
-                  "text": "Thin orange-yellow skins hold a soft glow, still a small snack once picked. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Shriveled from days in the rucksack, their orange glow fading to a faint ember. Still yields a modest, sweet mouthful to stave off hunger.",
                   "color": "gray",
                   "italic": true
                 }
@@ -8650,10 +8650,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Glow Berries",
+              "itemName": "Luminescent Cave Berries",
               "loreJson": [
                 {
-                  "text": "Thin orange-yellow skins hold a soft glow, still a small snack once picked. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Plump and glowing brightly with cave-born light, offering crisp, juicy sweetness that quenches thirst on deep underground treks.",
                   "color": "white",
                   "italic": true
                 }
@@ -8697,10 +8697,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Glow Berries",
+              "itemName": "Radiant Sun-Drop Berries",
               "loreJson": [
                 {
-                  "text": "Thin orange-yellow skins hold a soft glow, still a small snack once picked. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "A prize cluster harvested from ancient boughs, glowing with blazing amber brilliance and bursting with luscious, nectar-rich flavor.",
                   "color": "green",
                   "italic": true
                 }
@@ -8732,7 +8732,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Golden honey slowly coats the glass, sweet and leaving the bottle available afterward.",
+          "text": "A clear vial filled with sweet, slow-flowing golden honey, soothing a parched throat while cleansing the blood of virulent poisons.",
           "color": "gray",
           "italic": true
         }
@@ -8762,10 +8762,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Honey Bottle",
+              "itemName": "Crystallized Honey Bottle",
               "loreJson": [
                 {
-                  "text": "Golden honey slowly coats the glass, sweet and leaving the bottle available afterward. Cloudy sediment and a sour note disturb the scent, and it no longer pours evenly.",
+                  "text": "Thickened with fine sugar crystals along the glass base. Slow to pour, yet retaining its pure, floral sweetness against the march of time.",
                   "color": "gray",
                   "italic": true
                 }
@@ -8822,10 +8822,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Honey Bottle",
+              "itemName": "Wildflower Honey Bottle",
               "loreJson": [
                 {
-                  "text": "Golden honey slowly coats the glass, sweet and leaving the bottle available afterward. Honey slowly coats the glass above a few crystals, keeping its clean sweetness.",
+                  "text": "Golden and free of sediment, pouring with a rich amber ribbon that fills the room with the sweet fragrance of summer meadows.",
                   "color": "white",
                   "italic": true
                 }
@@ -8869,10 +8869,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Honey Bottle",
+              "itemName": "Royal Amber Nectar Bottle",
               "loreJson": [
                 {
-                  "text": "Golden honey slowly coats the glass, sweet and leaving the bottle available afterward. Clear honey draws into fine threads, releasing a sealed floral scent as the bottle opens.",
+                  "text": "A prize draught harvested from the queen's own comb, radiant as liquid sunlight, soothing wounds and clearing venom with miraculous speed.",
                   "color": "green",
                   "italic": true
                 }
@@ -8939,10 +8939,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Honey Bottle",
+              "itemName": "Crystallized Honey Bottle",
               "loreJson": [
                 {
-                  "text": "Golden honey slowly coats the glass, sweet and leaving the bottle available afterward. Cloudy sediment and a sour note disturb the scent, and it no longer pours evenly.",
+                  "text": "Thickened with fine sugar crystals along the glass base. Slow to pour, yet retaining its pure, floral sweetness against the march of time.",
                   "color": "gray",
                   "italic": true
                 }
@@ -8999,10 +8999,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Honey Bottle",
+              "itemName": "Wildflower Honey Bottle",
               "loreJson": [
                 {
-                  "text": "Golden honey slowly coats the glass, sweet and leaving the bottle available afterward. Honey slowly coats the glass above a few crystals, keeping its clean sweetness.",
+                  "text": "Golden and free of sediment, pouring with a rich amber ribbon that fills the room with the sweet fragrance of summer meadows.",
                   "color": "white",
                   "italic": true
                 }
@@ -9046,10 +9046,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Honey Bottle",
+              "itemName": "Royal Amber Nectar Bottle",
               "loreJson": [
                 {
-                  "text": "Golden honey slowly coats the glass, sweet and leaving the bottle available afterward. Clear honey draws into fine threads, releasing a sealed floral scent as the bottle opens.",
+                  "text": "A prize draught harvested from the queen's own comb, radiant as liquid sunlight, soothing wounds and clearing venom with miraculous speed.",
                   "color": "green",
                   "italic": true
                 }
@@ -9098,10 +9098,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Honey Bottle",
+              "itemName": "Crystallized Honey Bottle",
               "loreJson": [
                 {
-                  "text": "Golden honey slowly coats the glass, sweet and leaving the bottle available afterward. Cloudy sediment and a sour note disturb the scent, and it no longer pours evenly.",
+                  "text": "Thickened with fine sugar crystals along the glass base. Slow to pour, yet retaining its pure, floral sweetness against the march of time.",
                   "color": "gray",
                   "italic": true
                 }
@@ -9158,10 +9158,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Honey Bottle",
+              "itemName": "Wildflower Honey Bottle",
               "loreJson": [
                 {
-                  "text": "Golden honey slowly coats the glass, sweet and leaving the bottle available afterward. Honey slowly coats the glass above a few crystals, keeping its clean sweetness.",
+                  "text": "Golden and free of sediment, pouring with a rich amber ribbon that fills the room with the sweet fragrance of summer meadows.",
                   "color": "white",
                   "italic": true
                 }
@@ -9205,10 +9205,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Honey Bottle",
+              "itemName": "Royal Amber Nectar Bottle",
               "loreJson": [
                 {
-                  "text": "Golden honey slowly coats the glass, sweet and leaving the bottle available afterward. Clear honey draws into fine threads, releasing a sealed floral scent as the bottle opens.",
+                  "text": "A prize draught harvested from the queen's own comb, radiant as liquid sunlight, soothing wounds and clearing venom with miraculous speed.",
                   "color": "green",
                   "italic": true
                 }
@@ -9240,7 +9240,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin rind holds juicy red flesh, refreshing but short of a full meal.",
+          "text": "A crescent of juicy red melon flesh resting on a green rind, offering quick, thirst-quenching sweetness along the road.",
           "color": "gray",
           "italic": true
         }
@@ -9270,10 +9270,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Melon Slice",
+              "itemName": "Dried Melon Slice",
               "loreJson": [
                 {
-                  "text": "A thin rind holds juicy red flesh, refreshing but short of a full meal. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Left long in the rucksack, its red flesh has shriveled and lost its crisp crunch. Sticky and soft, but still provides sugary fuel.",
                   "color": "gray",
                   "italic": true
                 }
@@ -9330,10 +9330,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Melon Slice",
+              "itemName": "Fresh Melon Slice",
               "loreJson": [
                 {
-                  "text": "A thin rind holds juicy red flesh, refreshing but short of a full meal. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Sliced fresh from a heavy gourd, dripping with clear, cool juice that instantly revives a parched throat on dusty trails.",
                   "color": "white",
                   "italic": true
                 }
@@ -9377,10 +9377,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Melon Slice",
+              "itemName": "Sugar-frost Prime Melon Slice",
               "loreJson": [
                 {
-                  "text": "A thin rind holds juicy red flesh, refreshing but short of a full meal. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "A prize cut from the sun-drenched heart of a champion melon, seedless and bursting with honey-sweet nectar of unmatched perfection.",
                   "color": "green",
                   "italic": true
                 }
@@ -9412,7 +9412,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Two kinds of mushroom sit in brown broth, a full bowl making a simple meal.",
+          "text": "A wooden bowl filled with steaming broth brewed from red and brown mushrooms, rich and savory to restore weary wanderers.",
           "color": "gray",
           "italic": true
         }
@@ -9442,10 +9442,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Mushroom Stew",
+              "itemName": "Cold Separated Mushroom Stew",
               "loreJson": [
                 {
-                  "text": "Two kinds of mushroom sit in brown broth, a full bowl making a simple meal. Set fat films the surface and the pieces at the bottom have softened past their best.",
+                  "text": "Left long in the pack, its broth has separated and the mushroom bits have softened. A quick warm-up over coals restores its rustic fuel.",
                   "color": "gray",
                   "italic": true
                 }
@@ -9502,10 +9502,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Mushroom Stew",
+              "itemName": "Hearth-simmered Mushroom Stew",
               "loreJson": [
                 {
-                  "text": "Two kinds of mushroom sit in brown broth, a full bowl making a simple meal. The broth still holds its ingredients together, releasing their separate scents when stirred.",
+                  "text": "Simmered fresh over fragrant campfire coals, its rich, earthy aroma filling the night air with deep, savory comfort.",
                   "color": "white",
                   "italic": true
                 }
@@ -9549,10 +9549,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Mushroom Stew",
+              "itemName": "Master Chef's Forest Velvet Stew",
               "loreJson": [
                 {
-                  "text": "Two kinds of mushroom sit in brown broth, a full bowl making a simple meal. A clean broth carries ingredients cooked tender without falling apart.",
+                  "text": "A culinary triumph of the woods, boiling prime young caps into a velvet potage that revives the spirit and warms the marrow.",
                   "color": "green",
                   "italic": true
                 }
@@ -9619,10 +9619,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Mushroom Stew",
+              "itemName": "Cold Separated Mushroom Stew",
               "loreJson": [
                 {
-                  "text": "Two kinds of mushroom sit in brown broth, a full bowl making a simple meal. Set fat films the surface and the pieces at the bottom have softened past their best.",
+                  "text": "Left long in the pack, its broth has separated and the mushroom bits have softened. A quick warm-up over coals restores its rustic fuel.",
                   "color": "gray",
                   "italic": true
                 }
@@ -9679,10 +9679,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Mushroom Stew",
+              "itemName": "Hearth-simmered Mushroom Stew",
               "loreJson": [
                 {
-                  "text": "Two kinds of mushroom sit in brown broth, a full bowl making a simple meal. The broth still holds its ingredients together, releasing their separate scents when stirred.",
+                  "text": "Simmered fresh over fragrant campfire coals, its rich, earthy aroma filling the night air with deep, savory comfort.",
                   "color": "white",
                   "italic": true
                 }
@@ -9726,10 +9726,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Mushroom Stew",
+              "itemName": "Master Chef's Forest Velvet Stew",
               "loreJson": [
                 {
-                  "text": "Two kinds of mushroom sit in brown broth, a full bowl making a simple meal. A clean broth carries ingredients cooked tender without falling apart.",
+                  "text": "A culinary triumph of the woods, boiling prime young caps into a velvet potage that revives the spirit and warms the marrow.",
                   "color": "green",
                   "italic": true
                 }
@@ -9761,7 +9761,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "White fat runs through the red meat and brings out its flavour over a fire.",
+          "text": "Dense red muscle trimmed from mountain sheep, rich with pasture scent and fatty ribbons that promise hearty warmth once brought before the fire.",
           "color": "gray",
           "italic": true
         }
@@ -9791,10 +9791,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Mutton",
+              "itemName": "Darkened Dry-aged Mutton",
               "loreJson": [
                 {
-                  "text": "White fat runs through the red meat and brings out its flavour over a fire. The cut is dark and its juices tacky; even an empty stomach calls for a careful sniff.",
+                  "text": "Left unchilled in the rucksack, its edges have hardened into a dark crust and its gamey scent deepened. Demands thorough roasting over glowing coals.",
                   "color": "gray",
                   "italic": true
                 }
@@ -9851,10 +9851,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Mutton",
+              "itemName": "Dressed Raw Mutton",
               "loreJson": [
                 {
-                  "text": "White fat runs through the red meat and brings out its flavour over a fire. The flesh has kept its colour and the membrane is moist, though it remains raw until cooked.",
+                  "text": "Cleanly butchered with bright red grain and moist white fat, ready to take coarse salt and sizzle cheerfully over campfire embers.",
                   "color": "white",
                   "italic": true
                 }
@@ -9898,10 +9898,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Mutton",
+              "itemName": "Prime Tender Lamb Cutlet",
               "loreJson": [
                 {
-                  "text": "White fat runs through the red meat and brings out its flavour over a fire. Firm flesh and clear juices make this a cut worth taking straight to the fire.",
+                  "text": "A prize cut of spring lamb streaked with delicate sweet fat, remarkably tender and sweet, fit for the banquet table of a mountain lord.",
                   "color": "green",
                   "italic": true
                 }
@@ -9950,10 +9950,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Mutton",
+              "itemName": "Darkened Dry-aged Mutton",
               "loreJson": [
                 {
-                  "text": "White fat runs through the red meat and brings out its flavour over a fire. The cut is dark and its juices tacky; even an empty stomach calls for a careful sniff.",
+                  "text": "Left unchilled in the rucksack, its edges have hardened into a dark crust and its gamey scent deepened. Demands thorough roasting over glowing coals.",
                   "color": "gray",
                   "italic": true
                 }
@@ -10010,10 +10010,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Mutton",
+              "itemName": "Dressed Raw Mutton",
               "loreJson": [
                 {
-                  "text": "White fat runs through the red meat and brings out its flavour over a fire. The flesh has kept its colour and the membrane is moist, though it remains raw until cooked.",
+                  "text": "Cleanly butchered with bright red grain and moist white fat, ready to take coarse salt and sizzle cheerfully over campfire embers.",
                   "color": "white",
                   "italic": true
                 }
@@ -10057,10 +10057,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Mutton",
+              "itemName": "Prime Tender Lamb Cutlet",
               "loreJson": [
                 {
-                  "text": "White fat runs through the red meat and brings out its flavour over a fire. Firm flesh and clear juices make this a cut worth taking straight to the fire.",
+                  "text": "A prize cut of spring lamb streaked with delicate sweet fat, remarkably tender and sweet, fit for the banquet table of a mountain lord.",
                   "color": "green",
                   "italic": true
                 }
@@ -10092,7 +10092,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Green patches show through the skin and spoil the cut, a poor substitute for an ordinary potato.",
+          "text": "A blighted, green-skinned potato harboring bitter toxins, causing nausea and sickening poison if eaten in desperation.",
           "color": "gray",
           "italic": true
         }
@@ -10423,7 +10423,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The popped shell is light and crisp, useful for purpur work rather than a meal.",
+          "text": "A chorus fruit popped and dried over furnace coals, its spatial hum stilled into a resilient, leather-like husk for End rods and purpur.",
           "color": "gray",
           "italic": true
         }
@@ -10434,7 +10434,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A ring of white fat borders the thick cut, a filling meal once cooked.",
+          "text": "A thick, freshly cut pork chop bordered with rich white rind, tender and ready to sizzle into a savory, filling feast over open embers.",
           "color": "gray",
           "italic": true
         }
@@ -10464,10 +10464,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Porkchop",
+              "itemName": "Tacky Raw Porkchop",
               "loreJson": [
                 {
-                  "text": "A ring of white fat borders the thick cut, a filling meal once cooked. The cut is dark and its juices tacky; even an empty stomach calls for a careful sniff.",
+                  "text": "Left unchilled for days, its surface has turned tacky with dull, darkened fat. Only a thorough sear over high flames makes it fit for trail rations.",
                   "color": "gray",
                   "italic": true
                 }
@@ -10524,10 +10524,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Porkchop",
+              "itemName": "Dressed Raw Porkchop",
               "loreJson": [
                 {
-                  "text": "A ring of white fat borders the thick cut, a filling meal once cooked. The flesh has kept its colour and the membrane is moist, though it remains raw until cooked.",
+                  "text": "Cleanly butchered with moist red muscle and clean fat, ready to take the salt and roast into an honest, hearty roadside meal.",
                   "color": "white",
                   "italic": true
                 }
@@ -10571,10 +10571,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Porkchop",
+              "itemName": "Prime Marbled Pork Cutlet",
               "loreJson": [
                 {
-                  "text": "A ring of white fat borders the thick cut, a filling meal once cooked. Firm flesh and clear juices make this a cut worth taking straight to the fire.",
+                  "text": "A prize cut streaked with sweet, succulent fat, promising melting tenderness and rich, crackling savory juices once kissed by flame.",
                   "color": "green",
                   "italic": true
                 }
@@ -10623,10 +10623,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Porkchop",
+              "itemName": "Tacky Raw Porkchop",
               "loreJson": [
                 {
-                  "text": "A ring of white fat borders the thick cut, a filling meal once cooked. The cut is dark and its juices tacky; even an empty stomach calls for a careful sniff.",
+                  "text": "Left unchilled for days, its surface has turned tacky with dull, darkened fat. Only a thorough sear over high flames makes it fit for trail rations.",
                   "color": "gray",
                   "italic": true
                 }
@@ -10683,10 +10683,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Porkchop",
+              "itemName": "Dressed Raw Porkchop",
               "loreJson": [
                 {
-                  "text": "A ring of white fat borders the thick cut, a filling meal once cooked. The flesh has kept its colour and the membrane is moist, though it remains raw until cooked.",
+                  "text": "Cleanly butchered with moist red muscle and clean fat, ready to take the salt and roast into an honest, hearty roadside meal.",
                   "color": "white",
                   "italic": true
                 }
@@ -10730,10 +10730,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Porkchop",
+              "itemName": "Prime Marbled Pork Cutlet",
               "loreJson": [
                 {
-                  "text": "A ring of white fat borders the thick cut, a filling meal once cooked. Firm flesh and clear juices make this a cut worth taking straight to the fire.",
+                  "text": "A prize cut streaked with sweet, succulent fat, promising melting tenderness and rich, crackling savory juices once kissed by flame.",
                   "color": "green",
                   "italic": true
                 }
@@ -10765,7 +10765,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin brown skin surrounds firm flesh that improves considerably in a furnace.",
+          "text": "An earthy, firm potato unearthed from damp furrows, packed with solid starch to sustain weary travelers raw or slow-baked in embers.",
           "color": "gray",
           "italic": true
         }
@@ -10795,10 +10795,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Potato",
+              "itemName": "Shriveled Potato",
               "loreJson": [
                 {
-                  "text": "Thin brown skin surrounds firm flesh that improves considerably in a furnace. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Stored long in the dark, its skin is soft and wrinkled. Though shrunken with age, it still yields honest, life-sustaining starch when cooked.",
                   "color": "gray",
                   "italic": true
                 }
@@ -10855,10 +10855,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Potato",
+              "itemName": "Fresh-dug Potato",
               "loreJson": [
                 {
-                  "text": "Thin brown skin surrounds firm flesh that improves considerably in a furnace. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Heavy in the palm with firm skin washed clean of loam, opening with a crisp, earthy snap that promises a fluffy, satisfying roast.",
                   "color": "white",
                   "italic": true
                 }
@@ -10902,10 +10902,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Potato",
+              "itemName": "Prime Butter-Skin Potato",
               "loreJson": [
                 {
-                  "text": "Thin brown skin surrounds firm flesh that improves considerably in a furnace. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "A champion tuber grown in rich composted soil, boasting thin golden skin and dense, creamy flesh that bakes to buttery perfection.",
                   "color": "green",
                   "italic": true
                 }
@@ -10954,10 +10954,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Potato",
+              "itemName": "Shriveled Potato",
               "loreJson": [
                 {
-                  "text": "Thin brown skin surrounds firm flesh that improves considerably in a furnace. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Stored long in the dark, its skin is soft and wrinkled. Though shrunken with age, it still yields honest, life-sustaining starch when cooked.",
                   "color": "gray",
                   "italic": true
                 }
@@ -11014,10 +11014,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Potato",
+              "itemName": "Fresh-dug Potato",
               "loreJson": [
                 {
-                  "text": "Thin brown skin surrounds firm flesh that improves considerably in a furnace. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Heavy in the palm with firm skin washed clean of loam, opening with a crisp, earthy snap that promises a fluffy, satisfying roast.",
                   "color": "white",
                   "italic": true
                 }
@@ -11061,10 +11061,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Potato",
+              "itemName": "Prime Butter-Skin Potato",
               "loreJson": [
                 {
-                  "text": "Thin brown skin surrounds firm flesh that improves considerably in a furnace. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "A champion tuber grown in rich composted soil, boasting thin golden skin and dense, creamy flesh that bakes to buttery perfection.",
                   "color": "green",
                   "italic": true
                 }
@@ -11113,10 +11113,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Potato",
+              "itemName": "Shriveled Potato",
               "loreJson": [
                 {
-                  "text": "Thin brown skin surrounds firm flesh that improves considerably in a furnace. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Stored long in the dark, its skin is soft and wrinkled. Though shrunken with age, it still yields honest, life-sustaining starch when cooked.",
                   "color": "gray",
                   "italic": true
                 }
@@ -11173,10 +11173,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Potato",
+              "itemName": "Fresh-dug Potato",
               "loreJson": [
                 {
-                  "text": "Thin brown skin surrounds firm flesh that improves considerably in a furnace. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Heavy in the palm with firm skin washed clean of loam, opening with a crisp, earthy snap that promises a fluffy, satisfying roast.",
                   "color": "white",
                   "italic": true
                 }
@@ -11220,10 +11220,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Potato",
+              "itemName": "Prime Butter-Skin Potato",
               "loreJson": [
                 {
-                  "text": "Thin brown skin surrounds firm flesh that improves considerably in a furnace. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "A champion tuber grown in rich composted soil, boasting thin golden skin and dense, creamy flesh that bakes to buttery perfection.",
                   "color": "green",
                   "italic": true
                 }
@@ -11255,7 +11255,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thick filling rests on a thin base, with a mild pumpkin sweetness and a substantial portion.",
+          "text": "A golden, flaky pie baked with spiced pumpkin custard, eggs, and sugar, filling the room with rich autumnal sweetness to restore stamina.",
           "color": "gray",
           "italic": true
         }
@@ -11285,10 +11285,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Pumpkin Pie",
+              "itemName": "Stiff Cold Pumpkin Pie",
               "loreJson": [
                 {
-                  "text": "Thick filling rests on a thin base, with a mild pumpkin sweetness and a substantial portion. Dry edges shed crumbs at a touch, still serviceable as provisions for the road.",
+                  "text": "Stored long in the traveling pack, its crust has dried stiff and the spiced filling darkened. Dense and heavy, but still honest trail fuel.",
                   "color": "gray",
                   "italic": true
                 }
@@ -11345,10 +11345,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Pumpkin Pie",
+              "itemName": "Hearth-baked Pumpkin Pie",
               "loreJson": [
                 {
-                  "text": "Thick filling rests on a thin base, with a mild pumpkin sweetness and a substantial portion. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Baked to a crisp golden crust over campfire embers, releasing a steaming plume of sweet, custard-rich pumpkin aroma with every slice.",
                   "color": "white",
                   "italic": true
                 }
@@ -11392,10 +11392,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Pumpkin Pie",
+              "itemName": "Royal Spiced Velvet Pumpkin Pie",
               "loreJson": [
                 {
-                  "text": "Thick filling rests on a thin base, with a mild pumpkin sweetness and a substantial portion. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "A culinary masterpiece of the autumn hearth, boasting a wafer-thin, buttery crust and a luscious, honey-spiced velvet custard that melts upon the tongue.",
                   "color": "green",
                   "italic": true
                 }
@@ -11444,10 +11444,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Pumpkin Pie",
+              "itemName": "Stiff Cold Pumpkin Pie",
               "loreJson": [
                 {
-                  "text": "Thick filling rests on a thin base, with a mild pumpkin sweetness and a substantial portion. Dry edges shed crumbs at a touch, still serviceable as provisions for the road.",
+                  "text": "Stored long in the traveling pack, its crust has dried stiff and the spiced filling darkened. Dense and heavy, but still honest trail fuel.",
                   "color": "gray",
                   "italic": true
                 }
@@ -11504,10 +11504,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Pumpkin Pie",
+              "itemName": "Hearth-baked Pumpkin Pie",
               "loreJson": [
                 {
-                  "text": "Thick filling rests on a thin base, with a mild pumpkin sweetness and a substantial portion. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Baked to a crisp golden crust over campfire embers, releasing a steaming plume of sweet, custard-rich pumpkin aroma with every slice.",
                   "color": "white",
                   "italic": true
                 }
@@ -11551,10 +11551,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Pumpkin Pie",
+              "itemName": "Royal Spiced Velvet Pumpkin Pie",
               "loreJson": [
                 {
-                  "text": "Thick filling rests on a thin base, with a mild pumpkin sweetness and a substantial portion. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "A culinary masterpiece of the autumn hearth, boasting a wafer-thin, buttery crust and a luscious, honey-spiced velvet custard that melts upon the tongue.",
                   "color": "green",
                   "italic": true
                 }
@@ -11621,10 +11621,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Pumpkin Pie",
+              "itemName": "Stiff Cold Pumpkin Pie",
               "loreJson": [
                 {
-                  "text": "Thick filling rests on a thin base, with a mild pumpkin sweetness and a substantial portion. Dry edges shed crumbs at a touch, still serviceable as provisions for the road.",
+                  "text": "Stored long in the traveling pack, its crust has dried stiff and the spiced filling darkened. Dense and heavy, but still honest trail fuel.",
                   "color": "gray",
                   "italic": true
                 }
@@ -11681,10 +11681,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Pumpkin Pie",
+              "itemName": "Hearth-baked Pumpkin Pie",
               "loreJson": [
                 {
-                  "text": "Thick filling rests on a thin base, with a mild pumpkin sweetness and a substantial portion. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Baked to a crisp golden crust over campfire embers, releasing a steaming plume of sweet, custard-rich pumpkin aroma with every slice.",
                   "color": "white",
                   "italic": true
                 }
@@ -11728,10 +11728,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Pumpkin Pie",
+              "itemName": "Royal Spiced Velvet Pumpkin Pie",
               "loreJson": [
                 {
-                  "text": "Thick filling rests on a thin base, with a mild pumpkin sweetness and a substantial portion. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "A culinary masterpiece of the autumn hearth, boasting a wafer-thin, buttery crust and a luscious, honey-spiced velvet custard that melts upon the tongue.",
                   "color": "green",
                   "italic": true
                 }
@@ -11780,10 +11780,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Pumpkin Pie",
+              "itemName": "Stiff Cold Pumpkin Pie",
               "loreJson": [
                 {
-                  "text": "Thick filling rests on a thin base, with a mild pumpkin sweetness and a substantial portion. Dry edges shed crumbs at a touch, still serviceable as provisions for the road.",
+                  "text": "Stored long in the traveling pack, its crust has dried stiff and the spiced filling darkened. Dense and heavy, but still honest trail fuel.",
                   "color": "gray",
                   "italic": true
                 }
@@ -11840,10 +11840,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Pumpkin Pie",
+              "itemName": "Hearth-baked Pumpkin Pie",
               "loreJson": [
                 {
-                  "text": "Thick filling rests on a thin base, with a mild pumpkin sweetness and a substantial portion. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Baked to a crisp golden crust over campfire embers, releasing a steaming plume of sweet, custard-rich pumpkin aroma with every slice.",
                   "color": "white",
                   "italic": true
                 }
@@ -11887,10 +11887,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Pumpkin Pie",
+              "itemName": "Royal Spiced Velvet Pumpkin Pie",
               "loreJson": [
                 {
-                  "text": "Thick filling rests on a thin base, with a mild pumpkin sweetness and a substantial portion. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "A culinary masterpiece of the autumn hearth, boasting a wafer-thin, buttery crust and a luscious, honey-spiced velvet custard that melts upon the tongue.",
                   "color": "green",
                   "italic": true
                 }
@@ -11922,7 +11922,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A little lean meat clings to fine bones, suitable for stew after cooking.",
+          "text": "Lean, tender game meat dressed from wild hares, delicate in grain and ready to be skewered over coals or simmered into rich stew.",
           "color": "gray",
           "italic": true
         }
@@ -11952,10 +11952,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Rabbit",
+              "itemName": "Darkened Raw Hare",
               "loreJson": [
                 {
-                  "text": "A little lean meat clings to fine bones, suitable for stew after cooking. The cut is dark and its juices tacky; even an empty stomach calls for a careful sniff.",
+                  "text": "Left unchilled in the rucksack, this lean meat has hardened into a dark, tacky strip. Demands thorough cooking over hot coals.",
                   "color": "gray",
                   "italic": true
                 }
@@ -12012,10 +12012,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Rabbit",
+              "itemName": "Dressed Raw Hare",
               "loreJson": [
                 {
-                  "text": "A little lean meat clings to fine bones, suitable for stew after cooking. The flesh has kept its colour and the membrane is moist, though it remains raw until cooked.",
+                  "text": "Cleanly skinned and butchered with moist, pale muscle, ready to take a pinch of salt and roast into an honest hunter's meal.",
                   "color": "white",
                   "italic": true
                 }
@@ -12059,10 +12059,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Rabbit",
+              "itemName": "Prime Tender Forest Hare",
               "loreJson": [
                 {
-                  "text": "A little lean meat clings to fine bones, suitable for stew after cooking. Firm flesh and clear juices make this a cut worth taking straight to the fire.",
+                  "text": "A prize cut of woodland game, remarkably succulent and sweet, fit to be braised in vintage wine for a mountain lord's table.",
                   "color": "green",
                   "italic": true
                 }
@@ -12094,7 +12094,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Meat, mushrooms and vegetables fill the bowl, enough to support a long stretch of travel.",
+          "text": "A generous wooden bowl brimming with tender hare, roasted potatoes, carrots, and wild mushrooms, offering supreme, hearty sustenance.",
           "color": "gray",
           "italic": true
         }
@@ -12124,10 +12124,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Rabbit Stew",
+              "itemName": "Cold Congealed Rabbit Stew",
               "loreJson": [
                 {
-                  "text": "Meat, mushrooms and vegetables fill the bowl, enough to support a long stretch of travel. Set fat films the surface and the pieces at the bottom have softened past their best.",
+                  "text": "Left long from the hearth, its rich broth has congealed into thick gravy. A quick reheat over camp coals awakens its hearty calories.",
                   "color": "gray",
                   "italic": true
                 }
@@ -12184,10 +12184,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Rabbit Stew",
+              "itemName": "Hunter's Hearth Rabbit Stew",
               "loreJson": [
                 {
-                  "text": "Meat, mushrooms and vegetables fill the bowl, enough to support a long stretch of travel. The broth still holds its ingredients together, releasing their separate scents when stirred.",
+                  "text": "Simmered fresh over fragrant campfire coals, its rich, gamey broth and tender garden vegetables providing unmatched comfort in the wild.",
                   "color": "white",
                   "italic": true
                 }
@@ -12231,10 +12231,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Rabbit Stew",
+              "itemName": "Master Grand-Hunt Potage",
               "loreJson": [
                 {
-                  "text": "Meat, mushrooms and vegetables fill the bowl, enough to support a long stretch of travel. A clean broth carries ingredients cooked tender without falling apart.",
+                  "text": "A culinary triumph of the grand forest hunt, blending prime tender meat and rare herbs into an opulent, revitalizing feast worthy of kings.",
                   "color": "green",
                   "italic": true
                 }
@@ -12301,10 +12301,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Rabbit Stew",
+              "itemName": "Cold Congealed Rabbit Stew",
               "loreJson": [
                 {
-                  "text": "Meat, mushrooms and vegetables fill the bowl, enough to support a long stretch of travel. Set fat films the surface and the pieces at the bottom have softened past their best.",
+                  "text": "Left long from the hearth, its rich broth has congealed into thick gravy. A quick reheat over camp coals awakens its hearty calories.",
                   "color": "gray",
                   "italic": true
                 }
@@ -12361,10 +12361,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Rabbit Stew",
+              "itemName": "Hunter's Hearth Rabbit Stew",
               "loreJson": [
                 {
-                  "text": "Meat, mushrooms and vegetables fill the bowl, enough to support a long stretch of travel. The broth still holds its ingredients together, releasing their separate scents when stirred.",
+                  "text": "Simmered fresh over fragrant campfire coals, its rich, gamey broth and tender garden vegetables providing unmatched comfort in the wild.",
                   "color": "white",
                   "italic": true
                 }
@@ -12408,10 +12408,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Rabbit Stew",
+              "itemName": "Master Grand-Hunt Potage",
               "loreJson": [
                 {
-                  "text": "Meat, mushrooms and vegetables fill the bowl, enough to support a long stretch of travel. A clean broth carries ingredients cooked tender without falling apart.",
+                  "text": "A culinary triumph of the grand forest hunt, blending prime tender meat and rare herbs into an opulent, revitalizing feast worthy of kings.",
                   "color": "green",
                   "italic": true
                 }
@@ -12443,7 +12443,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Orange-red flesh divides into fine layers and fills more of a meal when cooked.",
+          "text": "A sleek, cold-water salmon taken from rushing mountain rapids, its rich orange-red flesh promising a hearty, oil-rich feast.",
           "color": "gray",
           "italic": true
         }
@@ -12473,10 +12473,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Salmon",
+              "itemName": "Clouded Raw Salmon",
               "loreJson": [
                 {
-                  "text": "Orange-red flesh divides into fine layers and fills more of a meal when cooked. Dark gills and a soft belly let a stale smell overpower what freshness remains.",
+                  "text": "Left unchilled, its eyes have turned dull milky and its rich orange fat tacky with decay. Only high flames can make it safe for the road.",
                   "color": "gray",
                   "italic": true
                 }
@@ -12533,10 +12533,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Salmon",
+              "itemName": "Stream-caught Red Salmon",
               "loreJson": [
                 {
-                  "text": "Orange-red flesh divides into fine layers and fills more of a meal when cooked. Wet scales catch the light and the flesh holds to the bones, enough for a simple meal after cleaning.",
+                  "text": "Cleanly landed from the icy torrent with glistening scales. Skewered on a green twig over camp coals, it yields rich, tender orange meat.",
                   "color": "white",
                   "italic": true
                 }
@@ -12580,10 +12580,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Salmon",
+              "itemName": "Prime Arctic King Salmon",
               "loreJson": [
                 {
-                  "text": "Orange-red flesh divides into fine layers and fills more of a meal when cooked. Bright gills and firm flesh still carry the sheen of a fish newly taken from water.",
+                  "text": "A prize specimen harvested from glacial estuaries, bursting with pristine maritime oils and ruby-rich flesh that melts across the palate.",
                   "color": "green",
                   "italic": true
                 }
@@ -12632,10 +12632,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Salmon",
+              "itemName": "Clouded Raw Salmon",
               "loreJson": [
                 {
-                  "text": "Orange-red flesh divides into fine layers and fills more of a meal when cooked. Dark gills and a soft belly let a stale smell overpower what freshness remains.",
+                  "text": "Left unchilled, its eyes have turned dull milky and its rich orange fat tacky with decay. Only high flames can make it safe for the road.",
                   "color": "gray",
                   "italic": true
                 }
@@ -12692,10 +12692,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Salmon",
+              "itemName": "Stream-caught Red Salmon",
               "loreJson": [
                 {
-                  "text": "Orange-red flesh divides into fine layers and fills more of a meal when cooked. Wet scales catch the light and the flesh holds to the bones, enough for a simple meal after cleaning.",
+                  "text": "Cleanly landed from the icy torrent with glistening scales. Skewered on a green twig over camp coals, it yields rich, tender orange meat.",
                   "color": "white",
                   "italic": true
                 }
@@ -12739,10 +12739,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Salmon",
+              "itemName": "Prime Arctic King Salmon",
               "loreJson": [
                 {
-                  "text": "Orange-red flesh divides into fine layers and fills more of a meal when cooked. Bright gills and firm flesh still carry the sheen of a fish newly taken from water.",
+                  "text": "A prize specimen harvested from glacial estuaries, bursting with pristine maritime oils and ruby-rich flesh that melts across the palate.",
                   "color": "green",
                   "italic": true
                 }
@@ -12791,10 +12791,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Salmon",
+              "itemName": "Clouded Raw Salmon",
               "loreJson": [
                 {
-                  "text": "Orange-red flesh divides into fine layers and fills more of a meal when cooked. Dark gills and a soft belly let a stale smell overpower what freshness remains.",
+                  "text": "Left unchilled, its eyes have turned dull milky and its rich orange fat tacky with decay. Only high flames can make it safe for the road.",
                   "color": "gray",
                   "italic": true
                 }
@@ -12851,10 +12851,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Salmon",
+              "itemName": "Stream-caught Red Salmon",
               "loreJson": [
                 {
-                  "text": "Orange-red flesh divides into fine layers and fills more of a meal when cooked. Wet scales catch the light and the flesh holds to the bones, enough for a simple meal after cleaning.",
+                  "text": "Cleanly landed from the icy torrent with glistening scales. Skewered on a green twig over camp coals, it yields rich, tender orange meat.",
                   "color": "white",
                   "italic": true
                 }
@@ -12898,10 +12898,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Salmon",
+              "itemName": "Prime Arctic King Salmon",
               "loreJson": [
                 {
-                  "text": "Orange-red flesh divides into fine layers and fills more of a meal when cooked. Bright gills and firm flesh still carry the sheen of a fish newly taken from water.",
+                  "text": "A prize specimen harvested from glacial estuaries, bursting with pristine maritime oils and ruby-rich flesh that melts across the palate.",
                   "color": "green",
                   "italic": true
                 }
@@ -12950,10 +12950,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Raw Salmon",
+              "itemName": "Clouded Raw Salmon",
               "loreJson": [
                 {
-                  "text": "Orange-red flesh divides into fine layers and fills more of a meal when cooked. Dark gills and a soft belly let a stale smell overpower what freshness remains.",
+                  "text": "Left unchilled, its eyes have turned dull milky and its rich orange fat tacky with decay. Only high flames can make it safe for the road.",
                   "color": "gray",
                   "italic": true
                 }
@@ -13010,10 +13010,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Raw Salmon",
+              "itemName": "Stream-caught Red Salmon",
               "loreJson": [
                 {
-                  "text": "Orange-red flesh divides into fine layers and fills more of a meal when cooked. Wet scales catch the light and the flesh holds to the bones, enough for a simple meal after cleaning.",
+                  "text": "Cleanly landed from the icy torrent with glistening scales. Skewered on a green twig over camp coals, it yields rich, tender orange meat.",
                   "color": "white",
                   "italic": true
                 }
@@ -13057,10 +13057,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Raw Salmon",
+              "itemName": "Prime Arctic King Salmon",
               "loreJson": [
                 {
-                  "text": "Orange-red flesh divides into fine layers and fills more of a meal when cooked. Bright gills and firm flesh still carry the sheen of a fish newly taken from water.",
+                  "text": "A prize specimen harvested from glacial estuaries, bursting with pristine maritime oils and ruby-rich flesh that melts across the palate.",
                   "color": "green",
                   "italic": true
                 }
@@ -13092,7 +13092,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Fine white crystals scatter at a touch, needed in both baking and brewing.",
+          "text": "Pure white crystals refined from sweet sugar cane, adding essential sweetness to harvest pies, cakes, and speed-enhancing elixirs.",
           "color": "gray",
           "italic": true
         }
@@ -13103,7 +13103,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect.",
+          "text": "A bubbling wooden bowl brewed with forest mushrooms and an enigmatic wildflower, bestowing unpredictable magical boons or fleeting afflictions upon the drinker.",
           "color": "gray",
           "italic": true
         }
@@ -13133,10 +13133,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Suspicious Stew",
+              "itemName": "Congealed Suspicious Stew",
               "loreJson": [
                 {
-                  "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect. Set fat films the surface and the pieces at the bottom have softened past their best.",
+                  "text": "Left long from the hearth, its mysterious broth has separated into dull layers. Smells faintly of damp petals, offering unpredictable sustenance in a pinch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -13193,10 +13193,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Suspicious Stew",
+              "itemName": "Aromatic Suspicious Stew",
               "loreJson": [
                 {
-                  "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect. The broth still holds its ingredients together, releasing their separate scents when stirred.",
+                  "text": "Simmered fresh over fragrant campfire coals, its swirling steam releasing an elusive, magical fragrance that charges the blood with secret power.",
                   "color": "white",
                   "italic": true
                 }
@@ -13240,10 +13240,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Suspicious Stew",
+              "itemName": "Master Alchemist's Enigmatic Potage",
               "loreJson": [
                 {
-                  "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect. A clean broth carries ingredients cooked tender without falling apart.",
+                  "text": "A culinary and alchemical triumph, distilling the purest forest essence into a velvet nectar that surges with potent, focused magical effects.",
                   "color": "green",
                   "italic": true
                 }
@@ -13292,10 +13292,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Suspicious Stew",
+              "itemName": "Congealed Suspicious Stew",
               "loreJson": [
                 {
-                  "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect. Set fat films the surface and the pieces at the bottom have softened past their best.",
+                  "text": "Left long from the hearth, its mysterious broth has separated into dull layers. Smells faintly of damp petals, offering unpredictable sustenance in a pinch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -13352,10 +13352,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Suspicious Stew",
+              "itemName": "Aromatic Suspicious Stew",
               "loreJson": [
                 {
-                  "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect. The broth still holds its ingredients together, releasing their separate scents when stirred.",
+                  "text": "Simmered fresh over fragrant campfire coals, its swirling steam releasing an elusive, magical fragrance that charges the blood with secret power.",
                   "color": "white",
                   "italic": true
                 }
@@ -13399,10 +13399,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Suspicious Stew",
+              "itemName": "Master Alchemist's Enigmatic Potage",
               "loreJson": [
                 {
-                  "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect. A clean broth carries ingredients cooked tender without falling apart.",
+                  "text": "A culinary and alchemical triumph, distilling the purest forest essence into a velvet nectar that surges with potent, focused magical effects.",
                   "color": "green",
                   "italic": true
                 }
@@ -13451,10 +13451,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Suspicious Stew",
+              "itemName": "Congealed Suspicious Stew",
               "loreJson": [
                 {
-                  "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect. Set fat films the surface and the pieces at the bottom have softened past their best.",
+                  "text": "Left long from the hearth, its mysterious broth has separated into dull layers. Smells faintly of damp petals, offering unpredictable sustenance in a pinch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -13511,10 +13511,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Suspicious Stew",
+              "itemName": "Aromatic Suspicious Stew",
               "loreJson": [
                 {
-                  "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect. The broth still holds its ingredients together, releasing their separate scents when stirred.",
+                  "text": "Simmered fresh over fragrant campfire coals, its swirling steam releasing an elusive, magical fragrance that charges the blood with secret power.",
                   "color": "white",
                   "italic": true
                 }
@@ -13558,10 +13558,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Suspicious Stew",
+              "itemName": "Master Alchemist's Enigmatic Potage",
               "loreJson": [
                 {
-                  "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect. A clean broth carries ingredients cooked tender without falling apart.",
+                  "text": "A culinary and alchemical triumph, distilling the purest forest essence into a velvet nectar that surges with potent, focused magical effects.",
                   "color": "green",
                   "italic": true
                 }
@@ -13628,10 +13628,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Suspicious Stew",
+              "itemName": "Congealed Suspicious Stew",
               "loreJson": [
                 {
-                  "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect. Set fat films the surface and the pieces at the bottom have softened past their best.",
+                  "text": "Left long from the hearth, its mysterious broth has separated into dull layers. Smells faintly of damp petals, offering unpredictable sustenance in a pinch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -13688,10 +13688,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Suspicious Stew",
+              "itemName": "Aromatic Suspicious Stew",
               "loreJson": [
                 {
-                  "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect. The broth still holds its ingredients together, releasing their separate scents when stirred.",
+                  "text": "Simmered fresh over fragrant campfire coals, its swirling steam releasing an elusive, magical fragrance that charges the blood with secret power.",
                   "color": "white",
                   "italic": true
                 }
@@ -13735,10 +13735,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Suspicious Stew",
+              "itemName": "Master Alchemist's Enigmatic Potage",
               "loreJson": [
                 {
-                  "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect. A clean broth carries ingredients cooked tender without falling apart.",
+                  "text": "A culinary and alchemical triumph, distilling the purest forest essence into a velvet nectar that surges with potent, focused magical effects.",
                   "color": "green",
                   "italic": true
                 }
@@ -13787,10 +13787,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Suspicious Stew",
+              "itemName": "Congealed Suspicious Stew",
               "loreJson": [
                 {
-                  "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect. Set fat films the surface and the pieces at the bottom have softened past their best.",
+                  "text": "Left long from the hearth, its mysterious broth has separated into dull layers. Smells faintly of damp petals, offering unpredictable sustenance in a pinch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -13847,10 +13847,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Suspicious Stew",
+              "itemName": "Aromatic Suspicious Stew",
               "loreJson": [
                 {
-                  "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect. The broth still holds its ingredients together, releasing their separate scents when stirred.",
+                  "text": "Simmered fresh over fragrant campfire coals, its swirling steam releasing an elusive, magical fragrance that charges the blood with secret power.",
                   "color": "white",
                   "italic": true
                 }
@@ -13894,10 +13894,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Suspicious Stew",
+              "itemName": "Master Alchemist's Enigmatic Potage",
               "loreJson": [
                 {
-                  "text": "Unfamiliar petals hide in the broth, herbal in scent but uncertain in effect. A clean broth carries ingredients cooked tender without falling apart.",
+                  "text": "A culinary and alchemical triumph, distilling the purest forest essence into a velvet nectar that surges with potent, focused magical effects.",
                   "color": "green",
                   "italic": true
                 }
@@ -13929,7 +13929,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Bright scales surround little flesh, modest food but useful feed for axolotls.",
+          "text": "A vibrant, jewel-scaled fish netted from warm coral shallows, displaying dazzling patterns that brighten ornamental aquariums.",
           "color": "gray",
           "italic": true
         }
@@ -14260,7 +14260,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Full grains line the dry ear, useful in bread or as livestock feed.",
+          "text": "Golden stalks of sun-ripened grain, heavy with nutritious seeds ready to be milled into flour or fed to livestock.",
           "color": "gray",
           "italic": true
         }

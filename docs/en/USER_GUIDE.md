@@ -2,7 +2,7 @@
 
 # OriginLore User Guide
 
-This guide covers OriginLore 3.0.0, Minecraft 1.21.1 and Fabric Loader 0.19.2.
+This guide covers OriginLore 3.0.1, Minecraft 1.21.1 and Fabric Loader 0.19.2.
 
 The admin interface supports Chinese and English independently of Minecraft's language. The language button on the item list changes preset-managed text for the server and the OriginLore interface language for the administrator who requests it. Other administrators retain their interface preference. This guide gives Chinese labels followed by their English equivalents.
 

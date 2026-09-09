@@ -3,7 +3,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Solid black gives a boundary a clear outline.",
+          "text": "A heavy woolen standard dyed deep as the void, snapping in the wind above ramparts with grim authority.",
           "color": "white",
           "italic": true
         }
@@ -14,7 +14,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Solid black gives a boundary a clear outline.",
+          "text": "A solid timber frame dressed in pitch-black wool, swallowing the moonlight to grant deep, dreamless rest.",
           "color": "white",
           "italic": true
         }
@@ -25,7 +25,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Solid black gives a boundary a clear outline.",
+          "text": "A soot-steeped beeswax taper casting a quiet, moody flame, favoured in solemn rituals and shadow-veiled studies.",
           "color": "yellow",
           "italic": true
         }
@@ -36,7 +36,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin layer of wool that takes the noise out of footsteps. Solid black gives a boundary a clear outline.",
+          "text": "A soft layer of obsidian-black fleece that deadens footsteps along drafty castle corridors.",
           "color": "white",
           "italic": true
         }
@@ -47,7 +47,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Powder set hard by water — it rings dull under a pick. Solid black gives a boundary a clear outline.",
+          "text": "Water-cured solid mineral block of pitch darkness, displaying a flat, light-absorbing finish without a single blemish.",
           "color": "white",
           "italic": true
         }
@@ -58,7 +58,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Solid black gives a boundary a clear outline.",
+          "text": "Fine, dry dark powder that hardens instantly upon contact with water, beloved by modern stone masons.",
           "color": "white",
           "italic": true
         }
@@ -69,7 +69,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Ground pigment, good for wool, terracotta and glass alike. Solid black gives a boundary a clear outline.",
+          "text": "Dense black pigment ground from dried cephalopod ink, holding its deep, lightless hue against sun and wash.",
           "color": "white",
           "italic": true
         }
@@ -80,7 +80,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Solid black gives a boundary a clear outline.",
+          "text": "Kiln-fired ceramic glazed with swirling, glossy black patterns, showing a rich sheen under torchlight.",
           "color": "white",
           "italic": true
         }
@@ -91,7 +91,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Solid black gives a boundary a clear outline.",
+          "text": "A shulker shell chest steeped in midnight dye, safeguarding its spatial hoard even when dismantled and stowed.",
           "color": "white",
           "italic": true
         }
@@ -102,7 +102,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Pigment melted into the glass: light comes through, the view does not. Solid black gives a boundary a clear outline.",
+          "text": "Glass tinted with dark mineral salts, obscuring prying eyes from outside while casting dusky, muted shadows within.",
           "color": "white",
           "italic": true
         }
@@ -113,7 +113,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Solid black gives a boundary a clear outline.",
+          "text": "A thin tinted glass pane that cuts harsh sunlight, lending an air of solemn secrecy to chapel windows.",
           "color": "white",
           "italic": true
         }
@@ -124,7 +124,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Solid black gives a boundary a clear outline.",
+          "text": "Dense fired clay displaying a warm, earthy dark brown tone, enduring under the scorching desert sun.",
           "color": "white",
           "italic": true
         }
@@ -135,7 +135,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Wool sheared, washed and pressed — it still gives under the hand. Solid black gives a boundary a clear outline.",
+          "text": "Dense, natural black fleece sheared from midnight sheep, thick and insulating against alpine frosts.",
           "color": "white",
           "italic": true
         }
@@ -146,7 +146,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Strong blue clearly marks a distant position.",
+          "text": "A deep ultramarine standard fluttering high above harbor towers, symbolizing order and the breadth of the open sea.",
           "color": "white",
           "italic": true
         }
@@ -157,7 +157,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Strong blue clearly marks a distant position.",
+          "text": "A wooden bed dressed in deep cobalt fleece, offering a tranquil sanctuary as calm as a moonlit pool.",
           "color": "white",
           "italic": true
         }
@@ -168,7 +168,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Strong blue clearly marks a distant position.",
+          "text": "A candle tinted with lapis dust, its steady golden flame reflecting softly against the royal blue wax.",
           "color": "yellow",
           "italic": true
         }
@@ -179,7 +179,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin layer of wool that takes the noise out of footsteps. Strong blue clearly marks a distant position.",
+          "text": "A lush sapphire wool runner that lends imperial dignity and quiet comfort to stone-paved halls.",
           "color": "white",
           "italic": true
         }
@@ -190,7 +190,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Powder set hard by water — it rings dull under a pick. Strong blue clearly marks a distant position.",
+          "text": "A cured mineral block of deep, uniform azure, clean and smooth for grand pavilions and towering monuments.",
           "color": "white",
           "italic": true
         }
@@ -201,7 +201,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Strong blue clearly marks a distant position.",
+          "text": "Fine blue mineral powder that sets rock-hard the moment it touches water, used for seamless masonry.",
           "color": "white",
           "italic": true
         }
@@ -212,7 +212,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Ground pigment, good for wool, terracotta and glass alike. Strong blue clearly marks a distant position.",
+          "text": "Rich cobalt pigment ground from lapis or cornflowers, prized by illuminators and master dyers for its noble brilliance.",
           "color": "white",
           "italic": true
         }
@@ -223,7 +223,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Strong blue clearly marks a distant position.",
+          "text": "Kiln-fired terracotta coated in a deep blue glaze, adorned with geometric swirls that shine like polished lapis.",
           "color": "white",
           "italic": true
         }
@@ -234,7 +234,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Strong blue clearly marks a distant position.",
+          "text": "A shulker shell chest dipped in rich blue dye, serving as an indestructible vault for seafaring spoils.",
           "color": "white",
           "italic": true
         }
@@ -245,7 +245,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Pigment melted into the glass: light comes through, the view does not. Strong blue clearly marks a distant position.",
+          "text": "Translucent glass infused with cobalt oxides, washing interior rooms in an ethereal, oceanic light.",
           "color": "white",
           "italic": true
         }
@@ -256,7 +256,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Strong blue clearly marks a distant position.",
+          "text": "A slim glass pane glowing with sapphire radiance, perfect for chapel traceries and coastal lighthouses.",
           "color": "white",
           "italic": true
         }
@@ -267,7 +267,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Strong blue clearly marks a distant position.",
+          "text": "Fired clay carrying a dusky, slate-blue tone, robust against the elements and rich in ancient texture.",
           "color": "white",
           "italic": true
         }
@@ -278,7 +278,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Wool sheared, washed and pressed — it still gives under the hand. Strong blue clearly marks a distant position.",
+          "text": "Soft, warm wool saturated in royal blue dye, ideal for tailoring regal cloaks and opulent wall tapestries.",
           "color": "white",
           "italic": true
         }
@@ -289,7 +289,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Brown sits naturally alongside timber grain.",
+          "text": "A heavy woolen banner dyed the dark hue of forest soil, favored by rangers and woodsmen for low-profile heraldry.",
           "color": "white",
           "italic": true
         }
@@ -300,7 +300,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Brown sits naturally alongside timber grain.",
+          "text": "A simple timber bed draped in chocolate-brown fleece, blending naturally into rustic hunting lodges and cozy log cabins.",
           "color": "white",
           "italic": true
         }
@@ -311,7 +311,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Brown sits naturally alongside timber grain.",
+          "text": "A dark tallow candle blended with earthy dyes, burning with a quiet, amber flame that suits dim study corners.",
           "color": "yellow",
           "italic": true
         }
@@ -322,7 +322,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin layer of wool that takes the noise out of footsteps. Brown sits naturally alongside timber grain.",
+          "text": "A rich earthen-brown runner that insulates cold floorboards while softening the tread of heavy riding boots.",
           "color": "white",
           "italic": true
         }
@@ -333,7 +333,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Powder set hard by water — it rings dull under a pick. Brown sits naturally alongside timber grain.",
+          "text": "Solid water-cured stone of uniform earthen brown, smooth and flat for modern masonry and warm structural accents.",
           "color": "white",
           "italic": true
         }
@@ -344,7 +344,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Brown sits naturally alongside timber grain.",
+          "text": "Fine brown mineral grains that harden immediately upon contact with moisture, prized for rapid construction.",
           "color": "white",
           "italic": true
         }
@@ -355,7 +355,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Ground pigment, good for wool, terracotta and glass alike. Brown sits naturally alongside timber grain.",
+          "text": "Rich brown pigment ground from roasted cocoa beans, carrying a faint bitter aroma and staining deep into fibers.",
           "color": "white",
           "italic": true
         }
@@ -366,7 +366,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Brown sits naturally alongside timber grain.",
+          "text": "Fired ceramic finished in a warm amber glaze, adorned with intricate geometric scrollwork that gleams softly in firelight.",
           "color": "white",
           "italic": true
         }
@@ -377,7 +377,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Brown sits naturally alongside timber grain.",
+          "text": "A shulker chest dyed in dull earth tones, hiding an expansive spatial pocket beneath an unassuming shell.",
           "color": "white",
           "italic": true
         }
@@ -388,7 +388,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Pigment melted into the glass: light comes through, the view does not. Brown sits naturally alongside timber grain.",
+          "text": "Tinted glass carrying warm amber undertones, softening harsh daylight into a cozy, late-afternoon glow.",
           "color": "white",
           "italic": true
         }
@@ -399,7 +399,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Brown sits naturally alongside timber grain.",
+          "text": "A slender pane of smoky amber glass, ideal for framing tranquil forest views without admitting blinding glare.",
           "color": "white",
           "italic": true
         }
@@ -410,7 +410,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Brown sits naturally alongside timber grain.",
+          "text": "Hard-fired clay carrying a rich soil hue, unyielding against desert winds and weathering into a timeless finish.",
           "color": "white",
           "italic": true
         }
@@ -421,7 +421,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Wool sheared, washed and pressed — it still gives under the hand. Brown sits naturally alongside timber grain.",
+          "text": "Thick, natural brown wool shorn from woodland sheep, warm and resilient against biting northern frosts.",
           "color": "white",
           "italic": true
         }
@@ -432,7 +432,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "An undyed candle, still the yellow-white of the wax itself.",
+          "text": "An undyed taper poured from pure beeswax, burning with a warm, steady glow and releasing a subtle hint of floral honey.",
           "color": "yellow",
           "italic": true
         }
@@ -443,7 +443,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Cool cyan sits well beside shaded stone.",
+          "text": "A woolen standard dyed deep cyan, snapping high on garrison towers to symbolize unyielding resolve and ocean calm.",
           "color": "white",
           "italic": true
         }
@@ -454,7 +454,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Cool cyan sits well beside shaded stone.",
+          "text": "A wooden bed draped in cool cyan fleece, offering a tranquil sanctuary as peaceful as a shaded mountain spring.",
           "color": "white",
           "italic": true
         }
@@ -465,7 +465,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Cool cyan sits well beside shaded stone.",
+          "text": "A wax taper tinted with cool cyan pigment, casting a steady, serene light that suits contemplative research studies.",
           "color": "yellow",
           "italic": true
         }
@@ -476,7 +476,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin layer of wool that takes the noise out of footsteps. Cool cyan sits well beside shaded stone.",
+          "text": "A plush cyan runner that muffles heavy footsteps along stone corridors with the cool elegance of glacial ice.",
           "color": "white",
           "italic": true
         }
@@ -487,7 +487,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Powder set hard by water — it rings dull under a pick. Cool cyan sits well beside shaded stone.",
+          "text": "Cured mineral concrete of vibrant cyan, flat and completely seamless for monumental, contemporary structures.",
           "color": "white",
           "italic": true
         }
@@ -498,7 +498,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Cool cyan sits well beside shaded stone.",
+          "text": "Fine cyan mineral dust that hardens into solid, glass-smooth stone the moment it meets water.",
           "color": "white",
           "italic": true
         }
@@ -509,7 +509,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Ground pigment, good for wool, terracotta and glass alike. Cool cyan sits well beside shaded stone.",
+          "text": "A balanced blend of blue and green pigments, prized by master dyers for its cool, jewel-toned richness.",
           "color": "white",
           "italic": true
         }
@@ -520,7 +520,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Cool cyan sits well beside shaded stone.",
+          "text": "Kiln-fired ceramic adorned with stylized cyan plumes, gleaming like polished turquoise under hall braziers.",
           "color": "white",
           "italic": true
         }
@@ -531,7 +531,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Cool cyan sits well beside shaded stone.",
+          "text": "A shulker box dyed in deep cyan, locking its vast spatial interior safe from the chaos of outer storms.",
           "color": "white",
           "italic": true
         }
@@ -542,7 +542,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Pigment melted into the glass: light comes through, the view does not. Cool cyan sits well beside shaded stone.",
+          "text": "Translucent glass infused with cyan oxides, bathing interior chambers in a soothing, aquatic radiance.",
           "color": "white",
           "italic": true
         }
@@ -553,7 +553,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Cool cyan sits well beside shaded stone.",
+          "text": "A slim pane of cyan-tinted glass, ideal for library windows and coastal sanctuaries seeking a tranquil light.",
           "color": "white",
           "italic": true
         }
@@ -564,7 +564,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Cool cyan sits well beside shaded stone.",
+          "text": "Hard-fired clay carrying a muted slate-cyan hue, tough against the elements and rich in ancient architectural character.",
           "color": "white",
           "italic": true
         }
@@ -575,7 +575,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Wool sheared, washed and pressed — it still gives under the hand. Cool cyan sits well beside shaded stone.",
+          "text": "Soft, warm wool saturated in cool cyan dye, ideal for tailoring elegant mantle capes and insulating grand chambers.",
           "color": "white",
           "italic": true
         }
@@ -586,7 +586,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Muted grey steadies a brighter arrangement.",
+          "text": "A heavy woolen standard dyed the resolute grey of fortress stone, standing against mountain winds with solemn discipline.",
           "color": "white",
           "italic": true
         }
@@ -597,7 +597,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Muted grey steadies a brighter arrangement.",
+          "text": "A solid timber bed draped in muted charcoal wool, offering a tranquil sanctuary as peaceful as shaded slate caverns.",
           "color": "white",
           "italic": true
         }
@@ -608,7 +608,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Muted grey steadies a brighter arrangement.",
+          "text": "A beeswax taper tinted with cool grey mineral ash, casting a steady, thoughtful glow across solitary study desks.",
           "color": "yellow",
           "italic": true
         }
@@ -619,7 +619,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin layer of wool that takes the noise out of footsteps. Muted grey steadies a brighter arrangement.",
+          "text": "A plush charcoal runner that muffles footsteps along cold castle corridors, bringing warm comfort to stone floors.",
           "color": "white",
           "italic": true
         }
@@ -630,7 +630,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Powder set hard by water — it rings dull under a pick. Muted grey steadies a brighter arrangement.",
+          "text": "Water-cured solid concrete of uniform charcoal grey, flat and seamless for massive, imposing architectural facades.",
           "color": "white",
           "italic": true
         }
@@ -641,7 +641,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Muted grey steadies a brighter arrangement.",
+          "text": "Fine grey mineral dust that sets rock-hard the moment it touches water, prized for solid, monolithic masonry.",
           "color": "white",
           "italic": true
         }
@@ -652,7 +652,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Ground pigment, good for wool, terracotta and glass alike. Muted grey steadies a brighter arrangement.",
+          "text": "A balanced blend of black and white mineral pigments, providing an even, neutral tone that tempers brighter dyes.",
           "color": "white",
           "italic": true
         }
@@ -663,7 +663,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Muted grey steadies a brighter arrangement.",
+          "text": "Kiln-fired terracotta glazed with interlocking grey geometric motifs, gleaming with understated dignity beneath wall sconces.",
           "color": "white",
           "italic": true
         }
@@ -674,7 +674,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Muted grey steadies a brighter arrangement.",
+          "text": "A shulker box dyed in slate grey, hiding an expansive spatial pocket beneath a shell that blends with shadow and stone.",
           "color": "white",
           "italic": true
         }
@@ -685,7 +685,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Pigment melted into the glass: light comes through, the view does not. Muted grey steadies a brighter arrangement.",
+          "text": "Translucent glass infused with dark mineral oxides, softening harsh daylight into a calm, overcast interior twilight.",
           "color": "white",
           "italic": true
         }
@@ -696,7 +696,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Muted grey steadies a brighter arrangement.",
+          "text": "A slim pane of smoky grey glass, ideal for fortress towers and cloistered libraries seeking subdued daylight.",
           "color": "white",
           "italic": true
         }
@@ -707,7 +707,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Muted grey steadies a brighter arrangement.",
+          "text": "Hard-fired clay carrying an earthy slate-brown hue, tough against the elements and rich in ancient, weathered character.",
           "color": "white",
           "italic": true
         }
@@ -718,7 +718,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Wool sheared, washed and pressed — it still gives under the hand. Muted grey steadies a brighter arrangement.",
+          "text": "Dense, warm fleece saturated in deep grey dye, ideal for tailoring stealthy scouting mantles and insulating barracks.",
           "color": "white",
           "italic": true
         }
@@ -729,7 +729,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Deep green sits quietly beside foliage.",
+          "text": "A heavy woolen standard dyed the rich green of primeval pines, snapping high above forest outposts with noble authority.",
           "color": "white",
           "italic": true
         }
@@ -740,7 +740,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Deep green sits quietly beside foliage.",
+          "text": "A solid timber bed draped in deep forest-green fleece, offering a tranquil sanctuary as restful as a shaded woodland glade.",
           "color": "white",
           "italic": true
         }
@@ -751,7 +751,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Deep green sits quietly beside foliage.",
+          "text": "A wax taper infused with cactus-green pigment, casting a warm, steady glow across botanical research benches.",
           "color": "yellow",
           "italic": true
         }
@@ -762,7 +762,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin layer of wool that takes the noise out of footsteps. Deep green sits quietly beside foliage.",
+          "text": "A lush moss-green runner that cushions the tread and deadens footsteps along timber halls like a forest path.",
           "color": "white",
           "italic": true
         }
@@ -773,7 +773,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Powder set hard by water — it rings dull under a pick. Deep green sits quietly beside foliage.",
+          "text": "Water-cured solid concrete of deep, uniform forest green, smooth and seamless for grand botanical pavilions.",
           "color": "white",
           "italic": true
         }
@@ -784,7 +784,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Deep green sits quietly beside foliage.",
+          "text": "Fine green mineral powder that hardens into glass-smooth stone the moment moisture touches it, prized for rapid paving.",
           "color": "white",
           "italic": true
         }
@@ -795,7 +795,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Ground pigment, good for wool, terracotta and glass alike. Deep green sits quietly beside foliage.",
+          "text": "Rich green pigment refined from furnace-roasted cactus flesh, dyeing wool, clay, and glass with deep woodland brilliance.",
           "color": "white",
           "italic": true
         }
@@ -806,7 +806,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Deep green sits quietly beside foliage.",
+          "text": "Kiln-fired ceramic adorned with stylized green scrollwork, gleaming like polished malachite beneath manor chandeliers.",
           "color": "white",
           "italic": true
         }
@@ -817,7 +817,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Deep green sits quietly beside foliage.",
+          "text": "A shulker box dipped in rich forest dye, locking an expansive spatial hoard safe beneath its mossy, unyielding shell.",
           "color": "white",
           "italic": true
         }
@@ -828,7 +828,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Pigment melted into the glass: light comes through, the view does not. Deep green sits quietly beside foliage.",
+          "text": "Translucent glass infused with copper oxides, washing interior halls in a soothing, canopy-filtered emerald radiance.",
           "color": "white",
           "italic": true
         }
@@ -839,7 +839,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Deep green sits quietly beside foliage.",
+          "text": "A slim pane of emerald-tinted glass, ideal for conservatory galleries and forest lodges seeking a verdant glow.",
           "color": "white",
           "italic": true
         }
@@ -850,7 +850,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Deep green sits quietly beside foliage.",
+          "text": "Hard-fired clay carrying a dusky olive-green hue, unyielding against the elements and rich in primeval character.",
           "color": "white",
           "italic": true
         }
@@ -861,7 +861,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Wool sheared, washed and pressed — it still gives under the hand. Deep green sits quietly beside foliage.",
+          "text": "Soft, warm wool saturated in deep green dye, ideal for tailoring woodland cloaks and insulating country lodges.",
           "color": "white",
           "italic": true
         }
@@ -1301,7 +1301,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Strong magenta stands out even in a small amount.",
+          "text": "A woolen standard dyed deep, radiant magenta, snapping aloft in high winds with unapologetic majesty and royal pride.",
           "color": "white",
           "italic": true
         }
@@ -1312,7 +1312,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Strong magenta stands out even in a small amount.",
+          "text": "A solid timber bed dressed in lush magenta fleece, offering a vibrant, cozy sanctuary as warm as an exotic orchid garden.",
           "color": "white",
           "italic": true
         }
@@ -1323,7 +1323,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Strong magenta stands out even in a small amount.",
+          "text": "A beeswax taper tinted with rich magenta pigment, casting a warm, celebratory glow across festive banqueting tables.",
           "color": "yellow",
           "italic": true
         }
@@ -1334,7 +1334,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin layer of wool that takes the noise out of footsteps. Strong magenta stands out even in a small amount.",
+          "text": "A plush magenta runner that warms cold flagstones, deadening footsteps with the soft, velvet luxury of exotic palace halls.",
           "color": "white",
           "italic": true
         }
@@ -1345,7 +1345,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Powder set hard by water — it rings dull under a pick. Strong magenta stands out even in a small amount.",
+          "text": "Water-cured solid concrete of uniform, vivid magenta, smooth and completely seamless for bold, expressive monuments.",
           "color": "white",
           "italic": true
         }
@@ -1356,7 +1356,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Strong magenta stands out even in a small amount.",
+          "text": "Fine magenta mineral dust that sets rock-hard upon contact with water, prized for rapid, colorful masonry.",
           "color": "white",
           "italic": true
         }
@@ -1367,7 +1367,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Ground pigment, good for wool, terracotta and glass alike. Strong magenta stands out even in a small amount.",
+          "text": "Rich magenta pigment ground from alliums and floral extracts, dyeing fibers with an intense, aristocratic brilliance.",
           "color": "white",
           "italic": true
         }
@@ -1378,7 +1378,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Strong magenta stands out even in a small amount.",
+          "text": "Kiln-fired ceramic glazed with intricate magenta scrollwork and crosses, gleaming like polished ruby beneath hall braziers.",
           "color": "white",
           "italic": true
         }
@@ -1389,7 +1389,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Strong magenta stands out even in a small amount.",
+          "text": "A shulker box dipped in vivid magenta dye, securing its expansive spatial vault beneath a vibrant, unmistakable shell.",
           "color": "white",
           "italic": true
         }
@@ -1400,7 +1400,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Pigment melted into the glass: light comes through, the view does not. Strong magenta stands out even in a small amount.",
+          "text": "Translucent glass infused with magenta oxides, bathing interior chambers in a rich, sunset-tinted floral radiance.",
           "color": "white",
           "italic": true
         }
@@ -1411,7 +1411,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Strong magenta stands out even in a small amount.",
+          "text": "A slender pane of magenta-tinted glass, bringing vivid color and dramatic charm to chapel traceries and palace galleries.",
           "color": "white",
           "italic": true
         }
@@ -1422,7 +1422,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Strong magenta stands out even in a small amount.",
+          "text": "Hard-fired clay carrying a dusty, rose-plum hue, resistant to wind and weather with ancient, unyielding character.",
           "color": "white",
           "italic": true
         }
@@ -1433,7 +1433,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Wool sheared, washed and pressed — it still gives under the hand. Strong magenta stands out even in a small amount.",
+          "text": "Soft, warm wool saturated in brilliant magenta dye, ideal for tailoring festival cloaks and opulent wall tapestries.",
           "color": "white",
           "italic": true
         }
@@ -1444,7 +1444,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Bright orange is easy to recognise at a distance.",
+          "text": "A woolen standard dyed radiant autumn orange, snapping aloft in high winds with the warmth and unyielding vigor of a sunset.",
           "color": "white",
           "italic": true
         }
@@ -1455,7 +1455,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Bright orange is easy to recognise at a distance.",
+          "text": "A solid timber bed dressed in warm orange fleece, offering a cheerful, cozy sanctuary after exhausting autumn marches.",
           "color": "white",
           "italic": true
         }
@@ -1466,7 +1466,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Bright orange is easy to recognise at a distance.",
+          "text": "A beeswax taper tinted with rich orange pigment, casting a warm, celebratory glow across tavern tables and harvest feasts.",
           "color": "yellow",
           "italic": true
         }
@@ -1477,7 +1477,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin layer of wool that takes the noise out of footsteps. Bright orange is easy to recognise at a distance.",
+          "text": "A plush amber-orange runner that warms cold flagstones, deadening footsteps with the soft comfort of sun-baked fields.",
           "color": "white",
           "italic": true
         }
@@ -1488,7 +1488,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Powder set hard by water — it rings dull under a pick. Bright orange is easy to recognise at a distance.",
+          "text": "Water-cured solid concrete of uniform, vibrant orange, smooth and completely seamless for bold, expressive structures.",
           "color": "white",
           "italic": true
         }
@@ -1499,7 +1499,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Bright orange is easy to recognise at a distance.",
+          "text": "Fine orange mineral powder that hardens into glass-smooth stone the moment moisture touches it, prized for rapid paving.",
           "color": "white",
           "italic": true
         }
@@ -1510,7 +1510,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Ground pigment, good for wool, terracotta and glass alike. Bright orange is easy to recognise at a distance.",
+          "text": "Brilliant orange pigment ground from tulips or blended minerals, dyeing wool and terracotta with the fiery warmth of autumn leaves.",
           "color": "white",
           "italic": true
         }
@@ -1521,7 +1521,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Bright orange is easy to recognise at a distance.",
+          "text": "Kiln-fired ceramic glazed with dynamic orange pinwheel patterns, gleaming with cheerful radiance beneath grand chandeliers.",
           "color": "white",
           "italic": true
         }
@@ -1532,7 +1532,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Bright orange is easy to recognise at a distance.",
+          "text": "A shulker box dipped in bright orange dye, securing its expansive spatial vault beneath a vibrant, easily spotted shell.",
           "color": "white",
           "italic": true
         }
@@ -1543,7 +1543,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Pigment melted into the glass: light comes through, the view does not. Bright orange is easy to recognise at a distance.",
+          "text": "Translucent glass infused with orange oxides, bathing interior rooms in the rich, golden-amber radiance of late afternoon.",
           "color": "white",
           "italic": true
         }
@@ -1554,7 +1554,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Bright orange is easy to recognise at a distance.",
+          "text": "A slender pane of orange-tinted glass, bringing cozy warmth and sunset light to cottage verandas and great halls.",
           "color": "white",
           "italic": true
         }
@@ -1565,7 +1565,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Bright orange is easy to recognise at a distance.",
+          "text": "Hard-fired clay carrying a rich terracotta-orange hue, resistant to wind and weather with primeval badlands character.",
           "color": "white",
           "italic": true
         }
@@ -1576,7 +1576,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Wool sheared, washed and pressed — it still gives under the hand. Bright orange is easy to recognise at a distance.",
+          "text": "Soft, warm wool saturated in rich orange dye, ideal for tailoring festival cloaks and bright domestic tapestries.",
           "color": "white",
           "italic": true
         }
@@ -1587,7 +1587,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Soft pink stays light across a broad area.",
+          "text": "A woolen standard dyed the soft hue of spring cherry blossoms, fluttering with delicate grace and gentle hospitality.",
           "color": "white",
           "italic": true
         }
@@ -1598,7 +1598,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Soft pink stays light across a broad area.",
+          "text": "A solid timber bed draped in pastel-pink fleece, offering a tender, tranquil sanctuary as soothing as a bower of flowering roses.",
           "color": "white",
           "italic": true
         }
@@ -1609,7 +1609,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Soft pink stays light across a broad area.",
+          "text": "A beeswax taper tinted with delicate pink pigment, casting a soft, romantic glow across quiet alcoves and festive banquets.",
           "color": "yellow",
           "italic": true
         }
@@ -1620,7 +1620,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin layer of wool that takes the noise out of footsteps. Soft pink stays light across a broad area.",
+          "text": "A plush pastel-pink runner that softens cold stone floors, deadening footsteps with the light touch of fallen blossom petals.",
           "color": "white",
           "italic": true
         }
@@ -1631,7 +1631,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Powder set hard by water — it rings dull under a pick. Soft pink stays light across a broad area.",
+          "text": "Water-cured solid concrete of uniform pastel pink, smooth and seamless for bright, cheerful facades and modern pavilions.",
           "color": "white",
           "italic": true
         }
@@ -1642,7 +1642,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Soft pink stays light across a broad area.",
+          "text": "Fine pink mineral powder that sets rock-hard the moment moisture touches it, prized for clean, vibrant masonry.",
           "color": "white",
           "italic": true
         }
@@ -1653,7 +1653,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Ground pigment, good for wool, terracotta and glass alike. Soft pink stays light across a broad area.",
+          "text": "A soft rose pigment refined from peonies and pink tulips, dyeing wool and clay with the gentle radiance of spring dawn.",
           "color": "white",
           "italic": true
         }
@@ -1664,7 +1664,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Soft pink stays light across a broad area.",
+          "text": "Kiln-fired ceramic glazed with stylized pink floral arabesques, gleaming softly beneath the warm light of manor chandeliers.",
           "color": "white",
           "italic": true
         }
@@ -1675,7 +1675,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Soft pink stays light across a broad area.",
+          "text": "A shulker box dipped in soft pink dye, securing its expansive spatial vault beneath a charming, easily identified shell.",
           "color": "white",
           "italic": true
         }
@@ -1686,7 +1686,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Pigment melted into the glass: light comes through, the view does not. Soft pink stays light across a broad area.",
+          "text": "Translucent glass infused with delicate pink oxides, bathing interior chambers in a soothing, blossom-filtered twilight.",
           "color": "white",
           "italic": true
         }
@@ -1697,7 +1697,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Soft pink stays light across a broad area.",
+          "text": "A slender pane of pink-tinted glass, bringing gentle color and romantic charm to garden verandas and manor bedrooms.",
           "color": "white",
           "italic": true
         }
@@ -1708,7 +1708,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Soft pink stays light across a broad area.",
+          "text": "Hard-fired clay carrying a dusty, rose-terracotta hue, resistant to wind and weather with a warm, grounded presence.",
           "color": "white",
           "italic": true
         }
@@ -1719,7 +1719,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Wool sheared, washed and pressed — it still gives under the hand. Soft pink stays light across a broad area.",
+          "text": "Soft, warm wool saturated in gentle pink dye, ideal for tailoring elegant festival cloaks and bright domestic tapestries.",
           "color": "white",
           "italic": true
         }
@@ -1730,7 +1730,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Deep purple defines an outline with little material.",
+          "text": "A heavy woolen standard dyed imperial purple, snapping aloft in high winds with ancient majesty and sovereign arcane authority.",
           "color": "white",
           "italic": true
         }
@@ -1741,7 +1741,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Deep purple defines an outline with little material.",
+          "text": "A solid timber bed dressed in rich royal-purple fleece, offering a regal, cozy sanctuary as calm and deep as twilight skies.",
           "color": "white",
           "italic": true
         }
@@ -1752,7 +1752,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Deep purple defines an outline with little material.",
+          "text": "A beeswax taper tinted with deep purple dye, casting a steady, meditative glow across alchemical desks and ancient grimoires.",
           "color": "yellow",
           "italic": true
         }
@@ -1763,7 +1763,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin layer of wool that takes the noise out of footsteps. Deep purple defines an outline with little material.",
+          "text": "A plush royal-purple runner that warms cold castle stones, deadening heavy footsteps with the quiet, velvet dignity of throne rooms.",
           "color": "white",
           "italic": true
         }
@@ -1774,7 +1774,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Powder set hard by water — it rings dull under a pick. Deep purple defines an outline with little material.",
+          "text": "Water-cured solid concrete of uniform royal purple, smooth and completely seamless for monumental, imposing palatial structures.",
           "color": "white",
           "italic": true
         }
@@ -1785,7 +1785,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Deep purple defines an outline with little material.",
+          "text": "Fine purple mineral powder that sets rock-hard the moment moisture touches it, prized for bold, grand-scale architectural paving.",
           "color": "white",
           "italic": true
         }
@@ -1796,7 +1796,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Ground pigment, good for wool, terracotta and glass alike. Deep purple defines an outline with little material.",
+          "text": "Imperial purple pigment blended from lapis blue and rose red, dyeing wool and terracotta with the noble brilliance of sovereign courts.",
           "color": "white",
           "italic": true
         }
@@ -1807,7 +1807,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Deep purple defines an outline with little material.",
+          "text": "Kiln-fired ceramic glazed with stylized purple sword-feather patterns, gleaming with stately majesty beneath palace chandeliers.",
           "color": "white",
           "italic": true
         }
@@ -1818,7 +1818,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Deep purple defines an outline with little material.",
+          "text": "A shulker box bearing the natural, deep purple hue of the End, locking an expansive spatial hoard safe beneath its unyielding shell.",
           "color": "white",
           "italic": true
         }
@@ -1829,7 +1829,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Pigment melted into the glass: light comes through, the view does not. Deep purple defines an outline with little material.",
+          "text": "Translucent glass infused with purple oxides, washing interior chambers in a rich, mystical twilight reminiscent of the outer void.",
           "color": "white",
           "italic": true
         }
@@ -1840,7 +1840,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Deep purple defines an outline with little material.",
+          "text": "A slender pane of purple-tinted glass, bringing regal color and meditative calm to cathedral traceries and mage sanctuaries.",
           "color": "white",
           "italic": true
         }
@@ -1851,7 +1851,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Deep purple defines an outline with little material.",
+          "text": "Hard-fired clay carrying a dusky, slate-purple hue, resistant to wind and weather with a proud, ancient architectural presence.",
           "color": "white",
           "italic": true
         }
@@ -1862,7 +1862,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Wool sheared, washed and pressed — it still gives under the hand. Deep purple defines an outline with little material.",
+          "text": "Soft, warm wool saturated in imperial purple dye, ideal for tailoring regal mantles and opulent throne-room draperies.",
           "color": "white",
           "italic": true
         }
@@ -1873,7 +1873,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Full red stands out as a warning or a border.",
+          "text": "A heavy woolen standard dyed fiery crimson, snapping fiercely aloft in mountain gales with the sovereign wrath of conquerors.",
           "color": "white",
           "italic": true
         }
@@ -1884,7 +1884,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Full red stands out as a warning or a border.",
+          "text": "The classic timber bed dressed in warm scarlet fleece, offering a familiar, comforting sanctuary against the terrors of the night.",
           "color": "white",
           "italic": true
         }
@@ -1895,7 +1895,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Full red stands out as a warning or a border.",
+          "text": "A beeswax taper tinted with rich crimson dye, casting a bold, celebratory light across banqueting halls and solemn sanctuaries.",
           "color": "yellow",
           "italic": true
         }
@@ -1906,7 +1906,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin layer of wool that takes the noise out of footsteps. Full red stands out as a warning or a border.",
+          "text": "A plush scarlet runner that brings imperial dignity to cold castle flagstones, deadening footsteps with velvet softness.",
           "color": "white",
           "italic": true
         }
@@ -1917,7 +1917,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Powder set hard by water — it rings dull under a pick. Full red stands out as a warning or a border.",
+          "text": "Water-cured solid concrete of uniform, bold crimson, smooth and completely seamless for grand monuments and striking facades.",
           "color": "white",
           "italic": true
         }
@@ -1928,7 +1928,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Full red stands out as a warning or a border.",
+          "text": "Fine crimson mineral powder that hardens into glass-smooth stone the moment it meets water, prized for vibrant architectural masonry.",
           "color": "white",
           "italic": true
         }
@@ -1939,7 +1939,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Ground pigment, good for wool, terracotta and glass alike. Full red stands out as a warning or a border.",
+          "text": "Rich crimson pigment ground from poppies or beetroots, dyeing wool and clay with the fiery, unyielding brilliance of blood and flame.",
           "color": "white",
           "italic": true
         }
@@ -1950,7 +1950,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Full red stands out as a warning or a border.",
+          "text": "Kiln-fired ceramic glazed with dynamic scarlet fretwork and rings, gleaming brightly beneath grand chandeliers and wall sconces.",
           "color": "white",
           "italic": true
         }
@@ -1961,7 +1961,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Full red stands out as a warning or a border.",
+          "text": "A shulker box dipped in rich crimson dye, securing its expansive spatial vault beneath a fiery, easily identified shell.",
           "color": "white",
           "italic": true
         }
@@ -1972,7 +1972,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Pigment melted into the glass: light comes through, the view does not. Full red stands out as a warning or a border.",
+          "text": "Translucent glass infused with iron and copper oxides, washing interior halls in a bold, blood-crimson cathedral radiance.",
           "color": "white",
           "italic": true
         }
@@ -1983,7 +1983,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Full red stands out as a warning or a border.",
+          "text": "A slender pane of crimson-tinted glass, bringing fiery color and dramatic majesty to chapel traceries and fortress galleries.",
           "color": "white",
           "italic": true
         }
@@ -1994,7 +1994,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Full red stands out as a warning or a border.",
+          "text": "Hard-fired clay carrying a rich, rusty-red hue, resistant to wind and weather with ancient, unyielding canyon character.",
           "color": "white",
           "italic": true
         }
@@ -2005,7 +2005,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Wool sheared, washed and pressed — it still gives under the hand. Full red stands out as a warning or a border.",
+          "text": "Soft, warm wool saturated in vivid red dye, ideal for tailoring regal mantles, battle flags, and opulent interior draperies.",
           "color": "white",
           "italic": true
         }
@@ -2016,7 +2016,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A plain shulker box: two shells around a chest, so you can move house without unpacking.",
+          "text": "An extradimensional chest encased in unyielding shulker carapace, preserving its twenty-seven cargo slots intact even when broken and carried.",
           "color": "white",
           "italic": true
         }
@@ -2027,7 +2027,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Unglazed terracotta, the colour it comes out of the kiln with.",
+          "text": "Natural clay tempered in kiln heat until dense and weather-hard, displaying a warm, earthy terracotta hue of timeless simplicity.",
           "color": "white",
           "italic": true
         }
@@ -2038,7 +2038,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Clean white brings contrast to a dark corner.",
+          "text": "A clean woolen standard white as fresh snow, providing an unblemished canvas for heraldic charges or signaling peaceful truce.",
           "color": "white",
           "italic": true
         }
@@ -2049,7 +2049,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Clean white brings contrast to a dark corner.",
+          "text": "The classic timber bed dressed in pure white fleece, offering an unblemished, serene sanctuary as calm as a winter dawn.",
           "color": "white",
           "italic": true
         }
@@ -2060,7 +2060,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Clean white brings contrast to a dark corner.",
+          "text": "A refined beeswax taper bleached snow-white, casting a clean, steady flame across sacred chapel altars and peaceful study desks.",
           "color": "yellow",
           "italic": true
         }
@@ -2071,7 +2071,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin layer of wool that takes the noise out of footsteps. Clean white brings contrast to a dark corner.",
+          "text": "A plush snow-white runner that brightens cold stone floors, deadening footsteps with the soft, cloud-like touch of clean wool.",
           "color": "white",
           "italic": true
         }
@@ -2082,7 +2082,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Powder set hard by water — it rings dull under a pick. Clean white brings contrast to a dark corner.",
+          "text": "Water-cured solid concrete of pristine, uniform white, smooth and completely seamless for grand modern monuments and palatial facades.",
           "color": "white",
           "italic": true
         }
@@ -2093,7 +2093,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Clean white brings contrast to a dark corner.",
+          "text": "Fine white mineral dust that sets rock-hard the moment it touches water, prized for blindingly clean, monolithic masonry.",
           "color": "white",
           "italic": true
         }
@@ -2104,7 +2104,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Ground pigment, good for wool, terracotta and glass alike. Clean white brings contrast to a dark corner.",
+          "text": "Pure white pigment refined from bone meal or lilies of the valley, bleaching textiles and softening rich dyes with pristine clarity.",
           "color": "white",
           "italic": true
         }
@@ -2115,7 +2115,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Clean white brings contrast to a dark corner.",
+          "text": "Kiln-fired ceramic glazed with intricate white and yellow sunburst motifs, gleaming with celestial brilliance beneath grand chandeliers.",
           "color": "white",
           "italic": true
         }
@@ -2126,7 +2126,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Clean white brings contrast to a dark corner.",
+          "text": "A shulker box dipped in pure white dye, securing its expansive spatial vault beneath a pristine, easily spotted shell.",
           "color": "white",
           "italic": true
         }
@@ -2137,7 +2137,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Pigment melted into the glass: light comes through, the view does not. Clean white brings contrast to a dark corner.",
+          "text": "Translucent glass infused with white oxides, softening harsh sunlight into a clean, milk-tinted interior glow.",
           "color": "white",
           "italic": true
         }
@@ -2148,7 +2148,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Clean white brings contrast to a dark corner.",
+          "text": "A slender pane of white-tinted glass, bringing airy lightness and serene grace to cathedral cloisters and coastal watchtowers.",
           "color": "white",
           "italic": true
         }
@@ -2159,7 +2159,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Clean white brings contrast to a dark corner.",
+          "text": "Hard-fired clay carrying a warm, chalk-tinted stone hue, resistant to wind and weather with ancient, unyielding character.",
           "color": "white",
           "italic": true
         }
@@ -2170,7 +2170,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Wool sheared, washed and pressed — it still gives under the hand. Clean white brings contrast to a dark corner.",
+          "text": "Dense, natural fleece sheared from overworld sheep, warm, springy, and serving as the universal foundation for textiles and beds.",
           "color": "white",
           "italic": true
         }
@@ -2181,7 +2181,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Clear yellow makes an easy marker to find.",
+          "text": "A heavy woolen standard dyed brilliant sunflower-yellow, snapping aloft in mountain gales with the warmth and radiant pride of dawn.",
           "color": "white",
           "italic": true
         }
@@ -2192,7 +2192,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Clear yellow makes an easy marker to find.",
+          "text": "A solid timber bed dressed in sunny yellow fleece, offering a cheerful, cozy sanctuary after exhausting overland marches.",
           "color": "white",
           "italic": true
         }
@@ -2203,7 +2203,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Clear yellow makes an easy marker to find.",
+          "text": "A beeswax taper tinted with rich yellow dye, casting a bright, celebratory glow across tavern hearths and harvest feasts.",
           "color": "yellow",
           "italic": true
         }
@@ -2214,7 +2214,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thin layer of wool that takes the noise out of footsteps. Clear yellow makes an easy marker to find.",
+          "text": "A plush sunny-yellow runner that warms cold flagstones, deadening footsteps with the soft comfort of sun-drenched pasture turf.",
           "color": "white",
           "italic": true
         }
@@ -2225,7 +2225,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Powder set hard by water — it rings dull under a pick. Clear yellow makes an easy marker to find.",
+          "text": "Water-cured solid concrete of uniform, bold yellow, smooth and completely seamless for striking modern facades and monuments.",
           "color": "white",
           "italic": true
         }
@@ -2236,7 +2236,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Clear yellow makes an easy marker to find.",
+          "text": "Fine yellow mineral powder that sets rock-hard the moment moisture touches it, prized for clean, vibrant architectural paving.",
           "color": "white",
           "italic": true
         }
@@ -2247,7 +2247,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Ground pigment, good for wool, terracotta and glass alike. Clear yellow makes an easy marker to find.",
+          "text": "Brilliant yellow pigment refined from dandelions or sunflowers, dyeing wool, clay, and glass with the golden warmth of noon sun.",
           "color": "white",
           "italic": true
         }
@@ -2258,7 +2258,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Clear yellow makes an easy marker to find.",
+          "text": "Kiln-fired ceramic glazed with dynamic golden sunburst patterns, gleaming with cheerful radiance beneath grand chandeliers.",
           "color": "white",
           "italic": true
         }
@@ -2269,7 +2269,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Clear yellow makes an easy marker to find.",
+          "text": "A shulker box dipped in radiant yellow dye, securing its expansive spatial vault beneath a vibrant, easily spotted shell.",
           "color": "white",
           "italic": true
         }
@@ -2280,7 +2280,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Pigment melted into the glass: light comes through, the view does not. Clear yellow makes an easy marker to find.",
+          "text": "Translucent glass infused with yellow oxides, bathing interior rooms in the rich, cheerful radiance of late morning sunlight.",
           "color": "white",
           "italic": true
         }
@@ -2291,7 +2291,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Clear yellow makes an easy marker to find.",
+          "text": "A slender pane of yellow-tinted glass, bringing sunny warmth and cheerful grace to cottage verandas and great halls.",
           "color": "white",
           "italic": true
         }
@@ -2302,7 +2302,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Clear yellow makes an easy marker to find.",
+          "text": "Hard-fired clay carrying an earthy golden-ochre hue, resistant to wind and weather with a warm, grounded presence.",
           "color": "white",
           "italic": true
         }
@@ -2313,7 +2313,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Wool sheared, washed and pressed — it still gives under the hand. Clear yellow makes an easy marker to find.",
+          "text": "Soft, warm wool saturated in vivid yellow dye, ideal for tailoring festival cloaks and bright domestic tapestries.",
           "color": "white",
           "italic": true
         }

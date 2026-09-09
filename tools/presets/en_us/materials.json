@@ -3,7 +3,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A shard peeled off a budding amethyst block. Tap it and it gives a very faint ring.",
+          "text": "A bright sliver broken from an amethyst growth, pure enough for optical lenses and fine crafting.",
           "color": "light_purple",
           "italic": true
         }
@@ -14,7 +14,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A black lump that burns for a long while, and the most common thing you will haul out of a mine.",
+          "text": "Pitch-black fossil fuel chipped from subterranean seams, catching a spark readily to fuel the roaring forge or light the path ahead.",
           "color": "dark_gray",
           "italic": true
         }
@@ -25,7 +25,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A crystal squeezed together far underground. The edges will cut you, and the lustre is cold and blue.",
+          "text": "A flawless crystal forged in the planet's deepest mantle, sharp-edged and gleaming with an unyielding icy-blue luster.",
           "color": "aqua",
           "italic": true
         }
@@ -36,7 +36,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The only thing a villager considers to be of any value. Its green is warmer than a diamond's.",
+          "text": "A radiant cut gem of rich verdant hue, universally coveted across village marketplaces as the supreme coin of commerce.",
           "color": "green",
           "italic": true
         }
@@ -47,7 +47,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A blue gem that is permanently damp. Hold it close and you can hear waves a very long way off.",
+          "text": "A permanently damp, pulsating blue orb recovered from sunken chests, humming with the deep song of the tides to awaken conduits.",
           "color": "aqua",
           "italic": true
         }
@@ -58,7 +58,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A standard ingot of even quality, and the basis of most tools there are.",
+          "text": "A refined bar of smelted iron, dense, ductile, and uniform, serving as the foundational bedrock of all civilised toolcraft.",
           "color": "white",
           "italic": true
         }
@@ -69,7 +69,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "What the Wither leaves on the ground once it falls. It glows on its own, and it is faintly warm to hold.",
+          "text": "A radiant, pulsating celestial artifact claimed from the ashes of a slain Wither, crackling with raw, limitless power to crown beacon pyres.",
           "color": "white",
           "italic": true
         }
@@ -80,7 +80,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Heavier than diamond to the touch and quite happy to sit in lava. The material does not much respect the rules.",
+          "text": "An indestructible bar of alloy forged from ancient debris scrap and pure gold, floating upon molten lava and serving to elevate arms to divine perfection.",
           "color": "dark_gray",
           "italic": true
         }

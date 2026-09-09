@@ -2,69 +2,71 @@
 
 # OriginLore
 
-![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-6f58a2)
-![Fabric Loader](https://img.shields.io/badge/Fabric_Loader-%E2%89%A50.19.2-dbd0b4)
-![Java](https://img.shields.io/badge/Java-21-ed8b00)
-![Install](https://img.shields.io/badge/Install-server--side-3d8c40)
-![License](https://img.shields.io/badge/License-MIT-blue)
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-6f58a2?style=flat-square)
+![Fabric Loader](https://img.shields.io/badge/Fabric_Loader-%E2%89%A50.19.2-dbd0b4?style=flat-square)
+![Java](https://img.shields.io/badge/Java-21-ed8b00?style=flat-square)
+![Install](https://img.shields.io/badge/Install-Server--side-3d8c40?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 ![Build](https://github.com/2233DevJian/OriginLore/actions/workflows/build.yml/badge.svg)
 
-OriginLore 依据物品**从哪里来**决定它**是什么**。箱子战利品、方块掉落、实体掉落、钓鱼、考古、猪灵以物易物、赠礼、试炼密室宝库、合成、熔炼、切石、锻造、交易、采收和 `/give` 各自被识别为一种独立来源；每种来源都可以拥有自己的名称、Lore、稀有度、食物效果、附魔、属性修饰符和工具规则，并在实际生产时按权重抽取随机变体。修理、改名和附魔操作继承主体物品的身份。
+> **物随其源，质赋其形。**
+> OriginLore 是一款专为 RPG 整合包与沉浸式服务器打造的服务端权威物品叙事与属性重构模组。
 
-配置、来源判定、随机变体和物品刷新全部由逻辑服务端决定，结果以**原版数据组件**的形式写入物品本身。普通玩家不需要安装任何东西：原版客户端看到并使用这些内容的过程，与数据包或命令写入的结果完全一致。可选的客户端模组只为管理员提供游戏内管理界面和基于注册表的 Tab 补全。
+OriginLore 依据物品的**获取来源（Source）**决定它的**属性、品质与故事（Lore）**。从地牢宝箱、钓鱼、实体掉落到工匠锻造与试炼宝库，15 种独立来源均可拥有专属名称、叙事文本、稀有度、食物效果、附魔、属性修饰符与工具规则，并在产出时依权重抽取恒定变体。
 
-## 特性一览
+全部运算与数据下发均由**逻辑服务端**接管，并以**原版数据组件（Data Components）**格式直接写入物品本身。**普通玩家客户端无需安装任何模组**，即可享受与原版无缝兼容的深度 RPG 体验。
 
-- **三层规则模型** —— 基础规则 → 最具体的匹配来源规则 → 首次生成时抽到的变体规则。未填写的字段表示继承，绝不会把物品原有的值清空。
-- **15 种来源识别**，可选按战利品表 / 配方 ID 精确匹配；无法追溯的旧物品和模组自定义入口归入 `UNKNOWN`。OriginLore 不猜测来源。
-- **稳定的随机变体** —— 只抽取一次并持久保存。重启、区块重载、拆分、堆叠和重连都不会重抽，不同变体也不会错误堆叠。
-- **可回退** —— 从配置中删除某个字段后，物品会恢复 OriginLore 首次接管它之前记录的原始组件补丁，而不是留下一个空值。
-- **热刷新** —— 保存配置后，在线玩家背包、末影箱、装备、打开的容器、已加载方块库存和物品实体会增量刷新。未加载区块和离线存档从不被扫描。
-- **服务端权威的管理界面** —— 配置只下发给权限等级不低于 2 的 OP，每次编辑都会在服务端重新校验后才原子写盘。内置事务副本、版本冲突检测和断线保护。
-- **手持物品快捷编辑** —— 主手拿着物品按 `O`，直接进入该物品的规则编辑器。还没有规则的物品会自动新建一条，物品 ID 预填并锁定。
-- **高级组件编辑器** —— 任意 `ComponentType` JSON，由当前注册表、该组件自身的持久化 Codec 以及完整的 `ItemStack` 组件校验器共同验证。无效组件被拒绝，不会被写入。
-- **不侵入其他模组** —— 不修改任何第三方模组的 JAR、配置或资源。`minecraft:custom_data` 下的第三方数据完整保留，OriginLore 自己的记录单独存放在 `minecraft:custom_data.originlore`。
+---
 
-## 安装
+## ✦ 核心特性一览
 
-| 位置 | 需要安装 |
-| --- | --- |
-| 服务端 / 整合包服务端 | OriginLore + Fabric API + Fabric Loader 0.19.2 或更高 |
-| 需要使用管理界面的 OP 客户端 | 同一个 OriginLore JAR + Fabric API |
-| 普通玩家客户端 | 不需要安装 |
+- **三层递进规则模型**
+  `基础规则 (Base)` → `最匹配来源规则 (Source)` → `首次抽取变体规则 (Variant)`。未配置字段完全继承原版或上一层设定，绝不破坏物品原始属性。
+- **15 种精准来源识别**
+  支持战利品表 / 配方 ID 精确匹配；对于旧物品或无法追踪来源的模组物品，自动回退至 `UNKNOWN` 统一规则，不作错误猜测。
+- **持久化稳定随机变体**
+  变体仅在物品首次生成时抽取并固化。跨维度、区块卸载、重启、拆分堆叠或重连均不会导致重新抽取，不同品质间绝不异常混堆。
+- **食品 FIFO 队列持久化**
+  兼容先进先出（FIFO）数据队列，支持拆分、合并、容器流转与自动合成；无缝记录食品品质、加工风险、蜂蜜与蛋糕状态。
+- **无损属性继承与迁移**
+  装备修理、铁砧改名、附魔、砂轮除魔、锻造纹饰乃至下界合金升级，均完整继承原物品的品质身份与耐久比例。
+- **真正的热刷新（Live Refresh）**
+  保存配置后，在线玩家背包、末影箱、装备槽、已加载容器与掉落物实体即刻增量更新，无需重启服务器，亦不扫描未加载区块。
+- **服务端权威的管理 GUI**
+  仅向 2 级及以上 OP 开放。内置注册表 Tab 自动补全、原版 Text JSON 样式、事务保护与防并发冲突检测；支持主手持物按 `O` 一键快捷编辑。
+- **全量 1.21.1 原版生存预设**
+  开箱即用！内置覆盖 1,218 个默认生存可获得物品的高质量中英文预设，并支持游戏内一键双语无缝切换。
 
-运行环境固定为 Minecraft 1.21.1 和 Java 21。
+---
 
-从 [Releases 页面](https://github.com/2233DevJian/OriginLore/releases) 下载 `originlore-3.0.0.jar`，放入实例的 `mods` 目录；自行构建时产物同样位于 `build/libs`。部署时只用这个 JAR，不要使用 `-dev` 或 `-sources` 版本。首次启动会创建：
+## 🛠 安装指南
 
+| 部署环境 | 必需组件 |
+| :--- | :--- |
+| **服务端 / 整合包服务端** | `OriginLore-3.0.1.jar` + Fabric API + Fabric Loader ≥ 0.19.2 |
+| **管理员（OP）客户端** | 相同的 `OriginLore-3.0.1.jar` + Fabric API *（用于打开管理 GUI）* |
+| **普通玩家客户端** | **无需安装任何模组** *（完全由原版客户端解析）* |
+
+*环境要求：Minecraft 1.21.1 / Java 21。*
+
+从 [Releases 页面](https://github.com/2233DevJian/OriginLore/releases) 下载最新 JAR 并放入 `mods` 目录。首次启动后将自动生成配置文件：
 ```text
 config/originlore/item_components.json
 ```
 
-新配置自动启用中文完整预设，覆盖 Java 1.21.1 默认、非实验生存可获得的 1218 个物品。玩家头颅没有原版生存获取途径，收纳袋在此版本需要实验性功能。基础规则只添加 Lore，保留原版名称与属性。已有配置会保留；`/originlore preset apply vanilla_zh_cn` 或 `/originlore preset apply vanilla_en_us` 仅补充缺失条目，不替换现有条目。
+## ⚡ 快速上手
+进入游戏后，主手持握需要编辑的物品按 O 键（可于“选项 → 控制”中自定义），即可直接进入该物品的专属编辑器；空手按 O 则打开全局物品列表。
+展开左侧规则树，可在基础规则、来源规则（如箱子战利品、工作台合成）与加权变体间自由配置。
+编辑完成后点击底部“保存”，配置将实时校验、原子写盘并广播刷新全服在线物品。
+💡 想要重载磁盘配置？OP 玩家可在控制台或聊天框执行：
 
-## 快速上手
+```bash
+/originlore reload
+```
 
-进入世界或服务器后按 `O` 打开管理界面（可在“选项 → 控制”中改键）。主手拿着物品时，`O` 会直接进入该物品的规则编辑器——还没有规则时新建一条并预填、锁定物品 ID；空手则照旧打开物品列表。服务端只向权限等级至少为 2 的玩家发送配置；无权限、服务端未安装模组、协议不兼容或已经断线时，编辑功能会被明确禁用，而不是静默失败。
+## 📐 规则架构示意
 
-物品列表的语言按钮一键切换全服仍由预设管理的中英文文案及当前管理员的 OriginLore 界面语言，保留人工改写和玩法数值。Minecraft 全局语言及其他管理员的界面偏好不变。
-
-管理界面支持：
-
-- 基础、来源、变体三层规则在同一棵规则树中编辑。
-- 物品、战利品表、配方、组件、附魔、属性、状态效果和方块 ID 补全，数据来自服务端下发的注册表目录。
-- `Tab`、方向键、`Enter`、`Escape` 和鼠标操作补全列表。
-- 名称和 Lore 的颜色、粗体、斜体，以及完整的原版 Text JSON。
-- 食物、附魔、属性修饰符、工具规则和高级数据组件编辑器。
-- 事务副本、服务端校验错误提示和配置版本冲突保护。
-
-保存操作始终发往逻辑服务端，包括单人世界中的集成服务端。服务端校验并原子写盘成功后，才会广播新版本并刷新物品。
-
-`/originlore reload` 可由权限等级至少为 2 的命令源执行，用于强制从磁盘重新加载。损坏或无效的文件不会替换上一份有效配置。
-
-## 规则模型
-
-配置文件使用 schema v5：
+配置文件遵循 Schema v5 规范：
 
 ```json
 {
@@ -81,8 +83,9 @@ config/originlore/item_components.json
           "lootTableId": "minecraft:chests/simple_dungeon",
           "rule": {},
           "variants": [
-            {"id": "fresh", "weight": 6, "rule": {}},
-            {"id": "stored", "weight": 3, "rule": {"lore": ["存放很久的浆果。"]}}
+            { "id": "fresh", "weight": 6, "rule": {} },
+            { "id": "stored", "weight": 3, "rule": { "lore": ["在地牢木箱中存放已久的浆果。"] } },
+            { "id": "rotten", "weight": 1, "rule": { "itemName": "腐烂的甜浆果", "food": { "nutrition": 1, "saturation": 0.1 } } }
           ]
         }
       ]
@@ -91,105 +94,22 @@ config/originlore/item_components.json
 }
 ```
 
-对每个物品，OriginLore 先选择最具体的一个来源规则，再按以下顺序合并：
+## 🔧 15 种受支持的来源枚举
 
 ```text
-基础规则 -> 来源规则 -> 首次抽取的变体规则
-```
-
-未填写的字段保持物品原值。字段从配置中删除后，OriginLore 会恢复首次接管前记录的原始组件补丁。特定战利品表或配方 ID 在运行时无法取得时，只有没有限定具体 ID 的来源规则可以匹配，物品不会被错误归到另一个来源。
-
-支持的来源类型：
-
-```text
-BLOCK_DROP  CHEST_LOOT  ENTITY_DROP  FISHING  ARCHAEOLOGY
-BARTER      GIFT        VAULT        COMMAND  CRAFTING
-SMELTING    CUTTING     SMITHING     TRADING  HARVEST
+BLOCK_DROP   CHEST_LOOT   ENTITY_DROP   FISHING     ARCHAEOLOGY
+BARTER       GIFT         VAULT         COMMAND     CRAFTING
+SMELTING     CUTTING      SMITHING      TRADING     HARVEST
 UNKNOWN
 ```
 
-旧物品和无法可靠追溯来源的模组自定义入口归入 `UNKNOWN`。你可以像配置其他来源一样为 `UNKNOWN` 单独配置规则，统一接管这些物品。
+## 📚 文档索引
 
-## 字段说明
-
-| 字段 | 含义 |
-| --- | --- |
-| `itemName` / `itemNameJson` | 品质使用的物品名称，玩家铁砧命名优先显示 |
-| `customName` / `customNameJson` | 纯文本名称，或原版 Text JSON |
-| `lore` / `loreJson` | 纯文本 Lore 行，或 Text JSON 行 |
-| `rarityName` | `common`、`uncommon`、`rare`、`epic` |
-| `maxStackSize` / `maxStackSizeRange` | 固定的最大堆叠数，或首次生成时随机 |
-| `maxDamage` / `maxDamageRange` | 固定的最大耐久，或首次生成时随机 |
-| `currentDamage` | 当前耐久损耗 |
-| `fireResistant` | 是否拥有防火组件 |
-| `enchantments` / `storedEnchantments` | 附魔 ID 到等级的映射 |
-| `food` | 固定或随机的营养、饱和度和食用时间，以及随时食用和概率效果 |
-| `attributes` | 属性、修饰符 ID、固定或随机数值、运算和槽位 |
-| `attackDamage` | 首次生成时抽取并持久保存的未附魔最终主手攻击伤害 |
-| `attackDamageRange` | 旧版兼容字段，表示额外主手攻击伤害 |
-| `projectileDamageMultiplier` | 弓、弩和三叉戟实际命中的固定或随机伤害倍率 |
-| `tool` | 方块集合、固定或随机挖掘速度、速度倍率、正确掉落和每方块耐久损耗 |
-| `customModelData` | 自定义模型数据 |
-| `hideTooltip` / `hideAdditionalTooltip` | Tooltip 隐藏组件 |
-| `setComponents` / `removeComponents` | 高级组件 JSON 设置或移除 |
-
-高级组件值由对应 Minecraft `ComponentType` 的持久化 Codec 和完整 `ItemStack` 组件校验器验证。不存在、不可持久化或无法按当前注册表解析的组件会被拒绝，不会写入配置或物品。
-
-完整示例见 [config_example.json](config_example.json)；专用整合包中的模组物品示例见 [modpack_config_example.json](modpack_config_example.json)。
-
-## 来源身份与热刷新
-
-被接管的物品会在 `minecraft:custom_data.originlore` 中保存来源、具体 ID、变体 ID、配置 revision、随机抽取位置和受管理字段的原始组件补丁。配置与物品元数据均使用版本 4。旧随机记录按迁移时可用范围推算一次相对位置；已经丢失的历史范围无法恢复。迁移限制见[使用手册](使用手册.md#16-随机范围与迁移)。
-
-- 变体只在首次接管时按权重抽取一次，此后在重启、复制、拆分和区块重载中保持不变。
-- 不同品质不会混堆；同物品、同品质且原生组件兼容的食品按先进先出顺序逐份保存来源、随机位置和加工风险，普通提示显示下一份，保持原版堆叠上限。
-- 随机范围热更新会把已保存的抽取位置映射到新范围。最大耐久变化保留剩余耐久比例，显式设置当前损耗时以该设置为准。权重变更只影响未来产出。
-- 熔炉、烟熏炉和高炉每完成一件 OriginLore 物品后暂停，取走产物后才按最新权重开始下一件，避免单个产物槽混入不同变体。
-- 已有明确来源的物品经过 `UNKNOWN` 回退入口时仍保留原来源，不会被降级覆盖。
-- 配置保存后，在线玩家背包、末影箱、装备、打开的容器、已加载方块库存和物品实体会增量刷新。
-- 玩家登录、区块加载、实体加载和库存变更时会惰性刷新。
-- 模组不会扫描未加载区块，也不会直接改写离线存档。
-
-## 兼容性
-
-标准 `ItemStack` 构造、LootTable、原版配方体系和持久数据组件可自动工作。其他模组在 Java 中写死、且没有用数据组件表达的行为需要单独适配。来源入口不可识别时，物品仍可通过 `UNKNOWN` 规则接管。
-
-OriginLore 不修改第三方模组的 JAR、配置或资源。与其他模组的共存细节、自动识别的来源入口和已知限制见[兼容性说明](COMPATIBILITY_TESTS.md)。
-
-## 文档索引
-
-| 主题 | 中文 | English |
+| 文档 | 中文 | English |
 | --- | --- | --- |
-| 项目概览 | 本文件 | [README.md](README.md) |
-| 使用手册 —— 管理界面完整操作 | [使用手册.md](使用手册.md) | [docs/en/USER_GUIDE.md](docs/en/USER_GUIDE.md) |
-| 兼容性、测试与已知限制 | [COMPATIBILITY_TESTS.md](COMPATIBILITY_TESTS.md) | [docs/en/COMPATIBILITY.md](docs/en/COMPATIBILITY.md) |
-| 更新日志 | [更新日志.md](更新日志.md) | [docs/en/CHANGELOG.md](docs/en/CHANGELOG.md) |
+| 完整使用指南 | [使用手册.md](使用手册.md) | [docs/en/USER_GUIDE.md](docs/en/USER_GUIDE.md) |
+| 兼容性与测试说明 | [COMPATIBILITY_TESTS.md](COMPATIBILITY_TESTS.md) | [docs/en/COMPATIBILITY.md](docs/en/COMPATIBILITY.md) |
+| 版本更新日志 | [更新日志.md](更新日志.md) | [docs/en/CHANGELOG.md](docs/en/CHANGELOG.md) |
 
-第一次使用管理界面前请先阅读[使用手册](使用手册.md)，其中包含基础 Lore、来源规则、随机变体、食物效果、铁剑差异化和高级组件编辑器的完整操作示例。
-
-## 从源码构建
-
-```powershell
-.\gradlew.bat test runGametest build --console=plain
-```
-
-默认构建目标是 Fabric Loader 0.19.2。若要针对 0.19.3 做快速回归，可显式覆盖：
-
-```powershell
-.\gradlew.bat test runGametest '-Ploader_version=0.19.3' --console=plain
-```
-
-PowerShell 中带点号的 Gradle 属性参数应使用引号。生产 JAR 位于 `build/libs`。
-
-## 实现结构
-
-- `ItemComponentConfig`：schema、迁移、事务快照、原子保存和 revision。
-- `ItemComponentManager`：原始值恢复、规则合并、稳定随机值、Codec 校验和组件事务提交。
-- `SourceContext` 与来源 Mixin：Loot、命令、合成、熔炼、切石、锻造、玩家库存和通用回退。
-- `RefreshService`：在线及已加载对象的有界增量刷新。
-- `OriginLoreNetworking`：OP 权限、压缩分片、大小限制、冲突检查和版本广播。
-- `ClientConfigSession` 与各 Screen：只读快照缓存和事务式管理员 GUI。
-
-## 许可证
-
-MIT。
+## 📄 开源协议
+本项目采用 MIT License 授权开源。

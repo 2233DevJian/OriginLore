@@ -55,8 +55,8 @@ class PresetQualityTest {
         assertEquals(1, crafted.getAsJsonArray("variants").size());
         JsonObject handmade = variant(crafted, "handmade");
         assertEquals(100, handmade.get("weight").getAsInt());
-        assertSword(handmade, "手工打制铁剑", -2, -1, 150, 200);
-        assertEquals("剑身上还留着深浅不一的锤痕，刃口也磨得不甚齐整。虽然不太趁手，但好在制作较为简单。",
+        assertSword(handmade, "粗锻手工铁剑", -2, -1, 150, 200);
+        assertEquals("铁砧上敲击成型的粗坯，剑身上还留着深浅不一的锤痕。虽然握着略显笨拙，但淬火后的锋芒足以逼退夜巡的怪物。",
                 handmade.getAsJsonObject("rule").getAsJsonArray("loreJson").get(0).getAsJsonObject().get("text").getAsString());
 
         JsonObject chest = source(sword, "CHEST_LOOT");
@@ -67,19 +67,19 @@ class PresetQualityTest {
         assertEquals(70, damaged.get("weight").getAsInt());
         assertEquals(25, standard.get("weight").getAsInt());
         assertEquals(5, refined.get("weight").getAsInt());
-        assertSword(damaged, "剑刃有缺口的铁剑", 0, 0, 75, 75);
-        assertSword(standard, "铁匠打造的铁剑", 0, 0, 250, 250);
-        assertSword(refined, "精钢铁剑", 1, 1, 275, 275);
+        assertSword(damaged, "战痕残缺铁剑", 0, 0, 75, 75);
+        assertSword(standard, "铁匠锻制佩剑", 0, 0, 250, 250);
+        assertSword(refined, "百炼精钢长剑", 1, 1, 275, 275);
     }
 
     @Test
     void approvedChineseAndEnglishCopyIsKeptVerbatimAcrossEveryApplicablePool() throws IOException {
         Map<String, String> swordLore = Map.of(
-                "zh_cn", "剑身上还留着深浅不一的锤痕，刃口也磨得不甚齐整。虽然不太趁手，但好在制作较为简单。",
-                "en_us", "Hammer marks of uneven depth remain on the blade, and the edge is far from neatly ground. It is awkward in the hand, but at least it is simple to make.");
+                "zh_cn", "铁砧上敲击成型的粗坯，剑身上还留着深浅不一的锤痕。虽然握着略显笨拙，但淬火后的锋芒足以逼退夜巡的怪物。",
+                "en_us", "Beaten into shape over a camp anvil, its flats scarred by uneven hammer blows. Crude in hand, yet its quenched edge bites hard.");
         Map<String, String> breadLore = Map.of(
-                "zh_cn", "外皮已经干裂，掰开便落下一把碎屑——作为填饱肚子而言，还算能吃的干粮。",
-                "en_us", "The crust has cracked dry, and breaking it scatters a handful of crumbs. As something to fill an empty stomach, it is still edible trail bread.");
+                "zh_cn", "面包皮早已干硬如木，掰开时碎屑四散，必须就着水袋里的清水慢慢咽下。但在饥肠辘辘的旅途中，没人会挑剔它。",
+                "en_us", "Hardened like dry timber and shedding brittle crumbs. It yields only when washed down with cold flask water, though an empty stomach knows better than to complain.");
         for (String language : PresetWriter.LANGUAGES) {
             Map<String, JsonObject> items = shards(language);
             JsonObject handmade = variant(source(items.get("minecraft:iron_sword"), "CRAFTING"), "handmade");
@@ -89,11 +89,11 @@ class PresetQualityTest {
             }
         }
         JsonObject sword = shards("en_us").get("minecraft:iron_sword");
-        assertSword(variant(source(sword, "CRAFTING"), "handmade"), "Hand-forged Iron Sword", -2, -1, 150, 200);
+        assertSword(variant(source(sword, "CRAFTING"), "handmade"), "Rough-beaten Iron Sword", -2, -1, 150, 200);
         JsonObject chest = source(sword, "CHEST_LOOT");
-        assertSword(variant(chest, "damaged"), "Notched Iron Sword", 0, 0, 75, 75);
+        assertSword(variant(chest, "damaged"), "Battle-notched Iron Sword", 0, 0, 75, 75);
         assertSword(variant(chest, "standard"), "Smith-forged Iron Sword", 0, 0, 250, 250);
-        assertSword(variant(chest, "refined"), "Fine Steel Sword", 1, 1, 275, 275);
+        assertSword(variant(chest, "refined"), "Tempered Steel Longsword", 1, 1, 275, 275);
     }
 
     @Test
@@ -180,7 +180,7 @@ class PresetQualityTest {
     void foodKeepsNativeEffectsAndCakeValuesArePerBite() throws IOException {
         Map<String, JsonObject> items = shards("zh_cn");
         JsonObject bread = variant(source(items.get("minecraft:bread"), "CHEST_LOOT"), "stale");
-        assertEquals("外皮已经干裂，掰开便落下一把碎屑——作为填饱肚子而言，还算能吃的干粮。",
+        assertEquals("面包皮早已干硬如木，掰开时碎屑四散，必须就着水袋里的清水慢慢咽下。但在饥肠辘辘的旅途中，没人会挑剔它。",
                 bread.getAsJsonObject("rule").getAsJsonArray("loreJson").get(0).getAsJsonObject().get("text").getAsString());
         JsonObject apple = variant(source(items.get("minecraft:golden_apple"), "CRAFTING"), "choice")
                 .getAsJsonObject("rule").getAsJsonObject("food");

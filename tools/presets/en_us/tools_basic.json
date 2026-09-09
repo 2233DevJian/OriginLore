@@ -3,7 +3,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too.",
+          "text": "A heavy stone wedge flaked from river rock and bound tightly to a wooden haft, cleaving timber and bone with raw, blunt authority.",
           "color": "white",
           "italic": true
         }
@@ -18,10 +18,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Stone Axe",
+              "itemName": "Chipped Flint Axe",
               "loreJson": [
                 {
-                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "The stone bit is cracked and notched along the edge with frayed lashings, yet its heavy swing still splits pine logs in a pinch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -47,10 +47,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Stone Axe",
+              "itemName": "Hunter's Flaked Stone Axe",
               "loreJson": [
                 {
-                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with an evenly knapped stone head, delivering clean momentum to bring down forest boughs.",
                   "color": "white",
                   "italic": true
                 }
@@ -76,10 +76,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Stone Axe",
+              "itemName": "Master-knapped Basalt Cleaver",
               "loreJson": [
                 {
-                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of primeval flint-knapping ground from dense basalt, its keen edge biting through oak with the effortless power of worked metal.",
                   "color": "blue",
                   "italic": true
                 }
@@ -110,10 +110,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Stone Axe",
+              "itemName": "Rough-bound Cobble Axe",
               "loreJson": [
                 {
-                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "A crude stone chunk lashed in haste to a green branch with grass cord. Clunky to swing, but honest work for the first shelter.",
                   "color": "gray",
                   "italic": true
                 }
@@ -139,10 +139,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Stone Axe",
+              "itemName": "Hunter's Flaked Stone Axe",
               "loreJson": [
                 {
-                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with an evenly knapped stone head, delivering clean momentum to bring down forest boughs.",
                   "color": "white",
                   "italic": true
                 }
@@ -168,10 +168,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Stone Axe",
+              "itemName": "Master-knapped Basalt Cleaver",
               "loreJson": [
                 {
-                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of primeval flint-knapping ground from dense basalt, its keen edge biting through oak with the effortless power of worked metal.",
                   "color": "blue",
                   "italic": true
                 }
@@ -202,10 +202,10 @@
             "weight": 65,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Stone Axe",
+              "itemName": "Chipped Flint Axe",
               "loreJson": [
                 {
-                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "The stone bit is cracked and notched along the edge with frayed lashings, yet its heavy swing still splits pine logs in a pinch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -231,10 +231,10 @@
             "weight": 30,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Stone Axe",
+              "itemName": "Hunter's Flaked Stone Axe",
               "loreJson": [
                 {
-                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with an evenly knapped stone head, delivering clean momentum to bring down forest boughs.",
                   "color": "white",
                   "italic": true
                 }
@@ -260,10 +260,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Stone Axe",
+              "itemName": "Master-knapped Basalt Cleaver",
               "loreJson": [
                 {
-                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of primeval flint-knapping ground from dense basalt, its keen edge biting through oak with the effortless power of worked metal.",
                   "color": "blue",
                   "italic": true
                 }
@@ -294,10 +294,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Stone Axe",
+              "itemName": "Chipped Flint Axe",
               "loreJson": [
                 {
-                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "The stone bit is cracked and notched along the edge with frayed lashings, yet its heavy swing still splits pine logs in a pinch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -323,10 +323,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Stone Axe",
+              "itemName": "Hunter's Flaked Stone Axe",
               "loreJson": [
                 {
-                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with an evenly knapped stone head, delivering clean momentum to bring down forest boughs.",
                   "color": "white",
                   "italic": true
                 }
@@ -352,10 +352,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Stone Axe",
+              "itemName": "Master-knapped Basalt Cleaver",
               "loreJson": [
                 {
-                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of primeval flint-knapping ground from dense basalt, its keen edge biting through oak with the effortless power of worked metal.",
                   "color": "blue",
                   "italic": true
                 }
@@ -384,7 +384,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe.",
+          "text": "A stone-bladed tiller bound firmly to a wooden shaft, slicing through stubborn root-choked soil to turn wilderness into furrows.",
           "color": "white",
           "italic": true
         }
@@ -399,10 +399,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Stone Hoe",
+              "itemName": "Rough-hafted Stone Hoe",
               "loreJson": [
                 {
-                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "A jagged stone shard lashed in haste to a forest branch. A bit clumsy on the swing, but turns heavy earth reliably.",
                   "color": "gray",
                   "italic": true
                 }
@@ -424,10 +424,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Stone Hoe",
+              "itemName": "Husbandman's Knapped Hoe",
               "loreJson": [
                 {
-                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with a ground stone edge, turning heavy turf into planting furrows with steady, honest ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -449,10 +449,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Stone Hoe",
+              "itemName": "Master-ground Basalt Tiller",
               "loreJson": [
                 {
-                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of primeval toolcraft ground from dense volcanic stone, gliding through root-bound clay with smooth, tireless efficiency.",
                   "color": "blue",
                   "italic": true
                 }
@@ -479,10 +479,10 @@
             "weight": 65,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Stone Hoe",
+              "itemName": "Chipped Stone Hoe",
               "loreJson": [
                 {
-                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "The stone blade is notched and loosened by stray stones in the furrow, yet it still parts tangled sod when driven with patience.",
                   "color": "gray",
                   "italic": true
                 }
@@ -504,10 +504,10 @@
             "weight": 30,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Stone Hoe",
+              "itemName": "Husbandman's Knapped Hoe",
               "loreJson": [
                 {
-                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with a ground stone edge, turning heavy turf into planting furrows with steady, honest ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -529,10 +529,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Stone Hoe",
+              "itemName": "Master-ground Basalt Tiller",
               "loreJson": [
                 {
-                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of primeval toolcraft ground from dense volcanic stone, gliding through root-bound clay with smooth, tireless efficiency.",
                   "color": "blue",
                   "italic": true
                 }
@@ -559,10 +559,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Stone Hoe",
+              "itemName": "Chipped Stone Hoe",
               "loreJson": [
                 {
-                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "The stone blade is notched and loosened by stray stones in the furrow, yet it still parts tangled sod when driven with patience.",
                   "color": "gray",
                   "italic": true
                 }
@@ -584,10 +584,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Stone Hoe",
+              "itemName": "Husbandman's Knapped Hoe",
               "loreJson": [
                 {
-                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with a ground stone edge, turning heavy turf into planting furrows with steady, honest ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -609,10 +609,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Stone Hoe",
+              "itemName": "Master-ground Basalt Tiller",
               "loreJson": [
                 {
-                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of primeval toolcraft ground from dense volcanic stone, gliding through root-bound clay with smooth, tireless efficiency.",
                   "color": "blue",
                   "italic": true
                 }
@@ -637,7 +637,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock.",
+          "text": "A reliable stone pickaxe flaked from hard rock and bound to a wooden haft, shattering stone and iron veins with honest momentum.",
           "color": "white",
           "italic": true
         }
@@ -652,10 +652,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Stone Pickaxe",
+              "itemName": "Worn Knapped Pickaxe",
               "loreJson": [
                 {
-                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "The stone points are blunted and scarred from miles of cavern rock, its lashings strained, yet it breaks strata when swung with force.",
                   "color": "gray",
                   "italic": true
                 }
@@ -681,10 +681,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Stone Pickaxe",
+              "itemName": "Prospector's Stone Pickaxe",
               "loreJson": [
                 {
-                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a seasoned ash shaft with twin ground stone points, delivering clean momentum to cleave iron veins with every strike.",
                   "color": "white",
                   "italic": true
                 }
@@ -710,10 +710,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Stone Pickaxe",
+              "itemName": "Master Delver's Basalt Pick",
               "loreJson": [
                 {
-                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterpiece of primeval quarrying ground from seamless basalt, biting through heavy stone and dense deposits with ringing precision.",
                   "color": "blue",
                   "italic": true
                 }
@@ -744,10 +744,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Stone Pickaxe",
+              "itemName": "Rough-bound Stone Pick",
               "loreJson": [
                 {
-                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "A rough stone block bound to a whittled branch with cord. Unpolished and heavy in the swing, but honest work in the dark.",
                   "color": "gray",
                   "italic": true
                 }
@@ -773,10 +773,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Stone Pickaxe",
+              "itemName": "Prospector's Stone Pickaxe",
               "loreJson": [
                 {
-                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a seasoned ash shaft with twin ground stone points, delivering clean momentum to cleave iron veins with every strike.",
                   "color": "white",
                   "italic": true
                 }
@@ -802,10 +802,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Stone Pickaxe",
+              "itemName": "Master Delver's Basalt Pick",
               "loreJson": [
                 {
-                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterpiece of primeval quarrying ground from seamless basalt, biting through heavy stone and dense deposits with ringing precision.",
                   "color": "blue",
                   "italic": true
                 }
@@ -836,10 +836,10 @@
             "weight": 65,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Stone Pickaxe",
+              "itemName": "Worn Knapped Pickaxe",
               "loreJson": [
                 {
-                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "The stone points are blunted and scarred from miles of cavern rock, its lashings strained, yet it breaks strata when swung with force.",
                   "color": "gray",
                   "italic": true
                 }
@@ -865,10 +865,10 @@
             "weight": 30,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Stone Pickaxe",
+              "itemName": "Prospector's Stone Pickaxe",
               "loreJson": [
                 {
-                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a seasoned ash shaft with twin ground stone points, delivering clean momentum to cleave iron veins with every strike.",
                   "color": "white",
                   "italic": true
                 }
@@ -894,10 +894,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Stone Pickaxe",
+              "itemName": "Master Delver's Basalt Pick",
               "loreJson": [
                 {
-                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterpiece of primeval quarrying ground from seamless basalt, biting through heavy stone and dense deposits with ringing precision.",
                   "color": "blue",
                   "italic": true
                 }
@@ -928,10 +928,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Stone Pickaxe",
+              "itemName": "Worn Knapped Pickaxe",
               "loreJson": [
                 {
-                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "The stone points are blunted and scarred from miles of cavern rock, its lashings strained, yet it breaks strata when swung with force.",
                   "color": "gray",
                   "italic": true
                 }
@@ -957,10 +957,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Stone Pickaxe",
+              "itemName": "Prospector's Stone Pickaxe",
               "loreJson": [
                 {
-                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a seasoned ash shaft with twin ground stone points, delivering clean momentum to cleave iron veins with every strike.",
                   "color": "white",
                   "italic": true
                 }
@@ -986,10 +986,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Stone Pickaxe",
+              "itemName": "Master Delver's Basalt Pick",
               "loreJson": [
                 {
-                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterpiece of primeval quarrying ground from seamless basalt, biting through heavy stone and dense deposits with ringing precision.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1018,7 +1018,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one.",
+          "text": "A broad-bladed spade knapped from durable stone, slicing cleanly through packed clay, gritty gravel, and snowdrifts.",
           "color": "white",
           "italic": true
         }
@@ -1033,10 +1033,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Stone Shovel",
+              "itemName": "Rough-flaked Stone Shovel",
               "loreJson": [
                 {
-                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "A slab of flat stone lashed in haste to a wooden shaft. A little thick at the edge, but moves earth with dependable force.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1062,10 +1062,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Stone Shovel",
+              "itemName": "Pioneer's Stone Shovel",
               "loreJson": [
                 {
-                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with a sharpened stone scoop, parting heavy loam and sand with tireless, honest ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -1091,10 +1091,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Stone Shovel",
+              "itemName": "Master Earth-shaper Basalt Spade",
               "loreJson": [
                 {
-                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "Formed of polished volcanic basalt with a mirror-honed bevel, slicing effortlessly through root-bound clay and frozen gravel.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1125,10 +1125,10 @@
             "weight": 65,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Stone Shovel",
+              "itemName": "Chipped Stone Spade",
               "loreJson": [
                 {
-                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Notched and scarred along the blade edge from coarse stone work, its wooden shaft weathered, but still digs an honest furrow.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1154,10 +1154,10 @@
             "weight": 30,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Stone Shovel",
+              "itemName": "Pioneer's Stone Shovel",
               "loreJson": [
                 {
-                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with a sharpened stone scoop, parting heavy loam and sand with tireless, honest ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -1183,10 +1183,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Stone Shovel",
+              "itemName": "Master Earth-shaper Basalt Spade",
               "loreJson": [
                 {
-                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "Formed of polished volcanic basalt with a mirror-honed bevel, slicing effortlessly through root-bound clay and frozen gravel.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1217,10 +1217,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Stone Shovel",
+              "itemName": "Chipped Stone Spade",
               "loreJson": [
                 {
-                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Notched and scarred along the blade edge from coarse stone work, its wooden shaft weathered, but still digs an honest furrow.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1246,10 +1246,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Stone Shovel",
+              "itemName": "Pioneer's Stone Shovel",
               "loreJson": [
                 {
-                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with a sharpened stone scoop, parting heavy loam and sand with tireless, honest ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -1275,10 +1275,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Stone Shovel",
+              "itemName": "Master Earth-shaper Basalt Spade",
               "loreJson": [
                 {
-                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "Formed of polished volcanic basalt with a mirror-honed bevel, slicing effortlessly through root-bound clay and frozen gravel.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1307,7 +1307,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A blade whittled out of firewood, and it fells trees far faster than bare hands. It goes dull just as quickly.",
+          "text": "A simple timber wedge whittled from dry hardwood and bound to a haft, the honest, humble starting point of every overland journey.",
           "color": "green",
           "italic": true
         }
@@ -1322,10 +1322,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Wooden Axe",
+              "itemName": "Weathered Timber Axe",
               "loreJson": [
                 {
-                  "text": "A blade whittled out of firewood, and it fells trees far faster than bare hands. It goes dull just as quickly. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Splintered and frayed along the binding twine from hard chopping, yet its blunt wooden weight still splits pine branches in a pinch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1351,10 +1351,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Wooden Axe",
+              "itemName": "Woodsman's Whittled Axe",
               "loreJson": [
                 {
-                  "text": "A blade whittled out of firewood, and it fells trees far faster than bare hands. It goes dull just as quickly. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with a cleanly whittled wooden bit, delivering dependable momentum to bring down forest saplings.",
                   "color": "white",
                   "italic": true
                 }
@@ -1380,10 +1380,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Wooden Axe",
+              "itemName": "Master-carved Hardwood Cleaver",
               "loreJson": [
                 {
-                  "text": "A blade whittled out of firewood, and it fells trees far faster than bare hands. It goes dull just as quickly. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "Carved from fire-hardened ironwood with a glass-smooth finish, cutting through soft timber with surprising, effortless grace.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1414,10 +1414,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Wooden Axe",
+              "itemName": "Rough-hewn Wood Axe",
               "loreJson": [
                 {
-                  "text": "A blade whittled out of firewood, and it fells trees far faster than bare hands. It goes dull just as quickly. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "Shaped in haste with a small flint knife and bound with vine cord. Awkward to swing, but honest work for the first campsite.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1443,10 +1443,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Wooden Axe",
+              "itemName": "Woodsman's Whittled Axe",
               "loreJson": [
                 {
-                  "text": "A blade whittled out of firewood, and it fells trees far faster than bare hands. It goes dull just as quickly. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with a cleanly whittled wooden bit, delivering dependable momentum to bring down forest saplings.",
                   "color": "white",
                   "italic": true
                 }
@@ -1472,10 +1472,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Wooden Axe",
+              "itemName": "Master-carved Hardwood Cleaver",
               "loreJson": [
                 {
-                  "text": "A blade whittled out of firewood, and it fells trees far faster than bare hands. It goes dull just as quickly. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "Carved from fire-hardened ironwood with a glass-smooth finish, cutting through soft timber with surprising, effortless grace.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1504,7 +1504,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A wooden hoe for breaking up farmland, and it loosens after very little use. The ground still needs turning.",
+          "text": "A simple wooden tiller fashioned from whittled branches, gentle on the soil and turning wild riverbanks into the first modest crop beds.",
           "color": "green",
           "italic": true
         }
@@ -1519,10 +1519,10 @@
             "weight": 85,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Wooden Hoe",
+              "itemName": "Splintered Wood Hoe",
               "loreJson": [
                 {
-                  "text": "A wooden hoe for breaking up farmland, and it loosens after very little use. The ground still needs turning. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Worn smooth and splintered from gravelly furrows, its lashings loose, yet it still parts soft loam with patient hands.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1544,10 +1544,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Wooden Hoe",
+              "itemName": "Husbandman's Wooden Hoe",
               "loreJson": [
                 {
-                  "text": "A wooden hoe for breaking up farmland, and it loosens after very little use. The ground still needs turning. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight branch with a hardened wooden blade, turning moist earth into neat planting beds with quiet ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -1569,10 +1569,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Wooden Hoe",
+              "itemName": "Master-crafted Hardwood Tiller",
               "loreJson": [
                 {
-                  "text": "A wooden hoe for breaking up farmland, and it loosens after very little use. The ground still needs turning. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "Crafted from seasoned, fire-tempered heartwood, gliding through loose garden earth with smooth, tireless efficiency.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1599,10 +1599,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Wooden Hoe",
+              "itemName": "Rough-bound Branch Hoe",
               "loreJson": [
                 {
-                  "text": "A wooden hoe for breaking up farmland, and it loosens after very little use. The ground still needs turning. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "A forked forest branch whittled in haste. A little fragile in heavy clay, but turns soil enough to sow the first seeds of civilization.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1624,10 +1624,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Wooden Hoe",
+              "itemName": "Husbandman's Wooden Hoe",
               "loreJson": [
                 {
-                  "text": "A wooden hoe for breaking up farmland, and it loosens after very little use. The ground still needs turning. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight branch with a hardened wooden blade, turning moist earth into neat planting beds with quiet ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -1649,10 +1649,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Wooden Hoe",
+              "itemName": "Master-crafted Hardwood Tiller",
               "loreJson": [
                 {
-                  "text": "A wooden hoe for breaking up farmland, and it loosens after very little use. The ground still needs turning. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "Crafted from seasoned, fire-tempered heartwood, gliding through loose garden earth with smooth, tireless efficiency.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1677,7 +1677,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A pickaxe made of wood, which stretches the word a little. It does still get through stone.",
+          "text": "A cross-peen pickaxe whittled from seasoned timber, humble in power yet holding the sole key to breaking the first cobblestone.",
           "color": "green",
           "italic": true
         }
@@ -1695,7 +1695,7 @@
               "itemName": "Worn Wooden Pickaxe",
               "loreJson": [
                 {
-                  "text": "A pickaxe made of wood, which stretches the word a little. It does still get through stone. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Its wooden points are splintered and rounded from blunt rock strikes, yet ready to break a few more stones when swung with weight.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1721,10 +1721,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Wooden Pickaxe",
+              "itemName": "Prospector's Wooden Pick",
               "loreJson": [
                 {
-                  "text": "A pickaxe made of wood, which stretches the word a little. It does still get through stone. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a smooth ash shaft with fire-hardened twin points, delivering honest momentum to cleave early stone seams.",
                   "color": "white",
                   "italic": true
                 }
@@ -1750,10 +1750,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Wooden Pickaxe",
+              "itemName": "Master Delver's Hardwood Pick",
               "loreJson": [
                 {
-                  "text": "A pickaxe made of wood, which stretches the word a little. It does still get through stone. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterpiece of woodcraft fashioned from dense, seasoned heartwood, parting surface boulders with crisp, splinter-free precision.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1784,10 +1784,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Wooden Pickaxe",
+              "itemName": "Rough-hewn Wood Pick",
               "loreJson": [
                 {
-                  "text": "A pickaxe made of wood, which stretches the word a little. It does still get through stone. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "A crude wooden block bound to a branch with vine cord. Heavy and clumsy, but honest work to unlock the Age of Stone.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1813,10 +1813,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Wooden Pickaxe",
+              "itemName": "Prospector's Wooden Pick",
               "loreJson": [
                 {
-                  "text": "A pickaxe made of wood, which stretches the word a little. It does still get through stone. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a smooth ash shaft with fire-hardened twin points, delivering honest momentum to cleave early stone seams.",
                   "color": "white",
                   "italic": true
                 }
@@ -1842,10 +1842,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Wooden Pickaxe",
+              "itemName": "Master Delver's Hardwood Pick",
               "loreJson": [
                 {
-                  "text": "A pickaxe made of wood, which stretches the word a little. It does still get through stone. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterpiece of woodcraft fashioned from dense, seasoned heartwood, parting surface boulders with crisp, splinter-free precision.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1874,7 +1874,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A flattened chip of wood lashed to a stick. Enough for dirt, though stone is out of the question.",
+          "text": "A broad-bladed spade whittled from flat timber, slicing cleanly through loose loam, river sand, and fresh snowdrifts.",
           "color": "green",
           "italic": true
         }
@@ -1889,10 +1889,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Wooden Shovel",
+              "itemName": "Rough-whittled Wood Shovel",
               "loreJson": [
                 {
-                  "text": "A flattened chip of wood lashed to a stick. Enough for dirt, though stone is out of the question. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "A slab of flat wood tied in haste to a branch. A little thick at the edge, but moves earth with dependable speed in an emergency.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1918,10 +1918,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Wooden Shovel",
+              "itemName": "Pioneer's Wooden Shovel",
               "loreJson": [
                 {
-                  "text": "A flattened chip of wood lashed to a stick. Enough for dirt, though stone is out of the question. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with a broad, planed scoop, parting soft earth and beach sand with tireless ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -1947,10 +1947,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Wooden Shovel",
+              "itemName": "Master Earth-shaper Hardwood Spade",
               "loreJson": [
                 {
-                  "text": "A flattened chip of wood lashed to a stick. Enough for dirt, though stone is out of the question. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "Formed of fire-hardened ironwood with a polished bevel, slicing effortlessly through loose soil and snow without catching friction.",
                   "color": "blue",
                   "italic": true
                 }

@@ -3,7 +3,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Boots made of chainmail. They ring against stone underfoot.",
+          "text": "Boots woven from hundreds of interlocking iron rings, chiming against flagstones while offering supple protection against thrusts.",
           "color": "white",
           "italic": true
         }
@@ -18,10 +18,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Chainmail Boots",
+              "itemName": "Torn Chainmail Boots",
               "loreJson": [
                 {
-                  "text": "Boots made of chainmail. They ring against stone underfoot. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Gaps mar the rusted mail and several links have pulled apart. The inner leather is stiff, yet it still shields against jagged stone.",
                   "color": "gray",
                   "italic": true
                 }
@@ -50,10 +50,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Chainmail Boots",
+              "itemName": "Guard's Chainmail Boots",
               "loreJson": [
                 {
-                  "text": "Boots made of chainmail. They ring against stone underfoot. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Neat, well-riveted rings bound to supple boot leather, allowing free ankle motion without chafing on long marches.",
                   "color": "white",
                   "italic": true
                 }
@@ -82,10 +82,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Chainmail Boots",
+              "itemName": "Master Ranger's Chain Boots",
               "loreJson": [
                 {
-                  "text": "Boots made of chainmail. They ring against stone underfoot. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Woven with double-riveted steel rings over padded doe-skin, moving with absolute silence while turning aside venomous fangs.",
                   "color": "blue",
                   "italic": true
                 }
@@ -119,10 +119,10 @@
             "weight": 65,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Chainmail Boots",
+              "itemName": "Torn Chainmail Boots",
               "loreJson": [
                 {
-                  "text": "Boots made of chainmail. They ring against stone underfoot. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Gaps mar the rusted mail and several links have pulled apart. The inner leather is stiff, yet it still shields against jagged stone.",
                   "color": "gray",
                   "italic": true
                 }
@@ -151,10 +151,10 @@
             "weight": 30,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Chainmail Boots",
+              "itemName": "Guard's Chainmail Boots",
               "loreJson": [
                 {
-                  "text": "Boots made of chainmail. They ring against stone underfoot. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Neat, well-riveted rings bound to supple boot leather, allowing free ankle motion without chafing on long marches.",
                   "color": "white",
                   "italic": true
                 }
@@ -183,10 +183,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Chainmail Boots",
+              "itemName": "Master Ranger's Chain Boots",
               "loreJson": [
                 {
-                  "text": "Boots made of chainmail. They ring against stone underfoot. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Woven with double-riveted steel rings over padded doe-skin, moving with absolute silence while turning aside venomous fangs.",
                   "color": "blue",
                   "italic": true
                 }
@@ -220,10 +220,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Chainmail Boots",
+              "itemName": "Torn Chainmail Boots",
               "loreJson": [
                 {
-                  "text": "Boots made of chainmail. They ring against stone underfoot. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Gaps mar the rusted mail and several links have pulled apart. The inner leather is stiff, yet it still shields against jagged stone.",
                   "color": "gray",
                   "italic": true
                 }
@@ -252,10 +252,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Chainmail Boots",
+              "itemName": "Guard's Chainmail Boots",
               "loreJson": [
                 {
-                  "text": "Boots made of chainmail. They ring against stone underfoot. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Neat, well-riveted rings bound to supple boot leather, allowing free ankle motion without chafing on long marches.",
                   "color": "white",
                   "italic": true
                 }
@@ -284,10 +284,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Chainmail Boots",
+              "itemName": "Master Ranger's Chain Boots",
               "loreJson": [
                 {
-                  "text": "Boots made of chainmail. They ring against stone underfoot. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Woven with double-riveted steel rings over padded doe-skin, moving with absolute silence while turning aside venomous fangs.",
                   "color": "blue",
                   "italic": true
                 }
@@ -319,7 +319,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Several hundred iron rings linked into a chestpiece, and far lighter than it looks.",
+          "text": "A shirt woven from thousands of linked iron rings, far more flexible than solid plate while deadening the bite of swinging blades.",
           "color": "white",
           "italic": true
         }
@@ -334,10 +334,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Chainmail Chestplate",
+              "itemName": "Battered Chain Hauberk",
               "loreJson": [
                 {
-                  "text": "Several hundred iron rings linked into a chestpiece, and far lighter than it looks. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Heavy blows have warped the weave, leaving loose, dangling rings across the chest. It still keeps a stray blade from striking vital organs.",
                   "color": "gray",
                   "italic": true
                 }
@@ -366,10 +366,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Chainmail Chestplate",
+              "itemName": "Riveted Chain Hauberk",
               "loreJson": [
                 {
-                  "text": "Several hundred iron rings linked into a chestpiece, and far lighter than it looks. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Every link is cleanly closed and riveted, distributing its metallic weight comfortably across the shoulders during active combat.",
                   "color": "white",
                   "italic": true
                 }
@@ -398,10 +398,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Chainmail Chestplate",
+              "itemName": "Knight-Commander's Chain Mail",
               "loreJson": [
                 {
-                  "text": "Several hundred iron rings linked into a chestpiece, and far lighter than it looks. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Crafted from seamless, tempered steel rings tailored like fine fabric, offering unmatched flexibility and imperial protection.",
                   "color": "blue",
                   "italic": true
                 }
@@ -435,10 +435,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Chainmail Chestplate",
+              "itemName": "Battered Chain Hauberk",
               "loreJson": [
                 {
-                  "text": "Several hundred iron rings linked into a chestpiece, and far lighter than it looks. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Heavy blows have warped the weave, leaving loose, dangling rings across the chest. It still keeps a stray blade from striking vital organs.",
                   "color": "gray",
                   "italic": true
                 }
@@ -467,10 +467,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Chainmail Chestplate",
+              "itemName": "Riveted Chain Hauberk",
               "loreJson": [
                 {
-                  "text": "Several hundred iron rings linked into a chestpiece, and far lighter than it looks. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Every link is cleanly closed and riveted, distributing its metallic weight comfortably across the shoulders during active combat.",
                   "color": "white",
                   "italic": true
                 }
@@ -499,10 +499,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Chainmail Chestplate",
+              "itemName": "Knight-Commander's Chain Mail",
               "loreJson": [
                 {
-                  "text": "Several hundred iron rings linked into a chestpiece, and far lighter than it looks. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Crafted from seamless, tempered steel rings tailored like fine fabric, offering unmatched flexibility and imperial protection.",
                   "color": "blue",
                   "italic": true
                 }
@@ -536,10 +536,10 @@
             "weight": 65,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Chainmail Chestplate",
+              "itemName": "Battered Chain Hauberk",
               "loreJson": [
                 {
-                  "text": "Several hundred iron rings linked into a chestpiece, and far lighter than it looks. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Heavy blows have warped the weave, leaving loose, dangling rings across the chest. It still keeps a stray blade from striking vital organs.",
                   "color": "gray",
                   "italic": true
                 }
@@ -568,10 +568,10 @@
             "weight": 30,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Chainmail Chestplate",
+              "itemName": "Riveted Chain Hauberk",
               "loreJson": [
                 {
-                  "text": "Several hundred iron rings linked into a chestpiece, and far lighter than it looks. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Every link is cleanly closed and riveted, distributing its metallic weight comfortably across the shoulders during active combat.",
                   "color": "white",
                   "italic": true
                 }
@@ -600,10 +600,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Chainmail Chestplate",
+              "itemName": "Knight-Commander's Chain Mail",
               "loreJson": [
                 {
-                  "text": "Several hundred iron rings linked into a chestpiece, and far lighter than it looks. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Crafted from seamless, tempered steel rings tailored like fine fabric, offering unmatched flexibility and imperial protection.",
                   "color": "blue",
                   "italic": true
                 }
@@ -637,10 +637,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Chainmail Chestplate",
+              "itemName": "Battered Chain Hauberk",
               "loreJson": [
                 {
-                  "text": "Several hundred iron rings linked into a chestpiece, and far lighter than it looks. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Heavy blows have warped the weave, leaving loose, dangling rings across the chest. It still keeps a stray blade from striking vital organs.",
                   "color": "gray",
                   "italic": true
                 }
@@ -669,10 +669,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Chainmail Chestplate",
+              "itemName": "Riveted Chain Hauberk",
               "loreJson": [
                 {
-                  "text": "Several hundred iron rings linked into a chestpiece, and far lighter than it looks. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Every link is cleanly closed and riveted, distributing its metallic weight comfortably across the shoulders during active combat.",
                   "color": "white",
                   "italic": true
                 }
@@ -701,10 +701,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Chainmail Chestplate",
+              "itemName": "Knight-Commander's Chain Mail",
               "loreJson": [
                 {
-                  "text": "Several hundred iron rings linked into a chestpiece, and far lighter than it looks. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Crafted from seamless, tempered steel rings tailored like fine fabric, offering unmatched flexibility and imperial protection.",
                   "color": "blue",
                   "italic": true
                 }
@@ -736,7 +736,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A helmet linked together ring by ring, and nobody can quite say where it came from.",
+          "text": "A close-fitting coif of iron rings draping down over the neck and shoulders, its ancient smithing origin lost to history.",
           "color": "white",
           "italic": true
         }
@@ -751,10 +751,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Chainmail Helmet",
+              "itemName": "Pitted Chainmail Coif",
               "loreJson": [
                 {
-                  "text": "A helmet linked together ring by ring, and nobody can quite say where it came from. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Rust-stained rings have begun to part around the brow, though the sturdy frame still absorbs blunt trauma in a desperate fray.",
                   "color": "gray",
                   "italic": true
                 }
@@ -783,10 +783,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Chainmail Helmet",
+              "itemName": "Soldier's Chainmail Coif",
               "loreJson": [
                 {
-                  "text": "A helmet linked together ring by ring, and nobody can quite say where it came from. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Contoured neatly to the skull with a generous mail mantle, providing solid neck defense without obstructing peripheral vision.",
                   "color": "white",
                   "italic": true
                 }
@@ -815,10 +815,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Chainmail Helmet",
+              "itemName": "Champion's Gilded Coif",
               "loreJson": [
                 {
-                  "text": "A helmet linked together ring by ring, and nobody can quite say where it came from. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Woven with ultra-fine, tempered rings over padded silk, distributing weight effortlessly while turning away direct blows.",
                   "color": "blue",
                   "italic": true
                 }
@@ -852,10 +852,10 @@
             "weight": 65,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Chainmail Helmet",
+              "itemName": "Pitted Chainmail Coif",
               "loreJson": [
                 {
-                  "text": "A helmet linked together ring by ring, and nobody can quite say where it came from. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Rust-stained rings have begun to part around the brow, though the sturdy frame still absorbs blunt trauma in a desperate fray.",
                   "color": "gray",
                   "italic": true
                 }
@@ -884,10 +884,10 @@
             "weight": 30,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Chainmail Helmet",
+              "itemName": "Soldier's Chainmail Coif",
               "loreJson": [
                 {
-                  "text": "A helmet linked together ring by ring, and nobody can quite say where it came from. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Contoured neatly to the skull with a generous mail mantle, providing solid neck defense without obstructing peripheral vision.",
                   "color": "white",
                   "italic": true
                 }
@@ -916,10 +916,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Chainmail Helmet",
+              "itemName": "Champion's Gilded Coif",
               "loreJson": [
                 {
-                  "text": "A helmet linked together ring by ring, and nobody can quite say where it came from. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Woven with ultra-fine, tempered rings over padded silk, distributing weight effortlessly while turning away direct blows.",
                   "color": "blue",
                   "italic": true
                 }
@@ -953,10 +953,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Chainmail Helmet",
+              "itemName": "Pitted Chainmail Coif",
               "loreJson": [
                 {
-                  "text": "A helmet linked together ring by ring, and nobody can quite say where it came from. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Rust-stained rings have begun to part around the brow, though the sturdy frame still absorbs blunt trauma in a desperate fray.",
                   "color": "gray",
                   "italic": true
                 }
@@ -985,10 +985,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Chainmail Helmet",
+              "itemName": "Soldier's Chainmail Coif",
               "loreJson": [
                 {
-                  "text": "A helmet linked together ring by ring, and nobody can quite say where it came from. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Contoured neatly to the skull with a generous mail mantle, providing solid neck defense without obstructing peripheral vision.",
                   "color": "white",
                   "italic": true
                 }
@@ -1017,10 +1017,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Chainmail Helmet",
+              "itemName": "Champion's Gilded Coif",
               "loreJson": [
                 {
-                  "text": "A helmet linked together ring by ring, and nobody can quite say where it came from. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Woven with ultra-fine, tempered rings over padded silk, distributing weight effortlessly while turning away direct blows.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1052,7 +1052,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Chainmail leggings, and considerably more flexible than the iron equivalent.",
+          "text": "Chainmail chausses draping over the thighs and shins, offering superior agility compared to rigid iron greaves.",
           "color": "white",
           "italic": true
         }
@@ -1067,10 +1067,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Chainmail Leggings",
+              "itemName": "Frayed Chainmail Leggings",
               "loreJson": [
                 {
-                  "text": "Chainmail leggings, and considerably more flexible than the iron equivalent. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scattered links have torn open around the knees from past battles, though it continues to guard the thighs from glancing cuts.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1099,10 +1099,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Chainmail Leggings",
+              "itemName": "Footman's Chain Chausses",
               "loreJson": [
                 {
-                  "text": "Chainmail leggings, and considerably more flexible than the iron equivalent. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Fitted with sturdy leather braces, allowing unhindered stride and solid protection through heavy undergrowth.",
                   "color": "white",
                   "italic": true
                 }
@@ -1131,10 +1131,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Chainmail Leggings",
+              "itemName": "Master Scout's Chain Leggings",
               "loreJson": [
                 {
-                  "text": "Chainmail leggings, and considerably more flexible than the iron equivalent. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Masterfully tailored with micro-linked steel, wrapping the legs in a whisper-quiet, puncture-proof metallic second skin.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1168,10 +1168,10 @@
             "weight": 65,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Chainmail Leggings",
+              "itemName": "Frayed Chainmail Leggings",
               "loreJson": [
                 {
-                  "text": "Chainmail leggings, and considerably more flexible than the iron equivalent. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scattered links have torn open around the knees from past battles, though it continues to guard the thighs from glancing cuts.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1200,10 +1200,10 @@
             "weight": 30,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Chainmail Leggings",
+              "itemName": "Footman's Chain Chausses",
               "loreJson": [
                 {
-                  "text": "Chainmail leggings, and considerably more flexible than the iron equivalent. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Fitted with sturdy leather braces, allowing unhindered stride and solid protection through heavy undergrowth.",
                   "color": "white",
                   "italic": true
                 }
@@ -1232,10 +1232,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Chainmail Leggings",
+              "itemName": "Master Scout's Chain Leggings",
               "loreJson": [
                 {
-                  "text": "Chainmail leggings, and considerably more flexible than the iron equivalent. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Masterfully tailored with micro-linked steel, wrapping the legs in a whisper-quiet, puncture-proof metallic second skin.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1269,10 +1269,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Chainmail Leggings",
+              "itemName": "Frayed Chainmail Leggings",
               "loreJson": [
                 {
-                  "text": "Chainmail leggings, and considerably more flexible than the iron equivalent. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scattered links have torn open around the knees from past battles, though it continues to guard the thighs from glancing cuts.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1301,10 +1301,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Chainmail Leggings",
+              "itemName": "Footman's Chain Chausses",
               "loreJson": [
                 {
-                  "text": "Chainmail leggings, and considerably more flexible than the iron equivalent. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Fitted with sturdy leather braces, allowing unhindered stride and solid protection through heavy undergrowth.",
                   "color": "white",
                   "italic": true
                 }
@@ -1333,10 +1333,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Chainmail Leggings",
+              "itemName": "Master Scout's Chain Leggings",
               "loreJson": [
                 {
-                  "text": "Chainmail leggings, and considerably more flexible than the iron equivalent. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Masterfully tailored with micro-linked steel, wrapping the legs in a whisper-quiet, puncture-proof metallic second skin.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1368,7 +1368,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Boots set with diamonds, and they hold up for a while even in lava.",
+          "text": "Armoured boots plated with cut diamonds over supple leather, granting unmatched poise and protection across hostile ground.",
           "color": "aqua",
           "italic": true
         }
@@ -1383,10 +1383,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Boots",
+              "itemName": "Worn Diamond Greaves",
               "loreJson": [
                 {
-                  "text": "Boots set with diamonds, and they hold up for a while even in lava. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scratched by sharp cave rocks and frayed at the leather straps, yet the unbending diamond plates still protect the wearer's step.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1415,10 +1415,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Boots",
+              "itemName": "Vanguard Diamond Boots",
               "loreJson": [
                 {
-                  "text": "Boots set with diamonds, and they hold up for a while even in lava. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Diamond plates riveted seamlessly to treated leather, offering solid foot protection without encumbering a quick march.",
                   "color": "white",
                   "italic": true
                 }
@@ -1447,10 +1447,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Boots",
+              "itemName": "Masterwork Diamond Sabatons",
               "loreJson": [
                 {
-                  "text": "Boots set with diamonds, and they hold up for a while even in lava. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Articulated with flawless gem plates over velvet-lined doe-skin, distributing impact silently and moving like a second skin.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1484,10 +1484,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Diamond Boots",
+              "itemName": "Handcrafted Diamond Boots",
               "loreJson": [
                 {
-                  "text": "Boots set with diamonds, and they hold up for a while even in lava. Hasty seams bind at the joints; it covers the vital parts, though movement is awkward.",
+                  "text": "Diamond plates bound in haste over stiff cowhide. Clunky on the walk, but it turns away deadly spikes and heavy blows.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1516,10 +1516,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Boots",
+              "itemName": "Vanguard Diamond Boots",
               "loreJson": [
                 {
-                  "text": "Boots set with diamonds, and they hold up for a while even in lava. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Diamond plates riveted seamlessly to treated leather, offering solid foot protection without encumbering a quick march.",
                   "color": "white",
                   "italic": true
                 }
@@ -1548,10 +1548,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Boots",
+              "itemName": "Masterwork Diamond Sabatons",
               "loreJson": [
                 {
-                  "text": "Boots set with diamonds, and they hold up for a while even in lava. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Articulated with flawless gem plates over velvet-lined doe-skin, distributing impact silently and moving like a second skin.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1585,10 +1585,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Boots",
+              "itemName": "Worn Diamond Greaves",
               "loreJson": [
                 {
-                  "text": "Boots set with diamonds, and they hold up for a while even in lava. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scratched by sharp cave rocks and frayed at the leather straps, yet the unbending diamond plates still protect the wearer's step.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1617,10 +1617,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Boots",
+              "itemName": "Vanguard Diamond Boots",
               "loreJson": [
                 {
-                  "text": "Boots set with diamonds, and they hold up for a while even in lava. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Diamond plates riveted seamlessly to treated leather, offering solid foot protection without encumbering a quick march.",
                   "color": "white",
                   "italic": true
                 }
@@ -1649,10 +1649,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Boots",
+              "itemName": "Masterwork Diamond Sabatons",
               "loreJson": [
                 {
-                  "text": "Boots set with diamonds, and they hold up for a while even in lava. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Articulated with flawless gem plates over velvet-lined doe-skin, distributing impact silently and moving like a second skin.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1686,10 +1686,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Boots",
+              "itemName": "Worn Diamond Greaves",
               "loreJson": [
                 {
-                  "text": "Boots set with diamonds, and they hold up for a while even in lava. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scratched by sharp cave rocks and frayed at the leather straps, yet the unbending diamond plates still protect the wearer's step.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1718,10 +1718,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Boots",
+              "itemName": "Vanguard Diamond Boots",
               "loreJson": [
                 {
-                  "text": "Boots set with diamonds, and they hold up for a while even in lava. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Diamond plates riveted seamlessly to treated leather, offering solid foot protection without encumbering a quick march.",
                   "color": "white",
                   "italic": true
                 }
@@ -1750,10 +1750,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Boots",
+              "itemName": "Masterwork Diamond Sabatons",
               "loreJson": [
                 {
-                  "text": "Boots set with diamonds, and they hold up for a while even in lava. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Articulated with flawless gem plates over velvet-lined doe-skin, distributing impact silently and moving like a second skin.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1785,7 +1785,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds.",
+          "text": "A majestic cuirass fitted with thick diamond plates, transforming the wearer into an immovable bastion against mortal harm.",
           "color": "aqua",
           "italic": true
         }
@@ -1800,10 +1800,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Chestplate",
+              "itemName": "Battle-tested Diamond Cuirass",
               "loreJson": [
                 {
-                  "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Marred by heavy gouges from forgotten dungeon beasts, its straps strain, yet the unyielding diamond core still holds the line.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1832,10 +1832,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Chestplate",
+              "itemName": "Legionnaire Diamond Breastplate",
               "loreJson": [
                 {
-                  "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Perfectly fitted diamond slabs riveted over heavy gambeson, turning lethal blows aside with commanding ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -1864,10 +1864,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Chestplate",
+              "itemName": "Master-forged Diamond Aegis",
               "loreJson": [
                 {
-                  "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An imperial triumph of master craftsmanship, shaped from seamless diamond plates that catch the light like celestial ice.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1901,10 +1901,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Diamond Chestplate",
+              "itemName": "Rough-assembled Diamond Harness",
               "loreJson": [
                 {
-                  "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds. Hasty seams bind at the joints; it covers the vital parts, though movement is awkward.",
+                  "text": "Slabs of cut diamond pinned to rough leather harnesses. Ungainly across the shoulders, but it denies the reaper his prize.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1933,10 +1933,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Chestplate",
+              "itemName": "Legionnaire Diamond Breastplate",
               "loreJson": [
                 {
-                  "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Perfectly fitted diamond slabs riveted over heavy gambeson, turning lethal blows aside with commanding ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -1965,10 +1965,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Chestplate",
+              "itemName": "Master-forged Diamond Aegis",
               "loreJson": [
                 {
-                  "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An imperial triumph of master craftsmanship, shaped from seamless diamond plates that catch the light like celestial ice.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2002,10 +2002,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Chestplate",
+              "itemName": "Battle-tested Diamond Cuirass",
               "loreJson": [
                 {
-                  "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Marred by heavy gouges from forgotten dungeon beasts, its straps strain, yet the unyielding diamond core still holds the line.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2034,10 +2034,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Chestplate",
+              "itemName": "Legionnaire Diamond Breastplate",
               "loreJson": [
                 {
-                  "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Perfectly fitted diamond slabs riveted over heavy gambeson, turning lethal blows aside with commanding ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -2066,10 +2066,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Chestplate",
+              "itemName": "Master-forged Diamond Aegis",
               "loreJson": [
                 {
-                  "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An imperial triumph of master craftsmanship, shaped from seamless diamond plates that catch the light like celestial ice.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2103,10 +2103,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Chestplate",
+              "itemName": "Battle-tested Diamond Cuirass",
               "loreJson": [
                 {
-                  "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Marred by heavy gouges from forgotten dungeon beasts, its straps strain, yet the unyielding diamond core still holds the line.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2135,10 +2135,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Chestplate",
+              "itemName": "Legionnaire Diamond Breastplate",
               "loreJson": [
                 {
-                  "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Perfectly fitted diamond slabs riveted over heavy gambeson, turning lethal blows aside with commanding ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -2167,10 +2167,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Chestplate",
+              "itemName": "Master-forged Diamond Aegis",
               "loreJson": [
                 {
-                  "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An imperial triumph of master craftsmanship, shaped from seamless diamond plates that catch the light like celestial ice.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2204,10 +2204,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Chestplate",
+              "itemName": "Battle-tested Diamond Cuirass",
               "loreJson": [
                 {
-                  "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Marred by heavy gouges from forgotten dungeon beasts, its straps strain, yet the unyielding diamond core still holds the line.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2236,10 +2236,10 @@
             "weight": 33,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Chestplate",
+              "itemName": "Legionnaire Diamond Breastplate",
               "loreJson": [
                 {
-                  "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Perfectly fitted diamond slabs riveted over heavy gambeson, turning lethal blows aside with commanding ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -2268,10 +2268,10 @@
             "weight": 7,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Chestplate",
+              "itemName": "Master-forged Diamond Aegis",
               "loreJson": [
                 {
-                  "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An imperial triumph of master craftsmanship, shaped from seamless diamond plates that catch the light like celestial ice.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2303,7 +2303,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A helmet set with diamonds. It is heavy, and nobody ever complains about that.",
+          "text": "A crowning helm faced with dense diamond plates, deflecting falling boulders and whistling arrows from the wearer's skull.",
           "color": "aqua",
           "italic": true
         }
@@ -2318,10 +2318,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Helmet",
+              "itemName": "Battered Diamond Helm",
               "loreJson": [
                 {
-                  "text": "A helmet set with diamonds. It is heavy, and nobody ever complains about that. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scuffed and bearing the shock of heavy mace-falls, its chin-strap worn thin, but its crystalline crown refuses to shatter.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2350,10 +2350,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Helmet",
+              "itemName": "Knight's Diamond Helm",
               "loreJson": [
                 {
-                  "text": "A helmet set with diamonds. It is heavy, and nobody ever complains about that. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly contoured with generous vision slits and a padded interior, offering superb cranial defense during the thick of battle.",
                   "color": "white",
                   "italic": true
                 }
@@ -2382,10 +2382,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Helmet",
+              "itemName": "Sovereign Diamond Greathelm",
               "loreJson": [
                 {
-                  "text": "A helmet set with diamonds. It is heavy, and nobody ever complains about that. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A masterpiece of defensive jewelry and armoury, lightweight upon the brow while turning direct ballista bolts into harmless sparks.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2419,10 +2419,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Diamond Helmet",
+              "itemName": "Hand-riveted Diamond Cap",
               "loreJson": [
                 {
-                  "text": "A helmet set with diamonds. It is heavy, and nobody ever complains about that. Hasty seams bind at the joints; it covers the vital parts, though movement is awkward.",
+                  "text": "Heavy diamond shards riveted in haste to a leather cap. Awkward to wear, but it keeps a lethal strike from finding the brain.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2451,10 +2451,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Helmet",
+              "itemName": "Knight's Diamond Helm",
               "loreJson": [
                 {
-                  "text": "A helmet set with diamonds. It is heavy, and nobody ever complains about that. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly contoured with generous vision slits and a padded interior, offering superb cranial defense during the thick of battle.",
                   "color": "white",
                   "italic": true
                 }
@@ -2483,10 +2483,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Helmet",
+              "itemName": "Sovereign Diamond Greathelm",
               "loreJson": [
                 {
-                  "text": "A helmet set with diamonds. It is heavy, and nobody ever complains about that. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A masterpiece of defensive jewelry and armoury, lightweight upon the brow while turning direct ballista bolts into harmless sparks.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2520,10 +2520,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Helmet",
+              "itemName": "Battered Diamond Helm",
               "loreJson": [
                 {
-                  "text": "A helmet set with diamonds. It is heavy, and nobody ever complains about that. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scuffed and bearing the shock of heavy mace-falls, its chin-strap worn thin, but its crystalline crown refuses to shatter.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2552,10 +2552,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Helmet",
+              "itemName": "Knight's Diamond Helm",
               "loreJson": [
                 {
-                  "text": "A helmet set with diamonds. It is heavy, and nobody ever complains about that. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly contoured with generous vision slits and a padded interior, offering superb cranial defense during the thick of battle.",
                   "color": "white",
                   "italic": true
                 }
@@ -2584,10 +2584,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Helmet",
+              "itemName": "Sovereign Diamond Greathelm",
               "loreJson": [
                 {
-                  "text": "A helmet set with diamonds. It is heavy, and nobody ever complains about that. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A masterpiece of defensive jewelry and armoury, lightweight upon the brow while turning direct ballista bolts into harmless sparks.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2621,10 +2621,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Helmet",
+              "itemName": "Battered Diamond Helm",
               "loreJson": [
                 {
-                  "text": "A helmet set with diamonds. It is heavy, and nobody ever complains about that. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scuffed and bearing the shock of heavy mace-falls, its chin-strap worn thin, but its crystalline crown refuses to shatter.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2653,10 +2653,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Helmet",
+              "itemName": "Knight's Diamond Helm",
               "loreJson": [
                 {
-                  "text": "A helmet set with diamonds. It is heavy, and nobody ever complains about that. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly contoured with generous vision slits and a padded interior, offering superb cranial defense during the thick of battle.",
                   "color": "white",
                   "italic": true
                 }
@@ -2685,10 +2685,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Helmet",
+              "itemName": "Sovereign Diamond Greathelm",
               "loreJson": [
                 {
-                  "text": "A helmet set with diamonds. It is heavy, and nobody ever complains about that. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A masterpiece of defensive jewelry and armoury, lightweight upon the brow while turning direct ballista bolts into harmless sparks.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2720,7 +2720,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Horse armour set all over with diamonds. Whoever shod this horse had money.",
+          "text": "Opulent barding wrought with interlocking diamond scales, shielding a warhorse from stray arrows and savage beast fangs.",
           "color": "aqua",
           "italic": true
         }
@@ -2735,10 +2735,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Horse Armor",
+              "itemName": "War-torn Diamond Barding",
               "loreJson": [
                 {
-                  "text": "Horse armour set all over with diamonds. Whoever shod this horse had money. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scarred by old battles with cracked leather girths, yet its shimmering diamond plates continue to protect the courser's flanks.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2763,10 +2763,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Horse Armor",
+              "itemName": "Royal Guard's Diamond Barding",
               "loreJson": [
                 {
-                  "text": "Horse armour set all over with diamonds. Whoever shod this horse had money. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Contoured perfectly to equine muscle and spine, granting imperial protection without hindering a thunderous charge.",
                   "color": "white",
                   "italic": true
                 }
@@ -2791,10 +2791,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Horse Armor",
+              "itemName": "Paladin's Celestial Steed Armor",
               "loreJson": [
                 {
-                  "text": "Horse armour set all over with diamonds. Whoever shod this horse had money. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A breathtaking masterpiece of equestrian armoury, catching the sunrise in dazzling blue fire as the warhorse charges.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2822,7 +2822,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Diamond leggings, cut accurately at the joints, so running is not affected.",
+          "text": "Articulated diamond plate guarding the thighs and knees, granting unyielding lower-body defense without shackling agility.",
           "color": "aqua",
           "italic": true
         }
@@ -2837,10 +2837,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Leggings",
+              "itemName": "Battered Diamond Greaves",
               "loreJson": [
                 {
-                  "text": "Diamond leggings, cut accurately at the joints, so running is not affected. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Dented and scarred from past subterranean battles, yet the unyielding diamond plates still turn aside venomous claws.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2869,10 +2869,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Leggings",
+              "itemName": "Vanguard Diamond Leggings",
               "loreJson": [
                 {
-                  "text": "Diamond leggings, cut accurately at the joints, so running is not affected. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Precision-fitted diamond segments riveted over supple leather, ensuring effortless strides and impenetrable armor.",
                   "color": "white",
                   "italic": true
                 }
@@ -2901,10 +2901,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Leggings",
+              "itemName": "Masterwork Diamond Cuisses",
               "loreJson": [
                 {
-                  "text": "Diamond leggings, cut accurately at the joints, so running is not affected. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An unrivaled piece of plate armour, bending with human anatomy while presenting an impervious diamond barrier to the enemy.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2938,10 +2938,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Diamond Leggings",
+              "itemName": "Rough-jointed Diamond Leggings",
               "loreJson": [
                 {
-                  "text": "Diamond leggings, cut accurately at the joints, so running is not affected. Hasty seams bind at the joints; it covers the vital parts, though movement is awkward.",
+                  "text": "Diamond plates bound in haste to thick leather greaves. A bit stiff at the knees, but it turns away lethal strikes with ease.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2970,10 +2970,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Leggings",
+              "itemName": "Vanguard Diamond Leggings",
               "loreJson": [
                 {
-                  "text": "Diamond leggings, cut accurately at the joints, so running is not affected. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Precision-fitted diamond segments riveted over supple leather, ensuring effortless strides and impenetrable armor.",
                   "color": "white",
                   "italic": true
                 }
@@ -3002,10 +3002,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Leggings",
+              "itemName": "Masterwork Diamond Cuisses",
               "loreJson": [
                 {
-                  "text": "Diamond leggings, cut accurately at the joints, so running is not affected. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An unrivaled piece of plate armour, bending with human anatomy while presenting an impervious diamond barrier to the enemy.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3039,10 +3039,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Leggings",
+              "itemName": "Battered Diamond Greaves",
               "loreJson": [
                 {
-                  "text": "Diamond leggings, cut accurately at the joints, so running is not affected. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Dented and scarred from past subterranean battles, yet the unyielding diamond plates still turn aside venomous claws.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3071,10 +3071,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Leggings",
+              "itemName": "Vanguard Diamond Leggings",
               "loreJson": [
                 {
-                  "text": "Diamond leggings, cut accurately at the joints, so running is not affected. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Precision-fitted diamond segments riveted over supple leather, ensuring effortless strides and impenetrable armor.",
                   "color": "white",
                   "italic": true
                 }
@@ -3103,10 +3103,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Leggings",
+              "itemName": "Masterwork Diamond Cuisses",
               "loreJson": [
                 {
-                  "text": "Diamond leggings, cut accurately at the joints, so running is not affected. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An unrivaled piece of plate armour, bending with human anatomy while presenting an impervious diamond barrier to the enemy.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3140,10 +3140,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Leggings",
+              "itemName": "Battered Diamond Greaves",
               "loreJson": [
                 {
-                  "text": "Diamond leggings, cut accurately at the joints, so running is not affected. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Dented and scarred from past subterranean battles, yet the unyielding diamond plates still turn aside venomous claws.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3172,10 +3172,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Leggings",
+              "itemName": "Vanguard Diamond Leggings",
               "loreJson": [
                 {
-                  "text": "Diamond leggings, cut accurately at the joints, so running is not affected. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Precision-fitted diamond segments riveted over supple leather, ensuring effortless strides and impenetrable armor.",
                   "color": "white",
                   "italic": true
                 }
@@ -3204,10 +3204,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Leggings",
+              "itemName": "Masterwork Diamond Cuisses",
               "loreJson": [
                 {
-                  "text": "Diamond leggings, cut accurately at the joints, so running is not affected. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An unrivaled piece of plate armour, bending with human anatomy while presenting an impervious diamond barrier to the enemy.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3239,7 +3239,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Wings taken from the wreck of an End ship. They still carry a little wind when you spread them.",
+          "text": "Shimmering beetle-like wings salvaged from flying End ships, allowing the daring to glide across mountain peaks and open skies.",
           "color": "light_purple",
           "italic": true
         }
@@ -3254,10 +3254,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Elytra",
+              "itemName": "Frayed Wind-torn Elytra",
               "loreJson": [
                 {
-                  "text": "Wings taken from the wreck of an End ship. They still carry a little wind when you spread them. The membranes are worn thin at the edges, with old tears held by fine thread.",
+                  "text": "Worn thin along the trailing edges with old tears, its ribs groaning against the turbulence of high-altitude dives.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3273,10 +3273,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Elytra",
+              "itemName": "Cloud-strider Elytra",
               "loreJson": [
                 {
-                  "text": "Wings taken from the wreck of an End ship. They still carry a little wind when you spread them. The membranes spread evenly over intact ribs, letting air pass cleanly across them.",
+                  "text": "Smooth membranes spread cleanly across intact skeletal ribs, catching rising thermal drafts with steady, silent grace.",
                   "color": "white",
                   "italic": true
                 }
@@ -3292,10 +3292,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Elytra",
+              "itemName": "Apex Void-weaver Elytra",
               "loreJson": [
                 {
-                  "text": "Wings taken from the wreck of an End ship. They still carry a little wind when you spread them. Light, symmetrical wings have uncreased edges and settle steadily into the air.",
+                  "text": "A pristine, iridescent relic of the void, perfectly symmetrical and weightless, slicing through stormwinds like a fallen star.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3314,7 +3314,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Golden boots. They ring crisply on stone, and they wear down just as crisply.",
+          "text": "Boots fashioned from polished gold plate, chiming sweetly upon cobblestones and soothing the savage tempers of nearby piglins.",
           "color": "yellow",
           "italic": true
         }
@@ -3329,10 +3329,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Boots",
+              "itemName": "Dented Gilded Sabatons",
               "loreJson": [
                 {
-                  "text": "Golden boots. They ring crisply on stone, and they wear down just as crisply. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "The soft gold soles have warped from heavy marching, yet their glinting metal still pacifies prowling piglin sentinels.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3361,10 +3361,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Boots",
+              "itemName": "Courtier's Gilded Boots",
               "loreJson": [
                 {
-                  "text": "Golden boots. They ring crisply on stone, and they wear down just as crisply. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Lined with soft doe-skin and riveted cleanly, walking with quiet elegance while declaring the wearer a friend to the Nether court.",
                   "color": "white",
                   "italic": true
                 }
@@ -3393,10 +3393,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Boots",
+              "itemName": "Sovereign Sun-King Greaves",
               "loreJson": [
                 {
-                  "text": "Golden boots. They ring crisply on stone, and they wear down just as crisply. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A triumph of ornamental armoury, crafted from flawless gold leaf that catches every ray of light, moving silently and magnificently.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3430,10 +3430,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Golden Boots",
+              "itemName": "Hammered Gold-clad Boots",
               "loreJson": [
                 {
-                  "text": "Golden boots. They ring crisply on stone, and they wear down just as crisply. Hasty seams bind at the joints; it covers the vital parts, though movement is awkward.",
+                  "text": "Gold foil hammered in haste over working leather. A bit loose and easily bent, but golden enough to satisfy suspicious piglins.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3462,10 +3462,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Boots",
+              "itemName": "Courtier's Gilded Boots",
               "loreJson": [
                 {
-                  "text": "Golden boots. They ring crisply on stone, and they wear down just as crisply. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Lined with soft doe-skin and riveted cleanly, walking with quiet elegance while declaring the wearer a friend to the Nether court.",
                   "color": "white",
                   "italic": true
                 }
@@ -3494,10 +3494,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Boots",
+              "itemName": "Sovereign Sun-King Greaves",
               "loreJson": [
                 {
-                  "text": "Golden boots. They ring crisply on stone, and they wear down just as crisply. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A triumph of ornamental armoury, crafted from flawless gold leaf that catches every ray of light, moving silently and magnificently.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3531,10 +3531,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Boots",
+              "itemName": "Dented Gilded Sabatons",
               "loreJson": [
                 {
-                  "text": "Golden boots. They ring crisply on stone, and they wear down just as crisply. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "The soft gold soles have warped from heavy marching, yet their glinting metal still pacifies prowling piglin sentinels.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3563,10 +3563,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Boots",
+              "itemName": "Courtier's Gilded Boots",
               "loreJson": [
                 {
-                  "text": "Golden boots. They ring crisply on stone, and they wear down just as crisply. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Lined with soft doe-skin and riveted cleanly, walking with quiet elegance while declaring the wearer a friend to the Nether court.",
                   "color": "white",
                   "italic": true
                 }
@@ -3595,10 +3595,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Boots",
+              "itemName": "Sovereign Sun-King Greaves",
               "loreJson": [
                 {
-                  "text": "Golden boots. They ring crisply on stone, and they wear down just as crisply. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A triumph of ornamental armoury, crafted from flawless gold leaf that catches every ray of light, moving silently and magnificently.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3630,7 +3630,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chestplate of gold. It is genuinely handsome, and it genuinely dents at a touch.",
+          "text": "A cuirass beaten from solid gold, blazing with sovereign brilliance that calms hostile piglins, though soft against relentless iron blades.",
           "color": "yellow",
           "italic": true
         }
@@ -3645,10 +3645,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Chestplate",
+              "itemName": "Battered Gilded Cuirass",
               "loreJson": [
                 {
-                  "text": "A chestplate of gold. It is genuinely handsome, and it genuinely dents at a touch. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Dented and warped from heavy blows, its golden surface scarred by battle, yet still shiny enough to keep piglin blades sheathed.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3677,10 +3677,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Chestplate",
+              "itemName": "Courtier's Gilded Breastplate",
               "loreJson": [
                 {
-                  "text": "A chestplate of gold. It is genuinely handsome, and it genuinely dents at a touch. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Forged with clean curves over padded silk, carrying an imposing imperial radiance that marks the wearer as an honoured guest of Nether fortresses.",
                   "color": "white",
                   "italic": true
                 }
@@ -3709,10 +3709,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Chestplate",
+              "itemName": "Sovereign Sun-King Cuirass",
               "loreJson": [
                 {
-                  "text": "A chestplate of gold. It is genuinely handsome, and it genuinely dents at a touch. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An unrivaled triumph of ceremonial armoury, catching every beam of light with blinding majesty, turning beastly malice into awed submission.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3746,10 +3746,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Golden Chestplate",
+              "itemName": "Hammered Gold Breastplate",
               "loreJson": [
                 {
-                  "text": "A chestplate of gold. It is genuinely handsome, and it genuinely dents at a touch. Hasty seams bind at the joints; it covers the vital parts, though movement is awkward.",
+                  "text": "Beaten into shape on a camp anvil, showing uneven hammer marks across the soft gold. Modest in defense, but golden enough for piglin peace.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3778,10 +3778,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Chestplate",
+              "itemName": "Courtier's Gilded Breastplate",
               "loreJson": [
                 {
-                  "text": "A chestplate of gold. It is genuinely handsome, and it genuinely dents at a touch. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Forged with clean curves over padded silk, carrying an imposing imperial radiance that marks the wearer as an honoured guest of Nether fortresses.",
                   "color": "white",
                   "italic": true
                 }
@@ -3810,10 +3810,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Chestplate",
+              "itemName": "Sovereign Sun-King Cuirass",
               "loreJson": [
                 {
-                  "text": "A chestplate of gold. It is genuinely handsome, and it genuinely dents at a touch. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An unrivaled triumph of ceremonial armoury, catching every beam of light with blinding majesty, turning beastly malice into awed submission.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3847,10 +3847,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Chestplate",
+              "itemName": "Battered Gilded Cuirass",
               "loreJson": [
                 {
-                  "text": "A chestplate of gold. It is genuinely handsome, and it genuinely dents at a touch. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Dented and warped from heavy blows, its golden surface scarred by battle, yet still shiny enough to keep piglin blades sheathed.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3879,10 +3879,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Chestplate",
+              "itemName": "Courtier's Gilded Breastplate",
               "loreJson": [
                 {
-                  "text": "A chestplate of gold. It is genuinely handsome, and it genuinely dents at a touch. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Forged with clean curves over padded silk, carrying an imposing imperial radiance that marks the wearer as an honoured guest of Nether fortresses.",
                   "color": "white",
                   "italic": true
                 }
@@ -3911,10 +3911,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Chestplate",
+              "itemName": "Sovereign Sun-King Cuirass",
               "loreJson": [
                 {
-                  "text": "A chestplate of gold. It is genuinely handsome, and it genuinely dents at a touch. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An unrivaled triumph of ceremonial armoury, catching every beam of light with blinding majesty, turning beastly malice into awed submission.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3946,7 +3946,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A helmet of solid gold. Very noticeable, and not very protective.",
+          "text": "A crowned helm forged of bright yellow gold, sitting light upon the brow to pacify brutish piglins beneath Nether vaults.",
           "color": "yellow",
           "italic": true
         }
@@ -3961,10 +3961,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Helmet",
+              "itemName": "Dented Gilded Helm",
               "loreJson": [
                 {
-                  "text": "A helmet of solid gold. Very noticeable, and not very protective. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Marred by heavy stone impacts along the crown, its chin-strap worn thin, yet its glinting yellow metal still commands piglin respect.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3993,10 +3993,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Helmet",
+              "itemName": "Ceremonial Gold Coif",
               "loreJson": [
                 {
-                  "text": "A helmet of solid gold. Very noticeable, and not very protective. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly shaped with polished cheek-guards, offering handsome ceremonial flair while keeping the wearer safe from piglin skirmishes.",
                   "color": "white",
                   "italic": true
                 }
@@ -4025,10 +4025,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Helmet",
+              "itemName": "Sovereign Crown-Helm",
               "loreJson": [
                 {
-                  "text": "A helmet of solid gold. Very noticeable, and not very protective. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A majestic masterpiece of royal goldwork, burning with radiant auroral luster to turn the hearts of hostile hordes.",
                   "color": "blue",
                   "italic": true
                 }
@@ -4062,10 +4062,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Golden Helmet",
+              "itemName": "Crude-cast Gold Cap",
               "loreJson": [
                 {
-                  "text": "A helmet of solid gold. Very noticeable, and not very protective. Hasty seams bind at the joints; it covers the vital parts, though movement is awkward.",
+                  "text": "Hammered from raw gold ingots over a camp anvil. A bit rough at the seams, but brightly gold enough to keep the peace.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4094,10 +4094,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Helmet",
+              "itemName": "Ceremonial Gold Coif",
               "loreJson": [
                 {
-                  "text": "A helmet of solid gold. Very noticeable, and not very protective. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly shaped with polished cheek-guards, offering handsome ceremonial flair while keeping the wearer safe from piglin skirmishes.",
                   "color": "white",
                   "italic": true
                 }
@@ -4126,10 +4126,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Helmet",
+              "itemName": "Sovereign Crown-Helm",
               "loreJson": [
                 {
-                  "text": "A helmet of solid gold. Very noticeable, and not very protective. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A majestic masterpiece of royal goldwork, burning with radiant auroral luster to turn the hearts of hostile hordes.",
                   "color": "blue",
                   "italic": true
                 }
@@ -4163,10 +4163,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Helmet",
+              "itemName": "Dented Gilded Helm",
               "loreJson": [
                 {
-                  "text": "A helmet of solid gold. Very noticeable, and not very protective. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Marred by heavy stone impacts along the crown, its chin-strap worn thin, yet its glinting yellow metal still commands piglin respect.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4195,10 +4195,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Helmet",
+              "itemName": "Ceremonial Gold Coif",
               "loreJson": [
                 {
-                  "text": "A helmet of solid gold. Very noticeable, and not very protective. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly shaped with polished cheek-guards, offering handsome ceremonial flair while keeping the wearer safe from piglin skirmishes.",
                   "color": "white",
                   "italic": true
                 }
@@ -4227,10 +4227,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Helmet",
+              "itemName": "Sovereign Crown-Helm",
               "loreJson": [
                 {
-                  "text": "A helmet of solid gold. Very noticeable, and not very protective. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A majestic masterpiece of royal goldwork, burning with radiant auroral luster to turn the hearts of hostile hordes.",
                   "color": "blue",
                   "italic": true
                 }
@@ -4262,7 +4262,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Horse armour in gleaming gold. Limited protection, enormous presence.",
+          "text": "Heavy barding wrought of burnished gold plate, transforming a courser into a resplendent engine of royal presence on the field.",
           "color": "yellow",
           "italic": true
         }
@@ -4277,10 +4277,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Horse Armor",
+              "itemName": "War-torn Gilded Barding",
               "loreJson": [
                 {
-                  "text": "Horse armour in gleaming gold. Limited protection, enormous presence. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Dented by past skirmishes with frayed cinch straps, its golden scales still catch the morning sun in dazzling defiance.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4305,10 +4305,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Horse Armor",
+              "itemName": "Royal Guard's Gold Barding",
               "loreJson": [
                 {
-                  "text": "Horse armour in gleaming gold. Limited protection, enormous presence. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Contoured smoothly to equine muscle and spine, lending majestic golden luster without chafing the warhorse during long gallops.",
                   "color": "white",
                   "italic": true
                 }
@@ -4333,10 +4333,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Horse Armor",
+              "itemName": "Paladin's Celestial Gold Barding",
               "loreJson": [
                 {
-                  "text": "Horse armour in gleaming gold. Limited protection, enormous presence. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A breathtaking triumph of equestrian goldwork, blazing like liquid sun as the armored stallion charges across open plains.",
                   "color": "blue",
                   "italic": true
                 }
@@ -4364,7 +4364,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Golden leggings. They chime when you walk, and it is a pleasant sound.",
+          "text": "Leggings fashioned from polished gold plate, chiming softly at every stride and maintaining peace among Nether warbands.",
           "color": "yellow",
           "italic": true
         }
@@ -4379,10 +4379,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Leggings",
+              "itemName": "Scuffed Gilded Greaves",
               "loreJson": [
                 {
-                  "text": "Golden leggings. They chime when you walk, and it is a pleasant sound. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Warped around the knees from past battles, its soft metal scratched, yet its golden shine still pacifies watchful piglins.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4411,10 +4411,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Leggings",
+              "itemName": "Courtier's Gilded Chausses",
               "loreJson": [
                 {
-                  "text": "Golden leggings. They chime when you walk, and it is a pleasant sound. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Tailored with smooth articulation over supple lining, offering imperial splendor and comfortable stride across long corridors.",
                   "color": "white",
                   "italic": true
                 }
@@ -4443,10 +4443,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Leggings",
+              "itemName": "Sovereign Sun-Lord Greaves",
               "loreJson": [
                 {
-                  "text": "Golden leggings. They chime when you walk, and it is a pleasant sound. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An unmatched masterpiece of ceremonial plate, blazing with solar brilliance that commands awe in any court or crag.",
                   "color": "blue",
                   "italic": true
                 }
@@ -4480,10 +4480,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Golden Leggings",
+              "itemName": "Hand-hammered Gold Greaves",
               "loreJson": [
                 {
-                  "text": "Golden leggings. They chime when you walk, and it is a pleasant sound. Hasty seams bind at the joints; it covers the vital parts, though movement is awkward.",
+                  "text": "Gold plate hammered into rough leg guards over a camp anvil. Easily bent, but bright enough to travel the Nether in peace.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4512,10 +4512,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Leggings",
+              "itemName": "Courtier's Gilded Chausses",
               "loreJson": [
                 {
-                  "text": "Golden leggings. They chime when you walk, and it is a pleasant sound. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Tailored with smooth articulation over supple lining, offering imperial splendor and comfortable stride across long corridors.",
                   "color": "white",
                   "italic": true
                 }
@@ -4544,10 +4544,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Leggings",
+              "itemName": "Sovereign Sun-Lord Greaves",
               "loreJson": [
                 {
-                  "text": "Golden leggings. They chime when you walk, and it is a pleasant sound. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An unmatched masterpiece of ceremonial plate, blazing with solar brilliance that commands awe in any court or crag.",
                   "color": "blue",
                   "italic": true
                 }
@@ -4581,10 +4581,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Leggings",
+              "itemName": "Scuffed Gilded Greaves",
               "loreJson": [
                 {
-                  "text": "Golden leggings. They chime when you walk, and it is a pleasant sound. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Warped around the knees from past battles, its soft metal scratched, yet its golden shine still pacifies watchful piglins.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4613,10 +4613,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Leggings",
+              "itemName": "Courtier's Gilded Chausses",
               "loreJson": [
                 {
-                  "text": "Golden leggings. They chime when you walk, and it is a pleasant sound. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Tailored with smooth articulation over supple lining, offering imperial splendor and comfortable stride across long corridors.",
                   "color": "white",
                   "italic": true
                 }
@@ -4645,10 +4645,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Leggings",
+              "itemName": "Sovereign Sun-Lord Greaves",
               "loreJson": [
                 {
-                  "text": "Golden leggings. They chime when you walk, and it is a pleasant sound. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An unmatched masterpiece of ceremonial plate, blazing with solar brilliance that commands awe in any court or crag.",
                   "color": "blue",
                   "italic": true
                 }
@@ -4680,7 +4680,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt.",
+          "text": "Solid iron plate riveted over heavy hide boots, chiming firmly across stone and shielding the wearer's step in brutal melee.",
           "color": "green",
           "italic": true
         }
@@ -4695,10 +4695,10 @@
             "weight": 75,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Boots",
+              "itemName": "Pitted Battle-worn Iron Boots",
               "loreJson": [
                 {
-                  "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scarred by gravel and pitted with rust from old marches, its stiffened leather still shields the ankles from jagged stone.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4727,10 +4727,10 @@
             "weight": 22,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Boots",
+              "itemName": "Footman's Iron Sabatons",
               "loreJson": [
                 {
-                  "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Well-riveted iron plates fitted over supple oil-tanned leather, offering sure footing and steadfast armor for regular infantry.",
                   "color": "white",
                   "italic": true
                 }
@@ -4759,10 +4759,10 @@
             "weight": 3,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Boots",
+              "itemName": "Masterwork Tempered Steel Greaves",
               "loreJson": [
                 {
-                  "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Articulated with tempered steel over padded doe-skin, distributing impact silently while turning aside heavy cleaves with ease.",
                   "color": "blue",
                   "italic": true
                 }
@@ -4796,10 +4796,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Boots",
+              "itemName": "Pitted Battle-worn Iron Boots",
               "loreJson": [
                 {
-                  "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scarred by gravel and pitted with rust from old marches, its stiffened leather still shields the ankles from jagged stone.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4828,10 +4828,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Boots",
+              "itemName": "Footman's Iron Sabatons",
               "loreJson": [
                 {
-                  "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Well-riveted iron plates fitted over supple oil-tanned leather, offering sure footing and steadfast armor for regular infantry.",
                   "color": "white",
                   "italic": true
                 }
@@ -4860,10 +4860,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Boots",
+              "itemName": "Masterwork Tempered Steel Greaves",
               "loreJson": [
                 {
-                  "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Articulated with tempered steel over padded doe-skin, distributing impact silently while turning aside heavy cleaves with ease.",
                   "color": "blue",
                   "italic": true
                 }
@@ -4897,10 +4897,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Iron Boots",
+              "itemName": "Hand-hammered Iron-clad Boots",
               "loreJson": [
                 {
-                  "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt. Hasty seams bind at the joints; it covers the vital parts, though movement is awkward.",
+                  "text": "Beaten out over a field anvil with rough rivets, a little stiff on the march, but honest protection against fangs and spikes.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4929,10 +4929,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Boots",
+              "itemName": "Footman's Iron Sabatons",
               "loreJson": [
                 {
-                  "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Well-riveted iron plates fitted over supple oil-tanned leather, offering sure footing and steadfast armor for regular infantry.",
                   "color": "white",
                   "italic": true
                 }
@@ -4961,10 +4961,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Boots",
+              "itemName": "Masterwork Tempered Steel Greaves",
               "loreJson": [
                 {
-                  "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Articulated with tempered steel over padded doe-skin, distributing impact silently while turning aside heavy cleaves with ease.",
                   "color": "blue",
                   "italic": true
                 }
@@ -4998,10 +4998,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Boots",
+              "itemName": "Pitted Battle-worn Iron Boots",
               "loreJson": [
                 {
-                  "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scarred by gravel and pitted with rust from old marches, its stiffened leather still shields the ankles from jagged stone.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5030,10 +5030,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Boots",
+              "itemName": "Footman's Iron Sabatons",
               "loreJson": [
                 {
-                  "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Well-riveted iron plates fitted over supple oil-tanned leather, offering sure footing and steadfast armor for regular infantry.",
                   "color": "white",
                   "italic": true
                 }
@@ -5062,10 +5062,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Boots",
+              "itemName": "Masterwork Tempered Steel Greaves",
               "loreJson": [
                 {
-                  "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Articulated with tempered steel over padded doe-skin, distributing impact silently while turning aside heavy cleaves with ease.",
                   "color": "blue",
                   "italic": true
                 }
@@ -5099,10 +5099,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Boots",
+              "itemName": "Pitted Battle-worn Iron Boots",
               "loreJson": [
                 {
-                  "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scarred by gravel and pitted with rust from old marches, its stiffened leather still shields the ankles from jagged stone.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5131,10 +5131,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Boots",
+              "itemName": "Footman's Iron Sabatons",
               "loreJson": [
                 {
-                  "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Well-riveted iron plates fitted over supple oil-tanned leather, offering sure footing and steadfast armor for regular infantry.",
                   "color": "white",
                   "italic": true
                 }
@@ -5163,10 +5163,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Boots",
+              "itemName": "Masterwork Tempered Steel Greaves",
               "loreJson": [
                 {
-                  "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Articulated with tempered steel over padded doe-skin, distributing impact silently while turning aside heavy cleaves with ease.",
                   "color": "blue",
                   "italic": true
                 }
@@ -5198,7 +5198,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams.",
+          "text": "Thick iron plates riveted across a heavy gambeson, turning sweeping claws and stray arrows aside with ringing authority.",
           "color": "green",
           "italic": true
         }
@@ -5213,10 +5213,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Chestplate",
+              "itemName": "Battle-dented Iron Cuirass",
               "loreJson": [
                 {
-                  "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Heavily scarred by claw and blade, its plates strained at the seams, yet its unyielding iron core continues to guard vital organs.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5245,10 +5245,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Chestplate",
+              "itemName": "Legionnaire Iron Breastplate",
               "loreJson": [
                 {
-                  "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "True-shaped and polished to an honest sheen, distributing weight evenly across the shoulders to sustain long campaigns.",
                   "color": "white",
                   "italic": true
                 }
@@ -5277,10 +5277,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Chestplate",
+              "itemName": "Master-forged Steel Aegis",
               "loreJson": [
                 {
-                  "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A masterpiece of smithcraft fashioned from folded, quenched steel, sliding blows harmlessly away with pristine, mirror-like grace.",
                   "color": "blue",
                   "italic": true
                 }
@@ -5314,10 +5314,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Iron Chestplate",
+              "itemName": "Rough-beaten Iron Harness",
               "loreJson": [
                 {
-                  "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams. Hasty seams bind at the joints; it covers the vital parts, though movement is awkward.",
+                  "text": "Hammered from crude iron slabs over a camp anvil, unpolished and heavy on the collar, yet solid against any front-on charge.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5346,10 +5346,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Chestplate",
+              "itemName": "Legionnaire Iron Breastplate",
               "loreJson": [
                 {
-                  "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "True-shaped and polished to an honest sheen, distributing weight evenly across the shoulders to sustain long campaigns.",
                   "color": "white",
                   "italic": true
                 }
@@ -5378,10 +5378,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Chestplate",
+              "itemName": "Master-forged Steel Aegis",
               "loreJson": [
                 {
-                  "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A masterpiece of smithcraft fashioned from folded, quenched steel, sliding blows harmlessly away with pristine, mirror-like grace.",
                   "color": "blue",
                   "italic": true
                 }
@@ -5415,10 +5415,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Chestplate",
+              "itemName": "Battle-dented Iron Cuirass",
               "loreJson": [
                 {
-                  "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Heavily scarred by claw and blade, its plates strained at the seams, yet its unyielding iron core continues to guard vital organs.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5447,10 +5447,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Chestplate",
+              "itemName": "Legionnaire Iron Breastplate",
               "loreJson": [
                 {
-                  "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "True-shaped and polished to an honest sheen, distributing weight evenly across the shoulders to sustain long campaigns.",
                   "color": "white",
                   "italic": true
                 }
@@ -5479,10 +5479,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Chestplate",
+              "itemName": "Master-forged Steel Aegis",
               "loreJson": [
                 {
-                  "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A masterpiece of smithcraft fashioned from folded, quenched steel, sliding blows harmlessly away with pristine, mirror-like grace.",
                   "color": "blue",
                   "italic": true
                 }
@@ -5516,10 +5516,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Chestplate",
+              "itemName": "Battle-dented Iron Cuirass",
               "loreJson": [
                 {
-                  "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Heavily scarred by claw and blade, its plates strained at the seams, yet its unyielding iron core continues to guard vital organs.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5548,10 +5548,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Chestplate",
+              "itemName": "Legionnaire Iron Breastplate",
               "loreJson": [
                 {
-                  "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "True-shaped and polished to an honest sheen, distributing weight evenly across the shoulders to sustain long campaigns.",
                   "color": "white",
                   "italic": true
                 }
@@ -5580,10 +5580,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Chestplate",
+              "itemName": "Master-forged Steel Aegis",
               "loreJson": [
                 {
-                  "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A masterpiece of smithcraft fashioned from folded, quenched steel, sliding blows harmlessly away with pristine, mirror-like grace.",
                   "color": "blue",
                   "italic": true
                 }
@@ -5617,10 +5617,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Chestplate",
+              "itemName": "Battle-dented Iron Cuirass",
               "loreJson": [
                 {
-                  "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Heavily scarred by claw and blade, its plates strained at the seams, yet its unyielding iron core continues to guard vital organs.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5649,10 +5649,10 @@
             "weight": 33,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Chestplate",
+              "itemName": "Legionnaire Iron Breastplate",
               "loreJson": [
                 {
-                  "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "True-shaped and polished to an honest sheen, distributing weight evenly across the shoulders to sustain long campaigns.",
                   "color": "white",
                   "italic": true
                 }
@@ -5681,10 +5681,10 @@
             "weight": 7,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Chestplate",
+              "itemName": "Master-forged Steel Aegis",
               "loreJson": [
                 {
-                  "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A masterpiece of smithcraft fashioned from folded, quenched steel, sliding blows harmlessly away with pristine, mirror-like grace.",
                   "color": "blue",
                   "italic": true
                 }
@@ -5716,7 +5716,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "An iron helmet beaten out of sheet, with the edges still a little rough.",
+          "text": "A conical helm beaten from cold iron, shielding the cranium and temples from falling debris and stray arrowheads.",
           "color": "green",
           "italic": true
         }
@@ -5731,10 +5731,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Helmet",
+              "itemName": "Battered Iron Helm",
               "loreJson": [
                 {
-                  "text": "An iron helmet beaten out of sheet, with the edges still a little rough. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Dented and rust-pitted from past sieges, its chin-tie frayed, but its curved iron shell still deflects heavy concussions.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5763,10 +5763,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Helmet",
+              "itemName": "Guard's Iron Greathelm",
               "loreJson": [
                 {
-                  "text": "An iron helmet beaten out of sheet, with the edges still a little rough. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly contoured with balanced vision slits and padded lining, offering dependable cranial protection in the thick of melee.",
                   "color": "white",
                   "italic": true
                 }
@@ -5795,10 +5795,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Helmet",
+              "itemName": "Champion's Tempered Steel Helm",
               "loreJson": [
                 {
-                  "text": "An iron helmet beaten out of sheet, with the edges still a little rough. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Forged seamlessly from fine tempered steel, lightweight on the brow while turning point-blank blows into harmless sparks.",
                   "color": "blue",
                   "italic": true
                 }
@@ -5832,10 +5832,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Iron Helmet",
+              "itemName": "Hand-forged Iron Cap",
               "loreJson": [
                 {
-                  "text": "An iron helmet beaten out of sheet, with the edges still a little rough. Hasty seams bind at the joints; it covers the vital parts, though movement is awkward.",
+                  "text": "Beaten out in haste over a rough stone block. A bit jagged at the rim, but an honest barrier against fatal skull strikes.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5864,10 +5864,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Helmet",
+              "itemName": "Guard's Iron Greathelm",
               "loreJson": [
                 {
-                  "text": "An iron helmet beaten out of sheet, with the edges still a little rough. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly contoured with balanced vision slits and padded lining, offering dependable cranial protection in the thick of melee.",
                   "color": "white",
                   "italic": true
                 }
@@ -5896,10 +5896,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Helmet",
+              "itemName": "Champion's Tempered Steel Helm",
               "loreJson": [
                 {
-                  "text": "An iron helmet beaten out of sheet, with the edges still a little rough. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Forged seamlessly from fine tempered steel, lightweight on the brow while turning point-blank blows into harmless sparks.",
                   "color": "blue",
                   "italic": true
                 }
@@ -5933,10 +5933,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Helmet",
+              "itemName": "Battered Iron Helm",
               "loreJson": [
                 {
-                  "text": "An iron helmet beaten out of sheet, with the edges still a little rough. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Dented and rust-pitted from past sieges, its chin-tie frayed, but its curved iron shell still deflects heavy concussions.",
                   "color": "gray",
                   "italic": true
                 }
@@ -5965,10 +5965,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Helmet",
+              "itemName": "Guard's Iron Greathelm",
               "loreJson": [
                 {
-                  "text": "An iron helmet beaten out of sheet, with the edges still a little rough. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly contoured with balanced vision slits and padded lining, offering dependable cranial protection in the thick of melee.",
                   "color": "white",
                   "italic": true
                 }
@@ -5997,10 +5997,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Helmet",
+              "itemName": "Champion's Tempered Steel Helm",
               "loreJson": [
                 {
-                  "text": "An iron helmet beaten out of sheet, with the edges still a little rough. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Forged seamlessly from fine tempered steel, lightweight on the brow while turning point-blank blows into harmless sparks.",
                   "color": "blue",
                   "italic": true
                 }
@@ -6034,10 +6034,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Helmet",
+              "itemName": "Battered Iron Helm",
               "loreJson": [
                 {
-                  "text": "An iron helmet beaten out of sheet, with the edges still a little rough. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Dented and rust-pitted from past sieges, its chin-tie frayed, but its curved iron shell still deflects heavy concussions.",
                   "color": "gray",
                   "italic": true
                 }
@@ -6066,10 +6066,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Helmet",
+              "itemName": "Guard's Iron Greathelm",
               "loreJson": [
                 {
-                  "text": "An iron helmet beaten out of sheet, with the edges still a little rough. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly contoured with balanced vision slits and padded lining, offering dependable cranial protection in the thick of melee.",
                   "color": "white",
                   "italic": true
                 }
@@ -6098,10 +6098,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Helmet",
+              "itemName": "Champion's Tempered Steel Helm",
               "loreJson": [
                 {
-                  "text": "An iron helmet beaten out of sheet, with the edges still a little rough. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Forged seamlessly from fine tempered steel, lightweight on the brow while turning point-blank blows into harmless sparks.",
                   "color": "blue",
                   "italic": true
                 }
@@ -6133,7 +6133,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Iron armour for a horse, covering rather more ground than the version made for people.",
+          "text": "Broad iron barding riveted over thick saddle-leather, protecting a charger's neck and flanks during heavy field charges.",
           "color": "white",
           "italic": true
         }
@@ -6148,10 +6148,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Horse Armor",
+              "itemName": "Battle-scarred Iron Barding",
               "loreJson": [
                 {
-                  "text": "Iron armour for a horse, covering rather more ground than the version made for people. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Dented along the flank plates with fraying cinch straps, yet its thick iron scales still turn aside glancing strikes.",
                   "color": "gray",
                   "italic": true
                 }
@@ -6176,10 +6176,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Horse Armor",
+              "itemName": "Cavalier's Iron Barding",
               "loreJson": [
                 {
-                  "text": "Iron armour for a horse, covering rather more ground than the version made for people. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Articulated cleanly over padded wool, offering solid field defense without chafing the warhorse during extended gallops.",
                   "color": "white",
                   "italic": true
                 }
@@ -6204,10 +6204,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Horse Armor",
+              "itemName": "Knight-Commander's Steel Barding",
               "loreJson": [
                 {
-                  "text": "Iron armour for a horse, covering rather more ground than the version made for people. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A masterwork of equine armoury crafted from mirror-honed steel plates, lending an unyielding, majestic aura to the charge.",
                   "color": "blue",
                   "italic": true
                 }
@@ -6235,7 +6235,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Leggings riveted from iron sheet, and they make a little noise when you walk.",
+          "text": "Hinged iron plates strapped over rugged breeches, guarding the knees and thighs while allowing an active combat stride.",
           "color": "green",
           "italic": true
         }
@@ -6250,10 +6250,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Leggings",
+              "itemName": "Battered Iron Leggings",
               "loreJson": [
                 {
-                  "text": "Leggings riveted from iron sheet, and they make a little noise when you walk. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scuffed and warped around the kneecaps from violent skirmishes, its leather laces worn thin, but the iron frame still holds.",
                   "color": "gray",
                   "italic": true
                 }
@@ -6282,10 +6282,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Leggings",
+              "itemName": "Soldier's Iron Chausses",
               "loreJson": [
                 {
-                  "text": "Leggings riveted from iron sheet, and they make a little noise when you walk. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly articulated iron plates riveted over oil-tanned hide, providing steady mobility and solid lower-body defense.",
                   "color": "white",
                   "italic": true
                 }
@@ -6314,10 +6314,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Leggings",
+              "itemName": "Master-forged Steel Greaves",
               "loreJson": [
                 {
-                  "text": "Leggings riveted from iron sheet, and they make a little noise when you walk. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Tailored with flawless precision from tempered steel, moving silently and absorbing concussive blows with effortless poise.",
                   "color": "blue",
                   "italic": true
                 }
@@ -6351,10 +6351,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Iron Leggings",
+              "itemName": "Rough-riveted Iron Greaves",
               "loreJson": [
                 {
-                  "text": "Leggings riveted from iron sheet, and they make a little noise when you walk. Hasty seams bind at the joints; it covers the vital parts, though movement is awkward.",
+                  "text": "Beaten out over an anvil and strapped with raw hide. Stiff at the joints, but an unyielding shield against low sweeps.",
                   "color": "gray",
                   "italic": true
                 }
@@ -6383,10 +6383,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Leggings",
+              "itemName": "Soldier's Iron Chausses",
               "loreJson": [
                 {
-                  "text": "Leggings riveted from iron sheet, and they make a little noise when you walk. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly articulated iron plates riveted over oil-tanned hide, providing steady mobility and solid lower-body defense.",
                   "color": "white",
                   "italic": true
                 }
@@ -6415,10 +6415,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Leggings",
+              "itemName": "Master-forged Steel Greaves",
               "loreJson": [
                 {
-                  "text": "Leggings riveted from iron sheet, and they make a little noise when you walk. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Tailored with flawless precision from tempered steel, moving silently and absorbing concussive blows with effortless poise.",
                   "color": "blue",
                   "italic": true
                 }
@@ -6452,10 +6452,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Leggings",
+              "itemName": "Battered Iron Leggings",
               "loreJson": [
                 {
-                  "text": "Leggings riveted from iron sheet, and they make a little noise when you walk. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scuffed and warped around the kneecaps from violent skirmishes, its leather laces worn thin, but the iron frame still holds.",
                   "color": "gray",
                   "italic": true
                 }
@@ -6484,10 +6484,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Leggings",
+              "itemName": "Soldier's Iron Chausses",
               "loreJson": [
                 {
-                  "text": "Leggings riveted from iron sheet, and they make a little noise when you walk. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly articulated iron plates riveted over oil-tanned hide, providing steady mobility and solid lower-body defense.",
                   "color": "white",
                   "italic": true
                 }
@@ -6516,10 +6516,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Leggings",
+              "itemName": "Master-forged Steel Greaves",
               "loreJson": [
                 {
-                  "text": "Leggings riveted from iron sheet, and they make a little noise when you walk. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Tailored with flawless precision from tempered steel, moving silently and absorbing concussive blows with effortless poise.",
                   "color": "blue",
                   "italic": true
                 }
@@ -6553,10 +6553,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Leggings",
+              "itemName": "Battered Iron Leggings",
               "loreJson": [
                 {
-                  "text": "Leggings riveted from iron sheet, and they make a little noise when you walk. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scuffed and warped around the kneecaps from violent skirmishes, its leather laces worn thin, but the iron frame still holds.",
                   "color": "gray",
                   "italic": true
                 }
@@ -6585,10 +6585,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Leggings",
+              "itemName": "Soldier's Iron Chausses",
               "loreJson": [
                 {
-                  "text": "Leggings riveted from iron sheet, and they make a little noise when you walk. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly articulated iron plates riveted over oil-tanned hide, providing steady mobility and solid lower-body defense.",
                   "color": "white",
                   "italic": true
                 }
@@ -6617,10 +6617,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Leggings",
+              "itemName": "Master-forged Steel Greaves",
               "loreJson": [
                 {
-                  "text": "Leggings riveted from iron sheet, and they make a little noise when you walk. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "Tailored with flawless precision from tempered steel, moving silently and absorbing concussive blows with effortless poise.",
                   "color": "blue",
                   "italic": true
                 }
@@ -8612,7 +8612,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Magma blocks are not a problem in these, and nothing else is either.",
+          "text": "Heavy greaves armored in dark Netherite plate over supple leather, anchoring the wearer against savage knockbacks and striding unharmed across boiling magma.",
           "color": "dark_gray",
           "italic": true
         }
@@ -8659,10 +8659,10 @@
             "weight": 10,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Netherite Boots",
+              "itemName": "Battered Netherite Sabatons",
               "loreJson": [
                 {
-                  "text": "Magma blocks are not a problem in these, and nothing else is either. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scratched by sharp netherrack and pitted from dragon breath, its heavy alloy plates still turn aside deadly ground spikes without bending.",
                   "color": "gray",
                   "italic": true
                 }
@@ -8691,10 +8691,10 @@
             "weight": 22,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Netherite Boots",
+              "itemName": "Vanguard Netherite Boots",
               "loreJson": [
                 {
-                  "text": "Magma blocks are not a problem in these, and nothing else is either. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Form-fitted Netherite segments riveted over oil-tanned hide, providing supreme footing and absolute flame immunity across the harshest terrain.",
                   "color": "white",
                   "italic": true
                 }
@@ -8723,10 +8723,10 @@
             "weight": 3,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Netherite Boots",
+              "itemName": "Sovereign Mountain-Stirder Sabatons",
               "loreJson": [
                 {
-                  "text": "Magma blocks are not a problem in these, and nothing else is either. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A triumph of master armoury, its seamless dark plates absorbing concussive kinetic force silently, planting the warrior like an immovable cliff.",
                   "color": "blue",
                   "italic": true
                 }
@@ -8758,7 +8758,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The hardest thing a person can currently wear. It is also far heavier than it looks.",
+          "text": "A colossal breastplate plated in impervious Netherite over diamond scales, rendering the warrior a walking fortress against physical harm and raging lava.",
           "color": "dark_gray",
           "italic": true
         }
@@ -8805,10 +8805,10 @@
             "weight": 10,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Netherite Chestplate",
+              "itemName": "War-torn Netherite Cuirass",
               "loreJson": [
                 {
-                  "text": "The hardest thing a person can currently wear. It is also far heavier than it looks. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Charred and scarred from ancient subterranean wars, its heavy straps strained, yet its abyssal alloy core remains entirely unbroken.",
                   "color": "gray",
                   "italic": true
                 }
@@ -8837,10 +8837,10 @@
             "weight": 22,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Netherite Chestplate",
+              "itemName": "Legionnaire Netherite Cuirass",
               "loreJson": [
                 {
-                  "text": "The hardest thing a person can currently wear. It is also far heavier than it looks. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Precision-shaped dark alloy plates mounted over heavy gambeson, turning mortal cleaves aside with resounding, deep-toned authority.",
                   "color": "white",
                   "italic": true
                 }
@@ -8869,10 +8869,10 @@
             "weight": 3,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Netherite Chestplate",
+              "itemName": "Apex Sovereign Netherite Aegis",
               "loreJson": [
                 {
-                  "text": "The hardest thing a person can currently wear. It is also far heavier than it looks. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An unrivaled masterpiece of primeval armoury, catching the firelight in subtle dark-gold ripples, denying the reaper his harvest in every fray.",
                   "color": "blue",
                   "italic": true
                 }
@@ -8904,7 +8904,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A heavy black helmet that will not melt in lava.",
+          "text": "A crowning greathelm wrought of cold Netherite alloy, deflecting falling boulders and withering blast waves away from the wearer's skull.",
           "color": "dark_gray",
           "italic": true
         }
@@ -8951,10 +8951,10 @@
             "weight": 10,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Netherite Helmet",
+              "itemName": "Battered Netherite Greathelm",
               "loreJson": [
                 {
-                  "text": "A heavy black helmet that will not melt in lava. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scratched by heavy mace-falls during ancient dungeon sieges, its chin-tie frayed, but its unyielding dark metal refuses to crack.",
                   "color": "gray",
                   "italic": true
                 }
@@ -8983,10 +8983,10 @@
             "weight": 22,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Netherite Helmet",
+              "itemName": "Vanguard Netherite Helm",
               "loreJson": [
                 {
-                  "text": "A heavy black helmet that will not melt in lava. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Cleanly contoured with balanced vision slits and padded lining, offering supreme cranial defense amidst the chaos of battle.",
                   "color": "white",
                   "italic": true
                 }
@@ -9015,10 +9015,10 @@
             "weight": 3,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Netherite Helmet",
+              "itemName": "Sovereign Abyssal Greathelm",
               "loreJson": [
                 {
-                  "text": "A heavy black helmet that will not melt in lava. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A crowning triumph of master metalcraft, impervious to fire and shock, striking dread into the hearts of foes with its cold, dark silhouette.",
                   "color": "blue",
                   "italic": true
                 }
@@ -9050,7 +9050,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Netherite leggings. They make walking heavier, and they let you walk through anything.",
+          "text": "Articulated Netherite plate guarding the thighs and knees, granting unyielding lower-body defense and immovable knockback resistance.",
           "color": "dark_gray",
           "italic": true
         }
@@ -9097,10 +9097,10 @@
             "weight": 10,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Netherite Leggings",
+              "itemName": "Battered Netherite Greaves",
               "loreJson": [
                 {
-                  "text": "Netherite leggings. They make walking heavier, and they let you walk through anything. Heavy blows have left dents. The seams still hold, though little strength remains in them.",
+                  "text": "Scuffed from violent dungeon battles, its dark alloy plates strained, yet it continues to turn aside venomous claws and heavy maces.",
                   "color": "gray",
                   "italic": true
                 }
@@ -9129,10 +9129,10 @@
             "weight": 22,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Netherite Leggings",
+              "itemName": "Vanguard Netherite Leggings",
               "loreJson": [
                 {
-                  "text": "Netherite leggings. They make walking heavier, and they let you walk through anything. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Precision-fitted Netherite segments riveted over supple leather, ensuring effortless strides and impenetrable flame-proof armor.",
                   "color": "white",
                   "italic": true
                 }
@@ -9161,10 +9161,10 @@
             "weight": 3,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Netherite Leggings",
+              "itemName": "Sovereign Netherite Cuisses",
               "loreJson": [
                 {
-                  "text": "Netherite leggings. They make walking heavier, and they let you walk through anything. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "An unrivaled piece of plate armour, bending naturally with human anatomy while presenting an impervious abyssal barrier to the enemy.",
                   "color": "blue",
                   "italic": true
                 }
@@ -9196,7 +9196,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The shell left behind by a turtle, and it fits on a head surprisingly well.",
+          "text": "A sea-forged helm shaped from scutes shed by sea turtles, granting an extra breath of vital air to deep-diving explorers.",
           "color": "green",
           "italic": true
         }
@@ -9243,10 +9243,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Turtle Shell",
+              "itemName": "Ocean-strider Turtle Helm",
               "loreJson": [
                 {
-                  "text": "The shell left behind by a turtle, and it fits on a head surprisingly well. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Form-fitted with five seasoned turtle scutes, providing solid cranial armor and refreshing water-breathing endurance.",
                   "color": "white",
                   "italic": true
                 }
@@ -9275,10 +9275,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Turtle Shell",
+              "itemName": "Master Tide-weaver Shell Cap",
               "loreJson": [
                 {
-                  "text": "The shell left behind by a turtle, and it fits on a head surprisingly well. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A masterpiece of maritime armoury, lightweight upon the brow and pulsing with the deep lung-capacity of ancient sea leviathans.",
                   "color": "blue",
                   "italic": true
                 }
@@ -9310,7 +9310,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A small suit of armour pieced together from armadillo scutes. The wolf looks extremely pleased with it.",
+          "text": "Segmented barding tailored from overlapping armadillo scutes, wrapping a loyal wolf in light, unyielding armor against savage beast fangs.",
           "color": "green",
           "italic": true
         }
@@ -9344,10 +9344,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Wolf Armor",
+              "itemName": "Hunter's Scute Wolf Armor",
               "loreJson": [
                 {
-                  "text": "A small suit of armour pieced together from armadillo scutes. The wolf looks extremely pleased with it. Smooth edges and sound seams move together without an unwanted scrape.",
+                  "text": "Riveted cleanly over supple leather lining, offering solid vital defense without hindering the beast's bounding sprint.",
                   "color": "white",
                   "italic": true
                 }
@@ -9363,10 +9363,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Wolf Armor",
+              "itemName": "Masterwork Armadillo War-Harness",
               "loreJson": [
                 {
-                  "text": "A small suit of armour pieced together from armadillo scutes. The wolf looks extremely pleased with it. Reinforcement follows the lines of strain, with the inside finished smooth against the wearer.",
+                  "text": "A triumph of primeval beast-armoury, absorbing crushing kinetic blows silently and shining with the steadfast loyalty of the wild pack.",
                   "color": "blue",
                   "italic": true
                 }

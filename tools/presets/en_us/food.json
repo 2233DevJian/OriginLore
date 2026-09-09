@@ -3,7 +3,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky.",
+          "text": "A bright red fruit shaken loose from oak branches, crisp to the tooth with a quiet orchard sweetness.",
           "color": "green",
           "italic": true
         }
@@ -33,10 +33,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Apple",
+              "itemName": "Shriveled Apple",
               "loreJson": [
                 {
-                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Left long in the dark, its skin has dulled into soft wrinkles. Though lacking its original crisp crunch, it remains solid trail rations.",
                   "color": "gray",
                   "italic": true
                 }
@@ -93,10 +93,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Apple",
+              "itemName": "Ripe Red Apple",
               "loreJson": [
                 {
-                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Unblemished and cleanly gathered, holding steady moisture beneath its red peel. A simple, thirst-quenching bite for the road.",
                   "color": "white",
                   "italic": true
                 }
@@ -140,10 +140,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Apple",
+              "itemName": "Crisp Orchard Apple",
               "loreJson": [
                 {
-                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "Plump and heavy with sweet juice, free of bruises or storage taint. A prize specimen from high sunlit branches.",
                   "color": "green",
                   "italic": true
                 }
@@ -192,10 +192,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Apple",
+              "itemName": "Shriveled Apple",
               "loreJson": [
                 {
-                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Left long in the dark, its skin has dulled into soft wrinkles. Though lacking its original crisp crunch, it remains solid trail rations.",
                   "color": "gray",
                   "italic": true
                 }
@@ -252,10 +252,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Apple",
+              "itemName": "Ripe Red Apple",
               "loreJson": [
                 {
-                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Unblemished and cleanly gathered, holding steady moisture beneath its red peel. A simple, thirst-quenching bite for the road.",
                   "color": "white",
                   "italic": true
                 }
@@ -299,10 +299,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Apple",
+              "itemName": "Crisp Orchard Apple",
               "loreJson": [
                 {
-                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "Plump and heavy with sweet juice, free of bruises or storage taint. A prize specimen from high sunlit branches.",
                   "color": "green",
                   "italic": true
                 }
@@ -351,10 +351,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Apple",
+              "itemName": "Shriveled Apple",
               "loreJson": [
                 {
-                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Left long in the dark, its skin has dulled into soft wrinkles. Though lacking its original crisp crunch, it remains solid trail rations.",
                   "color": "gray",
                   "italic": true
                 }
@@ -411,10 +411,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Apple",
+              "itemName": "Ripe Red Apple",
               "loreJson": [
                 {
-                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Unblemished and cleanly gathered, holding steady moisture beneath its red peel. A simple, thirst-quenching bite for the road.",
                   "color": "white",
                   "italic": true
                 }
@@ -458,10 +458,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Apple",
+              "itemName": "Crisp Orchard Apple",
               "loreJson": [
                 {
-                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "Plump and heavy with sweet juice, free of bruises or storage taint. A prize specimen from high sunlit branches.",
                   "color": "green",
                   "italic": true
                 }
@@ -493,7 +493,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Perfectly ordinary bread, and a favourite ration among travellers.",
+          "text": "A humble loaf baked from golden ground wheat. Its tough, dry crust shelters a dense crumb, offering steady comfort along unmapped trails.",
           "color": "white",
           "italic": true
         }
@@ -523,10 +523,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Bread",
+              "itemName": "Hard-crusted Trail Bread",
               "loreJson": [
                 {
-                  "text": "The crust has cracked dry, and breaking it scatters a handful of crumbs. As something to fill an empty stomach, it is still edible trail bread.",
+                  "text": "Hardened like dry timber and shedding brittle crumbs. It yields only when washed down with cold flask water, though an empty stomach knows better than to complain.",
                   "color": "gray",
                   "italic": true
                 }
@@ -583,10 +583,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Bread",
+              "itemName": "Hearth-baked Loaf",
               "loreJson": [
                 {
-                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Baked to a dry, resilient crust that travels well in a rucksack. Breaking it releases the honest, earthy aroma of stone-ground flour.",
                   "color": "white",
                   "italic": true
                 }
@@ -630,10 +630,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Bread",
+              "itemName": "Golden Crumb Brioche",
               "loreJson": [
                 {
-                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "Baked to a delicate, crackling golden blister with an airy, cloud-soft crumb inside. A rare luxury upon the rough camp table.",
                   "color": "green",
                   "italic": true
                 }
@@ -682,10 +682,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Bread",
+              "itemName": "Hard-crusted Trail Bread",
               "loreJson": [
                 {
-                  "text": "The crust has cracked dry, and breaking it scatters a handful of crumbs. As something to fill an empty stomach, it is still edible trail bread.",
+                  "text": "Hardened like dry timber and shedding brittle crumbs. It yields only when washed down with cold flask water, though an empty stomach knows better than to complain.",
                   "color": "gray",
                   "italic": true
                 }
@@ -742,10 +742,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Bread",
+              "itemName": "Hearth-baked Loaf",
               "loreJson": [
                 {
-                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Baked to a dry, resilient crust that travels well in a rucksack. Breaking it releases the honest, earthy aroma of stone-ground flour.",
                   "color": "white",
                   "italic": true
                 }
@@ -789,10 +789,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Bread",
+              "itemName": "Golden Crumb Brioche",
               "loreJson": [
                 {
-                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "Baked to a delicate, crackling golden blister with an airy, cloud-soft crumb inside. A rare luxury upon the rough camp table.",
                   "color": "green",
                   "italic": true
                 }
@@ -859,10 +859,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Bread",
+              "itemName": "Hard-crusted Trail Bread",
               "loreJson": [
                 {
-                  "text": "The crust has cracked dry, and breaking it scatters a handful of crumbs. As something to fill an empty stomach, it is still edible trail bread.",
+                  "text": "Hardened like dry timber and shedding brittle crumbs. It yields only when washed down with cold flask water, though an empty stomach knows better than to complain.",
                   "color": "gray",
                   "italic": true
                 }
@@ -919,10 +919,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Bread",
+              "itemName": "Hearth-baked Loaf",
               "loreJson": [
                 {
-                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Baked to a dry, resilient crust that travels well in a rucksack. Breaking it releases the honest, earthy aroma of stone-ground flour.",
                   "color": "white",
                   "italic": true
                 }
@@ -966,10 +966,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Bread",
+              "itemName": "Golden Crumb Brioche",
               "loreJson": [
                 {
-                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "Baked to a delicate, crackling golden blister with an airy, cloud-soft crumb inside. A rare luxury upon the rough camp table.",
                   "color": "green",
                   "italic": true
                 }
@@ -1018,10 +1018,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Bread",
+              "itemName": "Hard-crusted Trail Bread",
               "loreJson": [
                 {
-                  "text": "The crust has cracked dry, and breaking it scatters a handful of crumbs. As something to fill an empty stomach, it is still edible trail bread.",
+                  "text": "Hardened like dry timber and shedding brittle crumbs. It yields only when washed down with cold flask water, though an empty stomach knows better than to complain.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1078,10 +1078,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Bread",
+              "itemName": "Hearth-baked Loaf",
               "loreJson": [
                 {
-                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "text": "Baked to a dry, resilient crust that travels well in a rucksack. Breaking it releases the honest, earthy aroma of stone-ground flour.",
                   "color": "white",
                   "italic": true
                 }
@@ -1125,10 +1125,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Bread",
+              "itemName": "Golden Crumb Brioche",
               "loreJson": [
                 {
-                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "text": "Baked to a delicate, crackling golden blister with an airy, cloud-soft crumb inside. A rare luxury upon the rough camp table.",
                   "color": "green",
                   "italic": true
                 }
@@ -1160,7 +1160,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Cooked just right. Charred outside, still juicy when you cut into it.",
+          "text": "A thick steak seared to golden-brown perfection, trapping rich juices beneath a crisp outer crust to banish heavy fatigue.",
           "color": "green",
           "italic": true
         }
@@ -1190,10 +1190,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Steak",
+              "itemName": "Cold-greased Steak",
               "loreJson": [
                 {
-                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Long removed from the coals, white rendered fat has solidified over a tough crust. Chewy and cold, but still restores stamina.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1250,10 +1250,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Steak",
+              "itemName": "Hearth-roasted Steak",
               "loreJson": [
                 {
-                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Roasted over fragrant hardwood embers until browned and tender, delivering an honest, deeply satisfying campfire supper.",
                   "color": "white",
                   "italic": true
                 }
@@ -1297,10 +1297,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Steak",
+              "itemName": "Sizzling Prime Steak",
               "loreJson": [
                 {
-                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Masterfully seared with a caramelized outer crust and a succulent, pink core that melts across the tongue in rich savory juices.",
                   "color": "green",
                   "italic": true
                 }
@@ -1349,10 +1349,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Steak",
+              "itemName": "Cold-greased Steak",
               "loreJson": [
                 {
-                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Long removed from the coals, white rendered fat has solidified over a tough crust. Chewy and cold, but still restores stamina.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1409,10 +1409,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Steak",
+              "itemName": "Hearth-roasted Steak",
               "loreJson": [
                 {
-                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Roasted over fragrant hardwood embers until browned and tender, delivering an honest, deeply satisfying campfire supper.",
                   "color": "white",
                   "italic": true
                 }
@@ -1456,10 +1456,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Steak",
+              "itemName": "Sizzling Prime Steak",
               "loreJson": [
                 {
-                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Masterfully seared with a caramelized outer crust and a succulent, pink core that melts across the tongue in rich savory juices.",
                   "color": "green",
                   "italic": true
                 }
@@ -1508,10 +1508,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Steak",
+              "itemName": "Cold-greased Steak",
               "loreJson": [
                 {
-                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Long removed from the coals, white rendered fat has solidified over a tough crust. Chewy and cold, but still restores stamina.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1568,10 +1568,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Steak",
+              "itemName": "Hearth-roasted Steak",
               "loreJson": [
                 {
-                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Roasted over fragrant hardwood embers until browned and tender, delivering an honest, deeply satisfying campfire supper.",
                   "color": "white",
                   "italic": true
                 }
@@ -1615,10 +1615,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Steak",
+              "itemName": "Sizzling Prime Steak",
               "loreJson": [
                 {
-                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Masterfully seared with a caramelized outer crust and a succulent, pink core that melts across the tongue in rich savory juices.",
                   "color": "green",
                   "italic": true
                 }
@@ -1667,10 +1667,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Steak",
+              "itemName": "Cold-greased Steak",
               "loreJson": [
                 {
-                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A hard outer layer and set fat make each mouthful take its time.",
+                  "text": "Long removed from the coals, white rendered fat has solidified over a tough crust. Chewy and cold, but still restores stamina.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1727,10 +1727,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Steak",
+              "itemName": "Hearth-roasted Steak",
               "loreJson": [
                 {
-                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "text": "Roasted over fragrant hardwood embers until browned and tender, delivering an honest, deeply satisfying campfire supper.",
                   "color": "white",
                   "italic": true
                 }
@@ -1774,10 +1774,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Steak",
+              "itemName": "Sizzling Prime Steak",
               "loreJson": [
                 {
-                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "text": "Masterfully seared with a caramelized outer crust and a succulent, pink core that melts across the tongue in rich savory juices.",
                   "color": "green",
                   "italic": true
                 }
@@ -1827,7 +1827,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A golden apple shimmering with every colour at once. Supposedly it used to be food for gods.",
+          "text": "A legendary apple encased in shimmering, iridescent gold, bestowing near-immortal vigor, regeneration, and resistance upon the consumer.",
           "color": "light_purple",
           "italic": true
         }
@@ -1857,10 +1857,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Enchanted Golden Apple",
+              "itemName": "Dull-gilded Enchanted Apple",
               "loreJson": [
                 {
-                  "text": "A golden apple shimmering with every colour at once. Supposedly it used to be food for gods. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "text": "Recovered from forgotten vaults, its gold foil has dulled with age, yet its core still crackles with divine restorative magic.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1917,10 +1917,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Enchanted Golden Apple",
+              "itemName": "Radiant Golden Apple",
               "loreJson": [
                 {
-                  "text": "A golden apple shimmering with every colour at once. Supposedly it used to be food for gods. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "text": "Enclosed in pure enchanted gold that hums with warmth, releasing an explosive tide of celestial fortitude when consumed.",
                   "color": "white",
                   "italic": true
                 }
@@ -1964,10 +1964,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Enchanted Golden Apple",
+              "itemName": "Hallowed God Apple of the Ancients",
               "loreJson": [
                 {
-                  "text": "A golden apple shimmering with every colour at once. Supposedly it used to be food for gods. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "text": "A pristine relic of creation itself, blazing with blinding auroral light and granting power enough to defy death itself.",
                   "color": "green",
                   "italic": true
                 }
@@ -2016,10 +2016,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Enchanted Golden Apple",
+              "itemName": "Dull-gilded Enchanted Apple",
               "loreJson": [
                 {
-                  "text": "A golden apple shimmering with every colour at once. Supposedly it used to be food for gods. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "text": "Recovered from forgotten vaults, its gold foil has dulled with age, yet its core still crackles with divine restorative magic.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2076,10 +2076,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Enchanted Golden Apple",
+              "itemName": "Radiant Golden Apple",
               "loreJson": [
                 {
-                  "text": "A golden apple shimmering with every colour at once. Supposedly it used to be food for gods. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "text": "Enclosed in pure enchanted gold that hums with warmth, releasing an explosive tide of celestial fortitude when consumed.",
                   "color": "white",
                   "italic": true
                 }
@@ -2123,10 +2123,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Enchanted Golden Apple",
+              "itemName": "Hallowed God Apple of the Ancients",
               "loreJson": [
                 {
-                  "text": "A golden apple shimmering with every colour at once. Supposedly it used to be food for gods. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "text": "A pristine relic of creation itself, blazing with blinding auroral light and granting power enough to defy death itself.",
                   "color": "green",
                   "italic": true
                 }
@@ -2158,7 +2158,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal.",
+          "text": "A crisp orchard apple encased in hammered gold leaf, imbuing the eater with immediate regeneration and a warding shield against harm.",
           "color": "gold",
           "italic": true
         }
@@ -2188,10 +2188,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Golden Apple",
+              "itemName": "Dull-gilded Apple",
               "loreJson": [
                 {
-                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "text": "Stored long in ancient crypts, its gold crust carries a quiet tarnish, yet the magic within remains potent enough to turn the tide of battle.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2248,10 +2248,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Golden Apple",
+              "itemName": "Gleaming Golden Apple",
               "loreJson": [
                 {
-                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "text": "Encased in a solid, unblemished skin of yellow gold, crisp to the bite and surging with life-saving alchemical vitality.",
                   "color": "white",
                   "italic": true
                 }
@@ -2295,10 +2295,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Golden Apple",
+              "itemName": "Resplendent Sovereign Gold Apple",
               "loreJson": [
                 {
-                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "text": "A masterpiece of mystical crafting, its mirror-polished gold shell blazing with celestial light, granting unmatched vigor when swallowed.",
                   "color": "green",
                   "italic": true
                 }
@@ -2347,10 +2347,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Golden Apple",
+              "itemName": "Dull-gilded Apple",
               "loreJson": [
                 {
-                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "text": "Stored long in ancient crypts, its gold crust carries a quiet tarnish, yet the magic within remains potent enough to turn the tide of battle.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2407,10 +2407,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Golden Apple",
+              "itemName": "Gleaming Golden Apple",
               "loreJson": [
                 {
-                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "text": "Encased in a solid, unblemished skin of yellow gold, crisp to the bite and surging with life-saving alchemical vitality.",
                   "color": "white",
                   "italic": true
                 }
@@ -2454,10 +2454,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Golden Apple",
+              "itemName": "Resplendent Sovereign Gold Apple",
               "loreJson": [
                 {
-                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "text": "A masterpiece of mystical crafting, its mirror-polished gold shell blazing with celestial light, granting unmatched vigor when swallowed.",
                   "color": "green",
                   "italic": true
                 }
@@ -2524,10 +2524,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Golden Apple",
+              "itemName": "Dull-gilded Apple",
               "loreJson": [
                 {
-                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "text": "Stored long in ancient crypts, its gold crust carries a quiet tarnish, yet the magic within remains potent enough to turn the tide of battle.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2584,10 +2584,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Golden Apple",
+              "itemName": "Gleaming Golden Apple",
               "loreJson": [
                 {
-                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "text": "Encased in a solid, unblemished skin of yellow gold, crisp to the bite and surging with life-saving alchemical vitality.",
                   "color": "white",
                   "italic": true
                 }
@@ -2631,10 +2631,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Golden Apple",
+              "itemName": "Resplendent Sovereign Gold Apple",
               "loreJson": [
                 {
-                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "text": "A masterpiece of mystical crafting, its mirror-polished gold shell blazing with celestial light, granting unmatched vigor when swallowed.",
                   "color": "green",
                   "italic": true
                 }
@@ -2666,7 +2666,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet.",
+          "text": "A crisp garden carrot gilded in fine gold nuggets, delivering dense nourishment and serving as the key catalyst for night-vision alchemy.",
           "color": "green",
           "italic": true
         }
@@ -2696,10 +2696,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Golden Carrot",
+              "itemName": "Dull-gilded Carrot",
               "loreJson": [
                 {
-                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "text": "Recovered from ancient chest hoards, its gold skin has dulled with time, yet the dense, life-sustaining sweetness sealed within remains intact.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2756,10 +2756,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Golden Carrot",
+              "itemName": "Gleaming Golden Carrot",
               "loreJson": [
                 {
-                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "text": "Wrapped seamlessly in pure beaten gold, yielding a sweet, crisp crunch that keeps stamina burning bright across unmapped miles.",
                   "color": "white",
                   "italic": true
                 }
@@ -2803,10 +2803,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Golden Carrot",
+              "itemName": "Royal Sun-gilded Carrot",
               "loreJson": [
                 {
-                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "text": "A masterwork of royal confection and alchemy, glowing with celestial warmth and bursting with revitalizing, honeyed richness.",
                   "color": "green",
                   "italic": true
                 }
@@ -2855,10 +2855,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Golden Carrot",
+              "itemName": "Dull-gilded Carrot",
               "loreJson": [
                 {
-                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "text": "Recovered from ancient chest hoards, its gold skin has dulled with time, yet the dense, life-sustaining sweetness sealed within remains intact.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2915,10 +2915,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Golden Carrot",
+              "itemName": "Gleaming Golden Carrot",
               "loreJson": [
                 {
-                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "text": "Wrapped seamlessly in pure beaten gold, yielding a sweet, crisp crunch that keeps stamina burning bright across unmapped miles.",
                   "color": "white",
                   "italic": true
                 }
@@ -2962,10 +2962,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Golden Carrot",
+              "itemName": "Royal Sun-gilded Carrot",
               "loreJson": [
                 {
-                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "text": "A masterwork of royal confection and alchemy, glowing with celestial warmth and bursting with revitalizing, honeyed richness.",
                   "color": "green",
                   "italic": true
                 }
@@ -3032,10 +3032,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Golden Carrot",
+              "itemName": "Dull-gilded Carrot",
               "loreJson": [
                 {
-                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "text": "Recovered from ancient chest hoards, its gold skin has dulled with time, yet the dense, life-sustaining sweetness sealed within remains intact.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3092,10 +3092,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Golden Carrot",
+              "itemName": "Gleaming Golden Carrot",
               "loreJson": [
                 {
-                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "text": "Wrapped seamlessly in pure beaten gold, yielding a sweet, crisp crunch that keeps stamina burning bright across unmapped miles.",
                   "color": "white",
                   "italic": true
                 }
@@ -3139,10 +3139,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Golden Carrot",
+              "itemName": "Royal Sun-gilded Carrot",
               "loreJson": [
                 {
-                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "text": "A masterwork of royal confection and alchemy, glowing with celestial warmth and bursting with revitalizing, honeyed richness.",
                   "color": "green",
                   "italic": true
                 }
@@ -3191,10 +3191,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Golden Carrot",
+              "itemName": "Dull-gilded Carrot",
               "loreJson": [
                 {
-                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "text": "Recovered from ancient chest hoards, its gold skin has dulled with time, yet the dense, life-sustaining sweetness sealed within remains intact.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3251,10 +3251,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Golden Carrot",
+              "itemName": "Gleaming Golden Carrot",
               "loreJson": [
                 {
-                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "text": "Wrapped seamlessly in pure beaten gold, yielding a sweet, crisp crunch that keeps stamina burning bright across unmapped miles.",
                   "color": "white",
                   "italic": true
                 }
@@ -3298,10 +3298,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Golden Carrot",
+              "itemName": "Royal Sun-gilded Carrot",
               "loreJson": [
                 {
-                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "text": "A masterwork of royal confection and alchemy, glowing with celestial warmth and bursting with revitalizing, honeyed richness.",
                   "color": "green",
                   "italic": true
                 }
@@ -3333,7 +3333,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "It smells in a way that defies description. When you are starving, it is not the worst option.",
+          "text": "Putrid, blackened muscle stripped from fallen undead, smelling of the grave and sickening the stomach with feverish hunger if eaten.",
           "color": "gray",
           "italic": true
         }
@@ -3982,7 +3982,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "It is still looking at you. Whatever happens next is on you.",
+          "text": "A glistening, ruby-red multifaceted eye harvested from a cave spider, bitter and venomous to chew, but coveted for toxic alchemy.",
           "color": "red",
           "italic": true
         }
@@ -4313,7 +4313,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Sweet and tart, and pleasant enough to eat.",
+          "text": "Tart, juicy red berries plucked from thorny taiga thickets, offering quick wilderness refreshment and a beloved treat for wild foxes.",
           "color": "green",
           "italic": true
         }
@@ -4343,10 +4343,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Sweet Berries",
+              "itemName": "Shriveled Sweet Berries",
               "loreJson": [
                 {
-                  "text": "Sweet and tart, and pleasant enough to eat. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Wrinkled and soft from days in the rucksack, their sweet juice fermented into a tart, dry chew that still restores flagging energy.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4403,10 +4403,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Sweet Berries",
+              "itemName": "Fresh Sweet Berries",
               "loreJson": [
                 {
-                  "text": "Sweet and tart, and pleasant enough to eat. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Plump and glistening with morning mist, bursting between the teeth with a crisp, refreshing sweetness that banishes trail fatigue.",
                   "color": "white",
                   "italic": true
                 }
@@ -4450,10 +4450,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Sweet Berries",
+              "itemName": "Sugar-dew Prime Berries",
               "loreJson": [
                 {
-                  "text": "Sweet and tart, and pleasant enough to eat. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "A champion cluster heavy with wild nectar, skin wafer-thin and bursting with an exquisite, honeyed sweetness of unmatched perfection.",
                   "color": "green",
                   "italic": true
                 }
@@ -4502,10 +4502,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Sweet Berries",
+              "itemName": "Shriveled Sweet Berries",
               "loreJson": [
                 {
-                  "text": "Sweet and tart, and pleasant enough to eat. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Wrinkled and soft from days in the rucksack, their sweet juice fermented into a tart, dry chew that still restores flagging energy.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4562,10 +4562,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Sweet Berries",
+              "itemName": "Fresh Sweet Berries",
               "loreJson": [
                 {
-                  "text": "Sweet and tart, and pleasant enough to eat. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Plump and glistening with morning mist, bursting between the teeth with a crisp, refreshing sweetness that banishes trail fatigue.",
                   "color": "white",
                   "italic": true
                 }
@@ -4609,10 +4609,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Sweet Berries",
+              "itemName": "Sugar-dew Prime Berries",
               "loreJson": [
                 {
-                  "text": "Sweet and tart, and pleasant enough to eat. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "A champion cluster heavy with wild nectar, skin wafer-thin and bursting with an exquisite, honeyed sweetness of unmatched perfection.",
                   "color": "green",
                   "italic": true
                 }
@@ -4661,10 +4661,10 @@
               }
             ],
             "rule": {
-              "itemName": "Stale Sweet Berries",
+              "itemName": "Shriveled Sweet Berries",
               "loreJson": [
                 {
-                  "text": "Sweet and tart, and pleasant enough to eat. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "text": "Wrinkled and soft from days in the rucksack, their sweet juice fermented into a tart, dry chew that still restores flagging energy.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4721,10 +4721,10 @@
               }
             ],
             "rule": {
-              "itemName": "Plain Sweet Berries",
+              "itemName": "Fresh Sweet Berries",
               "loreJson": [
                 {
-                  "text": "Sweet and tart, and pleasant enough to eat. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "text": "Plump and glistening with morning mist, bursting between the teeth with a crisp, refreshing sweetness that banishes trail fatigue.",
                   "color": "white",
                   "italic": true
                 }
@@ -4768,10 +4768,10 @@
               }
             ],
             "rule": {
-              "itemName": "Choice Sweet Berries",
+              "itemName": "Sugar-dew Prime Berries",
               "loreJson": [
                 {
-                  "text": "Sweet and tart, and pleasant enough to eat. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "text": "A champion cluster heavy with wild nectar, skin wafer-thin and bursting with an exquisite, honeyed sweetness of unmatched perfection.",
                   "color": "green",
                   "italic": true
                 }

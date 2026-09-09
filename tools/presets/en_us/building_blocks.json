@@ -3,7 +3,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Fired clay bricks stacked into a block. An old friend of fireplaces and chimneys.",
+          "text": "Interlocked courses of fired clay bricks bound with lime mortar, an enduring friend to warm chimneys and sturdy halls.",
           "color": "dark_red",
           "italic": true
         }
@@ -14,7 +14,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Sawn oak with a clear grain. The most common building material there is, and one of the most useful.",
+          "text": "Sawn boards displaying pale, honest grain, seating flat under the plane and holding nails fast across countless cottages.",
           "color": "green",
           "italic": true
         }
@@ -25,7 +25,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Unremarkable grey stone. The underground has an endless supply of it.",
+          "text": "Solid, unweathered rock hewn from the planet's deep crust, cracking into rough cobblestone when struck, anchoring all great masonry.",
           "color": "white",
           "italic": true
         }
@@ -36,7 +36,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Stone cut into regular blocks and stacked. Considerably tidier than cobblestone.",
+          "text": "Dressed masonry bricks smelted and carved to true corners, interlocking to form the indestructible backbone of ancient citadels.",
           "color": "white",
           "italic": true
         }

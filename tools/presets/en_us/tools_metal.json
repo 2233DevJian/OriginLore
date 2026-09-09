@@ -3,7 +3,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "An edge set with diamonds, and a trunk splits open at the first blow.",
+          "text": "An axe head edged with flawless diamonds, splitting primeval trunks and crushing foe shields with effortless authority.",
           "color": "aqua",
           "italic": true
         }
@@ -18,10 +18,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Axe",
+              "itemName": "Battle-scarred Diamond Axe",
               "loreJson": [
                 {
-                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Faint nicks mar the crystalline bevel from savage cleaves, yet its hardened diamond bite remains deadlier than common iron.",
                   "color": "gray",
                   "italic": true
                 }
@@ -47,10 +47,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Axe",
+              "itemName": "Well-honed Diamond Axe",
               "loreJson": [
                 {
-                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced true on seasoned timber with a razor diamond edge, striking with clean momentum and devastating cleaving power.",
                   "color": "white",
                   "italic": true
                 }
@@ -76,10 +76,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Axe",
+              "itemName": "Masterwork Diamond Cleaver",
               "loreJson": [
                 {
-                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterpiece of lapidary and smithing craft, its mirror-honed diamond face cleaving the hardest timber and plate without friction.",
                   "color": "blue",
                   "italic": true
                 }
@@ -110,10 +110,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Diamond Axe",
+              "itemName": "Crude-mounted Diamond Axe",
               "loreJson": [
                 {
-                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "Bound to a whittled handle with rough iron clamps. Clunky in the swing, yet the raw diamond edge carves effortlessly through oak.",
                   "color": "gray",
                   "italic": true
                 }
@@ -139,10 +139,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Axe",
+              "itemName": "Well-honed Diamond Axe",
               "loreJson": [
                 {
-                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced true on seasoned timber with a razor diamond edge, striking with clean momentum and devastating cleaving power.",
                   "color": "white",
                   "italic": true
                 }
@@ -168,10 +168,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Axe",
+              "itemName": "Masterwork Diamond Cleaver",
               "loreJson": [
                 {
-                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterpiece of lapidary and smithing craft, its mirror-honed diamond face cleaving the hardest timber and plate without friction.",
                   "color": "blue",
                   "italic": true
                 }
@@ -202,10 +202,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Axe",
+              "itemName": "Battle-scarred Diamond Axe",
               "loreJson": [
                 {
-                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Faint nicks mar the crystalline bevel from savage cleaves, yet its hardened diamond bite remains deadlier than common iron.",
                   "color": "gray",
                   "italic": true
                 }
@@ -231,10 +231,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Axe",
+              "itemName": "Well-honed Diamond Axe",
               "loreJson": [
                 {
-                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced true on seasoned timber with a razor diamond edge, striking with clean momentum and devastating cleaving power.",
                   "color": "white",
                   "italic": true
                 }
@@ -260,10 +260,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Axe",
+              "itemName": "Masterwork Diamond Cleaver",
               "loreJson": [
                 {
-                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterpiece of lapidary and smithing craft, its mirror-honed diamond face cleaving the hardest timber and plate without friction.",
                   "color": "blue",
                   "italic": true
                 }
@@ -294,10 +294,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Axe",
+              "itemName": "Battle-scarred Diamond Axe",
               "loreJson": [
                 {
-                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Faint nicks mar the crystalline bevel from savage cleaves, yet its hardened diamond bite remains deadlier than common iron.",
                   "color": "gray",
                   "italic": true
                 }
@@ -323,10 +323,10 @@
             "weight": 33,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Axe",
+              "itemName": "Well-honed Diamond Axe",
               "loreJson": [
                 {
-                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced true on seasoned timber with a razor diamond edge, striking with clean momentum and devastating cleaving power.",
                   "color": "white",
                   "italic": true
                 }
@@ -352,10 +352,10 @@
             "weight": 7,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Axe",
+              "itemName": "Masterwork Diamond Cleaver",
               "loreJson": [
                 {
-                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterpiece of lapidary and smithing craft, its mirror-honed diamond face cleaving the hardest timber and plate without friction.",
                   "color": "blue",
                   "italic": true
                 }
@@ -384,7 +384,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should.",
+          "text": "A field tool tipped with unyielding diamond, carving through tangled roots and hardened soil without losing its keen edge.",
           "color": "aqua",
           "italic": true
         }
@@ -402,7 +402,7 @@
               "itemName": "Worn Diamond Hoe",
               "loreJson": [
                 {
-                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "The wooden shaft is weathered and worn smooth by calloused hands, while its diamond tip continues to slice furrow after furrow.",
                   "color": "gray",
                   "italic": true
                 }
@@ -424,10 +424,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Hoe",
+              "itemName": "Master Husbandman's Hoe",
               "loreJson": [
                 {
-                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced smoothly for endless labor, turning stony wilderness into fertile planting beds with minimal effort.",
                   "color": "white",
                   "italic": true
                 }
@@ -449,10 +449,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Hoe",
+              "itemName": "Masterwork Arcane Tiller",
               "loreJson": [
                 {
-                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A flawless agricultural implement fitted with a gem-grade edge, gliding through root-choked soil like a razor through silk.",
                   "color": "blue",
                   "italic": true
                 }
@@ -479,10 +479,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Diamond Hoe",
+              "itemName": "Rough-hafted Diamond Hoe",
               "loreJson": [
                 {
-                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "A raw diamond point lashed crudely to a forest bough. An odd pairing of luxury and haste, but effective in the furrow.",
                   "color": "gray",
                   "italic": true
                 }
@@ -504,10 +504,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Hoe",
+              "itemName": "Master Husbandman's Hoe",
               "loreJson": [
                 {
-                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced smoothly for endless labor, turning stony wilderness into fertile planting beds with minimal effort.",
                   "color": "white",
                   "italic": true
                 }
@@ -529,10 +529,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Hoe",
+              "itemName": "Masterwork Arcane Tiller",
               "loreJson": [
                 {
-                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A flawless agricultural implement fitted with a gem-grade edge, gliding through root-choked soil like a razor through silk.",
                   "color": "blue",
                   "italic": true
                 }
@@ -562,7 +562,7 @@
               "itemName": "Worn Diamond Hoe",
               "loreJson": [
                 {
-                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "The wooden shaft is weathered and worn smooth by calloused hands, while its diamond tip continues to slice furrow after furrow.",
                   "color": "gray",
                   "italic": true
                 }
@@ -584,10 +584,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Hoe",
+              "itemName": "Master Husbandman's Hoe",
               "loreJson": [
                 {
-                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced smoothly for endless labor, turning stony wilderness into fertile planting beds with minimal effort.",
                   "color": "white",
                   "italic": true
                 }
@@ -609,10 +609,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Hoe",
+              "itemName": "Masterwork Arcane Tiller",
               "loreJson": [
                 {
-                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A flawless agricultural implement fitted with a gem-grade edge, gliding through root-choked soil like a razor through silk.",
                   "color": "blue",
                   "italic": true
                 }
@@ -637,7 +637,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included.",
+          "text": "A pickaxe tipped with flawless diamonds, cleaving through stubborn bedrock and unyielding obsidian with resonant, effortless strikes.",
           "color": "aqua",
           "italic": true
         }
@@ -655,7 +655,7 @@
               "itemName": "Worn Diamond Pickaxe",
               "loreJson": [
                 {
-                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Faint micro-fractures cloud the diamond tip from countless deep-ore strikes, yet its unbending hardness still easily bites through granite.",
                   "color": "gray",
                   "italic": true
                 }
@@ -681,10 +681,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Pickaxe",
+              "itemName": "Master Prospector's Pickaxe",
               "loreJson": [
                 {
-                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Perfectly balanced along a seasoned timber haft, focusing swing momentum into twin diamond points that shatter deep veins like ice.",
                   "color": "white",
                   "italic": true
                 }
@@ -710,10 +710,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Pickaxe",
+              "itemName": "Apex Deep-delver Pickaxe",
               "loreJson": [
                 {
-                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of lapidary craft with mirror-finished diamond points, parting obsidian seams with the ease of a whisper through silk.",
                   "color": "blue",
                   "italic": true
                 }
@@ -744,10 +744,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Diamond Pickaxe",
+              "itemName": "Hand-mounted Diamond Pick",
               "loreJson": [
                 {
-                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "Rough diamond points bound to a whittled branch with crude iron bands. Clunky to swing, but its raw bite breaks rock without mercy.",
                   "color": "gray",
                   "italic": true
                 }
@@ -773,10 +773,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Pickaxe",
+              "itemName": "Master Prospector's Pickaxe",
               "loreJson": [
                 {
-                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Perfectly balanced along a seasoned timber haft, focusing swing momentum into twin diamond points that shatter deep veins like ice.",
                   "color": "white",
                   "italic": true
                 }
@@ -802,10 +802,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Pickaxe",
+              "itemName": "Apex Deep-delver Pickaxe",
               "loreJson": [
                 {
-                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of lapidary craft with mirror-finished diamond points, parting obsidian seams with the ease of a whisper through silk.",
                   "color": "blue",
                   "italic": true
                 }
@@ -839,7 +839,7 @@
               "itemName": "Worn Diamond Pickaxe",
               "loreJson": [
                 {
-                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Faint micro-fractures cloud the diamond tip from countless deep-ore strikes, yet its unbending hardness still easily bites through granite.",
                   "color": "gray",
                   "italic": true
                 }
@@ -865,10 +865,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Pickaxe",
+              "itemName": "Master Prospector's Pickaxe",
               "loreJson": [
                 {
-                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Perfectly balanced along a seasoned timber haft, focusing swing momentum into twin diamond points that shatter deep veins like ice.",
                   "color": "white",
                   "italic": true
                 }
@@ -894,10 +894,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Pickaxe",
+              "itemName": "Apex Deep-delver Pickaxe",
               "loreJson": [
                 {
-                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of lapidary craft with mirror-finished diamond points, parting obsidian seams with the ease of a whisper through silk.",
                   "color": "blue",
                   "italic": true
                 }
@@ -926,7 +926,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A head set with diamonds, and digging goes about as fast as bailing water.",
+          "text": "A spade edged in flawless diamond, slicing through packed clay, gritty gravel, and deep drifts with effortless speed.",
           "color": "aqua",
           "italic": true
         }
@@ -941,10 +941,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Shovel",
+              "itemName": "Weathered Diamond Spade",
               "loreJson": [
                 {
-                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Scuffed along the scoop by years of coarse gravel work, its shaft scarred, yet its diamond edge still parts permafrost without strain.",
                   "color": "gray",
                   "italic": true
                 }
@@ -970,10 +970,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Shovel",
+              "itemName": "Surveyor's Diamond Shovel",
               "loreJson": [
                 {
-                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced with a broad, polished diamond blade, gliding into heavy loam and clearing cubic paces of earth with tireless ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -999,10 +999,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Shovel",
+              "itemName": "Earth-shaper Diamond Spade",
               "loreJson": [
                 {
-                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterpiece of earth-moving engineering, its mirror-honed diamond edge slicing through heavy clay without catching a speck of grit.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1033,10 +1033,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Diamond Shovel",
+              "itemName": "Crude-bound Diamond Shovel",
               "loreJson": [
                 {
-                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "A slab of cut diamond pinned in haste to a forest branch. A little awkward on the thrust, yet it digs with unmatched velocity.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1062,10 +1062,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Shovel",
+              "itemName": "Surveyor's Diamond Shovel",
               "loreJson": [
                 {
-                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced with a broad, polished diamond blade, gliding into heavy loam and clearing cubic paces of earth with tireless ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -1091,10 +1091,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Shovel",
+              "itemName": "Earth-shaper Diamond Spade",
               "loreJson": [
                 {
-                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterpiece of earth-moving engineering, its mirror-honed diamond edge slicing through heavy clay without catching a speck of grit.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1125,10 +1125,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Shovel",
+              "itemName": "Weathered Diamond Spade",
               "loreJson": [
                 {
-                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Scuffed along the scoop by years of coarse gravel work, its shaft scarred, yet its diamond edge still parts permafrost without strain.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1154,10 +1154,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Shovel",
+              "itemName": "Surveyor's Diamond Shovel",
               "loreJson": [
                 {
-                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced with a broad, polished diamond blade, gliding into heavy loam and clearing cubic paces of earth with tireless ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -1183,10 +1183,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Shovel",
+              "itemName": "Earth-shaper Diamond Spade",
               "loreJson": [
                 {
-                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterpiece of earth-moving engineering, its mirror-honed diamond edge slicing through heavy clay without catching a speck of grit.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1215,7 +1215,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings.",
+          "text": "An axe forged of solid yellow gold, striking with breathtaking velocity while demanding careful hands to avoid bending its soft edge.",
           "color": "yellow",
           "italic": true
         }
@@ -1230,10 +1230,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Axe",
+              "itemName": "Battered Gilded Axe",
               "loreJson": [
                 {
-                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Dented and warped along its soft golden bit from heavy chops, its royal shine dulled, yet still swinging with lightning swiftness.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1259,10 +1259,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Axe",
+              "itemName": "Ceremonial Golden Axe",
               "loreJson": [
                 {
-                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Polished to a mirror sheen with balanced proportions, as formidable in royal processionals as it is blazing through timber in a flash.",
                   "color": "white",
                   "italic": true
                 }
@@ -1288,10 +1288,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Axe",
+              "itemName": "Royal Sun-forged Battleaxe",
               "loreJson": [
                 {
-                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "An opulent weapon of temple kings, balanced impeccably to deliver a whirlwind of blazing, gold-crested strikes before the soft metal gives.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1322,10 +1322,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Golden Axe",
+              "itemName": "Crude-cast Gold Axe",
               "loreJson": [
                 {
-                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "Poured into a rough sand mould, showing porous flaws along its soft edge. It bends quickly, but carves wood with furious speed while it lasts.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1351,10 +1351,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Axe",
+              "itemName": "Ceremonial Golden Axe",
               "loreJson": [
                 {
-                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Polished to a mirror sheen with balanced proportions, as formidable in royal processionals as it is blazing through timber in a flash.",
                   "color": "white",
                   "italic": true
                 }
@@ -1380,10 +1380,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Axe",
+              "itemName": "Royal Sun-forged Battleaxe",
               "loreJson": [
                 {
-                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "An opulent weapon of temple kings, balanced impeccably to deliver a whirlwind of blazing, gold-crested strikes before the soft metal gives.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1414,10 +1414,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Axe",
+              "itemName": "Battered Gilded Axe",
               "loreJson": [
                 {
-                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Dented and warped along its soft golden bit from heavy chops, its royal shine dulled, yet still swinging with lightning swiftness.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1443,10 +1443,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Axe",
+              "itemName": "Ceremonial Golden Axe",
               "loreJson": [
                 {
-                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Polished to a mirror sheen with balanced proportions, as formidable in royal processionals as it is blazing through timber in a flash.",
                   "color": "white",
                   "italic": true
                 }
@@ -1472,10 +1472,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Axe",
+              "itemName": "Royal Sun-forged Battleaxe",
               "loreJson": [
                 {
-                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "An opulent weapon of temple kings, balanced impeccably to deliver a whirlwind of blazing, gold-crested strikes before the soft metal gives.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1506,10 +1506,10 @@
             "weight": 65,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Axe",
+              "itemName": "Battered Gilded Axe",
               "loreJson": [
                 {
-                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Dented and warped along its soft golden bit from heavy chops, its royal shine dulled, yet still swinging with lightning swiftness.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1535,10 +1535,10 @@
             "weight": 30,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Axe",
+              "itemName": "Ceremonial Golden Axe",
               "loreJson": [
                 {
-                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Polished to a mirror sheen with balanced proportions, as formidable in royal processionals as it is blazing through timber in a flash.",
                   "color": "white",
                   "italic": true
                 }
@@ -1564,10 +1564,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Axe",
+              "itemName": "Royal Sun-forged Battleaxe",
               "loreJson": [
                 {
-                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "An opulent weapon of temple kings, balanced impeccably to deliver a whirlwind of blazing, gold-crested strikes before the soft metal gives.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1596,7 +1596,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A golden hoe, the most conspicuous and shortest-lived implement in any field.",
+          "text": "A gilded tiller slicing through loam and leafy overgrowth at blinding speed, trading durability for lightning-quick field work.",
           "color": "yellow",
           "italic": true
         }
@@ -1611,10 +1611,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Hoe",
+              "itemName": "Bent Gilded Hoe",
               "loreJson": [
                 {
-                  "text": "A golden hoe, the most conspicuous and shortest-lived implement in any field. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "The soft gold blade is warped from stray stones in the furrow, yet it still parts tangled vines with effortless quickness.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1636,10 +1636,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Hoe",
+              "itemName": "Estate Gardener's Gold Hoe",
               "loreJson": [
                 {
-                  "text": "A golden hoe, the most conspicuous and shortest-lived implement in any field. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced smoothly with a polished gold blade, gliding through garden soil and harvesting lush crops in the blink of an eye.",
                   "color": "white",
                   "italic": true
                 }
@@ -1661,10 +1661,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Hoe",
+              "itemName": "Master Horticulturist's Gold Tiller",
               "loreJson": [
                 {
-                  "text": "A golden hoe, the most conspicuous and shortest-lived implement in any field. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A gem-grade garden implement that skims across root-choked beds with whisper-swift grace, turning harvesting into an art form.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1691,10 +1691,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Golden Hoe",
+              "itemName": "Rough-hafted Gold Hoe",
               "loreJson": [
                 {
-                  "text": "A golden hoe, the most conspicuous and shortest-lived implement in any field. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "A slab of beaten gold lashed in haste to a forest branch. Fragile in the stony dirt, but blisteringly fast across soft loam.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1716,10 +1716,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Hoe",
+              "itemName": "Estate Gardener's Gold Hoe",
               "loreJson": [
                 {
-                  "text": "A golden hoe, the most conspicuous and shortest-lived implement in any field. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced smoothly with a polished gold blade, gliding through garden soil and harvesting lush crops in the blink of an eye.",
                   "color": "white",
                   "italic": true
                 }
@@ -1741,10 +1741,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Hoe",
+              "itemName": "Master Horticulturist's Gold Tiller",
               "loreJson": [
                 {
-                  "text": "A golden hoe, the most conspicuous and shortest-lived implement in any field. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A gem-grade garden implement that skims across root-choked beds with whisper-swift grace, turning harvesting into an art form.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1769,7 +1769,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A pickaxe made of gold, and it does mine quickly. It does break quickly too.",
+          "text": "A pickaxe forged of solid gold, shattering stone with unmatched, blinding speed, though demanding caution lest its soft edge deform.",
           "color": "yellow",
           "italic": true
         }
@@ -1784,10 +1784,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Pickaxe",
+              "itemName": "Warped Gilded Pickaxe",
               "loreJson": [
                 {
-                  "text": "A pickaxe made of gold, and it does mine quickly. It does break quickly too. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Its soft points are rounded and battered from hard rock strikes, yet its furious mining speed remains undiminished while it holds.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1813,10 +1813,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Pickaxe",
+              "itemName": "Prospector's Gold Pickaxe",
               "loreJson": [
                 {
-                  "text": "A pickaxe made of gold, and it does mine quickly. It does break quickly too. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced smoothly for rapid excavation, flying through soft strata with breathless velocity and golden brilliance.",
                   "color": "white",
                   "italic": true
                 }
@@ -1842,10 +1842,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Pickaxe",
+              "itemName": "Tempest-stride Gold Pickaxe",
               "loreJson": [
                 {
-                  "text": "A pickaxe made of gold, and it does mine quickly. It does break quickly too. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterwork of lapidary tuning, cleaving through subterranean deposits with the effortless fury of a golden lightning strike.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1876,10 +1876,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Golden Pickaxe",
+              "itemName": "Crude-cast Gold Pick",
               "loreJson": [
                 {
-                  "text": "A pickaxe made of gold, and it does mine quickly. It does break quickly too. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "Poured into a simple sand mould, showing porous flaws along its golden head. Fragile on granite, but lightning-fast on the swing.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1905,10 +1905,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Pickaxe",
+              "itemName": "Prospector's Gold Pickaxe",
               "loreJson": [
                 {
-                  "text": "A pickaxe made of gold, and it does mine quickly. It does break quickly too. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced smoothly for rapid excavation, flying through soft strata with breathless velocity and golden brilliance.",
                   "color": "white",
                   "italic": true
                 }
@@ -1934,10 +1934,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Pickaxe",
+              "itemName": "Tempest-stride Gold Pickaxe",
               "loreJson": [
                 {
-                  "text": "A pickaxe made of gold, and it does mine quickly. It does break quickly too. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterwork of lapidary tuning, cleaving through subterranean deposits with the effortless fury of a golden lightning strike.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1966,7 +1966,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A head of soft gold, which takes very little effort to push into the ground.",
+          "text": "A spade shaped from soft yellow gold, parting loam, sand, and snowdrifts with blistering speed and golden elegance.",
           "color": "yellow",
           "italic": true
         }
@@ -1981,10 +1981,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Shovel",
+              "itemName": "Bent Gilded Shovel",
               "loreJson": [
                 {
-                  "text": "A head of soft gold, which takes very little effort to push into the ground. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Scuffed and curled along its soft golden scoop, yet it continues to clear cubic yards of earth with tireless speed.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2010,10 +2010,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Shovel",
+              "itemName": "Groundskeeper's Gold Spade",
               "loreJson": [
                 {
-                  "text": "A head of soft gold, which takes very little effort to push into the ground. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Polished smooth and balanced lightly on timber, slicing into river sand and field turf without catching a grain of friction.",
                   "color": "white",
                   "italic": true
                 }
@@ -2039,10 +2039,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Shovel",
+              "itemName": "Master Land-shaper Gold Spade",
               "loreJson": [
                 {
-                  "text": "A head of soft gold, which takes very little effort to push into the ground. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of ornamental toolcraft, sweeping through soil, gravel, and snow like a blazing golden gust across the plains.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2073,10 +2073,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Golden Shovel",
+              "itemName": "Rough-beaten Gold Shovel",
               "loreJson": [
                 {
-                  "text": "A head of soft gold, which takes very little effort to push into the ground. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "A slab of raw gold hammered in haste to a wooden shaft. Easily bent on stony ground, but swift as wind through soft soil.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2102,10 +2102,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Shovel",
+              "itemName": "Groundskeeper's Gold Spade",
               "loreJson": [
                 {
-                  "text": "A head of soft gold, which takes very little effort to push into the ground. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Polished smooth and balanced lightly on timber, slicing into river sand and field turf without catching a grain of friction.",
                   "color": "white",
                   "italic": true
                 }
@@ -2131,10 +2131,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Shovel",
+              "itemName": "Master Land-shaper Gold Spade",
               "loreJson": [
                 {
-                  "text": "A head of soft gold, which takes very little effort to push into the ground. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of ornamental toolcraft, sweeping through soil, gravel, and snow like a blazing golden gust across the plains.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2163,7 +2163,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else.",
+          "text": "A stout iron axe forged with a hardened steel bit, biting deep into primeval timber and sundering enemy shields with crushing authority.",
           "color": "green",
           "italic": true
         }
@@ -2178,10 +2178,10 @@
             "weight": 85,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Axe",
+              "itemName": "Battle-scarred Iron Axe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Its iron bit is notched and rusted from hard use, the haft worn smooth, yet the sheer momentum of its swing still cleaves true.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2207,10 +2207,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Axe",
+              "itemName": "Smith-forged Iron Axe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Forged with an even temper and ground to a keen edge, seated firmly on seasoned ash to deliver clean, bone-breaking cleaves.",
                   "color": "white",
                   "italic": true
                 }
@@ -2236,10 +2236,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Axe",
+              "itemName": "Tempered Steel Waraxe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A master smith's triumph forged of folded steel, balanced flawlessly to bite through plate and timber without binding or dulling.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2270,10 +2270,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Axe",
+              "itemName": "Battle-scarred Iron Axe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Its iron bit is notched and rusted from hard use, the haft worn smooth, yet the sheer momentum of its swing still cleaves true.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2299,10 +2299,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Axe",
+              "itemName": "Smith-forged Iron Axe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Forged with an even temper and ground to a keen edge, seated firmly on seasoned ash to deliver clean, bone-breaking cleaves.",
                   "color": "white",
                   "italic": true
                 }
@@ -2328,10 +2328,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Axe",
+              "itemName": "Tempered Steel Waraxe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A master smith's triumph forged of folded steel, balanced flawlessly to bite through plate and timber without binding or dulling.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2362,10 +2362,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Iron Axe",
+              "itemName": "Rough-forged Iron Axe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "Beaten out on a camp anvil, showing coarse hammer marks along the iron cheek. A bit heavy in the hand, but honest in the chop.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2391,10 +2391,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Axe",
+              "itemName": "Smith-forged Iron Axe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Forged with an even temper and ground to a keen edge, seated firmly on seasoned ash to deliver clean, bone-breaking cleaves.",
                   "color": "white",
                   "italic": true
                 }
@@ -2420,10 +2420,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Axe",
+              "itemName": "Tempered Steel Waraxe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A master smith's triumph forged of folded steel, balanced flawlessly to bite through plate and timber without binding or dulling.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2454,10 +2454,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Axe",
+              "itemName": "Battle-scarred Iron Axe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Its iron bit is notched and rusted from hard use, the haft worn smooth, yet the sheer momentum of its swing still cleaves true.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2483,10 +2483,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Axe",
+              "itemName": "Smith-forged Iron Axe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Forged with an even temper and ground to a keen edge, seated firmly on seasoned ash to deliver clean, bone-breaking cleaves.",
                   "color": "white",
                   "italic": true
                 }
@@ -2512,10 +2512,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Axe",
+              "itemName": "Tempered Steel Waraxe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A master smith's triumph forged of folded steel, balanced flawlessly to bite through plate and timber without binding or dulling.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2546,10 +2546,10 @@
             "weight": 65,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Axe",
+              "itemName": "Battle-scarred Iron Axe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Its iron bit is notched and rusted from hard use, the haft worn smooth, yet the sheer momentum of its swing still cleaves true.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2575,10 +2575,10 @@
             "weight": 30,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Axe",
+              "itemName": "Smith-forged Iron Axe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Forged with an even temper and ground to a keen edge, seated firmly on seasoned ash to deliver clean, bone-breaking cleaves.",
                   "color": "white",
                   "italic": true
                 }
@@ -2604,10 +2604,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Axe",
+              "itemName": "Tempered Steel Waraxe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A master smith's triumph forged of folded steel, balanced flawlessly to bite through plate and timber without binding or dulling.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2638,10 +2638,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Axe",
+              "itemName": "Battle-scarred Iron Axe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Its iron bit is notched and rusted from hard use, the haft worn smooth, yet the sheer momentum of its swing still cleaves true.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2667,10 +2667,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Axe",
+              "itemName": "Smith-forged Iron Axe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Forged with an even temper and ground to a keen edge, seated firmly on seasoned ash to deliver clean, bone-breaking cleaves.",
                   "color": "white",
                   "italic": true
                 }
@@ -2696,10 +2696,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Axe",
+              "itemName": "Tempered Steel Waraxe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A master smith's triumph forged of folded steel, balanced flawlessly to bite through plate and timber without binding or dulling.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2730,10 +2730,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Axe",
+              "itemName": "Battle-scarred Iron Axe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Its iron bit is notched and rusted from hard use, the haft worn smooth, yet the sheer momentum of its swing still cleaves true.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2759,10 +2759,10 @@
             "weight": 33,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Axe",
+              "itemName": "Smith-forged Iron Axe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Forged with an even temper and ground to a keen edge, seated firmly on seasoned ash to deliver clean, bone-breaking cleaves.",
                   "color": "white",
                   "italic": true
                 }
@@ -2788,10 +2788,10 @@
             "weight": 7,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Axe",
+              "itemName": "Tempered Steel Waraxe",
               "loreJson": [
                 {
-                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A master smith's triumph forged of folded steel, balanced flawlessly to bite through plate and timber without binding or dulling.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2820,7 +2820,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A hoe made of iron, so a whole field can be turned without swapping it out halfway through.",
+          "text": "An iron-headed tiller forged for heavy agriculture, slicing through stubborn root-choked soil without bending.",
           "color": "green",
           "italic": true
         }
@@ -2835,10 +2835,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Iron Hoe",
+              "itemName": "Rough-forged Iron Hoe",
               "loreJson": [
                 {
-                  "text": "A hoe made of iron, so a whole field can be turned without swapping it out halfway through. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "Hand-hammered onto a whittled branch with rough fittings. A bit loose on the swing, but turns heavy earth reliably.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2860,10 +2860,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Hoe",
+              "itemName": "Husbandman's Iron Hoe",
               "loreJson": [
                 {
-                  "text": "A hoe made of iron, so a whole field can be turned without swapping it out halfway through. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a smooth ash haft with a ground iron blade, turning rough pasture into planting furrows with steady ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -2885,10 +2885,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Hoe",
+              "itemName": "Master Farmer's Steel Tiller",
               "loreJson": [
                 {
-                  "text": "A hoe made of iron, so a whole field can be turned without swapping it out halfway through. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "Forged of tempered iron with a razor bevel, gliding through heavy clay and tangled undergrowth without catching friction.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2913,7 +2913,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands.",
+          "text": "A dependable iron pickaxe balanced on a stout wooden haft, shattering hard strata and deep-ore seams with honest force.",
           "color": "green",
           "italic": true
         }
@@ -2931,7 +2931,7 @@
               "itemName": "Worn Iron Pickaxe",
               "loreJson": [
                 {
-                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Blunted along the points by miles of subterranean stone, its handle scarred, yet ready to break rock when swung with weight.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2957,10 +2957,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Pickaxe",
+              "itemName": "Miner's Iron Pickaxe",
               "loreJson": [
                 {
-                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced smoothly on an ash shaft with twin ground points, delivering clean momentum to cleave ore veins with every swing.",
                   "color": "white",
                   "italic": true
                 }
@@ -2986,10 +2986,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Pickaxe",
+              "itemName": "Master Prospector's Steel Pick",
               "loreJson": [
                 {
-                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of tool-smithing with hardened steel tips, biting through rock and dense deposits with effortless, ringing precision.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3020,10 +3020,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Iron Pickaxe",
+              "itemName": "Rough-forged Iron Pick",
               "loreJson": [
                 {
-                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "Beaten into shape on a camp anvil, unpolished and a bit heavy in the swing, but honest and unyielding in the dark.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3049,10 +3049,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Pickaxe",
+              "itemName": "Miner's Iron Pickaxe",
               "loreJson": [
                 {
-                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced smoothly on an ash shaft with twin ground points, delivering clean momentum to cleave ore veins with every swing.",
                   "color": "white",
                   "italic": true
                 }
@@ -3078,10 +3078,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Pickaxe",
+              "itemName": "Master Prospector's Steel Pick",
               "loreJson": [
                 {
-                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of tool-smithing with hardened steel tips, biting through rock and dense deposits with effortless, ringing precision.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3115,7 +3115,7 @@
               "itemName": "Worn Iron Pickaxe",
               "loreJson": [
                 {
-                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Blunted along the points by miles of subterranean stone, its handle scarred, yet ready to break rock when swung with weight.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3141,10 +3141,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Pickaxe",
+              "itemName": "Miner's Iron Pickaxe",
               "loreJson": [
                 {
-                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced smoothly on an ash shaft with twin ground points, delivering clean momentum to cleave ore veins with every swing.",
                   "color": "white",
                   "italic": true
                 }
@@ -3170,10 +3170,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Pickaxe",
+              "itemName": "Master Prospector's Steel Pick",
               "loreJson": [
                 {
-                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of tool-smithing with hardened steel tips, biting through rock and dense deposits with effortless, ringing precision.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3202,7 +3202,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A head beaten out of iron, and it makes a clean sound going into the ground.",
+          "text": "A broad-bladed spade pressed from durable iron, slicing cleanly through packed clay, gritty gravel, and deep snowdrifts.",
           "color": "green",
           "italic": true
         }
@@ -3217,10 +3217,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Shovel",
+              "itemName": "Battered Iron Spade",
               "loreJson": [
                 {
-                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Notched and rusted along the blade edge from coarse stone work, its wooden shaft weathered, but still digs an honest ditch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3246,10 +3246,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Shovel",
+              "itemName": "Pioneer's Iron Shovel",
               "loreJson": [
                 {
-                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with a sharpened iron scoop, parting heavy loam and sand with tireless ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -3275,10 +3275,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Shovel",
+              "itemName": "Master Excavator's Steel Spade",
               "loreJson": [
                 {
-                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "Forged of tempered steel with a mirror-honed bevel, slicing effortlessly through root-bound clay and frozen gravel.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3309,10 +3309,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Iron Shovel",
+              "itemName": "Rough-hammered Iron Shovel",
               "loreJson": [
                 {
-                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "text": "A slab of raw iron hammered in haste to a wooden shaft. A little thick at the edge, but moves earth with dependable force.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3338,10 +3338,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Shovel",
+              "itemName": "Pioneer's Iron Shovel",
               "loreJson": [
                 {
-                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with a sharpened iron scoop, parting heavy loam and sand with tireless ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -3367,10 +3367,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Shovel",
+              "itemName": "Master Excavator's Steel Spade",
               "loreJson": [
                 {
-                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "Forged of tempered steel with a mirror-honed bevel, slicing effortlessly through root-bound clay and frozen gravel.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3401,10 +3401,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Shovel",
+              "itemName": "Battered Iron Spade",
               "loreJson": [
                 {
-                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Notched and rusted along the blade edge from coarse stone work, its wooden shaft weathered, but still digs an honest ditch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3430,10 +3430,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Shovel",
+              "itemName": "Pioneer's Iron Shovel",
               "loreJson": [
                 {
-                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with a sharpened iron scoop, parting heavy loam and sand with tireless ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -3459,10 +3459,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Shovel",
+              "itemName": "Master Excavator's Steel Spade",
               "loreJson": [
                 {
-                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "Forged of tempered steel with a mirror-honed bevel, slicing effortlessly through root-bound clay and frozen gravel.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3493,10 +3493,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Iron Shovel",
+              "itemName": "Battered Iron Spade",
               "loreJson": [
                 {
-                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Notched and rusted along the blade edge from coarse stone work, its wooden shaft weathered, but still digs an honest ditch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3522,10 +3522,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Iron Shovel",
+              "itemName": "Pioneer's Iron Shovel",
               "loreJson": [
                 {
-                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced on a straight ash handle with a sharpened iron scoop, parting heavy loam and sand with tireless ease.",
                   "color": "white",
                   "italic": true
                 }
@@ -3551,10 +3551,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Iron Shovel",
+              "itemName": "Master Excavator's Steel Spade",
               "loreJson": [
                 {
-                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "Forged of tempered steel with a mirror-honed bevel, slicing effortlessly through root-bound clay and frozen gravel.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3583,7 +3583,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A blade sheathed in alloy, so it can be fished back out of lava.",
+          "text": "A devastating battleaxe forged by alloying ancient Netherite scrap over a diamond core, unyielding, fireproof, and cleaving with terrifying mass.",
           "color": "dark_gray",
           "italic": true
         }
@@ -3627,10 +3627,10 @@
             "weight": 10,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Netherite Axe",
+              "itemName": "Battle-scarred Netherite Axe",
               "loreJson": [
                 {
-                  "text": "A blade sheathed in alloy, so it can be fished back out of lava. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Scuffed and marked by ancient dungeon sieges, its dark alloy cheek bearing faint impact gouges, yet its unyielding edge still parts armor like silk.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3656,10 +3656,10 @@
             "weight": 22,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Netherite Axe",
+              "itemName": "Vanguard Netherite Waraxe",
               "loreJson": [
                 {
-                  "text": "A blade sheathed in alloy, so it can be fished back out of lava. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Impeccably balanced on seasoned timber with a seamless Netherite mantle, striking with crushing kinetic weight that shatters shields without vibration.",
                   "color": "white",
                   "italic": true
                 }
@@ -3685,10 +3685,10 @@
             "weight": 3,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Netherite Axe",
+              "itemName": "Apex Cataclysm Netherite Cleaver",
               "loreJson": [
                 {
-                  "text": "A blade sheathed in alloy, so it can be fished back out of lava. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A peerless artifact of primeval smithcraft, its mirror-finished abyssal edge severing ancient timbers and heavy plate as if they were morning mist.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3717,7 +3717,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A hoe made of netherite. Fields turned with it stay turned.",
+          "text": "A legendary field tool forged of Netherite alloy, gliding through root-bound earth and dense canopies with timeless, unbreaking efficiency.",
           "color": "dark_gray",
           "italic": true
         }
@@ -3757,10 +3757,10 @@
             "weight": 10,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Netherite Hoe",
+              "itemName": "Weathered Netherite Tiller",
               "loreJson": [
                 {
-                  "text": "A hoe made of netherite. Fields turned with it stay turned. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "The wooden haft is worn dark with sweat and soil, while its dark alloy tip continues to cleave heavy furrows with effortless persistence.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3782,10 +3782,10 @@
             "weight": 22,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Netherite Hoe",
+              "itemName": "Master Earth-shaper Netherite Hoe",
               "loreJson": [
                 {
-                  "text": "A hoe made of netherite. Fields turned with it stay turned. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced smoothly for endless labor, turning stony wilderness into fertile planting beds with minimal effort and supreme durability.",
                   "color": "white",
                   "italic": true
                 }
@@ -3807,10 +3807,10 @@
             "weight": 3,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Netherite Hoe",
+              "itemName": "Apex Primeval Tiller",
               "loreJson": [
                 {
-                  "text": "A hoe made of netherite. Fields turned with it stay turned. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A flawless agricultural masterpiece with a gem-grade alloy edge, gliding through root-choked soil like a razor through silk.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3835,7 +3835,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A dark, heavy point, and obsidian feels much like dirt through it.",
+          "text": "A legendary pickaxe forged of ancient Netherite, cleaving through stubborn deepslate and ancient debris with silent, effortless power.",
           "color": "dark_gray",
           "italic": true
         }
@@ -3879,10 +3879,10 @@
             "weight": 10,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Netherite Pickaxe",
+              "itemName": "Battle-worn Netherite Pickaxe",
               "loreJson": [
                 {
-                  "text": "A dark, heavy point, and obsidian feels much like dirt through it. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Marked by miles of subterranean stone work, its handle scarred, yet its abyssal alloy tip still easily shatters granite and obsidian.",
                   "color": "gray",
                   "italic": true
                 }
@@ -3908,10 +3908,10 @@
             "weight": 22,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Netherite Pickaxe",
+              "itemName": "Master Delver's Netherite Pickaxe",
               "loreJson": [
                 {
-                  "text": "A dark, heavy point, and obsidian feels much like dirt through it. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Perfectly balanced along a seasoned timber haft, focusing swing momentum into twin Netherite points that cleave deep veins like ice.",
                   "color": "white",
                   "italic": true
                 }
@@ -3937,10 +3937,10 @@
             "weight": 3,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Netherite Pickaxe",
+              "itemName": "Apex Earth-cleaver Netherite Pickaxe",
               "loreJson": [
                 {
-                  "text": "A dark, heavy point, and obsidian feels much like dirt through it. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A triumph of ancient metallurgy with mirror-finished alloy points, parting abyssal rock with the effortless ease of a whisper through silk.",
                   "color": "blue",
                   "italic": true
                 }
@@ -3969,7 +3969,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A head sheathed in alloy, so no amount of digging will turn the edge.",
+          "text": "A spade edged in pure Netherite alloy, slicing through packed clay, gritty gravel, and deep drifts with astonishing, tireless speed.",
           "color": "dark_gray",
           "italic": true
         }
@@ -4013,10 +4013,10 @@
             "weight": 10,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Netherite Shovel",
+              "itemName": "Weathered Netherite Spade",
               "loreJson": [
                 {
-                  "text": "A head sheathed in alloy, so no amount of digging will turn the edge. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "text": "Scuffed along the scoop by years of coarse gravel work, its shaft scarred, yet its alloy edge still parts permafrost without strain.",
                   "color": "gray",
                   "italic": true
                 }
@@ -4042,10 +4042,10 @@
             "weight": 22,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Netherite Shovel",
+              "itemName": "Pioneer's Netherite Shovel",
               "loreJson": [
                 {
-                  "text": "A head sheathed in alloy, so no amount of digging will turn the edge. A properly finished working end and a sound handle suit steady everyday work.",
+                  "text": "Balanced with a broad, polished Netherite blade, gliding into heavy loam and clearing cubic paces of earth with effortless power.",
                   "color": "white",
                   "italic": true
                 }
@@ -4071,10 +4071,10 @@
             "weight": 3,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Netherite Shovel",
+              "itemName": "Master Land-cleaver Netherite Spade",
               "loreJson": [
                 {
-                  "text": "A head sheathed in alloy, so no amount of digging will turn the edge. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "text": "A masterpiece of earth-moving engineering, its mirror-honed alloy edge slicing through heavy clay without catching a speck of grit.",
                   "color": "blue",
                   "italic": true
                 }

@@ -3,7 +3,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The fletching is still even, so it will not wander in flight.",
+          "text": "A balanced flint-tipped shaft fletched with clean feathers, flying true and silent toward its mark.",
           "color": "white",
           "italic": true
         }
@@ -14,7 +14,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A yew bow with the string drawn none too tight. Reliable enough all the same.",
+          "text": "Seasoned timber braced with a taught string, translating a hunter's steady draw into a lethal flight across the distance.",
           "color": "green",
           "italic": true
         }
@@ -29,10 +29,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Bow",
+              "itemName": "Whittled Bow",
               "loreJson": [
                 {
-                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. The limbs bend unevenly. The string knots hold, though a full draw leaves little margin.",
+                  "text": "Whittled from green wood by the campfire light. The limbs bend unevenly, yet it sends its arrows true enough for forest game.",
                   "color": "gray",
                   "italic": true
                 }
@@ -52,10 +52,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Bow",
+              "itemName": "Hunter's Recurve Bow",
               "loreJson": [
                 {
-                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Both limbs take the load evenly and release with a clean snap.",
+                  "text": "Well-tapered limbs seasoned to an even draw, releasing with a crisp snap and sending bolts cleanly through the breeze.",
                   "color": "white",
                   "italic": true
                 }
@@ -75,10 +75,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Bow",
+              "itemName": "Masterwork War Bow",
               "loreJson": [
                 {
-                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "text": "Laminated with dense wood and horn, crafted with flawless symmetry to deliver terrifying draw weight without a tremor of hand shock.",
                   "color": "blue",
                   "italic": true
                 }
@@ -103,10 +103,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Bow",
+              "itemName": "Battle-worn Split Bow",
               "loreJson": [
                 {
-                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "text": "Weathered and scarred with faint stress cracks along the belly; its fraying string groans under the strain of a full draw.",
                   "color": "gray",
                   "italic": true
                 }
@@ -126,10 +126,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Bow",
+              "itemName": "Hunter's Recurve Bow",
               "loreJson": [
                 {
-                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Both limbs take the load evenly and release with a clean snap.",
+                  "text": "Well-tapered limbs seasoned to an even draw, releasing with a crisp snap and sending bolts cleanly through the breeze.",
                   "color": "white",
                   "italic": true
                 }
@@ -149,10 +149,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Bow",
+              "itemName": "Masterwork War Bow",
               "loreJson": [
                 {
-                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "text": "Laminated with dense wood and horn, crafted with flawless symmetry to deliver terrifying draw weight without a tremor of hand shock.",
                   "color": "blue",
                   "italic": true
                 }
@@ -177,10 +177,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Bow",
+              "itemName": "Battle-worn Split Bow",
               "loreJson": [
                 {
-                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "text": "Weathered and scarred with faint stress cracks along the belly; its fraying string groans under the strain of a full draw.",
                   "color": "gray",
                   "italic": true
                 }
@@ -200,10 +200,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Bow",
+              "itemName": "Hunter's Recurve Bow",
               "loreJson": [
                 {
-                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Both limbs take the load evenly and release with a clean snap.",
+                  "text": "Well-tapered limbs seasoned to an even draw, releasing with a crisp snap and sending bolts cleanly through the breeze.",
                   "color": "white",
                   "italic": true
                 }
@@ -223,10 +223,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Bow",
+              "itemName": "Masterwork War Bow",
               "loreJson": [
                 {
-                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "text": "Laminated with dense wood and horn, crafted with flawless symmetry to deliver terrifying draw weight without a tremor of hand shock.",
                   "color": "blue",
                   "italic": true
                 }
@@ -251,10 +251,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Bow",
+              "itemName": "Battle-worn Split Bow",
               "loreJson": [
                 {
-                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "text": "Weathered and scarred with faint stress cracks along the belly; its fraying string groans under the strain of a full draw.",
                   "color": "gray",
                   "italic": true
                 }
@@ -274,10 +274,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Bow",
+              "itemName": "Hunter's Recurve Bow",
               "loreJson": [
                 {
-                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Both limbs take the load evenly and release with a clean snap.",
+                  "text": "Well-tapered limbs seasoned to an even draw, releasing with a crisp snap and sending bolts cleanly through the breeze.",
                   "color": "white",
                   "italic": true
                 }
@@ -297,10 +297,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Bow",
+              "itemName": "Masterwork War Bow",
               "loreJson": [
                 {
-                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "text": "Laminated with dense wood and horn, crafted with flawless symmetry to deliver terrifying draw weight without a tremor of hand shock.",
                   "color": "blue",
                   "italic": true
                 }
@@ -325,10 +325,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Bow",
+              "itemName": "Battle-worn Split Bow",
               "loreJson": [
                 {
-                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "text": "Weathered and scarred with faint stress cracks along the belly; its fraying string groans under the strain of a full draw.",
                   "color": "gray",
                   "italic": true
                 }
@@ -348,10 +348,10 @@
             "weight": 33,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Bow",
+              "itemName": "Hunter's Recurve Bow",
               "loreJson": [
                 {
-                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Both limbs take the load evenly and release with a clean snap.",
+                  "text": "Well-tapered limbs seasoned to an even draw, releasing with a crisp snap and sending bolts cleanly through the breeze.",
                   "color": "white",
                   "italic": true
                 }
@@ -371,10 +371,10 @@
             "weight": 7,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Bow",
+              "itemName": "Masterwork War Bow",
               "loreJson": [
                 {
-                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "text": "Laminated with dense wood and horn, crafted with flawless symmetry to deliver terrifying draw weight without a tremor of hand shock.",
                   "color": "blue",
                   "italic": true
                 }
@@ -397,7 +397,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count.",
+          "text": "A mechanical war engine mating spring-steel limbs to a notched stock, trading reload speed for devastating bolt velocity.",
           "color": "green",
           "italic": true
         }
@@ -412,10 +412,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Crossbow",
+              "itemName": "War-scarred Heavy Crossbow",
               "loreJson": [
                 {
-                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "text": "Its metal limbs are scratched and the release latch grates with rust, but the heavy draw still packs a bone-shattering punch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -435,10 +435,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Crossbow",
+              "itemName": "Arbalest",
               "loreJson": [
                 {
-                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Both limbs take the load evenly and release with a clean snap.",
+                  "text": "Built with balanced steel prods and a smooth trigger catch, snapping bolts downrange with terrifying, flat-trajectory precision.",
                   "color": "white",
                   "italic": true
                 }
@@ -458,10 +458,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Crossbow",
+              "itemName": "Master Siege Arbalest",
               "loreJson": [
                 {
-                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "text": "A triumph of weapon engineering featuring a frictionless track and calibrated iron limbs, delivering unmatched piercing power.",
                   "color": "blue",
                   "italic": true
                 }
@@ -486,10 +486,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Crossbow",
+              "itemName": "Handcrafted Crossbow",
               "loreJson": [
                 {
-                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. The limbs bend unevenly. The string knots hold, though a full draw leaves little margin.",
+                  "text": "Assembled with rough-cut timber and a hand-hammered catch. Clunky to loose, yet it easily drives a quarrel through thick hide.",
                   "color": "gray",
                   "italic": true
                 }
@@ -509,10 +509,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Crossbow",
+              "itemName": "Arbalest",
               "loreJson": [
                 {
-                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Both limbs take the load evenly and release with a clean snap.",
+                  "text": "Built with balanced steel prods and a smooth trigger catch, snapping bolts downrange with terrifying, flat-trajectory precision.",
                   "color": "white",
                   "italic": true
                 }
@@ -532,10 +532,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Crossbow",
+              "itemName": "Master Siege Arbalest",
               "loreJson": [
                 {
-                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "text": "A triumph of weapon engineering featuring a frictionless track and calibrated iron limbs, delivering unmatched piercing power.",
                   "color": "blue",
                   "italic": true
                 }
@@ -560,10 +560,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Crossbow",
+              "itemName": "War-scarred Heavy Crossbow",
               "loreJson": [
                 {
-                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "text": "Its metal limbs are scratched and the release latch grates with rust, but the heavy draw still packs a bone-shattering punch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -583,10 +583,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Crossbow",
+              "itemName": "Arbalest",
               "loreJson": [
                 {
-                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Both limbs take the load evenly and release with a clean snap.",
+                  "text": "Built with balanced steel prods and a smooth trigger catch, snapping bolts downrange with terrifying, flat-trajectory precision.",
                   "color": "white",
                   "italic": true
                 }
@@ -606,10 +606,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Crossbow",
+              "itemName": "Master Siege Arbalest",
               "loreJson": [
                 {
-                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "text": "A triumph of weapon engineering featuring a frictionless track and calibrated iron limbs, delivering unmatched piercing power.",
                   "color": "blue",
                   "italic": true
                 }
@@ -634,10 +634,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Crossbow",
+              "itemName": "War-scarred Heavy Crossbow",
               "loreJson": [
                 {
-                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "text": "Its metal limbs are scratched and the release latch grates with rust, but the heavy draw still packs a bone-shattering punch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -657,10 +657,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Crossbow",
+              "itemName": "Arbalest",
               "loreJson": [
                 {
-                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Both limbs take the load evenly and release with a clean snap.",
+                  "text": "Built with balanced steel prods and a smooth trigger catch, snapping bolts downrange with terrifying, flat-trajectory precision.",
                   "color": "white",
                   "italic": true
                 }
@@ -680,10 +680,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Crossbow",
+              "itemName": "Master Siege Arbalest",
               "loreJson": [
                 {
-                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "text": "A triumph of weapon engineering featuring a frictionless track and calibrated iron limbs, delivering unmatched piercing power.",
                   "color": "blue",
                   "italic": true
                 }
@@ -708,10 +708,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Crossbow",
+              "itemName": "War-scarred Heavy Crossbow",
               "loreJson": [
                 {
-                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "text": "Its metal limbs are scratched and the release latch grates with rust, but the heavy draw still packs a bone-shattering punch.",
                   "color": "gray",
                   "italic": true
                 }
@@ -731,10 +731,10 @@
             "weight": 33,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Crossbow",
+              "itemName": "Arbalest",
               "loreJson": [
                 {
-                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Both limbs take the load evenly and release with a clean snap.",
+                  "text": "Built with balanced steel prods and a smooth trigger catch, snapping bolts downrange with terrifying, flat-trajectory precision.",
                   "color": "white",
                   "italic": true
                 }
@@ -754,10 +754,10 @@
             "weight": 7,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Crossbow",
+              "itemName": "Master Siege Arbalest",
               "loreJson": [
                 {
-                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "text": "A triumph of weapon engineering featuring a frictionless track and calibrated iron limbs, delivering unmatched piercing power.",
                   "color": "blue",
                   "italic": true
                 }
@@ -780,7 +780,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A diamond blade ground extremely sharp. Reassuring just to hold.",
+          "text": "A peerless blade ground from pure diamond, cold and unyielding along its spine, cutting through plate and bone with silent finality.",
           "color": "aqua",
           "italic": true
         }
@@ -795,10 +795,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Sword",
+              "itemName": "Battle-notched Diamond Blade",
               "loreJson": [
                 {
-                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "text": "Micro-nicks mar the crystalline bevel from savage clashes, its grip worn dark with dried blood, yet its lethal edge remains thirsting for battle.",
                   "color": "gray",
                   "italic": true
                 }
@@ -818,10 +818,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Sword",
+              "itemName": "Knight-Marshal's Diamond Sword",
               "loreJson": [
                 {
-                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "text": "True-spined and flawlessly ground, balanced exquisitely ahead of the crossguard to answer every lunge with terrifying, icy precision.",
                   "color": "white",
                   "italic": true
                 }
@@ -841,10 +841,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Sword",
+              "itemName": "Apex Sovereign Diamond Blade",
               "loreJson": [
                 {
-                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "text": "A transcendent weapon of legend, forged from seamless gem-grade crystal that cleaves the dark with the cold, unyielding light of falling stars.",
                   "color": "blue",
                   "italic": true
                 }
@@ -869,10 +869,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Diamond Sword",
+              "itemName": "Rough-honed Diamond Blade",
               "loreJson": [
                 {
-                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. The edge is uneven and the grip loosely wrapped; each swing pulls a little to one side.",
+                  "text": "Hand-assembled with raw diamond slabs pinned to a leather-wrapped tang. Rough in the grip, but brutally swift in the cleave.",
                   "color": "gray",
                   "italic": true
                 }
@@ -892,10 +892,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Sword",
+              "itemName": "Knight-Marshal's Diamond Sword",
               "loreJson": [
                 {
-                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "text": "True-spined and flawlessly ground, balanced exquisitely ahead of the crossguard to answer every lunge with terrifying, icy precision.",
                   "color": "white",
                   "italic": true
                 }
@@ -915,10 +915,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Sword",
+              "itemName": "Apex Sovereign Diamond Blade",
               "loreJson": [
                 {
-                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "text": "A transcendent weapon of legend, forged from seamless gem-grade crystal that cleaves the dark with the cold, unyielding light of falling stars.",
                   "color": "blue",
                   "italic": true
                 }
@@ -943,10 +943,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Diamond Sword",
+              "itemName": "Battle-notched Diamond Blade",
               "loreJson": [
                 {
-                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "text": "Micro-nicks mar the crystalline bevel from savage clashes, its grip worn dark with dried blood, yet its lethal edge remains thirsting for battle.",
                   "color": "gray",
                   "italic": true
                 }
@@ -966,10 +966,10 @@
             "weight": 35,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Diamond Sword",
+              "itemName": "Knight-Marshal's Diamond Sword",
               "loreJson": [
                 {
-                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "text": "True-spined and flawlessly ground, balanced exquisitely ahead of the crossguard to answer every lunge with terrifying, icy precision.",
                   "color": "white",
                   "italic": true
                 }
@@ -989,10 +989,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Diamond Sword",
+              "itemName": "Apex Sovereign Diamond Blade",
               "loreJson": [
                 {
-                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "text": "A transcendent weapon of legend, forged from seamless gem-grade crystal that cleaves the dark with the cold, unyielding light of falling stars.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1015,7 +1015,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Warm to hold. Throw it and it leaves a trail of fire behind, your own sleeves included.",
+          "text": "A volatile sphere of packed blaze dust and sulfur, bursting into hungry flames the moment it strikes flesh, wood, or stone.",
           "color": "red",
           "italic": true
         }
@@ -1026,7 +1026,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "It will lift you a good way and light up the sky while it does. Best not used near the ground facing a wall.",
+          "text": "Gunpowder and dyed stars packed into a paper tube, roaring into the heavens in a flash of glory or propelling Elytra across high clouds.",
           "color": "white",
           "italic": true
         }
@@ -1037,7 +1037,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A packed ball of gunpowder. What colour it bursts into depends entirely on what went into it.",
+          "text": "A dense pellet of gunpowder and mineral salts, holding the dormant flash of color that will crown the midnight sky.",
           "color": "aqua",
           "italic": true
         }
@@ -1048,7 +1048,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A sword made of pure gold. Genuinely bright, and genuinely soft.",
+          "text": "A sword forged of pure, brilliant gold, striking with blinding speed while demanding restraint to avoid dulling its soft edge.",
           "color": "yellow",
           "italic": true
         }
@@ -1063,10 +1063,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Sword",
+              "itemName": "Battle-bent Gilded Blade",
               "loreJson": [
                 {
-                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "text": "The soft golden edge has notched and bent from fierce clashes, yet its swift balance still lands lethal thrusts in desperate hours.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1086,10 +1086,10 @@
             "weight": 25,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Sword",
+              "itemName": "Courtier's Gilded Rapier",
               "loreJson": [
                 {
-                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "text": "Perfectly balanced and polished to an imperial sheen, commanding respect in royal halls and striking with flash-like speed.",
                   "color": "white",
                   "italic": true
                 }
@@ -1109,10 +1109,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Sword",
+              "itemName": "Sovereign Sun-blade",
               "loreJson": [
                 {
-                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "text": "An unmatched masterpiece of royal weaponcraft, ablaze with solar radiance, severing the dark with breathtaking, blinding grace.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1137,10 +1137,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Golden Sword",
+              "itemName": "Crude-cast Gold Sword",
               "loreJson": [
                 {
-                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. The edge is uneven and the grip loosely wrapped; each swing pulls a little to one side.",
+                  "text": "Poured into a rough clay mould, showing porous flaws along its soft yellow blade. Fragile in combat, but swift in hand.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1160,10 +1160,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Sword",
+              "itemName": "Courtier's Gilded Rapier",
               "loreJson": [
                 {
-                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "text": "Perfectly balanced and polished to an imperial sheen, commanding respect in royal halls and striking with flash-like speed.",
                   "color": "white",
                   "italic": true
                 }
@@ -1183,10 +1183,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Sword",
+              "itemName": "Sovereign Sun-blade",
               "loreJson": [
                 {
-                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "text": "An unmatched masterpiece of royal weaponcraft, ablaze with solar radiance, severing the dark with breathtaking, blinding grace.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1211,10 +1211,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Golden Sword",
+              "itemName": "Battle-bent Gilded Blade",
               "loreJson": [
                 {
-                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "text": "The soft golden edge has notched and bent from fierce clashes, yet its swift balance still lands lethal thrusts in desperate hours.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1234,10 +1234,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Golden Sword",
+              "itemName": "Courtier's Gilded Rapier",
               "loreJson": [
                 {
-                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "text": "Perfectly balanced and polished to an imperial sheen, commanding respect in royal halls and striking with flash-like speed.",
                   "color": "white",
                   "italic": true
                 }
@@ -1257,10 +1257,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Golden Sword",
+              "itemName": "Sovereign Sun-blade",
               "loreJson": [
                 {
-                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "text": "An unmatched masterpiece of royal weaponcraft, ablaze with solar radiance, severing the dark with breathtaking, blinding grace.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1283,7 +1283,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges.",
+          "text": "A solid length of cold-forged iron. Thick at the spine and cleanly tapered to the edge, it remains the wanderer's most dependable defense.",
           "color": "gray",
           "italic": true
         }
@@ -1298,10 +1298,10 @@
             "weight": 70,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Notched Iron Sword",
+              "itemName": "Battle-notched Iron Sword",
               "loreJson": [
                 {
-                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "text": "Notched and pitted along the edge from hard parries, with dull rust creeping down the fuller. It carries the ghost of its former bite.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1324,7 +1324,7 @@
               "itemName": "Smith-forged Iron Sword",
               "loreJson": [
                 {
-                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "text": "Ground true along the bevel with its balance resting cleanly just ahead of the guard, answering every swing with a crisp cleave.",
                   "color": "white",
                   "italic": true
                 }
@@ -1344,10 +1344,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Fine Steel Sword",
+              "itemName": "Tempered Steel Longsword",
               "loreJson": [
                 {
-                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "text": "Flawlessly fitted from pommel to tip, the spine carries the subtle rippling sheen of folded steel, flashing icy glints in the dark.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1372,10 +1372,10 @@
             "weight": 100,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Hand-forged Iron Sword",
+              "itemName": "Rough-beaten Iron Sword",
               "loreJson": [
                 {
-                  "text": "Hammer marks of uneven depth remain on the blade, and the edge is far from neatly ground. It is awkward in the hand, but at least it is simple to make.",
+                  "text": "Beaten into shape over a camp anvil, its flats scarred by uneven hammer blows. Crude in hand, yet its quenched edge bites hard.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1400,10 +1400,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Notched Iron Sword",
+              "itemName": "Battle-notched Iron Sword",
               "loreJson": [
                 {
-                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "text": "Notched and pitted along the edge from hard parries, with dull rust creeping down the fuller. It carries the ghost of its former bite.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1426,7 +1426,7 @@
               "itemName": "Smith-forged Iron Sword",
               "loreJson": [
                 {
-                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "text": "Ground true along the bevel with its balance resting cleanly just ahead of the guard, answering every swing with a crisp cleave.",
                   "color": "white",
                   "italic": true
                 }
@@ -1446,10 +1446,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Fine Steel Sword",
+              "itemName": "Tempered Steel Longsword",
               "loreJson": [
                 {
-                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "text": "Flawlessly fitted from pommel to tip, the spine carries the subtle rippling sheen of folded steel, flashing icy glints in the dark.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1474,10 +1474,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Notched Iron Sword",
+              "itemName": "Battle-notched Iron Sword",
               "loreJson": [
                 {
-                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "text": "Notched and pitted along the edge from hard parries, with dull rust creeping down the fuller. It carries the ghost of its former bite.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1500,7 +1500,7 @@
               "itemName": "Smith-forged Iron Sword",
               "loreJson": [
                 {
-                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "text": "Ground true along the bevel with its balance resting cleanly just ahead of the guard, answering every swing with a crisp cleave.",
                   "color": "white",
                   "italic": true
                 }
@@ -1520,10 +1520,10 @@
             "weight": 5,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Fine Steel Sword",
+              "itemName": "Tempered Steel Longsword",
               "loreJson": [
                 {
-                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "text": "Flawlessly fitted from pommel to tip, the spine carries the subtle rippling sheen of folded steel, flashing icy glints in the dark.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1546,7 +1546,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Absurdly heavy — a missed swing costs you more than a landed one.",
+          "text": "A devastating war mace mating an abyssal heavy core to a breeze rod, converting sheer falling momentum into bone-shattering shockwaves.",
           "color": "dark_gray",
           "italic": true
         }
@@ -1561,10 +1561,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Mace",
+              "itemName": "Rough-bound Mace",
               "loreJson": [
                 {
-                  "text": "Absurdly heavy — a missed swing costs you more than a landed one. Rough finishing marks remain at the grip, and the joint sounds a little hollow when tapped.",
+                  "text": "The crushing core is held to the shaft by hasty bands and crude pins. It groans with loose play when swung, though the terrifying gravity of its impact remains undiminished.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1584,10 +1584,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Mace",
+              "itemName": "Vanguard Breaker Mace",
               "loreJson": [
                 {
-                  "text": "Absurdly heavy — a missed swing costs you more than a landed one. A tight joint and a solid grip keep its weight steady under strain.",
+                  "text": "Fitted with precision collars that channel kinetic force through the breeze rod, delivering thunderous, earth-shaking smashes from above.",
                   "color": "white",
                   "italic": true
                 }
@@ -1607,10 +1607,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Mace",
+              "itemName": "Apex Cataclysm Mace",
               "loreJson": [
                 {
-                  "text": "Absurdly heavy — a missed swing costs you more than a landed one. Careful reinforcement and a fitted grip reveal the work only on close inspection.",
+                  "text": "A masterpiece of kinetic engineering, its abyssal core etched with shock-dampening runes, detonating upon impact like a fallen meteor.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1633,7 +1633,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Black and faintly gleaming, and it can be fished back out of lava. This sword does not much care about its surroundings.",
+          "text": "A peerless blade ground from primeval Netherite over a diamond core, cold, heavy, and cutting through plate and bone with absolute finality.",
           "color": "dark_gray",
           "italic": true
         }
@@ -1671,10 +1671,10 @@
             "weight": 10,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Netherite Sword",
+              "itemName": "Battle-notched Netherite Blade",
               "loreJson": [
                 {
-                  "text": "Black and faintly gleaming, and it can be fished back out of lava. This sword does not much care about its surroundings. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "text": "Micro-nicks mar the dark bevel from savage clashes, its grip worn dark with dried blood, yet its lethal edge remains thirsting for battle.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1694,10 +1694,10 @@
             "weight": 22,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Netherite Sword",
+              "itemName": "Vanguard Netherite Longsword",
               "loreJson": [
                 {
-                  "text": "Black and faintly gleaming, and it can be fished back out of lava. This sword does not much care about its surroundings. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "text": "True-spined and flawlessly ground, balanced exquisitely ahead of the crossguard to answer every lunge with terrifying, abyssal weight.",
                   "color": "white",
                   "italic": true
                 }
@@ -1717,10 +1717,10 @@
             "weight": 3,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Netherite Sword",
+              "itemName": "Apex Sovereign Netherite Blade",
               "loreJson": [
                 {
-                  "text": "Black and faintly gleaming, and it can be fished back out of lava. This sword does not much care about its surroundings. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "text": "A transcendent weapon of myth, forged from seamless abyssal alloy that cleaves the dark with the cold, unyielding weight of dying stars.",
                   "color": "blue",
                   "italic": true
                 }
@@ -1743,7 +1743,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A plank and a lump of iron. The first blow it turns has already paid for it.",
+          "text": "A broad hardwood pavise banded with cold iron, raised on a leather grip to turn away mortal arrows, sweeping axes, and explosive blasts.",
           "color": "green",
           "italic": true
         }
@@ -1942,7 +1942,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "Whatever it hits keeps on glowing. Nothing hides after that.",
+          "text": "An arrow tipped with charged glowstone dust, tracing its target with a blazing luminescent outline visible through solid stone walls.",
           "color": "yellow",
           "italic": true
         }
@@ -1953,7 +1953,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A blade ground into stone. Heavy it may be, but before iron it was the only choice there was.",
+          "text": "A heavy stone blade flaked from river rock and seated firmly on a wooden grip, delivering brutal, bone-breaking cleaves in early skirmishes.",
           "color": "white",
           "italic": true
         }
@@ -1968,10 +1968,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Stone Sword",
+              "itemName": "Rough-bound Cobble Sword",
               "loreJson": [
                 {
-                  "text": "A blade ground into stone. Heavy it may be, but before iron it was the only choice there was. The edge is uneven and the grip loosely wrapped; each swing pulls a little to one side.",
+                  "text": "Sharp stone shards lashed in haste to a wooden core. Rough in the palm, but brutally effective in defending the first camp.",
                   "color": "gray",
                   "italic": true
                 }
@@ -1991,10 +1991,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Stone Sword",
+              "itemName": "Hunter's Flaked Stone Blade",
               "loreJson": [
                 {
-                  "text": "A blade ground into stone. Heavy it may be, but before iron it was the only choice there was. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "text": "True-knapped along both cutting bevels with a balanced wooden hilt, answering every swing with a clean, heavy cleave.",
                   "color": "white",
                   "italic": true
                 }
@@ -2014,10 +2014,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Stone Sword",
+              "itemName": "Master-honed Basalt Broadsword",
               "loreJson": [
                 {
-                  "text": "A blade ground into stone. Heavy it may be, but before iron it was the only choice there was. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "text": "A masterpiece of primeval weaponsmithing ground from flawless basalt, its mirror-honed edge striking with devastating, silent grace.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2040,7 +2040,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A weapon taken off a drowned, and far better in the water than on dry land.",
+          "text": "A sacred ocean weapon forged of abyssal bronze, striking with tide-rending power or hurled to channel thunderbolts and ride storm waves.",
           "color": "aqua",
           "italic": true
         }
@@ -2055,10 +2055,10 @@
             "weight": 80,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Trident",
+              "itemName": "Coral-crusted Ancient Trident",
               "loreJson": [
                 {
-                  "text": "A weapon taken off a drowned, and far better in the water than on dry land. Scars cross the striking face, and the grip has begun to loosen at its joint.",
+                  "text": "Barnacled and pitted along its sea-forged tines from centuries in the abyss, yet its throws still crack with the roar of sunken tempests.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2082,10 +2082,10 @@
             "weight": 18,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Trident",
+              "itemName": "Tide-cleaving Ocean Trident",
               "loreJson": [
                 {
-                  "text": "A weapon taken off a drowned, and far better in the water than on dry land. A tight joint and a solid grip keep its weight steady under strain.",
+                  "text": "Ground true along its three keen points, vibrating with deep-sea currents to strike with devastating piercing force beneath the surf.",
                   "color": "white",
                   "italic": true
                 }
@@ -2109,10 +2109,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Trident",
+              "itemName": "Apex Sovereign Tempest Trident",
               "loreJson": [
                 {
-                  "text": "A weapon taken off a drowned, and far better in the water than on dry land. Careful reinforcement and a fitted grip reveal the work only on close inspection.",
+                  "text": "A transcendent relic of primeval storm gods, its immaculate sea-metal blades calling down blinding lightning and ruling the tides.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2141,10 +2141,10 @@
             "weight": 60,
             "qualityScore": 0.15,
             "rule": {
-              "itemName": "Worn Trident",
+              "itemName": "Coral-crusted Ancient Trident",
               "loreJson": [
                 {
-                  "text": "A weapon taken off a drowned, and far better in the water than on dry land. Scars cross the striking face, and the grip has begun to loosen at its joint.",
+                  "text": "Barnacled and pitted along its sea-forged tines from centuries in the abyss, yet its throws still crack with the roar of sunken tempests.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2168,10 +2168,10 @@
             "weight": 33,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Trident",
+              "itemName": "Tide-cleaving Ocean Trident",
               "loreJson": [
                 {
-                  "text": "A weapon taken off a drowned, and far better in the water than on dry land. A tight joint and a solid grip keep its weight steady under strain.",
+                  "text": "Ground true along its three keen points, vibrating with deep-sea currents to strike with devastating piercing force beneath the surf.",
                   "color": "white",
                   "italic": true
                 }
@@ -2195,10 +2195,10 @@
             "weight": 7,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Trident",
+              "itemName": "Apex Sovereign Tempest Trident",
               "loreJson": [
                 {
-                  "text": "A weapon taken off a drowned, and far better in the water than on dry land. Careful reinforcement and a fitted grip reveal the work only on close inspection.",
+                  "text": "A transcendent relic of primeval storm gods, its immaculate sea-metal blades calling down blinding lightning and ruling the tides.",
                   "color": "blue",
                   "italic": true
                 }
@@ -2225,7 +2225,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A small pocket of held-in wind. Thrown, it will push someone off a cliff — the thrower included.",
+          "text": "A condensed orb of howling gale harvested from a defeated Breeze, hurled to blast foes backward or launch the thrower skyward on a blast wave.",
           "color": "white",
           "italic": true
         }
@@ -2236,7 +2236,7 @@
     "base": {
       "loreJson": [
         {
-          "text": "A whittled wooden sword, and the grip still has splinters on it. It will crack soon enough, but it beats empty hands.",
+          "text": "A wooden blade whittled from seasoned timber, light in the hand and offering the first line of defense against nocturnal predators.",
           "color": "green",
           "italic": true
         }
@@ -2251,10 +2251,10 @@
             "weight": 85,
             "qualityScore": 0.3,
             "rule": {
-              "itemName": "Handmade Wooden Sword",
+              "itemName": "Rough-whittled Wood Club-Sword",
               "loreJson": [
                 {
-                  "text": "A whittled wooden sword, and the grip still has splinters on it. It will crack soon enough, but it beats empty hands. The edge is uneven and the grip loosely wrapped; each swing pulls a little to one side.",
+                  "text": "Whittled from a forest branch in haste over a campfire. Rough in the palm, but honest protection to survive the first night.",
                   "color": "gray",
                   "italic": true
                 }
@@ -2274,10 +2274,10 @@
             "weight": 13,
             "qualityScore": 0.5,
             "rule": {
-              "itemName": "Well-made Wooden Sword",
+              "itemName": "Hunter's Whittled Sword",
               "loreJson": [
                 {
-                  "text": "A whittled wooden sword, and the grip still has splinters on it. It will crack soon enough, but it beats empty hands. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "text": "True-whittled along both cutting edges with a comfortable grip, answering every swing with a clean, light cleave in thick undergrowth.",
                   "color": "white",
                   "italic": true
                 }
@@ -2297,10 +2297,10 @@
             "weight": 2,
             "qualityScore": 0.9,
             "rule": {
-              "itemName": "Refined Wooden Sword",
+              "itemName": "Master-honed Hardwood Blade",
               "loreJson": [
                 {
-                  "text": "A whittled wooden sword, and the grip still has splinters on it. It will crack soon enough, but it beats empty hands. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "text": "A triumph of primeval woodcraft shaped from dense, oil-quenched heartwood, striking with surprising, unbending firmness.",
                   "color": "blue",
                   "italic": true
                 }

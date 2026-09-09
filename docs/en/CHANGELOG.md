@@ -2,6 +2,19 @@
 
 # OriginLore Changelog
 
+## v3.0.1 (2026-09-09)
+
+### Presets and documentation
+
+- Updated all bilingual preset names and lore; quality variants now use independent descriptions instead of stacking base lore.
+- Reformatted the bilingual README, user guides, compatibility notes and changelogs.
+- Preset values, sources, weights and stable variant IDs are unchanged; this release updates copy and documentation only.
+
+### Verification
+
+- `writePresets` and `build` pass.
+- The vanilla client was not started; GameTest was not rerun for this copy-only preset update.
+
 ## v3.0.0 (2026-09-09)
 
 ### Added
@@ -19,6 +32,7 @@
 - All 91 JUnit tests pass.
 - All 63 GameTests pass.
 - `writePresets`, `build` and `runGametest` completed successfully; the vanilla client was not started.
+
 ## v2.1.0 (2026-09-04)
 
 ### Added
