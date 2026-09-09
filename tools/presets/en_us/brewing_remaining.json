@@ -1,0 +1,542 @@
+{
+  "minecraft:blaze_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Hot-yellow powder feels warm, fuelling a brewing stand or making strength potions.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brewing_stand": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A narrow column branches into three bottle rests, needing blaze powder to begin brewing.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dragon_breath": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Purple breath rolls against the glass, material needed for a lingering potion.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:experience_bottle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Green lights float inside the bottle, releasing their experience when broken.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:fermented_spider_eye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A sharp smell rises from the fermented eye, enough to turn a potion's effect around.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ghast_tear": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A milky drop has set into a firm bead, useful in a potion that restores health over time.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glass_bottle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin glass forms a little vessel, convenient for water or honey once clean.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glistering_melon_slice": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Gold surrounds a red slice, unsuitable as a meal but useful in healing potions.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glowstone_dust": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Evenly bright golden grains strengthen certain potions in small amounts.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gunpowder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine dry grey-black powder gives a mixture the means to burst apart.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lingering_potion": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dense liquid turns slowly in the bottle and leaves a cloud after it breaks.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magma_cream": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The sticky orange mass holds heat and brews into protection from fire.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_wart": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark-red knobs gather on a short stem, the beginning of most potions.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ominous_bottle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The blue liquid looks sombre and brings an ill omen when drunk.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:phantom_membrane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A light, tough membrane passes light through and serves for elytra repair or slow falling.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:potion": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Liquid shifts inside the narrow-necked bottle, its effect depending on what was brewed into it.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pufferfish": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine spines cover the swollen body, edible in a narrow sense but seriously poisonous.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Pufferfish",
+              "loreJson": [
+                {
+                  "text": "Fine spines cover the swollen body, edible in a narrow sense but seriously poisonous. Its colour has deepened unnaturally and its smell grown stronger; swallowing it promises a cost.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.07,
+                  "max": 0.12
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Pufferfish",
+              "loreJson": [
+                {
+                  "text": "Fine spines cover the swollen body, edible in a narrow sense but seriously poisonous. Its original shape remains, though the sharp smell says it was never a good ingredient.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.16,
+                  "max": 0.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Pufferfish",
+              "loreJson": [
+                {
+                  "text": "Fine spines cover the swollen body, edible in a narrow sense but seriously poisonous. It has been kept relatively intact, but a clean appearance does not remove what makes it dangerous.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.21,
+                  "max": 0.24
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "FISHING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Pufferfish",
+              "loreJson": [
+                {
+                  "text": "Fine spines cover the swollen body, edible in a narrow sense but seriously poisonous. Its colour has deepened unnaturally and its smell grown stronger; swallowing it promises a cost.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.07,
+                  "max": 0.12
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Pufferfish",
+              "loreJson": [
+                {
+                  "text": "Fine spines cover the swollen body, edible in a narrow sense but seriously poisonous. Its original shape remains, though the sharp smell says it was never a good ingredient.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.16,
+                  "max": 0.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Pufferfish",
+              "loreJson": [
+                {
+                  "text": "Fine spines cover the swollen body, edible in a narrow sense but seriously poisonous. It has been kept relatively intact, but a clean appearance does not remove what makes it dangerous.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.21,
+                  "max": 0.24
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:rabbit_foot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Short fur covers fine bones, an ingredient that adds spring to a potion.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:splash_potion": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A tight seal closes the thin bottle, which scatters its contents when thrown.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tipped_arrow": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Potion coats the arrowhead, carrying its effect into a successful shot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

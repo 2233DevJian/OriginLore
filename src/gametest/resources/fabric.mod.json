@@ -6,7 +6,12 @@
   "environment": "server",
   "entrypoints": {
     "fabric-gametest": [
-      "com.originlore.gametest.OriginLoreGameTests"
+      "com.originlore.gametest.OriginLoreGameTests",
+      "com.originlore.gametest.GameplayGameTests",
+      "com.originlore.gametest.FoodTransferGameTests",
+      "com.originlore.gametest.MobEquipmentGameTests",
+      "com.originlore.gametest.MapCraftingGameTests",
+      "com.originlore.gametest.ArmorPerformanceGameTests"
     ]
   },
   "depends": {

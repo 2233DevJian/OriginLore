@@ -1,6 +1,7 @@
 package com.originlore.mixin;
 
 import com.originlore.Originlore;
+import com.originlore.gameplay.Production;
 import com.originlore.source.SourceContext;
 import com.originlore.source.SourceContext.SourceType;
 import net.minecraft.item.ItemStack;
@@ -33,7 +34,16 @@ public class RecipeMixin {
             at = @At("RETURN")
         )
         private void originlore$applyCrafted(SingleStackRecipeInput input, RegistryWrapper.WrapperLookup registries, CallbackInfoReturnable<ItemStack> cir) {
-            RecipeMixin.applyCrafted(cir, SourceType.SMELTING, this);
+            if (Originlore.isOnServerThread() && Production.cooking() && !cir.getReturnValue().isEmpty()) {
+                java.util.List<ItemStack> outputs = Production.roll(cir.getReturnValue(), SourceContext.recipe(SourceType.SMELTING,
+                        Originlore.resolveRecipeId(this)), java.util.List.of(input.getStackInSlot(0).copyWithCount(1)));
+                if (outputs.size() != 1) {
+                    cir.getReturnValue().setCount(0);
+                    return;
+                }
+                ItemStack produced = outputs.getFirst();
+                ((ItemStackAccessor) (Object) cir.getReturnValue()).originlore$getComponents().setChanges(produced.getComponentChanges());
+            }
         }
     }
 
@@ -45,7 +55,7 @@ public class RecipeMixin {
             at = @At("RETURN")
         )
         private void originlore$applyCrafted(SingleStackRecipeInput input, RegistryWrapper.WrapperLookup registries, CallbackInfoReturnable<ItemStack> cir) {
-            RecipeMixin.applyCrafted(cir, SourceType.CUTTING, this);
+            if (Originlore.isOnServerThread()) Originlore.applyCustomComponents(cir.getReturnValue(), SourceContext.unknown());
         }
     }
 
@@ -57,7 +67,10 @@ public class RecipeMixin {
             at = @At("RETURN")
         )
         private void originlore$applyCrafted(SmithingRecipeInput input, RegistryWrapper.WrapperLookup registries, CallbackInfoReturnable<ItemStack> cir) {
-            RecipeMixin.applyCrafted(cir, SourceType.SMITHING, this);
+            if (Originlore.isOnServerThread() && !cir.getReturnValue().isEmpty() && Originlore.getManager() != null) {
+                Originlore.getManager().applyInheritedComponents(cir.getReturnValue(), input.base(),
+                        SourceContext.recipe(SourceType.SMITHING, Originlore.resolveRecipeId(this)), registries);
+            }
         }
     }
 
@@ -68,16 +81,11 @@ public class RecipeMixin {
             at = @At("RETURN")
         )
         private void originlore$applyCrafted(SmithingRecipeInput input, RegistryWrapper.WrapperLookup registries, CallbackInfoReturnable<ItemStack> cir) {
-            RecipeMixin.applyCrafted(cir, SourceType.SMITHING, this);
+            if (Originlore.isOnServerThread() && !cir.getReturnValue().isEmpty() && Originlore.getManager() != null) {
+                Originlore.getManager().applyInheritedComponents(cir.getReturnValue(), input.base(),
+                        SourceContext.recipe(SourceType.SMITHING, Originlore.resolveRecipeId(this)), registries);
+            }
         }
     }
 
-    private static void applyCrafted(CallbackInfoReturnable<ItemStack> cir, SourceType type, Object recipe) {
-        if (!Originlore.isOnServerThread()) return;
-        ItemStack stack = cir.getReturnValue();
-        if (stack != null && !stack.isEmpty()) {
-            Originlore.applyCustomComponents(stack,
-                    SourceContext.recipe(type, Originlore.resolveRecipeId(recipe)));
-        }
-    }
 }

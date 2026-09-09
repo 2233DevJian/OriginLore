@@ -1,5 +1,7 @@
 package com.originlore.screen;
 
+import com.originlore.client.GuiText;
+
 import com.originlore.client.ClientConfigSession;
 import com.originlore.config.ItemComponentConfig.ComponentRule;
 import com.originlore.config.ItemComponentConfig.EffectRule;
@@ -40,7 +42,7 @@ public final class FoodEffectsEditorScreen extends Screen {
     private IdSuggestionController suggestions;
 
     public FoodEffectsEditorScreen(Screen parent, ComponentRule rule, Consumer<ComponentRule> onApply) {
-        super(Text.literal("食物状态效果"));
+        super(Text.literal(GuiText.string("originlore.editor.food_effects")));
         this.parent = parent;
         this.onApply = onApply;
         this.working = rule == null ? new ComponentRule() : rule.copy();
@@ -71,8 +73,17 @@ public final class FoodEffectsEditorScreen extends Screen {
             if (dirty && !saveDraft(false)) return;
             managed = !managed;
             rebuildUi();
-        }).dimensions(left, 34, totalWidth, 20).build();
+        }).dimensions(left, 34, totalWidth - 106, 20).build();
         addDrawableChild(managedButton);
+        ButtonWidget append = ButtonWidget.builder(GuiText.text(working.food != null && Boolean.TRUE.equals(working.food.appendEffects)
+                ? "originlore.mode.append" : "originlore.mode.replace"), button -> {
+            if (working.food == null) working.food = new FoodRule();
+            working.food.appendEffects = !Boolean.TRUE.equals(working.food.appendEffects);
+            button.setMessage(GuiText.text(Boolean.TRUE.equals(working.food.appendEffects)
+                    ? "originlore.mode.append" : "originlore.mode.replace"));
+        }).dimensions(left + totalWidth - 100, 34, 100, 20).build();
+        append.active = managed;
+        addDrawableChild(append);
 
         int visibleRows = visibleRows();
         listOffset = Math.max(0, Math.min(listOffset, Math.max(0, effects.size() - visibleRows)));
@@ -104,11 +115,11 @@ public final class FoodEffectsEditorScreen extends Screen {
         int actionY = height - 58;
         int gap = 4;
         int actionWidth = Math.max(45, (editorWidth - gap * 2) / 3);
-        ButtonWidget saveEntry = ButtonWidget.builder(Text.literal("保存条目"), button -> saveDraft(true))
+        ButtonWidget saveEntry = ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.save_entry")), button -> saveDraft(true))
                 .dimensions(editorX, actionY, actionWidth, 20).build();
-        ButtonWidget add = ButtonWidget.builder(Text.literal("新建"), button -> beginNew())
+        ButtonWidget add = ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.new_entry")), button -> beginNew())
                 .dimensions(editorX + actionWidth + gap, actionY, actionWidth, 20).build();
-        ButtonWidget delete = ButtonWidget.builder(Text.literal("删除"), button -> deleteSelected())
+        ButtonWidget delete = ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.delete")), button -> deleteSelected())
                 .dimensions(editorX + (actionWidth + gap) * 2, actionY,
                         editorWidth - (actionWidth + gap) * 2, 20).build();
         saveEntry.active = managed;
@@ -118,14 +129,14 @@ public final class FoodEffectsEditorScreen extends Screen {
         addDrawableChild(add);
         addDrawableChild(delete);
 
-        addDrawableChild(ButtonWidget.builder(Text.literal("应用到规则"), button -> apply())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.apply_rule")), button -> apply())
                 .dimensions(width / 2 - 106, height - 27, 102, 20).build());
-        addDrawableChild(ButtonWidget.builder(Text.literal("取消"), button -> close())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.cancel")), button -> close())
                 .dimensions(width / 2 + 4, height - 27, 102, 20).build());
     }
 
     private void buildFields() {
-        idField = new TextFieldWidget(textRenderer, editorX, 64, editorWidth, 20, Text.literal("状态效果 ID"));
+        idField = new TextFieldWidget(textRenderer, editorX, 64, editorWidth, 20, Text.literal(GuiText.string("originlore.editor.effect_id")));
         idField.setMaxLength(256);
         idField.setPlaceholder(Text.literal("minecraft:nausea"));
         idField.setText(draft.id == null ? "" : draft.id);
@@ -136,17 +147,17 @@ public final class FoodEffectsEditorScreen extends Screen {
 
         int gap = 6;
         int half = (editorWidth - gap) / 2;
-        durationField = numberField(editorX, 94, half, Integer.toString(draft.duration), "持续时间（tick）");
+        durationField = numberField(editorX, 94, half, Integer.toString(draft.duration), GuiText.string("originlore.editor.duration_ticks"));
         amplifierField = numberField(editorX + half + gap, 94, half,
-                Integer.toString(draft.amplifier), "等级（从 0 开始）");
-        probabilityField = numberField(editorX, 124, half, Float.toString(draft.probability), "概率 0..1");
+                Integer.toString(draft.amplifier), GuiText.string("originlore.editor.amplifier"));
+        probabilityField = numberField(editorX, 124, half, Float.toString(draft.probability), GuiText.string("originlore.editor.chance_hint"));
 
         int toggleWidth = Math.max(48, (editorWidth - 8) / 3);
-        addDrawableChild(booleanButton("环境", draft.ambient, value -> draft.ambient = value,
+        addDrawableChild(booleanButton(GuiText.string("originlore.editor.ambient"), draft.ambient, value -> draft.ambient = value,
                 editorX, 154, toggleWidth));
-        addDrawableChild(booleanButton("粒子", draft.showParticles, value -> draft.showParticles = value,
+        addDrawableChild(booleanButton(GuiText.string("originlore.editor.particles"), draft.showParticles, value -> draft.showParticles = value,
                 editorX + toggleWidth + 4, 154, toggleWidth));
-        addDrawableChild(booleanButton("图标", draft.showIcon, value -> draft.showIcon = value,
+        addDrawableChild(booleanButton(GuiText.string("originlore.editor.icon"), draft.showIcon, value -> draft.showIcon = value,
                 editorX + (toggleWidth + 4) * 2, 154, editorWidth - (toggleWidth + 4) * 2));
     }
 
@@ -198,17 +209,17 @@ public final class FoodEffectsEditorScreen extends Screen {
         if (!managed) return true;
         try {
             String id = idField.getText().trim();
-            if (Identifier.tryParse(id) == null) throw new IllegalArgumentException("状态效果 ID 格式无效");
+            if (Identifier.tryParse(id) == null) throw new IllegalArgumentException(GuiText.string("originlore.editor.effect_id_invalid"));
             List<String> known = ClientConfigSession.catalog().statusEffectIds();
-            if (!known.isEmpty() && !known.contains(id)) throw new IllegalArgumentException("服务器没有该状态效果");
+            if (!known.isEmpty() && !known.contains(id)) throw new IllegalArgumentException(GuiText.string("originlore.editor.effect_unknown"));
             draft.id = id;
-            draft.duration = parseInteger(durationField, "持续时间");
-            if (draft.duration < -1) throw new IllegalArgumentException("持续时间不能小于 -1");
-            draft.amplifier = parseInteger(amplifierField, "等级");
-            if (draft.amplifier < 0) throw new IllegalArgumentException("等级不能小于 0");
-            draft.probability = parseFloat(probabilityField, "概率");
+            draft.duration = parseInteger(durationField, GuiText.string("originlore.editor.duration"));
+            if (draft.duration < -1) throw new IllegalArgumentException(GuiText.string("originlore.editor.duration_invalid"));
+            draft.amplifier = parseInteger(amplifierField, GuiText.string("originlore.editor.level"));
+            if (draft.amplifier < 0) throw new IllegalArgumentException(GuiText.string("originlore.editor.level_invalid"));
+            draft.probability = parseFloat(probabilityField, GuiText.string("originlore.editor.probability"));
             if (draft.probability < 0 || draft.probability > 1) {
-                throw new IllegalArgumentException("概率必须在 0 到 1 之间");
+                throw new IllegalArgumentException(GuiText.string("originlore.editor.probability_invalid"));
             }
             if (selected < 0) {
                 effects.add(draft.copy());
@@ -217,7 +228,7 @@ public final class FoodEffectsEditorScreen extends Screen {
                 effects.set(selected, draft.copy());
             }
             dirty = false;
-            status = "条目已写入事务副本";
+            status = GuiText.string("originlore.editor.entry_saved");
             if (rebuild) rebuildUi();
             return true;
         } catch (IllegalArgumentException exception) {
@@ -232,7 +243,7 @@ public final class FoodEffectsEditorScreen extends Screen {
         selected = effects.isEmpty() ? -1 : Math.min(selected, effects.size() - 1);
         draft = selected < 0 ? defaultEffect() : effects.get(selected).copy();
         dirty = false;
-        status = "条目已从事务副本删除";
+        status = GuiText.string("originlore.editor.entry_deleted");
         rebuildUi();
     }
 
@@ -253,7 +264,8 @@ public final class FoodEffectsEditorScreen extends Screen {
     private void clearFoodIfEmpty() {
         FoodRule food = working.food;
         if (food != null && food.nutrition == null && food.saturation == null && food.canAlwaysEat == null
-                && food.eatSeconds == null && food.effects == null) working.food = null;
+                && food.eatSeconds == null && food.effects == null && food.nutritionRange == null
+                && food.saturationRange == null && food.eatSecondsRange == null && food.appendEffects == null) working.food = null;
     }
 
     private void rebuildUi() {
@@ -300,13 +312,13 @@ public final class FoodEffectsEditorScreen extends Screen {
         renderBackground(context, mouseX, mouseY, delta);
         super.render(context, mouseX, mouseY, delta);
         context.drawCenteredTextWithShadow(textRenderer, title, width / 2, 12, 0xFFFFFF);
-        context.drawText(textRenderer, "效果列表", left, 55, 0xA0A0A0, false);
-        context.drawText(textRenderer, "状态效果 ID", editorX, 55, 0xA0A0A0, false);
-        context.drawText(textRenderer, "持续时间 / 等级", editorX, 85, 0xA0A0A0, false);
-        context.drawText(textRenderer, "触发概率", editorX, 115, 0xA0A0A0, false);
+        context.drawText(textRenderer, GuiText.string("originlore.editor.effect_list"), left, 55, 0xA0A0A0, false);
+        context.drawText(textRenderer, GuiText.string("originlore.editor.effect_id"), editorX, 55, 0xA0A0A0, false);
+        context.drawText(textRenderer, GuiText.string("originlore.editor.duration_level"), editorX, 85, 0xA0A0A0, false);
+        context.drawText(textRenderer, GuiText.string("originlore.editor.trigger_chance"), editorX, 115, 0xA0A0A0, false);
         if (!status.isBlank()) {
             context.drawCenteredTextWithShadow(textRenderer, Text.literal(status), width / 2,
-                    height - 38, status.startsWith("条目已") ? 0x8FE388 : 0xFF7777);
+                    height - 38, status.startsWith(GuiText.string("originlore.editor.entry_prefix")) ? 0x8FE388 : 0xFF7777);
         }
         if (suggestions != null) suggestions.render(context, textRenderer, height);
     }
@@ -317,11 +329,11 @@ public final class FoodEffectsEditorScreen extends Screen {
     }
 
     private Text managedLabel() {
-        return Text.literal("接管状态效果: " + (managed ? "是" : "否（保留物品原值）"));
+        return Text.literal(GuiText.string("originlore.editor.manage_effects") + (managed ? GuiText.string("originlore.editor.yes") : GuiText.string("originlore.editor.preserve")));
     }
 
     private static Text booleanLabel(String label, boolean value) {
-        return Text.literal(label + ": " + (value ? "是" : "否"));
+        return Text.literal(label + ": " + (value ? GuiText.string("originlore.editor.yes") : GuiText.string("originlore.editor.no")));
     }
 
     private static EffectRule defaultEffect() {
@@ -332,7 +344,7 @@ public final class FoodEffectsEditorScreen extends Screen {
         try {
             return Integer.parseInt(field.getText().trim());
         } catch (RuntimeException exception) {
-            throw new IllegalArgumentException(label + "必须是整数");
+            throw new IllegalArgumentException(label + GuiText.string("originlore.editor.integer_required"));
         }
     }
 
@@ -342,7 +354,7 @@ public final class FoodEffectsEditorScreen extends Screen {
             if (!Float.isFinite(value)) throw new NumberFormatException();
             return value;
         } catch (RuntimeException exception) {
-            throw new IllegalArgumentException(label + "必须是有限数值");
+            throw new IllegalArgumentException(label + GuiText.string("originlore.editor.finite_required"));
         }
     }
 }

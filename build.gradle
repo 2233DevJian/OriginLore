@@ -70,6 +70,38 @@ processResources {
 tasks.withType(Test).configureEach {
     useJUnitPlatform()
 }
+tasks.register("writePresets", JavaExec) {
+    group = "originlore"
+    description = "Regenerates the bundled vanilla presets from the shards under tools/presets."
+    dependsOn tasks.testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = "com.originlore.preset.PresetWriter"
+    workingDir = project.projectDir
+}
+
+tasks.register("verifyPackagedPresets") {
+    group = "verification"
+    description = "Checks that the production jar contains the exact generated preset resources."
+    dependsOn tasks.remapJar
+    def presets = fileTree("src/main/resources/originlore/presets") { include "*.json" }
+    inputs.files(presets)
+    inputs.file(tasks.remapJar.archiveFile)
+    doLast {
+        new java.util.zip.ZipFile(tasks.remapJar.archiveFile.get().asFile).withCloseable { archive ->
+            presets.each { preset ->
+                def entry = archive.getEntry("originlore/presets/${preset.name}")
+                if (entry == null) throw new GradleException("Missing packaged preset: ${preset.name}")
+                def packaged = archive.getInputStream(entry).withCloseable { it.bytes }
+                if (!java.util.Arrays.equals(preset.bytes, packaged)) {
+                    throw new GradleException("Stale packaged preset: ${preset.name}. Run writePresets, then build separately.")
+                }
+            }
+        }
+    }
+}
+
+tasks.named("check") { dependsOn tasks.verifyPackagedPresets }
+
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(21)

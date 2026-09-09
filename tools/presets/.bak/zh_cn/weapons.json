@@ -1,0 +1,71 @@
+{
+"minecraft:iron_sword": {
+  "base": { "customName": "手工铁剑", "loreJson": [ { "text": "手工打制的铁剑，工艺不稳定但胜在制作过程简单。", "color": "green", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 3.0, "max": 4.0 }, "maxDamageRange": [150, 175] },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "masterwork", "weight": 0.1, "rule": { "customName": "精工铁剑", "loreJson": [ { "text": "精工锻造的铁剑，造型规整刃口锋利，冒险者们的好搭档！", "color": "blue", "italic": true, "bold": true } ], "rarity": 1, "attackDamageRange": { "min": 5.0, "max": 5.0 }, "maxDamageRange": [250, 250] } },
+    { "id": "flawed", "weight": 0.9, "rule": { "customName": "有瑕疵的铁剑", "loreJson": [ { "text": "某一次锻造时的失败产物，刃口微微卷起，看起来依然能用只不过不是很耐用...", "color": "white", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 5.0, "max": 5.0 }, "maxDamage": 75 } } ] } ] },
+"minecraft:wooden_sword": {
+  "base": { "customName": "手工木剑", "loreJson": [ { "text": "削出来的木剑，握把上还留着木刺。用不了多久就会开裂，但总好过空手。", "color": "green", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 1.0, "max": 2.0 }, "maxDamageRange": [35, 41] },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "sturdy", "weight": 0.25, "rule": { "customName": "结实的木剑", "loreJson": [ { "text": "木料挑得不错，边缘也削得匀——这样的木剑并不多见。", "color": "blue", "italic": true } ], "rarity": 1, "attackDamageRange": { "min": 3.0, "max": 3.0 }, "maxDamageRange": [59, 70] } },
+    { "id": "splintered", "weight": 0.75, "rule": { "customName": "开裂的木剑", "loreJson": [ { "text": "剑身上有一道贯穿的裂纹。格挡的时候最好别太用力。", "color": "gray", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 3.0, "max": 3.0 }, "maxDamage": 18 } } ] } ] },
+"minecraft:stone_sword": {
+  "base": { "customName": "手工石剑", "loreJson": [ { "text": "把石头磨出刃口，笨重是笨重，可在铁之前它是唯一的选择。", "color": "white", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 2.0, "max": 3.0 }, "maxDamageRange": [78, 91] },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "knapped", "weight": 0.25, "rule": { "customName": "精打的石剑", "loreJson": [ { "text": "石片是一层层敲下来的，这样的刃口比磨出来的更利。", "color": "blue", "italic": true } ], "rarity": 1, "attackDamageRange": { "min": 4.0, "max": 4.0 }, "maxDamageRange": [131, 150] } },
+    { "id": "chipped", "weight": 0.75, "rule": { "customName": "崩口的石剑", "loreJson": [ { "text": "刃上缺了好几块，与其说是剑不如说是锯齿。它还是能用的。", "color": "gray", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 4.0, "max": 4.0 }, "maxDamage": 40 } } ] } ] },
+"minecraft:golden_sword": {
+  "base": { "customName": "金剑", "loreJson": [ { "text": "纯金打的剑，亮是真亮，软也是真软。", "color": "yellow", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 1.0, "max": 2.0 }, "maxDamageRange": [19, 22] },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "inlaid", "weight": 0.2, "rule": { "customName": "镶金的剑", "loreJson": [ { "text": "铁芯外面包了一层金——这样既好看，也比纯金的耐用些。", "color": "yellow", "italic": true } ], "rarity": 1, "attackDamageRange": { "min": 3.0, "max": 3.0 }, "maxDamageRange": [32, 40] } },
+    { "id": "bent", "weight": 0.8, "rule": { "customName": "变形的金剑", "loreJson": [ { "text": "剑身弯了一个不太小的角度，掰回来大概是会断的。", "color": "gray", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 3.0, "max": 3.0 }, "maxDamage": 10 } } ] } ] },
+"minecraft:diamond_sword": {
+  "base": { "customName": "钻石剑", "loreJson": [ { "text": "打磨得极为锋利的钻石刃，光是握着就让人安心。", "color": "aqua", "italic": true } ], "rarity": 1 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "heroic", "weight": 0.15, "rule": { "customName": "英雄的钻石剑", "loreJson": [ { "text": "剑柄缠着褪色的布条，前一位主人显然用它做过不少事。", "color": "gold", "italic": true } ], "rarity": 2, "maxDamageRange": [1561, 1800] } },
+    { "id": "notched", "weight": 0.85, "rule": { "customName": "崩刃的钻石剑", "loreJson": [ { "text": "刃口有几个明显的缺口，还能用，只是每次挥砍都让人心疼。", "color": "white", "italic": true } ], "rarity": 1, "maxDamageRange": [780, 1100] } } ] } ] },
+"minecraft:netherite_sword": {
+  "base": { "customName": "下界合金剑", "loreJson": [ { "text": "黑得发亮，掉进岩浆里也捞得回来。这把剑不太在乎环境。", "color": "dark_gray", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "SMITHING", "variants": [
+    { "id": "flawless", "weight": 0.2, "rule": { "customName": "锻造完美的下界合金剑", "loreJson": [ { "text": "合金包覆得毫无缝隙，刃口在暗处也不反光。", "color": "light_purple", "italic": true } ], "rarity": 3, "maxDamageRange": [2031, 2300] } },
+    { "id": "cracked", "weight": 0.8, "rule": { "customName": "有裂纹的下界合金剑", "loreJson": [ { "text": "升级的时候温度没控好，合金层里留了一道细纹。它依然锋利得吓人。", "color": "white", "italic": true } ], "rarity": 2, "maxDamage": 1200 } } ] } ] },
+"minecraft:mace": {
+  "base": { "customName": "重锤", "loreJson": [ { "text": "沉得不讲道理，挥空一次的成本比打中一次还高。", "color": "dark_gray", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "VAULT", "variants": [
+    { "id": "trial", "weight": 0.35, "rule": { "customName": "试炼重锤", "loreJson": [ { "text": "从试炼密室的重型保险库里取出来的，锤头上的凿痕还很新。", "color": "light_purple", "italic": true } ], "rarity": 3, "maxDamageRange": [500, 560] } },
+    { "id": "worn", "weight": 0.65, "rule": { "customName": "用旧的重锤", "loreJson": [ { "text": "锤面已经砸得凹了进去。前任主人显然没少拿它开门。", "color": "white", "italic": true } ], "rarity": 2, "maxDamage": 260 } } ] } ] },
+"minecraft:trident": {
+  "base": { "customName": "三叉戟", "loreJson": [ { "text": "从溺尸手里抢来的武器，在水里比在岸上好用得多。", "color": "aqua", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "ENTITY_DROP", "variants": [
+    { "id": "intact", "weight": 0.3, "rule": { "customName": "完好的三叉戟", "loreJson": [ { "text": "三个尖都没有损伤，掷出去还能自己飞回来。", "color": "aqua", "italic": true } ], "rarity": 2, "maxDamageRange": [250, 290] } },
+    { "id": "corroded", "weight": 0.7, "rule": { "customName": "锈蚀的三叉戟", "loreJson": [ { "text": "在海底泡得太久，握柄上长满了一层绿色的东西。它还是能掷得很远。", "color": "gray", "italic": true } ], "rarity": 1, "maxDamage": 110 } } ] } ] },
+"minecraft:bow": {
+  "base": { "customName": "木弓", "loreJson": [ { "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。", "color": "green", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "recurve", "weight": 0.3, "rule": { "customName": "复合反曲弓", "loreJson": [ { "text": "弓臂两端向前反翘，拉力比寻常木弓大得多。", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [460, 540] } },
+    { "id": "warped", "weight": 0.7, "rule": { "customName": "受潮的木弓", "loreJson": [ { "text": "弓身吸了水汽微微变形，射程短了一截。", "color": "gray", "italic": true } ], "rarity": 0, "maxDamageRange": [200, 280] } } ] } ] },
+"minecraft:crossbow": {
+  "base": { "customName": "弩", "loreJson": [ { "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。", "color": "green", "italic": true } ], "rarity": 0, "maxDamageRange": [280, 370] },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "steel", "weight": 0.25, "rule": { "customName": "精钢弩", "loreJson": [ { "text": "弩臂包了铁片，扳机的行程短而干脆。", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [465, 540] } },
+    { "id": "slack", "weight": 0.75, "rule": { "customName": "松弦的弩", "loreJson": [ { "text": "弦已经松了，拉满也射不出多远。换根弦就还是把好弩。", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 190 } } ] } ] },
+"minecraft:shield": {
+  "base": { "customName": "盾牌", "loreJson": [ { "text": "一块木板加一块铁，挡住的第一下就回本了。", "color": "green", "italic": true } ], "rarity": 0, "maxDamageRange": [200, 270] },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "heraldic", "weight": 0.25, "rule": { "customName": "纹章盾", "loreJson": [ { "text": "盾面绘着一枚已经认不出的纹章，漆倒还留着大半。", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [336, 400] } },
+    { "id": "split", "weight": 0.75, "rule": { "customName": "开裂的盾", "loreJson": [ { "text": "中间那道裂缝用铁钉勉强固定着。挡重击的时候心里没底，但也只能挡。", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 120 } } ] } ] },
+"minecraft:arrow": {
+  "base": { "customName": "箭矢", "loreJson": [ { "text": "羽尾还算整齐，射出去不会乱飘。", "color": "white", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "ENTITY_DROP", "variants": [
+    { "id": "reclaimed", "weight": 1.0, "rule": { "customName": "回收的箭矢", "loreJson": [ { "text": "从骷髅那儿捡回来的，箭杆上还有牙印。擦一擦就还能用。", "color": "gray", "italic": true } ], "rarity": 0 } } ] } ] },
+"minecraft:spectral_arrow": {
+  "base": { "customName": "光灵箭", "loreJson": [ { "text": "被它射中的东西会一直发亮。从此再也藏不住了。", "color": "yellow", "italic": true } ], "rarity": 1 } },
+"minecraft:fire_charge": {
+  "base": { "customName": "火焰弹", "loreJson": [ { "text": "捏着有点烫手。扔出去会留下一条火线，包括你自己的袖子。", "color": "red", "italic": true } ], "rarity": 0 } },
+"minecraft:wind_charge": {
+  "base": { "customName": "风弹", "loreJson": [ { "text": "一小团被压住的风。扔出去能把人推下悬崖，也包括扔的那个人。", "color": "white", "italic": true } ], "rarity": 0 } },
+"minecraft:firework_rocket": {
+  "base": { "customName": "烟花火箭", "loreJson": [ { "text": "能把你推上一截，顺便照亮夜空。别在低处对着墙用。", "color": "white", "italic": true } ], "rarity": 0 } },
+"minecraft:firework_star": {
+  "base": { "customName": "烟火之星", "loreJson": [ { "text": "压好的火药球，炸开是什么颜色全看掺了什么进去。", "color": "aqua", "italic": true } ], "rarity": 0 } }
+}

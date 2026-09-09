@@ -1,6 +1,8 @@
 package com.originlore.mixin;
 
 import com.originlore.Originlore;
+import com.originlore.ItemComponentManager;
+import com.originlore.gameplay.FoodUnits;
 import com.originlore.source.SourceContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
@@ -18,6 +20,31 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(PlayerInventory.class)
 public abstract class PlayerInventoryMixin {
     @Shadow @Final public PlayerEntity player;
+
+    @Inject(method = "canStackAddMore", at = @At("HEAD"), cancellable = true)
+    private void originlore$canMerge(ItemStack existing, ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
+        if (player instanceof ServerPlayerEntity && ItemComponentManager.hasOriginLoreMetadata(stack)) {
+            PlayerInventory inventory = (PlayerInventory) (Object) this;
+            cir.setReturnValue(!existing.isEmpty() && FoodUnits.canCombine(existing, stack)
+                    && existing.isStackable() && existing.getCount() < inventory.getMaxCount(existing));
+        }
+    }
+
+    @Inject(method = "addStack(ILnet/minecraft/item/ItemStack;)I", at = @At("HEAD"), cancellable = true)
+    private void originlore$moveUnits(int slot, ItemStack source, CallbackInfoReturnable<Integer> cir) {
+        if (!(player instanceof ServerPlayerEntity) || !ItemComponentManager.hasOriginLoreMetadata(source)) return;
+        PlayerInventory inventory = (PlayerInventory) (Object) this;
+        ItemStack target = inventory.getStack(slot);
+        if (target.isEmpty()) {
+            ItemStack moved = source.split(Math.min(source.getCount(), inventory.getMaxCount(source)));
+            moved.setBobbingAnimationTime(5);
+            inventory.setStack(slot, moved);
+        } else if (FoodUnits.canCombine(source, target)) {
+            FoodUnits.transfer(source, target, inventory.getMaxCount(target) - target.getCount());
+            target.setBobbingAnimationTime(5);
+        }
+        cir.setReturnValue(source.getCount());
+    }
 
     // One handler cannot cover both overloads: the (int, ItemStack) target needs a matching
     // parameter list, and a mismatch there is silent once the other overload satisfies require.

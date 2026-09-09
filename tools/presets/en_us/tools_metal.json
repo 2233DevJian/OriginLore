@@ -1,0 +1,4102 @@
+{
+  "minecraft:diamond_axe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "An edge set with diamonds, and a trunk splits open at the first blow.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Diamond Axe",
+              "loreJson": [
+                {
+                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                468,
+                702
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Axe",
+              "loreJson": [
+                {
+                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Axe",
+              "loreJson": [
+                {
+                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Diamond Axe",
+              "loreJson": [
+                {
+                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                937,
+                1249
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Axe",
+              "loreJson": [
+                {
+                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Axe",
+              "loreJson": [
+                {
+                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Diamond Axe",
+              "loreJson": [
+                {
+                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                468,
+                702
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Axe",
+              "loreJson": [
+                {
+                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Axe",
+              "loreJson": [
+                {
+                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Diamond Axe",
+              "loreJson": [
+                {
+                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                468,
+                702
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 33,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Axe",
+              "loreJson": [
+                {
+                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 7,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Axe",
+              "loreJson": [
+                {
+                  "text": "An edge set with diamonds, and a trunk splits open at the first blow. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:diamond_hoe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Diamond Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                468,
+                702
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Diamond Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                937,
+                1249
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Diamond Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                468,
+                702
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made out of diamonds. There is no argument about how well it works, only about whether it should. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:diamond_pickaxe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Diamond Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                468,
+                702
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Diamond Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                937,
+                1249
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Diamond Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                468,
+                702
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point set with diamonds, and there is very little it cannot mine — obsidian included. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:diamond_shovel": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A head set with diamonds, and digging goes about as fast as bailing water.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Diamond Shovel",
+              "loreJson": [
+                {
+                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                468,
+                702
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Shovel",
+              "loreJson": [
+                {
+                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Shovel",
+              "loreJson": [
+                {
+                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Diamond Shovel",
+              "loreJson": [
+                {
+                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                937,
+                1249
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Shovel",
+              "loreJson": [
+                {
+                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Shovel",
+              "loreJson": [
+                {
+                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Diamond Shovel",
+              "loreJson": [
+                {
+                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                468,
+                702
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Shovel",
+              "loreJson": [
+                {
+                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Shovel",
+              "loreJson": [
+                {
+                  "text": "A head set with diamonds, and digging goes about as fast as bailing water. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:golden_axe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Golden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                10,
+                14
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Golden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Golden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Golden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                19,
+                26
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Golden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Golden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Golden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                10,
+                14
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Golden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Golden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Golden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                10,
+                14
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Golden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Golden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade of solid gold, bright enough to hurt the eyes. It starts to deform after about two swings. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:golden_hoe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A golden hoe, the most conspicuous and shortest-lived implement in any field.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Golden Hoe",
+              "loreJson": [
+                {
+                  "text": "A golden hoe, the most conspicuous and shortest-lived implement in any field. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                10,
+                14
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Golden Hoe",
+              "loreJson": [
+                {
+                  "text": "A golden hoe, the most conspicuous and shortest-lived implement in any field. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Golden Hoe",
+              "loreJson": [
+                {
+                  "text": "A golden hoe, the most conspicuous and shortest-lived implement in any field. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Golden Hoe",
+              "loreJson": [
+                {
+                  "text": "A golden hoe, the most conspicuous and shortest-lived implement in any field. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                19,
+                26
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Golden Hoe",
+              "loreJson": [
+                {
+                  "text": "A golden hoe, the most conspicuous and shortest-lived implement in any field. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Golden Hoe",
+              "loreJson": [
+                {
+                  "text": "A golden hoe, the most conspicuous and shortest-lived implement in any field. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:golden_pickaxe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A pickaxe made of gold, and it does mine quickly. It does break quickly too.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Golden Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A pickaxe made of gold, and it does mine quickly. It does break quickly too. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                10,
+                14
+              ],
+              "attackDamageRange": {
+                "min": -0.5,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Golden Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A pickaxe made of gold, and it does mine quickly. It does break quickly too. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Golden Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A pickaxe made of gold, and it does mine quickly. It does break quickly too. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Golden Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A pickaxe made of gold, and it does mine quickly. It does break quickly too. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                19,
+                26
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": -0.5
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Golden Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A pickaxe made of gold, and it does mine quickly. It does break quickly too. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Golden Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A pickaxe made of gold, and it does mine quickly. It does break quickly too. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:golden_shovel": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A head of soft gold, which takes very little effort to push into the ground.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Golden Shovel",
+              "loreJson": [
+                {
+                  "text": "A head of soft gold, which takes very little effort to push into the ground. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                10,
+                14
+              ],
+              "attackDamageRange": {
+                "min": -0.75,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Golden Shovel",
+              "loreJson": [
+                {
+                  "text": "A head of soft gold, which takes very little effort to push into the ground. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Golden Shovel",
+              "loreJson": [
+                {
+                  "text": "A head of soft gold, which takes very little effort to push into the ground. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Golden Shovel",
+              "loreJson": [
+                {
+                  "text": "A head of soft gold, which takes very little effort to push into the ground. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                19,
+                26
+              ],
+              "attackDamageRange": {
+                "min": -1.5,
+                "max": -0.75
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Golden Shovel",
+              "loreJson": [
+                {
+                  "text": "A head of soft gold, which takes very little effort to push into the ground. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Golden Shovel",
+              "loreJson": [
+                {
+                  "text": "A head of soft gold, which takes very little effort to push into the ground. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:iron_axe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "ARCHAEOLOGY",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 85,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                113
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                113
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                150,
+                200
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                113
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                113
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                113
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                113
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 33,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 7,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Iron Axe",
+              "loreJson": [
+                {
+                  "text": "An axe forged out of iron, and it feels just as natural felling a tree as anything else. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:iron_hoe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A hoe made of iron, so a whole field can be turned without swapping it out halfway through.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Iron Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made of iron, so a whole field can be turned without swapping it out halfway through. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                150,
+                200
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Iron Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made of iron, so a whole field can be turned without swapping it out halfway through. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Iron Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made of iron, so a whole field can be turned without swapping it out halfway through. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:iron_pickaxe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Iron Pickaxe",
+              "loreJson": [
+                {
+                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                113
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Iron Pickaxe",
+              "loreJson": [
+                {
+                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Iron Pickaxe",
+              "loreJson": [
+                {
+                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Iron Pickaxe",
+              "loreJson": [
+                {
+                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                150,
+                200
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Iron Pickaxe",
+              "loreJson": [
+                {
+                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Iron Pickaxe",
+              "loreJson": [
+                {
+                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Iron Pickaxe",
+              "loreJson": [
+                {
+                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                113
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Iron Pickaxe",
+              "loreJson": [
+                {
+                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Iron Pickaxe",
+              "loreJson": [
+                {
+                  "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:iron_shovel": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A head beaten out of iron, and it makes a clean sound going into the ground.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Iron Shovel",
+              "loreJson": [
+                {
+                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                113
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Iron Shovel",
+              "loreJson": [
+                {
+                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Iron Shovel",
+              "loreJson": [
+                {
+                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Iron Shovel",
+              "loreJson": [
+                {
+                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                150,
+                200
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Iron Shovel",
+              "loreJson": [
+                {
+                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Iron Shovel",
+              "loreJson": [
+                {
+                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Iron Shovel",
+              "loreJson": [
+                {
+                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                113
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Iron Shovel",
+              "loreJson": [
+                {
+                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Iron Shovel",
+              "loreJson": [
+                {
+                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Iron Shovel",
+              "loreJson": [
+                {
+                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                113
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Iron Shovel",
+              "loreJson": [
+                {
+                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Iron Shovel",
+              "loreJson": [
+                {
+                  "text": "A head beaten out of iron, and it makes a clean sound going into the ground. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:netherite_axe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A blade sheathed in alloy, so it can be fished back out of lava.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "SMITHING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 65,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Netherite Axe",
+              "loreJson": [
+                {
+                  "text": "A blade sheathed in alloy, so it can be fished back out of lava. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1219,
+                1625
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "damaged",
+            "weight": 10,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Netherite Axe",
+              "loreJson": [
+                {
+                  "text": "A blade sheathed in alloy, so it can be fished back out of lava. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                609,
+                914
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 22,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Netherite Axe",
+              "loreJson": [
+                {
+                  "text": "A blade sheathed in alloy, so it can be fished back out of lava. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                2031,
+                2031
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Netherite Axe",
+              "loreJson": [
+                {
+                  "text": "A blade sheathed in alloy, so it can be fished back out of lava. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                2234,
+                2437
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:netherite_hoe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A hoe made of netherite. Fields turned with it stay turned.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "SMITHING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 65,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Netherite Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made of netherite. Fields turned with it stay turned. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1219,
+                1625
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "damaged",
+            "weight": 10,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Netherite Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made of netherite. Fields turned with it stay turned. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                609,
+                914
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 22,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Netherite Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made of netherite. Fields turned with it stay turned. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                2031,
+                2031
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Netherite Hoe",
+              "loreJson": [
+                {
+                  "text": "A hoe made of netherite. Fields turned with it stay turned. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                2234,
+                2437
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:netherite_pickaxe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A dark, heavy point, and obsidian feels much like dirt through it.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "SMITHING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 65,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Netherite Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A dark, heavy point, and obsidian feels much like dirt through it. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1219,
+                1625
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "damaged",
+            "weight": 10,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Netherite Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A dark, heavy point, and obsidian feels much like dirt through it. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                609,
+                914
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 22,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Netherite Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A dark, heavy point, and obsidian feels much like dirt through it. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                2031,
+                2031
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Netherite Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A dark, heavy point, and obsidian feels much like dirt through it. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                2234,
+                2437
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:netherite_shovel": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A head sheathed in alloy, so no amount of digging will turn the edge.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "SMITHING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 65,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Netherite Shovel",
+              "loreJson": [
+                {
+                  "text": "A head sheathed in alloy, so no amount of digging will turn the edge. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1219,
+                1625
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "damaged",
+            "weight": 10,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Netherite Shovel",
+              "loreJson": [
+                {
+                  "text": "A head sheathed in alloy, so no amount of digging will turn the edge. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                609,
+                914
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 22,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Netherite Shovel",
+              "loreJson": [
+                {
+                  "text": "A head sheathed in alloy, so no amount of digging will turn the edge. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                2031,
+                2031
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Netherite Shovel",
+              "loreJson": [
+                {
+                  "text": "A head sheathed in alloy, so no amount of digging will turn the edge. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                2234,
+                2437
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

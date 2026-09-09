@@ -1,0 +1,1696 @@
+{
+  "minecraft:acacia_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "疏展的灰绿叶连在细枝上，保留一团就能补齐金合欢树冠。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_sapling": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢幼苗的细根还很短，留足周围的空间才能长开。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:allium": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫色小花聚成圆球，插在花坛边缘很醒目。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:amethyst_cluster": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "透亮晶尖已经长齐，敲碎可以取得紫水晶碎片。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:azalea": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "矮枝密密托着小叶，适合沿着小径种成一排。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:azalea_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细枝连着紧密小叶，修成矮篱很方便。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:azure_bluet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浅白小花围着黄心，低低一簇很适合点缀路边。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "空心竹节轻而直，绑脚手架和加工木料都方便。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:basalt": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深灰岩柱的纹理顺着长边延伸，竖着铺设很齐整。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bee_nest": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄蜡片包着天然巢室，搬运前得照顾好里面的住户。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:beehive": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木壳里排着整齐巢格，留出入口便能安置蜂群。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:big_dripleaf": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "宽叶撑在长茎顶端，能借一步，却撑不住久站。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细薄的亮绿叶连在细枝上，保留一团就能补齐白桦树冠。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_sapling": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦幼苗的细根还很短，留足周围的空间才能长开。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_ice": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深蓝冰体几乎看不见气泡，船底经过时滑得尤其远。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_orchid": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蓝花沿弯茎展开，移出沼泽也能在庭院里添一抹冷色。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brain_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉红的褶纹组成小簇，布置水下的小景时得留在水里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brain_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉红的褶纹组成厚块，布置珊瑚礁的基底时得留在水里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brain_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉红的褶纹组成扇面，布置礁壁边缘时得留在水里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_mushroom": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "褐色菌盖柔软略湿，切进炖汤里很合适。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_mushroom_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "厚菌盖的切面松软多孔，铺成伞顶有现成的弧度。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bubble_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫色的圆泡组成小簇，布置水下的小景时得留在水里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bubble_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫色的圆泡组成厚块，布置珊瑚礁的基底时得留在水里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bubble_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫色的圆泡组成扇面，布置礁壁边缘时得留在水里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cactus": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "厚皮里存着水分，外面的刺却不适合徒手碰。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:calcite": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "乳白的晶粒挤在一起，砌在深色石材旁显得干净。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:carved_pumpkin": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "刀口在厚皮上刻出一张脸，戴起来能避开末影人的目光。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细密的粉色花瓣连在细枝上，保留一团就能补齐樱花树树冠。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_sapling": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花树幼苗的细根还很短，留足周围的空间才能长开。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chorus_flower": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浅色硬瓣护住中心，种在末地石上还能长出枝节。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:clay": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细腻的灰泥没有多少砂粒，揉开后适合制砖烧陶。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:coarse_dirt": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "土里掺着许多碎石，踩实后也不容易长出草来。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobweb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细丝层层交错，粘住衣角后要费些力气才能挣开。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cornflower": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细蓝花瓣向外散开，磨成染料时颜色也很清楚。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_fungus": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红色菌盖结实厚重，放在绯红菌岩上可以催成大株。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_nylium": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红色菌层紧紧覆住岩石，适合作绯红菌的苗床。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_roots": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗红根须分成细枝，簇在菌岩旁很相称。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crying_obsidian": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫色液滴沿黑色岩面缓缓渗出，适合用在重生锚上。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dandelion": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细黄瓣围成小盘，随手一捧就能配出黄色染料。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "层叠的深绿叶连在细枝上，保留一团就能补齐深色橡木树冠。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_sapling": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木幼苗的细根还很短，留足周围的空间才能长开。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_brain_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "小簇已经失去原来粉红的褶纹的颜色，只留下灰白骨架，做干燥造景仍能用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_brain_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "厚块已经失去原来粉红的褶纹的颜色，只留下灰白骨架，做干燥造景仍能用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_brain_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "扇面已经失去原来粉红的褶纹的颜色，只留下灰白骨架，做干燥造景仍能用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_bubble_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "小簇已经失去原来紫色的圆泡的颜色，只留下灰白骨架，做干燥造景仍能用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_bubble_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "厚块已经失去原来紫色的圆泡的颜色，只留下灰白骨架，做干燥造景仍能用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_bubble_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "扇面已经失去原来紫色的圆泡的颜色，只留下灰白骨架，做干燥造景仍能用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_bush": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "枯枝干得发脆，掰下来还能凑几根木棍。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_fire_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "小簇已经失去原来红色的细枝的颜色，只留下灰白骨架，做干燥造景仍能用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_fire_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "厚块已经失去原来红色的细枝的颜色，只留下灰白骨架，做干燥造景仍能用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_fire_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "扇面已经失去原来红色的细枝的颜色，只留下灰白骨架，做干燥造景仍能用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_horn_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "小簇已经失去原来黄色的角枝的颜色，只留下灰白骨架，做干燥造景仍能用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_horn_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "厚块已经失去原来黄色的角枝的颜色，只留下灰白骨架，做干燥造景仍能用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_horn_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "扇面已经失去原来黄色的角枝的颜色，只留下灰白骨架，做干燥造景仍能用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_tube_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "小簇已经失去原来蓝色的管孔的颜色，只留下灰白骨架，做干燥造景仍能用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_tube_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "厚块已经失去原来蓝色的管孔的颜色，只留下灰白骨架，做干燥造景仍能用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_tube_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "扇面已经失去原来蓝色的管孔的颜色，只留下灰白骨架，做干燥造景仍能用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dirt": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "松散的褐土夹着细根，捏碎后很适合填平地面。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dripstone_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "棕色岩面带着水蚀的小孔，下面还能接出尖长的石锥。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:end_stone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "淡黄的岩面坑坑洼洼，拿来砌筑比看起来结实。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:fern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细分的绿叶沿中脉展开，放在树荫下很自然。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:fire_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红色的细枝组成小簇，布置水下的小景时得留在水里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:fire_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红色的细枝组成厚块，布置珊瑚礁的基底时得留在水里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:fire_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红色的细枝组成扇面，布置礁壁边缘时得留在水里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flowering_azalea": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "小小的粉花藏在密叶里，不用长高也能点缀庭院。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flowering_azalea_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉花夹在紧实叶团里，做花篱时不用再添别的花。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glow_lichen": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "苍白薄片紧贴岩面，亮度不高，却能照清脚边。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:grass_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄的草皮连着湿土，铺好后能慢慢接成一片绿地。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gravel": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "大小不一的石子滚得很散，翻找时偶尔能摸到一片燧石。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:hanging_roots": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "一撮细根沾着湿土，垂在顶下能添些林地的样子。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:horn_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黄色的角枝组成小簇，布置水下的小景时得留在水里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:horn_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黄色的角枝组成厚块，布置珊瑚礁的基底时得留在水里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:horn_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黄色的角枝组成扇面，布置礁壁边缘时得留在水里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ice": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "透明冰面裹着细白的气泡，铺成通道时脚下格外滑。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浓密的大叶连在细枝上，保留一团就能补齐丛林木树冠。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_sapling": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木幼苗的细根还很短，留足周围的空间才能长开。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:kelp": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "长而滑的叶片带着海水气味，烘干后能当作干粮。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:large_amethyst_bud": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粗大的晶尖尚未完全展开，成簇摆放很醒目。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:large_fern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "宽大的羽状叶层层展开，适合填满林间的空处。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lilac": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "淡紫花穗挤在高枝上，放在矮花后面也看得见。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lily_of_the_valley": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白色小铃沿细茎垂下，看着干净，却不宜放进食物里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lily_pad": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "扁圆的叶面浮在水上，脚踩过去时能撑住分量。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magma_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黑色硬壳裂着橙红的缝，站上去最好隔着厚实的鞋底。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "厚实的湿绿叶连在细枝上，保留一团就能补齐红树树冠。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_propagule": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细长胚轴垂着绿尖，泡在水里也能扎根成树。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_roots": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "弯曲木根交成网眼，填水后仍能看清缝隙。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:medium_amethyst_bud": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "几根紫色晶尖开始分开，装点洞壁正好。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:melon": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绿色硬皮裹着多汁的红瓤，切开能分成好几份。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:moss_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "厚实的绿苔盖住整个表面，撒些骨粉就能铺开。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:moss_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄苔柔软贴地，铺在石上也不显得突兀。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mud": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "湿泥黏在手上不肯脱落，掺些麦秆才能压得结实。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:muddy_mangrove_roots": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "湿泥塞满了根须间隙，垒起来像一段结实的河岸。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mushroom_stem": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浅色菌柄细密而轻，叠起来能做一根素净的柱子。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mycelium": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "灰紫色菌丝密密铺在表面，足以让蘑菇在亮处生长。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_sprouts": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "矮小嫩芽透着青色，铺在下界菌地上不占多少高度。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_wart_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗红颗粒压成厚块，做菌冠衬面很合适，拆不回原料。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:netherrack": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红色岩石满是细孔，敲起来很脆，却能让火一直烧着。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "宽厚的绿叶连在细枝上，保留一团就能补齐橡木树冠。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_sapling": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木幼苗的细根还很短，留足周围的空间才能长开。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:obsidian": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黑亮的断面锋利而沉重，想完整采下来需要一把好镐。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_tulip": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橙色花杯托在直茎上，排列整齐时颜色很暖。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxeye_daisy": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白瓣绕着饱满黄心，种在草地里朴素耐看。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:packed_ice": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "挤得严实的冰层泛着蓝白光，放在灯旁也能保持原样。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:peony": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉色花瓣叠得厚厚的，一株就能填起花坛的空处。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_petals": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "轻薄的粉瓣贴着草地，铺得疏些也很好看。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_tulip": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浅粉花瓣收成窄杯，贴着白墙种下很柔和。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pitcher_plant": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "宽叶托着鼓起的囊袋，高高一株就能填满墙边。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:podzol": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "腐叶覆着暗色土层，带着林地潮湿的气味，种蘑菇正合适。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pointed_dripstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石锥一层层收向尖端，接在洞顶可以收集滴水。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_basalt": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的玄武岩露出笔直纹理，适合收齐柱子的边角。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:poppy": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄红瓣托着深色花心，磨开便是一份红色染料。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pumpkin": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "厚橙皮包着纤维和种子，雕空或做馅都用得上。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_mushroom": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红菌盖上散着白点，配上另一种蘑菇才能煮出熟悉的汤。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_mushroom_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红白斑点留在外皮，内侧像海绵，搭棚时很醒目。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_sand": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "砂粒裹着一层铁红色，烧玻璃时倒和普通沙子一样好用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_tulip": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红色花杯边缘齐整，成排栽下像细小的路标。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:rooted_dirt": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细根在土块里绕成一团，锄开就能把根须分出来。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:rose_bush": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红花挤在带刺的高枝上，围成花篱很合适。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sand": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浅色砂粒从指缝间流走，装窑能烧出透亮的玻璃。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sculk": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色表面浮着青点，踩上去没有石头那样的硬响。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sculk_catalyst": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浅色顶面托着暗脉，附近有生物死去时会向外蔓延。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sculk_shrieker": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "几根浅色突起围住暗孔，搬离原处后已唤不来监守者。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sculk_vein": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细薄脉络攀满表面，贴在洞壁上几乎不占地方。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sea_pickle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "矮小的软管挤成一簇，留在水里才亮得起来。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:seagrass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "柔细的草叶离水便垂下来，带去喂海龟倒很合适。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:short_grass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "短草根部带着泥屑，留一片就能遮住裸土。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:small_amethyst_bud": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "尖端才露出浅紫，只能先作细小装饰。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:small_dripleaf": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片嫩叶贴着短茎，施过骨粉才够长成落脚的叶台。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_basalt": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细密的灰色岩面少了棱纹，用作平整衬面十分朴素。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sniffer_egg": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "厚壳上覆着苔色斑块，放在苔藓上会更快裂开。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:snow": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "松软的雪粒铺成薄层，用锹就能轻松收拢。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:snow_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "压实的雪块凉而细密，用来堆墙比散雪省事。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:soul_sand": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "褐色细砂里浮着模糊的面孔，脚踩进去会陷得很慢。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:soul_soil": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗色土壤干而松，点起的火焰会呈现冷蓝色。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spore_blossom": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "宽大的粉色花瓣向下舒展，细小孢子会缓缓落满周围。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深绿的针叶连在细枝上，保留一团就能补齐云杉树冠。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_sapling": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉幼苗的细根还很短，留足周围的空间才能长开。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sugar_cane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "青绿长节里含着甜汁，做纸和熬糖都用得着。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sunflower": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "宽黄瓣围着沉甸甸的花盘，花面能帮人认清东方。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tall_grass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细长草叶挤在一起，长到齐腰时容易挡住视线。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:torchflower": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红黄花瓣卷成火苗的形状，看着明亮却不能代替灯。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tube_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蓝色的管孔组成小簇，布置水下的小景时得留在水里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tube_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蓝色的管孔组成厚块，布置珊瑚礁的基底时得留在水里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tube_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蓝色的管孔组成扇面，布置礁壁边缘时得留在水里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:turtle_egg": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浅色硬壳布着绿斑，放回沙上才有机会孵开。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:twisting_vines": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蓝绿色藤条盘着细节向上长，搭高架时能借它落脚。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:vine": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细茎牵着宽叶，贴在墙面就能给攀爬留个落手处。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_fungus": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "青蓝菌盖边缘卷起，除了种植也能引来炽足兽。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_nylium": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "青色菌层在暗岩上铺开，诡异菌扎在这里才长得大。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_roots": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蓝绿根须扭着向外伸，种在诡异菌旁能连成一片。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_wart_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "青绿颗粒结成硬团，搭在菌柄上就有了宽厚的顶。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weeping_vines": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗红藤蔓一节节垂下，挂在高处便是一条细软的梯子。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_tulip": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白色花杯沿茎挺立，点在深色叶丛里很清楚。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:wither_rose": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黑瓣枯而完整，碰到就会受伤，摆放时要留出距离。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

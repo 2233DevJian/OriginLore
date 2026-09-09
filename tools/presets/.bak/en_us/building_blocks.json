@@ -1,0 +1,62 @@
+{
+  "minecraft:stone": {
+    "base": {
+      "customName": "Stone",
+      "loreJson": [
+        { "text": "Unremarkable grey stone. The underground has an endless supply of it.", "color": "white", "italic": true }
+      ],
+      "rarity": 0
+    }
+  },
+  "minecraft:stone_bricks": {
+    "base": {
+      "customName": "Stone Bricks",
+      "loreJson": [
+        { "text": "Stone cut into regular blocks and stacked. Considerably tidier than cobblestone.", "color": "white", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CUTTING",
+        "rule": {
+          "customName": "Cut Stone Bricks",
+          "loreJson": [
+            { "text": "Trimmed in a single pass on a stonecutter, and accurate to within nothing at all.", "color": "green", "italic": true }
+          ],
+          "rarity": 0
+        }
+      }
+    ]
+  },
+  "minecraft:bricks": {
+    "base": {
+      "customName": "Bricks",
+      "loreJson": [
+        { "text": "Fired clay bricks stacked into a block. An old friend of fireplaces and chimneys.", "color": "dark_red", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "rule": {
+          "customName": "Hand-Laid Bricks",
+          "loreJson": [
+            { "text": "Four bricks mortared together by hand. The joints are a little wide, but it holds firm.", "color": "dark_red", "italic": true }
+          ],
+          "rarity": 0
+        }
+      }
+    ]
+  },
+  "minecraft:oak_planks": {
+    "base": {
+      "customName": "Oak Planks",
+      "loreJson": [
+        { "text": "Sawn oak with a clear grain. The most common building material there is, and one of the most useful.", "color": "green", "italic": true }
+      ],
+      "rarity": 0
+    }
+  }
+}

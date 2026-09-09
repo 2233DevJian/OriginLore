@@ -1,0 +1,46 @@
+{
+  "minecraft:bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fired clay bricks stacked into a block. An old friend of fireplaces and chimneys.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sawn oak with a clear grain. The most common building material there is, and one of the most useful.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Unremarkable grey stone. The underground has an endless supply of it.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Stone cut into regular blocks and stacked. Considerably tidier than cobblestone.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

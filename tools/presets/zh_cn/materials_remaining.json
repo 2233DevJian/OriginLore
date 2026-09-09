@@ -1,0 +1,1157 @@
+{
+  "minecraft:ancient_debris": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深褐断面挤着层纹，火也烧不坏，得进炉炼出其中的碎料。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:angler_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着一尾鱼，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:archer_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着弯弓，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:armadillo_scute": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "角质甲片坚韧带弧，叠起来能护住狼的身体。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:arms_up_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着举起的双臂，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:beetroot_seeds": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "小褐种粒外壳粗糙，埋进耕地才能长成甜菜根。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blade_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着直剑，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blaze_rod": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黄色长杆里存着热意，磨粉能酿药，整根也能做酿造台。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bolt_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着镶在边缘的铆钉，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "硬白骨节中间留着空腔，磨成骨粉后能给植物补养分。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bone_meal": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白色细粉里夹着碎粒，撒到合适的植物上便能催它长一截。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:book": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "纸页整齐缝进皮封，既能继续书写，也能承住附魔。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:breeze_rod": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "灰紫细杆轻得异常，拆成风弹或装进重锤都合用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brewer_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着药瓶，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brick": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "烧红的小砖边角齐整，砌成砖块或捏出花盆都用得上。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:burn_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着火焰，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:charcoal": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "烧黑的木纹仍看得清，拿来冶炼和制火把都很实在。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:clay_ball": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "湿黏土团没有棱角，送进炉里就能烧成一块小砖。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:coast_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着海岸般的曲线，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cocoa_beans": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "褐色豆粒带着苦香，烘进曲奇或磨作棕色染料都好用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:copper_ingot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红铜表面细腻发亮，锻成避雷针或压成建筑材料都合适。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:creeper_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "纸样画着苦力怕的脸，放在织机旁就能把同样的图织进旗面。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:danger_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着警示的图形，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:disc_fragment_5": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黑色薄片边沿参差，凑齐同样的碎片才能补成一张唱片。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dune_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着沙丘般的条纹，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:echo_shard": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色晶片里透着青光，配进指南针能指回最后倒下的地方。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:enchanted_book": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "字迹在书页间泛光，放上铁砧就能把合适的附魔传给装备。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ender_eye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绿色圆珠中间嵌着瞳孔，放飞时会朝要塞方向走。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ender_pearl": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗绿珠面透着深光，投出去就能把人带到落点。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:explorer_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着探路的图案，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:eye_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着中央的眼形，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:feather": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "轻羽两侧排列齐整，做箭尾能稳住飞行，书写也用得上。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flint": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "灰黑薄石断面锋利，配上铁片能擦火，也能制箭头。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flow_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着回旋的气流，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flow_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "纸样画着盘旋的涡纹，放在织机旁就能把同样的图织进旗面。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flow_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着回旋的线条，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flower_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "纸样画着花形，放在织机旁就能把同样的图织进旗面。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:friend_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着相伴的身影，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:globe_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "纸样画着球形经纬，放在织机旁就能把同样的图织进旗面。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glow_ink_sac": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "墨液里浮着微光，涂在告示牌上能让字迹在暗处显出来。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gold_ingot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暖黄金属压成长条，做零件、配金食物和与猪灵交易都方便。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gold_nugget": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "小金粒亮得清楚，配胡萝卜或压成金锭都很方便。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:guster_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "纸样画着旋风的轮廓，放在织机旁就能把同样的图织进旗面。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:guster_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着风的轮廓，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:heart_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着完整的心形，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:heartbreak_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着裂开的心形，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:heavy_core": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗铁方芯沉得压手，装进重锤后这份重量就有了用处。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:honeycomb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "六角蜡房挂着蜜香，做蜂箱、蜡烛和封铜都合适。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:host_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着相连的古纹，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:howl_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着昂首的狼，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ink_sac": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄囊里装着浓黑墨汁，染色或配书写材料都足够。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:iron_nugget": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细小铁粒沉在掌心，凑成锭或装灯笼都不会浪费。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lapis_lazuli": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深蓝矿粒染色很牢，在附魔台前也要备上一些。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:leather": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "柔韧皮面带着浅浅褶痕，裁开能缝护具，也能包书。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:melon_seeds": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浅褐种子边缘扁平，埋进耕地才能长成西瓜。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:miner_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着矿镐，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mojang_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "纸样画着古怪的纹章，放在织机旁就能把同样的图织进旗面。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mourner_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着低垂的身影，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nautilus_shell": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浅色壳沿着细纹盘起，配上海洋之心才有潮涌核心的用处。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_brick": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗红小砖烧得坚硬，攒起几块就能砌出下界砖墙。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:netherite_scrap": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "烧炼后的暗色碎片薄而硬，和金锭合在一起才能继续锻造。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:netherite_upgrade_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红色底片里嵌着升级纹路，铁匠台能照着它把钻石装备改成下界合金。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ominous_trial_key": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗色钥匙泛着蓝光，只有不祥宝库能与它的齿口吻合。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:paper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄纸纤维细密，写地图、装订书和卷烟花都方便。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:piglin_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "纸样画着猪鼻形状，放在织机旁就能把同样的图织进旗面。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pitcher_pod": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "圆润种荚里鼓着新芽，埋进耕地才能长成瓶子草。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:plenty_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着丰收的形状，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_crystals": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "透亮小晶簇泛着海绿色，组合后能做出水下的灯。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_shard": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "青绿石片断口参差，拼起来仍能还原神殿的石材。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prize_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着奖赏的图样，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pumpkin_seeds": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白色种片薄而宽，埋进耕地才能长成南瓜。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:quartz": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "乳白晶体棱角清楚，建筑装饰和红石元件都要用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:rabbit_hide": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "小片软皮边缘不整，攒够几张才能合成一张皮革。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:raiser_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着向上叠起的层线，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:raw_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红绿矿粒结成不规则团块，烧净杂质便是一锭铜料。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:raw_gold": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "灰褐岩壳里嵌着金色颗粒，熔开以后才能铸成整锭。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:raw_iron": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "褐色岩皮裹着发亮的铁粒，进炉烧过才好加工。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:rib_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着成列的肋骨，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:scrape_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着刮刷的记号，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sentry_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着整齐的守卫条带，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:shaper_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着转折分明的折线，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sheaf_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着成束的麦穗，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:shelter_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着树木般的庇护，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:shulker_shell": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫色硬壳轻而结实，两片合起来能护住会搬动的储物箱。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:silence_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着密布的幽暗纹路，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:skull_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "纸样画着骷髅面孔，放在织机旁就能把同样的图织进旗面。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:skull_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着骷髅，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:slime_ball": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "半透明胶团黏手又有弹性，装活塞和搓拴绳都用得上。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:snort_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "陶片边缘断得参差，表面还留着嗅探兽的轮廓，拼进陶罐就能保留这幅图。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:snout_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着方正的鼻口，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:snowball": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "松雪揉成小团，掷出去会散开，遇到烈焰人倒有些用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spire_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着修长的塔线，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stick": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "削直的小木棍还留着细纹，做柄、搭架和点火都能派上用场。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:string": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细丝搓得匀细，拉弓、织布和绊线机关都少不了它。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tide_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着重叠的潮水，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:torchflower_seeds": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗色种子裹着坚实外皮，埋进耕地才能长成火把花。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:trial_key": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜色钥匙齿形分明，找到普通宝库才有锁可开。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:turtle_scute": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "小块硬壳边缘微弯，拼齐以后能做贴头的海龟壳。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:vex_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着尖细的翼形，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ward_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着胸前的监守纹，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:wayfinder_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着通往四方的路径，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:wheat_seeds": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细绿种粒轻得几乎感觉不到，埋进耕地才能长成小麦。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:wild_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄片刻着交错的丛林刻痕，压到护甲上只添纹饰，不改变防护。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:writable_book": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "羽笔夹在空白页间，翻开就能记下路程和见闻。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:written_book": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "墨迹已经落定，翻阅能读出原话，再复制也不会改动内容。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

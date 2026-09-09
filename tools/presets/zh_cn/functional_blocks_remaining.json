@@ -1,0 +1,563 @@
+{
+  "minecraft:anvil": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "厚铁台面平而沉，修补装备和敲定名字都经得起。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:armor_stand": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细木架托着石底座，卸下的盔甲可以整套挂好。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:barrel": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板用箍束紧，盖口朝外就能在狭窄地方取放物品。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:beacon": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "透亮外壳包着发光核心，架在矿物基座上才能照得远。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bell": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黄铜钟身敲起来清脆，悬在村口能把人叫回屋里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blast_furnace": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铁皮围紧炉口，烧矿比石炉快，做饭却用不上。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bookshelf": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "厚书紧紧排进木格，既填墙面，也能给附魔台添些学问。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:campfire": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木柴在矮架里慢烧，围着烤食物时不必另装燃料。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cartography_table": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "平整桌面留着地图格线，复制和缩放图纸都方便。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cauldron": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "厚铁锅壁围得很深，接水、盛雪或储岩浆都稳当。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chain": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黑铁环一个扣着一个，吊灯和悬架都能借它相连。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chest": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板围住一只空箱，盖子上方留空才开得顺。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chipped_anvil": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "台角已经崩掉一块，敲打还能继续，只是余日不多。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_bookshelf": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "六格书槽分别开好，常翻的几本可以各留一个位置。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:composter": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木桶四周留着缝隙，攒下的植物边料能慢慢积成骨粉。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:conduit": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "海晶碎片围着坚硬核心，浸在完整框架中才能护住潜水的人。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crafting_table": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "台面被刀痕分成方格，摊开材料就能做些完整的物件。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:damaged_anvil": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深裂纹穿过铁台，下一次落锤也许就撑不住了。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:decorated_pot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "宽陶腹四面留着纹样，能作摆设，也能收起一类小物件。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:enchanting_table": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色台座托着一本会翻页的书，周围留给书架的位置很要紧。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:end_rod": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细白灯杆两端齐整，狭窄的走廊也放得下。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ender_chest": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗色箱壳边缘透出紫光，开口总通向自己那一份储藏。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:fletching_table": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "台边刻着羽枝图样，摆在村里能供制箭师认领。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flower_pot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "小陶盆口沿厚实，装一株小花就不显空了。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:furnace": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石砌炉膛积着黑灰，烧矿和做饭都够用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glow_item_frame": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "框内的皮面带着亮意，暗处也能看清挂着的物件。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glowstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金黄晶粒结在一起，铺进顶棚就能省去火把。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:grindstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粗磨轮夹在支架上，能磨去附魔，也能拼修两件旧工具。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:item_frame": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄木框绷着皮革底，挂一件样品便能认出箱里装什么。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jack_o_lantern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "雕空的橙皮里藏着火光，既能照明，也留着南瓜的笑脸。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jukebox": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木壳上的窄槽刚好容下一张唱片，放进去便能听完整一曲。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ladder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "短木档固定在两根长条间，贴墙搭起就能省下楼梯的地方。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lantern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铁框护着暖光，挂在门前不会占住通路。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lectern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "斜木板托住书页，放在路口读写都不必弯腰。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lodestone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "灰石外面箍着金属边，指南针碰过就会认准这里。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:loom": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木框拉着整齐的经线，织旗面的图案比徒手省事。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ochre_froglight": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "淡黄光从柔和的表面透出，铺成灯带也不刺眼。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:painting": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄画布绷在木框上，墙面宽些便能挂出大幅图景。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pearlescent_froglight": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浅粉光泽沿表面分布，嵌进白墙里很柔和。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:respawn_anchor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗色框架里留着发光的空槽，充入萤石便能在下界落脚。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:scaffolding": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹杆撑着薄平台，向上接时不必一层层垫实。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sea_lantern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "乳白晶面发着均匀的光，嵌进水池边也照得清楚。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:shroomlight": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橙色菌体里散着亮点，整块藏在叶丛中也能透出光来。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smithing_table": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗色台面包着金属边，升级装备和压入纹饰都有地方落手。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smoker": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木框围着熏烤炉膛，处理食物很快，却熔不开矿石。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:soul_campfire": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蓝色火苗沿木柴跳动，火边很烫，光却照不了太远。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:soul_lantern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "冷蓝火光收在铁壳里，吊在檐下显得安静。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:soul_torch": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木棍顶着一簇蓝火，亮得克制，却能让猪灵避开。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stonecutter": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "圆刃嵌在石台中，修整石阶和边角比整批合成省料。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:torch": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "煤末裹在木棍一端，插下就能照亮眼前的一小片。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:verdant_froglight": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浅绿灯面透着匀光，适合压在庭院小径的边上。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

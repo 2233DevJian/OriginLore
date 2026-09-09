@@ -24,7 +24,6 @@ public abstract class StonecutterScreenHandlerMixin {
         if (stack.isEmpty()) return;
         RecipeEntry<?> recipe = output.inventory instanceof CraftingResultInventory result
                 ? result.getLastRecipe() : null;
-        Originlore.applyCustomComponents(stack, SourceContext.recipe(SourceType.CUTTING,
-                recipe == null ? null : recipe.id()));
+        Originlore.applyCustomComponents(stack, SourceContext.unknown());
     }
 }

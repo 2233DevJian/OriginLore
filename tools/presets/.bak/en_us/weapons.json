@@ -1,0 +1,71 @@
+{
+"minecraft:iron_sword": {
+  "base": { "customName": "Handmade Iron Sword", "loreJson": [ { "text": "An iron sword beaten out by hand. The workmanship varies, but it is easy enough to make.", "color": "green", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 3.0, "max": 4.0 }, "maxDamageRange": [150, 175] },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "masterwork", "weight": 0.1, "rule": { "customName": "Masterwork Iron Sword", "loreJson": [ { "text": "An iron sword forged with real skill. Clean lines, a keen edge, and a fine companion for any adventurer!", "color": "blue", "italic": true, "bold": true } ], "rarity": 1, "attackDamageRange": { "min": 5.0, "max": 5.0 }, "maxDamageRange": [250, 250] } },
+    { "id": "flawed", "weight": 0.9, "rule": { "customName": "Flawed Iron Sword", "loreJson": [ { "text": "The failed result of one particular forging. The edge curls up slightly. It still works, it just will not last...", "color": "white", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 5.0, "max": 5.0 }, "maxDamage": 75 } } ] } ] },
+"minecraft:wooden_sword": {
+  "base": { "customName": "Handmade Wooden Sword", "loreJson": [ { "text": "A whittled wooden sword, and the grip still has splinters on it. It will crack soon enough, but it beats empty hands.", "color": "green", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 1.0, "max": 2.0 }, "maxDamageRange": [35, 41] },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "sturdy", "weight": 0.25, "rule": { "customName": "Sturdy Wooden Sword", "loreJson": [ { "text": "Good timber, and the edges are pared evenly — a wooden sword like this is not a common thing.", "color": "blue", "italic": true } ], "rarity": 1, "attackDamageRange": { "min": 3.0, "max": 3.0 }, "maxDamageRange": [59, 70] } },
+    { "id": "splintered", "weight": 0.75, "rule": { "customName": "Splintered Wooden Sword", "loreJson": [ { "text": "A crack runs clean through the blade. Best not to block too hard with it.", "color": "gray", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 3.0, "max": 3.0 }, "maxDamage": 18 } } ] } ] },
+"minecraft:stone_sword": {
+  "base": { "customName": "Handmade Stone Sword", "loreJson": [ { "text": "A blade ground into stone. Heavy it may be, but before iron it was the only choice there was.", "color": "white", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 2.0, "max": 3.0 }, "maxDamageRange": [78, 91] },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "knapped", "weight": 0.25, "rule": { "customName": "Knapped Stone Sword", "loreJson": [ { "text": "The flakes were struck off layer by layer, which leaves a keener edge than grinding ever does.", "color": "blue", "italic": true } ], "rarity": 1, "attackDamageRange": { "min": 4.0, "max": 4.0 }, "maxDamageRange": [131, 150] } },
+    { "id": "chipped", "weight": 0.75, "rule": { "customName": "Chipped Stone Sword", "loreJson": [ { "text": "Chunks are missing from the edge, so it is closer to a saw than a sword. It still works.", "color": "gray", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 4.0, "max": 4.0 }, "maxDamage": 40 } } ] } ] },
+"minecraft:golden_sword": {
+  "base": { "customName": "Golden Sword", "loreJson": [ { "text": "A sword made of pure gold. Genuinely bright, and genuinely soft.", "color": "yellow", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 1.0, "max": 2.0 }, "maxDamageRange": [19, 22] },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "inlaid", "weight": 0.2, "rule": { "customName": "Gold-Inlaid Sword", "loreJson": [ { "text": "An iron core wrapped in a layer of gold — good to look at, and rather more durable than solid gold.", "color": "yellow", "italic": true } ], "rarity": 1, "attackDamageRange": { "min": 3.0, "max": 3.0 }, "maxDamageRange": [32, 40] } },
+    { "id": "bent", "weight": 0.8, "rule": { "customName": "Bent Golden Sword", "loreJson": [ { "text": "The blade is bent at a considerable angle, and straightening it out would very likely snap it.", "color": "gray", "italic": true } ], "rarity": 0, "attackDamageRange": { "min": 3.0, "max": 3.0 }, "maxDamage": 10 } } ] } ] },
+"minecraft:diamond_sword": {
+  "base": { "customName": "Diamond Sword", "loreJson": [ { "text": "A diamond blade ground extremely sharp. Reassuring just to hold.", "color": "aqua", "italic": true } ], "rarity": 1 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "heroic", "weight": 0.15, "rule": { "customName": "Hero's Diamond Sword", "loreJson": [ { "text": "Faded cloth is wound around the grip. Whoever carried it before clearly got a lot of use out of it.", "color": "gold", "italic": true } ], "rarity": 2, "maxDamageRange": [1561, 1800] } },
+    { "id": "notched", "weight": 0.85, "rule": { "customName": "Notched Diamond Sword", "loreJson": [ { "text": "Several obvious chips along the edge. Still serviceable, though every swing makes you wince.", "color": "white", "italic": true } ], "rarity": 1, "maxDamageRange": [780, 1100] } } ] } ] },
+"minecraft:netherite_sword": {
+  "base": { "customName": "Netherite Sword", "loreJson": [ { "text": "Black and faintly gleaming, and it can be fished back out of lava. This sword does not much care about its surroundings.", "color": "dark_gray", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "SMITHING", "variants": [
+    { "id": "flawless", "weight": 0.2, "rule": { "customName": "Flawless Netherite Sword", "loreJson": [ { "text": "The alloy cladding has not a single seam in it, and the edge does not glint even in the dark.", "color": "light_purple", "italic": true } ], "rarity": 3, "maxDamageRange": [2031, 2300] } },
+    { "id": "cracked", "weight": 0.8, "rule": { "customName": "Cracked Netherite Sword", "loreJson": [ { "text": "The temperature was not held during the upgrade, and a fine crack is left in the alloy layer. It is still frighteningly sharp.", "color": "white", "italic": true } ], "rarity": 2, "maxDamage": 1200 } } ] } ] },
+"minecraft:mace": {
+  "base": { "customName": "Mace", "loreJson": [ { "text": "Absurdly heavy — a missed swing costs you more than a landed one.", "color": "dark_gray", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "VAULT", "variants": [
+    { "id": "trial", "weight": 0.35, "rule": { "customName": "Trial Mace", "loreJson": [ { "text": "Taken out of an ominous vault in a Trial Chamber, and the chisel marks on the head are still fresh.", "color": "light_purple", "italic": true } ], "rarity": 3, "maxDamageRange": [500, 560] } },
+    { "id": "worn", "weight": 0.65, "rule": { "customName": "Worn Mace", "loreJson": [ { "text": "The striking face is already beaten concave. Its last owner clearly used it on more than monsters.", "color": "white", "italic": true } ], "rarity": 2, "maxDamage": 260 } } ] } ] },
+"minecraft:trident": {
+  "base": { "customName": "Trident", "loreJson": [ { "text": "A weapon taken off a drowned, and far better in the water than on dry land.", "color": "aqua", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "ENTITY_DROP", "variants": [
+    { "id": "intact", "weight": 0.3, "rule": { "customName": "Intact Trident", "loreJson": [ { "text": "All three points are undamaged, and it still flies back to the hand when thrown.", "color": "aqua", "italic": true } ], "rarity": 2, "maxDamageRange": [250, 290] } },
+    { "id": "corroded", "weight": 0.7, "rule": { "customName": "Corroded Trident", "loreJson": [ { "text": "It lay on the seabed too long, and the shaft has grown a whole layer of green. It still throws a long way.", "color": "gray", "italic": true } ], "rarity": 1, "maxDamage": 110 } } ] } ] },
+"minecraft:bow": {
+  "base": { "customName": "Bow", "loreJson": [ { "text": "A yew bow with the string drawn none too tight. Reliable enough all the same.", "color": "green", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "recurve", "weight": 0.3, "rule": { "customName": "Recurve Bow", "loreJson": [ { "text": "The limbs curl forward at both ends, and it draws with far more weight than an ordinary bow.", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [460, 540] } },
+    { "id": "warped", "weight": 0.7, "rule": { "customName": "Waterlogged Bow", "loreJson": [ { "text": "The limbs have taken on damp and warped slightly, which costs you a fair bit of range.", "color": "gray", "italic": true } ], "rarity": 0, "maxDamageRange": [200, 280] } } ] } ] },
+"minecraft:crossbow": {
+  "base": { "customName": "Crossbow", "loreJson": [ { "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count.", "color": "green", "italic": true } ], "rarity": 0, "maxDamageRange": [280, 370] },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "steel", "weight": 0.25, "rule": { "customName": "Steel-Reinforced Crossbow", "loreJson": [ { "text": "The prod is capped with iron, and the trigger has a short, clean pull.", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [465, 540] } },
+    { "id": "slack", "weight": 0.75, "rule": { "customName": "Slack Crossbow", "loreJson": [ { "text": "The string has gone slack and will not carry far even at full draw. Fit a new one and it is a good crossbow again.", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 190 } } ] } ] },
+"minecraft:shield": {
+  "base": { "customName": "Shield", "loreJson": [ { "text": "A plank and a lump of iron. The first blow it turns has already paid for it.", "color": "green", "italic": true } ], "rarity": 0, "maxDamageRange": [200, 270] },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "heraldic", "weight": 0.25, "rule": { "customName": "Heraldic Shield", "loreJson": [ { "text": "A crest is painted across the face, past reading now, though most of the paint is still there.", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [336, 400] } },
+    { "id": "split", "weight": 0.75, "rule": { "customName": "Split Shield", "loreJson": [ { "text": "The crack down the middle is held together by iron nails. Not reassuring against a heavy blow, but it is what there is.", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 120 } } ] } ] },
+"minecraft:arrow": {
+  "base": { "customName": "Arrow", "loreJson": [ { "text": "The fletching is still even, so it will not wander in flight.", "color": "white", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "ENTITY_DROP", "variants": [
+    { "id": "reclaimed", "weight": 1.0, "rule": { "customName": "Reclaimed Arrow", "loreJson": [ { "text": "Picked up off a skeleton, tooth marks on the shaft and all. A wipe down and it is good again.", "color": "gray", "italic": true } ], "rarity": 0 } } ] } ] },
+"minecraft:spectral_arrow": {
+  "base": { "customName": "Spectral Arrow", "loreJson": [ { "text": "Whatever it hits keeps on glowing. Nothing hides after that.", "color": "yellow", "italic": true } ], "rarity": 1 } },
+"minecraft:fire_charge": {
+  "base": { "customName": "Fire Charge", "loreJson": [ { "text": "Warm to hold. Throw it and it leaves a trail of fire behind, your own sleeves included.", "color": "red", "italic": true } ], "rarity": 0 } },
+"minecraft:wind_charge": {
+  "base": { "customName": "Wind Charge", "loreJson": [ { "text": "A small pocket of held-in wind. Thrown, it will push someone off a cliff — the thrower included.", "color": "white", "italic": true } ], "rarity": 0 } },
+"minecraft:firework_rocket": {
+  "base": { "customName": "Firework Rocket", "loreJson": [ { "text": "It will lift you a good way and light up the sky while it does. Best not used near the ground facing a wall.", "color": "white", "italic": true } ], "rarity": 0 } },
+"minecraft:firework_star": {
+  "base": { "customName": "Firework Star", "loreJson": [ { "text": "A packed ball of gunpowder. What colour it bursts into depends entirely on what went into it.", "color": "aqua", "italic": true } ], "rarity": 0 } }
+}

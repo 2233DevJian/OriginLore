@@ -1,0 +1,519 @@
+{
+  "minecraft:acacia_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Acacia planks enclose a shallow hull, with two oars enough to carry two passengers across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Half the acacia hull is set aside for a chest, letting one rower carry a load across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_chest_raft": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest is tied to the bamboo deck, leaving one seat for the rower beside the load.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_raft": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bound bamboo makes a broad flat deck that carries two seated passengers across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Birch planks enclose a shallow hull, with two oars enough to carry two passengers across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Half the birch hull is set aside for a chest, letting one rower carry a load across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bowl": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The shallow wooden bowl is scraped smooth inside and ready for another helping after use.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cherry planks enclose a shallow hull, with two oars enough to carry two passengers across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Half the cherry hull is set aside for a chest, letting one rower carry a load across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:creeper_head": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Square features remain in the green skin, delaying a creeper's notice of the wearer.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark oak planks enclose a shallow hull, with two oars enough to carry two passengers across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Half the dark oak hull is set aside for a chest, letting one rower carry a load across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dragon_egg": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The purple-black shell is thick and bright, shifting away at a touch and requiring care to collect.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dragon_head": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A long black jaw joins stout horns, opening and closing under redstone power.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:end_crystal": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A pink crystal floats in a fine frame, exploding violently when broken and needing clear space.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Jungle wood planks enclose a shallow hull, with two oars enough to carry two passengers across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Half the jungle wood hull is set aside for a chest, letting one rower carry a load across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mangrove planks enclose a shallow hull, with two oars enough to carry two passengers across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Half the mangrove hull is set aside for a chest, letting one rower carry a load across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_11": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The disc edge is broken, its grooves holding hurried steps and heavy breathing.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_13": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine grooves cross the dark disc and play hollow echoes in a jukebox.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_5": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Joins remain in the restored disc, its broken sounds suggesting an unfinished account.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_blocks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "An orange centre marks the black disc, with a lively tune for a stretch of work.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_cat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A green centre marks a light electronic tune that gives an empty room some life.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_chirp": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine grooves surround a red centre, playing a readily recognisable old-record tune.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_creator": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A clear yellow-green centre marks a tune that builds in layers to fill a quiet room.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_creator_music_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The pale-yellow centre resembles a little mechanism, playing the tune in clear music-box notes.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_far": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A blue-green centre sits on the thin black disc, carrying an open, unhurried melody.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_mall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A neat purple centre marks a gentle tune that fills a quiet room.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_mellohi": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Purple and white turn in the centre, with a slow waltz rhythm that sounds well worn.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_otherside": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bright blue-green marks the centre as the tune grows from light phrases into a fuller arrangement.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_pigstep": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A gold centre sits in the red disc, with a firm low beat that fills a broad hall.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_precipice": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark grooves circle a purple-grey centre, their close rhythm steadily approaching.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_relic": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A brown centre resembles old clay, with an even electronic tune worth hearing through.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_stal": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The nearly black disc is plain, with a clear recorder voice over its jazz rhythm.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_strad": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A clean white centre marks an easy tune that seems to arrive from a distance.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_wait": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A deep-blue centre marks a familiar melody set to an easy rhythm.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_ward": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A dark-green centre sits in the black disc, moving from a solemn opening into a lighter tune.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Oak planks enclose a shallow hull, with two oars enough to carry two passengers across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Half the oak hull is set aside for a chest, letting one rower carry a load across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:piglin_head": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Broad ears hang beside the gold-brown face and move when supplied with redstone.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:skeleton_skull": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Empty eye sockets mark the white bone, making skeletons slower to notice its wearer.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Spruce planks enclose a shallow hull, with two oars enough to carry two passengers across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Half the spruce hull is set aside for a chest, letting one rower carry a load across water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:totem_of_undying": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Green eyes shine in the little gold figure, which must be held to withstand a fatal blow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:wither_skeleton_skull": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark bone is heavy and rough, more than decoration when placed in a soul-sand formation.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:zombie_head": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The green face has stiffened, reducing the distance at which zombies notice its wearer.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

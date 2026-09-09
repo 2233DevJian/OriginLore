@@ -3,11 +3,11 @@ package com.originlore.screen;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.originlore.client.ClientConfigSession;
+import com.originlore.client.GuiText;
 import com.originlore.config.ItemComponentConfig.ConfigSnapshot;
 import com.originlore.config.ItemComponentConfig.ComponentRule;
 import com.originlore.config.ItemComponentConfig.FoodRule;
 import com.originlore.config.ItemComponentConfig.ItemEntry;
-import com.originlore.config.ItemComponentConfig.NumberRange;
 import com.originlore.config.ItemComponentConfig.SourceRule;
 import com.originlore.config.ItemComponentConfig.Variant;
 import com.originlore.source.SourceContext.SourceType;
@@ -28,6 +28,7 @@ import java.util.Map;
 /** Transactional editor for base, source and variant rules. */
 public final class ComponentEditorScreen extends Screen {
     private enum Page { TEXT, NUMBERS, FOOD, COMPONENTS }
+    private boolean itemNameMode = true;
 
     private static final String[] COLORS = {"", "white", "gray", "green", "aqua", "gold", "red", "light_purple"};
     private final Screen parent;
@@ -52,16 +53,9 @@ public final class ComponentEditorScreen extends Screen {
     private TextFieldWidget itemIdField;
     private TextFieldWidget nameField;
     private LoreTextAreaWidget loreField;
-    private TextFieldWidget maxStackField;
-    private TextFieldWidget maxDamageField;
     private TextFieldWidget currentDamageField;
     private TextFieldWidget rarityField;
     private TextFieldWidget customModelField;
-    private TextFieldWidget attackMinField;
-    private TextFieldWidget attackMaxField;
-    private TextFieldWidget nutritionField;
-    private TextFieldWidget saturationField;
-    private TextFieldWidget eatSecondsField;
     private TextFieldWidget variantWeightField;
     private int variantWeightSummaryX;
     private boolean nameDirty;
@@ -74,7 +68,7 @@ public final class ComponentEditorScreen extends Screen {
     private final List<IdSuggestionController> suggestions = new ArrayList<>();
 
     public ComponentEditorScreen(Screen parent, String itemId) {
-        super(Text.literal(isConfigured(itemId) ? "编辑物品规则" : "新增物品规则"));
+        super(Text.literal(isConfigured(itemId) ? GuiText.string("originlore.editor.edit_item") : GuiText.string("originlore.editor.add_item")));
         this.parent = parent;
         this.originalItemId = itemId;
         ConfigSnapshot current = ClientConfigSession.snapshot();
@@ -113,75 +107,85 @@ public final class ComponentEditorScreen extends Screen {
             case COMPONENTS -> buildComponentsPage();
         }
 
-        saveButton = ButtonWidget.builder(Text.literal("保存"), button -> save())
+        saveButton = ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.save")), button -> save())
                 .dimensions(width / 2 - 96, height - 27, 92, 20).build();
         saveButton.active = canSaveCurrentRevision();
         addDrawableChild(saveButton);
-        addDrawableChild(ButtonWidget.builder(Text.literal("取消"), button -> close())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.cancel")), button -> close())
                 .dimensions(width / 2 + 4, height - 27, 92, 20).build());
     }
 
     private void buildHierarchy(int left, int panelWidth) {
-        int y = 36;
-        addDrawableChild(ButtonWidget.builder(Text.literal(sourceIndex < 0 ? "> 基础规则" : "基础规则"), button -> select(-1, -1))
-                .dimensions(left, y, panelWidth, 20).build());
-        y += 30;
-
-        int visibleSources = Math.max(2, Math.min(5, (height - 235) / 22));
+        addDrawableChild(ButtonWidget.builder(GuiText.text(sourceIndex < 0
+                ? "originlore.editor.selected_base" : "originlore.editor.base"), button -> select(-1, -1))
+                .dimensions(left, 36, panelWidth, 20).build());
+        int y = 64;
+        int visibleSources = Math.max(1, Math.min(5, sourceIndex < 0 ? (height - 136) / 22 : (height - 210) / 44));
         sourceOffset = Math.max(0, Math.min(sourceOffset, Math.max(0, working.sources.size() - visibleSources)));
         for (int row = 0; row < visibleSources && sourceOffset + row < working.sources.size(); row++) {
             int index = sourceOffset + row;
             SourceRule source = working.sources.get(index);
-            String prefix = sourceIndex == index ? "> " : "";
-            Text label = Text.literal(prefix + (index + 1) + ". ").append(SourceTypeDisplay.name(source.type));
+            Text label = Text.literal((sourceIndex == index ? "> " : "") + (index + 1) + ". ")
+                    .append(SourceTypeDisplay.name(source.type));
             addDrawableChild(ButtonWidget.builder(label, button -> select(index, -1))
                     .dimensions(left, y, panelWidth, 20).build());
             y += 22;
         }
-        if (working.sources.size() > visibleSources) {
-            addDrawableChild(ButtonWidget.builder(Text.literal("^"), button -> {
-                sourceOffset = Math.max(0, sourceOffset - 1);
-                rebuildWithoutCollect();
-            }).dimensions(left, y, panelWidth / 2 - 1, 18).build());
-            addDrawableChild(ButtonWidget.builder(Text.literal("v"), button -> {
-                sourceOffset = Math.min(Math.max(0, working.sources.size() - visibleSources), sourceOffset + 1);
-                rebuildWithoutCollect();
-            }).dimensions(left + panelWidth / 2 + 1, y, panelWidth / 2 - 1, 18).build());
-            y += 20;
+        int unit = (panelWidth - 9) / 4;
+        hierarchyButton(left, y, unit, "<", "originlore.action.previous", sourceOffset > 0, () -> {
+            if (!collectFields()) return;
+            sourceOffset--;
+            rebuildWithoutCollect();
+        });
+        hierarchyButton(left + unit + 3, y, unit, ">", "originlore.action.next",
+                sourceOffset + visibleSources < working.sources.size(), () -> {
+            if (!collectFields()) return;
+            sourceOffset++;
+            rebuildWithoutCollect();
+        });
+        hierarchyButton(left + (unit + 3) * 2, y, unit, "+", "originlore.editor.add_source", true, this::addSource);
+        hierarchyButton(left + (unit + 3) * 3, y, unit, "-", "originlore.editor.remove_source",
+                sourceIndex >= 0, this::removeSource);
+        y += 28;
+        if (sourceIndex < 0 || sourceIndex >= working.sources.size()) return;
+        List<Variant> variants = working.sources.get(sourceIndex).variants;
+        int visibleVariants = Math.max(1, Math.min(4, (height - y - 75) / 22));
+        variantOffset = Math.max(0, Math.min(variantOffset, Math.max(0, variants.size() - visibleVariants)));
+        double totalWeight = variants.stream().filter(value -> value != null && value.weight > 0)
+                .mapToDouble(value -> value.weight).sum();
+        for (int row = 0; row < visibleVariants && variantOffset + row < variants.size(); row++) {
+            int index = variantOffset + row;
+            Variant variant = variants.get(index);
+            double probability = totalWeight > 0 && variant.weight > 0 ? variant.weight / totalWeight * 100.0 : 0.0;
+            String label = (variantIndex == index ? "> " : "") + variant.id + " " + formatWeight(variant.weight)
+                    + " (" + formatWeight(probability) + "%)";
+            addDrawableChild(ButtonWidget.builder(Text.literal(label), button -> select(sourceIndex, index))
+                    .dimensions(left, y, panelWidth, 20).build());
+            y += 22;
         }
-        addDrawableChild(ButtonWidget.builder(Text.literal("+ 来源"), button -> addSource())
-                .dimensions(left, y, panelWidth / 2 - 1, 20).build());
-        ButtonWidget removeSource = ButtonWidget.builder(Text.literal("- 来源"), button -> removeSource())
-                .dimensions(left + panelWidth / 2 + 1, y, panelWidth / 2 - 1, 20).build();
-        removeSource.active = sourceIndex >= 0;
-        addDrawableChild(removeSource);
-        y += 31;
+        hierarchyButton(left, y, unit, "<", "originlore.action.previous", variantOffset > 0, () -> {
+            if (!collectFields()) return;
+            variantOffset--;
+            rebuildWithoutCollect();
+        });
+        hierarchyButton(left + unit + 3, y, unit, ">", "originlore.action.next",
+                variantOffset + visibleVariants < variants.size(), () -> {
+            if (!collectFields()) return;
+            variantOffset++;
+            rebuildWithoutCollect();
+        });
+        hierarchyButton(left + (unit + 3) * 2, y, unit, "+", "originlore.editor.add_variant", true, this::addVariant);
+        hierarchyButton(left + (unit + 3) * 3, y, unit, "-", "originlore.editor.remove_variant",
+                variantIndex >= 0, this::removeVariant);
+    }
 
-        if (sourceIndex >= 0 && sourceIndex < working.sources.size()) {
-            List<Variant> variants = working.sources.get(sourceIndex).variants;
-            int visibleVariants = Math.max(2, Math.min(4, (height - y - 82) / 22));
-            variantOffset = Math.max(0, Math.min(variantOffset, Math.max(0, variants.size() - visibleVariants)));
-            for (int row = 0; row < visibleVariants && variantOffset + row < variants.size(); row++) {
-                int index = variantOffset + row;
-                Variant variant = variants.get(index);
-                String prefix = variantIndex == index ? "> " : "";
-                double totalWeight = variants.stream().filter(value -> value != null && value.weight > 0)
-                        .mapToDouble(value -> value.weight).sum();
-                double probability = totalWeight > 0 && variant.weight > 0
-                        ? variant.weight / totalWeight * 100.0 : 0.0;
-                String label = prefix + variant.id + "  " + formatWeight(variant.weight)
-                        + " (" + formatWeight(probability) + "%)";
-                addDrawableChild(ButtonWidget.builder(Text.literal(label), button -> select(sourceIndex, index))
-                        .dimensions(left, y, panelWidth, 20).build());
-                y += 22;
-            }
-            addDrawableChild(ButtonWidget.builder(Text.literal("+ 变体"), button -> addVariant())
-                    .dimensions(left, y, panelWidth / 2 - 1, 20).build());
-            ButtonWidget removeVariant = ButtonWidget.builder(Text.literal("- 变体"), button -> removeVariant())
-                    .dimensions(left + panelWidth / 2 + 1, y, panelWidth / 2 - 1, 20).build();
-            removeVariant.active = variantIndex >= 0;
-            addDrawableChild(removeVariant);
-        }
+    private void hierarchyButton(int x, int y, int buttonWidth, String symbol, String tooltip,
+                                 boolean active, Runnable action) {
+        ButtonWidget button = ButtonWidget.builder(Text.literal(symbol), ignored -> action.run())
+                .dimensions(x, y, buttonWidth, 18)
+                .tooltip(net.minecraft.client.gui.tooltip.Tooltip.of(GuiText.text(tooltip))).build();
+        button.active = active;
+        addDrawableChild(button);
     }
 
     private void buildHeader() {
@@ -193,7 +197,7 @@ public final class ComponentEditorScreen extends Screen {
         final int variantWeightFieldY = 68;
         int settingsWidth = sourceIndex >= 0 ? Math.min(82, Math.max(68, rightWidth / 3)) : 0;
         int itemWidth = settingsWidth == 0 ? rightWidth : rightWidth - settingsWidth - 6;
-        itemIdField = new TextFieldWidget(textRenderer, rightX, itemIdY, itemWidth, 20, Text.literal("物品 ID"));
+        itemIdField = new TextFieldWidget(textRenderer, rightX, itemIdY, itemWidth, 20, Text.literal(GuiText.string("originlore.editor.item_id")));
         itemIdField.setMaxLength(256);
         itemIdField.setText(working.itemId == null ? "" : working.itemId);
         itemIdField.setEditable(originalItemId == null);
@@ -202,20 +206,20 @@ public final class ComponentEditorScreen extends Screen {
         suggestions.add(itemSuggestions);
 
         if (sourceIndex >= 0 && sourceIndex < working.sources.size()) {
-            addDrawableChild(ButtonWidget.builder(Text.literal("来源设置"), button -> openSourceMetadata())
+            addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.source_settings")), button -> openSourceMetadata())
                     .dimensions(rightX + itemWidth + 6, itemIdY, settingsWidth, 20).build());
         }
         addDrawableChild(itemIdField);
 
-        if (sourceIndex >= 0 && sourceIndex < working.sources.size()
+        if (height >= 330 && sourceIndex >= 0 && sourceIndex < working.sources.size()
                 && variantIndex >= 0 && variantIndex < working.sources.get(sourceIndex).variants.size()) {
             Variant variant = working.sources.get(sourceIndex).variants.get(variantIndex);
             boolean compactHeader = rightWidth < 300;
             int weightWidth = compactHeader ? rightWidth : Math.max(92, (rightWidth - 6) / 2);
             variantWeightField = new TextFieldWidget(textRenderer, rightX, variantWeightFieldY, weightWidth, 20,
-                    Text.literal("当前变体权重"));
+                    Text.literal(GuiText.string("originlore.editor.variant_weight")));
             variantWeightField.setMaxLength(32);
-            variantWeightField.setPlaceholder(Text.literal("权重，例如 80 或 80%"));
+            variantWeightField.setPlaceholder(Text.literal(GuiText.string("originlore.editor.weight_hint")));
             variantWeightField.setText(Double.toString(variant.weight));
             variantWeightField.setChangedListener(value -> {
                 status = "";
@@ -237,14 +241,14 @@ public final class ComponentEditorScreen extends Screen {
 
     private void buildPageTabs() {
         int y = formTop - 21;
-        int tabWidth = Math.max(44, (rightWidth - 12) / 4);
-        addDrawableChild(ButtonWidget.builder(Text.literal(page == Page.TEXT ? "[文本]" : "文本"), button -> switchPage(Page.TEXT))
+        int tabWidth = (rightWidth - 12) / 4;
+        addDrawableChild(ButtonWidget.builder(Text.literal(page == Page.TEXT ? GuiText.string("originlore.editor.tab_text_active") : GuiText.string("originlore.editor.tab_text")), button -> switchPage(Page.TEXT))
                 .dimensions(rightX, y, tabWidth, 20).build());
-        addDrawableChild(ButtonWidget.builder(Text.literal(page == Page.NUMBERS ? "[数值]" : "数值"), button -> switchPage(Page.NUMBERS))
+        addDrawableChild(ButtonWidget.builder(Text.literal(page == Page.NUMBERS ? GuiText.string("originlore.editor.tab_numbers_active") : GuiText.string("originlore.editor.tab_numbers")), button -> switchPage(Page.NUMBERS))
                 .dimensions(rightX + tabWidth + 4, y, tabWidth, 20).build());
-        addDrawableChild(ButtonWidget.builder(Text.literal(page == Page.FOOD ? "[食物]" : "食物"), button -> switchPage(Page.FOOD))
+        addDrawableChild(ButtonWidget.builder(Text.literal(page == Page.FOOD ? GuiText.string("originlore.editor.tab_food_active") : GuiText.string("originlore.editor.tab_food")), button -> switchPage(Page.FOOD))
                 .dimensions(rightX + (tabWidth + 4) * 2, y, tabWidth, 20).build());
-        addDrawableChild(ButtonWidget.builder(Text.literal(page == Page.COMPONENTS ? "[能力]" : "能力"),
+        addDrawableChild(ButtonWidget.builder(Text.literal(page == Page.COMPONENTS ? GuiText.string("originlore.editor.tab_components_active") : GuiText.string("originlore.editor.tab_components")),
                 button -> switchPage(Page.COMPONENTS))
                 .dimensions(rightX + (tabWidth + 4) * 3, y,
                         rightWidth - (tabWidth + 4) * 3, 20).build());
@@ -253,14 +257,20 @@ public final class ComponentEditorScreen extends Screen {
     private void buildTextPage() {
         ComponentRule rule = currentRule();
         loadStyle(rule);
-        nameField = new TextFieldWidget(textRenderer, rightX, formTop + 12, rightWidth, 20, Text.literal("自定义名称"));
+        nameField = new TextFieldWidget(textRenderer, rightX, formTop + 12, rightWidth - 82, 20,
+                GuiText.text(itemNameMode ? "originlore.name.item" : "originlore.name.custom"));
         nameField.setMaxLength(2048);
         nameField.setText(extractName(rule));
         nameField.setChangedListener(value -> nameDirty = true);
         addDrawableChild(nameField);
+        addDrawableChild(ButtonWidget.builder(GuiText.text(itemNameMode ? "originlore.name.item" : "originlore.name.custom"), button -> {
+            if (!collectFields()) return;
+            itemNameMode = !itemNameMode;
+            rebuildWithoutCollect();
+        }).dimensions(rightX + rightWidth - 78, formTop + 12, 78, 20).build());
 
         loreField = new LoreTextAreaWidget(textRenderer, rightX, formTop + 47, rightWidth, 40,
-                Text.literal("每行一条 Lore"), Text.literal("Lore"));
+                Text.literal(GuiText.string("originlore.editor.lore_hint")), Text.literal("Lore"));
         loreField.setMaxLength(16384);
         loreField.setText(extractLore(rule));
         loreField.setChangeListener(value -> loreDirty = true);
@@ -283,12 +293,12 @@ public final class ComponentEditorScreen extends Screen {
             button.setMessage(styleLabel("I", italic));
         }).dimensions(rightX + 46, y, 42, 20).build();
         addDrawableChild(italicButton);
-        addDrawableChild(ButtonWidget.builder(Text.literal("颜色: " + (color.isEmpty() ? "继承" : color)), button -> {
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.color") + (color.isEmpty() ? GuiText.string("originlore.editor.inherit") : color)), button -> {
             int index = 0;
             for (int i = 0; i < COLORS.length; i++) if (COLORS[i].equals(color)) index = i;
             color = COLORS[(index + 1) % COLORS.length];
             styleDirty = true;
-            button.setMessage(Text.literal("颜色: " + (color.isEmpty() ? "继承" : color)));
+            button.setMessage(Text.literal(GuiText.string("originlore.editor.color") + (color.isEmpty() ? GuiText.string("originlore.editor.inherit") : color)));
         }).dimensions(rightX + 92, y, Math.max(80, rightWidth - 92), 20).build());
 
     }
@@ -297,23 +307,16 @@ public final class ComponentEditorScreen extends Screen {
         ComponentRule rule = currentRule();
         int gap = 6;
         int half = (rightWidth - gap) / 2;
-        maxStackField = field(rightX, formTop + 10, half, rule.maxStackSize, "最大堆叠");
-        maxDamageField = field(rightX + half + gap, formTop + 10, half, rule.maxDamage, "最大耐久");
-        currentDamageField = field(rightX, formTop + 38, half, rule.currentDamage, "当前耐久损耗");
-        rarityField = new TextFieldWidget(textRenderer, rightX + half + gap, formTop + 38, half, 20, Text.literal("稀有度"));
+        addDrawableChild(ButtonWidget.builder(GuiText.text("originlore.number.equipment"), button -> {
+            if (collectFields() && client != null) client.setScreen(RuleNumericSettings.equipment(this, working.itemId, currentRule(), this::setCurrentRule));
+        }).dimensions(rightX, formTop + 10, rightWidth, 20).build());
+        currentDamageField = field(rightX, formTop + 38, half, rule.currentDamage, GuiText.string("originlore.editor.current_damage"));
+        rarityField = new TextFieldWidget(textRenderer, rightX + half + gap, formTop + 38, half, 20, Text.literal(GuiText.string("originlore.editor.rarity")));
         rarityField.setMaxLength(16);
         rarityField.setPlaceholder(Text.literal("COMMON / 0-3"));
         rarityField.setText(rule.rarityName != null ? rule.rarityName : rule.rarity == null ? "" : rule.rarity.toString());
         addDrawableChild(rarityField);
-        customModelField = field(rightX, formTop + 66, half, rule.customModelData, "自定义模型数据");
-        attackMinField = new TextFieldWidget(textRenderer, rightX, formTop + 94, half, 20, Text.literal("攻击伤害最小值"));
-        attackMaxField = new TextFieldWidget(textRenderer, rightX + half + gap, formTop + 94, half, 20, Text.literal("攻击伤害最大值"));
-        attackMinField.setPlaceholder(Text.literal("攻击伤害最小值"));
-        attackMaxField.setPlaceholder(Text.literal("攻击伤害最大值"));
-        attackMinField.setText(rule.attackDamageRange == null ? "" : Double.toString(rule.attackDamageRange.min));
-        attackMaxField.setText(rule.attackDamageRange == null ? "" : Double.toString(rule.attackDamageRange.max));
-        addDrawableChild(attackMinField);
-        addDrawableChild(attackMaxField);
+        customModelField = field(rightX, formTop + 66, half, rule.customModelData, GuiText.string("originlore.editor.custom_model"));
     }
 
     private void buildFoodPage() {
@@ -321,22 +324,16 @@ public final class ComponentEditorScreen extends Screen {
         FoodRule food = rule.food;
         int gap = 6;
         int half = (rightWidth - gap) / 2;
-        nutritionField = field(rightX, formTop + 12, half, food == null ? null : food.nutrition, "营养值");
-        saturationField = new TextFieldWidget(textRenderer, rightX + half + gap, formTop + 12, half, 20, Text.literal("饱和度"));
-        saturationField.setPlaceholder(Text.literal("饱和度"));
-        saturationField.setText(food == null || food.saturation == null ? "" : food.saturation.toString());
-        addDrawableChild(saturationField);
-        eatSecondsField = new TextFieldWidget(textRenderer, rightX, formTop + 47, half, 20, Text.literal("食用秒数"));
-        eatSecondsField.setPlaceholder(Text.literal("食用秒数"));
-        eatSecondsField.setText(food == null || food.eatSeconds == null ? "" : food.eatSeconds.toString());
-        addDrawableChild(eatSecondsField);
+        addDrawableChild(ButtonWidget.builder(GuiText.text("originlore.number.food"), button -> {
+            if (collectFields() && client != null) client.setScreen(RuleNumericSettings.food(this, working.itemId, currentRule(), this::setCurrentRule));
+        }).dimensions(rightX, formTop + 12, rightWidth, 20).build());
         Boolean always = food == null ? null : food.canAlwaysEat;
-        addDrawableChild(triStateButton("随时食用", always, value -> {
+        addDrawableChild(triStateButton(GuiText.string("originlore.editor.always_eat"), always, value -> {
             FoodRule target = ensureFood(rule);
             target.canAlwaysEat = value;
             clearFoodIfEmpty(rule);
-        }, rightX + half + gap, formTop + 47, half));
-        addDrawableChild(ButtonWidget.builder(Text.literal("编辑食物状态效果"), button -> openFoodEffects())
+        }, rightX, formTop + 47, rightWidth));
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.edit_food_effects")), button -> openFoodEffects())
                 .dimensions(rightX, formTop + 82, rightWidth, 20).build());
     }
 
@@ -344,24 +341,24 @@ public final class ComponentEditorScreen extends Screen {
         ComponentRule rule = currentRule();
         int gap = 6;
         int half = (rightWidth - gap) / 2;
-        addDrawableChild(ButtonWidget.builder(Text.literal("附魔与存储附魔"), button -> openEnchantments())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.enchantments")), button -> openEnchantments())
                 .dimensions(rightX, formTop + 12, half, 20).build());
-        addDrawableChild(ButtonWidget.builder(Text.literal("属性修饰符"), button -> openAttributes())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.attributes")), button -> openAttributes())
                 .dimensions(rightX + half + gap, formTop + 12, half, 20).build());
-        addDrawableChild(ButtonWidget.builder(Text.literal("工具挖掘规则"), button -> openToolRules())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.tool_mining")), button -> openToolRules())
                 .dimensions(rightX, formTop + 36, half, 20).build());
-        addDrawableChild(ButtonWidget.builder(Text.literal("食物状态效果"), button -> openFoodEffects())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.food_effects")), button -> openFoodEffects())
                 .dimensions(rightX + half + gap, formTop + 36, half, 20).build());
-        addDrawableChild(ButtonWidget.builder(Text.literal("高级数据组件"), button -> openAdvancedComponents())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.advanced")), button -> openAdvancedComponents())
                 .dimensions(rightX, formTop + 60, half, 20).build());
-        addDrawableChild(ButtonWidget.builder(Text.literal("完整规则 JSON"), button -> openRawEditor())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.rule_json")), button -> openRawEditor())
                 .dimensions(rightX + half + gap, formTop + 60, half, 20).build());
         int triWidth = Math.max(52, (rightWidth - 8) / 3);
-        addDrawableChild(triStateButton("防火", rule.fireResistant, value -> rule.fireResistant = value,
+        addDrawableChild(triStateButton(GuiText.string("originlore.editor.fire_resistant"), rule.fireResistant, value -> rule.fireResistant = value,
                 rightX, formTop + 84, triWidth));
-        addDrawableChild(triStateButton("隐藏提示", rule.hideTooltip, value -> rule.hideTooltip = value,
+        addDrawableChild(triStateButton(GuiText.string("originlore.editor.hide_tooltip"), rule.hideTooltip, value -> rule.hideTooltip = value,
                 rightX + triWidth + 4, formTop + 84, triWidth));
-        addDrawableChild(triStateButton("隐藏附加", rule.hideAdditionalTooltip,
+        addDrawableChild(triStateButton(GuiText.string("originlore.editor.hide_additional"), rule.hideAdditionalTooltip,
                 value -> rule.hideAdditionalTooltip = value,
                 rightX + (triWidth + 4) * 2, formTop + 84,
                 rightWidth - (triWidth + 4) * 2));
@@ -387,7 +384,7 @@ public final class ComponentEditorScreen extends Screen {
     }
 
     private static String triStateLabel(String label, Boolean value) {
-        return label + ": " + (value == null ? "继承" : value ? "是" : "否");
+        return label + ": " + (value == null ? GuiText.string("originlore.editor.inherit") : value ? GuiText.string("originlore.editor.yes") : GuiText.string("originlore.editor.no"));
     }
 
     private static Text styleLabel(String text, boolean active) {
@@ -467,7 +464,7 @@ public final class ComponentEditorScreen extends Screen {
                 || variantIndex < 0 || variantIndex >= working.sources.get(sourceIndex).variants.size()) return;
         double weight = parseWeight(variantWeightField.getText());
         if (!Double.isFinite(weight) || weight < 0) {
-            throw new IllegalArgumentException("变体权重必须是有限的非负数");
+            throw new IllegalArgumentException(GuiText.string("originlore.editor.weight_nonnegative"));
         }
         working.sources.get(sourceIndex).variants.get(variantIndex).weight = weight;
     }
@@ -475,13 +472,13 @@ public final class ComponentEditorScreen extends Screen {
     private static double parseWeight(String raw) {
         String value = raw == null ? "" : raw.trim();
         if (value.endsWith("%")) value = value.substring(0, value.length() - 1).trim();
-        if (value.isEmpty()) throw new IllegalArgumentException("变体权重不能为空");
+        if (value.isEmpty()) throw new IllegalArgumentException(GuiText.string("originlore.editor.weight_required"));
         try {
             double weight = Double.parseDouble(value);
             if (!Double.isFinite(weight)) throw new NumberFormatException();
             return weight;
         } catch (NumberFormatException exception) {
-            throw new IllegalArgumentException("变体权重必须是数字，可输入 80 或 80%");
+            throw new IllegalArgumentException(GuiText.string("originlore.editor.weight_invalid"));
         }
     }
 
@@ -494,7 +491,10 @@ public final class ComponentEditorScreen extends Screen {
     private void collectText(ComponentRule rule) {
         if (nameField != null && (nameDirty || styleDirty)) {
             String value = nameField.getText();
-            if (value.isEmpty()) {
+            if (itemNameMode) {
+                rule.itemName = value.isEmpty() || hasStyle() ? null : value;
+                rule.itemNameJson = value.isEmpty() || !hasStyle() ? null : styledText(value);
+            } else if (value.isEmpty()) {
                 rule.customName = null;
                 rule.customNameJson = null;
             } else if (hasStyle()) {
@@ -525,10 +525,8 @@ public final class ComponentEditorScreen extends Screen {
     }
 
     private void collectNumbers(ComponentRule rule) {
-        rule.maxStackSize = parseInteger(maxStackField, "最大堆叠");
-        rule.maxDamage = parseInteger(maxDamageField, "最大耐久");
-        rule.currentDamage = parseInteger(currentDamageField, "当前耐久损耗");
-        rule.customModelData = parseInteger(customModelField, "自定义模型数据");
+        rule.currentDamage = parseInteger(currentDamageField, GuiText.string("originlore.editor.current_damage"));
+        rule.customModelData = parseInteger(customModelField, GuiText.string("originlore.editor.custom_model"));
         String rarity = rarityField == null ? "" : rarityField.getText().trim();
         rule.rarity = null;
         rule.rarityName = null;
@@ -539,22 +537,9 @@ public final class ComponentEditorScreen extends Screen {
                 rule.rarityName = rarity.toUpperCase(Locale.ROOT);
             }
         }
-        Double min = parseDouble(attackMinField, "攻击伤害最小值");
-        Double max = parseDouble(attackMaxField, "攻击伤害最大值");
-        if (min == null && max == null) rule.attackDamageRange = null;
-        else if (min == null || max == null || min > max) throw new IllegalArgumentException("攻击伤害范围必须填写有效的最小值和最大值");
-        else rule.attackDamageRange = new NumberRange(min, max);
     }
 
     private void collectFood(ComponentRule rule) {
-        Integer nutrition = parseInteger(nutritionField, "营养值");
-        Float saturation = parseFloat(saturationField, "饱和度");
-        Float seconds = parseFloat(eatSecondsField, "食用秒数");
-        if (nutrition == null && saturation == null && seconds == null && rule.food == null) return;
-        FoodRule food = ensureFood(rule);
-        food.nutrition = nutrition;
-        food.saturation = saturation;
-        food.eatSeconds = seconds;
         clearFoodIfEmpty(rule);
     }
 
@@ -587,22 +572,22 @@ public final class ComponentEditorScreen extends Screen {
 
     private void openAttributes() {
         if (!collectFields() || client == null) return;
-        client.setScreen(new AttributesEditorScreen(this, currentRule(), this::setCurrentRule));
+        client.setScreen(new AttributesEditorScreen(this, working.itemId, currentRule(), this::setCurrentRule));
     }
 
     private void openToolRules() {
         if (!collectFields() || client == null) return;
-        client.setScreen(new ToolRulesEditorScreen(this, currentRule(), this::setCurrentRule));
+        client.setScreen(new ToolRulesEditorScreen(this, working.itemId, currentRule(), this::setCurrentRule));
     }
 
     private void save() {
         if (!ClientConfigSession.canEdit()) {
-            status = ClientConfigSession.message().isBlank() ? "当前连接不允许保存" : ClientConfigSession.message();
+            status = ClientConfigSession.message().isBlank() ? GuiText.string("originlore.editor.cannot_save") : ClientConfigSession.message();
             statusColor = 0xFF7777;
             return;
         }
         if (ClientConfigSession.revision() != baseSnapshot.revision()) {
-            status = "服务器配置已更新；请取消并重新打开编辑器后再修改";
+            status = GuiText.string("originlore.editor.editor_outdated");
             statusColor = 0xFF7777;
             return;
         }
@@ -610,12 +595,12 @@ public final class ComponentEditorScreen extends Screen {
         String itemId = working.itemId == null ? "" : working.itemId.trim();
         Identifier parsed = Identifier.tryParse(itemId);
         if (parsed == null) {
-            status = "物品 ID 格式无效";
+            status = GuiText.string("originlore.editor.item_id_invalid");
             statusColor = 0xFF7777;
             return;
         }
         if (originalItemId == null && baseSnapshot.items().containsKey(itemId)) {
-            status = "该物品已经存在，请返回列表编辑";
+            status = GuiText.string("originlore.editor.item_exists");
             statusColor = 0xFF7777;
             return;
         }
@@ -626,12 +611,12 @@ public final class ComponentEditorScreen extends Screen {
             boolean positiveWeight = false;
             for (Variant variant : source.variants) {
                 if (variant.id == null || variant.id.isBlank() || !ids.add(variant.id)) {
-                    status = "来源 " + (index + 1) + " 的变体 ID 为空或重复";
+                    status = GuiText.string("originlore.editor.source_prefix") + (index + 1) + GuiText.string("originlore.editor.variant_id_error");
                     statusColor = 0xFF7777;
                     return;
                 }
                 if (!Double.isFinite(variant.weight) || variant.weight < 0) {
-                    status = "来源 " + (index + 1) + " 的变体权重必须是有限的非负数";
+                    status = GuiText.string("originlore.editor.source_prefix") + (index + 1) + GuiText.string("originlore.editor.variant_weight_error");
                     statusColor = 0xFF7777;
                     return;
                 }
@@ -639,7 +624,7 @@ public final class ComponentEditorScreen extends Screen {
                 positiveWeight |= variant.weight > 0;
             }
             if (!source.variants.isEmpty() && (!Double.isFinite(totalWeight) || !positiveWeight)) {
-                status = "来源 " + (index + 1) + " 至少需要一个大于 0 的变体权重";
+                status = GuiText.string("originlore.editor.source_prefix") + (index + 1) + GuiText.string("originlore.editor.source_weight_error");
                 statusColor = 0xFF7777;
                 return;
             }
@@ -648,11 +633,11 @@ public final class ComponentEditorScreen extends Screen {
         if (originalItemId != null && !originalItemId.equals(itemId)) items.remove(originalItemId);
         working.itemId = itemId;
         items.put(itemId, working.copy());
-        ConfigSnapshot transaction = new ConfigSnapshot(baseSnapshot.revision(), items);
+        ConfigSnapshot transaction = baseSnapshot.withItems(items);
         if (ClientConfigSession.submit(transaction, preexisting ? "UPDATE" : "CREATE")) {
             pendingSave = true;
             responseGeneration = ClientConfigSession.generation();
-            status = "正在保存...";
+            status = GuiText.string("originlore.editor.saving");
             statusColor = 0xE0B35A;
             rebuildWithoutCollect();
         }
@@ -665,7 +650,7 @@ public final class ComponentEditorScreen extends Screen {
         if (saveButton != null) saveButton.active = canSaveCurrentRevision();
         if (!pendingSave && ClientConfigSession.canEdit()
                 && ClientConfigSession.revision() != baseSnapshot.revision()) {
-            status = "服务器配置已更新；请取消并重新打开编辑器后再修改";
+            status = GuiText.string("originlore.editor.editor_outdated");
             statusColor = 0xFF7777;
         } else if (!pendingSave && !ClientConfigSession.canEdit()
                 && !ClientConfigSession.message().isBlank()) {
@@ -673,12 +658,15 @@ public final class ComponentEditorScreen extends Screen {
             statusColor = 0xFF7777;
         }
         if (pendingSave && ClientConfigSession.generation() > responseGeneration) {
-            pendingSave = false;
-            String kind = ClientConfigSession.responseKind();
-            if ("SAVED".equals(kind)) {
+            if (ClientConfigSession.lastSavedRevision() == baseSnapshot.revision() + 1) {
+                pendingSave = false;
                 if (client != null) client.setScreen(parent);
                 return;
             }
+            responseGeneration = ClientConfigSession.generation();
+            if (ClientConfigSession.state() == ClientConfigSession.State.SAVING
+                    || ClientConfigSession.state() == ClientConfigSession.State.RECEIVING) return;
+            pendingSave = false;
             status = ClientConfigSession.message();
             if (!ClientConfigSession.errors().isEmpty()) status += "  " + ClientConfigSession.errors().getFirst();
             statusColor = 0xFF7777;
@@ -722,20 +710,16 @@ public final class ComponentEditorScreen extends Screen {
         renderBackground(context, mouseX, mouseY, delta);
         super.render(context, mouseX, mouseY, delta);
         context.drawCenteredTextWithShadow(textRenderer, title, width / 2, 10, 0xFFFFFF);
-        context.drawText(textRenderer, "物品 ID", rightX, 24, 0xA0A0A0, false);
+        context.drawText(textRenderer, GuiText.string("originlore.editor.item_id"), rightX, 24, 0xA0A0A0, false);
         if (page == Page.TEXT) {
-            context.drawText(textRenderer, "名称", rightX, formTop + 2, 0xA0A0A0, false);
+            context.drawText(textRenderer, GuiText.string("originlore.editor.name"), rightX, formTop + 2, 0xA0A0A0, false);
             context.drawText(textRenderer, "Lore", rightX, formTop + 37, 0xA0A0A0, false);
         } else if (page == Page.NUMBERS) {
-            context.drawText(textRenderer, "堆叠 / 耐久", rightX, formTop + 1, 0xA0A0A0, false);
-            context.drawText(textRenderer, "损耗 / 稀有度", rightX, formTop + 29, 0xA0A0A0, false);
-            context.drawText(textRenderer, "模型数据", rightX, formTop + 57, 0xA0A0A0, false);
-            context.drawText(textRenderer, "攻击伤害随机范围", rightX, formTop + 85, 0xA0A0A0, false);
+            context.drawText(textRenderer, GuiText.string("originlore.editor.damage_rarity"), rightX, formTop + 29, 0xA0A0A0, false);
+            context.drawText(textRenderer, GuiText.string("originlore.editor.model"), rightX, formTop + 57, 0xA0A0A0, false);
         } else if (page == Page.FOOD) {
-            context.drawText(textRenderer, "营养 / 饱和度", rightX, formTop + 2, 0xA0A0A0, false);
-            context.drawText(textRenderer, "食用时间 / 随时食用", rightX, formTop + 37, 0xA0A0A0, false);
         } else {
-            context.drawText(textRenderer, "结构化组件编辑器", rightX, formTop + 2, 0xA0A0A0, false);
+            context.drawText(textRenderer, GuiText.string("originlore.editor.component_editor"), rightX, formTop + 2, 0xA0A0A0, false);
         }
         if (variantWeightField != null && sourceIndex >= 0 && sourceIndex < working.sources.size()
                 && variantIndex >= 0 && variantIndex < working.sources.get(sourceIndex).variants.size()) {
@@ -760,20 +744,20 @@ public final class ComponentEditorScreen extends Screen {
             }
             double probability = totalWeight > 0 && currentWeight > 0
                     ? currentWeight / totalWeight * 100.0 : 0.0;
-            context.drawText(textRenderer, "当前变体权重", rightX, 58, 0xA0A0A0, false);
+            context.drawText(textRenderer, GuiText.string("originlore.editor.variant_weight"), rightX, 58, 0xA0A0A0, false);
             int summaryY = rightWidth < 300 ? 96 : 74;
-            context.drawText(textRenderer, "总权重 " + formatWeight(totalWeight)
-                    + " · 当前概率 " + formatWeight(probability) + "%", variantWeightSummaryX, summaryY,
+            context.drawText(textRenderer, GuiText.string("originlore.editor.total_weight") + formatWeight(totalWeight)
+                    + GuiText.string("originlore.editor.probability_separator") + formatWeight(probability) + "%", variantWeightSummaryX, summaryY,
                     0x8FC7FF, false);
         }
-        String layer = sourceIndex < 0 ? "基础规则" : variantIndex < 0
-                ? "来源规则 " + (sourceIndex + 1) : "变体 " + working.sources.get(sourceIndex).variants.get(variantIndex).id;
+        String layer = sourceIndex < 0 ? GuiText.string("originlore.editor.base") : variantIndex < 0
+                ? GuiText.string("originlore.editor.source_rule") + (sourceIndex + 1) : GuiText.string("originlore.editor.variant_prefix") + working.sources.get(sourceIndex).variants.get(variantIndex).id;
         context.drawText(textRenderer, layer, rightX, formTop - 31, 0x8FC7FF, false);
         if (!status.isBlank()) {
             context.drawCenteredTextWithShadow(textRenderer, Text.literal(status), width / 2, height - 39, statusColor);
         } else if (ClientConfigSession.revision() >= 0
                 && ClientConfigSession.revision() != baseSnapshot.revision()) {
-            context.drawCenteredTextWithShadow(textRenderer, Text.literal("服务器版本已变化，请重新打开编辑器"),
+            context.drawCenteredTextWithShadow(textRenderer, Text.literal(GuiText.string("originlore.editor.editor_reopen")),
                     width / 2, height - 39, 0xE0B35A);
         }
         for (IdSuggestionController suggestion : suggestions) suggestion.render(context, textRenderer, height);
@@ -808,7 +792,7 @@ public final class ComponentEditorScreen extends Screen {
         bold = false;
         italic = false;
         color = "";
-        JsonElement style = rule.customNameJson;
+        JsonElement style = itemNameMode ? rule.itemNameJson : rule.customNameJson;
         if ((style == null || !style.isJsonObject()) && rule.loreJson != null && !rule.loreJson.isEmpty()) style = rule.loreJson.getFirst();
         if (style != null && style.isJsonObject()) {
             JsonObject object = style.getAsJsonObject();
@@ -822,6 +806,7 @@ public final class ComponentEditorScreen extends Screen {
     }
 
     private String extractName(ComponentRule rule) {
+        if (itemNameMode) return rule.itemName == null ? extractText(rule.itemNameJson) : rule.itemName;
         if (rule.customName != null) return rule.customName;
         return extractText(rule.customNameJson);
     }
@@ -861,7 +846,9 @@ public final class ComponentEditorScreen extends Screen {
 
     private static void clearFoodIfEmpty(ComponentRule rule) {
         if (rule.food != null && rule.food.nutrition == null && rule.food.saturation == null
-                && rule.food.eatSeconds == null && rule.food.canAlwaysEat == null && rule.food.effects == null) {
+                && rule.food.eatSeconds == null && rule.food.canAlwaysEat == null && rule.food.effects == null
+                && rule.food.nutritionRange == null && rule.food.saturationRange == null && rule.food.eatSecondsRange == null
+                && rule.food.appendEffects == null) {
             rule.food = null;
         }
     }
@@ -881,30 +868,9 @@ public final class ComponentEditorScreen extends Screen {
         try {
             return Integer.parseInt(field.getText().trim());
         } catch (NumberFormatException exception) {
-            throw new IllegalArgumentException(label + "必须是整数");
+            throw new IllegalArgumentException(label + GuiText.string("originlore.editor.integer_required"));
         }
     }
 
-    private static Float parseFloat(TextFieldWidget field, String label) {
-        if (field == null || field.getText().trim().isEmpty()) return null;
-        try {
-            float value = Float.parseFloat(field.getText().trim());
-            if (!Float.isFinite(value)) throw new NumberFormatException();
-            return value;
-        } catch (NumberFormatException exception) {
-            throw new IllegalArgumentException(label + "必须是有限数值");
-        }
-    }
-
-    private static Double parseDouble(TextFieldWidget field, String label) {
-        if (field == null || field.getText().trim().isEmpty()) return null;
-        try {
-            double value = Double.parseDouble(field.getText().trim());
-            if (!Double.isFinite(value)) throw new NumberFormatException();
-            return value;
-        } catch (NumberFormatException exception) {
-            throw new IllegalArgumentException(label + "必须是有限数值");
-        }
-    }
 
 }

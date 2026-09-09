@@ -1,0 +1,1978 @@
+{
+  "minecraft:stone_axe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石块敲出刃口再绑上木柄，比木斧沉不少。也耐用不少。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的石斧",
+              "loreJson": [
+                {
+                  "text": "石块敲出刃口再绑上木柄，比木斧沉不少。也耐用不少。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的石斧",
+              "loreJson": [
+                {
+                  "text": "石块敲出刃口再绑上木柄，比木斧沉不少。也耐用不少。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的石斧",
+              "loreJson": [
+                {
+                  "text": "石块敲出刃口再绑上木柄，比木斧沉不少。也耐用不少。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的石斧",
+              "loreJson": [
+                {
+                  "text": "石块敲出刃口再绑上木柄，比木斧沉不少。也耐用不少。 柄与工作端接得略偏，边缘也没有细磨，干活时得多费些力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                79,
+                105
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的石斧",
+              "loreJson": [
+                {
+                  "text": "石块敲出刃口再绑上木柄，比木斧沉不少。也耐用不少。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的石斧",
+              "loreJson": [
+                {
+                  "text": "石块敲出刃口再绑上木柄，比木斧沉不少。也耐用不少。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的石斧",
+              "loreJson": [
+                {
+                  "text": "石块敲出刃口再绑上木柄，比木斧沉不少。也耐用不少。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的石斧",
+              "loreJson": [
+                {
+                  "text": "石块敲出刃口再绑上木柄，比木斧沉不少。也耐用不少。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的石斧",
+              "loreJson": [
+                {
+                  "text": "石块敲出刃口再绑上木柄，比木斧沉不少。也耐用不少。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的石斧",
+              "loreJson": [
+                {
+                  "text": "石块敲出刃口再绑上木柄，比木斧沉不少。也耐用不少。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的石斧",
+              "loreJson": [
+                {
+                  "text": "石块敲出刃口再绑上木柄，比木斧沉不少。也耐用不少。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的石斧",
+              "loreJson": [
+                {
+                  "text": "石块敲出刃口再绑上木柄，比木斧沉不少。也耐用不少。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:stone_hoe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石片开出来的刃，翻地比木锄利落。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的石锄",
+              "loreJson": [
+                {
+                  "text": "石片开出来的刃，翻地比木锄利落。 柄与工作端接得略偏，边缘也没有细磨，干活时得多费些力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                79,
+                105
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的石锄",
+              "loreJson": [
+                {
+                  "text": "石片开出来的刃，翻地比木锄利落。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的石锄",
+              "loreJson": [
+                {
+                  "text": "石片开出来的刃，翻地比木锄利落。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的石锄",
+              "loreJson": [
+                {
+                  "text": "石片开出来的刃，翻地比木锄利落。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的石锄",
+              "loreJson": [
+                {
+                  "text": "石片开出来的刃，翻地比木锄利落。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的石锄",
+              "loreJson": [
+                {
+                  "text": "石片开出来的刃，翻地比木锄利落。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的石锄",
+              "loreJson": [
+                {
+                  "text": "石片开出来的刃，翻地比木锄利落。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的石锄",
+              "loreJson": [
+                {
+                  "text": "石片开出来的刃，翻地比木锄利落。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的石锄",
+              "loreJson": [
+                {
+                  "text": "石片开出来的刃，翻地比木锄利落。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:stone_pickaxe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石片敲出来的镐尖，看着粗糙。挖铁矿已经够用了。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的石镐",
+              "loreJson": [
+                {
+                  "text": "石片敲出来的镐尖，看着粗糙。挖铁矿已经够用了。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的石镐",
+              "loreJson": [
+                {
+                  "text": "石片敲出来的镐尖，看着粗糙。挖铁矿已经够用了。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的石镐",
+              "loreJson": [
+                {
+                  "text": "石片敲出来的镐尖，看着粗糙。挖铁矿已经够用了。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的石镐",
+              "loreJson": [
+                {
+                  "text": "石片敲出来的镐尖，看着粗糙。挖铁矿已经够用了。 柄与工作端接得略偏，边缘也没有细磨，干活时得多费些力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                79,
+                105
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的石镐",
+              "loreJson": [
+                {
+                  "text": "石片敲出来的镐尖，看着粗糙。挖铁矿已经够用了。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的石镐",
+              "loreJson": [
+                {
+                  "text": "石片敲出来的镐尖，看着粗糙。挖铁矿已经够用了。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的石镐",
+              "loreJson": [
+                {
+                  "text": "石片敲出来的镐尖，看着粗糙。挖铁矿已经够用了。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的石镐",
+              "loreJson": [
+                {
+                  "text": "石片敲出来的镐尖，看着粗糙。挖铁矿已经够用了。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的石镐",
+              "loreJson": [
+                {
+                  "text": "石片敲出来的镐尖，看着粗糙。挖铁矿已经够用了。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的石镐",
+              "loreJson": [
+                {
+                  "text": "石片敲出来的镐尖，看着粗糙。挖铁矿已经够用了。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的石镐",
+              "loreJson": [
+                {
+                  "text": "石片敲出来的镐尖，看着粗糙。挖铁矿已经够用了。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的石镐",
+              "loreJson": [
+                {
+                  "text": "石片敲出来的镐尖，看着粗糙。挖铁矿已经够用了。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:stone_shovel": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨薄的石片当铲头，分量比木锹实在。挖土明显快了一截。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的石锹",
+              "loreJson": [
+                {
+                  "text": "磨薄的石片当铲头，分量比木锹实在。挖土明显快了一截。 柄与工作端接得略偏，边缘也没有细磨，干活时得多费些力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                79,
+                105
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的石锹",
+              "loreJson": [
+                {
+                  "text": "磨薄的石片当铲头，分量比木锹实在。挖土明显快了一截。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的石锹",
+              "loreJson": [
+                {
+                  "text": "磨薄的石片当铲头，分量比木锹实在。挖土明显快了一截。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的石锹",
+              "loreJson": [
+                {
+                  "text": "磨薄的石片当铲头，分量比木锹实在。挖土明显快了一截。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的石锹",
+              "loreJson": [
+                {
+                  "text": "磨薄的石片当铲头，分量比木锹实在。挖土明显快了一截。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的石锹",
+              "loreJson": [
+                {
+                  "text": "磨薄的石片当铲头，分量比木锹实在。挖土明显快了一截。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的石锹",
+              "loreJson": [
+                {
+                  "text": "磨薄的石片当铲头，分量比木锹实在。挖土明显快了一截。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的石锹",
+              "loreJson": [
+                {
+                  "text": "磨薄的石片当铲头，分量比木锹实在。挖土明显快了一截。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的石锹",
+              "loreJson": [
+                {
+                  "text": "磨薄的石片当铲头，分量比木锹实在。挖土明显快了一截。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:wooden_axe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "把木柴削出刃口，砍树比空手快得多。刃口钝得也一样快。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的木斧",
+              "loreJson": [
+                {
+                  "text": "把木柴削出刃口，砍树比空手快得多。刃口钝得也一样快。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                18,
+                27
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的木斧",
+              "loreJson": [
+                {
+                  "text": "把木柴削出刃口，砍树比空手快得多。刃口钝得也一样快。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的木斧",
+              "loreJson": [
+                {
+                  "text": "把木柴削出刃口，砍树比空手快得多。刃口钝得也一样快。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的木斧",
+              "loreJson": [
+                {
+                  "text": "把木柴削出刃口，砍树比空手快得多。刃口钝得也一样快。 柄与工作端接得略偏，边缘也没有细磨，干活时得多费些力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                47
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的木斧",
+              "loreJson": [
+                {
+                  "text": "把木柴削出刃口，砍树比空手快得多。刃口钝得也一样快。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的木斧",
+              "loreJson": [
+                {
+                  "text": "把木柴削出刃口，砍树比空手快得多。刃口钝得也一样快。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:wooden_hoe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "开垦耕地用的木锄，用不了几次就会松。但地总得有人开。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "ARCHAEOLOGY",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 85,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的木锄",
+              "loreJson": [
+                {
+                  "text": "开垦耕地用的木锄，用不了几次就会松。但地总得有人开。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                18,
+                27
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的木锄",
+              "loreJson": [
+                {
+                  "text": "开垦耕地用的木锄，用不了几次就会松。但地总得有人开。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的木锄",
+              "loreJson": [
+                {
+                  "text": "开垦耕地用的木锄，用不了几次就会松。但地总得有人开。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的木锄",
+              "loreJson": [
+                {
+                  "text": "开垦耕地用的木锄，用不了几次就会松。但地总得有人开。 柄与工作端接得略偏，边缘也没有细磨，干活时得多费些力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                47
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的木锄",
+              "loreJson": [
+                {
+                  "text": "开垦耕地用的木锄，用不了几次就会松。但地总得有人开。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的木锄",
+              "loreJson": [
+                {
+                  "text": "开垦耕地用的木锄，用不了几次就会松。但地总得有人开。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:wooden_pickaxe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木头做的镐，说它是镐多少有点勉强。挖石头还是挖得动的。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的木镐",
+              "loreJson": [
+                {
+                  "text": "木头做的镐，说它是镐多少有点勉强。挖石头还是挖得动的。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                18,
+                27
+              ],
+              "attackDamageRange": {
+                "min": -0.5,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的木镐",
+              "loreJson": [
+                {
+                  "text": "木头做的镐，说它是镐多少有点勉强。挖石头还是挖得动的。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的木镐",
+              "loreJson": [
+                {
+                  "text": "木头做的镐，说它是镐多少有点勉强。挖石头还是挖得动的。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的木镐",
+              "loreJson": [
+                {
+                  "text": "木头做的镐，说它是镐多少有点勉强。挖石头还是挖得动的。 柄与工作端接得略偏，边缘也没有细磨，干活时得多费些力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                47
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": -0.5
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的木镐",
+              "loreJson": [
+                {
+                  "text": "木头做的镐，说它是镐多少有点勉强。挖石头还是挖得动的。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的木镐",
+              "loreJson": [
+                {
+                  "text": "木头做的镐，说它是镐多少有点勉强。挖石头还是挖得动的。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:wooden_shovel": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "削平的木片绑在棍子上。挖土够用，挖石头就别指望了。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的木锹",
+              "loreJson": [
+                {
+                  "text": "削平的木片绑在棍子上。挖土够用，挖石头就别指望了。 柄与工作端接得略偏，边缘也没有细磨，干活时得多费些力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                47
+              ],
+              "attackDamageRange": {
+                "min": -1.5,
+                "max": -0.75
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的木锹",
+              "loreJson": [
+                {
+                  "text": "削平的木片绑在棍子上。挖土够用，挖石头就别指望了。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的木锹",
+              "loreJson": [
+                {
+                  "text": "削平的木片绑在棍子上。挖土够用，挖石头就别指望了。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

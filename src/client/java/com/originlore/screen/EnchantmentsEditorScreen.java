@@ -1,5 +1,7 @@
 package com.originlore.screen;
 
+import com.originlore.client.GuiText;
+
 import com.originlore.client.ClientConfigSession;
 import com.originlore.config.ItemComponentConfig.ComponentRule;
 import net.minecraft.client.gui.DrawContext;
@@ -40,7 +42,7 @@ public final class EnchantmentsEditorScreen extends Screen {
     private IdSuggestionController suggestions;
 
     public EnchantmentsEditorScreen(Screen parent, ComponentRule rule, Consumer<ComponentRule> onApply) {
-        super(Text.literal("附魔编辑器"));
+        super(Text.literal(GuiText.string("originlore.editor.enchantment_editor")));
         this.parent = parent;
         this.onApply = onApply;
         this.working = rule == null ? new ComponentRule() : rule.copy();
@@ -63,9 +65,9 @@ public final class EnchantmentsEditorScreen extends Screen {
         editorWidth = totalWidth - listWidth - 10;
 
         int halfTab = (totalWidth - 4) / 2;
-        addDrawableChild(ButtonWidget.builder(Text.literal(storedMode ? "普通附魔" : "[普通附魔]"),
+        addDrawableChild(ButtonWidget.builder(Text.literal(storedMode ? GuiText.string("originlore.editor.normal_enchantments") : GuiText.string("originlore.editor.normal_enchantments_active")),
                 button -> switchMode(false)).dimensions(left, 34, halfTab, 20).build());
-        addDrawableChild(ButtonWidget.builder(Text.literal(storedMode ? "[存储附魔]" : "存储附魔"),
+        addDrawableChild(ButtonWidget.builder(Text.literal(storedMode ? GuiText.string("originlore.editor.stored_enchantments_active") : GuiText.string("originlore.editor.stored_enchantments")),
                 button -> switchMode(true)).dimensions(left + halfTab + 4, 34,
                 totalWidth - halfTab - 4, 20).build());
         addDrawableChild(ButtonWidget.builder(managedLabel(), button -> toggleManaged())
@@ -96,7 +98,7 @@ public final class EnchantmentsEditorScreen extends Screen {
             }).dimensions(left + listWidth / 2 + 1, y, listWidth / 2 - 1, 18).build());
         }
 
-        idField = new TextFieldWidget(textRenderer, editorX, 90, editorWidth, 20, Text.literal("附魔 ID"));
+        idField = new TextFieldWidget(textRenderer, editorX, 90, editorWidth, 20, Text.literal(GuiText.string("originlore.editor.enchantment_id")));
         idField.setMaxLength(256);
         idField.setPlaceholder(Text.literal("minecraft:sharpness"));
         idField.setText(selectedId == null ? "" : selectedId);
@@ -105,9 +107,9 @@ public final class EnchantmentsEditorScreen extends Screen {
         suggestions = new IdSuggestionController(idField, () -> ClientConfigSession.catalog().enchantmentIds());
         addDrawableChild(idField);
 
-        levelField = new TextFieldWidget(textRenderer, editorX, 125, editorWidth, 20, Text.literal("附魔等级"));
+        levelField = new TextFieldWidget(textRenderer, editorX, 125, editorWidth, 20, Text.literal(GuiText.string("originlore.editor.enchantment_level")));
         levelField.setMaxLength(16);
-        levelField.setPlaceholder(Text.literal("附魔等级"));
+        levelField.setPlaceholder(Text.literal(GuiText.string("originlore.editor.enchantment_level")));
         Integer currentLevel = selectedId == null ? null : activeMap().get(selectedId);
         levelField.setText(currentLevel == null ? "1" : currentLevel.toString());
         levelField.setChangedListener(value -> dirty = true);
@@ -117,11 +119,11 @@ public final class EnchantmentsEditorScreen extends Screen {
         int actionY = height - 58;
         int gap = 4;
         int actionWidth = Math.max(45, (editorWidth - gap * 2) / 3);
-        ButtonWidget save = ButtonWidget.builder(Text.literal("保存条目"), button -> saveEntry(true))
+        ButtonWidget save = ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.save_entry")), button -> saveEntry(true))
                 .dimensions(editorX, actionY, actionWidth, 20).build();
-        ButtonWidget add = ButtonWidget.builder(Text.literal("新建"), button -> beginNew())
+        ButtonWidget add = ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.new_entry")), button -> beginNew())
                 .dimensions(editorX + actionWidth + gap, actionY, actionWidth, 20).build();
-        ButtonWidget delete = ButtonWidget.builder(Text.literal("删除"), button -> deleteSelected())
+        ButtonWidget delete = ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.delete")), button -> deleteSelected())
                 .dimensions(editorX + (actionWidth + gap) * 2, actionY,
                         editorWidth - (actionWidth + gap) * 2, 20).build();
         save.active = isManaged();
@@ -131,9 +133,9 @@ public final class EnchantmentsEditorScreen extends Screen {
         addDrawableChild(add);
         addDrawableChild(delete);
 
-        addDrawableChild(ButtonWidget.builder(Text.literal("应用到规则"), button -> apply())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.apply_rule")), button -> apply())
                 .dimensions(width / 2 - 106, height - 27, 102, 20).build());
-        addDrawableChild(ButtonWidget.builder(Text.literal("取消"), button -> close())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.cancel")), button -> close())
                 .dimensions(width / 2 + 4, height - 27, 102, 20).build());
     }
 
@@ -177,24 +179,24 @@ public final class EnchantmentsEditorScreen extends Screen {
         if (!isManaged()) return true;
         try {
             String id = idField.getText().trim();
-            if (Identifier.tryParse(id) == null) throw new IllegalArgumentException("附魔 ID 格式无效");
+            if (Identifier.tryParse(id) == null) throw new IllegalArgumentException(GuiText.string("originlore.editor.enchantment_id_invalid"));
             List<String> known = ClientConfigSession.catalog().enchantmentIds();
-            if (!known.isEmpty() && !known.contains(id)) throw new IllegalArgumentException("服务器没有该附魔");
+            if (!known.isEmpty() && !known.contains(id)) throw new IllegalArgumentException(GuiText.string("originlore.editor.enchantment_unknown"));
             int level;
             try {
                 level = Integer.parseInt(levelField.getText().trim());
             } catch (RuntimeException exception) {
-                throw new IllegalArgumentException("附魔等级必须是整数");
+                throw new IllegalArgumentException(GuiText.string("originlore.editor.enchantment_level_invalid"));
             }
-            if (level < 0) throw new IllegalArgumentException("附魔等级不能小于 0");
+            if (level < 0) throw new IllegalArgumentException(GuiText.string("originlore.editor.enchantment_level_negative"));
             if (activeMap().containsKey(id) && !id.equals(selectedId)) {
-                throw new IllegalArgumentException("该附魔已经存在");
+                throw new IllegalArgumentException(GuiText.string("originlore.editor.enchantment_exists"));
             }
             if (selectedId != null && !selectedId.equals(id)) activeMap().remove(selectedId);
             activeMap().put(id, level);
             selectedId = id;
             dirty = false;
-            status = "条目已写入事务副本";
+            status = GuiText.string("originlore.editor.entry_saved");
             if (rebuild) rebuildUi();
             return true;
         } catch (IllegalArgumentException exception) {
@@ -208,7 +210,7 @@ public final class EnchantmentsEditorScreen extends Screen {
         activeMap().remove(selectedId);
         selectedId = null;
         dirty = false;
-        status = "条目已从事务副本删除";
+        status = GuiText.string("originlore.editor.entry_deleted");
         rebuildUi();
     }
 
@@ -235,8 +237,8 @@ public final class EnchantmentsEditorScreen extends Screen {
     }
 
     private Text managedLabel() {
-        return Text.literal("接管" + (storedMode ? "存储" : "普通") + "附魔: "
-                + (isManaged() ? "是" : "否（保留物品原值）"));
+        return Text.literal(GuiText.string("originlore.editor.override") + (storedMode ? GuiText.string("originlore.editor.stored") : GuiText.string("originlore.editor.normal")) + GuiText.string("originlore.editor.enchantment_suffix")
+                + (isManaged() ? GuiText.string("originlore.editor.yes") : GuiText.string("originlore.editor.preserve")));
     }
 
     private int visibleRows() {
@@ -283,12 +285,12 @@ public final class EnchantmentsEditorScreen extends Screen {
         renderBackground(context, mouseX, mouseY, delta);
         super.render(context, mouseX, mouseY, delta);
         context.drawCenteredTextWithShadow(textRenderer, title, width / 2, 12, 0xFFFFFF);
-        context.drawText(textRenderer, "附魔列表", left, 81, 0xA0A0A0, false);
-        context.drawText(textRenderer, "附魔 ID", editorX, 81, 0xA0A0A0, false);
-        context.drawText(textRenderer, "等级", editorX, 116, 0xA0A0A0, false);
+        context.drawText(textRenderer, GuiText.string("originlore.editor.enchantment_list"), left, 81, 0xA0A0A0, false);
+        context.drawText(textRenderer, GuiText.string("originlore.editor.enchantment_id"), editorX, 81, 0xA0A0A0, false);
+        context.drawText(textRenderer, GuiText.string("originlore.editor.level"), editorX, 116, 0xA0A0A0, false);
         if (!status.isBlank()) {
             context.drawCenteredTextWithShadow(textRenderer, Text.literal(status), width / 2,
-                    height - 38, status.startsWith("条目已") ? 0x8FE388 : 0xFF7777);
+                    height - 38, status.startsWith(GuiText.string("originlore.editor.entry_prefix")) ? 0x8FE388 : 0xFF7777);
         }
         if (suggestions != null) suggestions.render(context, textRenderer, height);
     }

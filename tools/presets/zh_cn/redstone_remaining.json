@@ -1,0 +1,772 @@
+{
+  "minecraft:acacia_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢木纹沿小钮横过，手按或箭射都能送出一段信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢薄板贴着底座，落在上面的物件也能把它压响。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:activator_rail": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红石构件横在铁轨之间，能触发经过矿车的特殊动作。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹木纹沿小钮横过，手按或箭射都能送出一段信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹薄板贴着底座，落在上面的物件也能把它压响。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦木纹沿小钮横过，手按或箭射都能送出一段信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦薄板贴着底座，落在上面的物件也能把它压响。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:calibrated_sculk_sensor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫晶嵌在触须旁边，接入侧面的信号能筛选它听见的动静。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花木纹沿小钮横过，手按或箭射都能送出一段信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花薄板贴着底座，落在上面的物件也能把它压响。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chest_minecart": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木箱固定在铁斗里，装满后可以整车送去别处。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:comparator": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "三根细柱围着石座，容器里存了多少也能变成信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红铜外壳还很鲜亮，接一次脉冲就能改变亮灭，氧化越深光越弱。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crafter": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "台面九格各有定位，安排好空位便能按脉冲逐次合成。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绯红木纹沿小钮横过，手按或箭射都能送出一段信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绯红薄板贴着底座，落在上面的物件也能把它压响。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木木纹沿小钮横过，手按或箭射都能送出一段信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木薄板贴着底座，落在上面的物件也能把它压响。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:daylight_detector": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "平整玻璃盖着感光表面，日光强弱会变成不同的信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:detector_rail": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "轨道中间嵌着感应板，矿车压过就能报出一个信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dispenser": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石壳里装着弹射机构，里面放什么决定它会怎样出手。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dropper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "方正石盒留着一个出口，通电后能把里面一件东西送出去。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜壳上开始冒出暗斑，接一次脉冲就能改变亮灭，氧化越深光越弱。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:furnace_minecart": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "小石炉嵌在车斗上，添进煤炭就能推着别的车走。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:heavy_weighted_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铁板厚实，少量东西只能压出弱信号，适合感知较大的堆积。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:honey_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "厚蜜凝成金色方块，表面很黏，碰着边走就会慢下来。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:hopper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "宽铁口收向细管，接在容器下面就能慢慢传走东西。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:hopper_minecart": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "车斗换成了收集铁口，沿轨道走就能捡起上方的散物。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木木纹沿小钮横过，手按或箭射都能送出一段信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木薄板贴着底座，落在上面的物件也能把它压响。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lever": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "短柄在石座上转动，拨到哪一边就保持那种开关状态。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_weighted_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄金板轻轻压下便有回应，承上去的物件越多信号越强。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lightning_rod": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细长铜杆收向尖端，架高后能把雷引到选好的地方。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树木纹沿小钮横过，手按或箭射都能送出一段信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树薄板贴着底座，落在上面的物件也能把它压响。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:minecart": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铁斗底下装着小轮，走轨道时能载人也能载货。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:note_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木盒里留着共鸣空腔，底下垫的材料会改变敲出的音色。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木木纹沿小钮横过，手按或箭射都能送出一段信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木薄板贴着底座，落在上面的物件也能把它压响。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:observer": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石壳一面留着探孔，前方有变化就从背后送出短促信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "整面铜壳已经转成青绿，接一次脉冲就能改变亮灭，氧化越深光越弱。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:piston": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木面装在伸缩铁杆前端，通电后能把前面的方块推开。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨黑的石钮表面平滑，装在暗墙上不太显眼。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黑石薄板边缘磨齐，压在门前能让脚步变成信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:powered_rail": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金色轨条间排着红石，通电后能给矿车添一把力。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:rail": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两根铁轨架在木枕上，接顺了便能让矿车通行。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:redstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗红粉末铺开就连成细线，接上电源才能把信号送出去。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:redstone_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红色粉末压成致密硬块，贴着线路就能持续供能。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:redstone_lamp": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色框条分开暖色灯面，接到红石信号才会亮起来。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:redstone_torch": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "小棍上的红光很弱，放进线路却能反转送来的信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:repeater": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两根细柱排在石板上，调开距离就能让信号迟些传到。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sculk_sensor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "柔细触须从暗色底座伸出，脚步和动作都会惊动它。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:slime_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "半透明绿胶柔软回弹，既能缓冲落地，也能带着邻块一起移动。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉木纹沿小钮横过，手按或箭射都能送出一段信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉薄板贴着底座，落在上面的物件也能把它压响。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sticky_piston": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "活塞木面糊着绿色黏液，伸出去以后还能把东西拉回来。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "小石块磨出可按的平面，手指一推就送出一段短信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄石板略高出底座，脚踩上去才会稳稳接通。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:target": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红色靶心画在草捆上，射得越准，送出的信号越强。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tnt": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红色药卷紧紧捆成一块，点着引线后得赶紧离远些。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tnt_minecart": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "炸药牢牢放在车斗里，运到指定位置再点火才稳妥。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:trapped_chest": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木箱扣件连着细小机关，盖子一开就会惊动相邻线路。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tripwire_hook": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "弯铁钩装在小木座上，绷起细线就能察觉经过的人。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "诡异木纹沿小钮横过，手按或箭射都能送出一段信号。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "诡异薄板贴着底座，落在上面的物件也能把它压响。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红铜外壳还很鲜亮，薄蜡封住现有颜色和亮度，适合调好以后长用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜壳上开始冒出暗斑，薄蜡封住现有颜色和亮度，适合调好以后长用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "整面铜壳已经转成青绿，薄蜡封住现有颜色和亮度，适合调好以后长用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绿锈已经爬过大半铜壳，薄蜡封住现有颜色和亮度，适合调好以后长用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绿锈已经爬过大半铜壳，接一次脉冲就能改变亮灭，氧化越深光越弱。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

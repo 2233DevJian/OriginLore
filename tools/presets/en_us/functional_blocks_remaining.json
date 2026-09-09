@@ -1,0 +1,563 @@
+{
+  "minecraft:anvil": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A broad iron face is flat and heavy enough for repairing equipment or setting a name.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:armor_stand": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A slender wooden frame rests on a stone base, ready to hold a complete set of armour.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:barrel": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bands hold the staves together, with an end opening useful in a narrow storeroom.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:beacon": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A clear casing surrounds a bright core that needs a mineral foundation to reach far.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bell": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The brass body rings clearly enough to call villagers indoors.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blast_furnace": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Iron plates enclose the mouth, smelting ore quickly but serving poorly as a kitchen.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bookshelf": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thick books fill the wooden bays, furnishing a wall and lending knowledge to an enchanting table.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:campfire": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Logs smoulder in a low rack that cooks food without fresh fuel.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cartography_table": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Map lines mark a flat top suited to copying and scaling charts.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cauldron": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Deep iron sides hold water, snow or lava without a fuss.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chain": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark iron links join in sequence, useful for hanging lamps and suspended work.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chest": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Boards enclose a plain box whose lid needs clear space above it.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chipped_anvil": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A piece has broken from the corner; work can continue, though not indefinitely.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_bookshelf": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Six separate book slots give frequently used volumes their own place.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:composter": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Gaps ring the wooden bin where plant scraps build into a little bone meal.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:conduit": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Prismarine pieces surround a firm core that protects divers inside a submerged frame.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crafting_table": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Knife marks divide the top into squares, with room to assemble a complete piece of work.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:damaged_anvil": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Deep cracks cross the iron face, which may not survive another job.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:decorated_pot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Four patterned faces enclose a broad clay body, decorative and useful for storing one kind of item.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:enchanting_table": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A turning book rests on the dark base; room for nearby shelves matters.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:end_rod": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A narrow white light has neat ends and fits even a cramped passage.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ender_chest": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Purple light escapes the dark casing, opening onto the owner's own storage each time.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:fletching_table": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Feather markings line the edge of a workbench a village fletcher can claim.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flower_pot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thick rim surrounds the little clay pot, filled well by a single small flower.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:furnace": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Black ash lines the stone firebox, adequate for smelting ore or cooking a meal.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glow_item_frame": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A lit leather backing keeps its displayed item visible in a dark corner.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glowstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Golden crystals bind together into ceiling lights that save room for torches.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:grindstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A coarse wheel sits in its frame, ready to strip enchantments or repair two worn tools together.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:item_frame": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A leather backing stretches across the thin wooden frame, enough for a storage sample.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jack_o_lantern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Firelight fills the hollow orange rind, keeping both a lamp and a carved face.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jukebox": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A narrow slot in the wooden case takes a disc and plays its full recording.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ladder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Short rungs join two rails, saving the space a staircase would occupy.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lantern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "An iron frame guards a warm light that hangs clear of a doorway.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lectern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A sloped wooden rest holds a book open at a comfortable reading height.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lodestone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Metal bands bind the grey stone, giving a touched compass a fixed point to follow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:loom": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Even warp threads stretch across the wooden frame, making banner patterns easier to weave.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ochre_froglight": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale yellow light passes through a soft-looking face, comfortable in a row of lamps.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:painting": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin canvas stretches over a wooden frame, with a wider scene for a broader wall.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pearlescent_froglight": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A pale pink sheen spreads across the face and sits gently in a white wall.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:respawn_anchor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A luminous recess sits in the dark frame, ready for glowstone and a foothold in the Nether.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:scaffolding": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bamboo poles support a thin platform that extends upward without a solid tower beneath it.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sea_lantern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Milky crystal gives an even light that remains clear beside a pool.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:shroomlight": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bright points fill the orange fungus and shine through surrounding leaves.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smithing_table": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Metal edges bind the dark top, with room to upgrade equipment and apply a trim.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smoker": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A wooden frame surrounds the smoking chamber, quick for food but unable to smelt ore.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:soul_campfire": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Blue flames move along the logs, hot nearby but modest in reach.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:soul_lantern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cold blue fire sits inside an iron casing, a subdued light beneath an eave.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:soul_torch": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A small blue flame tops the stick, modest in brightness and enough to turn piglins away.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stonecutter": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A round blade rises from the stone bed, trimming steps and edges with less waste.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:torch": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Coal coats one end of a stick, lighting a small patch once set down.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:verdant_froglight": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The pale green face gives even light along the edge of a garden path.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

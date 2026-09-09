@@ -1,0 +1,5374 @@
+{
+  "minecraft": "1.21.1",
+  "stats": {
+    "minecraft:apple": {
+      "nutrition": 4.0,
+      "saturation": 2.4,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:baked_potato": {
+      "nutrition": 5.0,
+      "saturation": 6.0,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:beef": {
+      "nutrition": 3.0,
+      "saturation": 1.8,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:beetroot": {
+      "nutrition": 1.0,
+      "saturation": 1.2,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:beetroot_soup": {
+      "nutrition": 6.0,
+      "saturation": 7.2,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:bow": {
+      "durability": 384.0
+    },
+    "minecraft:bread": {
+      "nutrition": 5.0,
+      "saturation": 6.0,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:brush": {
+      "durability": 64.0
+    },
+    "minecraft:carrot": {
+      "nutrition": 3.0,
+      "saturation": 3.6,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:carrot_on_a_stick": {
+      "durability": 25.0
+    },
+    "minecraft:chainmail_boots": {
+      "durability": 195.0
+    },
+    "minecraft:chainmail_chestplate": {
+      "durability": 240.0
+    },
+    "minecraft:chainmail_helmet": {
+      "durability": 165.0
+    },
+    "minecraft:chainmail_leggings": {
+      "durability": 225.0
+    },
+    "minecraft:chicken": {
+      "nutrition": 2.0,
+      "saturation": 1.2,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false,
+      "effects": [
+        {
+          "id": "minecraft:hunger",
+          "amplifier": 0,
+          "duration": 600,
+          "probability": 0.3
+        }
+      ]
+    },
+    "minecraft:chorus_fruit": {
+      "nutrition": 4.0,
+      "saturation": 2.4,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": true
+    },
+    "minecraft:cod": {
+      "nutrition": 2.0,
+      "saturation": 0.4,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:cooked_beef": {
+      "nutrition": 8.0,
+      "saturation": 12.8,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:cooked_chicken": {
+      "nutrition": 6.0,
+      "saturation": 7.2,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:cooked_cod": {
+      "nutrition": 5.0,
+      "saturation": 6.0,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:cooked_mutton": {
+      "nutrition": 6.0,
+      "saturation": 9.6,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:cooked_porkchop": {
+      "nutrition": 8.0,
+      "saturation": 12.8,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:cooked_rabbit": {
+      "nutrition": 5.0,
+      "saturation": 6.0,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:cooked_salmon": {
+      "nutrition": 6.0,
+      "saturation": 9.6,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:cookie": {
+      "nutrition": 2.0,
+      "saturation": 0.4,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:crossbow": {
+      "durability": 465.0
+    },
+    "minecraft:diamond_axe": {
+      "durability": 1561.0,
+      "attack": 9.0
+    },
+    "minecraft:diamond_boots": {
+      "durability": 429.0
+    },
+    "minecraft:diamond_chestplate": {
+      "durability": 528.0
+    },
+    "minecraft:diamond_helmet": {
+      "durability": 363.0
+    },
+    "minecraft:diamond_hoe": {
+      "durability": 1561.0
+    },
+    "minecraft:diamond_leggings": {
+      "durability": 495.0
+    },
+    "minecraft:diamond_pickaxe": {
+      "durability": 1561.0,
+      "attack": 5.0
+    },
+    "minecraft:diamond_shovel": {
+      "durability": 1561.0,
+      "attack": 5.5
+    },
+    "minecraft:diamond_sword": {
+      "durability": 1561.0,
+      "attack": 7.0
+    },
+    "minecraft:dried_kelp": {
+      "nutrition": 1.0,
+      "saturation": 0.6,
+      "eatSeconds": 0.8,
+      "canAlwaysEat": false
+    },
+    "minecraft:elytra": {
+      "durability": 432.0
+    },
+    "minecraft:enchanted_golden_apple": {
+      "nutrition": 4.0,
+      "saturation": 9.6,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": true,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "amplifier": 1,
+          "duration": 400,
+          "probability": 1.0
+        },
+        {
+          "id": "minecraft:resistance",
+          "amplifier": 0,
+          "duration": 6000,
+          "probability": 1.0
+        },
+        {
+          "id": "minecraft:fire_resistance",
+          "amplifier": 0,
+          "duration": 6000,
+          "probability": 1.0
+        },
+        {
+          "id": "minecraft:absorption",
+          "amplifier": 3,
+          "duration": 2400,
+          "probability": 1.0
+        }
+      ]
+    },
+    "minecraft:fishing_rod": {
+      "durability": 64.0
+    },
+    "minecraft:flint_and_steel": {
+      "durability": 64.0
+    },
+    "minecraft:glow_berries": {
+      "nutrition": 2.0,
+      "saturation": 0.4,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:golden_apple": {
+      "nutrition": 4.0,
+      "saturation": 9.6,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": true,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "amplifier": 1,
+          "duration": 100,
+          "probability": 1.0
+        },
+        {
+          "id": "minecraft:absorption",
+          "amplifier": 0,
+          "duration": 2400,
+          "probability": 1.0
+        }
+      ]
+    },
+    "minecraft:golden_axe": {
+      "durability": 32.0,
+      "attack": 7.0
+    },
+    "minecraft:golden_boots": {
+      "durability": 91.0
+    },
+    "minecraft:golden_carrot": {
+      "nutrition": 6.0,
+      "saturation": 14.4,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:golden_chestplate": {
+      "durability": 112.0
+    },
+    "minecraft:golden_helmet": {
+      "durability": 77.0
+    },
+    "minecraft:golden_hoe": {
+      "durability": 32.0
+    },
+    "minecraft:golden_leggings": {
+      "durability": 105.0
+    },
+    "minecraft:golden_pickaxe": {
+      "durability": 32.0,
+      "attack": 2.0
+    },
+    "minecraft:golden_shovel": {
+      "durability": 32.0,
+      "attack": 2.5
+    },
+    "minecraft:golden_sword": {
+      "durability": 32.0,
+      "attack": 4.0
+    },
+    "minecraft:honey_bottle": {
+      "nutrition": 6.0,
+      "saturation": 1.2,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:iron_axe": {
+      "durability": 250.0,
+      "attack": 9.0
+    },
+    "minecraft:iron_boots": {
+      "durability": 195.0
+    },
+    "minecraft:iron_chestplate": {
+      "durability": 240.0
+    },
+    "minecraft:iron_helmet": {
+      "durability": 165.0
+    },
+    "minecraft:iron_hoe": {
+      "durability": 250.0
+    },
+    "minecraft:iron_leggings": {
+      "durability": 225.0
+    },
+    "minecraft:iron_pickaxe": {
+      "durability": 250.0,
+      "attack": 4.0
+    },
+    "minecraft:iron_shovel": {
+      "durability": 250.0,
+      "attack": 4.5
+    },
+    "minecraft:iron_sword": {
+      "durability": 250.0,
+      "attack": 6.0
+    },
+    "minecraft:leather_boots": {
+      "durability": 65.0
+    },
+    "minecraft:leather_chestplate": {
+      "durability": 80.0
+    },
+    "minecraft:leather_helmet": {
+      "durability": 55.0
+    },
+    "minecraft:leather_leggings": {
+      "durability": 75.0
+    },
+    "minecraft:mace": {
+      "durability": 500.0,
+      "attack": 6.0
+    },
+    "minecraft:melon_slice": {
+      "nutrition": 2.0,
+      "saturation": 1.2,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:mushroom_stew": {
+      "nutrition": 6.0,
+      "saturation": 7.2,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:mutton": {
+      "nutrition": 2.0,
+      "saturation": 1.2,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:netherite_axe": {
+      "durability": 2031.0,
+      "attack": 10.0
+    },
+    "minecraft:netherite_boots": {
+      "durability": 481.0
+    },
+    "minecraft:netherite_chestplate": {
+      "durability": 592.0
+    },
+    "minecraft:netherite_helmet": {
+      "durability": 407.0
+    },
+    "minecraft:netherite_hoe": {
+      "durability": 2031.0
+    },
+    "minecraft:netherite_leggings": {
+      "durability": 555.0
+    },
+    "minecraft:netherite_pickaxe": {
+      "durability": 2031.0,
+      "attack": 6.0
+    },
+    "minecraft:netherite_shovel": {
+      "durability": 2031.0,
+      "attack": 6.5
+    },
+    "minecraft:netherite_sword": {
+      "durability": 2031.0,
+      "attack": 8.0
+    },
+    "minecraft:ominous_bottle": {
+      "nutrition": 1.0,
+      "saturation": 0.2,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:poisonous_potato": {
+      "nutrition": 2.0,
+      "saturation": 1.2,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false,
+      "effects": [
+        {
+          "id": "minecraft:poison",
+          "amplifier": 0,
+          "duration": 100,
+          "probability": 0.6
+        }
+      ]
+    },
+    "minecraft:porkchop": {
+      "nutrition": 3.0,
+      "saturation": 1.8,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:potato": {
+      "nutrition": 1.0,
+      "saturation": 0.6,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:pufferfish": {
+      "nutrition": 1.0,
+      "saturation": 0.2,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false,
+      "effects": [
+        {
+          "id": "minecraft:poison",
+          "amplifier": 1,
+          "duration": 1200,
+          "probability": 1.0
+        },
+        {
+          "id": "minecraft:hunger",
+          "amplifier": 2,
+          "duration": 300,
+          "probability": 1.0
+        },
+        {
+          "id": "minecraft:nausea",
+          "amplifier": 0,
+          "duration": 300,
+          "probability": 1.0
+        }
+      ]
+    },
+    "minecraft:pumpkin_pie": {
+      "nutrition": 8.0,
+      "saturation": 4.8,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:rabbit": {
+      "nutrition": 3.0,
+      "saturation": 1.8,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:rabbit_stew": {
+      "nutrition": 10.0,
+      "saturation": 12.0,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:rotten_flesh": {
+      "nutrition": 4.0,
+      "saturation": 0.8,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false,
+      "effects": [
+        {
+          "id": "minecraft:hunger",
+          "amplifier": 0,
+          "duration": 600,
+          "probability": 0.8
+        }
+      ]
+    },
+    "minecraft:salmon": {
+      "nutrition": 2.0,
+      "saturation": 0.4,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:shears": {
+      "durability": 238.0
+    },
+    "minecraft:shield": {
+      "durability": 336.0
+    },
+    "minecraft:spider_eye": {
+      "nutrition": 2.0,
+      "saturation": 3.2,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false,
+      "effects": [
+        {
+          "id": "minecraft:poison",
+          "amplifier": 0,
+          "duration": 100,
+          "probability": 1.0
+        }
+      ]
+    },
+    "minecraft:stone_axe": {
+      "durability": 131.0,
+      "attack": 9.0
+    },
+    "minecraft:stone_hoe": {
+      "durability": 131.0
+    },
+    "minecraft:stone_pickaxe": {
+      "durability": 131.0,
+      "attack": 3.0
+    },
+    "minecraft:stone_shovel": {
+      "durability": 131.0,
+      "attack": 3.5
+    },
+    "minecraft:stone_sword": {
+      "durability": 131.0,
+      "attack": 5.0
+    },
+    "minecraft:suspicious_stew": {
+      "nutrition": 6.0,
+      "saturation": 7.2,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": true
+    },
+    "minecraft:sweet_berries": {
+      "nutrition": 2.0,
+      "saturation": 0.4,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:trident": {
+      "durability": 250.0,
+      "attack": 9.0
+    },
+    "minecraft:tropical_fish": {
+      "nutrition": 1.0,
+      "saturation": 0.2,
+      "eatSeconds": 1.6,
+      "canAlwaysEat": false
+    },
+    "minecraft:turtle_helmet": {
+      "durability": 275.0
+    },
+    "minecraft:warped_fungus_on_a_stick": {
+      "durability": 100.0
+    },
+    "minecraft:wolf_armor": {
+      "durability": 64.0
+    },
+    "minecraft:wooden_axe": {
+      "durability": 59.0,
+      "attack": 7.0
+    },
+    "minecraft:wooden_hoe": {
+      "durability": 59.0
+    },
+    "minecraft:wooden_pickaxe": {
+      "durability": 59.0,
+      "attack": 2.0
+    },
+    "minecraft:wooden_shovel": {
+      "durability": 59.0,
+      "attack": 2.5
+    },
+    "minecraft:wooden_sword": {
+      "durability": 59.0,
+      "attack": 4.0
+    }
+  },
+  "sources": {
+    "minecraft:acacia_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:acacia_button": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:acacia_chest_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:acacia_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:acacia_fence": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:acacia_fence_gate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:acacia_hanging_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:acacia_leaves": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:acacia_log": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:acacia_planks": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:acacia_pressure_plate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:acacia_sapling": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:acacia_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:acacia_slab": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:acacia_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:acacia_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:acacia_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:activator_rail": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:allium": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:amethyst_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:amethyst_cluster": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:amethyst_shard": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:ancient_debris": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:andesite": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:andesite_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:andesite_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:andesite_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:angler_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:anvil": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:apple": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:archer_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:armor_stand": [
+      "CRAFTING"
+    ],
+    "minecraft:arms_up_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:arrow": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT",
+      "VAULT"
+    ],
+    "minecraft:azalea": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:azalea_leaves": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:azure_bluet": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:baked_potato": [
+      "CHEST_LOOT",
+      "SMELTING"
+    ],
+    "minecraft:bamboo": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "ENTITY_DROP",
+      "FISHING"
+    ],
+    "minecraft:bamboo_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_button": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_chest_raft": [
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_fence": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_fence_gate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_hanging_sign": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_mosaic": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_mosaic_slab": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_mosaic_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_planks": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_pressure_plate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_raft": [
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_slab": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:bamboo_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:barrel": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:basalt": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:beacon": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:bee_nest": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:beef": [
+      "CHEST_LOOT",
+      "ENTITY_DROP"
+    ],
+    "minecraft:beehive": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:beetroot": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:beetroot_seeds": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:beetroot_soup": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:bell": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:big_dripleaf": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:birch_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:birch_button": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:birch_chest_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:birch_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:birch_fence": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:birch_fence_gate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:birch_hanging_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:birch_leaves": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:birch_log": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:birch_planks": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:birch_pressure_plate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:birch_sapling": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:birch_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:birch_slab": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:birch_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:birch_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:birch_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:black_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:black_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:black_candle": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:black_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:black_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:black_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:black_dye": [
+      "CRAFTING"
+    ],
+    "minecraft:black_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:black_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:black_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:black_stained_glass_pane": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:black_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:black_wool": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:blackstone": [
+      "BARTER",
+      "BLOCK_DROP"
+    ],
+    "minecraft:blackstone_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:blackstone_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:blackstone_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:blade_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:blast_furnace": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:blaze_powder": [
+      "CRAFTING"
+    ],
+    "minecraft:blaze_rod": [
+      "ENTITY_DROP"
+    ],
+    "minecraft:blue_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:blue_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:blue_candle": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:blue_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:blue_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:blue_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:blue_dye": [
+      "ARCHAEOLOGY",
+      "CRAFTING"
+    ],
+    "minecraft:blue_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:blue_ice": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:blue_orchid": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:blue_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:blue_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:blue_stained_glass_pane": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:blue_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:blue_wool": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:bolt_armor_trim_smithing_template": [
+      "CRAFTING",
+      "VAULT"
+    ],
+    "minecraft:bone": [
+      "CHEST_LOOT",
+      "ENTITY_DROP",
+      "FISHING"
+    ],
+    "minecraft:bone_block": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:bone_meal": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP"
+    ],
+    "minecraft:book": [
+      "BARTER",
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "FISHING",
+      "GIFT",
+      "VAULT"
+    ],
+    "minecraft:bookshelf": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:bow": [
+      "CRAFTING",
+      "FISHING",
+      "VAULT"
+    ],
+    "minecraft:bowl": [
+      "CRAFTING",
+      "ENTITY_DROP",
+      "FISHING"
+    ],
+    "minecraft:brain_coral": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:brain_coral_block": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:brain_coral_fan": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:bread": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "GIFT"
+    ],
+    "minecraft:breeze_rod": [
+      "ENTITY_DROP"
+    ],
+    "minecraft:brewer_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:brewing_stand": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:brick": [
+      "ARCHAEOLOGY",
+      "SMELTING"
+    ],
+    "minecraft:brick_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:brick_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:brick_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:bricks": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:brown_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:brown_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:brown_candle": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:brown_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:brown_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:brown_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:brown_dye": [
+      "CRAFTING"
+    ],
+    "minecraft:brown_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:brown_mushroom": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:brown_mushroom_block": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:brown_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:brown_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:brown_stained_glass_pane": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:brown_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:brown_wool": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:brush": [
+      "CRAFTING"
+    ],
+    "minecraft:bubble_coral": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:bubble_coral_block": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:bubble_coral_fan": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:bucket": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:burn_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:cactus": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:cake": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:calcite": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:calibrated_sculk_sensor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:campfire": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:candle": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:carrot": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "ENTITY_DROP"
+    ],
+    "minecraft:carrot_on_a_stick": [
+      "CRAFTING"
+    ],
+    "minecraft:cartography_table": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:carved_pumpkin": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:cauldron": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:chain": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:chainmail_boots": [
+      "GIFT"
+    ],
+    "minecraft:chainmail_chestplate": [
+      "CHEST_LOOT",
+      "GIFT"
+    ],
+    "minecraft:chainmail_helmet": [
+      "GIFT"
+    ],
+    "minecraft:chainmail_leggings": [
+      "GIFT"
+    ],
+    "minecraft:charcoal": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:cherry_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:cherry_button": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cherry_chest_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:cherry_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cherry_fence": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cherry_fence_gate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cherry_hanging_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cherry_leaves": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:cherry_log": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:cherry_planks": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cherry_pressure_plate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cherry_sapling": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:cherry_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cherry_slab": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cherry_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cherry_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cherry_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:chest": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:chest_minecart": [
+      "CRAFTING"
+    ],
+    "minecraft:chicken": [
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:chipped_anvil": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:chiseled_bookshelf": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:chiseled_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:chiseled_deepslate": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:chiseled_nether_bricks": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:chiseled_polished_blackstone": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:chiseled_quartz_block": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:chiseled_red_sandstone": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:chiseled_sandstone": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:chiseled_stone_bricks": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:chiseled_tuff": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:chiseled_tuff_bricks": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:chorus_flower": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:chorus_fruit": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:clay": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CRAFTING",
+      "GIFT"
+    ],
+    "minecraft:clay_ball": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:clock": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:coal": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "SMELTING"
+    ],
+    "minecraft:coal_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:coal_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:coarse_dirt": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:coast_armor_trim_smithing_template": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:cobbled_deepslate": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:cobbled_deepslate_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:cobbled_deepslate_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:cobbled_deepslate_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:cobblestone": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:cobblestone_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:cobblestone_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:cobblestone_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:cobweb": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:cocoa_beans": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:cod": [
+      "CHEST_LOOT",
+      "ENTITY_DROP",
+      "FISHING",
+      "GIFT"
+    ],
+    "minecraft:comparator": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:compass": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:composter": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:conduit": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cooked_beef": [
+      "CHEST_LOOT",
+      "GIFT",
+      "SMELTING"
+    ],
+    "minecraft:cooked_chicken": [
+      "CHEST_LOOT",
+      "GIFT",
+      "SMELTING"
+    ],
+    "minecraft:cooked_cod": [
+      "CHEST_LOOT",
+      "SMELTING"
+    ],
+    "minecraft:cooked_mutton": [
+      "GIFT",
+      "SMELTING"
+    ],
+    "minecraft:cooked_porkchop": [
+      "CHEST_LOOT",
+      "GIFT",
+      "SMELTING"
+    ],
+    "minecraft:cooked_rabbit": [
+      "GIFT",
+      "SMELTING"
+    ],
+    "minecraft:cooked_salmon": [
+      "CHEST_LOOT",
+      "SMELTING"
+    ],
+    "minecraft:cookie": [
+      "CRAFTING",
+      "GIFT"
+    ],
+    "minecraft:copper_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:copper_bulb": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:copper_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:copper_grate": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:copper_ingot": [
+      "CRAFTING",
+      "ENTITY_DROP",
+      "SMELTING"
+    ],
+    "minecraft:copper_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:copper_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cornflower": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:cracked_deepslate_bricks": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:cracked_deepslate_tiles": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:cracked_nether_bricks": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:cracked_polished_blackstone_bricks": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:cracked_stone_bricks": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:crafter": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:crafting_table": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:creeper_banner_pattern": [
+      "CRAFTING"
+    ],
+    "minecraft:creeper_head": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:crimson_button": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:crimson_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:crimson_fence": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:crimson_fence_gate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:crimson_fungus": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:crimson_hanging_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:crimson_hyphae": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:crimson_nylium": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:crimson_planks": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:crimson_pressure_plate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:crimson_roots": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:crimson_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:crimson_slab": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:crimson_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:crimson_stem": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:crimson_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:crossbow": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "VAULT"
+    ],
+    "minecraft:crying_obsidian": [
+      "BARTER",
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:cut_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:cut_copper_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:cut_copper_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:cut_red_sandstone": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:cut_red_sandstone_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:cut_sandstone": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:cut_sandstone_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:cyan_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cyan_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cyan_candle": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cyan_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cyan_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:cyan_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cyan_dye": [
+      "CRAFTING"
+    ],
+    "minecraft:cyan_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:cyan_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:cyan_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cyan_stained_glass_pane": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cyan_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:cyan_wool": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:damaged_anvil": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dandelion": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:danger_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:dark_oak_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:dark_oak_button": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dark_oak_chest_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:dark_oak_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dark_oak_fence": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dark_oak_fence_gate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dark_oak_hanging_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dark_oak_leaves": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dark_oak_log": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:dark_oak_planks": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dark_oak_pressure_plate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dark_oak_sapling": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dark_oak_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dark_oak_slab": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dark_oak_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dark_oak_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dark_oak_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dark_prismarine": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dark_prismarine_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:dark_prismarine_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:daylight_detector": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dead_brain_coral": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dead_brain_coral_block": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dead_brain_coral_fan": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dead_bubble_coral": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dead_bubble_coral_block": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dead_bubble_coral_fan": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dead_bush": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:dead_fire_coral": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dead_fire_coral_block": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dead_fire_coral_fan": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dead_horn_coral": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dead_horn_coral_block": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dead_horn_coral_fan": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dead_tube_coral": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dead_tube_coral_block": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dead_tube_coral_fan": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:decorated_pot": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:deepslate": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:deepslate_brick_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:deepslate_brick_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:deepslate_brick_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:deepslate_bricks": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:deepslate_coal_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:deepslate_copper_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:deepslate_diamond_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:deepslate_emerald_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:deepslate_gold_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:deepslate_iron_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:deepslate_lapis_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:deepslate_redstone_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:deepslate_tile_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:deepslate_tile_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:deepslate_tile_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:deepslate_tiles": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:detector_rail": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:diamond": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "SMELTING",
+      "VAULT"
+    ],
+    "minecraft:diamond_axe": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "VAULT"
+    ],
+    "minecraft:diamond_block": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "VAULT"
+    ],
+    "minecraft:diamond_boots": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:diamond_chestplate": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "VAULT"
+    ],
+    "minecraft:diamond_helmet": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:diamond_hoe": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:diamond_horse_armor": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:diamond_leggings": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:diamond_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:diamond_pickaxe": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:diamond_shovel": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:diamond_sword": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:diorite": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:diorite_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:diorite_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:diorite_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:dirt": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:disc_fragment_5": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:dispenser": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dragon_egg": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dragon_head": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:dried_kelp": [
+      "CRAFTING",
+      "SMELTING"
+    ],
+    "minecraft:dried_kelp_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dripstone_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dropper": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:dune_armor_trim_smithing_template": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:echo_shard": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:egg": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:emerald": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "SMELTING",
+      "VAULT"
+    ],
+    "minecraft:emerald_block": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "VAULT"
+    ],
+    "minecraft:emerald_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:enchanted_golden_apple": [
+      "CHEST_LOOT",
+      "VAULT"
+    ],
+    "minecraft:enchanting_table": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:end_crystal": [
+      "CRAFTING"
+    ],
+    "minecraft:end_rod": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:end_stone": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:end_stone_brick_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:end_stone_brick_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:end_stone_brick_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:end_stone_bricks": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:ender_chest": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:ender_eye": [
+      "CRAFTING"
+    ],
+    "minecraft:ender_pearl": [
+      "BARTER",
+      "CHEST_LOOT",
+      "ENTITY_DROP"
+    ],
+    "minecraft:experience_bottle": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:explorer_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:exposed_chiseled_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:exposed_copper": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:exposed_copper_bulb": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:exposed_copper_door": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:exposed_copper_grate": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:exposed_copper_trapdoor": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:exposed_cut_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:exposed_cut_copper_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:exposed_cut_copper_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:eye_armor_trim_smithing_template": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:feather": [
+      "CHEST_LOOT",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:fermented_spider_eye": [
+      "CRAFTING"
+    ],
+    "minecraft:fern": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:fire_charge": [
+      "BARTER",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:fire_coral": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:fire_coral_block": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:fire_coral_fan": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:firework_rocket": [
+      "CRAFTING"
+    ],
+    "minecraft:fishing_rod": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "FISHING"
+    ],
+    "minecraft:fletching_table": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:flint": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:flint_and_steel": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:flow_armor_trim_smithing_template": [
+      "CRAFTING",
+      "VAULT"
+    ],
+    "minecraft:flow_banner_pattern": [
+      "VAULT"
+    ],
+    "minecraft:flower_banner_pattern": [
+      "CRAFTING"
+    ],
+    "minecraft:flower_pot": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:flowering_azalea": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:flowering_azalea_leaves": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:friend_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:furnace": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:furnace_minecart": [
+      "CRAFTING"
+    ],
+    "minecraft:ghast_tear": [
+      "ENTITY_DROP"
+    ],
+    "minecraft:gilded_blackstone": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:glass": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:glass_bottle": [
+      "CRAFTING",
+      "ENTITY_DROP"
+    ],
+    "minecraft:glass_pane": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:glistering_melon_slice": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:glow_berries": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:glow_ink_sac": [
+      "ENTITY_DROP"
+    ],
+    "minecraft:glow_item_frame": [
+      "CRAFTING"
+    ],
+    "minecraft:glow_lichen": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:glowstone": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:glowstone_dust": [
+      "BLOCK_DROP",
+      "ENTITY_DROP"
+    ],
+    "minecraft:goat_horn": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:gold_block": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:gold_ingot": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "SMELTING"
+    ],
+    "minecraft:gold_nugget": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "SMELTING"
+    ],
+    "minecraft:gold_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:golden_apple": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "VAULT"
+    ],
+    "minecraft:golden_axe": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "GIFT"
+    ],
+    "minecraft:golden_boots": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:golden_carrot": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "VAULT"
+    ],
+    "minecraft:golden_chestplate": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:golden_helmet": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:golden_hoe": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:golden_horse_armor": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:golden_leggings": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:golden_pickaxe": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:golden_shovel": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:golden_sword": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:granite": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:granite_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:granite_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:granite_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:grass_block": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:gravel": [
+      "BARTER",
+      "BLOCK_DROP"
+    ],
+    "minecraft:gray_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:gray_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:gray_candle": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:gray_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:gray_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:gray_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:gray_dye": [
+      "CRAFTING"
+    ],
+    "minecraft:gray_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:gray_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:gray_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:gray_stained_glass_pane": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:gray_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:gray_wool": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:green_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:green_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:green_candle": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:green_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:green_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:green_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:green_dye": [
+      "CHEST_LOOT",
+      "SMELTING"
+    ],
+    "minecraft:green_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:green_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:green_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:green_stained_glass_pane": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:green_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:green_wool": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:grindstone": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:gunpowder": [
+      "ARCHAEOLOGY",
+      "CHEST_LOOT",
+      "ENTITY_DROP"
+    ],
+    "minecraft:guster_banner_pattern": [
+      "VAULT"
+    ],
+    "minecraft:hanging_roots": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:hay_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:heart_of_the_sea": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:heart_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:heartbreak_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:heavy_core": [
+      "BLOCK_DROP",
+      "VAULT"
+    ],
+    "minecraft:heavy_weighted_pressure_plate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:honey_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:honey_bottle": [
+      "CRAFTING",
+      "VAULT"
+    ],
+    "minecraft:honeycomb": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:honeycomb_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:hopper": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:hopper_minecart": [
+      "CRAFTING"
+    ],
+    "minecraft:horn_coral": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:horn_coral_block": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:horn_coral_fan": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:host_armor_trim_smithing_template": [
+      "ARCHAEOLOGY",
+      "CRAFTING"
+    ],
+    "minecraft:howl_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:ice": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:ink_sac": [
+      "ENTITY_DROP",
+      "FISHING"
+    ],
+    "minecraft:iron_axe": [
+      "ARCHAEOLOGY",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "GIFT",
+      "VAULT"
+    ],
+    "minecraft:iron_bars": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:iron_block": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "VAULT"
+    ],
+    "minecraft:iron_boots": [
+      "BARTER",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:iron_chestplate": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "VAULT"
+    ],
+    "minecraft:iron_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:iron_helmet": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:iron_hoe": [
+      "CRAFTING"
+    ],
+    "minecraft:iron_horse_armor": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:iron_ingot": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "SMELTING",
+      "VAULT"
+    ],
+    "minecraft:iron_leggings": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:iron_nugget": [
+      "BARTER",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "SMELTING"
+    ],
+    "minecraft:iron_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:iron_pickaxe": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:iron_shovel": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:iron_sword": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:iron_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:item_frame": [
+      "CRAFTING"
+    ],
+    "minecraft:jack_o_lantern": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:jukebox": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:jungle_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:jungle_button": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:jungle_chest_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:jungle_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:jungle_fence": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:jungle_fence_gate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:jungle_hanging_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:jungle_leaves": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:jungle_log": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:jungle_planks": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:jungle_pressure_plate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:jungle_sapling": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:jungle_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:jungle_slab": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:jungle_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:jungle_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:jungle_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:kelp": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:ladder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:lantern": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:lapis_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:lapis_lazuli": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "GIFT",
+      "SMELTING"
+    ],
+    "minecraft:lapis_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:large_amethyst_bud": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:large_fern": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:lead": [
+      "ARCHAEOLOGY",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:leather": [
+      "BARTER",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "FISHING",
+      "GIFT"
+    ],
+    "minecraft:leather_boots": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "FISHING"
+    ],
+    "minecraft:leather_chestplate": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:leather_helmet": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:leather_horse_armor": [
+      "CRAFTING"
+    ],
+    "minecraft:leather_leggings": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:lectern": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:lever": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_blue_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_blue_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_blue_candle": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_blue_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_blue_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:light_blue_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_blue_dye": [
+      "ARCHAEOLOGY",
+      "CRAFTING"
+    ],
+    "minecraft:light_blue_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:light_blue_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:light_blue_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_blue_stained_glass_pane": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_blue_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_blue_wool": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:light_gray_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_gray_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_gray_candle": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_gray_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_gray_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:light_gray_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_gray_dye": [
+      "CRAFTING"
+    ],
+    "minecraft:light_gray_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:light_gray_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:light_gray_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_gray_stained_glass_pane": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_gray_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:light_gray_wool": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:light_weighted_pressure_plate": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:lightning_rod": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:lilac": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:lily_of_the_valley": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:lily_pad": [
+      "BLOCK_DROP",
+      "FISHING"
+    ],
+    "minecraft:lime_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:lime_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:lime_candle": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:lime_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:lime_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:lime_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:lime_dye": [
+      "CRAFTING",
+      "SMELTING"
+    ],
+    "minecraft:lime_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:lime_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:lime_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:lime_stained_glass_pane": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:lime_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:lime_wool": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:lingering_potion": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:lodestone": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:loom": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mace": [
+      "CRAFTING"
+    ],
+    "minecraft:magenta_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:magenta_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:magenta_candle": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:magenta_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:magenta_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:magenta_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:magenta_dye": [
+      "CRAFTING"
+    ],
+    "minecraft:magenta_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:magenta_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:magenta_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:magenta_stained_glass_pane": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:magenta_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:magenta_wool": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:magma_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:magma_cream": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP"
+    ],
+    "minecraft:mangrove_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:mangrove_button": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mangrove_chest_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:mangrove_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mangrove_fence": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mangrove_fence_gate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mangrove_hanging_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mangrove_leaves": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:mangrove_log": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:mangrove_planks": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mangrove_pressure_plate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mangrove_propagule": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:mangrove_roots": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:mangrove_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mangrove_slab": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mangrove_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mangrove_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mangrove_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:map": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "GIFT"
+    ],
+    "minecraft:medium_amethyst_bud": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:melon": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:melon_seeds": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:melon_slice": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:milk_bucket": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:minecart": [
+      "CRAFTING"
+    ],
+    "minecraft:miner_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:mojang_banner_pattern": [
+      "CRAFTING"
+    ],
+    "minecraft:moss_block": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:moss_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mossy_cobblestone": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mossy_cobblestone_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:mossy_cobblestone_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:mossy_cobblestone_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:mossy_stone_brick_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:mossy_stone_brick_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:mossy_stone_brick_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:mossy_stone_bricks": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mourner_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:mud": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:mud_brick_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:mud_brick_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:mud_brick_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:mud_bricks": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:muddy_mangrove_roots": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:mushroom_stem": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:mushroom_stew": [
+      "CRAFTING"
+    ],
+    "minecraft:music_disc_13": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:music_disc_5": [
+      "CRAFTING"
+    ],
+    "minecraft:music_disc_cat": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:music_disc_creator": [
+      "VAULT"
+    ],
+    "minecraft:music_disc_creator_music_box": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:music_disc_otherside": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:music_disc_pigstep": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:music_disc_precipice": [
+      "VAULT"
+    ],
+    "minecraft:music_disc_relic": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:mutton": [
+      "CHEST_LOOT",
+      "ENTITY_DROP"
+    ],
+    "minecraft:mycelium": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:name_tag": [
+      "CHEST_LOOT",
+      "FISHING"
+    ],
+    "minecraft:nautilus_shell": [
+      "FISHING"
+    ],
+    "minecraft:nether_brick": [
+      "BARTER",
+      "SMELTING"
+    ],
+    "minecraft:nether_brick_fence": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:nether_brick_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:nether_brick_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:nether_brick_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:nether_bricks": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:nether_gold_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:nether_quartz_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:nether_sprouts": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:nether_wart": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:nether_wart_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:netherite_axe": [
+      "SMITHING"
+    ],
+    "minecraft:netherite_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:netherite_boots": [
+      "SMITHING"
+    ],
+    "minecraft:netherite_chestplate": [
+      "SMITHING"
+    ],
+    "minecraft:netherite_helmet": [
+      "SMITHING"
+    ],
+    "minecraft:netherite_hoe": [
+      "SMITHING"
+    ],
+    "minecraft:netherite_ingot": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:netherite_leggings": [
+      "SMITHING"
+    ],
+    "minecraft:netherite_pickaxe": [
+      "SMITHING"
+    ],
+    "minecraft:netherite_scrap": [
+      "CHEST_LOOT",
+      "SMELTING"
+    ],
+    "minecraft:netherite_shovel": [
+      "SMITHING"
+    ],
+    "minecraft:netherite_sword": [
+      "SMITHING"
+    ],
+    "minecraft:netherite_upgrade_smithing_template": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:netherrack": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:note_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:oak_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:oak_button": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:oak_chest_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:oak_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:oak_fence": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:oak_fence_gate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:oak_hanging_sign": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:oak_leaves": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:oak_log": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:oak_planks": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:oak_pressure_plate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:oak_sapling": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:oak_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:oak_slab": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:oak_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:oak_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:oak_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:observer": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:obsidian": [
+      "BARTER",
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:ochre_froglight": [
+      "BLOCK_DROP",
+      "ENTITY_DROP"
+    ],
+    "minecraft:ominous_bottle": [
+      "ENTITY_DROP",
+      "VAULT"
+    ],
+    "minecraft:ominous_trial_key": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:orange_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:orange_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:orange_candle": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:orange_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:orange_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:orange_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:orange_dye": [
+      "ARCHAEOLOGY",
+      "CRAFTING"
+    ],
+    "minecraft:orange_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:orange_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:orange_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:orange_stained_glass_pane": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:orange_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:orange_tulip": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:orange_wool": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:oxeye_daisy": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:oxidized_chiseled_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:oxidized_copper": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:oxidized_copper_bulb": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:oxidized_copper_door": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:oxidized_copper_grate": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:oxidized_copper_trapdoor": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:oxidized_cut_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:oxidized_cut_copper_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:oxidized_cut_copper_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:packed_ice": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:packed_mud": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:painting": [
+      "CRAFTING"
+    ],
+    "minecraft:paper": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "GIFT"
+    ],
+    "minecraft:pearlescent_froglight": [
+      "BLOCK_DROP",
+      "ENTITY_DROP"
+    ],
+    "minecraft:peony": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:petrified_oak_slab": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:phantom_membrane": [
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:piglin_banner_pattern": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:piglin_head": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:pink_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:pink_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:pink_candle": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:pink_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:pink_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:pink_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:pink_dye": [
+      "CRAFTING"
+    ],
+    "minecraft:pink_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:pink_petals": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:pink_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:pink_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:pink_stained_glass_pane": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:pink_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:pink_tulip": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:pink_wool": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:piston": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:pitcher_plant": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:pitcher_pod": [
+      "BLOCK_DROP",
+      "GIFT"
+    ],
+    "minecraft:player_head": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:plenty_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:podzol": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:pointed_dripstone": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:poisonous_potato": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:polished_andesite": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_andesite_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_andesite_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_basalt": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_blackstone": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_blackstone_brick_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_blackstone_brick_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_blackstone_brick_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_blackstone_bricks": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_blackstone_button": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:polished_blackstone_pressure_plate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:polished_blackstone_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_blackstone_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_blackstone_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_deepslate": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_deepslate_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_deepslate_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_deepslate_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_diorite": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_diorite_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_diorite_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_granite": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_granite_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_granite_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_tuff": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_tuff_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_tuff_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:polished_tuff_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:popped_chorus_fruit": [
+      "SMELTING"
+    ],
+    "minecraft:poppy": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "ENTITY_DROP"
+    ],
+    "minecraft:porkchop": [
+      "CHEST_LOOT",
+      "ENTITY_DROP"
+    ],
+    "minecraft:potato": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "ENTITY_DROP"
+    ],
+    "minecraft:potion": [
+      "BARTER",
+      "CHEST_LOOT",
+      "FISHING"
+    ],
+    "minecraft:powered_rail": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:prismarine": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:prismarine_brick_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:prismarine_brick_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:prismarine_bricks": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:prismarine_crystals": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "ENTITY_DROP"
+    ],
+    "minecraft:prismarine_shard": [
+      "ENTITY_DROP"
+    ],
+    "minecraft:prismarine_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:prismarine_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:prismarine_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:prize_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:pufferfish": [
+      "ENTITY_DROP",
+      "FISHING"
+    ],
+    "minecraft:pumpkin": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:pumpkin_pie": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "GIFT"
+    ],
+    "minecraft:pumpkin_seeds": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:purple_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:purple_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:purple_candle": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:purple_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:purple_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:purple_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:purple_dye": [
+      "CRAFTING"
+    ],
+    "minecraft:purple_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:purple_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:purple_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:purple_stained_glass_pane": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:purple_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:purple_wool": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:purpur_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:purpur_pillar": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:purpur_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:purpur_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:quartz": [
+      "BARTER",
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "SMELTING"
+    ],
+    "minecraft:quartz_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:quartz_bricks": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:quartz_pillar": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:quartz_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:quartz_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:rabbit": [
+      "ENTITY_DROP"
+    ],
+    "minecraft:rabbit_foot": [
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:rabbit_hide": [
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:rabbit_stew": [
+      "CRAFTING"
+    ],
+    "minecraft:rail": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:raiser_armor_trim_smithing_template": [
+      "ARCHAEOLOGY",
+      "CRAFTING"
+    ],
+    "minecraft:raw_copper": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:raw_copper_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:raw_gold": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:raw_gold_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:raw_iron": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:raw_iron_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:recovery_compass": [
+      "CRAFTING"
+    ],
+    "minecraft:red_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:red_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:red_candle": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:red_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:red_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:red_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:red_dye": [
+      "CRAFTING"
+    ],
+    "minecraft:red_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:red_mushroom": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:red_mushroom_block": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:red_nether_brick_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:red_nether_brick_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:red_nether_brick_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:red_nether_bricks": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:red_sand": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:red_sandstone": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:red_sandstone_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:red_sandstone_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:red_sandstone_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:red_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:red_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:red_stained_glass_pane": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:red_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:red_tulip": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:red_wool": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:redstone": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT",
+      "SMELTING"
+    ],
+    "minecraft:redstone_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:redstone_lamp": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:redstone_ore": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:redstone_torch": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:repeater": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:respawn_anchor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:rib_armor_trim_smithing_template": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:rooted_dirt": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:rose_bush": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:rotten_flesh": [
+      "CHEST_LOOT",
+      "ENTITY_DROP",
+      "FISHING",
+      "GIFT"
+    ],
+    "minecraft:saddle": [
+      "CHEST_LOOT",
+      "ENTITY_DROP",
+      "FISHING"
+    ],
+    "minecraft:salmon": [
+      "CHEST_LOOT",
+      "ENTITY_DROP",
+      "FISHING",
+      "GIFT"
+    ],
+    "minecraft:sand": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:sandstone": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:sandstone_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:sandstone_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:sandstone_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:scaffolding": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:sculk": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:sculk_catalyst": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "ENTITY_DROP"
+    ],
+    "minecraft:sculk_sensor": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:sculk_shrieker": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:sculk_vein": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:sea_lantern": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:sea_pickle": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:seagrass": [
+      "BLOCK_DROP",
+      "ENTITY_DROP"
+    ],
+    "minecraft:sentry_armor_trim_smithing_template": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:shaper_armor_trim_smithing_template": [
+      "ARCHAEOLOGY",
+      "CRAFTING"
+    ],
+    "minecraft:sheaf_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:shears": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:shelter_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:shield": [
+      "CRAFTING",
+      "VAULT"
+    ],
+    "minecraft:short_grass": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:shroomlight": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:shulker_box": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:shulker_shell": [
+      "ENTITY_DROP"
+    ],
+    "minecraft:silence_armor_trim_smithing_template": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:skeleton_skull": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:skull_banner_pattern": [
+      "CRAFTING"
+    ],
+    "minecraft:skull_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:slime_ball": [
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:slime_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:small_amethyst_bud": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:small_dripleaf": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:smithing_table": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:smoker": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:smooth_basalt": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:smooth_quartz": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:smooth_quartz_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:smooth_quartz_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:smooth_red_sandstone": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:smooth_red_sandstone_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:smooth_red_sandstone_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:smooth_sandstone": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:smooth_sandstone_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:smooth_sandstone_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:smooth_stone": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "SMELTING"
+    ],
+    "minecraft:smooth_stone_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:sniffer_egg": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP"
+    ],
+    "minecraft:snort_pottery_sherd": [
+      "ARCHAEOLOGY"
+    ],
+    "minecraft:snout_armor_trim_smithing_template": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:snow": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:snow_block": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:snowball": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "ENTITY_DROP"
+    ],
+    "minecraft:soul_campfire": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:soul_lantern": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:soul_sand": [
+      "BARTER",
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:soul_soil": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:soul_torch": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:spectral_arrow": [
+      "BARTER",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:spider_eye": [
+      "CHEST_LOOT",
+      "ENTITY_DROP"
+    ],
+    "minecraft:spire_armor_trim_smithing_template": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:splash_potion": [
+      "BARTER",
+      "CHEST_LOOT"
+    ],
+    "minecraft:sponge": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:spore_blossom": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:spruce_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:spruce_button": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:spruce_chest_boat": [
+      "CRAFTING"
+    ],
+    "minecraft:spruce_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:spruce_fence": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:spruce_fence_gate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:spruce_hanging_sign": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:spruce_leaves": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:spruce_log": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:spruce_planks": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:spruce_pressure_plate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:spruce_sapling": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:spruce_sign": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:spruce_slab": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:spruce_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:spruce_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:spruce_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:spyglass": [
+      "CRAFTING"
+    ],
+    "minecraft:stick": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "FISHING"
+    ],
+    "minecraft:sticky_piston": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:stone": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "SMELTING"
+    ],
+    "minecraft:stone_axe": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "GIFT"
+    ],
+    "minecraft:stone_brick_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:stone_brick_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:stone_brick_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:stone_bricks": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:stone_button": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:stone_hoe": [
+      "CRAFTING",
+      "GIFT"
+    ],
+    "minecraft:stone_pickaxe": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "GIFT"
+    ],
+    "minecraft:stone_pressure_plate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:stone_shovel": [
+      "CRAFTING",
+      "GIFT"
+    ],
+    "minecraft:stone_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:stone_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:stone_sword": [
+      "CRAFTING"
+    ],
+    "minecraft:stonecutter": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:string": [
+      "ARCHAEOLOGY",
+      "BARTER",
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "ENTITY_DROP",
+      "FISHING",
+      "GIFT"
+    ],
+    "minecraft:stripped_acacia_log": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:stripped_acacia_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:stripped_bamboo_block": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:stripped_birch_log": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:stripped_birch_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:stripped_cherry_log": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:stripped_cherry_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:stripped_crimson_hyphae": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:stripped_crimson_stem": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:stripped_dark_oak_log": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:stripped_dark_oak_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:stripped_jungle_log": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:stripped_jungle_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:stripped_mangrove_log": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:stripped_mangrove_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:stripped_oak_log": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:stripped_oak_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:stripped_spruce_log": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:stripped_spruce_wood": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:stripped_warped_hyphae": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:stripped_warped_stem": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:sugar": [
+      "CRAFTING",
+      "ENTITY_DROP"
+    ],
+    "minecraft:sugar_cane": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:sunflower": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:suspicious_stew": [
+      "ARCHAEOLOGY",
+      "CHEST_LOOT"
+    ],
+    "minecraft:sweet_berries": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:tall_grass": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:target": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:tide_armor_trim_smithing_template": [
+      "CRAFTING",
+      "ENTITY_DROP"
+    ],
+    "minecraft:tinted_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:tipped_arrow": [
+      "CHEST_LOOT",
+      "ENTITY_DROP",
+      "GIFT",
+      "VAULT"
+    ],
+    "minecraft:tnt": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:tnt_minecart": [
+      "CRAFTING"
+    ],
+    "minecraft:torch": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:torchflower": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:torchflower_seeds": [
+      "BLOCK_DROP",
+      "GIFT"
+    ],
+    "minecraft:totem_of_undying": [
+      "ENTITY_DROP"
+    ],
+    "minecraft:trapped_chest": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:trial_key": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:trident": [
+      "VAULT"
+    ],
+    "minecraft:tripwire_hook": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "FISHING"
+    ],
+    "minecraft:tropical_fish": [
+      "ENTITY_DROP",
+      "FISHING"
+    ],
+    "minecraft:tube_coral": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:tube_coral_block": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:tube_coral_fan": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:tuff": [
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:tuff_brick_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:tuff_brick_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:tuff_brick_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:tuff_bricks": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:tuff_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:tuff_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:tuff_wall": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:turtle_egg": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:turtle_helmet": [
+      "CRAFTING"
+    ],
+    "minecraft:twisting_vines": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:verdant_froglight": [
+      "BLOCK_DROP",
+      "ENTITY_DROP"
+    ],
+    "minecraft:vex_armor_trim_smithing_template": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:vine": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:ward_armor_trim_smithing_template": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:warped_button": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:warped_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:warped_fence": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:warped_fence_gate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:warped_fungus": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:warped_fungus_on_a_stick": [
+      "CRAFTING"
+    ],
+    "minecraft:warped_hanging_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:warped_hyphae": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:warped_nylium": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:warped_planks": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:warped_pressure_plate": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:warped_roots": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:warped_sign": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:warped_slab": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:warped_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:warped_stem": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:warped_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:warped_wart_block": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:water_bucket": [
+      "CHEST_LOOT"
+    ],
+    "minecraft:waxed_chiseled_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_copper_block": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_copper_bulb": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_copper_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_copper_grate": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_copper_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_cut_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_cut_copper_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_cut_copper_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_exposed_chiseled_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_exposed_copper": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_exposed_copper_bulb": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_exposed_copper_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_exposed_copper_grate": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_exposed_copper_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_exposed_cut_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_exposed_cut_copper_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_exposed_cut_copper_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_oxidized_chiseled_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_oxidized_copper": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_oxidized_copper_bulb": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_oxidized_copper_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_oxidized_copper_grate": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_oxidized_copper_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_oxidized_cut_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_oxidized_cut_copper_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_oxidized_cut_copper_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_weathered_chiseled_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_weathered_copper": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_weathered_copper_bulb": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_weathered_copper_door": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_weathered_copper_grate": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_weathered_copper_trapdoor": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:waxed_weathered_cut_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_weathered_cut_copper_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:waxed_weathered_cut_copper_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:wayfinder_armor_trim_smithing_template": [
+      "ARCHAEOLOGY",
+      "CRAFTING"
+    ],
+    "minecraft:weathered_chiseled_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:weathered_copper": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:weathered_copper_bulb": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:weathered_copper_door": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:weathered_copper_grate": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:weathered_copper_trapdoor": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:weathered_cut_copper": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:weathered_cut_copper_slab": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:weathered_cut_copper_stairs": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "CUTTING"
+    ],
+    "minecraft:weeping_vines": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:wet_sponge": [
+      "BLOCK_DROP",
+      "ENTITY_DROP"
+    ],
+    "minecraft:wheat": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:wheat_seeds": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CHEST_LOOT"
+    ],
+    "minecraft:white_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:white_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:white_candle": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:white_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:white_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:white_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:white_dye": [
+      "ARCHAEOLOGY",
+      "CRAFTING"
+    ],
+    "minecraft:white_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:white_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:white_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:white_stained_glass_pane": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:white_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:white_tulip": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:white_wool": [
+      "BLOCK_DROP",
+      "CHEST_LOOT",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:wild_armor_trim_smithing_template": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:wind_charge": [
+      "CHEST_LOOT",
+      "CRAFTING",
+      "VAULT"
+    ],
+    "minecraft:wither_rose": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:wither_skeleton_skull": [
+      "BLOCK_DROP",
+      "ENTITY_DROP"
+    ],
+    "minecraft:wolf_armor": [
+      "CRAFTING"
+    ],
+    "minecraft:wooden_axe": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:wooden_hoe": [
+      "ARCHAEOLOGY",
+      "CRAFTING"
+    ],
+    "minecraft:wooden_pickaxe": [
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:wooden_shovel": [
+      "CRAFTING"
+    ],
+    "minecraft:wooden_sword": [
+      "CRAFTING"
+    ],
+    "minecraft:writable_book": [
+      "CRAFTING"
+    ],
+    "minecraft:yellow_banner": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:yellow_bed": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:yellow_candle": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:yellow_carpet": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:yellow_concrete": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:yellow_concrete_powder": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:yellow_dye": [
+      "ARCHAEOLOGY",
+      "CHEST_LOOT",
+      "CRAFTING"
+    ],
+    "minecraft:yellow_glazed_terracotta": [
+      "BLOCK_DROP",
+      "SMELTING"
+    ],
+    "minecraft:yellow_shulker_box": [
+      "BLOCK_DROP"
+    ],
+    "minecraft:yellow_stained_glass": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:yellow_stained_glass_pane": [
+      "ARCHAEOLOGY",
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:yellow_terracotta": [
+      "BLOCK_DROP",
+      "CRAFTING"
+    ],
+    "minecraft:yellow_wool": [
+      "BLOCK_DROP",
+      "CRAFTING",
+      "ENTITY_DROP",
+      "GIFT"
+    ],
+    "minecraft:zombie_head": [
+      "BLOCK_DROP"
+    ]
+  }
+}

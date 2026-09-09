@@ -1,0 +1,160 @@
+{
+  "minecraft:iron_pickaxe": {
+    "base": {
+      "customName": "Handmade Iron Pickaxe",
+      "loreJson": [
+        { "text": "An iron pickaxe you hammered out yourself, with two wraps of cloth on the grip to spare your hands.", "color": "green", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "reinforced",
+            "weight": 0.25,
+            "rule": {
+              "customName": "Reinforced Iron Pickaxe",
+              "loreJson": [
+                { "text": "An extra layer of iron plated over the head, meant specifically for hard rock.", "color": "blue", "italic": true }
+              ],
+              "rarity": 1,
+              "maxDamageRange": [300, 360]
+            }
+          },
+          {
+            "id": "worn",
+            "weight": 0.75,
+            "rule": {
+              "customName": "Worn Iron Pickaxe",
+              "loreJson": [
+                { "text": "The point has been ground round, so you will have to put more muscle into the stone.", "color": "gray", "italic": true }
+              ],
+              "rarity": 0,
+              "maxDamageRange": [120, 180]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:flint_and_steel": {
+    "base": {
+      "customName": "Flint and Steel",
+      "loreJson": [
+        { "text": "Two strikes and you have a spark. The least fussy way to start a fire out in the wild.", "color": "white", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "oiled",
+            "weight": 0.4,
+            "rule": {
+              "customName": "Oiled Flint and Steel",
+              "loreJson": [
+                { "text": "The steel has been wiped to a shine and catches on the first try.", "color": "green", "italic": true }
+              ],
+              "rarity": 0
+            }
+          },
+          {
+            "id": "dull",
+            "weight": 0.6,
+            "rule": {
+              "customName": "Dull Flint and Steel",
+              "loreJson": [
+                { "text": "The edge of the steel has worn smooth, so it takes several strikes before it will throw a spark.", "color": "gray", "italic": true }
+              ],
+              "rarity": 0,
+              "maxDamageRange": [30, 45]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:fishing_rod": {
+    "base": {
+      "customName": "Fishing Rod",
+      "loreJson": [
+        { "text": "A pole, a length of line, and one hook. Patience supplies the rest.", "color": "green", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "tackled",
+            "weight": 0.3,
+            "rule": {
+              "customName": "Old Hand's Fishing Rod",
+              "loreJson": [
+                { "text": "The reel is oiled and the hooks have been replaced. Clearly a rod that sees regular use.", "color": "blue", "italic": true }
+              ],
+              "rarity": 1,
+              "maxDamageRange": [90, 120]
+            }
+          },
+          {
+            "id": "snarled",
+            "weight": 0.7,
+            "rule": {
+              "customName": "Snarled Fishing Rod",
+              "loreJson": [
+                { "text": "The line is tied in knots. Untangling it alone will take you the better part of an hour.", "color": "gray", "italic": true }
+              ],
+              "rarity": 0,
+              "maxDamageRange": [30, 50]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:shears": {
+    "base": {
+      "customName": "Shears",
+      "loreJson": [
+        { "text": "For wool, for leaves, for vines. Occasionally for other things as well.", "color": "white", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "sharp",
+            "weight": 0.35,
+            "rule": {
+              "customName": "Sharp Shears",
+              "loreJson": [
+                { "text": "The blades have been honed thin, and they close with almost no resistance.", "color": "green", "italic": true }
+              ],
+              "rarity": 0
+            }
+          },
+          {
+            "id": "rusty",
+            "weight": 0.65,
+            "rule": {
+              "customName": "Rusty Shears",
+              "loreJson": [
+                { "text": "The pivot has rusted shut, and they shriek every time you open and close them.", "color": "dark_gray", "italic": true }
+              ],
+              "rarity": 0,
+              "maxDamageRange": [100, 150]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2323 @@
+{
+  "minecraft:black_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。黑色压得很实，适合勾出清楚的边界。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。黑色压得很实，适合勾出清楚的边界。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。黑色压得很实，适合勾出清楚的边界。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。黑色压得很实，适合勾出清楚的边界。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。黑色压得很实，适合勾出清楚的边界。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。黑色压得很实，适合勾出清楚的边界。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。黑色压得很实，适合勾出清楚的边界。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。黑色压得很实，适合勾出清楚的边界。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。黑色压得很实，适合勾出清楚的边界。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。黑色压得很实，适合勾出清楚的边界。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。黑色压得很实，适合勾出清楚的边界。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。黑色压得很实，适合勾出清楚的边界。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。黑色压得很实，适合勾出清楚的边界。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。蓝色浓而清楚，适合标出远处的位置。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。蓝色浓而清楚，适合标出远处的位置。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。蓝色浓而清楚，适合标出远处的位置。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。蓝色浓而清楚，适合标出远处的位置。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。蓝色浓而清楚，适合标出远处的位置。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。蓝色浓而清楚，适合标出远处的位置。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。蓝色浓而清楚，适合标出远处的位置。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。蓝色浓而清楚，适合标出远处的位置。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。蓝色浓而清楚，适合标出远处的位置。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。蓝色浓而清楚，适合标出远处的位置。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。蓝色浓而清楚，适合标出远处的位置。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。蓝色浓而清楚，适合标出远处的位置。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。蓝色浓而清楚，适合标出远处的位置。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。棕色接近木纹，放在木屋里很自然。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。棕色接近木纹，放在木屋里很自然。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。棕色接近木纹，放在木屋里很自然。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。棕色接近木纹，放在木屋里很自然。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。棕色接近木纹，放在木屋里很自然。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。棕色接近木纹，放在木屋里很自然。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。棕色接近木纹，放在木屋里很自然。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。棕色接近木纹，放在木屋里很自然。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。棕色接近木纹，放在木屋里很自然。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。棕色接近木纹，放在木屋里很自然。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。棕色接近木纹，放在木屋里很自然。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。棕色接近木纹，放在木屋里很自然。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。棕色接近木纹，放在木屋里很自然。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "没上色的蜡烛，还是蜂蜡本来的黄白。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。青色偏冷，和石材的暗面很相称。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。青色偏冷，和石材的暗面很相称。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。青色偏冷，和石材的暗面很相称。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。青色偏冷，和石材的暗面很相称。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。青色偏冷，和石材的暗面很相称。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。青色偏冷，和石材的暗面很相称。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。青色偏冷，和石材的暗面很相称。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。青色偏冷，和石材的暗面很相称。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。青色偏冷，和石材的暗面很相称。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。青色偏冷，和石材的暗面很相称。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。青色偏冷，和石材的暗面很相称。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。青色偏冷，和石材的暗面很相称。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。青色偏冷，和石材的暗面很相称。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。灰色低沉，适合收住过亮的配色。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。灰色低沉，适合收住过亮的配色。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。灰色低沉，适合收住过亮的配色。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。灰色低沉，适合收住过亮的配色。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。灰色低沉，适合收住过亮的配色。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。灰色低沉，适合收住过亮的配色。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。灰色低沉，适合收住过亮的配色。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。灰色低沉，适合收住过亮的配色。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。灰色低沉，适合收住过亮的配色。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。灰色低沉，适合收住过亮的配色。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。灰色低沉，适合收住过亮的配色。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。灰色低沉，适合收住过亮的配色。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。灰色低沉，适合收住过亮的配色。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。绿色深而稳，和叶丛并排不突兀。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。绿色深而稳，和叶丛并排不突兀。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。绿色深而稳，和叶丛并排不突兀。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。绿色深而稳，和叶丛并排不突兀。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。绿色深而稳，和叶丛并排不突兀。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。绿色深而稳，和叶丛并排不突兀。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。绿色深而稳，和叶丛并排不突兀。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。绿色深而稳，和叶丛并排不突兀。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。绿色深而稳，和叶丛并排不突兀。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。绿色深而稳，和叶丛并排不突兀。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。绿色深而稳，和叶丛并排不突兀。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。绿色深而稳，和叶丛并排不突兀。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。绿色深而稳，和叶丛并排不突兀。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。浅蓝清淡，和白色并排很协调。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。浅蓝清淡，和白色并排很协调。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。浅蓝清淡，和白色并排很协调。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。浅蓝清淡，和白色并排很协调。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。浅蓝清淡，和白色并排很协调。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。浅蓝清淡，和白色并排很协调。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。浅蓝清淡，和白色并排很协调。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。浅蓝清淡，和白色并排很协调。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。浅蓝清淡，和白色并排很协调。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。浅蓝清淡，和白色并排很协调。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。浅蓝清淡，和白色并排很协调。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。浅蓝清淡，和白色并排很协调。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。浅蓝清淡，和白色并排很协调。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。浅灰平和，用在边线处不抢眼。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。浅灰平和，用在边线处不抢眼。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。浅灰平和，用在边线处不抢眼。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。浅灰平和，用在边线处不抢眼。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。浅灰平和，用在边线处不抢眼。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。浅灰平和，用在边线处不抢眼。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。浅灰平和，用在边线处不抢眼。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。浅灰平和，用在边线处不抢眼。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。浅灰平和，用在边线处不抢眼。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。浅灰平和，用在边线处不抢眼。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。浅灰平和，用在边线处不抢眼。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。浅灰平和，用在边线处不抢眼。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。浅灰平和，用在边线处不抢眼。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。黄绿色鲜嫩，夹在深色中很突出。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。黄绿色鲜嫩，夹在深色中很突出。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。黄绿色鲜嫩，夹在深色中很突出。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。黄绿色鲜嫩，夹在深色中很突出。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。黄绿色鲜嫩，夹在深色中很突出。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。黄绿色鲜嫩，夹在深色中很突出。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。黄绿色鲜嫩，夹在深色中很突出。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。黄绿色鲜嫩，夹在深色中很突出。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。黄绿色鲜嫩，夹在深色中很突出。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。黄绿色鲜嫩，夹在深色中很突出。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。黄绿色鲜嫩，夹在深色中很突出。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。黄绿色鲜嫩，夹在深色中很突出。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。黄绿色鲜嫩，夹在深色中很突出。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。品红浓艳，少量就很醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。品红浓艳，少量就很醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。品红浓艳，少量就很醒目。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。品红浓艳，少量就很醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。品红浓艳，少量就很醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。品红浓艳，少量就很醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。品红浓艳，少量就很醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。品红浓艳，少量就很醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。品红浓艳，少量就很醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。品红浓艳，少量就很醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。品红浓艳，少量就很醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。品红浓艳，少量就很醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。品红浓艳，少量就很醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。橙色明亮，远处也容易认清。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。橙色明亮，远处也容易认清。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。橙色明亮，远处也容易认清。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。橙色明亮，远处也容易认清。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。橙色明亮，远处也容易认清。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。橙色明亮，远处也容易认清。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。橙色明亮，远处也容易认清。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。橙色明亮，远处也容易认清。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。橙色明亮，远处也容易认清。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。橙色明亮，远处也容易认清。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。橙色明亮，远处也容易认清。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。橙色明亮，远处也容易认清。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。橙色明亮，远处也容易认清。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。粉色柔和，铺开也不显沉重。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。粉色柔和，铺开也不显沉重。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。粉色柔和，铺开也不显沉重。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。粉色柔和，铺开也不显沉重。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。粉色柔和，铺开也不显沉重。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。粉色柔和，铺开也不显沉重。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。粉色柔和，铺开也不显沉重。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。粉色柔和，铺开也不显沉重。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。粉色柔和，铺开也不显沉重。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。粉色柔和，铺开也不显沉重。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。粉色柔和，铺开也不显沉重。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。粉色柔和，铺开也不显沉重。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。粉色柔和，铺开也不显沉重。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。紫色厚重，少量就能定出轮廓。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。紫色厚重，少量就能定出轮廓。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。紫色厚重，少量就能定出轮廓。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。紫色厚重，少量就能定出轮廓。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。紫色厚重，少量就能定出轮廓。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。紫色厚重，少量就能定出轮廓。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。紫色厚重，少量就能定出轮廓。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。紫色厚重，少量就能定出轮廓。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。紫色厚重，少量就能定出轮廓。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。紫色厚重，少量就能定出轮廓。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。紫色厚重，少量就能定出轮廓。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。紫色厚重，少量就能定出轮廓。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。紫色厚重，少量就能定出轮廓。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。红色饱满，做警示或边饰都醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。红色饱满，做警示或边饰都醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。红色饱满，做警示或边饰都醒目。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。红色饱满，做警示或边饰都醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。红色饱满，做警示或边饰都醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。红色饱满，做警示或边饰都醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。红色饱满，做警示或边饰都醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。红色饱满，做警示或边饰都醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。红色饱满，做警示或边饰都醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。红色饱满，做警示或边饰都醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。红色饱满，做警示或边饰都醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。红色饱满，做警示或边饰都醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。红色饱满，做警示或边饰都醒目。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "原色的潜影盒，两片壳夹一只箱子，搬家不用先卸货。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "没上釉的陶瓦，出窑时就是这个颜色。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。白色干净，适合衬亮暗处。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。白色干净，适合衬亮暗处。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。白色干净，适合衬亮暗处。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。白色干净，适合衬亮暗处。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。白色干净，适合衬亮暗处。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。白色干净，适合衬亮暗处。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。白色干净，适合衬亮暗处。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。白色干净，适合衬亮暗处。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。白色干净，适合衬亮暗处。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。白色干净，适合衬亮暗处。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。白色干净，适合衬亮暗处。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。白色干净，适合衬亮暗处。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。白色干净，适合衬亮暗处。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "布面上还留着织机的压痕，图案得自己绣。黄色鲜明，做标记很容易找。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "木板和羊毛拼的床，够一个人睡；放哪儿都行，别挡着门。黄色鲜明，做标记很容易找。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂蜡裹住一段细绳，点亮之后能烧很久。黄色鲜明，做标记很容易找。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层羊毛，铺在地上能把脚步声压下去。黄色鲜明，做标记很容易找。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉末遇水凝成的硬块，敲上去声音发闷。黄色鲜明，做标记很容易找。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "装袋的粉末，沾水就凝住，别让它淋着雨。黄色鲜明，做标记很容易找。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨细的颜料，染羊毛、染陶瓦、染玻璃都用得上。黄色鲜明，做标记很容易找。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "窑里烧出来的釉面，转个角度能看见光在走。黄色鲜明，做标记很容易找。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片潜影壳夹着一只箱子，敲碎了里面的东西也不会掉出来。黄色鲜明，做标记很容易找。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜料熔进了玻璃里，透光，但不透景。黄色鲜明，做标记很容易找。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料，也更容易碎。黄色鲜明，做标记很容易找。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土入窑烧成的素坯，颜色沉得住，不怕日晒。黄色鲜明，做标记很容易找。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪下来洗净再压实的羊毛，按上去还是软的。黄色鲜明，做标记很容易找。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

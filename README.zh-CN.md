@@ -9,14 +9,14 @@
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Build](https://github.com/2233DevJian/OriginLore/actions/workflows/build.yml/badge.svg)
 
-OriginLore 依据物品**从哪里来**决定它**是什么**。箱子战利品、方块掉落、实体掉落、钓鱼、考古、猪灵以物易物、试炼密室宝库、工作台合成、熔炼、切石、锻造、铁砧和 `/give` 各自被识别为一种独立来源；每种来源都可以拥有自己的名称、Lore、稀有度、食物效果、附魔、属性修饰符和工具规则，也支持按权重抽取、且只在首次生成时抽取一次的随机变体。
+OriginLore 依据物品**从哪里来**决定它**是什么**。箱子战利品、方块掉落、实体掉落、钓鱼、考古、猪灵以物易物、赠礼、试炼密室宝库、合成、熔炼、切石、锻造、交易、采收和 `/give` 各自被识别为一种独立来源；每种来源都可以拥有自己的名称、Lore、稀有度、食物效果、附魔、属性修饰符和工具规则，并在实际生产时按权重抽取随机变体。修理、改名和附魔操作继承主体物品的身份。
 
 配置、来源判定、随机变体和物品刷新全部由逻辑服务端决定，结果以**原版数据组件**的形式写入物品本身。普通玩家不需要安装任何东西：原版客户端看到并使用这些内容的过程，与数据包或命令写入的结果完全一致。可选的客户端模组只为管理员提供游戏内管理界面和基于注册表的 Tab 补全。
 
 ## 特性一览
 
 - **三层规则模型** —— 基础规则 → 最具体的匹配来源规则 → 首次生成时抽到的变体规则。未填写的字段表示继承，绝不会把物品原有的值清空。
-- **14 种来源识别**，可选按战利品表 / 配方 ID 精确匹配；无法追溯的旧物品和模组自定义入口安全归入 `UNKNOWN`。OriginLore 不猜测来源。
+- **15 种来源识别**，可选按战利品表 / 配方 ID 精确匹配；无法追溯的旧物品和模组自定义入口归入 `UNKNOWN`。OriginLore 不猜测来源。
 - **稳定的随机变体** —— 只抽取一次并持久保存。重启、区块重载、拆分、堆叠和重连都不会重抽，不同变体也不会错误堆叠。
 - **可回退** —— 从配置中删除某个字段后，物品会恢复 OriginLore 首次接管它之前记录的原始组件补丁，而不是留下一个空值。
 - **热刷新** —— 保存配置后，在线玩家背包、末影箱、装备、打开的容器、已加载方块库存和物品实体会增量刷新。未加载区块和离线存档从不被扫描。
@@ -35,15 +35,19 @@ OriginLore 依据物品**从哪里来**决定它**是什么**。箱子战利品�
 
 运行环境固定为 Minecraft 1.21.1 和 Java 21。
 
-从 [Releases 页面](https://github.com/2233DevJian/OriginLore/releases) 下载 `originlore-2.1.0.jar`，放入实例的 `mods` 目录；自行构建时产物同样位于 `build/libs`。部署时只用这个 JAR，不要使用 `-dev` 或 `-sources` 版本。首次启动会创建：
+从 [Releases 页面](https://github.com/2233DevJian/OriginLore/releases) 下载 `originlore-3.0.0.jar`，放入实例的 `mods` 目录；自行构建时产物同样位于 `build/libs`。部署时只用这个 JAR，不要使用 `-dev` 或 `-sources` 版本。首次启动会创建：
 
 ```text
 config/originlore/item_components.json
 ```
 
+新配置自动启用中文完整预设，覆盖 Java 1.21.1 默认、非实验生存可获得的 1218 个物品。玩家头颅没有原版生存获取途径，收纳袋在此版本需要实验性功能。基础规则只添加 Lore，保留原版名称与属性。已有配置会保留；`/originlore preset apply vanilla_zh_cn` 或 `/originlore preset apply vanilla_en_us` 仅补充缺失条目，不替换现有条目。
+
 ## 快速上手
 
 进入世界或服务器后按 `O` 打开管理界面（可在“选项 → 控制”中改键）。主手拿着物品时，`O` 会直接进入该物品的规则编辑器——还没有规则时新建一条并预填、锁定物品 ID；空手则照旧打开物品列表。服务端只向权限等级至少为 2 的玩家发送配置；无权限、服务端未安装模组、协议不兼容或已经断线时，编辑功能会被明确禁用，而不是静默失败。
+
+物品列表的语言按钮一键切换全服仍由预设管理的中英文文案及当前管理员的 OriginLore 界面语言，保留人工改写和玩法数值。Minecraft 全局语言及其他管理员的界面偏好不变。
 
 管理界面支持：
 
@@ -60,11 +64,11 @@ config/originlore/item_components.json
 
 ## 规则模型
 
-配置文件使用 schema v3：
+配置文件使用 schema v5：
 
 ```json
 {
-  "schemaVersion": 3,
+  "schemaVersion": 5,
   "revision": 0,
   "items": {
     "minecraft:sweet_berries": {
@@ -100,7 +104,8 @@ config/originlore/item_components.json
 ```text
 BLOCK_DROP  CHEST_LOOT  ENTITY_DROP  FISHING  ARCHAEOLOGY
 BARTER      GIFT        VAULT        COMMAND  CRAFTING
-SMELTING    CUTTING     SMITHING     UNKNOWN
+SMELTING    CUTTING     SMITHING     TRADING  HARVEST
+UNKNOWN
 ```
 
 旧物品和无法可靠追溯来源的模组自定义入口归入 `UNKNOWN`。你可以像配置其他来源一样为 `UNKNOWN` 单独配置规则，统一接管这些物品。
@@ -109,6 +114,7 @@ SMELTING    CUTTING     SMITHING     UNKNOWN
 
 | 字段 | 含义 |
 | --- | --- |
+| `itemName` / `itemNameJson` | 品质使用的物品名称，玩家铁砧命名优先显示 |
 | `customName` / `customNameJson` | 纯文本名称，或原版 Text JSON |
 | `lore` / `loreJson` | 纯文本 Lore 行，或 Text JSON 行 |
 | `rarityName` | `common`、`uncommon`、`rare`、`epic` |
@@ -117,10 +123,12 @@ SMELTING    CUTTING     SMITHING     UNKNOWN
 | `currentDamage` | 当前耐久损耗 |
 | `fireResistant` | 是否拥有防火组件 |
 | `enchantments` / `storedEnchantments` | 附魔 ID 到等级的映射 |
-| `food` | 营养、饱和度、食用时间、随时食用和概率效果 |
-| `attributes` | 属性、修饰符 ID、数值、运算和槽位 |
-| `attackDamageRange` | 首次生成时抽取并持久保存的额外主手攻击伤害 |
-| `tool` | 方块集合、挖掘速度、正确掉落和每方块耐久损耗 |
+| `food` | 固定或随机的营养、饱和度和食用时间，以及随时食用和概率效果 |
+| `attributes` | 属性、修饰符 ID、固定或随机数值、运算和槽位 |
+| `attackDamage` | 首次生成时抽取并持久保存的未附魔最终主手攻击伤害 |
+| `attackDamageRange` | 旧版兼容字段，表示额外主手攻击伤害 |
+| `projectileDamageMultiplier` | 弓、弩和三叉戟实际命中的固定或随机伤害倍率 |
+| `tool` | 方块集合、固定或随机挖掘速度、速度倍率、正确掉落和每方块耐久损耗 |
 | `customModelData` | 自定义模型数据 |
 | `hideTooltip` / `hideAdditionalTooltip` | Tooltip 隐藏组件 |
 | `setComponents` / `removeComponents` | 高级组件 JSON 设置或移除 |
@@ -131,10 +139,11 @@ SMELTING    CUTTING     SMITHING     UNKNOWN
 
 ## 来源身份与热刷新
 
-被接管的物品会在 `minecraft:custom_data.originlore` 中保存来源、具体 ID、变体 ID、配置 revision、随机值和受管理字段的原始组件补丁。
+被接管的物品会在 `minecraft:custom_data.originlore` 中保存来源、具体 ID、变体 ID、配置 revision、随机抽取位置和受管理字段的原始组件补丁。配置与物品元数据均使用版本 4。旧随机记录按迁移时可用范围推算一次相对位置；已经丢失的历史范围无法恢复。迁移限制见[使用手册](使用手册.md#16-随机范围与迁移)。
 
 - 变体只在首次接管时按权重抽取一次，此后在重启、复制、拆分和区块重载中保持不变。
-- 不同变体带有不同身份，因此不会错误堆叠；相同变体即使分别由熔炉和烟熏炉产出，只要实际组件一致也可正常堆叠。
+- 不同品质不会混堆；同物品、同品质且原生组件兼容的食品按先进先出顺序逐份保存来源、随机位置和加工风险，普通提示显示下一份，保持原版堆叠上限。
+- 随机范围热更新会把已保存的抽取位置映射到新范围。最大耐久变化保留剩余耐久比例，显式设置当前损耗时以该设置为准。权重变更只影响未来产出。
 - 熔炉、烟熏炉和高炉每完成一件 OriginLore 物品后暂停，取走产物后才按最新权重开始下一件，避免单个产物槽混入不同变体。
 - 已有明确来源的物品经过 `UNKNOWN` 回退入口时仍保留原来源，不会被降级覆盖。
 - 配置保存后，在线玩家背包、末影箱、装备、打开的容器、已加载方块库存和物品实体会增量刷新。

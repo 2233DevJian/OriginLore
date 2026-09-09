@@ -1,0 +1,2323 @@
+{
+  "minecraft:black_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Solid black gives a boundary a clear outline.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Solid black gives a boundary a clear outline.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Solid black gives a boundary a clear outline.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Solid black gives a boundary a clear outline.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Solid black gives a boundary a clear outline.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Solid black gives a boundary a clear outline.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Solid black gives a boundary a clear outline.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Solid black gives a boundary a clear outline.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Solid black gives a boundary a clear outline.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Solid black gives a boundary a clear outline.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Solid black gives a boundary a clear outline.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Solid black gives a boundary a clear outline.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:black_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Solid black gives a boundary a clear outline.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Strong blue clearly marks a distant position.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Strong blue clearly marks a distant position.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Strong blue clearly marks a distant position.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Strong blue clearly marks a distant position.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Strong blue clearly marks a distant position.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Strong blue clearly marks a distant position.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Strong blue clearly marks a distant position.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Strong blue clearly marks a distant position.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Strong blue clearly marks a distant position.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Strong blue clearly marks a distant position.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Strong blue clearly marks a distant position.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Strong blue clearly marks a distant position.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Strong blue clearly marks a distant position.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Brown sits naturally alongside timber grain.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Brown sits naturally alongside timber grain.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Brown sits naturally alongside timber grain.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Brown sits naturally alongside timber grain.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Brown sits naturally alongside timber grain.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Brown sits naturally alongside timber grain.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Brown sits naturally alongside timber grain.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Brown sits naturally alongside timber grain.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Brown sits naturally alongside timber grain.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Brown sits naturally alongside timber grain.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Brown sits naturally alongside timber grain.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Brown sits naturally alongside timber grain.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Brown sits naturally alongside timber grain.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "An undyed candle, still the yellow-white of the wax itself.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Cool cyan sits well beside shaded stone.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Cool cyan sits well beside shaded stone.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Cool cyan sits well beside shaded stone.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Cool cyan sits well beside shaded stone.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Cool cyan sits well beside shaded stone.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Cool cyan sits well beside shaded stone.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Cool cyan sits well beside shaded stone.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Cool cyan sits well beside shaded stone.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Cool cyan sits well beside shaded stone.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Cool cyan sits well beside shaded stone.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Cool cyan sits well beside shaded stone.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Cool cyan sits well beside shaded stone.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cyan_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Cool cyan sits well beside shaded stone.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Muted grey steadies a brighter arrangement.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Muted grey steadies a brighter arrangement.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Muted grey steadies a brighter arrangement.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Muted grey steadies a brighter arrangement.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Muted grey steadies a brighter arrangement.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Muted grey steadies a brighter arrangement.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Muted grey steadies a brighter arrangement.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Muted grey steadies a brighter arrangement.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Muted grey steadies a brighter arrangement.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Muted grey steadies a brighter arrangement.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Muted grey steadies a brighter arrangement.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Muted grey steadies a brighter arrangement.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gray_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Muted grey steadies a brighter arrangement.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Deep green sits quietly beside foliage.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Deep green sits quietly beside foliage.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Deep green sits quietly beside foliage.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Deep green sits quietly beside foliage.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Deep green sits quietly beside foliage.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Deep green sits quietly beside foliage.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Deep green sits quietly beside foliage.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Deep green sits quietly beside foliage.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Deep green sits quietly beside foliage.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Deep green sits quietly beside foliage.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Deep green sits quietly beside foliage.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Deep green sits quietly beside foliage.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:green_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Deep green sits quietly beside foliage.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Pale blue sits easily beside white.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Pale blue sits easily beside white.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Pale blue sits easily beside white.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Pale blue sits easily beside white.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Pale blue sits easily beside white.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Pale blue sits easily beside white.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Pale blue sits easily beside white.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Pale blue sits easily beside white.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Pale blue sits easily beside white.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Pale blue sits easily beside white.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Pale blue sits easily beside white.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Pale blue sits easily beside white.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_blue_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Pale blue sits easily beside white.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Quiet light grey marks an edge without drawing the eye.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Quiet light grey marks an edge without drawing the eye.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Quiet light grey marks an edge without drawing the eye.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Quiet light grey marks an edge without drawing the eye.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Quiet light grey marks an edge without drawing the eye.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Quiet light grey marks an edge without drawing the eye.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Quiet light grey marks an edge without drawing the eye.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Quiet light grey marks an edge without drawing the eye.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Quiet light grey marks an edge without drawing the eye.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Quiet light grey marks an edge without drawing the eye.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Quiet light grey marks an edge without drawing the eye.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Quiet light grey marks an edge without drawing the eye.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_gray_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Quiet light grey marks an edge without drawing the eye.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Fresh lime green stands out among darker colours.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Fresh lime green stands out among darker colours.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Fresh lime green stands out among darker colours.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Fresh lime green stands out among darker colours.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Fresh lime green stands out among darker colours.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Fresh lime green stands out among darker colours.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Fresh lime green stands out among darker colours.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Fresh lime green stands out among darker colours.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Fresh lime green stands out among darker colours.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Fresh lime green stands out among darker colours.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Fresh lime green stands out among darker colours.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Fresh lime green stands out among darker colours.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lime_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Fresh lime green stands out among darker colours.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Strong magenta stands out even in a small amount.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Strong magenta stands out even in a small amount.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Strong magenta stands out even in a small amount.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Strong magenta stands out even in a small amount.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Strong magenta stands out even in a small amount.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Strong magenta stands out even in a small amount.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Strong magenta stands out even in a small amount.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Strong magenta stands out even in a small amount.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Strong magenta stands out even in a small amount.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Strong magenta stands out even in a small amount.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Strong magenta stands out even in a small amount.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Strong magenta stands out even in a small amount.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magenta_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Strong magenta stands out even in a small amount.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Bright orange is easy to recognise at a distance.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Bright orange is easy to recognise at a distance.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Bright orange is easy to recognise at a distance.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Bright orange is easy to recognise at a distance.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Bright orange is easy to recognise at a distance.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Bright orange is easy to recognise at a distance.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Bright orange is easy to recognise at a distance.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Bright orange is easy to recognise at a distance.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Bright orange is easy to recognise at a distance.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Bright orange is easy to recognise at a distance.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Bright orange is easy to recognise at a distance.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Bright orange is easy to recognise at a distance.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Bright orange is easy to recognise at a distance.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Soft pink stays light across a broad area.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Soft pink stays light across a broad area.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Soft pink stays light across a broad area.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Soft pink stays light across a broad area.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Soft pink stays light across a broad area.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Soft pink stays light across a broad area.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Soft pink stays light across a broad area.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Soft pink stays light across a broad area.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Soft pink stays light across a broad area.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Soft pink stays light across a broad area.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Soft pink stays light across a broad area.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Soft pink stays light across a broad area.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Soft pink stays light across a broad area.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Deep purple defines an outline with little material.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Deep purple defines an outline with little material.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Deep purple defines an outline with little material.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Deep purple defines an outline with little material.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Deep purple defines an outline with little material.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Deep purple defines an outline with little material.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Deep purple defines an outline with little material.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Deep purple defines an outline with little material.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Deep purple defines an outline with little material.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Deep purple defines an outline with little material.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Deep purple defines an outline with little material.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Deep purple defines an outline with little material.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purple_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Deep purple defines an outline with little material.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Full red stands out as a warning or a border.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Full red stands out as a warning or a border.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Full red stands out as a warning or a border.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Full red stands out as a warning or a border.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Full red stands out as a warning or a border.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Full red stands out as a warning or a border.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Full red stands out as a warning or a border.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Full red stands out as a warning or a border.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Full red stands out as a warning or a border.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Full red stands out as a warning or a border.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Full red stands out as a warning or a border.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Full red stands out as a warning or a border.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Full red stands out as a warning or a border.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A plain shulker box: two shells around a chest, so you can move house without unpacking.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Unglazed terracotta, the colour it comes out of the kiln with.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Clean white brings contrast to a dark corner.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Clean white brings contrast to a dark corner.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Clean white brings contrast to a dark corner.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Clean white brings contrast to a dark corner.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Clean white brings contrast to a dark corner.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Clean white brings contrast to a dark corner.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Clean white brings contrast to a dark corner.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Clean white brings contrast to a dark corner.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Clean white brings contrast to a dark corner.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Clean white brings contrast to a dark corner.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Clean white brings contrast to a dark corner.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Clean white brings contrast to a dark corner.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Clean white brings contrast to a dark corner.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_banner": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The cloth still carries the loom's press marks; the emblem is yours to work in. Clear yellow makes an easy marker to find.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_bed": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Planks and wool make a bed for one; put it anywhere, just not across a doorway. Clear yellow makes an easy marker to find.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_candle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Beeswax drawn around a length of string; once lit it burns a long while. Clear yellow makes an easy marker to find.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin layer of wool that takes the noise out of footsteps. Clear yellow makes an easy marker to find.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_concrete": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Powder set hard by water — it rings dull under a pick. Clear yellow makes an easy marker to find.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_concrete_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bagged powder that stiffens the moment water touches it; keep it out of the rain. Clear yellow makes an easy marker to find.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_dye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ground pigment, good for wool, terracotta and glass alike. Clear yellow makes an easy marker to find.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_glazed_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glaze fired in a kiln; turn it a little and you can watch the light travel. Clear yellow makes an easy marker to find.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_shulker_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A chest held between two shulker shells — break it and nothing inside spills out. Clear yellow makes an easy marker to find.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_stained_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pigment melted into the glass: light comes through, the view does not. Clear yellow makes an easy marker to find.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_stained_glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin panes — cheaper than full blocks for glazing a window, and quicker to break. Clear yellow makes an easy marker to find.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_terracotta": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clay fired into a plain body that holds its colour and does not mind the sun. Clear yellow makes an easy marker to find.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:yellow_wool": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wool sheared, washed and pressed — it still gives under the hand. Clear yellow makes an easy marker to find.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

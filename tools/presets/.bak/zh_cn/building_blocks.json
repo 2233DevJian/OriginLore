@@ -1,0 +1,62 @@
+{
+  "minecraft:stone": {
+    "base": {
+      "customName": "石头",
+      "loreJson": [
+        { "text": "平平无奇的灰色石头，地下世界最不缺的就是这个。", "color": "white", "italic": true }
+      ],
+      "rarity": 0
+    }
+  },
+  "minecraft:stone_bricks": {
+    "base": {
+      "customName": "石砖",
+      "loreJson": [
+        { "text": "切成规整方块再垒起来的石头，比圆石整齐得多。", "color": "white", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CUTTING",
+        "rule": {
+          "customName": "切制的石砖",
+          "loreJson": [
+            { "text": "在切石机上一次裁出来的，尺寸分毫不差。", "color": "green", "italic": true }
+          ],
+          "rarity": 0
+        }
+      }
+    ]
+  },
+  "minecraft:bricks": {
+    "base": {
+      "customName": "红砖块",
+      "loreJson": [
+        { "text": "黏土烧成的砖垒起来的方块，壁炉和烟囱的老朋友。", "color": "dark_red", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "rule": {
+          "customName": "亲手砌的红砖块",
+          "loreJson": [
+            { "text": "四块红砖抹上砂浆砌成的，砖缝有点宽，但很结实。", "color": "dark_red", "italic": true }
+          ],
+          "rarity": 0
+        }
+      }
+    ]
+  },
+  "minecraft:oak_planks": {
+    "base": {
+      "customName": "橡木木板",
+      "loreJson": [
+        { "text": "锯开的橡木，纹理清楚，是最常见也最好用的建材。", "color": "green", "italic": true }
+      ],
+      "rarity": 0
+    }
+  }
+}

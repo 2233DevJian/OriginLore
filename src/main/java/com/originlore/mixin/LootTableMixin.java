@@ -1,6 +1,7 @@
 package com.originlore.mixin;
 
 import com.originlore.Originlore;
+import com.originlore.gameplay.Production;
 import com.originlore.source.SourceContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.loot.LootTable;
@@ -40,7 +41,10 @@ public abstract class LootTableMixin {
                 Originlore.resolveLootTableId(table));
         Consumer<ItemStack> managed = stack -> {
             if (Originlore.isOnServerThread()) {
-                Originlore.applyCustomComponents(stack, source);
+                java.util.List<ItemStack> outputs = Production.roll(stack, source, java.util.List.of());
+                if (outputs.isEmpty() && !stack.isEmpty()) consumer.accept(stack);
+                else for (ItemStack output : outputs) consumer.accept(output);
+                return;
             }
             consumer.accept(stack);
         };

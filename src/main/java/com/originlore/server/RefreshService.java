@@ -2,6 +2,8 @@ package com.originlore.server;
 
 import com.originlore.ItemComponentManager;
 import com.originlore.Originlore;
+import com.originlore.gameplay.NaturalEquipment;
+import com.originlore.gameplay.StructureItems;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerChunkEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
@@ -11,6 +13,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.decoration.ItemFrameEntity;
 import net.minecraft.inventory.Inventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.RegistryWrapper;
@@ -100,6 +103,8 @@ public final class RefreshService {
     }
 
     public void onEntityLoad(Entity entity) {
+        if (entity instanceof NaturalEquipment equipment) equipment.originlore$finishEquipmentGeneration();
+        if (entity instanceof ItemFrameEntity frame) StructureItems.refresh(frame);
         loadedEntities.add(entity);
         queueEntity(entity);
     }
@@ -158,6 +163,7 @@ public final class RefreshService {
     }
 
     private void refreshEntity(Entity entity) {
+        if (entity instanceof ItemFrameEntity frame) StructureItems.refresh(frame);
         if (entity instanceof ServerPlayerEntity player) {
             refreshPlayer(player);
             return;

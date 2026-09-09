@@ -1,0 +1,519 @@
+{
+  "minecraft:acacia_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢船板围着浅舱，两支木桨足够带两位乘客过水。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢船舱让出一半给木箱，一个人就能连货物一起划走。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_chest_raft": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹筏上绑着一只木箱，货物有了地方，划船的人就只剩一个座。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_raft": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹节捆成宽而平的筏面，两人坐稳就能划过水面。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦船板围着浅舱，两支木桨足够带两位乘客过水。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦船舱让出一半给木箱，一个人就能连货物一起划走。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bowl": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浅木碗内侧刮得平滑，盛汤吃完以后还能接着用。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花船板围着浅舱，两支木桨足够带两位乘客过水。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花船舱让出一半给木箱，一个人就能连货物一起划走。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:creeper_head": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绿皮留着方正的五官，戴上能让同类稍晚察觉靠近的人。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木船板围着浅舱，两支木桨足够带两位乘客过水。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木船舱让出一半给木箱，一个人就能连货物一起划走。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dragon_egg": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫黑卵壳厚重发亮，轻碰就挪走位置，收起时得另想办法。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dragon_head": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黑色长颌连着粗大的角，接通红石就能让嘴一张一合。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:end_crystal": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "粉色晶体浮在细框中，碰碎会猛烈爆炸，安放时要留空地。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木船板围着浅舱，两支木桨足够带两位乘客过水。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木船舱让出一半给木箱，一个人就能连货物一起划走。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树船板围着浅舱，两支木桨足够带两位乘客过水。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树船舱让出一半给木箱，一个人就能连货物一起划走。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_11": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "唱片边缘已经残破，针槽里留着急促脚步和粗重呼吸。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_13": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗色唱片刻着细槽，放进唱片机便响起空洞的回声。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_5": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "拼回的唱片仍带着接痕，断续的声响听来像一段未讲清的经历。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_blocks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橙色中心衬着黑盘，明快的旋律适合在忙活时听。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_cat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绿色中心很醒目，轻快的电子音能给空屋添些动静。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_chirp": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红色中心旁的槽纹细密，老唱机般的曲调很容易认出来。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_creator": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黄绿色中心边缘鲜明，旋律层层展开，能把屋里的安静填满。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_creator_music_box": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浅黄圆心像细小机芯，同一支曲子换成了清脆的八音盒声。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_far": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "青绿中心压在薄黑盘上，舒展的旋律听着很空阔。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_mall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫色圆心边缘整齐，温和的曲调适合填满安静的房间。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_mellohi": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫白中心像小小旋纹，缓慢的圆舞节拍带着旧日气息。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_otherside": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蓝绿圆心带着亮色，曲调从清淡慢慢铺得热闹起来。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_pigstep": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红盘里嵌着金色中心，低沉有力的节拍很适合宽阔的厅堂。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_precipice": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗色唱片围着紫灰圆心，紧密的节拍听着像在一步步逼近。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_relic": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "棕色中心像旧陶面，平缓的电子旋律适合慢慢听完。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_stal": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "近乎全黑的唱片不起眼，爵士节拍里夹着清楚的笛声。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_strad": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白色中心干净明亮，舒缓的曲调听着像从远处传来。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_wait": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蓝色中心颜色很深，熟悉的旋律换上了轻松的节拍。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:music_disc_ward": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗绿中心沉在黑盘里，庄重开头后接着更轻快的旋律。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木船板围着浅舱，两支木桨足够带两位乘客过水。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木船舱让出一半给木箱，一个人就能连货物一起划走。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:piglin_head": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "宽耳垂在金褐面皮两侧，接上红石还能轻轻摆动。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:skeleton_skull": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白骨眼窝空着，戴起来能让骷髅稍晚认出眼前的人。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉船板围着浅舱，两支木桨足够带两位乘客过水。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_chest_boat": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉船舱让出一半给木箱，一个人就能连货物一起划走。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:totem_of_undying": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "小金像双眼透绿，握在手里才能在致命一击时替人撑住。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:wither_skeleton_skull": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黑色骨面沉而粗糙，摆进灵魂沙阵里可不是普通装饰。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:zombie_head": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "青绿面皮已经僵硬，戴着能缩短僵尸注意到人的距离。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

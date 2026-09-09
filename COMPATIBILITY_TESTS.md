@@ -2,7 +2,7 @@
 
 # OriginLore 兼容性说明
 
-适用版本：OriginLore 2.1.0  
+适用版本：OriginLore 3.0.0
 运行环境：Minecraft 1.21.1、Fabric Loader 0.19.2 或更高、Java 21
 
 ## 安装要求
@@ -21,8 +21,8 @@
 
 仓库包含两套测试：
 
-- **JUnit 单元测试 18 项**，覆盖配置 schema 与旧版迁移、原子保存与损坏回退、配置 revision、网络分片传输与大小限制、三层规则合并与来源解析。`./gradlew build` 会自动执行，GitHub Actions 在每次 push 和 pull request 上运行。
-- **GameTest 12 项**，在真实 Minecraft 服务端中运行，覆盖组件应用与恢复、第三方 `custom_data` 保留、变体在刷新与复制后的稳定性、熔炉/烟熏炉/高炉的暂停与重抽、相同变体可堆叠而不同变体隔离，以及物品直接进入玩家库存时的 `UNKNOWN` 回退。需要单独执行：
+- **JUnit 单元测试 91 项**，覆盖配置 schema 与旧版迁移、原子保存与损坏回退、配置 revision、网络分片传输与大小限制、三层规则合并与来源解析。`./gradlew build` 会自动执行，GitHub Actions 在每次 push 和 pull request 上运行。
+- **GameTest 63 项**，在真实 Minecraft 服务端中运行，覆盖组件应用与恢复、第三方 `custom_data` 保留、变体在刷新与复制后的稳定性、熔炉/烟熏炉/高炉的暂停与重抽、相同变体可堆叠而不同变体隔离，以及物品直接进入玩家库存时的 `UNKNOWN` 回退。需要单独执行：
 
 ```powershell
 .\gradlew.bat runGametest --console=plain
@@ -38,8 +38,8 @@ Fabric Loader 0.19.2 与 0.19.3 下，两套测试均全部通过。
 - 掉落：方块掉落、实体掉落
 - 命令：`/give` 等命令生成的物品
 - 配方：工作台合成、熔炉/高炉/烟熏炉熔炼、切石、锻造台转换与纹饰
-- 铁砧
-- 玩家库存：其他模组直接调用 `insertStack` 或 `setStack` 发放的物品
+- 铁砧与铁砧维护操作
+- 交易、采收、赠礼及玩家库存：村民交易、直接采收、实体赠礼，以及其他模组直接调用 `insertStack` 或 `setStack` 发放的物品
 
 无法可靠追溯来源的物品（例如本模组安装前就已存在的旧物品，或没有走标准生成路径的模组自定义入口）会归入 `UNKNOWN`。你可以为 `UNKNOWN` 单独配置规则统一接管，OriginLore 不会把它猜测成箱子或合成来源。
 
@@ -72,4 +72,4 @@ Fabric Loader 0.19.2 与 0.19.3 下，两套测试均全部通过。
 
 PowerShell 中带点号的 Gradle 属性参数需要加引号。
 
-生产 JAR 输出到 `build/libs/originlore-2.1.0.jar`。部署时请使用这个 JAR，不要使用 `-dev` 或 `-sources` 版本。
+生产 JAR 输出到 `build/libs/originlore-3.0.0.jar`。部署时请使用这个 JAR，不要使用 `-dev` 或 `-sources` 版本。

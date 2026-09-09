@@ -18,7 +18,9 @@ public abstract class AnvilScreenHandlerMixin {
         if (!Originlore.isOnServerThread()) return;
         ItemStack output = ((AnvilScreenHandler) (Object) this).getSlot(2).getStack();
         if (!output.isEmpty()) {
-            Originlore.applyCustomComponents(output, new SourceContext(SourceType.SMITHING));
+            if (Originlore.getManager() != null) Originlore.getManager().applyInheritedComponents(output,
+                    ((AnvilScreenHandler) (Object) this).getSlot(0).getStack(), new SourceContext(SourceType.SMITHING),
+                    Originlore.getServer().getRegistryManager());
         }
     }
 }

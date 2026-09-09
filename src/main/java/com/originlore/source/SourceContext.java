@@ -22,6 +22,8 @@ public record SourceContext(SourceType type, String sourceId, String lootTableId
         SMELTING,
         CUTTING,
         SMITHING,
+        TRADING,
+        HARVEST,
         UNKNOWN;
 
         public static SourceType parse(String value) {
@@ -70,7 +72,10 @@ public record SourceContext(SourceType type, String sourceId, String lootTableId
     public static SourceContext fromLootContext(LootContext context, LootContextType contextType,
                                                 Identifier lootTableId) {
         SourceType sourceType;
-        if (contextType == LootContextTypes.BLOCK) sourceType = SourceType.BLOCK_DROP;
+        if (lootTableId != null && lootTableId.getNamespace().equals("minecraft")
+                && (lootTableId.getPath().equals("chests/trial_chambers/reward")
+                || lootTableId.getPath().startsWith("chests/trial_chambers/reward_"))) sourceType = SourceType.VAULT;
+        else if (contextType == LootContextTypes.BLOCK) sourceType = SourceType.BLOCK_DROP;
         else if (contextType == LootContextTypes.CHEST) sourceType = SourceType.CHEST_LOOT;
         else if (contextType == LootContextTypes.COMMAND) sourceType = SourceType.COMMAND;
         else if (contextType == LootContextTypes.FISHING) sourceType = SourceType.FISHING;

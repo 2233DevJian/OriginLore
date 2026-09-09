@@ -32,7 +32,7 @@ import net.minecraft.util.Identifier;
 
 /** Server-owned, versioned OriginLore configuration. */
 public class ItemComponentConfig {
-    public static final int CURRENT_SCHEMA_VERSION = 3;
+    public static final int CURRENT_SCHEMA_VERSION = 5;
     private static final Gson GSON = new GsonBuilder()
             .setPrettyPrinting()
             .disableHtmlEscaping()
@@ -41,6 +41,7 @@ public class ItemComponentConfig {
     private final Path configFile;
     private final Path configDirectory;
     private Map<String, ItemEntry> itemConfigs = new LinkedHashMap<>();
+    private Settings settings = new Settings();
     private long revision;
     private String lastError;
 
@@ -65,6 +66,10 @@ public class ItemComponentConfig {
         return revision;
     }
 
+    public synchronized String getPresetLanguage() {
+        return settings.presetLanguage;
+    }
+
     public synchronized String getLastError() {
         return lastError;
     }
@@ -77,18 +82,22 @@ public class ItemComponentConfig {
     /** Loads only after the complete candidate snapshot passes runtime validation. */
     public synchronized LoadResult load(Function<ConfigSnapshot, List<String>> validator) {
         Map<String, ItemEntry> previousItems = itemConfigs;
+        Settings previousSettings = settings;
         long previousRevision = revision;
         try {
             Files.createDirectories(configDirectory);
             if (!Files.exists(configFile)) {
-                Map<String, ItemEntry> candidate = createExampleConfig();
-                validateCandidate(candidate, 0, validator);
+                ConfigSnapshot defaults = PresetLanguage.prepare(PresetLibrary.load("vanilla_zh_cn"), "zh_cn");
+                Map<String, ItemEntry> candidate = copyItems(defaults.items());
+                validateCandidate(candidate, 0, defaults.settings(), validator);
                 itemConfigs = candidate;
+                settings = defaults.settings().copy();
                 revision = 0L;
                 lastError = null;
                 SaveResult saved = saveInternal(true);
                 if (!saved.success()) {
                     itemConfigs = previousItems;
+                    settings = previousSettings;
                     revision = previousRevision;
                     return LoadResult.failure(saved.message());
                 }
@@ -96,14 +105,16 @@ public class ItemComponentConfig {
             }
 
             ParsedConfig parsed = readParsedConfig();
-            validateCandidate(parsed.items, parsed.revision, validator);
+            validateCandidate(parsed.items, parsed.revision, parsed.settings, validator);
             itemConfigs = parsed.items;
+            settings = parsed.settings;
             revision = parsed.revision;
             lastError = null;
             if (parsed.migrated) {
                 SaveResult migrated = saveInternal(true);
                 if (!migrated.success()) {
                     itemConfigs = previousItems;
+                    settings = previousSettings;
                     revision = previousRevision;
                     return LoadResult.failure("configuration migrated in memory but could not be written: " + migrated.message());
                 }
@@ -111,6 +122,7 @@ public class ItemComponentConfig {
             return LoadResult.success(parsed.migrated, revision, parsed.migrated ? "migrated legacy configuration" : "loaded");
         } catch (Exception e) {
             itemConfigs = previousItems;
+            settings = previousSettings;
             revision = previousRevision;
             lastError = compactMessage(e);
             return LoadResult.failure(lastError);
@@ -125,16 +137,19 @@ public class ItemComponentConfig {
     /** Runtime reload with registry-aware validation before changing live state. */
     public synchronized LoadResult reloadFromDisk(Function<ConfigSnapshot, List<String>> validator) {
         Map<String, ItemEntry> previousItems = itemConfigs;
+        Settings previousSettings = settings;
         long previousRevision = revision;
         try {
             if (!Files.exists(configFile)) throw new IOException("configuration file does not exist: " + configFile);
             ParsedConfig parsed = readParsedConfig();
-            validateCandidate(parsed.items, parsed.revision, validator);
+            validateCandidate(parsed.items, parsed.revision, parsed.settings, validator);
             itemConfigs = parsed.items;
+            settings = parsed.settings;
             revision = Math.max(previousRevision, parsed.revision);
             SaveResult saved = saveInternal(true);
             if (!saved.success()) {
                 itemConfigs = previousItems;
+                settings = previousSettings;
                 revision = previousRevision;
                 return LoadResult.failure(saved.message());
             }
@@ -142,6 +157,7 @@ public class ItemComponentConfig {
             return LoadResult.success(parsed.migrated, revision, "reloaded");
         } catch (Exception e) {
             itemConfigs = previousItems;
+            settings = previousSettings;
             revision = previousRevision;
             lastError = compactMessage(e);
             return LoadResult.failure(lastError);
@@ -160,12 +176,16 @@ public class ItemComponentConfig {
         try {
             Map<String, ItemEntry> copy = copyItems(snapshot.items());
             validateItems(copy);
+            snapshot.settings().validate();
             Map<String, ItemEntry> previous = itemConfigs;
+            Settings previousSettings = settings;
             long previousRevision = revision;
             itemConfigs = copy;
+            settings = snapshot.settings().copy();
             SaveResult result = saveInternal(true);
             if (!result.success()) {
                 itemConfigs = previous;
+                settings = previousSettings;
                 revision = previousRevision;
             }
             return result;
@@ -175,7 +195,7 @@ public class ItemComponentConfig {
     }
 
     public synchronized ConfigSnapshot snapshot() {
-        return new ConfigSnapshot(revision, copyItems(itemConfigs));
+        return new ConfigSnapshot(revision, itemConfigs, settings);
     }
 
     public synchronized String snapshotJson() {
@@ -186,6 +206,7 @@ public class ItemComponentConfig {
         JsonObject root = new JsonObject();
         root.addProperty("schemaVersion", CURRENT_SCHEMA_VERSION);
         root.addProperty("revision", snapshot == null ? 0 : snapshot.revision());
+        root.add("settings", GSON.toJsonTree(snapshot == null ? new Settings() : snapshot.settings()));
         JsonObject items = new JsonObject();
         if (snapshot != null) {
             for (Map.Entry<String, ItemEntry> entry : snapshot.items().entrySet()) {
@@ -219,7 +240,7 @@ public class ItemComponentConfig {
             items.put(entry.itemId, entry);
         }
         validateItemsStatic(items);
-        return new ConfigSnapshot(revision, items);
+        return new ConfigSnapshot(revision, items, parseSettings(root));
     }
 
     public static String componentRuleToJson(ComponentRule rule) {
@@ -299,6 +320,7 @@ public class ItemComponentConfig {
             JsonObject root = new JsonObject();
             root.addProperty("schemaVersion", CURRENT_SCHEMA_VERSION);
             root.addProperty("revision", revision);
+            root.add("settings", GSON.toJsonTree(settings));
             JsonObject items = new JsonObject();
             for (Map.Entry<String, ItemEntry> entry : itemConfigs.entrySet()) {
                 items.add(entry.getKey(), GSON.toJsonTree(entry.getValue()));
@@ -361,7 +383,7 @@ public class ItemComponentConfig {
             parsed.put(entry.itemId, entry);
         }
         validateItems(parsed);
-        return new ParsedConfig(parsed, loadedRevision, migrated);
+        return new ParsedConfig(parsed, loadedRevision, migrated, parseSettings(root));
     }
 
     private ItemEntry parseItemEntry(String itemId, JsonObject object) {
@@ -412,6 +434,7 @@ public class ItemComponentConfig {
         if (object.has("type")) source.type = object.get("type").getAsString();
         if (object.has("lootTableId")) source.lootTableId = nullableString(object.get("lootTableId"));
         if (object.has("recipeId")) source.recipeId = nullableString(object.get("recipeId"));
+        if (object.has("processing")) source.processing = GSON.fromJson(object.get("processing"), ProcessingRule.class);
         if (object.has("rule") && object.get("rule").isJsonObject()) source.rule = parseRule(object.getAsJsonObject("rule"));
         else source.rule = parseRule(object);
         if (object.has("variants")) {
@@ -419,7 +442,7 @@ public class ItemComponentConfig {
             for (JsonElement value : object.getAsJsonArray("variants")) {
                 if (!value.isJsonObject()) throw new JsonParseException("variant must be an object");
                 JsonObject variantObject = value.getAsJsonObject();
-                Variant variant = new Variant();
+                Variant variant = GSON.fromJson(variantObject, Variant.class);
                 if (variantObject.has("id")) variant.id = variantObject.get("id").getAsString();
                 if (variantObject.has("weight")) variant.weight = variantObject.get("weight").getAsDouble();
                 if (variantObject.has("rule") && variantObject.get("rule").isJsonObject()) variant.rule = parseRule(variantObject.getAsJsonObject("rule"));
@@ -455,21 +478,126 @@ public class ItemComponentConfig {
             if (entry == null) throw new JsonParseException("null item rule");
             validateItemId(entry.itemId);
             normalizeEntry(entry);
+            validateRuleNumbers(entry.base);
             for (SourceRule source : entry.sources) {
                 if (source == null) throw new JsonParseException("null source rule for " + entry.itemId);
                 source.ensureDefaults();
+                validateRuleNumbers(source.rule);
                 if (source.type == null || source.type.isBlank()) throw new JsonParseException("source type is empty for " + entry.itemId);
                 Set<String> variantIds = new LinkedHashSet<>();
                 double totalWeight = 0.0;
+                if (source.processing != null) {
+                    validateUnitInterval(source.processing.riskRetention, "processing.riskRetention");
+                    validateUnitInterval(source.processing.riskFloor, "processing.riskFloor");
+                    validateEffects(source.processing.effects);
+                }
                 for (Variant variant : source.variants) {
                     if (variant == null || variant.id == null || variant.id.isBlank()) throw new JsonParseException("variant id is empty for " + entry.itemId);
                     if (!Double.isFinite(variant.weight) || variant.weight < 0) throw new JsonParseException("variant weight is invalid for " + entry.itemId);
                     if (!variantIds.add(variant.id)) throw new JsonParseException("duplicate variant id " + variant.id + " for " + entry.itemId);
+                    validateRuleNumbers(variant.rule);
+                    if (variant.qualityScore != null) validateUnitInterval(variant.qualityScore, "qualityScore");
+                    if (variant.spoilage != null) validateUnitInterval(variant.spoilage, "spoilage");
+                    double previousQuality = -1;
+                    if (variant.ingredientWeights != null) for (WeightPoint point : variant.ingredientWeights) {
+                        if (point == null) throw new JsonParseException("null ingredient weight point");
+                        validateUnitInterval(point.quality, "ingredientWeights.quality");
+                        if (point.quality <= previousQuality || !Double.isFinite(point.multiplier) || point.multiplier < 0) {
+                            throw new JsonParseException("ingredient weights must have increasing quality and nonnegative multipliers");
+                        }
+                        if (!Double.isFinite(variant.weight * point.multiplier)) {
+                            throw new JsonParseException("ingredient-adjusted variant weight is not finite");
+                        }
+                        previousQuality = point.quality;
+                    }
                     totalWeight += variant.weight;
                 }
                 if (!Double.isFinite(totalWeight)) throw new JsonParseException("variant weight total is invalid for " + entry.itemId);
                 if (!source.variants.isEmpty() && !(totalWeight > 0)) throw new JsonParseException("variant weights must contain a positive value for " + entry.itemId);
             }
+        }
+    }
+
+    private static void validateUnitInterval(double value, String field) {
+        if (!Double.isFinite(value) || value < 0 || value > 1) throw new JsonParseException(field + " must be between 0 and 1");
+    }
+
+    /** Checks every numeric domain without enumerating combinations of independent ranges. */
+    public static void validateRuleNumbers(ComponentRule rule) {
+        if (rule == null) return;
+        checkNumber(rule.maxStackSize, 1, 99, "maxStackSize");
+        checkRange(rule.maxStackSizeRange, 1, 99, "maxStackSizeRange");
+        checkNumber(rule.maxDamage, 1, Integer.MAX_VALUE, "maxDamage");
+        checkRange(rule.maxDamageRange, 1, Integer.MAX_VALUE, "maxDamageRange");
+        checkNumber(rule.currentDamage, 0, Integer.MAX_VALUE, "currentDamage");
+        checkRange(rule.attackDamage, 0, 2048, "attackDamage");
+        checkRange(rule.attackDamageRange, -Double.MAX_VALUE, Double.MAX_VALUE, "attackDamageRange");
+        if (rule.attackDamage != null && rule.attackDamageRange != null) {
+            throw new JsonParseException("attackDamage and attackDamageRange cannot be combined in one rule");
+        }
+        checkRange(rule.projectileDamageMultiplier, 0, Double.MAX_VALUE, "projectileDamageMultiplier");
+        if (rule.food != null) {
+            FoodRule food = rule.food;
+            checkNumber(food.nutrition, 0, Integer.MAX_VALUE, "food.nutrition");
+            checkRange(food.nutritionRange, 0, Integer.MAX_VALUE, "food.nutritionRange");
+            checkNumber(food.saturation, 0, Float.MAX_VALUE, "food.saturation");
+            checkRange(food.saturationRange, 0, Float.MAX_VALUE, "food.saturationRange");
+            checkNumber(food.eatSeconds, Float.MIN_VALUE, Integer.MAX_VALUE / 20.0, "food.eatSeconds");
+            checkRange(food.eatSecondsRange, Float.MIN_VALUE, Integer.MAX_VALUE / 20.0, "food.eatSecondsRange");
+            validateEffects(food.effects);
+        }
+        if (rule.attributes != null) for (AttributeRule attribute : rule.attributes) {
+            if (attribute == null) throw new JsonParseException("null attribute");
+            if (Boolean.TRUE.equals(attribute.total) && !"add_value".equalsIgnoreCase(attribute.operation)) {
+                throw new JsonParseException("total attributes require add_value operation");
+            }
+            checkNumber(attribute.amount, -Double.MAX_VALUE, Double.MAX_VALUE, "attribute.amount");
+            checkRange(attribute.amountRange, -Double.MAX_VALUE, Double.MAX_VALUE, "attribute.amountRange");
+        }
+        if (rule.tool != null) {
+            ToolRule tool = rule.tool;
+            checkNumber(tool.defaultMiningSpeed, 0, Float.MAX_VALUE, "tool.defaultMiningSpeed");
+            checkRange(tool.defaultMiningSpeedRange, 0, Float.MAX_VALUE, "tool.defaultMiningSpeedRange");
+            checkRange(tool.miningSpeedMultiplier, 0, Float.MAX_VALUE, "tool.miningSpeedMultiplier");
+            checkNumber(tool.damagePerBlock, 0, Integer.MAX_VALUE, "tool.damagePerBlock");
+            checkRange(tool.damagePerBlockRange, 0, Integer.MAX_VALUE, "tool.damagePerBlockRange");
+            if (tool.rules != null) for (ToolRuleEntry entry : tool.rules) {
+                if (entry == null) throw new JsonParseException("null tool rule");
+                checkNumber(entry.speed, 0, Float.MAX_VALUE, "tool.rules.speed");
+                checkRange(entry.speedRange, 0, Float.MAX_VALUE, "tool.rules.speedRange");
+            }
+        }
+    }
+
+    private static void validateEffects(List<EffectRule> effects) {
+        if (effects == null) return;
+        for (EffectRule effect : effects) {
+            if (effect == null) throw new JsonParseException("null food effect");
+            validateUnitInterval(effect.probability, "effect.probability");
+            checkNumber(effect.duration, 0, Integer.MAX_VALUE, "effect.duration");
+            checkNumber(effect.amplifier, 0, 255, "effect.amplifier");
+        }
+    }
+
+    private static void checkNumber(Number value, double min, double max, String field) {
+        if (value != null && (!Double.isFinite(value.doubleValue()) || value.doubleValue() < min || value.doubleValue() > max)) {
+            throw new JsonParseException(field + " must be finite and between " + min + " and " + max);
+        }
+    }
+
+    private static void checkRange(int[] range, double min, double max, String field) {
+        if (range == null) return;
+        if (range.length != 2 || range[0] > range[1]) throw new JsonParseException(field + " must contain ordered endpoints");
+        checkNumber(range[0], min, max, field);
+        checkNumber(range[1], min, max, field);
+    }
+
+    private static void checkRange(NumberRange range, double min, double max, String field) {
+        if (range == null) return;
+        checkNumber(range.min, min, max, field);
+        checkNumber(range.max, min, max, field);
+        if (range.min > range.max || !Double.isFinite(range.max - range.min)) {
+            throw new JsonParseException(field + " must have ordered endpoints and a finite width");
         }
     }
 
@@ -479,11 +607,12 @@ public class ItemComponentConfig {
         }
     }
 
-    private static void validateCandidate(Map<String, ItemEntry> items, long candidateRevision,
+    private static void validateCandidate(Map<String, ItemEntry> items, long candidateRevision, Settings candidateSettings,
                                           Function<ConfigSnapshot, List<String>> validator) {
         validateItemsStatic(items);
+        candidateSettings.validate();
         List<String> errors = validator == null ? List.of()
-                : validator.apply(new ConfigSnapshot(candidateRevision, items));
+                : validator.apply(new ConfigSnapshot(candidateRevision, items, candidateSettings));
         if (errors != null && !errors.isEmpty()) {
             int shown = Math.min(errors.size(), 8);
             throw new JsonParseException("configuration validation failed: "
@@ -573,11 +702,33 @@ public class ItemComponentConfig {
         return result;
     }
 
-    private record ParsedConfig(Map<String, ItemEntry> items, long revision, boolean migrated) {}
+    private static Settings parseSettings(JsonObject root) {
+        Settings result = root.has("settings") ? GSON.fromJson(root.get("settings"), Settings.class) : new Settings();
+        if (result == null) throw new JsonParseException("settings must be an object");
+        result.validate();
+        return result;
+    }
 
-    public record ConfigSnapshot(long revision, Map<String, ItemEntry> items) {
+    private record ParsedConfig(Map<String, ItemEntry> items, long revision, boolean migrated, Settings settings) {}
+
+    public record ConfigSnapshot(long revision, Map<String, ItemEntry> items, Settings settings) {
+        public ConfigSnapshot(long revision, Map<String, ItemEntry> items) { this(revision, items, new Settings()); }
         public ConfigSnapshot {
             items = items == null ? new LinkedHashMap<>() : copyItems(items);
+            settings = settings == null ? new Settings() : settings.copy();
+            settings.validate();
+        }
+        public ConfigSnapshot withItems(Map<String, ItemEntry> value) { return new ConfigSnapshot(revision, value, settings); }
+        public ConfigSnapshot withSettings(Settings value) { return new ConfigSnapshot(revision, items, value); }
+    }
+
+    public static class Settings {
+        public String presetLanguage = "zh_cn";
+        public Settings copy() { Settings copy = new Settings(); copy.presetLanguage = presetLanguage; return copy; }
+        public void validate() {
+            if (!"zh_cn".equals(presetLanguage) && !"en_us".equals(presetLanguage)) {
+                throw new IllegalArgumentException("settings.presetLanguage must be zh_cn or en_us");
+            }
         }
     }
 
@@ -643,6 +794,7 @@ public class ItemComponentConfig {
         public String recipeId;
         public ComponentRule rule = new ComponentRule();
         public List<Variant> variants = new ArrayList<>();
+        public ProcessingRule processing;
 
         public SourceRule() {}
         public SourceRule(String type) { this.type = type; }
@@ -671,6 +823,7 @@ public class ItemComponentConfig {
             SourceRule copy = new SourceRule(type);
             copy.lootTableId = lootTableId;
             copy.recipeId = recipeId;
+            copy.processing = processing == null ? null : processing.copy();
             copy.rule = rule == null ? new ComponentRule() : rule.copy();
             copy.variants = new ArrayList<>();
             if (variants != null) for (Variant variant : variants) if (variant != null) copy.variants.add(variant.copy());
@@ -681,13 +834,46 @@ public class ItemComponentConfig {
     public static class Variant {
         public String id = "default";
         public double weight = 1.0;
+        public Double qualityScore;
+        public Double spoilage;
+        public List<WeightPoint> ingredientWeights;
         public ComponentRule rule = new ComponentRule();
 
         public Variant() {}
         public Variant(String id, double weight) { this.id = id; this.weight = weight; }
         public Variant copy() {
             Variant copy = new Variant(id, weight);
+            copy.qualityScore = qualityScore;
+            copy.spoilage = spoilage;
+            if (ingredientWeights != null) {
+                copy.ingredientWeights = new ArrayList<>();
+                for (WeightPoint point : ingredientWeights) copy.ingredientWeights.add(point == null ? null : point.copy());
+            }
             copy.rule = rule == null ? new ComponentRule() : rule.copy();
+            return copy;
+        }
+    }
+
+    public static class WeightPoint {
+        public double quality;
+        public double multiplier = 1.0;
+        public WeightPoint() {}
+        public WeightPoint(double quality, double multiplier) { this.quality = quality; this.multiplier = multiplier; }
+        public WeightPoint copy() { return new WeightPoint(quality, multiplier); }
+    }
+
+    public static class ProcessingRule {
+        public double riskRetention = 0.5;
+        public double riskFloor = 0.1;
+        public List<EffectRule> effects;
+        public ProcessingRule copy() {
+            ProcessingRule copy = new ProcessingRule();
+            copy.riskRetention = riskRetention;
+            copy.riskFloor = riskFloor;
+            if (effects != null) {
+                copy.effects = new ArrayList<>();
+                for (EffectRule effect : effects) copy.effects.add(effect == null ? null : effect.copy());
+            }
             return copy;
         }
     }
@@ -697,6 +883,10 @@ public class ItemComponentConfig {
         public List<JsonElement> loreJson;
         public String customName;
         public JsonElement customNameJson;
+        public String itemName;
+        public JsonElement itemNameJson;
+        public String presetTextKey;
+        public Map<String, JsonElement> presetTexts;
         public Integer maxStackSize;
         public Integer maxDamage;
         public Integer currentDamage;
@@ -707,11 +897,16 @@ public class ItemComponentConfig {
         public int[] maxStackSizeRange;
         /** Read-only migration field from schemas before v3. */
         public int[] damageRange;
+        /** Final unenchanted player attack damage, including the player's base damage. */
+        public NumberRange attackDamage;
+        /** Legacy extra damage added to the native attack modifiers. */
         public NumberRange attackDamageRange;
+        public NumberRange projectileDamageMultiplier;
         public FoodRule food;
         public Map<String, Integer> enchantments;
         public Map<String, Integer> storedEnchantments;
         public List<AttributeRule> attributes;
+        public Boolean appendAttributes;
         public ToolRule tool;
         public Boolean hideTooltip;
         public Boolean hideAdditionalTooltip;
@@ -728,6 +923,13 @@ public class ItemComponentConfig {
             }
             copy.customName = customName;
             copy.customNameJson = customNameJson == null ? null : customNameJson.deepCopy();
+            copy.itemName = itemName;
+            copy.itemNameJson = itemNameJson == null ? null : itemNameJson.deepCopy();
+            copy.presetTextKey = presetTextKey;
+            if (presetTexts != null) {
+                copy.presetTexts = new LinkedHashMap<>();
+                presetTexts.forEach((key, value) -> copy.presetTexts.put(key, value.deepCopy()));
+            }
             copy.maxStackSize = maxStackSize;
             copy.maxDamage = maxDamage;
             copy.currentDamage = currentDamage;
@@ -737,11 +939,14 @@ public class ItemComponentConfig {
             copy.maxDamageRange = maxDamageRange == null ? null : maxDamageRange.clone();
             copy.maxStackSizeRange = maxStackSizeRange == null ? null : maxStackSizeRange.clone();
             copy.damageRange = damageRange == null ? null : damageRange.clone();
+            copy.attackDamage = attackDamage == null ? null : attackDamage.copy();
             copy.attackDamageRange = attackDamageRange == null ? null : attackDamageRange.copy();
+            copy.projectileDamageMultiplier = projectileDamageMultiplier == null ? null : projectileDamageMultiplier.copy();
             copy.food = food == null ? null : food.copy();
             copy.enchantments = enchantments == null ? null : new LinkedHashMap<>(enchantments);
             copy.storedEnchantments = storedEnchantments == null ? null : new LinkedHashMap<>(storedEnchantments);
             copy.attributes = attributes == null ? null : copyAttributes(attributes);
+            copy.appendAttributes = appendAttributes;
             copy.tool = tool == null ? null : tool.copy();
             copy.hideTooltip = hideTooltip;
             copy.hideAdditionalTooltip = hideAdditionalTooltip;
@@ -756,10 +961,11 @@ public class ItemComponentConfig {
 
         public boolean isEmpty() {
             return lore == null && loreJson == null && customName == null && customNameJson == null
+                    && itemName == null && itemNameJson == null && projectileDamageMultiplier == null
                     && maxStackSize == null && maxDamage == null && currentDamage == null
                     && fireResistant == null && rarity == null && rarityName == null
                     && maxDamageRange == null && maxStackSizeRange == null && damageRange == null
-                    && attackDamageRange == null && food == null && enchantments == null && storedEnchantments == null
+                    && attackDamage == null && attackDamageRange == null && food == null && enchantments == null && storedEnchantments == null
                     && attributes == null && tool == null
                     && hideTooltip == null && hideAdditionalTooltip == null && customModelData == null
                     && (setComponents == null || setComponents.isEmpty())
@@ -782,6 +988,11 @@ public class ItemComponentConfig {
                 clearAdvancedOverride("minecraft:custom_name");
                 customName = other.customName;
                 customNameJson = other.customNameJson == null ? null : other.customNameJson.deepCopy();
+            }
+            if (other.itemName != null || other.itemNameJson != null) {
+                clearAdvancedOverride("minecraft:item_name");
+                itemName = other.itemName;
+                itemNameJson = other.itemNameJson == null ? null : other.itemNameJson.deepCopy();
             }
             if (other.maxStackSize != null) {
                 clearAdvancedOverride("minecraft:max_stack_size");
@@ -819,11 +1030,22 @@ public class ItemComponentConfig {
                 damageRange = other.damageRange.clone();
                 currentDamage = null;
             }
-            if (other.attackDamageRange != null) attackDamageRange = other.attackDamageRange.copy();
+            if (other.attackDamage != null) {
+                clearAdvancedOverride("minecraft:attribute_modifiers");
+                attackDamage = other.attackDamage.copy();
+                attackDamageRange = null;
+            }
+            if (other.attackDamageRange != null) {
+                clearAdvancedOverride("minecraft:attribute_modifiers");
+                attackDamageRange = other.attackDamageRange.copy();
+                attackDamage = null;
+            }
+            if (other.projectileDamageMultiplier != null) projectileDamageMultiplier = other.projectileDamageMultiplier.copy();
             if (other.food != null) { clearAdvancedOverride("minecraft:food"); food = food == null ? other.food.copy() : food.merge(other.food); }
             if (other.enchantments != null) { clearAdvancedOverride("minecraft:enchantments"); enchantments = new LinkedHashMap<>(other.enchantments); }
             if (other.storedEnchantments != null) { clearAdvancedOverride("minecraft:stored_enchantments"); storedEnchantments = new LinkedHashMap<>(other.storedEnchantments); }
             if (other.attributes != null) { clearAdvancedOverride("minecraft:attribute_modifiers"); attributes = copyAttributes(other.attributes); }
+            if (other.appendAttributes != null) appendAttributes = other.appendAttributes;
             if (other.tool != null) { clearAdvancedOverride("minecraft:tool"); tool = tool == null ? other.tool.copy() : tool.merge(other.tool); }
             if (other.hideTooltip != null) { clearAdvancedOverride("minecraft:hide_tooltip"); hideTooltip = other.hideTooltip; }
             if (other.hideAdditionalTooltip != null) { clearAdvancedOverride("minecraft:hide_additional_tooltip"); hideAdditionalTooltip = other.hideAdditionalTooltip; }
@@ -853,6 +1075,7 @@ public class ItemComponentConfig {
             Set<String> result = new LinkedHashSet<>();
             if (lore != null || loreJson != null) result.add("minecraft:lore");
             if (customName != null || customNameJson != null) result.add("minecraft:custom_name");
+            if (itemName != null || itemNameJson != null) result.add("minecraft:item_name");
             if (maxStackSize != null || maxStackSizeRange != null) result.add("minecraft:max_stack_size");
             if (maxDamage != null || maxDamageRange != null) result.add("minecraft:max_damage");
             if (currentDamage != null) result.add("minecraft:damage");
@@ -861,7 +1084,7 @@ public class ItemComponentConfig {
             if (food != null) result.add("minecraft:food");
             if (enchantments != null) result.add("minecraft:enchantments");
             if (storedEnchantments != null) result.add("minecraft:stored_enchantments");
-            if (attributes != null || attackDamageRange != null || damageRange != null) result.add("minecraft:attribute_modifiers");
+            if (attributes != null || attackDamage != null || attackDamageRange != null || damageRange != null) result.add("minecraft:attribute_modifiers");
             if (tool != null) result.add("minecraft:tool");
             if (hideTooltip != null) result.add("minecraft:hide_tooltip");
             if (hideAdditionalTooltip != null) result.add("minecraft:hide_additional_tooltip");
@@ -887,18 +1110,26 @@ public class ItemComponentConfig {
     }
 
     public static class FoodRule {
+        public Boolean appendEffects;
         public Integer nutrition;
+        public int[] nutritionRange;
         public Float saturation;
+        public NumberRange saturationRange;
         public Boolean canAlwaysEat;
         public Float eatSeconds;
+        public NumberRange eatSecondsRange;
         public List<EffectRule> effects;
 
         public FoodRule copy() {
             FoodRule copy = new FoodRule();
             copy.nutrition = nutrition;
+            copy.nutritionRange = nutritionRange == null ? null : nutritionRange.clone();
             copy.saturation = saturation;
+            copy.saturationRange = saturationRange == null ? null : saturationRange.copy();
             copy.canAlwaysEat = canAlwaysEat;
             copy.eatSeconds = eatSeconds;
+            copy.eatSecondsRange = eatSecondsRange == null ? null : eatSecondsRange.copy();
+            copy.appendEffects = appendEffects;
             if (effects != null) {
                 copy.effects = new ArrayList<>();
                 for (EffectRule effect : effects) copy.effects.add(effect == null ? null : effect.copy());
@@ -908,10 +1139,14 @@ public class ItemComponentConfig {
 
         public FoodRule merge(FoodRule other) {
             FoodRule result = copy();
-            if (other.nutrition != null) result.nutrition = other.nutrition;
-            if (other.saturation != null) result.saturation = other.saturation;
+            if (other.nutrition != null) { result.nutrition = other.nutrition; result.nutritionRange = null; }
+            if (other.nutritionRange != null) { result.nutritionRange = other.nutritionRange.clone(); result.nutrition = null; }
+            if (other.saturation != null) { result.saturation = other.saturation; result.saturationRange = null; }
+            if (other.saturationRange != null) { result.saturationRange = other.saturationRange.copy(); result.saturation = null; }
             if (other.canAlwaysEat != null) result.canAlwaysEat = other.canAlwaysEat;
-            if (other.eatSeconds != null) result.eatSeconds = other.eatSeconds;
+            if (other.eatSeconds != null) { result.eatSeconds = other.eatSeconds; result.eatSecondsRange = null; }
+            if (other.eatSecondsRange != null) { result.eatSecondsRange = other.eatSecondsRange.copy(); result.eatSeconds = null; }
+            if (other.appendEffects != null) result.appendEffects = other.appendEffects;
             if (other.effects != null) {
                 result.effects = new ArrayList<>();
                 for (EffectRule effect : other.effects) result.effects.add(effect == null ? null : effect.copy());
@@ -943,6 +1178,8 @@ public class ItemComponentConfig {
         public String attribute;
         public String id;
         public double amount;
+        public NumberRange amountRange;
+        public Boolean total;
         public String operation = "add_value";
         public String slot = "any";
         public AttributeRule copy() {
@@ -950,6 +1187,8 @@ public class ItemComponentConfig {
             copy.attribute = attribute;
             copy.id = id;
             copy.amount = amount;
+            copy.amountRange = amountRange == null ? null : amountRange.copy();
+            copy.total = total;
             copy.operation = operation;
             copy.slot = slot;
             return copy;
@@ -958,12 +1197,18 @@ public class ItemComponentConfig {
 
     public static class ToolRule {
         public Float defaultMiningSpeed;
+        public NumberRange defaultMiningSpeedRange;
+        public NumberRange miningSpeedMultiplier;
         public Integer damagePerBlock;
+        public int[] damagePerBlockRange;
         public List<ToolRuleEntry> rules;
         public ToolRule copy() {
             ToolRule copy = new ToolRule();
             copy.defaultMiningSpeed = defaultMiningSpeed;
+            copy.defaultMiningSpeedRange = defaultMiningSpeedRange == null ? null : defaultMiningSpeedRange.copy();
+            copy.miningSpeedMultiplier = miningSpeedMultiplier == null ? null : miningSpeedMultiplier.copy();
             copy.damagePerBlock = damagePerBlock;
+            copy.damagePerBlockRange = damagePerBlockRange == null ? null : damagePerBlockRange.clone();
             if (rules != null) {
                 copy.rules = new ArrayList<>();
                 for (ToolRuleEntry rule : rules) copy.rules.add(rule == null ? null : rule.copy());
@@ -972,8 +1217,11 @@ public class ItemComponentConfig {
         }
         public ToolRule merge(ToolRule other) {
             ToolRule result = copy();
-            if (other.defaultMiningSpeed != null) result.defaultMiningSpeed = other.defaultMiningSpeed;
-            if (other.damagePerBlock != null) result.damagePerBlock = other.damagePerBlock;
+            if (other.defaultMiningSpeed != null) { result.defaultMiningSpeed = other.defaultMiningSpeed; result.defaultMiningSpeedRange = null; }
+            if (other.defaultMiningSpeedRange != null) { result.defaultMiningSpeedRange = other.defaultMiningSpeedRange.copy(); result.defaultMiningSpeed = null; }
+            if (other.miningSpeedMultiplier != null) result.miningSpeedMultiplier = other.miningSpeedMultiplier.copy();
+            if (other.damagePerBlock != null) { result.damagePerBlock = other.damagePerBlock; result.damagePerBlockRange = null; }
+            if (other.damagePerBlockRange != null) { result.damagePerBlockRange = other.damagePerBlockRange.clone(); result.damagePerBlock = null; }
             if (other.rules != null) {
                 result.rules = new ArrayList<>();
                 for (ToolRuleEntry rule : other.rules) result.rules.add(rule == null ? null : rule.copy());
@@ -985,11 +1233,13 @@ public class ItemComponentConfig {
     public static class ToolRuleEntry {
         public List<String> blocks;
         public Float speed;
+        public NumberRange speedRange;
         public Boolean correctForDrops;
         public ToolRuleEntry copy() {
             ToolRuleEntry copy = new ToolRuleEntry();
             copy.blocks = blocks == null ? null : new ArrayList<>(blocks);
             copy.speed = speed;
+            copy.speedRange = speedRange == null ? null : speedRange.copy();
             copy.correctForDrops = correctForDrops;
             return copy;
         }

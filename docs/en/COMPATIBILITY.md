@@ -2,7 +2,7 @@
 
 # OriginLore Compatibility Notes
 
-Applies to: OriginLore 2.1.0  
+Applies to: OriginLore 3.0.0
 Environment: Minecraft 1.21.1, Fabric Loader 0.19.2 or newer, Java 21
 
 ## Installation requirements
@@ -21,8 +21,8 @@ The admin GUI is only open to operators at permission level 2 or above. The serv
 
 The repository contains two test suites:
 
-- **18 JUnit unit tests** covering config schema and legacy migration, atomic saves and corruption fallback, config revisions, network fragment transport and size limits, and three-tier rule merging with source resolution. `./gradlew build` runs them automatically, and GitHub Actions runs them on every push and pull request.
-- **12 GameTests** running inside a real Minecraft server, covering component application and restoration, preservation of third-party `custom_data`, variant stability across refresh and duplication, the furnace/smoker/blast furnace pause-and-reroll behaviour, same-variant stacking versus different-variant isolation, and the `UNKNOWN` fallback when an item enters a player inventory directly. These need to be run separately:
+- **91 JUnit unit tests** covering config schema and legacy migration, atomic saves and corruption fallback, config revisions, network fragment transport and size limits, and three-tier rule merging with source resolution. `./gradlew build` runs them automatically, and GitHub Actions runs them on every push and pull request.
+- **63 GameTests** running inside a real Minecraft server, covering component application and restoration, preservation of third-party `custom_data`, variant stability across refresh and duplication, the furnace/smoker/blast furnace pause-and-reroll behaviour, same-variant stacking versus different-variant isolation, and the `UNKNOWN` fallback when an item enters a player inventory directly. These need to be run separately:
 
 ```powershell
 .\gradlew.bat runGametest --console=plain
@@ -37,8 +37,8 @@ The following paths are recognised without any extra configuration:
 - Loot tables: chest and structure loot, dungeons, fishing, archaeology, piglin bartering, trial chamber vaults
 - Drops: block drops, entity drops
 - Commands: items created by `/give` and similar commands
-- Recipes: crafting table, furnace / blast furnace / smoker smelting, stonecutting, smithing table transformation and trimming
-- Anvil
+- Recipes and actions: crafting table, furnace / blast furnace / smoker smelting, stonecutting, smithing table transformation and trimming, trading, harvesting and gifts
+- Anvil and maintenance operations
 - Player inventory: items handed out by other mods calling `insertStack` or `setStack` directly
 
 Items whose origin cannot be traced reliably — for example items that already existed before the mod was installed, or mod-added creation paths that bypass the standard generation routes — are classified as `UNKNOWN`. You can configure a rule for `UNKNOWN` to adopt them in bulk; OriginLore will not guess them into the chest or crafting source.
@@ -72,4 +72,4 @@ The default target is Fabric Loader 0.19.2. For a quick regression run against 0
 
 Quote Gradle property arguments that contain dots when using PowerShell.
 
-The production JAR is written to `build/libs/originlore-2.1.0.jar`. Deploy that JAR — not the `-dev` or `-sources` variants.
+The production JAR is written to `build/libs/originlore-3.0.0.jar`. Deploy that JAR — not the `-dev` or `-sources` variants.

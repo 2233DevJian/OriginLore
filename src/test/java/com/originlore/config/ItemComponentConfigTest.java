@@ -67,7 +67,7 @@ class ItemComponentConfigTest {
     void corruptReloadRetainsLastValidSnapshot() throws Exception {
         Path file = directory.resolve("item_components.json");
         ItemComponentConfig config = new ItemComponentConfig(file);
-        assertTrue(config.load().success());
+        assertTrue(config.load().success(), config::getLastError);
         ConfigSnapshot before = config.snapshot();
 
         Files.writeString(file, "{broken", StandardCharsets.UTF_8);
@@ -82,7 +82,7 @@ class ItemComponentConfigTest {
     void runtimeValidatorRejectsCandidateBeforeItBecomesLive() throws Exception {
         Path file = directory.resolve("item_components.json");
         ItemComponentConfig config = new ItemComponentConfig(file);
-        assertTrue(config.load().success());
+        assertTrue(config.load().success(), config::getLastError);
         ConfigSnapshot before = config.snapshot();
         Files.writeString(file, """
                 {
@@ -106,7 +106,7 @@ class ItemComponentConfigTest {
     void replaceSnapshotUsesOptimisticRevisionAndAtomicIncrement() {
         Path file = directory.resolve("item_components.json");
         ItemComponentConfig config = new ItemComponentConfig(file);
-        assertTrue(config.load().success());
+        assertTrue(config.load().success(), config::getLastError);
         ConfigSnapshot initial = config.snapshot();
         Map<String, ItemEntry> changed = new LinkedHashMap<>(initial.items());
         changed.put("minecraft:stone", new ItemEntry("minecraft:stone"));
@@ -124,7 +124,7 @@ class ItemComponentConfigTest {
     @Test
     void snapshotsAreDeepTransactionalCopies() {
         ItemComponentConfig config = new ItemComponentConfig(directory.resolve("item_components.json"));
-        assertTrue(config.load().success());
+        assertTrue(config.load().success(), config::getLastError);
         ConfigSnapshot first = config.snapshot();
         first.items().get("minecraft:sweet_berries").base.loreJson.getFirst().getAsJsonObject()
                 .addProperty("text", "changed only in transaction");

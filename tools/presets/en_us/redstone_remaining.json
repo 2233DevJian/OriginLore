@@ -1,0 +1,772 @@
+{
+  "minecraft:acacia_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Acacia grain crosses the little button, which responds to a finger or an arrow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin acacia plate rests on its base, responding even to an item dropped on top.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:activator_rail": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A redstone fitting crosses the rails to trigger a passing minecart's special action.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bamboo grain crosses the little button, which responds to a finger or an arrow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin bamboo plate rests on its base, responding even to an item dropped on top.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Birch grain crosses the little button, which responds to a finger or an arrow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin birch plate rests on its base, responding even to an item dropped on top.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:calibrated_sculk_sensor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Amethyst sits beside the tendrils, with a side input filtering the vibrations it hears.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cherry grain crosses the little button, which responds to a finger or an arrow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin cherry plate rests on its base, responding even to an item dropped on top.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chest_minecart": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A wooden chest sits firmly in the iron tub, ready to send its load elsewhere.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:comparator": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Three posts surround the stone base, turning a container's contents into a readable signal.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The fresh copper shell is still bright; a pulse changes its lit state, and deeper oxidation dims the light.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crafter": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Nine fixed positions fill the top, assembling a recipe on each pulse once its slots are set.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Crimson grain crosses the little button, which responds to a finger or an arrow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin crimson plate rests on its base, responding even to an item dropped on top.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark oak grain crosses the little button, which responds to a finger or an arrow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin dark oak plate rests on its base, responding even to an item dropped on top.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:daylight_detector": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Flat glass covers a sensing face that turns daylight strength into a changing signal.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:detector_rail": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A sensing plate sits between the rails and reports a passing minecart.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dispenser": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A firing mechanism sits inside the stone shell, acting according to what it holds.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dropper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A square stone box has one outlet, releasing one item when powered.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark patches have begun to mark the copper shell; a pulse changes its lit state, and deeper oxidation dims the light.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:furnace_minecart": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A small stone furnace fills the tub and pushes other carts with a supply of coal.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:heavy_weighted_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A sturdy iron plate gives little response to a small load and suits a larger accumulation.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:honey_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thick honey forms a golden block whose sticky sides slow a passing body.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:hopper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A broad iron mouth narrows into a pipe that gradually transfers items beneath a container.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:hopper_minecart": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A gathering mouth replaces the tub and collects loose items as it travels.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Jungle wood grain crosses the little button, which responds to a finger or an arrow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin jungle wood plate rests on its base, responding even to an item dropped on top.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lever": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A short handle pivots on stone and holds the selected switch position.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:light_weighted_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin gold plate responds to a light load and strengthens its signal as items accumulate.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lightning_rod": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A long copper rod narrows to a point and draws lightning toward a chosen elevated position.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mangrove grain crosses the little button, which responds to a finger or an arrow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin mangrove plate rests on its base, responding even to an item dropped on top.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:minecart": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Small wheels carry the iron tub along rails with a passenger or an added load.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:note_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A hollow wooden box resonates differently according to the material beneath it.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Oak grain crosses the little button, which responds to a finger or an arrow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin oak plate rests on its base, responding even to an item dropped on top.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:observer": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Openings mark one side of the stone casing, sending a brief signal from the back when the front changes.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The whole copper shell has turned blue-green; a pulse changes its lit state, and deeper oxidation dims the light.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:piston": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A wooden face caps the sliding iron rod and pushes a block when powered.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A polished black button has a smooth face and sits discreetly on a dark wall.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Neat edges line the black stone plate, turning a doorstep into a signal.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:powered_rail": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Redstone lies between golden rails and gives a minecart a push when powered.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:rail": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Two iron rails rest on wooden sleepers, carrying a minecart along a connected route.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:redstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark red dust lays into a fine trail that carries a signal from a power source.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:redstone_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Red powder is pressed into a dense block that supplies steady power to a circuit.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:redstone_lamp": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark strips divide the warm-coloured face, which lights when given a redstone signal.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:redstone_torch": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The red light is weak, though its place in a circuit can invert an incoming signal.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:repeater": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Two posts line the stone plate, adjustable to delay a passing signal.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sculk_sensor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine tendrils rise from a dark base, responding to footsteps and nearby actions.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:slime_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Translucent green gel rebounds softly, cushioning falls and moving neighbouring blocks.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Spruce grain crosses the little button, which responds to a finger or an arrow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin spruce plate rests on its base, responding even to an item dropped on top.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sticky_piston": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Green slime coats the piston face so it can pull a block back after extending.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A little stone block has a flat pressing face that sends a short pulse under a finger.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin stone plate sits above its base and connects under a standing foot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:target": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A red centre marks the straw bundle, giving a stronger signal for a closer shot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tnt": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Red explosive rolls bind tightly together, calling for distance once the fuse is lit.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tnt_minecart": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Explosives sit firmly inside the cart, best moved into position before ignition.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:trapped_chest": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A small mechanism joins the chest latch, alerting a neighbouring circuit as the lid opens.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tripwire_hook": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A bent iron hook sits on a wooden base, detecting a passerby along a taut thread.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_button": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warped grain crosses the little button, which responds to a finger or an arrow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_pressure_plate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin warped plate rests on its base, responding even to an item dropped on top.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The fresh copper shell is still bright; a thin wax seal preserves its present colour and brightness for lasting use.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark patches have begun to mark the copper shell; a thin wax seal preserves its present colour and brightness for lasting use.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The whole copper shell has turned blue-green; a thin wax seal preserves its present colour and brightness for lasting use.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Patina has crossed most of the copper shell; a thin wax seal preserves its present colour and brightness for lasting use.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_copper_bulb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Patina has crossed most of the copper shell; a pulse changes its lit state, and deeper oxidation dims the light.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

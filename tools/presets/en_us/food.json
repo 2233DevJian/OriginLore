@@ -1,0 +1,4802 @@
+{
+  "minecraft:apple": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "BLOCK_DROP",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Apple",
+              "loreJson": [
+                {
+                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 0.84,
+                  "max": 1.44
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Apple",
+              "loreJson": [
+                {
+                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 1.92,
+                  "max": 2.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Apple",
+              "loreJson": [
+                {
+                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 2.52,
+                  "max": 2.88
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Apple",
+              "loreJson": [
+                {
+                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 0.84,
+                  "max": 1.44
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Apple",
+              "loreJson": [
+                {
+                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 1.92,
+                  "max": 2.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Apple",
+              "loreJson": [
+                {
+                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 2.52,
+                  "max": 2.88
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Apple",
+              "loreJson": [
+                {
+                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 0.84,
+                  "max": 1.44
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Apple",
+              "loreJson": [
+                {
+                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 1.92,
+                  "max": 2.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Apple",
+              "loreJson": [
+                {
+                  "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 2.52,
+                  "max": 2.88
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:bread": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Perfectly ordinary bread, and a favourite ration among travellers.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Bread",
+              "loreJson": [
+                {
+                  "text": "The crust has cracked dry, and breaking it scatters a handful of crumbs. As something to fill an empty stomach, it is still edible trail bread.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 2.1,
+                  "max": 3.6
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Bread",
+              "loreJson": [
+                {
+                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.8,
+                  "max": 6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Bread",
+              "loreJson": [
+                {
+                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 6.3,
+                  "max": 7.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Bread",
+              "loreJson": [
+                {
+                  "text": "The crust has cracked dry, and breaking it scatters a handful of crumbs. As something to fill an empty stomach, it is still edible trail bread.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 2.1,
+                  "max": 3.6
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Bread",
+              "loreJson": [
+                {
+                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.8,
+                  "max": 6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Bread",
+              "loreJson": [
+                {
+                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 6.3,
+                  "max": 7.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ],
+        "processing": {
+          "riskRetention": 0.65,
+          "riskFloor": 0.1,
+          "effects": [
+            {
+              "id": "minecraft:hunger",
+              "duration": 300,
+              "amplifier": 0,
+              "probability": 0.6
+            },
+            {
+              "id": "minecraft:nausea",
+              "duration": 120,
+              "amplifier": 0,
+              "probability": 0.25
+            }
+          ]
+        }
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Bread",
+              "loreJson": [
+                {
+                  "text": "The crust has cracked dry, and breaking it scatters a handful of crumbs. As something to fill an empty stomach, it is still edible trail bread.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 2.1,
+                  "max": 3.6
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Bread",
+              "loreJson": [
+                {
+                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.8,
+                  "max": 6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Bread",
+              "loreJson": [
+                {
+                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 6.3,
+                  "max": 7.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Bread",
+              "loreJson": [
+                {
+                  "text": "The crust has cracked dry, and breaking it scatters a handful of crumbs. As something to fill an empty stomach, it is still edible trail bread.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 2.1,
+                  "max": 3.6
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Bread",
+              "loreJson": [
+                {
+                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A dry surface encloses a fine texture, compact enough to travel well.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.8,
+                  "max": 6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Bread",
+              "loreJson": [
+                {
+                  "text": "Perfectly ordinary bread, and a favourite ration among travellers. A crisp outside and an even crumb leave a longer flavour than ordinary trail provisions.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 6.3,
+                  "max": 7.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:cooked_beef": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cooked just right. Charred outside, still juicy when you cut into it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Steak",
+              "loreJson": [
+                {
+                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A hard outer layer and set fat make each mouthful take its time.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.48,
+                  "max": 7.68
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Steak",
+              "loreJson": [
+                {
+                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  7,
+                  8
+                ],
+                "saturationRange": {
+                  "min": 10.24,
+                  "max": 12.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Steak",
+              "loreJson": [
+                {
+                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  8,
+                  9
+                ],
+                "saturationRange": {
+                  "min": 13.44,
+                  "max": 15.36
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Steak",
+              "loreJson": [
+                {
+                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A hard outer layer and set fat make each mouthful take its time.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.48,
+                  "max": 7.68
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Steak",
+              "loreJson": [
+                {
+                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  7,
+                  8
+                ],
+                "saturationRange": {
+                  "min": 10.24,
+                  "max": 12.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Steak",
+              "loreJson": [
+                {
+                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  8,
+                  9
+                ],
+                "saturationRange": {
+                  "min": 13.44,
+                  "max": 15.36
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Steak",
+              "loreJson": [
+                {
+                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A hard outer layer and set fat make each mouthful take its time.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.48,
+                  "max": 7.68
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Steak",
+              "loreJson": [
+                {
+                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  7,
+                  8
+                ],
+                "saturationRange": {
+                  "min": 10.24,
+                  "max": 12.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Steak",
+              "loreJson": [
+                {
+                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  8,
+                  9
+                ],
+                "saturationRange": {
+                  "min": 13.44,
+                  "max": 15.36
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "SMELTING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Steak",
+              "loreJson": [
+                {
+                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A hard outer layer and set fat make each mouthful take its time.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.48,
+                  "max": 7.68
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Steak",
+              "loreJson": [
+                {
+                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. The heat has faded, but the flesh is tender and the browned surface has little bitterness.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  7,
+                  8
+                ],
+                "saturationRange": {
+                  "min": 10.24,
+                  "max": 12.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Steak",
+              "loreJson": [
+                {
+                  "text": "Cooked just right. Charred outside, still juicy when you cut into it. A thin browned crust holds the juices inside, taken from the heat at just the right moment.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  8,
+                  9
+                ],
+                "saturationRange": {
+                  "min": 13.44,
+                  "max": 15.36
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ],
+        "processing": {
+          "riskRetention": 0.35,
+          "riskFloor": 0.05,
+          "effects": [
+            {
+              "id": "minecraft:hunger",
+              "duration": 300,
+              "amplifier": 0,
+              "probability": 0.6
+            },
+            {
+              "id": "minecraft:nausea",
+              "duration": 120,
+              "amplifier": 0,
+              "probability": 0.25
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "minecraft:enchanted_golden_apple": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A golden apple shimmering with every colour at once. Supposedly it used to be food for gods.",
+          "color": "light_purple",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Enchanted Golden Apple",
+              "loreJson": [
+                {
+                  "text": "A golden apple shimmering with every colour at once. Supposedly it used to be food for gods. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 3.36,
+                  "max": 5.76
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Enchanted Golden Apple",
+              "loreJson": [
+                {
+                  "text": "A golden apple shimmering with every colour at once. Supposedly it used to be food for gods. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 7.68,
+                  "max": 9.6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Enchanted Golden Apple",
+              "loreJson": [
+                {
+                  "text": "A golden apple shimmering with every colour at once. Supposedly it used to be food for gods. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 10.08,
+                  "max": 11.52
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Enchanted Golden Apple",
+              "loreJson": [
+                {
+                  "text": "A golden apple shimmering with every colour at once. Supposedly it used to be food for gods. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 3.36,
+                  "max": 5.76
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Enchanted Golden Apple",
+              "loreJson": [
+                {
+                  "text": "A golden apple shimmering with every colour at once. Supposedly it used to be food for gods. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 7.68,
+                  "max": 9.6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Enchanted Golden Apple",
+              "loreJson": [
+                {
+                  "text": "A golden apple shimmering with every colour at once. Supposedly it used to be food for gods. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 10.08,
+                  "max": 11.52
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:golden_apple": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal.",
+          "color": "gold",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Golden Apple",
+              "loreJson": [
+                {
+                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 3.36,
+                  "max": 5.76
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Golden Apple",
+              "loreJson": [
+                {
+                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 7.68,
+                  "max": 9.6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Golden Apple",
+              "loreJson": [
+                {
+                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 10.08,
+                  "max": 11.52
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Golden Apple",
+              "loreJson": [
+                {
+                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 3.36,
+                  "max": 5.76
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Golden Apple",
+              "loreJson": [
+                {
+                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 7.68,
+                  "max": 9.6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Golden Apple",
+              "loreJson": [
+                {
+                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 10.08,
+                  "max": 11.52
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ],
+        "processing": {
+          "riskRetention": 0.65,
+          "riskFloor": 0.1,
+          "effects": [
+            {
+              "id": "minecraft:hunger",
+              "duration": 300,
+              "amplifier": 0,
+              "probability": 0.6
+            },
+            {
+              "id": "minecraft:nausea",
+              "duration": 120,
+              "amplifier": 0,
+              "probability": 0.25
+            }
+          ]
+        }
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Golden Apple",
+              "loreJson": [
+                {
+                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 3.36,
+                  "max": 5.76
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Golden Apple",
+              "loreJson": [
+                {
+                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 7.68,
+                  "max": 9.6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Golden Apple",
+              "loreJson": [
+                {
+                  "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 10.08,
+                  "max": 11.52
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:golden_carrot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Golden Carrot",
+              "loreJson": [
+                {
+                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 5.04,
+                  "max": 8.64
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Golden Carrot",
+              "loreJson": [
+                {
+                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 11.52,
+                  "max": 14.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Golden Carrot",
+              "loreJson": [
+                {
+                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  6,
+                  7
+                ],
+                "saturationRange": {
+                  "min": 15.12,
+                  "max": 17.28
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Golden Carrot",
+              "loreJson": [
+                {
+                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 5.04,
+                  "max": 8.64
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Golden Carrot",
+              "loreJson": [
+                {
+                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 11.52,
+                  "max": 14.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Golden Carrot",
+              "loreJson": [
+                {
+                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  6,
+                  7
+                ],
+                "saturationRange": {
+                  "min": 15.12,
+                  "max": 17.28
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ],
+        "processing": {
+          "riskRetention": 0.65,
+          "riskFloor": 0.1,
+          "effects": [
+            {
+              "id": "minecraft:hunger",
+              "duration": 300,
+              "amplifier": 0,
+              "probability": 0.6
+            },
+            {
+              "id": "minecraft:nausea",
+              "duration": 120,
+              "amplifier": 0,
+              "probability": 0.25
+            }
+          ]
+        }
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Golden Carrot",
+              "loreJson": [
+                {
+                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 5.04,
+                  "max": 8.64
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Golden Carrot",
+              "loreJson": [
+                {
+                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 11.52,
+                  "max": 14.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Golden Carrot",
+              "loreJson": [
+                {
+                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  6,
+                  7
+                ],
+                "saturationRange": {
+                  "min": 15.12,
+                  "max": 17.28
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Golden Carrot",
+              "loreJson": [
+                {
+                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Loose gold leaf exposes dried flesh; the shine remains, though the texture has suffered.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 5.04,
+                  "max": 8.64
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Golden Carrot",
+              "loreJson": [
+                {
+                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. An intact gold covering keeps the flesh moist and gives it a solid weight.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 11.52,
+                  "max": 14.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Golden Carrot",
+              "loreJson": [
+                {
+                  "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet. Close-fitted gold protects flesh and shine alike, with scarcely a bruise beneath it.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  6,
+                  7
+                ],
+                "saturationRange": {
+                  "min": 15.12,
+                  "max": 17.28
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:rotten_flesh": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "It smells in a way that defies description. When you are starving, it is not the worst option.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Rotten Flesh",
+              "loreJson": [
+                {
+                  "text": "It smells in a way that defies description. When you are starving, it is not the worst option. Its colour has deepened unnaturally and its smell grown stronger; swallowing it promises a cost.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 0.28,
+                  "max": 0.48
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Rotten Flesh",
+              "loreJson": [
+                {
+                  "text": "It smells in a way that defies description. When you are starving, it is not the worst option. Its original shape remains, though the sharp smell says it was never a good ingredient.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.64,
+                  "max": 0.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Rotten Flesh",
+              "loreJson": [
+                {
+                  "text": "It smells in a way that defies description. When you are starving, it is not the worst option. It has been kept relatively intact, but a clean appearance does not remove what makes it dangerous.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.84,
+                  "max": 0.96
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Rotten Flesh",
+              "loreJson": [
+                {
+                  "text": "It smells in a way that defies description. When you are starving, it is not the worst option. Its colour has deepened unnaturally and its smell grown stronger; swallowing it promises a cost.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 0.28,
+                  "max": 0.48
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Rotten Flesh",
+              "loreJson": [
+                {
+                  "text": "It smells in a way that defies description. When you are starving, it is not the worst option. Its original shape remains, though the sharp smell says it was never a good ingredient.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.64,
+                  "max": 0.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Rotten Flesh",
+              "loreJson": [
+                {
+                  "text": "It smells in a way that defies description. When you are starving, it is not the worst option. It has been kept relatively intact, but a clean appearance does not remove what makes it dangerous.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.84,
+                  "max": 0.96
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "FISHING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Rotten Flesh",
+              "loreJson": [
+                {
+                  "text": "It smells in a way that defies description. When you are starving, it is not the worst option. Its colour has deepened unnaturally and its smell grown stronger; swallowing it promises a cost.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 0.28,
+                  "max": 0.48
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Rotten Flesh",
+              "loreJson": [
+                {
+                  "text": "It smells in a way that defies description. When you are starving, it is not the worst option. Its original shape remains, though the sharp smell says it was never a good ingredient.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.64,
+                  "max": 0.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Rotten Flesh",
+              "loreJson": [
+                {
+                  "text": "It smells in a way that defies description. When you are starving, it is not the worst option. It has been kept relatively intact, but a clean appearance does not remove what makes it dangerous.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.84,
+                  "max": 0.96
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Rotten Flesh",
+              "loreJson": [
+                {
+                  "text": "It smells in a way that defies description. When you are starving, it is not the worst option. Its colour has deepened unnaturally and its smell grown stronger; swallowing it promises a cost.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 0.28,
+                  "max": 0.48
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Rotten Flesh",
+              "loreJson": [
+                {
+                  "text": "It smells in a way that defies description. When you are starving, it is not the worst option. Its original shape remains, though the sharp smell says it was never a good ingredient.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.64,
+                  "max": 0.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Rotten Flesh",
+              "loreJson": [
+                {
+                  "text": "It smells in a way that defies description. When you are starving, it is not the worst option. It has been kept relatively intact, but a clean appearance does not remove what makes it dangerous.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.84,
+                  "max": 0.96
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:spider_eye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "It is still looking at you. Whatever happens next is on you.",
+          "color": "red",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Spider Eye",
+              "loreJson": [
+                {
+                  "text": "It is still looking at you. Whatever happens next is on you. Its colour has deepened unnaturally and its smell grown stronger; swallowing it promises a cost.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 1.12,
+                  "max": 1.92
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Spider Eye",
+              "loreJson": [
+                {
+                  "text": "It is still looking at you. Whatever happens next is on you. Its original shape remains, though the sharp smell says it was never a good ingredient.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 2.56,
+                  "max": 3.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Spider Eye",
+              "loreJson": [
+                {
+                  "text": "It is still looking at you. Whatever happens next is on you. It has been kept relatively intact, but a clean appearance does not remove what makes it dangerous.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 3.36,
+                  "max": 3.84
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Spider Eye",
+              "loreJson": [
+                {
+                  "text": "It is still looking at you. Whatever happens next is on you. Its colour has deepened unnaturally and its smell grown stronger; swallowing it promises a cost.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 1.12,
+                  "max": 1.92
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Spider Eye",
+              "loreJson": [
+                {
+                  "text": "It is still looking at you. Whatever happens next is on you. Its original shape remains, though the sharp smell says it was never a good ingredient.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 2.56,
+                  "max": 3.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Spider Eye",
+              "loreJson": [
+                {
+                  "text": "It is still looking at you. Whatever happens next is on you. It has been kept relatively intact, but a clean appearance does not remove what makes it dangerous.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 3.36,
+                  "max": 3.84
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:sweet_berries": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sweet and tart, and pleasant enough to eat.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "BLOCK_DROP",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Sweet Berries",
+              "loreJson": [
+                {
+                  "text": "Sweet and tart, and pleasant enough to eat. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.14,
+                  "max": 0.24
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Sweet Berries",
+              "loreJson": [
+                {
+                  "text": "Sweet and tart, and pleasant enough to eat. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 0.32,
+                  "max": 0.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Sweet Berries",
+              "loreJson": [
+                {
+                  "text": "Sweet and tart, and pleasant enough to eat. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 0.42,
+                  "max": 0.48
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Sweet Berries",
+              "loreJson": [
+                {
+                  "text": "Sweet and tart, and pleasant enough to eat. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.14,
+                  "max": 0.24
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Sweet Berries",
+              "loreJson": [
+                {
+                  "text": "Sweet and tart, and pleasant enough to eat. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 0.32,
+                  "max": 0.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Sweet Berries",
+              "loreJson": [
+                {
+                  "text": "Sweet and tart, and pleasant enough to eat. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 0.42,
+                  "max": 0.48
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "HARVEST",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "Stale Sweet Berries",
+              "loreJson": [
+                {
+                  "text": "Sweet and tart, and pleasant enough to eat. Wrinkled skin and soft bruises have lost much of their moisture and fresh scent.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.14,
+                  "max": 0.24
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "Plain Sweet Berries",
+              "loreJson": [
+                {
+                  "text": "Sweet and tart, and pleasant enough to eat. Intact skin holds the moisture in; washed clean, it keeps a plain, quiet sweetness.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 0.32,
+                  "max": 0.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "Choice Sweet Berries",
+              "loreJson": [
+                {
+                  "text": "Sweet and tart, and pleasant enough to eat. Full skin and plenty of juice carry a clean scent without the taint of storage.",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 0.42,
+                  "max": 0.48
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

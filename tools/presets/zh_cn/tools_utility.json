@@ -1,0 +1,1109 @@
+{
+  "minecraft:axolotl_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "一只美西螈趴在桶底，外鳃还在慢慢动。",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brush": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "羽毛、铜锭和一根棍子。扫开可疑的沙土才知道底下埋着什么。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的刷子",
+              "loreJson": [
+                {
+                  "text": "羽毛、铜锭和一根棍子。扫开可疑的沙土才知道底下埋着什么。 柄与工作端接得略偏，边缘也没有细磨，干活时得多费些力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                38,
+                51
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的刷子",
+              "loreJson": [
+                {
+                  "text": "羽毛、铜锭和一根棍子。扫开可疑的沙土才知道底下埋着什么。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                64,
+                64
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的刷子",
+              "loreJson": [
+                {
+                  "text": "羽毛、铜锭和一根棍子。扫开可疑的沙土才知道底下埋着什么。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                70,
+                77
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "三块铁片敲成的桶，能装的东西比看上去多。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:carrot_on_a_stick": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "钓竿前端吊着一根胡萝卜。猪会跟着它走，一直走到胡萝卜被吃掉。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的胡萝卜钓竿",
+              "loreJson": [
+                {
+                  "text": "钓竿前端吊着一根胡萝卜。猪会跟着它走，一直走到胡萝卜被吃掉。 柄与工作端接得略偏，边缘也没有细磨，干活时得多费些力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                15,
+                20
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的胡萝卜钓竿",
+              "loreJson": [
+                {
+                  "text": "钓竿前端吊着一根胡萝卜。猪会跟着它走，一直走到胡萝卜被吃掉。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                25,
+                25
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的胡萝卜钓竿",
+              "loreJson": [
+                {
+                  "text": "钓竿前端吊着一根胡萝卜。猪会跟着它走，一直走到胡萝卜被吃掉。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                28,
+                30
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:clock": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金壳里镶着一颗红石，指针永远指着太阳该在的方向。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cod_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "一桶水加一条鳕鱼。它现在还算安分。",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:compass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "指针一直指着世界最初生成的那个点。想家的时候很好用。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:filled_map": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "纸上画着周围的地形，再往外还是空白。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:fishing_rod": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "一根竹竿、一段线、一枚钩子，剩下的交给耐心。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的钓鱼竿",
+              "loreJson": [
+                {
+                  "text": "一根竹竿、一段线、一枚钩子，剩下的交给耐心。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                19,
+                29
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的钓鱼竿",
+              "loreJson": [
+                {
+                  "text": "一根竹竿、一段线、一枚钩子，剩下的交给耐心。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                64,
+                64
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的钓鱼竿",
+              "loreJson": [
+                {
+                  "text": "一根竹竿、一段线、一枚钩子，剩下的交给耐心。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                70,
+                77
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的钓鱼竿",
+              "loreJson": [
+                {
+                  "text": "一根竹竿、一段线、一枚钩子，剩下的交给耐心。 柄与工作端接得略偏，边缘也没有细磨，干活时得多费些力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                38,
+                51
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的钓鱼竿",
+              "loreJson": [
+                {
+                  "text": "一根竹竿、一段线、一枚钩子，剩下的交给耐心。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                64,
+                64
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的钓鱼竿",
+              "loreJson": [
+                {
+                  "text": "一根竹竿、一段线、一枚钩子，剩下的交给耐心。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                70,
+                77
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "FISHING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的钓鱼竿",
+              "loreJson": [
+                {
+                  "text": "一根竹竿、一段线、一枚钩子，剩下的交给耐心。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                19,
+                29
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的钓鱼竿",
+              "loreJson": [
+                {
+                  "text": "一根竹竿、一段线、一枚钩子，剩下的交给耐心。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                64,
+                64
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的钓鱼竿",
+              "loreJson": [
+                {
+                  "text": "一根竹竿、一段线、一枚钩子，剩下的交给耐心。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                70,
+                77
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的钓鱼竿",
+              "loreJson": [
+                {
+                  "text": "一根竹竿、一段线、一枚钩子，剩下的交给耐心。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                19,
+                29
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的钓鱼竿",
+              "loreJson": [
+                {
+                  "text": "一根竹竿、一段线、一枚钩子，剩下的交给耐心。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                64,
+                64
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的钓鱼竿",
+              "loreJson": [
+                {
+                  "text": "一根竹竿、一段线、一枚钩子，剩下的交给耐心。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                70,
+                77
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:flint_and_steel": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "敲两下就有火星，野外生火最省事的办法。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的打火石",
+              "loreJson": [
+                {
+                  "text": "敲两下就有火星，野外生火最省事的办法。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                19,
+                29
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的打火石",
+              "loreJson": [
+                {
+                  "text": "敲两下就有火星，野外生火最省事的办法。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                64,
+                64
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的打火石",
+              "loreJson": [
+                {
+                  "text": "敲两下就有火星，野外生火最省事的办法。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                70,
+                77
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的打火石",
+              "loreJson": [
+                {
+                  "text": "敲两下就有火星，野外生火最省事的办法。 柄与工作端接得略偏，边缘也没有细磨，干活时得多费些力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                38,
+                51
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的打火石",
+              "loreJson": [
+                {
+                  "text": "敲两下就有火星，野外生火最省事的办法。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                64,
+                64
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的打火石",
+              "loreJson": [
+                {
+                  "text": "敲两下就有火星，野外生火最省事的办法。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                70,
+                77
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:goat_horn": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "从山羊撞过的地方捡来的角。吹起来的声音能传得很远。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lava_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "一桶还在流动的岩浆。端着它的时候最好别摔跤。",
+          "color": "red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lead": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "打好的绳圈，一头拴动物一头拴栅栏。也可以拴点别的。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:map": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "一张还没画上东西的纸。用过之后它就会开始记录你走过的地方。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:milk_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "刚挤出来的牛奶，喝一口能冲掉身上大部分古怪的效果。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:name_tag": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "一张空白的铁牌。写上名字之后，被它点到的东西就不会再消失。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:powder_snow_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "桶里装着一团不会化的细雪。倒出去能陷住几乎任何东西。",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pufferfish_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "桶里的河豚正鼓着一口气。别把它倒在自己脚边。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:recovery_compass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "指针指向上一次死掉的地方。看着不太舒服，但确实能找回东西。",
+          "color": "blue",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:saddle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "皮制的鞍，配上马或者猪都能骑。它没法合成——只能去找。",
+          "color": "blue",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:salmon_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "一桶水加一条鲑鱼，它一直在桶里绕圈。",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:shears": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "剪羊毛、剪树叶、剪藤蔓。偶尔也用来剪点别的。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的剪刀",
+              "loreJson": [
+                {
+                  "text": "剪羊毛、剪树叶、剪藤蔓。偶尔也用来剪点别的。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                71,
+                107
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的剪刀",
+              "loreJson": [
+                {
+                  "text": "剪羊毛、剪树叶、剪藤蔓。偶尔也用来剪点别的。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                238,
+                238
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的剪刀",
+              "loreJson": [
+                {
+                  "text": "剪羊毛、剪树叶、剪藤蔓。偶尔也用来剪点别的。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                262,
+                286
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的剪刀",
+              "loreJson": [
+                {
+                  "text": "剪羊毛、剪树叶、剪藤蔓。偶尔也用来剪点别的。 柄与工作端接得略偏，边缘也没有细磨，干活时得多费些力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                143,
+                190
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的剪刀",
+              "loreJson": [
+                {
+                  "text": "剪羊毛、剪树叶、剪藤蔓。偶尔也用来剪点别的。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                238,
+                238
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的剪刀",
+              "loreJson": [
+                {
+                  "text": "剪羊毛、剪树叶、剪藤蔓。偶尔也用来剪点别的。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                262,
+                286
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的剪刀",
+              "loreJson": [
+                {
+                  "text": "剪羊毛、剪树叶、剪藤蔓。偶尔也用来剪点别的。 常受力的边缘已经磨圆，柄上几道裂纹让人不敢使尽力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                71,
+                107
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的剪刀",
+              "loreJson": [
+                {
+                  "text": "剪羊毛、剪树叶、剪藤蔓。偶尔也用来剪点别的。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                238,
+                238
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的剪刀",
+              "loreJson": [
+                {
+                  "text": "剪羊毛、剪树叶、剪藤蔓。偶尔也用来剪点别的。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                262,
+                286
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:spyglass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "两片玻璃加一根铜管，能看清很远的东西。看的时候自己最好别动。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tadpole_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "桶里有几粒黑点在游。养久了会变成吵人的东西。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tropical_fish_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "桶里那条鱼的颜色很难说清，总之非常鲜艳。",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_fungus_on_a_stick": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "钓竿前端吊着一朵诡异菌。炽足兽认得这个东西。",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的诡异菌钓竿",
+              "loreJson": [
+                {
+                  "text": "钓竿前端吊着一朵诡异菌。炽足兽认得这个东西。 柄与工作端接得略偏，边缘也没有细磨，干活时得多费些力气。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                60,
+                80
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的诡异菌钓竿",
+              "loreJson": [
+                {
+                  "text": "钓竿前端吊着一朵诡异菌。炽足兽认得这个东西。 工作端打磨得当，握柄扎实，做起常用的活计相当顺手。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                100,
+                100
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的诡异菌钓竿",
+              "loreJson": [
+                {
+                  "text": "钓竿前端吊着一朵诡异菌。炽足兽认得这个东西。 工作端的角度修得很准，握柄也配得合宜，力气几乎不会白费。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                110,
+                120
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:water_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "满满一桶水。泼出去之后桶还是你的。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

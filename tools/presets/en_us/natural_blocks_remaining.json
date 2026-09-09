@@ -1,0 +1,1696 @@
+{
+  "minecraft:acacia_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Open grey-green leaves hold to fine twigs, useful for filling a gap in a acacia canopy.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_sapling": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Short fine roots support this acacia sapling, which needs room around it to grow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:allium": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Small purple flowers gather into a ball, distinct along a flowerbed edge.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:amethyst_cluster": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "With clear points fully formed, this growth serves as a source of amethyst shards when broken.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:azalea": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Short branches hold close small leaves, suitable for a row along a path.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:azalea_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine twigs hold close small leaves, convenient for a low hedge.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:azure_bluet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale little petals surround yellow centres in a low roadside patch.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Hollow joints are light and straight, convenient for scaffolding or worked timber.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:basalt": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Long dark-grey grain follows the column and lays neatly in an upright course.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bee_nest": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin wax encloses natural chambers whose occupants need care when the nest is moved.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:beehive": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Neat comb cells line the wooden casing, ready for a colony with a clear entrance.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:big_dripleaf": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A broad leaf rests on a tall stem, sound for a step but not a long pause.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin bright-green leaves hold to fine twigs, useful for filling a gap in a birch canopy.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_sapling": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Short fine roots support this birch sapling, which needs room around it to grow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_ice": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Deep blue ice holds scarcely a bubble and carries a boat particularly far.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blue_orchid": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Blue flowers open along a bent stem, bringing a cool colour from the swamp to a garden.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brain_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The small cluster carries pink folds and needs water when used for a small underwater scene.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brain_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The thick mass carries pink folds and needs water when used for the base of a reef.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brain_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The fan carries pink folds and needs water when used for the edge of a reef wall.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_mushroom": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A soft, slightly damp brown cap is useful sliced into stew.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brown_mushroom_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The thick cap is soft and porous within, already shaped for a broad canopy.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bubble_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The small cluster carries purple rounded nodes and needs water when used for a small underwater scene.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bubble_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The thick mass carries purple rounded nodes and needs water when used for the base of a reef.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bubble_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The fan carries purple rounded nodes and needs water when used for the edge of a reef wall.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cactus": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thick skin stores moisture behind spines that discourage an ungloved hand.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:calcite": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Milky crystals press together into a clean contrast beside dark stone.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:carved_pumpkin": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cut edges make a face in the thick rind, a mask that avoids an enderman's gaze.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Close pink blossom hold to fine twigs, useful for filling a gap in a cherry tree canopy.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_sapling": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Short fine roots support this cherry tree sapling, which needs room around it to grow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chorus_flower": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale firm petals protect a centre that grows new branches on end stone.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:clay": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine grey clay carries little grit and works well into bricks or pottery.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:coarse_dirt": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Grit interrupts the soil throughout, keeping a trodden patch clear of grass.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobweb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Layers of fine silk catch a sleeve and take some effort to pull free.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cornflower": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine blue petals spread outward and make a distinct blue dye.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_fungus": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thick red cap can be encouraged into a huge fungus on crimson nylium.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_nylium": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A close red fungal layer covers the rock, making a bed for crimson fungi.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_roots": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark red roots fork into fine sprays that suit a patch of nylium.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crying_obsidian": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Purple droplets seep across the dark face, material suited to a respawn anchor.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dandelion": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine yellow petals form a small disc and yield a handful of yellow dye.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Overlapping dark-green leaves hold to fine twigs, useful for filling a gap in a dark oak canopy.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_sapling": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Short fine roots support this dark oak sapling, which needs room around it to grow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_brain_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The small cluster has lost its pink folds, leaving a grey skeleton still useful in a dry display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_brain_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The thick mass has lost its pink folds, leaving a grey skeleton still useful in a dry display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_brain_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The fan has lost its pink folds, leaving a grey skeleton still useful in a dry display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_bubble_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The small cluster has lost its purple rounded nodes, leaving a grey skeleton still useful in a dry display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_bubble_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The thick mass has lost its purple rounded nodes, leaving a grey skeleton still useful in a dry display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_bubble_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The fan has lost its purple rounded nodes, leaving a grey skeleton still useful in a dry display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_bush": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dry twigs snap easily and can still supply a few sticks.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_fire_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The small cluster has lost its fine red branches, leaving a grey skeleton still useful in a dry display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_fire_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The thick mass has lost its fine red branches, leaving a grey skeleton still useful in a dry display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_fire_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The fan has lost its fine red branches, leaving a grey skeleton still useful in a dry display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_horn_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The small cluster has lost its yellow horn-shaped branches, leaving a grey skeleton still useful in a dry display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_horn_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The thick mass has lost its yellow horn-shaped branches, leaving a grey skeleton still useful in a dry display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_horn_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The fan has lost its yellow horn-shaped branches, leaving a grey skeleton still useful in a dry display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_tube_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The small cluster has lost its blue tube openings, leaving a grey skeleton still useful in a dry display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_tube_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The thick mass has lost its blue tube openings, leaving a grey skeleton still useful in a dry display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dead_tube_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The fan has lost its blue tube openings, leaving a grey skeleton still useful in a dry display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dirt": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Loose brown soil holds fine roots and crumbles readily into uneven ground.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dripstone_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Water has pitted the brown rock, which can support pointed growth underneath.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:end_stone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pits cover the pale yellow surface, which builds more solidly than it looks.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:fern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Divided green fronds open along a central rib and sit naturally in shade.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:fire_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The small cluster carries fine red branches and needs water when used for a small underwater scene.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:fire_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The thick mass carries fine red branches and needs water when used for the base of a reef.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:fire_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The fan carries fine red branches and needs water when used for the edge of a reef wall.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flowering_azalea": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Small pink flowers sit among dense leaves and brighten a yard without growing tall.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flowering_azalea_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pink blossoms sit in compact foliage that makes a flowering hedge on its own.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glow_lichen": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale flakes cling to stone, giving just enough light to make out a nearby step.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:grass_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin turf holds damp soil together and can spread into a continuous lawn.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gravel": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven pebbles roll apart easily, occasionally revealing a flint among them.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:hanging_roots": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine roots carry traces of wet soil and bring a woodland look to an overhang.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:horn_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The small cluster carries yellow horn-shaped branches and needs water when used for a small underwater scene.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:horn_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The thick mass carries yellow horn-shaped branches and needs water when used for the base of a reef.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:horn_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The fan carries yellow horn-shaped branches and needs water when used for the edge of a reef wall.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ice": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine white bubbles sit inside clear ice that makes a very slippery passage.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dense broad leaves hold to fine twigs, useful for filling a gap in a jungle tree canopy.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_sapling": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Short fine roots support this jungle tree sapling, which needs room around it to grow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:kelp": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Long slippery blades smell of seawater and dry into simple provisions.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:large_amethyst_bud": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "With thick points not yet fully spread, this growth serves as a conspicuous grouped display.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:large_fern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Broad feathered fronds spread in layers to fill a woodland gap.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lilac": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale purple clusters stand on tall stems, visible behind a lower flowerbed.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lily_of_the_valley": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Small white bells hang along a fine stem, clean-looking but unsuitable for a meal.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lily_pad": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A flat round leaf floats on the water and supports a passing step.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magma_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Orange-red seams split the black crust; a bare step is a poor choice.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thick damp-green leaves hold to fine twigs, useful for filling a gap in a mangrove canopy.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_propagule": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A long green-tipped shoot can take root even while standing in water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_roots": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Curved roots cross into a mesh whose gaps remain visible when filled with water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:medium_amethyst_bud": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "With several purple points beginning to separate, this growth serves as a detail on a cave wall.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:melon": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A firm green rind encloses juicy red flesh that divides into several slices.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:moss_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thick green moss covers every side and spreads with a little bone meal.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:moss_carpet": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A soft, low mat of moss sits naturally even over stone.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mud": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wet mud clings to the hand; a little wheat helps pack it into useful building material.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:muddy_mangrove_roots": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wet mud fills the tangled roots into material resembling a firm riverbank.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mushroom_stem": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale, fine-grained stalk is light and stacks into a plain column.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mycelium": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Grey-purple threads cover the surface closely enough to support mushrooms in the light.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_sprouts": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Short blue-green shoots cover fungal ground without adding much height.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_wart_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark red grains press into a thick canopy block that cannot be unpacked into its ingredients.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:netherrack": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Porous red rock breaks readily under a pick and keeps an open flame burning.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Broad green leaves hold to fine twigs, useful for filling a gap in a oak canopy.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_sapling": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Short fine roots support this oak sapling, which needs room around it to grow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:obsidian": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glossy black fractures are sharp and heavy, requiring a good pick to recover intact.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:orange_tulip": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "An orange flower cup rests on a straight stem, warm in an ordered row.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxeye_daisy": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "White petals circle a full yellow centre, plain and pleasing in grass.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:packed_ice": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Tightly packed layers glow blue-white and keep their shape beside a lamp.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:peony": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thick layers of pink petals fill a gap in a bed with a single plant.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_petals": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin pink petals lie close to the grass and look well even in a sparse patch.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pink_tulip": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale pink petals fold into a narrow cup, gentle beside a white wall.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pitcher_plant": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Broad leaves support a swollen pitcher, tall enough to fill a space beside a wall.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:podzol": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Leaf litter covers dark soil with a damp woodland smell, suitable for growing mushrooms.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pointed_dripstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Layers taper to a sharp point, useful for gathering drips from a cave ceiling.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_basalt": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Polished basalt shows straight grain that gives a column a clean outline.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:poppy": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin red petals hold a dark centre and grind into a portion of red dye.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pumpkin": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thick orange skin encloses fibres and seeds, useful hollowed out or made into filling.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_mushroom": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "White spots mark the red cap, best paired with the other mushroom for a familiar stew.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_mushroom_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A red spotted skin covers a spongy inside, making a conspicuous shelter.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_sand": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "An iron-red coating colours the grains, though they make glass as readily as ordinary sand.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_tulip": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Neat edges line the red cup, making little markers when planted in a row.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:rooted_dirt": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine roots wind through the earth and separate when worked with a hoe.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:rose_bush": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Red blooms crowd thorny tall stems, suitable for a flowering hedge.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sand": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale grains run between the fingers and melt into clear glass in a furnace.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sculk": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Blue-green points dot the dark surface, softer underfoot than bare stone.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sculk_catalyst": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A pale crown sits over dark veins that spread when a creature dies nearby.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sculk_shrieker": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale prongs surround a dark opening that can no longer summon a warden once moved.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sculk_vein": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin veins cling to a surface and coat a cave wall with little bulk.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sea_pickle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Short soft tubes cluster together and give their light only underwater.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:seagrass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine blades droop out of water but make suitable feed for turtles.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:short_grass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Soil clings to the short roots; a patch is enough to cover bare ground.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:small_amethyst_bud": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "With a pale tip barely showing, this growth serves as a small decorative detail.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:small_dripleaf": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Two tender leaves hug a short stem that needs bone meal to grow into a stepping leaf.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_basalt": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine grey stone has lost its ridges and makes a plain, even facing.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sniffer_egg": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Moss-coloured patches cover a thick shell that hatches faster on a moss block.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:snow": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Soft grains settle in a thin layer, easily gathered with a shovel.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:snow_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Packed snow is cold and close-grained, easier to build a wall with than loose powder.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:soul_sand": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Indistinct faces mark the brown grains, which hold a footstep back.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:soul_soil": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark soil is dry and loose, carrying a cold blue flame when lit.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spore_blossom": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Broad pink petals open downward and let fine spores drift through the room.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_leaves": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark green needles hold to fine twigs, useful for filling a gap in a spruce canopy.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_sapling": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Short fine roots support this spruce sapling, which needs room around it to grow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sugar_cane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sweet juice fills the green joints, useful for both paper and sugar.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sunflower": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Broad yellow petals surround a weighty disc whose face points out the east.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tall_grass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Long narrow blades crowd together and obscure the view at waist height.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:torchflower": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Red and yellow petals curl into a flame shape, bright in colour but unable to light a room.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tube_coral": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The small cluster carries blue tube openings and needs water when used for a small underwater scene.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tube_coral_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The thick mass carries blue tube openings and needs water when used for the base of a reef.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tube_coral_fan": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The fan carries blue tube openings and needs water when used for the edge of a reef wall.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:turtle_egg": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Green flecks mark a pale shell that needs sand beneath it to hatch.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:twisting_vines": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Blue-green vines curl upward, providing footholds along a tall structure.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:vine": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine stems carry broad leaves and give a wall a useful climbing hold.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_fungus": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The blue-green cap curls at its edges and attracts striders as well as growing into a fungus.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_nylium": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Blue-green growth spreads over dark rock where warped fungi can grow tall.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_roots": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Twisted blue-green roots spread outward into a matching bed beside warped fungi.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_wart_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Blue-green grains form a firm mass that gives a fungus a broad, thick crown.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weeping_vines": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark red joints hang downward into a slender, yielding ladder.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:white_tulip": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A white cup stands on its stem, clear among dark leaves.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:wither_rose": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Black petals are withered but intact, harmful to touch and best given space.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

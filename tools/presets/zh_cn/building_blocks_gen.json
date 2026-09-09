@@ -1,0 +1,4457 @@
+{
+  "minecraft:acacia_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢的橙红木色留得鲜明。两格高的木门，关上之后怪进不来——前提是你记得关。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢的橙红木色留得鲜明。木条钉成的围栏，能看见对面，但跨不过去。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢的橙红木色留得鲜明。围栏上留的一道门，栓上之后和围栏一样拦人。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢的橙红木色留得鲜明。用铁链吊起来的木牌，底下不占地方。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢的橙红木色留得鲜明。带皮的原木，切面上还能数出年轮。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢的橙红木色留得鲜明。顺着纹理锯开的木板，钉子吃得住，做家具也够平整。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢的橙红木色留得鲜明。钉在墙上或者插在地上的木牌，字得自己写。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢的橙红木色留得鲜明。锯成半格的木板，铺地板省料，踩上去也不响。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢的橙红木色留得鲜明。钉出来的木楼梯，上下楼比搭脚手架省事。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢的橙红木色留得鲜明。平开的木活板门，合上是地板，掀开是洞口。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢的橙红木色留得鲜明。六面都是树皮的木段，拿来当柱子最像树。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:amethyst_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫水晶簇的底座，敲上去会响一声。",
+          "color": "light_purple",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:andesite": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "灰绿的安山岩，粗糙，但很结实。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:andesite_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "灰绿的安山岩，粗糙，但很结实。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:andesite_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "灰绿的安山岩，粗糙，但很结实。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:andesite_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "灰绿的安山岩，粗糙，但很结实。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "一捆竹子压成的方料，比木板轻。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹节的浅黄纹理细而笔直。两格高的木门，关上之后怪进不来——前提是你记得关。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹节的浅黄纹理细而笔直。木条钉成的围栏，能看见对面，但跨不过去。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹节的浅黄纹理细而笔直。围栏上留的一道门，栓上之后和围栏一样拦人。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹节的浅黄纹理细而笔直。用铁链吊起来的木牌，底下不占地方。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_mosaic": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹片拼出的细密花纹，凑近了才看得见接缝。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_mosaic_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹片拼出的细密花纹，凑近了才看得见接缝。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_mosaic_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹片拼出的细密花纹，凑近了才看得见接缝。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹节的浅黄纹理细而笔直。顺着纹理锯开的木板，钉子吃得住，做家具也够平整。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹节的浅黄纹理细而笔直。钉在墙上或者插在地上的木牌，字得自己写。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹节的浅黄纹理细而笔直。锯成半格的木板，铺地板省料，踩上去也不响。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹节的浅黄纹理细而笔直。钉出来的木楼梯，上下楼比搭脚手架省事。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "竹节的浅黄纹理细而笔直。平开的木活板门，合上是地板，掀开是洞口。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦木色浅淡，纹路也很细。两格高的木门，关上之后怪进不来——前提是你记得关。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦木色浅淡，纹路也很细。木条钉成的围栏，能看见对面，但跨不过去。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦木色浅淡，纹路也很细。围栏上留的一道门，栓上之后和围栏一样拦人。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦木色浅淡，纹路也很细。用铁链吊起来的木牌，底下不占地方。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦木色浅淡，纹路也很细。带皮的原木，切面上还能数出年轮。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦木色浅淡，纹路也很细。顺着纹理锯开的木板，钉子吃得住，做家具也够平整。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦木色浅淡，纹路也很细。钉在墙上或者插在地上的木牌，字得自己写。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦木色浅淡，纹路也很细。锯成半格的木板，铺地板省料，踩上去也不响。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦木色浅淡，纹路也很细。钉出来的木楼梯，上下楼比搭脚手架省事。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦木色浅淡，纹路也很细。平开的木活板门，合上是地板，掀开是洞口。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦木色浅淡，纹路也很细。六面都是树皮的木段，拿来当柱子最像树。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blackstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "下界的黑色火山岩，敲开有玻璃一样的断面。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blackstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "下界的黑色火山岩，敲开有玻璃一样的断面。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blackstone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "下界的黑色火山岩，敲开有玻璃一样的断面。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blackstone_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "下界的黑色火山岩，敲开有玻璃一样的断面。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bone_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "骨头压成的白块，像一段埋在土里的化石。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红砖台阶的材质紧实，棱边平整。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红砖楼梯的材质紧实，棱边平整。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红砖墙的材质紧实，棱边平整。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花木透着浅粉，切面颜色柔和。两格高的木门，关上之后怪进不来——前提是你记得关。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花木透着浅粉，切面颜色柔和。木条钉成的围栏，能看见对面，但跨不过去。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花木透着浅粉，切面颜色柔和。围栏上留的一道门，栓上之后和围栏一样拦人。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花木透着浅粉，切面颜色柔和。用铁链吊起来的木牌，底下不占地方。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花木透着浅粉，切面颜色柔和。带皮的原木，切面上还能数出年轮。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花木透着浅粉，切面颜色柔和。顺着纹理锯开的木板，钉子吃得住，做家具也够平整。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花木透着浅粉，切面颜色柔和。钉在墙上或者插在地上的木牌，字得自己写。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花木透着浅粉，切面颜色柔和。锯成半格的木板，铺地板省料，踩上去也不响。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花木透着浅粉，切面颜色柔和。钉出来的木楼梯，上下楼比搭脚手架省事。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花木透着浅粉，切面颜色柔和。平开的木活板门，合上是地板，掀开是洞口。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花木透着浅粉，切面颜色柔和。六面都是树皮的木段，拿来当柱子最像树。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "錾出浅纹的铜面，颜色还偏橙，放久了会慢慢发绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_deepslate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "錾出回纹的深层岩，一般用在门楣上。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_nether_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "錾出纹样的下界砖，纹路里还积着灰。",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_polished_blackstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "錾出骷髅纹的黑石，是猪灵留下的记号。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_quartz_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "錾出纹样的石英块，一般放在柱头。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_red_sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "錾出纹样的红砂岩，纹样和砂岩那边一样。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "錾出纹样的砂岩，沙漠神殿里常见。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_stone_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "正中錾了一个方纹，是砌墙的人留的记号。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_tuff": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "錾出纹样的凝灰岩，纹路浅得容易积灰。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_tuff_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "砖面上錾了花纹的凝灰岩。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:coal_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "煤压成的一整块，烧起来比散煤久得多。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:coal_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石头里嵌着清楚的煤矿脉，用合适的镐敲开就能收取。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobbled_deepslate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "敲碎的深层岩，断面发黑。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobbled_deepslate_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "敲碎的深层岩，断面发黑。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobbled_deepslate_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "敲碎的深层岩，断面发黑。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobbled_deepslate_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "敲碎的深层岩，断面发黑。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobblestone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "圆滚滚的碎石头垒成的，缝隙里全是灰。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobblestone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "圆滚滚的碎石头垒成的，缝隙里全是灰。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobblestone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "圆滚滚的碎石头垒成的，缝隙里全是灰。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobblestone_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "圆滚滚的碎石头垒成的，缝隙里全是灰。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:copper_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浇成一整块的铜，颜色还偏橙，放久了会慢慢发绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板拼的门，比木门沉得多，颜色还偏橙，放久了会慢慢发绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜条编成的格栅，颜色还偏橙，放久了会慢慢发绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:copper_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石头里嵌着的铜矿粒，敲下来还得送进炉子。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板做的活板门，合上几乎看不出缝，颜色还偏橙，放久了会慢慢发绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cracked_deepslate_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "裂了缝的深层岩砖，缝宽得能塞进指甲。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cracked_deepslate_tiles": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "瓦片裂了几处，踩上去会有细响。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cracked_nether_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "裂了缝的下界砖，堡垒的墙上到处是。",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cracked_polished_blackstone_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "裂开的黑石砖，堡垒遗迹的墙上到处都是。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cracked_stone_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "砖面裂了缝，还撑得住，只是不再平整。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绯红菌材带着深红纤维，不会烧起来。两格高的木门，关上之后怪进不来——前提是你记得关。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绯红菌材带着深红纤维，不会烧起来。木条钉成的围栏，能看见对面，但跨不过去。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绯红菌材带着深红纤维，不会烧起来。围栏上留的一道门，栓上之后和围栏一样拦人。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绯红菌材带着深红纤维，不会烧起来。用铁链吊起来的木牌，底下不占地方。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_hyphae": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绯红菌材带着深红纤维，不会烧起来。菌柄外面那层皮裹满了一圈，颜色比菌柄深。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绯红菌材带着深红纤维，不会烧起来。顺着纹理锯开的木板，钉子吃得住，做家具也够平整。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绯红菌材带着深红纤维，不会烧起来。钉在墙上或者插在地上的木牌，字得自己写。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绯红菌材带着深红纤维，不会烧起来。锯成半格的木板，铺地板省料，踩上去也不响。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绯红菌材带着深红纤维，不会烧起来。钉出来的木楼梯，上下楼比搭脚手架省事。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_stem": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绯红菌材带着深红纤维，不会烧起来。下界菌类的粗柄，掰开是干裂的纤维。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绯红菌材带着深红纤维，不会烧起来。平开的木活板门，合上是地板，掀开是洞口。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切出棱线的铜块，颜色还偏橙，放久了会慢慢发绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切成半格的铜块，颜色还偏橙，放久了会慢慢发绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "带踏步的铜块，颜色还偏橙，放久了会慢慢发绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cut_red_sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切齐了棱角的红砂岩。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cut_red_sandstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切齐了棱角的红砂岩。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cut_sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切齐了棱角的砂岩，比原块干净。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cut_sandstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切齐了棱角的砂岩，比原块干净。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木颜色厚重，木纹深浅分明。两格高的木门，关上之后怪进不来——前提是你记得关。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木颜色厚重，木纹深浅分明。木条钉成的围栏，能看见对面，但跨不过去。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木颜色厚重，木纹深浅分明。围栏上留的一道门，栓上之后和围栏一样拦人。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木颜色厚重，木纹深浅分明。用铁链吊起来的木牌，底下不占地方。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木颜色厚重，木纹深浅分明。带皮的原木，切面上还能数出年轮。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木颜色厚重，木纹深浅分明。顺着纹理锯开的木板，钉子吃得住，做家具也够平整。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木颜色厚重，木纹深浅分明。钉在墙上或者插在地上的木牌，字得自己写。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木颜色厚重，木纹深浅分明。锯成半格的木板，铺地板省料，踩上去也不响。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木颜色厚重，木纹深浅分明。钉出来的木楼梯，上下楼比搭脚手架省事。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木颜色厚重，木纹深浅分明。平开的木活板门，合上是地板，掀开是洞口。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木颜色厚重，木纹深浅分明。六面都是树皮的木段，拿来当柱子最像树。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_prismarine": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜色最深的海晶石，中间嵌着深色的纹。",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_prismarine_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜色最深的海晶石，中间嵌着深色的纹。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_prismarine_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "颜色最深的海晶石，中间嵌着深色的纹。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深层的暗色岩，比石头重，也更难敲开。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深层岩切的砖，颜色比石砖沉得多。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深层岩切的砖，颜色比石砖沉得多。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深层岩切的砖，颜色比石砖沉得多。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深层岩切的砖，颜色比石砖沉得多。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_coal_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "煤长在了深层岩里，比上层石头里的更难敲出来。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_copper_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜长在了深层岩里，比上层石头里的更难敲出来。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_diamond_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "钻石长在了深层岩里，比上层石头里的更难敲出来。",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_emerald_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绿宝石长在了深层岩里，比上层石头里的更难敲出来。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_gold_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金长在了深层岩里，比上层石头里的更难敲出来。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_iron_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铁长在了深层岩里，比上层石头里的更难敲出来。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_lapis_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "青金石长在了深层岩里，比上层石头里的更难敲出来。",
+          "color": "blue",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_redstone_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红石粉长在了深层岩里，比上层石头里的更难敲出来。",
+          "color": "red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_tile_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细长的小瓦片排成一层层，铺地很平。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_tile_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细长的小瓦片排成一层层，铺地很平。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_tile_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细长的小瓦片排成一层层，铺地很平。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_tiles": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细长的小瓦片排成一层层，铺地很平。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:diamond_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "九颗钻石压成的，摆着比用掉划算。",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:diamond_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石头里嵌着清楚的钻石矿脉，用合适的镐敲开就能收取。",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:diorite": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "灰白杂色的岩块，纹理没什么规律。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:diorite_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "灰白杂色的岩块，纹理没什么规律。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:diorite_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "灰白杂色的岩块，纹理没什么规律。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:diorite_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "灰白杂色的岩块，纹理没什么规律。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dried_kelp_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "晒干的海带压成的块，当燃料比当食物合适。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:emerald_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "九颗绿宝石压成的，村民见了会更客气些。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:emerald_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石头里嵌着清楚的绿宝石矿脉，用合适的镐敲开就能收取。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:end_stone_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "末地石切的砖，白得发冷。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:end_stone_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "末地石切的砖，白得发冷。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:end_stone_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "末地石切的砖，白得发冷。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:end_stone_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "末地石切的砖，白得发冷。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "錾出浅纹的铜面，表面开始发暗，边角浮出一点绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浇成一整块的铜，表面开始发暗，边角浮出一点绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板拼的门，比木门沉得多，表面开始发暗，边角浮出一点绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜条编成的格栅，表面开始发暗，边角浮出一点绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板做的活板门，合上几乎看不出缝，表面开始发暗，边角浮出一点绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切出棱线的铜块，表面开始发暗，边角浮出一点绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切成半格的铜块，表面开始发暗，边角浮出一点绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "带踏步的铜块，表面开始发暗，边角浮出一点绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gilded_blackstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黑石里嵌着金粒，一镐下去也可能什么都得不到。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "烧透的沙子，能看出去，也一拳就能打碎。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃片，装窗比整块省料。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gold_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "九个金锭压成的，好看，但实在没什么用。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gold_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石头里嵌着的金矿粒，敲下来还得送进炉子。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:granite": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "带粉红斑点的火成岩，比寻常石头硬。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:granite_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "带粉红斑点的火成岩，比寻常石头硬。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:granite_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "带粉红斑点的火成岩，比寻常石头硬。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:granite_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "带粉红斑点的火成岩，比寻常石头硬。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:hay_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "压成方的干草，马吃了能缓过来，摔下来也能垫一下。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:honeycomb_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蜂房拼成的块，闻着有甜味，走上去却不粘脚。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:iron_bars": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铁条焊成的栅栏，看得过去，人过不去。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:iron_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "九个铁锭压成的方块，也常拿来当砧用。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:iron_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铁板拼的门，空手推不动，得靠按钮或者拉杆。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:iron_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石头里嵌着的铁矿粒，敲下来还得送进炉子。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:iron_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铁做的活板门，同样得靠红石才能掀开。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木偏红褐，宽纹理看得很清楚。两格高的木门，关上之后怪进不来——前提是你记得关。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木偏红褐，宽纹理看得很清楚。木条钉成的围栏，能看见对面，但跨不过去。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木偏红褐，宽纹理看得很清楚。围栏上留的一道门，栓上之后和围栏一样拦人。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木偏红褐，宽纹理看得很清楚。用铁链吊起来的木牌，底下不占地方。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木偏红褐，宽纹理看得很清楚。带皮的原木，切面上还能数出年轮。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木偏红褐，宽纹理看得很清楚。顺着纹理锯开的木板，钉子吃得住，做家具也够平整。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木偏红褐，宽纹理看得很清楚。钉在墙上或者插在地上的木牌，字得自己写。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木偏红褐，宽纹理看得很清楚。锯成半格的木板，铺地板省料，踩上去也不响。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木偏红褐，宽纹理看得很清楚。钉出来的木楼梯，上下楼比搭脚手架省事。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木偏红褐，宽纹理看得很清楚。平开的木活板门，合上是地板，掀开是洞口。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木偏红褐，宽纹理看得很清楚。六面都是树皮的木段，拿来当柱子最像树。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lapis_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "青金石压成的蓝块，颜色深得发沉。",
+          "color": "blue",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lapis_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石头里嵌着清楚的青金石矿脉，用合适的镐敲开就能收取。",
+          "color": "blue",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树木色偏深红，和浅石材并排很清楚。两格高的木门，关上之后怪进不来——前提是你记得关。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树木色偏深红，和浅石材并排很清楚。木条钉成的围栏，能看见对面，但跨不过去。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树木色偏深红，和浅石材并排很清楚。围栏上留的一道门，栓上之后和围栏一样拦人。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树木色偏深红，和浅石材并排很清楚。用铁链吊起来的木牌，底下不占地方。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树木色偏深红，和浅石材并排很清楚。带皮的原木，切面上还能数出年轮。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树木色偏深红，和浅石材并排很清楚。顺着纹理锯开的木板，钉子吃得住，做家具也够平整。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树木色偏深红，和浅石材并排很清楚。钉在墙上或者插在地上的木牌，字得自己写。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树木色偏深红，和浅石材并排很清楚。锯成半格的木板，铺地板省料，踩上去也不响。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树木色偏深红，和浅石材并排很清楚。钉出来的木楼梯，上下楼比搭脚手架省事。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树木色偏深红，和浅石材并排很清楚。平开的木活板门，合上是地板，掀开是洞口。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树木色偏深红，和浅石材并排很清楚。六面都是树皮的木段，拿来当柱子最像树。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_cobblestone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "圆石的缝里长满了苔藓，摸上去一直是湿的。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_cobblestone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "圆石的缝里长满了苔藓，摸上去一直是湿的。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_cobblestone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "圆石的缝里长满了苔藓，摸上去一直是湿的。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_cobblestone_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "圆石的缝里长满了苔藓，摸上去一直是湿的。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_stone_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "砖缝里钻进了苔藓，看得出在户外待了很久。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_stone_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "砖缝里钻进了苔藓，看得出在户外待了很久。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_stone_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "砖缝里钻进了苔藓，看得出在户外待了很久。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_stone_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "砖缝里钻进了苔藓，看得出在户外待了很久。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mud_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "泥晒成的砖，轻，但怕水泡。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mud_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "泥晒成的砖，轻，但怕水泡。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mud_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "泥晒成的砖，轻，但怕水泡。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mud_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "泥晒成的砖，轻，但怕水泡。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_brick_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "下界砖砌的栅栏，比木栅栏耐火得多。",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "下界砖烧成的深色块，摸上去还带着一点温。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "下界砖烧成的深色块，摸上去还带着一点温。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "下界砖烧成的深色块，摸上去还带着一点温。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "下界砖烧成的深色块，摸上去还带着一点温。",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_gold_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "下界岩里稀疏的金，一镐下去能敲出几粒。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_quartz_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "嵌在下界岩里的石英，敲开是一片干净的白。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:netherite_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "九个下界合金锭压成的，扔进火里也烧不化。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木的黄褐纹理平直，颜色很朴素。两格高的木门，关上之后怪进不来——前提是你记得关。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木的黄褐纹理平直，颜色很朴素。木条钉成的围栏，能看见对面，但跨不过去。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木的黄褐纹理平直，颜色很朴素。围栏上留的一道门，栓上之后和围栏一样拦人。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木的黄褐纹理平直，颜色很朴素。用铁链吊起来的木牌，底下不占地方。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木的黄褐纹理平直，颜色很朴素。带皮的原木，切面上还能数出年轮。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木的黄褐纹理平直，颜色很朴素。钉在墙上或者插在地上的木牌，字得自己写。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木的黄褐纹理平直，颜色很朴素。锯成半格的木板，铺地板省料，踩上去也不响。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木的黄褐纹理平直，颜色很朴素。钉出来的木楼梯，上下楼比搭脚手架省事。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木的黄褐纹理平直，颜色很朴素。平开的木活板门，合上是地板，掀开是洞口。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木的黄褐纹理平直，颜色很朴素。六面都是树皮的木段，拿来当柱子最像树。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "錾出浅纹的铜面，整块锈成了青绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浇成一整块的铜，整块锈成了青绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板拼的门，比木门沉得多，整块锈成了青绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜条编成的格栅，整块锈成了青绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板做的活板门，合上几乎看不出缝，整块锈成了青绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切出棱线的铜块，整块锈成了青绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切成半格的铜块，整块锈成了青绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "带踏步的铜块，整块锈成了青绿。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:packed_mud": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "压实的泥块，干透之后勉强能踩。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_andesite": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨过的安山岩，颜色匀净，像蒙了一层灰釉。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_andesite_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨过的安山岩，颜色匀净，像蒙了一层灰釉。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_andesite_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨过的安山岩，颜色匀净，像蒙了一层灰釉。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨亮的黑石，黑得能照出个人影。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黑石切的砖，砌一整面墙都是暗的。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黑石切的砖，砌一整面墙都是暗的。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黑石切的砖，砌一整面墙都是暗的。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黑石切的砖，砌一整面墙都是暗的。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨亮的黑石，黑得能照出个人影。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨亮的黑石，黑得能照出个人影。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨亮的黑石，黑得能照出个人影。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_deepslate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的深层岩，黑得很均匀。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_deepslate_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的深层岩，黑得很均匀。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_deepslate_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的深层岩，黑得很均匀。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_deepslate_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的深层岩，黑得很均匀。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_diorite": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨过的闪长岩，表面发亮，颜色偏冷。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_diorite_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨过的闪长岩，表面发亮，颜色偏冷。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_diorite_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨过的闪长岩，表面发亮，颜色偏冷。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_granite": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨过的花岗岩，斑点排得整齐，能反出一点光。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_granite_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨过的花岗岩，斑点排得整齐，能反出一点光。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_granite_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨过的花岗岩，斑点排得整齐，能反出一点光。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_tuff": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的凝灰岩，还是那种灰绿色。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_tuff_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的凝灰岩，还是那种灰绿色。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_tuff_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的凝灰岩，还是那种灰绿色。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_tuff_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的凝灰岩，还是那种灰绿色。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "海底神殿的石材，纹理会随光线变。",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切成砖的海晶石，比原块整齐得多。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切成砖的海晶石，比原块整齐得多。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切成砖的海晶石，比原块整齐得多。",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "海底神殿的石材，纹理会随光线变。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "海底神殿的石材，纹理会随光线变。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "海底神殿的石材，纹理会随光线变。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purpur_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫颂果烧成的紫色石材，末地城里到处都是。",
+          "color": "dark_purple",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purpur_pillar": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨成圆柱的紫珀块，纹路是竖着走的。",
+          "color": "dark_purple",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purpur_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫颂果烧成的紫色石材，末地城里到处都是。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "dark_purple",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purpur_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫颂果烧成的紫色石材，末地城里到处都是。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "dark_purple",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:quartz_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "下界石英压成的白块，干净得没什么瑕疵。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:quartz_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石英切的小砖，白得很匀。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:quartz_pillar": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨成圆柱的石英，纹路竖直。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:quartz_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "下界石英压成的白块，干净得没什么瑕疵。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:quartz_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "下界石英压成的白块，干净得没什么瑕疵。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:raw_copper_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "没炼过的原铜矿压成一整块，还得进炉子。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:raw_gold_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "没炼过的原金矿压成一整块，还得进炉子。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:raw_iron_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "没炼过的原铁矿压成一整块，还得进炉子。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_nether_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "掺了下界疣一起烧的砖，颜色偏红。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_nether_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "掺了下界疣一起烧的砖，颜色偏红。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_nether_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "掺了下界疣一起烧的砖，颜色偏红。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_nether_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "掺了下界疣一起烧的砖，颜色偏红。",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红沙压成的岩层，颜色比砂岩深。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_sandstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红沙压成的岩层，颜色比砂岩深。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_sandstone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红沙压成的岩层，颜色比砂岩深。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_sandstone_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红沙压成的岩层，颜色比砂岩深。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:redstone_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石头里嵌着清楚的红石粉矿脉，用合适的镐敲开就能收取。",
+          "color": "red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "沙子压实成的岩层，一刀切下去还会掉砂。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sandstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "沙子压实成的岩层，一刀切下去还会掉砂。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sandstone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "沙子压实成的岩层，一刀切下去还会掉砂。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sandstone_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "沙子压实成的岩层，一刀切下去还会掉砂。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_quartz": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的石英，白得像瓷。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_quartz_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的石英，白得像瓷。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_quartz_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的石英，白得像瓷。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_red_sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的红砂岩，红得很匀。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_red_sandstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的红砂岩，红得很匀。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_red_sandstone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的红砂岩，红得很匀。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的砂岩，摸上去像陶。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_sandstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的砂岩，摸上去像陶。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_sandstone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的砂岩，摸上去像陶。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_stone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的石面，摸不出一粒砂。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_stone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "磨平的石面，摸不出一粒砂。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sponge": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "海里捞上来的海绵，能吸掉一大片水。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉木色深褐，密纹让边面显得整齐。两格高的木门，关上之后怪进不来——前提是你记得关。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉木色深褐，密纹让边面显得整齐。木条钉成的围栏，能看见对面，但跨不过去。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉木色深褐，密纹让边面显得整齐。围栏上留的一道门，栓上之后和围栏一样拦人。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉木色深褐，密纹让边面显得整齐。用铁链吊起来的木牌，底下不占地方。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉木色深褐，密纹让边面显得整齐。带皮的原木，切面上还能数出年轮。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉木色深褐，密纹让边面显得整齐。顺着纹理锯开的木板，钉子吃得住，做家具也够平整。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉木色深褐，密纹让边面显得整齐。钉在墙上或者插在地上的木牌，字得自己写。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉木色深褐，密纹让边面显得整齐。锯成半格的木板，铺地板省料，踩上去也不响。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉木色深褐，密纹让边面显得整齐。钉出来的木楼梯，上下楼比搭脚手架省事。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉木色深褐，密纹让边面显得整齐。平开的木活板门，合上是地板，掀开是洞口。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉木色深褐，密纹让边面显得整齐。六面都是树皮的木段，拿来当柱子最像树。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石砖台阶的材质紧实，棱边平整。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石砖楼梯的材质紧实，棱边平整。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石砖墙的材质紧实，棱边平整。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石头台阶的材质紧实，棱边平整。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "石头楼梯的材质紧实，棱边平整。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_acacia_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢的橙红木色留得鲜明。削掉树皮的原木，露出的木色浅一些，也更光滑。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_acacia_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金合欢的橙红木色留得鲜明。六面都削过的木头，颜色比带皮的浅。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_bamboo_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "削去外皮的竹块，颜色比带皮的浅，也更平整。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_birch_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦木色浅淡，纹路也很细。削掉树皮的原木，露出的木色浅一些，也更光滑。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_birch_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "白桦木色浅淡，纹路也很细。六面都削过的木头，颜色比带皮的浅。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_cherry_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花木透着浅粉，切面颜色柔和。削掉树皮的原木，露出的木色浅一些，也更光滑。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_cherry_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "樱花木透着浅粉，切面颜色柔和。六面都削过的木头，颜色比带皮的浅。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_crimson_hyphae": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绯红菌材带着深红纤维，不会烧起来。削过皮的菌核，颜色比原来匀净。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_crimson_stem": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绯红菌材带着深红纤维，不会烧起来。削掉外皮的菌柄，里面是干的纤维。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_dark_oak_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木颜色厚重，木纹深浅分明。削掉树皮的原木，露出的木色浅一些，也更光滑。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_dark_oak_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "深色橡木颜色厚重，木纹深浅分明。六面都削过的木头，颜色比带皮的浅。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_jungle_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木偏红褐，宽纹理看得很清楚。削掉树皮的原木，露出的木色浅一些，也更光滑。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_jungle_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "丛林木偏红褐，宽纹理看得很清楚。六面都削过的木头，颜色比带皮的浅。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_mangrove_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树木色偏深红，和浅石材并排很清楚。削掉树皮的原木，露出的木色浅一些，也更光滑。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_mangrove_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "红树木色偏深红，和浅石材并排很清楚。六面都削过的木头，颜色比带皮的浅。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_oak_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木的黄褐纹理平直，颜色很朴素。削掉树皮的原木，露出的木色浅一些，也更光滑。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_oak_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橡木的黄褐纹理平直，颜色很朴素。六面都削过的木头，颜色比带皮的浅。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_spruce_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉木色深褐，密纹让边面显得整齐。削掉树皮的原木，露出的木色浅一些，也更光滑。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_spruce_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "云杉木色深褐，密纹让边面显得整齐。六面都削过的木头，颜色比带皮的浅。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_warped_hyphae": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "诡异菌材透着蓝绿，耐火的纤维很干。削过皮的菌核，颜色比原来匀净。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_warped_stem": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "诡异菌材透着蓝绿，耐火的纤维很干。削掉外皮的菌柄，里面是干的纤维。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tinted_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "掺了紫水晶的玻璃，透得过光，透不过视线。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "火山灰压成的凝灰岩，轻，一敲就掉渣。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "凝灰岩切的小砖，颜色很匀。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "凝灰岩切的小砖，颜色很匀。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "凝灰岩切的小砖，颜色很匀。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "凝灰岩切的小砖，颜色很匀。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "火山灰压成的凝灰岩，轻，一敲就掉渣。切成半格的薄块，铺路和垫高都趁手。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "火山灰压成的凝灰岩，轻，一敲就掉渣。带踏步的斜块，落差大的地方省得跳上跳下。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "火山灰压成的凝灰岩，轻，一敲就掉渣。垒起来的矮墙，能拦人，也能顺着它认路。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "诡异菌材透着蓝绿，耐火的纤维很干。两格高的木门，关上之后怪进不来——前提是你记得关。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "诡异菌材透着蓝绿，耐火的纤维很干。木条钉成的围栏，能看见对面，但跨不过去。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "诡异菌材透着蓝绿，耐火的纤维很干。围栏上留的一道门，栓上之后和围栏一样拦人。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "诡异菌材透着蓝绿，耐火的纤维很干。用铁链吊起来的木牌，底下不占地方。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_hyphae": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "诡异菌材透着蓝绿，耐火的纤维很干。菌柄外面那层皮裹满了一圈，颜色比菌柄深。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "诡异菌材透着蓝绿，耐火的纤维很干。顺着纹理锯开的木板，钉子吃得住，做家具也够平整。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "诡异菌材透着蓝绿，耐火的纤维很干。钉在墙上或者插在地上的木牌，字得自己写。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "诡异菌材透着蓝绿，耐火的纤维很干。锯成半格的木板，铺地板省料，踩上去也不响。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "诡异菌材透着蓝绿，耐火的纤维很干。钉出来的木楼梯，上下楼比搭脚手架省事。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_stem": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "诡异菌材透着蓝绿，耐火的纤维很干。下界菌类的粗柄，掰开是干裂的纤维。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "诡异菌材透着蓝绿，耐火的纤维很干。平开的木活板门，合上是地板，掀开是洞口。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "錾出浅纹的铜面，颜色还偏橙，放久了会慢慢发绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_copper_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浇成一整块的铜，颜色还偏橙，放久了会慢慢发绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板拼的门，比木门沉得多，颜色还偏橙，放久了会慢慢发绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜条编成的格栅，颜色还偏橙，放久了会慢慢发绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板做的活板门，合上几乎看不出缝，颜色还偏橙，放久了会慢慢发绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切出棱线的铜块，颜色还偏橙，放久了会慢慢发绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切成半格的铜块，颜色还偏橙，放久了会慢慢发绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "带踏步的铜块，颜色还偏橙，放久了会慢慢发绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "錾出浅纹的铜面，表面开始发暗，边角浮出一点绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浇成一整块的铜，表面开始发暗，边角浮出一点绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板拼的门，比木门沉得多，表面开始发暗，边角浮出一点绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜条编成的格栅，表面开始发暗，边角浮出一点绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板做的活板门，合上几乎看不出缝，表面开始发暗，边角浮出一点绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切出棱线的铜块，表面开始发暗，边角浮出一点绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切成半格的铜块，表面开始发暗，边角浮出一点绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "带踏步的铜块，表面开始发暗，边角浮出一点绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "錾出浅纹的铜面，整块锈成了青绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浇成一整块的铜，整块锈成了青绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板拼的门，比木门沉得多，整块锈成了青绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜条编成的格栅，整块锈成了青绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板做的活板门，合上几乎看不出缝，整块锈成了青绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切出棱线的铜块，整块锈成了青绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切成半格的铜块，整块锈成了青绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "带踏步的铜块，整块锈成了青绿——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "錾出浅纹的铜面，铜绿已经铺开大半——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浇成一整块的铜，铜绿已经铺开大半——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板拼的门，比木门沉得多，铜绿已经铺开大半——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜条编成的格栅，铜绿已经铺开大半——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板做的活板门，合上几乎看不出缝，铜绿已经铺开大半——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切出棱线的铜块，铜绿已经铺开大半——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切成半格的铜块，铜绿已经铺开大半——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "带踏步的铜块，铜绿已经铺开大半——上过蜡，就停在这一步。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "錾出浅纹的铜面，铜绿已经铺开大半。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "浇成一整块的铜，铜绿已经铺开大半。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板拼的门，比木门沉得多，铜绿已经铺开大半。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜条编成的格栅，铜绿已经铺开大半。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铜板做的活板门，合上几乎看不出缝，铜绿已经铺开大半。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切出棱线的铜块，铜绿已经铺开大半。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切成半格的铜块，铜绿已经铺开大半。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "带踏步的铜块，铜绿已经铺开大半。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:wet_sponge": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "吸饱了水的海绵，得先进炉子烤干。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

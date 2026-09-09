@@ -1,12 +1,17 @@
 package com.originlore.screen;
 
 import com.originlore.client.ClientConfigSession;
+import com.originlore.client.GuiText;
 import com.originlore.config.ItemComponentConfig.AttributeRule;
 import com.originlore.config.ItemComponentConfig.ComponentRule;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.widget.ButtonWidget;
 import net.minecraft.client.gui.widget.TextFieldWidget;
+import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.AttributeModifiersComponent;
+import net.minecraft.item.ItemStack;
+import net.minecraft.registry.Registries;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import org.lwjgl.glfw.GLFW;
@@ -33,19 +38,19 @@ public final class AttributesEditorScreen extends Screen {
     private int listWidth;
     private int editorX;
     private int editorWidth;
-    private AttributeRule draft = defaultAttribute();
+    private AttributeRule draft = emptyAttribute();
+    private boolean creatingNew;
     private boolean dirty;
     private String status = "";
 
     private TextFieldWidget attributeField;
     private TextFieldWidget modifierIdField;
-    private TextFieldWidget amountField;
     private IdSuggestionController attributeSuggestions;
     private ChoiceDropdownController operationDropdown;
     private ChoiceDropdownController slotDropdown;
 
-    public AttributesEditorScreen(Screen parent, ComponentRule rule, Consumer<ComponentRule> onApply) {
-        super(Text.literal("属性修饰符"));
+    public AttributesEditorScreen(Screen parent, String itemId, ComponentRule rule, Consumer<ComponentRule> onApply) {
+        super(Text.literal(GuiText.string("originlore.editor.attributes")));
         this.parent = parent;
         this.onApply = onApply;
         this.working = rule == null ? new ComponentRule() : rule.copy();
@@ -54,10 +59,13 @@ public final class AttributesEditorScreen extends Screen {
             for (AttributeRule attribute : this.working.attributes) {
                 if (attribute != null) attributes.add(attribute.copy());
             }
+        } else {
+            attributes.addAll(vanillaAttributes(itemId));
         }
         if (!attributes.isEmpty()) {
             selected = 0;
             draft = attributes.getFirst().copy();
+            normalizeDraft();
         }
     }
 
@@ -77,7 +85,15 @@ public final class AttributesEditorScreen extends Screen {
             if (dirty && !saveDraft(false)) return;
             managed = !managed;
             rebuildUi();
-        }).dimensions(left, 34, totalWidth, 20).build());
+        }).dimensions(left, 34, totalWidth - 106, 20).build());
+        ButtonWidget append = ButtonWidget.builder(GuiText.text(!Boolean.FALSE.equals(working.appendAttributes)
+                ? "originlore.mode.append" : "originlore.mode.replace"), button -> {
+            working.appendAttributes = Boolean.FALSE.equals(working.appendAttributes);
+            button.setMessage(GuiText.text(!Boolean.FALSE.equals(working.appendAttributes)
+                    ? "originlore.mode.append" : "originlore.mode.replace"));
+        }).dimensions(left + totalWidth - 100, 34, 100, 20).build();
+        append.active = managed;
+        addDrawableChild(append);
 
         int visibleRows = visibleRows();
         listOffset = Math.max(0, Math.min(listOffset, Math.max(0, attributes.size() - visibleRows)));
@@ -89,7 +105,6 @@ public final class AttributesEditorScreen extends Screen {
             label = textRenderer.trimToWidth(label, listWidth - 8);
             ButtonWidget entry = ButtonWidget.builder(Text.literal(label), button -> select(index))
                     .dimensions(left, y, listWidth, 20).build();
-            entry.active = managed;
             addDrawableChild(entry);
             y += 22;
         }
@@ -108,47 +123,59 @@ public final class AttributesEditorScreen extends Screen {
         attributeSuggestions = new IdSuggestionController(attributeField,
                 () -> ClientConfigSession.catalog().attributeIds());
         modifierIdField = field(editorX, 94, editorWidth, draft.id, "originlore:modifier_id");
-        amountField = field(editorX, 124, editorWidth, Double.toString(draft.amount), "数值");
+        ButtonWidget amountButton = ButtonWidget.builder(GuiText.text("originlore.number.attribute"), button -> {
+            draft.attribute = attributeField.getText().trim();
+            draft.id = modifierIdField.getText().trim();
+            if (client != null) client.setScreen(new NumericSettingsScreen(this, "originlore.number.attribute", List.of(
+                    new NumericSettingsScreen.Setting("originlore.number.attribute", false, false, true,
+                            -Double.MAX_VALUE, Double.MAX_VALUE,
+                            new NumericSettingsScreen.Value(draft.amount, draft.amountRange), value -> {
+                        draft.amount = value.fixed() == null ? 0 : value.fixed();
+                        draft.amountRange = value.range();
+                    }, null, null)), () -> dirty = true));
+        }).dimensions(editorX, 124, editorWidth, 20).build();
+        amountButton.active = canEditDraft();
+        addDrawableChild(amountButton);
 
         int gap = 6;
         int half = (editorWidth - gap) / 2;
-        ButtonWidget operationButton = ButtonWidget.builder(choiceLabel("操作", draft.operation),
+        ButtonWidget operationButton = ButtonWidget.builder(choiceLabel(GuiText.string("originlore.editor.operation"), draft.operation),
                 button -> operationDropdown.toggle()).dimensions(editorX, 154, half, 20).build();
-        operationButton.active = managed;
+        operationButton.active = canEditDraft();
         addDrawableChild(operationButton);
         operationDropdown = new ChoiceDropdownController(operationButton, OPERATIONS, () -> draft.operation, value -> {
             draft.operation = value;
             dirty = true;
-        }, value -> choiceLabel("操作", value));
+        }, value -> choiceLabel(GuiText.string("originlore.editor.operation"), value));
 
-        ButtonWidget slotButton = ButtonWidget.builder(choiceLabel("槽位", draft.slot),
+        ButtonWidget slotButton = ButtonWidget.builder(choiceLabel(GuiText.string("originlore.editor.slot"), draft.slot),
                 button -> slotDropdown.toggle()).dimensions(editorX + half + gap, 154, half, 20).build();
-        slotButton.active = managed;
+        slotButton.active = canEditDraft();
         addDrawableChild(slotButton);
         slotDropdown = new ChoiceDropdownController(slotButton, SLOTS, () -> draft.slot, value -> {
             draft.slot = value;
             dirty = true;
-        }, value -> choiceLabel("槽位", value));
+        }, value -> choiceLabel(GuiText.string("originlore.editor.slot"), value));
 
         int actionY = height - 58;
         int actionWidth = Math.max(45, (editorWidth - 8) / 3);
-        ButtonWidget save = ButtonWidget.builder(Text.literal("保存条目"), button -> saveDraft(true))
+        ButtonWidget save = ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.save_entry")), button -> saveDraft(true))
                 .dimensions(editorX, actionY, actionWidth, 20).build();
-        ButtonWidget add = ButtonWidget.builder(Text.literal("新建"), button -> beginNew())
+        ButtonWidget add = ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.new_entry")), button -> beginNew())
                 .dimensions(editorX + actionWidth + 4, actionY, actionWidth, 20).build();
-        ButtonWidget delete = ButtonWidget.builder(Text.literal("删除"), button -> deleteSelected())
+        ButtonWidget delete = ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.delete")), button -> deleteSelected())
                 .dimensions(editorX + (actionWidth + 4) * 2, actionY,
                         editorWidth - (actionWidth + 4) * 2, 20).build();
-        save.active = managed;
+        save.active = canEditDraft();
         add.active = managed;
         delete.active = managed && selected >= 0;
         addDrawableChild(save);
         addDrawableChild(add);
         addDrawableChild(delete);
 
-        addDrawableChild(ButtonWidget.builder(Text.literal("应用到规则"), button -> apply())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.apply_rule")), button -> apply())
                 .dimensions(width / 2 - 106, height - 27, 102, 20).build());
-        addDrawableChild(ButtonWidget.builder(Text.literal("取消"), button -> close())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.cancel")), button -> close())
                 .dimensions(width / 2 + 4, height - 27, 102, 20).build());
     }
 
@@ -158,7 +185,7 @@ public final class AttributesEditorScreen extends Screen {
         field.setPlaceholder(Text.literal(placeholder));
         field.setText(value == null ? "" : value);
         field.setChangedListener(ignored -> dirty = true);
-        field.active = managed;
+        field.active = canEditDraft();
         addDrawableChild(field);
         return field;
     }
@@ -166,6 +193,7 @@ public final class AttributesEditorScreen extends Screen {
     private void select(int index) {
         if (dirty && !saveDraft(false)) return;
         selected = index;
+        creatingNew = false;
         draft = attributes.get(index).copy();
         normalizeDraft();
         dirty = false;
@@ -176,6 +204,7 @@ public final class AttributesEditorScreen extends Screen {
     private void beginNew() {
         if (dirty && !saveDraft(false)) return;
         selected = -1;
+        creatingNew = true;
         draft = defaultAttribute();
         dirty = false;
         status = "";
@@ -185,34 +214,27 @@ public final class AttributesEditorScreen extends Screen {
     }
 
     private boolean saveDraft(boolean rebuild) {
-        if (!managed) return true;
+        if (!canEditDraft()) return true;
         try {
             String attribute = attributeField.getText().trim();
-            if (Identifier.tryParse(attribute) == null) throw new IllegalArgumentException("属性 ID 格式无效");
+            if (Identifier.tryParse(attribute) == null) throw new IllegalArgumentException(GuiText.string("originlore.editor.attribute_id_invalid"));
             List<String> known = ClientConfigSession.catalog().attributeIds();
-            if (!known.isEmpty() && !known.contains(attribute)) throw new IllegalArgumentException("服务器没有该属性");
+            if (!known.isEmpty() && !known.contains(attribute)) throw new IllegalArgumentException(GuiText.string("originlore.editor.attribute_unknown"));
             String modifierId = modifierIdField.getText().trim();
-            if (Identifier.tryParse(modifierId) == null) throw new IllegalArgumentException("修饰符 ID 格式无效");
-            double amount;
-            try {
-                amount = Double.parseDouble(amountField.getText().trim());
-                if (!Double.isFinite(amount)) throw new NumberFormatException();
-            } catch (RuntimeException exception) {
-                throw new IllegalArgumentException("属性数值必须是有限数值");
-            }
-            if (!OPERATIONS.contains(draft.operation)) throw new IllegalArgumentException("属性操作无效");
-            if (!SLOTS.contains(draft.slot)) throw new IllegalArgumentException("属性槽位无效");
+            if (Identifier.tryParse(modifierId) == null) throw new IllegalArgumentException(GuiText.string("originlore.editor.modifier_id_invalid"));
+            if (!OPERATIONS.contains(draft.operation)) throw new IllegalArgumentException(GuiText.string("originlore.editor.operation_invalid"));
+            if (!SLOTS.contains(draft.slot)) throw new IllegalArgumentException(GuiText.string("originlore.editor.slot_invalid"));
             draft.attribute = attribute;
             draft.id = modifierId;
-            draft.amount = amount;
             if (selected < 0) {
                 attributes.add(draft.copy());
                 selected = attributes.size() - 1;
             } else {
                 attributes.set(selected, draft.copy());
             }
+            creatingNew = false;
             dirty = false;
-            status = "条目已写入事务副本";
+            status = GuiText.string("originlore.editor.entry_saved");
             if (rebuild) rebuildUi();
             return true;
         } catch (IllegalArgumentException exception) {
@@ -224,11 +246,12 @@ public final class AttributesEditorScreen extends Screen {
     private void deleteSelected() {
         if (selected < 0 || selected >= attributes.size()) return;
         attributes.remove(selected);
+        creatingNew = false;
         selected = attributes.isEmpty() ? -1 : Math.min(selected, attributes.size() - 1);
-        draft = selected < 0 ? defaultAttribute() : attributes.get(selected).copy();
+        draft = selected < 0 ? emptyAttribute() : attributes.get(selected).copy();
         normalizeDraft();
         dirty = false;
-        status = "条目已从事务副本删除";
+        status = GuiText.string("originlore.editor.entry_deleted");
         rebuildUi();
     }
 
@@ -302,13 +325,15 @@ public final class AttributesEditorScreen extends Screen {
     @Override
     public void render(DrawContext context, int mouseX, int mouseY, float delta) {
         renderBackground(context, mouseX, mouseY, delta);
-        super.render(context, mouseX, mouseY, delta);
+        boolean overDropdown = (operationDropdown != null && operationDropdown.isMouseOverPopup(mouseX, mouseY, height))
+                || (slotDropdown != null && slotDropdown.isMouseOverPopup(mouseX, mouseY, height));
+        super.render(context, overDropdown ? -1 : mouseX, overDropdown ? -1 : mouseY, delta);
         context.drawCenteredTextWithShadow(textRenderer, title, width / 2, 12, 0xFFFFFF);
-        context.drawText(textRenderer, "属性列表", left, 55, 0xA0A0A0, false);
-        context.drawText(textRenderer, "属性 ID", editorX, 55, 0xA0A0A0, false);
+        context.drawText(textRenderer, GuiText.string("originlore.editor.attribute_list"), left, 55, 0xA0A0A0, false);
+        context.drawText(textRenderer, GuiText.string("originlore.editor.attribute_id"), editorX, 55, 0xA0A0A0, false);
         if (!status.isBlank()) {
             context.drawCenteredTextWithShadow(textRenderer, Text.literal(status), width / 2,
-                    height - 38, status.startsWith("条目已") ? 0x8FE388 : 0xFF7777);
+                    height - 38, status.startsWith(GuiText.string("originlore.editor.entry_prefix")) ? 0x8FE388 : 0xFF7777);
         }
         if (attributeSuggestions != null) attributeSuggestions.render(context, textRenderer, height);
         if (operationDropdown != null) operationDropdown.render(context, textRenderer, height);
@@ -321,11 +346,44 @@ public final class AttributesEditorScreen extends Screen {
     }
 
     private Text managedLabel() {
-        return Text.literal("接管属性修饰符: " + (managed ? "是" : "否（保留物品原值）"));
+        return Text.literal(GuiText.string("originlore.editor.manage_attributes") + (managed ? GuiText.string("originlore.editor.yes") : GuiText.string("originlore.editor.preserve")));
     }
 
     private static Text choiceLabel(String label, String value) {
         return Text.literal(label + ": " + value);
+    }
+
+    private boolean canEditDraft() {
+        return managed && (selected >= 0 || creatingNew);
+    }
+
+    private static List<AttributeRule> vanillaAttributes(String itemId) {
+        Identifier id = itemId == null ? null : Identifier.tryParse(itemId);
+        if (id == null || !Registries.ITEM.containsId(id)) return List.of();
+        ItemStack original = new ItemStack(Registries.ITEM.get(id));
+        AttributeModifiersComponent component = original.getOrDefault(
+                DataComponentTypes.ATTRIBUTE_MODIFIERS, AttributeModifiersComponent.DEFAULT);
+        if (component.modifiers().isEmpty()) component = original.getItem().getAttributeModifiers();
+        List<AttributeRule> result = new ArrayList<>();
+        for (AttributeModifiersComponent.Entry entry : component.modifiers()) {
+            AttributeRule attribute = new AttributeRule();
+            attribute.attribute = Registries.ATTRIBUTE.getId(entry.attribute().value()).toString();
+            attribute.id = entry.modifier().id().toString();
+            attribute.amount = entry.modifier().value();
+            attribute.operation = entry.modifier().operation().asString();
+            attribute.slot = entry.slot().asString();
+            result.add(attribute);
+        }
+        return result;
+    }
+
+    private static AttributeRule emptyAttribute() {
+        AttributeRule rule = new AttributeRule();
+        rule.attribute = "";
+        rule.id = "";
+        rule.operation = "add_value";
+        rule.slot = "mainhand";
+        return rule;
     }
 
     private static AttributeRule defaultAttribute() {

@@ -1,5 +1,7 @@
 package com.originlore.screen;
 
+import com.originlore.client.GuiText;
+
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.originlore.client.ClientConfigSession;
@@ -42,7 +44,7 @@ public final class AdvancedComponentsScreen extends Screen {
     private IdSuggestionController suggestions;
 
     public AdvancedComponentsScreen(Screen parent, ComponentRule rule, Consumer<ComponentRule> onApply) {
-        super(Text.literal("高级数据组件"));
+        super(Text.literal(GuiText.string("originlore.editor.advanced")));
         this.parent = parent;
         this.onApply = onApply;
         this.working = rule == null ? new ComponentRule() : rule.copy();
@@ -90,7 +92,7 @@ public final class AdvancedComponentsScreen extends Screen {
         }
 
         componentIdField = new TextFieldWidget(textRenderer, editorX, 50, editorWidth, 20,
-                Text.literal("数据组件 ID"));
+                Text.literal(GuiText.string("originlore.editor.component_id")));
         componentIdField.setMaxLength(256);
         componentIdField.setPlaceholder(Text.literal("minecraft:food"));
         componentIdField.setText(idDraft);
@@ -106,7 +108,7 @@ public final class AdvancedComponentsScreen extends Screen {
         });
         addDrawableChild(componentIdField);
 
-        addDrawableChild(ButtonWidget.builder(Text.literal(removeMode ? "模式: REMOVE" : "模式: SET"), button -> {
+        addDrawableChild(ButtonWidget.builder(Text.literal(removeMode ? GuiText.string("originlore.editor.mode_remove") : GuiText.string("originlore.editor.mode_set")), button -> {
             preserveDrafts();
             removeMode = !removeMode;
             entryDirty = true;
@@ -116,7 +118,7 @@ public final class AdvancedComponentsScreen extends Screen {
         int valueTop = 119;
         int valueHeight = Math.max(54, height - valueTop - 93);
         valueField = new LoreTextAreaWidget(textRenderer, editorX, valueTop, editorWidth, valueHeight,
-                Text.literal("组件值 JSON"), Text.literal("组件值 JSON"));
+                Text.literal(GuiText.string("originlore.editor.component_json")), Text.literal(GuiText.string("originlore.editor.component_json")));
         valueField.setMaxLength(262_144);
         valueField.setText(valueDraft);
         valueField.setChangeListener(value -> {
@@ -132,19 +134,19 @@ public final class AdvancedComponentsScreen extends Screen {
         int actionY = height - 60;
         int gap = 4;
         int actionWidth = Math.max(48, (editorWidth - gap * 2) / 3);
-        addDrawableChild(ButtonWidget.builder(Text.literal("保存条目"), button -> saveEntry(true))
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.save_entry")), button -> saveEntry(true))
                 .dimensions(editorX, actionY, actionWidth, 20).build());
-        addDrawableChild(ButtonWidget.builder(Text.literal("新建"), button -> beginNew())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.new_entry")), button -> beginNew())
                 .dimensions(editorX + actionWidth + gap, actionY, actionWidth, 20).build());
-        ButtonWidget delete = ButtonWidget.builder(Text.literal("删除"), button -> deleteSelected())
+        ButtonWidget delete = ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.delete")), button -> deleteSelected())
                 .dimensions(editorX + (actionWidth + gap) * 2, actionY,
                         editorWidth - (actionWidth + gap) * 2, 20).build();
         delete.active = selectedId != null;
         addDrawableChild(delete);
 
-        addDrawableChild(ButtonWidget.builder(Text.literal("应用到规则"), button -> apply())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.apply_rule")), button -> apply())
                 .dimensions(width / 2 - 106, height - 27, 102, 20).build());
-        addDrawableChild(ButtonWidget.builder(Text.literal("取消"), button -> close())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.cancel")), button -> close())
                 .dimensions(width / 2 + 4, height - 27, 102, 20).build());
     }
 
@@ -198,7 +200,7 @@ public final class AdvancedComponentsScreen extends Screen {
         String rawId = idDraft.trim();
         Identifier parsed = Identifier.tryParse(rawId);
         if (parsed == null) {
-            status = "数据组件 ID 格式无效";
+            status = GuiText.string("originlore.editor.component_id_invalid");
             return false;
         }
         String id = parsed.toString();
@@ -207,11 +209,11 @@ public final class AdvancedComponentsScreen extends Screen {
             try {
                 value = JsonParser.parseString(valueDraft);
                 if (value == null || value.isJsonNull()) {
-                    status = "SET 模式不能使用 null 值";
+                    status = GuiText.string("originlore.editor.set_null");
                     return false;
                 }
             } catch (RuntimeException exception) {
-                status = "组件值不是有效 JSON: " + compactMessage(exception);
+                status = GuiText.string("originlore.editor.json_invalid") + compactMessage(exception);
                 return false;
             }
         }
@@ -230,7 +232,7 @@ public final class AdvancedComponentsScreen extends Screen {
         selectedId = id;
         idDraft = id;
         entryDirty = false;
-        status = "条目已写入事务副本";
+        status = GuiText.string("originlore.editor.entry_saved");
         if (rebuild) rebuildUi();
         return true;
     }
@@ -244,7 +246,7 @@ public final class AdvancedComponentsScreen extends Screen {
         valueDraft = "{}";
         removeMode = false;
         entryDirty = false;
-        status = "条目已从事务副本删除";
+        status = GuiText.string("originlore.editor.entry_deleted");
         rebuildUi();
     }
 
@@ -310,12 +312,12 @@ public final class AdvancedComponentsScreen extends Screen {
         renderBackground(context, mouseX, mouseY, delta);
         super.render(context, mouseX, mouseY, delta);
         context.drawCenteredTextWithShadow(textRenderer, title, width / 2, 12, 0xFFFFFF);
-        context.drawText(textRenderer, "已配置组件", left, 26, 0xA0A0A0, false);
-        context.drawText(textRenderer, "数据组件 ID", editorX, 38, 0xA0A0A0, false);
-        context.drawText(textRenderer, removeMode ? "该组件会从物品移除" : "组件值 JSON", editorX, 108,
+        context.drawText(textRenderer, GuiText.string("originlore.editor.configured_components"), left, 26, 0xA0A0A0, false);
+        context.drawText(textRenderer, GuiText.string("originlore.editor.component_id"), editorX, 38, 0xA0A0A0, false);
+        context.drawText(textRenderer, removeMode ? GuiText.string("originlore.editor.component_removed") : GuiText.string("originlore.editor.component_json"), editorX, 108,
                 removeMode ? 0xE0B35A : 0xA0A0A0, false);
         if (!status.isBlank()) {
-            int color = status.startsWith("条目已") ? 0x8FE388 : 0xFF7777;
+            int color = status.startsWith(GuiText.string("originlore.editor.entry_prefix")) ? 0x8FE388 : 0xFF7777;
             context.drawCenteredTextWithShadow(textRenderer, Text.literal(status), width / 2,
                     height - 39, color);
         }

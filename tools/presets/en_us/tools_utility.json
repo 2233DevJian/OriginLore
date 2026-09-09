@@ -1,0 +1,1109 @@
+{
+  "minecraft:axolotl_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "An axolotl lying along the bottom of the bucket, its gills still moving slowly.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brush": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A feather, a copper ingot, and a stick. Brushing suspicious sand is the only way to see what is under it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Brush",
+              "loreJson": [
+                {
+                  "text": "A feather, a copper ingot, and a stick. Brushing suspicious sand is the only way to see what is under it. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                38,
+                51
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Brush",
+              "loreJson": [
+                {
+                  "text": "A feather, a copper ingot, and a stick. Brushing suspicious sand is the only way to see what is under it. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                64,
+                64
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Brush",
+              "loreJson": [
+                {
+                  "text": "A feather, a copper ingot, and a stick. Brushing suspicious sand is the only way to see what is under it. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                70,
+                77
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Three plates of iron beaten into a container that holds more than it looks like it should.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:carrot_on_a_stick": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A carrot dangled from the end of a rod. Pigs will follow it, right up until the carrot is eaten.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Carrot on a Stick",
+              "loreJson": [
+                {
+                  "text": "A carrot dangled from the end of a rod. Pigs will follow it, right up until the carrot is eaten. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                15,
+                20
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Carrot on a Stick",
+              "loreJson": [
+                {
+                  "text": "A carrot dangled from the end of a rod. Pigs will follow it, right up until the carrot is eaten. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                25,
+                25
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Carrot on a Stick",
+              "loreJson": [
+                {
+                  "text": "A carrot dangled from the end of a rod. Pigs will follow it, right up until the carrot is eaten. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                28,
+                30
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:clock": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A redstone set inside a golden case, with a hand that always points where the sun ought to be.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cod_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A bucket of water and one cod. It is behaving itself for now.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:compass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The needle points at the place where the world was first generated. Useful when you want to go home.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:filled_map": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The terrain around you is drawn out on the paper, and everything past the edge is still blank.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:fishing_rod": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A pole, a length of line, and one hook. Patience supplies the rest.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Fishing Rod",
+              "loreJson": [
+                {
+                  "text": "A pole, a length of line, and one hook. Patience supplies the rest. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                19,
+                29
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Fishing Rod",
+              "loreJson": [
+                {
+                  "text": "A pole, a length of line, and one hook. Patience supplies the rest. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                64,
+                64
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Fishing Rod",
+              "loreJson": [
+                {
+                  "text": "A pole, a length of line, and one hook. Patience supplies the rest. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                70,
+                77
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Fishing Rod",
+              "loreJson": [
+                {
+                  "text": "A pole, a length of line, and one hook. Patience supplies the rest. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                38,
+                51
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Fishing Rod",
+              "loreJson": [
+                {
+                  "text": "A pole, a length of line, and one hook. Patience supplies the rest. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                64,
+                64
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Fishing Rod",
+              "loreJson": [
+                {
+                  "text": "A pole, a length of line, and one hook. Patience supplies the rest. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                70,
+                77
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "FISHING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Fishing Rod",
+              "loreJson": [
+                {
+                  "text": "A pole, a length of line, and one hook. Patience supplies the rest. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                19,
+                29
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Fishing Rod",
+              "loreJson": [
+                {
+                  "text": "A pole, a length of line, and one hook. Patience supplies the rest. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                64,
+                64
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Fishing Rod",
+              "loreJson": [
+                {
+                  "text": "A pole, a length of line, and one hook. Patience supplies the rest. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                70,
+                77
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Fishing Rod",
+              "loreJson": [
+                {
+                  "text": "A pole, a length of line, and one hook. Patience supplies the rest. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                19,
+                29
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Fishing Rod",
+              "loreJson": [
+                {
+                  "text": "A pole, a length of line, and one hook. Patience supplies the rest. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                64,
+                64
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Fishing Rod",
+              "loreJson": [
+                {
+                  "text": "A pole, a length of line, and one hook. Patience supplies the rest. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                70,
+                77
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:flint_and_steel": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Two strikes and you have a spark. The least fussy way to start a fire out in the wild.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Flint and Steel",
+              "loreJson": [
+                {
+                  "text": "Two strikes and you have a spark. The least fussy way to start a fire out in the wild. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                19,
+                29
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Flint and Steel",
+              "loreJson": [
+                {
+                  "text": "Two strikes and you have a spark. The least fussy way to start a fire out in the wild. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                64,
+                64
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Flint and Steel",
+              "loreJson": [
+                {
+                  "text": "Two strikes and you have a spark. The least fussy way to start a fire out in the wild. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                70,
+                77
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Flint and Steel",
+              "loreJson": [
+                {
+                  "text": "Two strikes and you have a spark. The least fussy way to start a fire out in the wild. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                38,
+                51
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Flint and Steel",
+              "loreJson": [
+                {
+                  "text": "Two strikes and you have a spark. The least fussy way to start a fire out in the wild. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                64,
+                64
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Flint and Steel",
+              "loreJson": [
+                {
+                  "text": "Two strikes and you have a spark. The least fussy way to start a fire out in the wild. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                70,
+                77
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:goat_horn": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A horn picked up where a goat charged into something. The sound it makes carries a very long way.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lava_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A bucket of lava that is still moving about. Best not to trip while carrying it.",
+          "color": "red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lead": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A knotted loop, tied to an animal at one end and a fence at the other. It works on other things as well.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:map": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A sheet with nothing drawn on it yet. Once it has been used it starts recording everywhere you go.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:milk_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Freshly drawn milk, and one drink washes away most of the stranger things affecting you.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:name_tag": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A blank iron tag. Once a name is written on it, whatever it is used on will never disappear.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:powder_snow_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A bucket holding snow that will not melt. Poured out, it will trap very nearly anything.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pufferfish_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The pufferfish in here is holding a puff of air in reserve. Do not tip it out at your own feet.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:recovery_compass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The needle points at the last place you died. Uncomfortable to look at, but it does get your things back.",
+          "color": "blue",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:saddle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A leather saddle that can be fitted to a horse or a pig. It cannot be crafted — it has to be found.",
+          "color": "blue",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:salmon_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A bucket of water and one salmon, which keeps circling round the inside.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:shears": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "For wool, for leaves, for vines. Occasionally for other things as well.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Shears",
+              "loreJson": [
+                {
+                  "text": "For wool, for leaves, for vines. Occasionally for other things as well. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                71,
+                107
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Shears",
+              "loreJson": [
+                {
+                  "text": "For wool, for leaves, for vines. Occasionally for other things as well. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                238,
+                238
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Shears",
+              "loreJson": [
+                {
+                  "text": "For wool, for leaves, for vines. Occasionally for other things as well. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                262,
+                286
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Shears",
+              "loreJson": [
+                {
+                  "text": "For wool, for leaves, for vines. Occasionally for other things as well. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                143,
+                190
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Shears",
+              "loreJson": [
+                {
+                  "text": "For wool, for leaves, for vines. Occasionally for other things as well. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                238,
+                238
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Shears",
+              "loreJson": [
+                {
+                  "text": "For wool, for leaves, for vines. Occasionally for other things as well. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                262,
+                286
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Shears",
+              "loreJson": [
+                {
+                  "text": "For wool, for leaves, for vines. Occasionally for other things as well. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                71,
+                107
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Shears",
+              "loreJson": [
+                {
+                  "text": "For wool, for leaves, for vines. Occasionally for other things as well. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                238,
+                238
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Shears",
+              "loreJson": [
+                {
+                  "text": "For wool, for leaves, for vines. Occasionally for other things as well. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                262,
+                286
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:spyglass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Two lenses and a copper tube, good for seeing a long way off. Best to hold still while looking through it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tadpole_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A few dark specks swimming about in the bucket. Given time they turn into something noisy.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tropical_fish_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The colours of the fish in here are hard to describe, though they are certainly bright.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_fungus_on_a_stick": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A warped fungus dangled from the end of a rod. Striders know exactly what this is.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Warped Fungus on a Stick",
+              "loreJson": [
+                {
+                  "text": "A warped fungus dangled from the end of a rod. Striders know exactly what this is. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                60,
+                80
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Warped Fungus on a Stick",
+              "loreJson": [
+                {
+                  "text": "A warped fungus dangled from the end of a rod. Striders know exactly what this is. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                100,
+                100
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Warped Fungus on a Stick",
+              "loreJson": [
+                {
+                  "text": "A warped fungus dangled from the end of a rod. Striders know exactly what this is. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                110,
+                120
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:water_bucket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A bucket full to the brim. You still have the bucket afterwards.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

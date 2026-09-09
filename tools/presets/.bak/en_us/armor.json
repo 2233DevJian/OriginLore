@@ -1,0 +1,136 @@
+{
+"minecraft:leather_helmet": {
+  "base": { "customName": "Leather Cap", "loreJson": [ { "text": "A leather cap sewn reasonably straight. It will not stop much, but it beats standing in the rain.", "color": "green", "italic": true } ], "rarity": 0 } },
+"minecraft:leather_chestplate": {
+  "base": { "customName": "Leather Tunic", "loreJson": [ { "text": "A tunic made from a few hides stitched together. Genuinely light, and the protection is genuinely modest.", "color": "green", "italic": true } ], "rarity": 0 } },
+"minecraft:leather_leggings": {
+  "base": { "customName": "Leather Pants", "loreJson": [ { "text": "Leather trousers, worn thin at the knees. Comfortable, at any rate.", "color": "green", "italic": true } ], "rarity": 0 } },
+"minecraft:leather_boots": {
+  "base": { "customName": "Leather Boots", "loreJson": [ { "text": "For a long walk, these beat bare feet by a considerable margin.", "color": "green", "italic": true } ], "rarity": 0 } },
+"minecraft:chainmail_helmet": {
+  "base": { "customName": "Chainmail Helmet", "loreJson": [ { "text": "A helmet linked together ring by ring, and nobody can quite say where it came from.", "color": "white", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "ENTITY_DROP", "variants": [
+    { "id": "intact", "weight": 0.3, "rule": { "customName": "Intact Chainmail Helmet", "loreJson": [ { "text": "Every ring still holds tight. Chainmail in this condition is not a common thing.", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [165, 190] } },
+    { "id": "broken", "weight": 0.7, "rule": { "customName": "Broken-Ring Chainmail Helmet", "loreJson": [ { "text": "A patch of rings is missing at the side, held on with wire. It will still turn a blow.", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 85 } } ] } ] },
+"minecraft:chainmail_chestplate": {
+  "base": { "customName": "Chainmail Chestplate", "loreJson": [ { "text": "Several hundred iron rings linked into a chestpiece, and far lighter than it looks.", "color": "white", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "ENTITY_DROP", "variants": [
+    { "id": "intact", "weight": 0.3, "rule": { "customName": "Intact Chainmail Chestplate", "loreJson": [ { "text": "Not one link is loose, so it makes almost no sound at all when worn.", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [240, 275] } },
+    { "id": "broken", "weight": 0.7, "rule": { "customName": "Broken-Ring Chainmail Chestplate", "loreJson": [ { "text": "A whole patch has come away at the back and rattles when you walk. The front is still sound.", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 120 } } ] } ] },
+"minecraft:chainmail_leggings": {
+  "base": { "customName": "Chainmail Leggings", "loreJson": [ { "text": "Chainmail leggings, and considerably more flexible than the iron equivalent.", "color": "white", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "ENTITY_DROP", "variants": [
+    { "id": "intact", "weight": 0.3, "rule": { "customName": "Intact Chainmail Leggings", "loreJson": [ { "text": "Every ring still moves freely, so they will not catch when you bend.", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [225, 260] } },
+    { "id": "broken", "weight": 0.7, "rule": { "customName": "Broken-Ring Chainmail Leggings", "loreJson": [ { "text": "Plenty of rings have gone at the knee, which makes crouching an effort. They still guard the leg.", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 115 } } ] } ] },
+"minecraft:chainmail_boots": {
+  "base": { "customName": "Chainmail Boots", "loreJson": [ { "text": "Boots made of chainmail. They ring against stone underfoot.", "color": "white", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "ENTITY_DROP", "variants": [
+    { "id": "intact", "weight": 0.3, "rule": { "customName": "Intact Chainmail Boots", "loreJson": [ { "text": "The rings under the sole are still flat, so nothing digs in.", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [195, 225] } },
+    { "id": "worn_through", "weight": 0.7, "rule": { "customName": "Worn-Through Chainmail Boots", "loreJson": [ { "text": "The sole rings have ground flat in places, and a sharp stone will come through them. The uppers are fine.", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 100 } } ] } ] },
+"minecraft:iron_helmet": {
+  "base": { "customName": "Handmade Iron Helmet", "loreJson": [ { "text": "An iron helmet beaten out of sheet, with the edges still a little rough.", "color": "green", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "fitted", "weight": 0.25, "rule": { "customName": "Well-Fitted Iron Helmet", "loreJson": [ { "text": "The lining has been replaced and it does not shift at all on the head — helmets like this are not common.", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [165, 190] } },
+    { "id": "dented", "weight": 0.75, "rule": { "customName": "Dented Iron Helmet", "loreJson": [ { "text": "An obvious dent over the left side. Its last owner would probably rather not discuss it.", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 85 } } ] } ] },
+"minecraft:iron_chestplate": {
+  "base": { "customName": "Handmade Iron Chestplate", "loreJson": [ { "text": "A chestplate riveted together from iron plates, with hammer marks still showing along the seams.", "color": "green", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "knightly", "weight": 0.2, "rule": { "customName": "Knight's Iron Chestplate", "loreJson": [ { "text": "A crest is chased into the breast, worn past reading now. The lining has been replaced.", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [260, 300] } },
+    { "id": "dented", "weight": 0.8, "rule": { "customName": "Dented Iron Chestplate", "loreJson": [ { "text": "An obvious dent over the left shoulder. Whoever wore this last took a heavy blow.", "color": "gray", "italic": true } ], "rarity": 0, "maxDamageRange": [110, 160] } } ] } ] },
+"minecraft:iron_leggings": {
+  "base": { "customName": "Handmade Iron Leggings", "loreJson": [ { "text": "Leggings riveted from iron sheet, and they make a little noise when you walk.", "color": "green", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "fitted", "weight": 0.25, "rule": { "customName": "Well-Fitted Iron Leggings", "loreJson": [ { "text": "There is slack left at the joints, so crouching and running are both unaffected.", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [225, 260] } },
+    { "id": "rusted", "weight": 0.75, "rule": { "customName": "Rusted Iron Leggings", "loreJson": [ { "text": "The seams have rusted stiff, and bending takes some effort. The iron itself is still thick.", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 115 } } ] } ] },
+"minecraft:iron_boots": {
+  "base": { "customName": "Handmade Iron Boots", "loreJson": [ { "text": "Boots wrapped in iron sheet. Heavy, certainly, but nothing underfoot will hurt.", "color": "green", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "fitted", "weight": 0.25, "rule": { "customName": "Well-Fitted Iron Boots", "loreJson": [ { "text": "A fresh layer of iron has been added to the sole, and they hold well on loose stone.", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [195, 225] } },
+    { "id": "rusted", "weight": 0.75, "rule": { "customName": "Rusted Iron Boots", "loreJson": [ { "text": "The sole plates have rusted thin in places. They are still far better than cloth shoes.", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 100 } } ] } ] },
+"minecraft:golden_helmet": {
+  "base": { "customName": "Golden Helmet", "loreJson": [ { "text": "A helmet of solid gold. Very noticeable, and not very protective.", "color": "yellow", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "gilded", "weight": 0.25, "rule": { "customName": "Thick-Gilt Helmet", "loreJson": [ { "text": "The gold layer is twice the usual thickness. A piglin will probably look at you twice.", "color": "yellow", "italic": true } ], "rarity": 1, "maxDamageRange": [77, 90] } },
+    { "id": "tarnished", "weight": 0.75, "rule": { "customName": "Tarnished Golden Helmet", "loreJson": [ { "text": "The surface has dulled with oxidation. A good rub should bring it back.", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 40 } } ] } ] },
+"minecraft:golden_chestplate": {
+  "base": { "customName": "Golden Chestplate", "loreJson": [ { "text": "A chestplate of gold. It is genuinely handsome, and it genuinely dents at a touch.", "color": "yellow", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "gilded", "weight": 0.25, "rule": { "customName": "Thick-Gilt Chestplate", "loreJson": [ { "text": "The gold over the breast was laid on especially thick, which passes for status in the Nether.", "color": "yellow", "italic": true } ], "rarity": 1, "maxDamageRange": [112, 130] } },
+    { "id": "tarnished", "weight": 0.75, "rule": { "customName": "Crushed Golden Chestplate", "loreJson": [ { "text": "A dent runs across the front — gold is far too soft to take that kind of force.", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 55 } } ] } ] },
+"minecraft:golden_leggings": {
+  "base": { "customName": "Golden Leggings", "loreJson": [ { "text": "Golden leggings. They chime when you walk, and it is a pleasant sound.", "color": "yellow", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "gilded", "weight": 0.25, "rule": { "customName": "Thick-Gilt Leggings", "loreJson": [ { "text": "Every leaf of gold has been pressed down solid, so movement reads as one continuous shine.", "color": "yellow", "italic": true } ], "rarity": 1, "maxDamageRange": [105, 120] } },
+    { "id": "tarnished", "weight": 0.75, "rule": { "customName": "Loose-Gilt Leggings", "loreJson": [ { "text": "Two leaves have lifted at the edge, and another knock will probably take them off. The rest still shines.", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 52 } } ] } ] },
+"minecraft:golden_boots": {
+  "base": { "customName": "Golden Boots", "loreJson": [ { "text": "Golden boots. They ring crisply on stone, and they wear down just as crisply.", "color": "yellow", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "gilded", "weight": 0.25, "rule": { "customName": "Thick-Gilt Boots", "loreJson": [ { "text": "The toes are capped in a heavy layer of gold, which makes piglins slightly more polite.", "color": "yellow", "italic": true } ], "rarity": 1, "maxDamageRange": [91, 105] } },
+    { "id": "tarnished", "weight": 0.75, "rule": { "customName": "Worn-Down Golden Boots", "loreJson": [ { "text": "The gold at the sole has worn through to the base metal. They are still bright.", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 45 } } ] } ] },
+"minecraft:diamond_helmet": {
+  "base": { "customName": "Diamond Helmet", "loreJson": [ { "text": "A helmet set with diamonds. It is heavy, and nobody ever complains about that.", "color": "aqua", "italic": true } ], "rarity": 1 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "ceremonial", "weight": 0.25, "rule": { "customName": "Ceremonial Diamond Helmet", "loreJson": [ { "text": "One of the crest fittings has snapped off, and the rest of it still shines beautifully.", "color": "gold", "italic": true } ], "rarity": 2, "maxDamageRange": [363, 420] } },
+    { "id": "scratched", "weight": 0.75, "rule": { "customName": "Scuffed Diamond Helmet", "loreJson": [ { "text": "Fine scratches cover the surface, and the diamonds have lost a good deal of their lustre.", "color": "white", "italic": true } ], "rarity": 1, "maxDamageRange": [180, 250] } } ] } ] },
+"minecraft:diamond_chestplate": {
+  "base": { "customName": "Diamond Chestplate", "loreJson": [ { "text": "A chestplate pieced from whole diamond plates. It sits heavy on the shoulders, and nobody minds.", "color": "aqua", "italic": true } ], "rarity": 1 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "ceremonial", "weight": 0.25, "rule": { "customName": "Ceremonial Diamond Chestplate", "loreJson": [ { "text": "The diamonds across the breast are carved into a crest, and that kind of work is not seen any more.", "color": "gold", "italic": true } ], "rarity": 2, "maxDamageRange": [528, 600] } },
+    { "id": "scratched", "weight": 0.75, "rule": { "customName": "Scuffed Diamond Chestplate", "loreJson": [ { "text": "Pale chips have been knocked into the edges of the plates. It still stops most of what hits it.", "color": "white", "italic": true } ], "rarity": 1, "maxDamage": 265 } } ] } ] },
+"minecraft:diamond_leggings": {
+  "base": { "customName": "Diamond Leggings", "loreJson": [ { "text": "Diamond leggings, cut accurately at the joints, so running is not affected.", "color": "aqua", "italic": true } ], "rarity": 1 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "ceremonial", "weight": 0.25, "rule": { "customName": "Ceremonial Diamond Leggings", "loreJson": [ { "text": "Every plate edge has been polished, so the light travels along them in one unbroken line.", "color": "gold", "italic": true } ], "rarity": 2, "maxDamageRange": [495, 565] } },
+    { "id": "scratched", "weight": 0.75, "rule": { "customName": "Scuffed Diamond Leggings", "loreJson": [ { "text": "Deep marks sit at the knees, left by taking something head-on. They will last a long time yet.", "color": "white", "italic": true } ], "rarity": 1, "maxDamage": 250 } } ] } ] },
+"minecraft:diamond_boots": {
+  "base": { "customName": "Diamond Boots", "loreJson": [ { "text": "Boots set with diamonds, and they hold up for a while even in lava.", "color": "aqua", "italic": true } ], "rarity": 1 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "ceremonial", "weight": 0.25, "rule": { "customName": "Ceremonial Diamond Boots", "loreJson": [ { "text": "Fine patterning is cut across the uppers, and it is clear they barely ever touched the ground.", "color": "gold", "italic": true } ], "rarity": 2, "maxDamageRange": [429, 490] } },
+    { "id": "scratched", "weight": 0.75, "rule": { "customName": "Scuffed Diamond Boots", "loreJson": [ { "text": "Fine scratches cover the surface and the diamonds have gone dull. The protection is still there.", "color": "white", "italic": true } ], "rarity": 1, "maxDamage": 215 } } ] } ] },
+"minecraft:netherite_helmet": {
+  "base": { "customName": "Netherite Helmet", "loreJson": [ { "text": "A heavy black helmet that will not melt in lava.", "color": "dark_gray", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "SMITHING", "variants": [
+    { "id": "flawless", "weight": 0.2, "rule": { "customName": "Flawless Netherite Helmet", "loreJson": [ { "text": "The alloy cladding has not one seam in it, and once it is on you can barely hear the outside.", "color": "light_purple", "italic": true } ], "rarity": 3, "maxDamageRange": [407, 460] } },
+    { "id": "cracked", "weight": 0.8, "rule": { "customName": "Cracked Netherite Helmet", "loreJson": [ { "text": "The temperature was not held during the upgrade and a fine crack is left at the side. It is still absurdly hard.", "color": "white", "italic": true } ], "rarity": 2, "maxDamage": 240 } } ] } ] },
+"minecraft:netherite_chestplate": {
+  "base": { "customName": "Netherite Chestplate", "loreJson": [ { "text": "The hardest thing a person can currently wear. It is also far heavier than it looks.", "color": "dark_gray", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "SMITHING", "variants": [
+    { "id": "flawless", "weight": 0.2, "rule": { "customName": "Flawless Netherite Chestplate", "loreJson": [ { "text": "The seams between plates are all but invisible, so the whole reads as a single casting.", "color": "light_purple", "italic": true } ], "rarity": 3, "maxDamageRange": [592, 670] } },
+    { "id": "cracked", "weight": 0.8, "rule": { "customName": "Cracked Netherite Chestplate", "loreJson": [ { "text": "A fine crack runs along the left rib, a small failure in the alloy layer. The protection is not reduced.", "color": "white", "italic": true } ], "rarity": 2, "maxDamage": 350 } } ] } ] },
+"minecraft:netherite_leggings": {
+  "base": { "customName": "Netherite Leggings", "loreJson": [ { "text": "Netherite leggings. They make walking heavier, and they let you walk through anything.", "color": "dark_gray", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "SMITHING", "variants": [
+    { "id": "flawless", "weight": 0.2, "rule": { "customName": "Flawless Netherite Leggings", "loreJson": [ { "text": "The alloy runs even through the joints, so there is no resistance at all when you bend.", "color": "light_purple", "italic": true } ], "rarity": 3, "maxDamageRange": [555, 630] } },
+    { "id": "cracked", "weight": 0.8, "rule": { "customName": "Cracked Netherite Leggings", "loreJson": [ { "text": "A fine crack sits at the back of the knee, left over from the upgrade. They are still very hard.", "color": "white", "italic": true } ], "rarity": 2, "maxDamage": 330 } } ] } ] },
+"minecraft:netherite_boots": {
+  "base": { "customName": "Netherite Boots", "loreJson": [ { "text": "Magma blocks are not a problem in these, and nothing else is either.", "color": "dark_gray", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "SMITHING", "variants": [
+    { "id": "flawless", "weight": 0.2, "rule": { "customName": "Flawless Netherite Boots", "loreJson": [ { "text": "The sole alloy is one unbroken piece, so they leave no mark on anything they walk across.", "color": "light_purple", "italic": true } ], "rarity": 3, "maxDamageRange": [481, 550] } },
+    { "id": "cracked", "weight": 0.8, "rule": { "customName": "Cracked Netherite Boots", "loreJson": [ { "text": "A fine crack runs across the right uppers. Once they are on, you will not notice the difference.", "color": "white", "italic": true } ], "rarity": 2, "maxDamage": 290 } } ] } ] },
+"minecraft:turtle_helmet": {
+  "base": { "customName": "Turtle Shell", "loreJson": [ { "text": "The shell left behind by a turtle, and it fits on a head surprisingly well.", "color": "green", "italic": true } ], "rarity": 1 } },
+"minecraft:wolf_armor": {
+  "base": { "customName": "Wolf Armor", "loreJson": [ { "text": "A small suit of armour pieced together from armadillo scutes. The wolf looks extremely pleased with it.", "color": "green", "italic": true } ], "rarity": 0 } },
+"minecraft:leather_horse_armor": {
+  "base": { "customName": "Leather Horse Armor", "loreJson": [ { "text": "Horse armour stitched together at home. Limited protection, but at least the horse will not sunburn.", "color": "green", "italic": true } ], "rarity": 0 } },
+"minecraft:iron_horse_armor": {
+  "base": { "customName": "Iron Horse Armor", "loreJson": [ { "text": "Iron armour for a horse, covering rather more ground than the version made for people.", "color": "white", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "fitted", "weight": 0.3, "rule": { "customName": "Well-Fitted Iron Horse Armor", "loreJson": [ { "text": "The straps have been replaced and the buckles match, so nothing shifts at a gallop.", "color": "blue", "italic": true } ], "rarity": 1 } },
+    { "id": "rusted", "weight": 0.7, "rule": { "customName": "Rusted Iron Horse Armor", "loreJson": [ { "text": "Several seams have rusted stiff and the horse will rattle at a run. The iron is still good iron.", "color": "gray", "italic": true } ], "rarity": 0 } } ] } ] },
+"minecraft:golden_horse_armor": {
+  "base": { "customName": "Golden Horse Armor", "loreJson": [ { "text": "Horse armour in gleaming gold. Limited protection, enormous presence.", "color": "yellow", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "gilded", "weight": 0.3, "rule": { "customName": "Thick-Gilt Horse Armor", "loreJson": [ { "text": "The gold is pressed on thick, and in sunlight you can barely make out the horse underneath.", "color": "yellow", "italic": true } ], "rarity": 1 } },
+    { "id": "tarnished", "weight": 0.7, "rule": { "customName": "Tarnished Golden Horse Armor", "loreJson": [ { "text": "The surface has gone a shade duller. A polish should bring it back.", "color": "gray", "italic": true } ], "rarity": 0 } } ] } ] },
+"minecraft:diamond_horse_armor": {
+  "base": { "customName": "Diamond Horse Armor", "loreJson": [ { "text": "Horse armour set all over with diamonds. Whoever shod this horse had money.", "color": "aqua", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "ceremonial", "weight": 0.3, "rule": { "customName": "Ceremonial Diamond Horse Armor", "loreJson": [ { "text": "Every plate was set by hand, and it was clearly made for some particular occasion.", "color": "gold", "italic": true } ], "rarity": 2 } },
+    { "id": "scratched", "weight": 0.7, "rule": { "customName": "Scuffed Diamond Horse Armor", "loreJson": [ { "text": "Fine scratches cover the plates. The diamonds are all still there, just rather less bright.", "color": "white", "italic": true } ], "rarity": 1 } } ] } ] },
+"minecraft:elytra": {
+  "base": { "customName": "Elytra", "loreJson": [ { "text": "Wings taken from the wreck of an End ship. They still carry a little wind when you spread them.", "color": "light_purple", "italic": true } ], "rarity": 3 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "pristine", "weight": 0.35, "rule": { "customName": "Pristine Elytra", "loreJson": [ { "text": "No holes in the membrane and the frame along the edge is still sound. Astonishingly quiet in flight.", "color": "light_purple", "italic": true } ], "rarity": 3 } },
+    { "id": "patched", "weight": 0.65, "rule": { "customName": "Patched Elytra", "loreJson": [ { "text": "Several mismatched patches across the membrane. That should not... affect the flying, right?", "color": "blue", "italic": true } ], "rarity": 2, "maxDamageRange": [200, 300] } } ] } ] }
+}

@@ -167,6 +167,10 @@ public final class Originlore implements ModInitializer {
         return runtime == null ? null : runtime.config;
     }
 
+    public static ItemComponentManager getManager() {
+        return runtime == null ? null : runtime.manager;
+    }
+
     public static SubmitResult submitSnapshot(String json, long expectedRevision) {
         ServerRuntime active = runtime;
         if (active == null) return SubmitResult.failure(false, -1, "服务器配置尚未就绪", List.of(), "");

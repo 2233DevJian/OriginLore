@@ -31,9 +31,7 @@ public abstract class CraftingScreenHandlerMixin {
     private static void originlore$applyBeforeResultPacket(CraftingResultInventory result,
                                                             int slot, ItemStack stack) {
         if (Originlore.isOnServerThread() && !stack.isEmpty()) {
-            RecipeEntry<?> recipe = result.getLastRecipe();
-            Originlore.applyCustomComponents(stack, SourceContext.recipe(SourceType.CRAFTING,
-                    recipe == null ? null : recipe.id()));
+            Originlore.applyCustomComponents(stack, SourceContext.unknown());
         }
         result.setStack(slot, stack);
     }

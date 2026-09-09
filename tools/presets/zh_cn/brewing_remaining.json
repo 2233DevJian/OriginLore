@@ -1,0 +1,542 @@
+{
+  "minecraft:blaze_powder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "炽黄粉末摸着发暖，能给酿造台补火，也能配力量药水。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brewing_stand": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细管分出三个瓶位，添上烈焰粉才能把药慢慢酿起来。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dragon_breath": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫色气息贴着瓶壁翻卷，是酿出滞留药雾的关键材料。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:experience_bottle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "绿色光点浮在瓶里，摔开才能把积下的经验放出来。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:fermented_spider_eye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "发酵后的眼珠气味尖锐，足以把原有药性改个方向。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ghast_tear": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "乳白小滴结成硬珠，拿去酿药能慢慢补回伤势。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glass_bottle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄玻璃围出一只小瓶，洗净后装水和收蜜都方便。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glistering_melon_slice": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金粒围住一片红瓤，虽然不能当饭，却能用来酿治疗药。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glowstone_dust": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "金色细屑亮得均匀，少量就能增强某些药水的效力。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gunpowder": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "灰黑粉末细而干，混进配方后会让平常物件有爆裂的本事。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lingering_potion": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "稠密药液在瓶里转得很慢，落地碎开后会留下一团药雾。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:magma_cream": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "橙色黏团裹着热意，酿出的药能让人经得起火。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_wart": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "暗红小粒结在短茎上，大多数药水都从它开头。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ominous_bottle": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "蓝色瓶液显得阴沉，打开喝下会招来不祥的兆头。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:phantom_membrane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄膜轻韧透光，既能补鞘翅，也能酿出缓降药。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:potion": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "药液在细颈瓶里轻晃，效力要看其中实际酿进了什么。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pufferfish": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "鼓起的鱼身带着细刺，肉虽能入口，毒性却不能小看。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的河豚",
+              "loreJson": [
+                {
+                  "text": "鼓起的鱼身带着细刺，肉虽能入口，毒性却不能小看。 颜色已经深得不自然，气味也更浓烈，吃下去恐怕要付出些代价。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.07,
+                  "max": 0.12
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的河豚",
+              "loreJson": [
+                {
+                  "text": "鼓起的鱼身带着细刺，肉虽能入口，毒性却不能小看。 还能辨出原来的形状，但那股刺鼻的味道说明它本就不是好食材。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.16,
+                  "max": 0.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的河豚",
+              "loreJson": [
+                {
+                  "text": "鼓起的鱼身带着细刺，肉虽能入口，毒性却不能小看。 保存得相对完整，危险的成分却不会因为看着干净就消失。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.21,
+                  "max": 0.24
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "FISHING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的河豚",
+              "loreJson": [
+                {
+                  "text": "鼓起的鱼身带着细刺，肉虽能入口，毒性却不能小看。 颜色已经深得不自然，气味也更浓烈，吃下去恐怕要付出些代价。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.07,
+                  "max": 0.12
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的河豚",
+              "loreJson": [
+                {
+                  "text": "鼓起的鱼身带着细刺，肉虽能入口，毒性却不能小看。 还能辨出原来的形状，但那股刺鼻的味道说明它本就不是好食材。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.16,
+                  "max": 0.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的河豚",
+              "loreJson": [
+                {
+                  "text": "鼓起的鱼身带着细刺，肉虽能入口，毒性却不能小看。 保存得相对完整，危险的成分却不会因为看着干净就消失。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.21,
+                  "max": 0.24
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:rabbit_foot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "细骨裹着短绒，酿进药水能让脚下多些弹力。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:splash_potion": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "瓶口封得很紧，薄壳掷碎后药液会洒向周围。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tipped_arrow": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "箭尖蘸过药液，射中时能把这份药效一起带过去。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

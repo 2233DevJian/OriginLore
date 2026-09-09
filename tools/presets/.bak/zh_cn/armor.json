@@ -1,0 +1,136 @@
+{
+"minecraft:leather_helmet": {
+  "base": { "customName": "皮革帽", "loreJson": [ { "text": "缝得还算整齐的皮革帽。挡不了什么，但总比淋雨强。", "color": "green", "italic": true } ], "rarity": 0 } },
+"minecraft:leather_chestplate": {
+  "base": { "customName": "皮革外衣", "loreJson": [ { "text": "几张皮革缝在一起的外衣。轻是真轻，防护也就那样。", "color": "green", "italic": true } ], "rarity": 0 } },
+"minecraft:leather_leggings": {
+  "base": { "customName": "皮革裤子", "loreJson": [ { "text": "皮革缝的裤子，膝盖处已经磨薄了。穿着倒是很自在。", "color": "green", "italic": true } ], "rarity": 0 } },
+"minecraft:leather_boots": {
+  "base": { "customName": "皮革靴子", "loreJson": [ { "text": "要走远路的话，这双靴子比赤脚强得多。", "color": "green", "italic": true } ], "rarity": 0 } },
+"minecraft:chainmail_helmet": {
+  "base": { "customName": "锁链头盔", "loreJson": [ { "text": "一环一环扣出来的头盔，谁也说不清它是从哪里来的。", "color": "white", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "ENTITY_DROP", "variants": [
+    { "id": "intact", "weight": 0.3, "rule": { "customName": "完整的锁链头盔", "loreJson": [ { "text": "每一环都还扣得紧，这样完好的锁甲不多见了。", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [165, 190] } },
+    { "id": "broken", "weight": 0.7, "rule": { "customName": "断环的锁链头盔", "loreJson": [ { "text": "侧面缺了一片环，用铁丝勉强连着。它还是能挡一下的。", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 85 } } ] } ] },
+"minecraft:chainmail_chestplate": {
+  "base": { "customName": "锁链胸甲", "loreJson": [ { "text": "几百个铁环连成的胸甲，重量比看起来轻得多。", "color": "white", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "ENTITY_DROP", "variants": [
+    { "id": "intact", "weight": 0.3, "rule": { "customName": "完整的锁链胸甲", "loreJson": [ { "text": "环与环之间没有一处松动，穿上身几乎没有声音。", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [240, 275] } },
+    { "id": "broken", "weight": 0.7, "rule": { "customName": "断环的锁链胸甲", "loreJson": [ { "text": "背后脱了一大片环，走起路来哗啦作响。前面还是好的。", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 120 } } ] } ] },
+"minecraft:chainmail_leggings": {
+  "base": { "customName": "锁链护腿", "loreJson": [ { "text": "锁甲的护腿，活动起来比铁的要灵活不少。", "color": "white", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "ENTITY_DROP", "variants": [
+    { "id": "intact", "weight": 0.3, "rule": { "customName": "完整的锁链护腿", "loreJson": [ { "text": "每一环都还灵活，弯腿的时候不会卡住。", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [225, 260] } },
+    { "id": "broken", "weight": 0.7, "rule": { "customName": "断环的锁链护腿", "loreJson": [ { "text": "膝弯处的环断了不少，蹲下去的时候有点勉强。它还是能护住腿的。", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 115 } } ] } ] },
+"minecraft:chainmail_boots": {
+  "base": { "customName": "锁链靴子", "loreJson": [ { "text": "用锁甲做的靴子，走在石头上会响。", "color": "white", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "ENTITY_DROP", "variants": [
+    { "id": "intact", "weight": 0.3, "rule": { "customName": "完整的锁链靴子", "loreJson": [ { "text": "靴底的环还平整，走起路来不硌脚。", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [195, 225] } },
+    { "id": "worn_through", "weight": 0.7, "rule": { "customName": "磨穿的锁链靴子", "loreJson": [ { "text": "靴底的环磨平了几处，踩到尖石头上会有感觉。脚背那面还是好的。", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 100 } } ] } ] },
+"minecraft:iron_helmet": {
+  "base": { "customName": "手工铁头盔", "loreJson": [ { "text": "铁片敲出来的头盔，边缘还有些毛糙。", "color": "green", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "fitted", "weight": 0.25, "rule": { "customName": "合身的铁头盔", "loreJson": [ { "text": "内衬换过新的，戴上去一点不晃——这样的铁盔并不多。", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [165, 190] } },
+    { "id": "dented", "weight": 0.75, "rule": { "customName": "凹陷的铁头盔", "loreJson": [ { "text": "左边有一处明显的凹痕。前任主人大概不太想谈这件事。", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 85 } } ] } ] },
+"minecraft:iron_chestplate": {
+  "base": { "customName": "手工铁胸甲", "loreJson": [ { "text": "铁片一片片铆起来的胸甲，接缝处还留着锤痕。", "color": "green", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "knightly", "weight": 0.2, "rule": { "customName": "骑士铁胸甲", "loreJson": [ { "text": "胸口錾着一道已经看不清的纹章，内衬换过新的。", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [260, 300] } },
+    { "id": "dented", "weight": 0.8, "rule": { "customName": "凹陷的铁胸甲", "loreJson": [ { "text": "左肩有一处明显的凹痕，前一位主人挨过不轻的一下。", "color": "gray", "italic": true } ], "rarity": 0, "maxDamageRange": [110, 160] } } ] } ] },
+"minecraft:iron_leggings": {
+  "base": { "customName": "手工铁护腿", "loreJson": [ { "text": "铁片铆成的护腿，走路的时候会发出一点声音。", "color": "green", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "fitted", "weight": 0.25, "rule": { "customName": "合身的铁护腿", "loreJson": [ { "text": "关节处留了余量，蹲下和跑动都不受影响。", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [225, 260] } },
+    { "id": "rusted", "weight": 0.75, "rule": { "customName": "生锈的铁护腿", "loreJson": [ { "text": "接缝处锈住了，弯腿的时候要费点力气。铁还是厚铁。", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 115 } } ] } ] },
+"minecraft:iron_boots": {
+  "base": { "customName": "手工铁靴子", "loreJson": [ { "text": "铁皮包成的靴子，沉是沉，但踩到什么都不会疼。", "color": "green", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "fitted", "weight": 0.25, "rule": { "customName": "合身的铁靴子", "loreJson": [ { "text": "鞋底加过一层新铁，走碎石路很稳。", "color": "blue", "italic": true } ], "rarity": 1, "maxDamageRange": [195, 225] } },
+    { "id": "rusted", "weight": 0.75, "rule": { "customName": "生锈的铁靴子", "loreJson": [ { "text": "靴底的铁皮锈薄了几处。它还是比布鞋强得多。", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 100 } } ] } ] },
+"minecraft:golden_helmet": {
+  "base": { "customName": "金头盔", "loreJson": [ { "text": "纯金的头盔，戴上很显眼，防护很有限。", "color": "yellow", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "gilded", "weight": 0.25, "rule": { "customName": "厚镀金的头盔", "loreJson": [ { "text": "金层比寻常厚一倍，猪灵看见大概会多看你两眼。", "color": "yellow", "italic": true } ], "rarity": 1, "maxDamageRange": [77, 90] } },
+    { "id": "tarnished", "weight": 0.75, "rule": { "customName": "失去光泽的金头盔", "loreJson": [ { "text": "表面氧化发暗，擦一擦应该还能亮回来。", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 40 } } ] } ] },
+"minecraft:golden_chestplate": {
+  "base": { "customName": "金胸甲", "loreJson": [ { "text": "金子打的胸甲，好看是真的，一碰就凹也是真的。", "color": "yellow", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "gilded", "weight": 0.25, "rule": { "customName": "厚镀金的胸甲", "loreJson": [ { "text": "胸口那层金打得格外厚，在下界算是通行的身份。", "color": "yellow", "italic": true } ], "rarity": 1, "maxDamageRange": [112, 130] } },
+    { "id": "tarnished", "weight": 0.75, "rule": { "customName": "压瘪的金胸甲", "loreJson": [ { "text": "正面有一道压痕——金子太软，受不住这样的力。", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 55 } } ] } ] },
+"minecraft:golden_leggings": {
+  "base": { "customName": "金护腿", "loreJson": [ { "text": "金护腿，走路会响，声音还挺好听。", "color": "yellow", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "gilded", "weight": 0.25, "rule": { "customName": "厚镀金的护腿", "loreJson": [ { "text": "每一片金叶都压得很实，动起来是一片连续的光。", "color": "yellow", "italic": true } ], "rarity": 1, "maxDamageRange": [105, 120] } },
+    { "id": "tarnished", "weight": 0.75, "rule": { "customName": "松脱的金护腿", "loreJson": [ { "text": "有两片金叶翘了起来，再磕一下大概就掉了。剩下的还很亮。", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 52 } } ] } ] },
+"minecraft:golden_boots": {
+  "base": { "customName": "金靴子", "loreJson": [ { "text": "金靴子，踩在石头上声音清脆，磨损也来得清脆。", "color": "yellow", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "gilded", "weight": 0.25, "rule": { "customName": "厚镀金的靴子", "loreJson": [ { "text": "靴头包了一层厚金，猪灵看见会稍微客气一点。", "color": "yellow", "italic": true } ], "rarity": 1, "maxDamageRange": [91, 105] } },
+    { "id": "tarnished", "weight": 0.75, "rule": { "customName": "磨薄的金靴子", "loreJson": [ { "text": "靴底的金已经磨得见了底色。它还是很亮。", "color": "gray", "italic": true } ], "rarity": 0, "maxDamage": 45 } } ] } ] },
+"minecraft:diamond_helmet": {
+  "base": { "customName": "钻石头盔", "loreJson": [ { "text": "镶着钻石的头盔，分量不轻，但没人会抱怨这一点。", "color": "aqua", "italic": true } ], "rarity": 1 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "ceremonial", "weight": 0.25, "rule": { "customName": "仪典钻石头盔", "loreJson": [ { "text": "顶饰断了一根，剩下的部分依然光彩照人。", "color": "gold", "italic": true } ], "rarity": 2, "maxDamageRange": [363, 420] } },
+    { "id": "scratched", "weight": 0.75, "rule": { "customName": "磨花的钻石头盔", "loreJson": [ { "text": "表面布满细密的划痕，钻石的光泽淡了不少。", "color": "white", "italic": true } ], "rarity": 1, "maxDamageRange": [180, 250] } } ] } ] },
+"minecraft:diamond_chestplate": {
+  "base": { "customName": "钻石胸甲", "loreJson": [ { "text": "整片钻石甲拼成的胸甲，压肩，但没人会嫌它重。", "color": "aqua", "italic": true } ], "rarity": 1 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "ceremonial", "weight": 0.25, "rule": { "customName": "仪典钻石胸甲", "loreJson": [ { "text": "胸口的钻石雕成了一枚纹章，这种手艺现在已经见不到了。", "color": "gold", "italic": true } ], "rarity": 2, "maxDamageRange": [528, 600] } },
+    { "id": "scratched", "weight": 0.75, "rule": { "customName": "磨花的钻石胸甲", "loreJson": [ { "text": "甲片边缘磕出了几处白点。它依然能挡下大部分东西。", "color": "white", "italic": true } ], "rarity": 1, "maxDamage": 265 } } ] } ] },
+"minecraft:diamond_leggings": {
+  "base": { "customName": "钻石护腿", "loreJson": [ { "text": "钻石的护腿，关节处留得很准，跑起来不受影响。", "color": "aqua", "italic": true } ], "rarity": 1 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "ceremonial", "weight": 0.25, "rule": { "customName": "仪典钻石护腿", "loreJson": [ { "text": "每片甲的边缘都打磨过，走动的时候光是一整条的。", "color": "gold", "italic": true } ], "rarity": 2, "maxDamageRange": [495, 565] } },
+    { "id": "scratched", "weight": 0.75, "rule": { "customName": "磨花的钻石护腿", "loreJson": [ { "text": "膝部有几道深痕，是硬顶过什么留下的。还能用很久。", "color": "white", "italic": true } ], "rarity": 1, "maxDamage": 250 } } ] } ] },
+"minecraft:diamond_boots": {
+  "base": { "customName": "钻石靴子", "loreJson": [ { "text": "镶着钻石的靴子，踩进岩浆里也还能撑一会儿。", "color": "aqua", "italic": true } ], "rarity": 1 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "ceremonial", "weight": 0.25, "rule": { "customName": "仪典钻石靴子", "loreJson": [ { "text": "靴面刻着细密的花纹，看得出几乎没怎么落过地。", "color": "gold", "italic": true } ], "rarity": 2, "maxDamageRange": [429, 490] } },
+    { "id": "scratched", "weight": 0.75, "rule": { "customName": "磨花的钻石靴子", "loreJson": [ { "text": "表面全是细划痕，钻石的光泽淡了。防护倒还在。", "color": "white", "italic": true } ], "rarity": 1, "maxDamage": 215 } } ] } ] },
+"minecraft:netherite_helmet": {
+  "base": { "customName": "下界合金头盔", "loreJson": [ { "text": "黑沉沉的头盔，掉进岩浆里也不会化。", "color": "dark_gray", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "SMITHING", "variants": [
+    { "id": "flawless", "weight": 0.2, "rule": { "customName": "锻造完美的下界合金头盔", "loreJson": [ { "text": "合金层包覆得毫无缝隙，戴上之后外面几乎听不见声音。", "color": "light_purple", "italic": true } ], "rarity": 3, "maxDamageRange": [407, 460] } },
+    { "id": "cracked", "weight": 0.8, "rule": { "customName": "有裂纹的下界合金头盔", "loreJson": [ { "text": "升级时温度没控好，侧面留了一道细纹。它还是硬得离谱。", "color": "white", "italic": true } ], "rarity": 2, "maxDamage": 240 } } ] } ] },
+"minecraft:netherite_chestplate": {
+  "base": { "customName": "下界合金胸甲", "loreJson": [ { "text": "目前能穿在身上最硬的东西。它也比看起来沉得多。", "color": "dark_gray", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "SMITHING", "variants": [
+    { "id": "flawless", "weight": 0.2, "rule": { "customName": "锻造完美的下界合金胸甲", "loreJson": [ { "text": "甲片之间的接缝几乎看不出来，整块像是一次铸成的。", "color": "light_purple", "italic": true } ], "rarity": 3, "maxDamageRange": [592, 670] } },
+    { "id": "cracked", "weight": 0.8, "rule": { "customName": "有裂纹的下界合金胸甲", "loreJson": [ { "text": "左肋有一道细裂纹，是合金层里的一点小失误。防护没有打折。", "color": "white", "italic": true } ], "rarity": 2, "maxDamage": 350 } } ] } ] },
+"minecraft:netherite_leggings": {
+  "base": { "customName": "下界合金护腿", "loreJson": [ { "text": "下界合金的护腿，走路会有点沉，但踩什么都行。", "color": "dark_gray", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "SMITHING", "variants": [
+    { "id": "flawless", "weight": 0.2, "rule": { "customName": "锻造完美的下界合金护腿", "loreJson": [ { "text": "关节处的合金厚薄一致，弯腿的时候没有一点阻力。", "color": "light_purple", "italic": true } ], "rarity": 3, "maxDamageRange": [555, 630] } },
+    { "id": "cracked", "weight": 0.8, "rule": { "customName": "有裂纹的下界合金护腿", "loreJson": [ { "text": "膝弯处有一道细纹，是升级时留下的。它还是很硬。", "color": "white", "italic": true } ], "rarity": 2, "maxDamage": 330 } } ] } ] },
+"minecraft:netherite_boots": {
+  "base": { "customName": "下界合金靴子", "loreJson": [ { "text": "穿着它踩岩浆块不会有问题，踩别的东西就更没问题了。", "color": "dark_gray", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "SMITHING", "variants": [
+    { "id": "flawless", "weight": 0.2, "rule": { "customName": "锻造完美的下界合金靴子", "loreJson": [ { "text": "靴底的合金整块无孔，走在任何地方都不留痕迹。", "color": "light_purple", "italic": true } ], "rarity": 3, "maxDamageRange": [481, 550] } },
+    { "id": "cracked", "weight": 0.8, "rule": { "customName": "有裂纹的下界合金靴子", "loreJson": [ { "text": "右脚靴面有一道细纹。穿上之后基本感觉不到差别。", "color": "white", "italic": true } ], "rarity": 2, "maxDamage": 290 } } ] } ] },
+"minecraft:turtle_helmet": {
+  "base": { "customName": "海龟壳", "loreJson": [ { "text": "一只海龟留下的壳，戴在头上意外地合适。", "color": "green", "italic": true } ], "rarity": 1 } },
+"minecraft:wolf_armor": {
+  "base": { "customName": "狼铠", "loreJson": [ { "text": "用犰狳鳞甲拼成的小铠甲。狼穿上之后看起来相当自豪。", "color": "green", "italic": true } ], "rarity": 0 } },
+"minecraft:leather_horse_armor": {
+  "base": { "customName": "皮革马铠", "loreJson": [ { "text": "自己缝的皮革马铠，防护有限，但至少马不会晒伤。", "color": "green", "italic": true } ], "rarity": 0 } },
+"minecraft:iron_horse_armor": {
+  "base": { "customName": "铁马铠", "loreJson": [ { "text": "给马穿的铁甲，覆盖面比人穿的那件还要大一些。", "color": "white", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "fitted", "weight": 0.3, "rule": { "customName": "合身的铁马铠", "loreJson": [ { "text": "皮带换过新的，扣件也是配套的，跑起来不会晃。", "color": "blue", "italic": true } ], "rarity": 1 } },
+    { "id": "rusted", "weight": 0.7, "rule": { "customName": "生锈的铁马铠", "loreJson": [ { "text": "几处接缝锈住了，马跑起来会响。铁还是好铁。", "color": "gray", "italic": true } ], "rarity": 0 } } ] } ] },
+"minecraft:golden_horse_armor": {
+  "base": { "customName": "金马铠", "loreJson": [ { "text": "金灿灿的马铠，防护有限，气势很足。", "color": "yellow", "italic": true } ], "rarity": 0 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "gilded", "weight": 0.3, "rule": { "customName": "厚镀金的马铠", "loreJson": [ { "text": "金层压得很厚，阳光下几乎看不清马本身的样子。", "color": "yellow", "italic": true } ], "rarity": 1 } },
+    { "id": "tarnished", "weight": 0.7, "rule": { "customName": "失去光泽的金马铠", "loreJson": [ { "text": "表面暗了一层，擦过之后应该还能亮回来。", "color": "gray", "italic": true } ], "rarity": 0 } } ] } ] },
+"minecraft:diamond_horse_armor": {
+  "base": { "customName": "钻石马铠", "loreJson": [ { "text": "镶满钻石的马铠。给马穿这个的人显然很有钱。", "color": "aqua", "italic": true } ], "rarity": 2 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "ceremonial", "weight": 0.3, "rule": { "customName": "仪典钻石马铠", "loreJson": [ { "text": "每片甲都是手工镶的，看得出是为了某个场合做的。", "color": "gold", "italic": true } ], "rarity": 2 } },
+    { "id": "scratched", "weight": 0.7, "rule": { "customName": "磨花的钻石马铠", "loreJson": [ { "text": "甲片上全是细划痕，钻石还在，只是光泽淡了。", "color": "white", "italic": true } ], "rarity": 1 } } ] } ] },
+"minecraft:elytra": {
+  "base": { "customName": "鞘翅", "loreJson": [ { "text": "末地船残骸里找到的翅膀，展开的时候还带着一点风。", "color": "light_purple", "italic": true } ], "rarity": 3 },
+  "sources": [ { "type": "CHEST_LOOT", "variants": [
+    { "id": "pristine", "weight": 0.35, "rule": { "customName": "完好的鞘翅", "loreJson": [ { "text": "膜面没有破洞，边缘的骨架也还结实，飞起来安静得惊人。", "color": "light_purple", "italic": true } ], "rarity": 3 } },
+    { "id": "patched", "weight": 0.65, "rule": { "customName": "缝补过的鞘翅", "loreJson": [ { "text": "膜面上有几块颜色不一的补丁。应该...不影响飞行吧？", "color": "blue", "italic": true } ], "rarity": 2, "maxDamageRange": [200, 300] } } ] } ] }
+}

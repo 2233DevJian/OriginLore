@@ -1,5 +1,7 @@
 package com.originlore.screen;
 
+import com.originlore.client.GuiText;
+
 import com.originlore.config.ItemComponentConfig;
 import com.originlore.config.ItemComponentConfig.ComponentRule;
 import net.minecraft.client.gui.DrawContext;
@@ -19,7 +21,7 @@ public final class RuleJsonEditorScreen extends Screen {
     private String status = "";
 
     public RuleJsonEditorScreen(Screen parent, ComponentRule rule, Consumer<ComponentRule> onApply) {
-        super(Text.literal("完整规则 JSON"));
+        super(Text.literal(GuiText.string("originlore.editor.rule_json")));
         this.parent = parent;
         this.onApply = onApply;
         this.draft = ItemComponentConfig.componentRuleToJson(rule == null ? new ComponentRule() : rule.copy());
@@ -42,9 +44,9 @@ public final class RuleJsonEditorScreen extends Screen {
         });
         addDrawableChild(editor);
 
-        addDrawableChild(ButtonWidget.builder(Text.literal("应用"), button -> apply())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.apply")), button -> apply())
                 .dimensions(width / 2 - 96, height - 27, 92, 20).build());
-        addDrawableChild(ButtonWidget.builder(Text.literal("取消"), button -> close())
+        addDrawableChild(ButtonWidget.builder(Text.literal(GuiText.string("originlore.editor.cancel")), button -> close())
                 .dimensions(width / 2 + 4, height - 27, 92, 20).build());
         setInitialFocus(editor);
     }

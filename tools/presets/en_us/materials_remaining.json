@@ -1,0 +1,1157 @@
+{
+  "minecraft:ancient_debris": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Tight layers cross the deep-brown fracture, resistant to fire but yielding scrap in a furnace.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:angler_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a fish on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:archer_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a bent bow on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:armadillo_scute": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Curved, tough plates overlap into protection for a wolf's body.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:arms_up_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround raised arms on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:beetroot_seeds": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Small brown seeds have rough coats and need farmland to grow into beetroot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blade_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a straight sword on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blaze_rod": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Heat remains in the yellow rod, useful whole in a brewing stand or ground into powder.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bolt_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries rivets set along an edge, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A hollow runs through the hard white bone, which grinds into plant-feeding meal.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bone_meal": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "White powder carries small fragments and encourages a suitable plant to grow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:book": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Even pages are sewn into a leather cover, ready for writing or enchantment.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:breeze_rod": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The grey-purple rod is unusually light, suitable for wind charges or a mace.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brewer_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a potion bottle on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brick": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Neat edges line the little fired brick, useful in brickwork or a flowerpot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:burn_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround flames on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:charcoal": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Wood grain remains in the blackened lump, sound material for smelting or torches.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:clay_ball": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The damp clay lump has no sharp edges and fires into a small brick.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:coast_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries curves like a shoreline, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cocoa_beans": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Brown beans carry a bitter scent, suitable for cookies or brown dye.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:copper_ingot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine red copper shines at the surface, suitable for a lightning rod or building stock.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:creeper_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The paper pattern shows a creeper face, ready to guide the same image into a banner at a loom.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:danger_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a warning figure on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:disc_fragment_5": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges break the thin black piece, requiring matching fragments to restore a disc.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dune_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries bands like sand dunes, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:echo_shard": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Blue-green light sits inside the dark shard, guiding a compass toward the last place of death.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:enchanted_book": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Writing glows between the pages, transferring a suitable enchantment at an anvil.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ender_eye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A pupil sits in the green sphere, which travels toward a stronghold when released.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ender_pearl": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Deep light sits beneath the dark-green surface, carrying its thrower to the landing point.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:explorer_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround an exploring figure on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:eye_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries a central eye, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:feather": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Even vanes line the light quill, useful for steady arrow flight or writing.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flint": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sharp edges split the grey-black stone, useful for arrowheads or sparks against iron.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flow_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries turning currents, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flow_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The paper pattern shows a turning swirl, ready to guide the same image into a banner at a loom.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flow_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround turning lines on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:flower_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The paper pattern shows a flower, ready to guide the same image into a banner at a loom.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:friend_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a companion figure on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:globe_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The paper pattern shows a globe, ready to guide the same image into a banner at a loom.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glow_ink_sac": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Faint light floats in the ink, making sign lettering visible in the dark.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gold_ingot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warm yellow metal is cast into a bar for fittings, gilded food or bartering with piglins.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gold_nugget": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The little gold piece shines distinctly, useful with a carrot or pressed into an ingot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:guster_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The paper pattern shows a gust outline, ready to guide the same image into a banner at a loom.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:guster_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround the outline of a gust on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:heart_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a whole heart on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:heartbreak_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a broken heart on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:heavy_core": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The dark iron core weighs heavily in the palm, weight put to use in a mace.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:honeycomb": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Hexagonal wax cells smell faintly of honey, useful for hives, candles and sealing copper.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:host_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries joined ancient marks, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:howl_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround an upturned wolf head on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ink_sac": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thin sac holds dense black ink for dyeing or preparing writing supplies.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:iron_nugget": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A tiny iron piece has weight in the palm, useful gathered into an ingot or a lantern.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lapis_lazuli": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Deep-blue mineral grains hold their colour firmly and are needed at an enchanting table.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:leather": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Shallow creases mark the supple hide, ready for armour or a book cover.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:melon_seeds": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale brown seeds have flat edges and need farmland to grow into melons.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:miner_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a mining pick on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mojang_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The paper pattern shows an unusual emblem, ready to guide the same image into a banner at a loom.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mourner_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a bowed figure on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nautilus_shell": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine lines follow the pale spiral, useful with a heart of the sea in a conduit.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_brick": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The dark-red fired brick is hard, ready to gather into Nether brickwork.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:netherite_scrap": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin hard scraps remain after smelting and need gold before further forging.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:netherite_upgrade_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "An upgrade pattern sits in the red base, guiding the smithing table from diamond to netherite.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ominous_trial_key": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Blue light marks the dark key, whose teeth fit only an ominous vault.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:paper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine fibres make the thin sheet useful for maps, books and firework rolls.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:piglin_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The paper pattern shows a piglin snout, ready to guide the same image into a banner at a loom.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pitcher_pod": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A rounded pod encloses a new shoot and need farmland to grow into pitcher plants.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:plenty_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a sign of plenty on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_crystals": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Clear little clusters hold a sea-green tint, material for an underwater lamp.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_shard": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven breaks line the blue-green shard, still useful in rebuilding monument stone.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prize_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a prize motif on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:pumpkin_seeds": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "White seed pieces are thin and broad and need farmland to grow into pumpkins.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:quartz": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Distinct edges shape the milky crystal, needed in decorative blocks and redstone fittings.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:rabbit_hide": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The little soft hide has uneven edges and needs companions to make a full leather piece.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:raiser_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries rising layered lines, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:raw_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Red and green grains form an uneven lump that smelts into workable copper.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:raw_gold": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Gold grains sit in a grey-brown shell, ready to melt into a complete ingot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:raw_iron": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Brown rocky skin encloses bright iron grains that need smelting before use.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:rib_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries rows of ribs, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:scrape_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a scraping mark on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sentry_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries ordered sentry bands, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:shaper_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries sharply turning lines, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sheaf_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a sheaf of wheat on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:shelter_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround tree-like shelter on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:shulker_shell": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A light, tough purple shell pairs with another to protect portable storage.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:silence_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries close-set dark patterns, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:skull_banner_pattern": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The paper pattern shows a skull face, ready to guide the same image into a banner at a loom.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:skull_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a skull on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:slime_ball": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The translucent lump sticks and springs back, useful for pistons or leads.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:snort_pottery_sherd": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Uneven edges surround a sniffer outline on the clay shard, a picture preserved by setting it into a decorated pot.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:snout_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries a squared snout, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:snowball": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Loose snow is pressed into a little ball that breaks on impact and proves useful against blazes.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spire_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries long spire lines, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stick": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine grain remains on the straight little stick, useful for handles, frames and kindling.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:string": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Even fine threads are useful for bowstrings, weaving and tripwire mechanisms.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tide_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries overlapping tides, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:torchflower_seeds": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark seeds wear firm coats and need farmland to grow into torchflowers.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:trial_key": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Distinct teeth line the copper-coloured key, suited to an ordinary vault.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:turtle_scute": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The hard piece curves at its edge and joins others into a fitted turtle shell.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:vex_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries narrow wing shapes, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:ward_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries a warding chest pattern, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:wayfinder_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries paths reaching outward, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:wheat_seeds": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Fine green seeds are almost weightless and need farmland to grow into wheat.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:wild_armor_trim_smithing_template": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The template carries crossing jungle cuts, adding decoration to armour without changing its protection.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:writable_book": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A quill sits among blank pages, ready to record a route or an observation.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:written_book": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The ink has settled into a finished text that remains unchanged when copied.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

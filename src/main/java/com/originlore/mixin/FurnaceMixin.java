@@ -1,13 +1,16 @@
 package com.originlore.mixin;
 
 import com.originlore.Originlore;
+import com.originlore.gameplay.Production;
 import com.originlore.source.SourceContext;
 import com.originlore.source.SourceContext.SourceType;
 import net.minecraft.block.Block;
 import net.minecraft.block.entity.AbstractFurnaceBlockEntity;
 import net.minecraft.block.AbstractFurnaceBlock;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.RecipeEntry;
 import net.minecraft.recipe.Recipe;
 import net.minecraft.registry.DynamicRegistryManager;
@@ -18,10 +21,12 @@ import net.minecraft.world.World;
 import net.minecraft.nbt.NbtCompound;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 /**
  * Makes cooking a one-result-at-a-time pipeline.  Vanilla has only one output
@@ -30,6 +35,11 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
  */
 @Mixin(AbstractFurnaceBlockEntity.class)
 public abstract class FurnaceMixin {
+    @Shadow
+    private static boolean canAcceptRecipeOutput(DynamicRegistryManager registries, RecipeEntry<?> recipe,
+                                                  DefaultedList<ItemStack> slots, int maxCount) {
+        throw new AssertionError();
+    }
     @org.spongepowered.asm.mixin.Shadow
     int burnTime;
 
@@ -142,23 +152,31 @@ public abstract class FurnaceMixin {
         nbt.putInt("OriginLorePausedFuelTime", originlore$pausedFuelTime);
     }
 
-    @Redirect(
+    @Inject(
             method = "craftRecipe(Lnet/minecraft/registry/DynamicRegistryManager;Lnet/minecraft/recipe/RecipeEntry;Lnet/minecraft/util/collection/DefaultedList;I)Z",
-            at = @At(value = "INVOKE",
-                    target = "Lnet/minecraft/recipe/Recipe;getResult(Lnet/minecraft/registry/RegistryWrapper$WrapperLookup;)Lnet/minecraft/item/ItemStack;")
+            at = @At("HEAD"), cancellable = true
     )
-    private static ItemStack originlore$prepareSmeltingResult(Recipe<?> recipeValue,
-                                                               RegistryWrapper.WrapperLookup lookup,
-                                                               DynamicRegistryManager registries,
-                                                               RecipeEntry<?> recipe,
-                                                               DefaultedList<ItemStack> slots,
-                                                               int maxCount) {
-        ItemStack result = recipeValue.getResult(lookup).copy();
-        // This redirect only runs for craftRecipe's actual result lookup. The
-        // canAcceptRecipeOutput lookup remains vanilla, avoiding a second roll
-        // of the random variant during the same cooking operation.
-        Originlore.applyCustomComponents(result,
-                SourceContext.recipe(SourceType.SMELTING, recipe == null ? null : recipe.id()));
-        return result;
+    private static void originlore$prepareSmeltingResult(DynamicRegistryManager registries, RecipeEntry<?> recipe,
+                                                          DefaultedList<ItemStack> slots, int maxCount,
+                                                          CallbackInfoReturnable<Boolean> cir) {
+        if (Originlore.getManager() == null) return;
+        if (recipe == null || !slots.get(2).isEmpty() || !canAcceptRecipeOutput(registries, recipe, slots, maxCount)) {
+            cir.setReturnValue(false);
+            return;
+        }
+        ItemStack input = slots.get(0);
+        java.util.List<ItemStack> outputs = Production.roll(recipe.value().getResult(registries).copy(),
+                SourceContext.recipe(SourceType.SMELTING, recipe.id()), java.util.List.of(input.copyWithCount(1)));
+        // One vanilla output slot cannot hold differing qualities from a custom multi-output recipe.
+        if (outputs.size() != 1 || outputs.getFirst().getCount() > Math.min(maxCount, outputs.getFirst().getMaxCount())) {
+            cir.setReturnValue(false);
+            return;
+        }
+        slots.set(2, outputs.getFirst());
+        if (input.isOf(Blocks.WET_SPONGE.asItem()) && slots.get(1).isOf(Items.BUCKET)) {
+            slots.set(1, new ItemStack(Items.WATER_BUCKET));
+        }
+        input.decrement(1);
+        cir.setReturnValue(true);
     }
 }

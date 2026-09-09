@@ -48,6 +48,15 @@ final class ChoiceDropdownController {
         visible = false;
     }
 
+    boolean isMouseOverPopup(double mouseX, double mouseY, int screenHeight) {
+        return visible && !values.isEmpty() && isMouseOverPopup(mouseX, mouseY, popupLayout(screenHeight));
+    }
+
+    private boolean isMouseOverPopup(double mouseX, double mouseY, PopupLayout layout) {
+        return mouseX >= anchor.getX() - 1 && mouseX < anchor.getX() + anchor.getWidth() + 1
+                && mouseY >= layout.top - 1 && mouseY < layout.bottom() + 1;
+    }
+
     boolean keyPressed(int keyCode) {
         if (!visible) return false;
         if (keyCode == GLFW.GLFW_KEY_DOWN) {
@@ -74,10 +83,12 @@ final class ChoiceDropdownController {
     boolean mouseClicked(double mouseX, double mouseY, int screenHeight) {
         if (!visible) return false;
         PopupLayout layout = popupLayout(screenHeight);
-        if (mouseX >= anchor.getX() && mouseX < anchor.getX() + anchor.getWidth()
-                && mouseY >= layout.top && mouseY < layout.bottom()) {
-            selected = scroll + (int) ((mouseY - layout.top) / ROW_HEIGHT);
-            confirm();
+        if (isMouseOverPopup(mouseX, mouseY, layout)) {
+            if (mouseX >= anchor.getX() && mouseX < anchor.getX() + anchor.getWidth()
+                    && mouseY >= layout.top && mouseY < layout.bottom()) {
+                selected = scroll + (int) ((mouseY - layout.top) / ROW_HEIGHT);
+                confirm();
+            }
             return true;
         }
         if (mouseX < anchor.getX() || mouseX >= anchor.getX() + anchor.getWidth()
@@ -88,13 +99,13 @@ final class ChoiceDropdownController {
     }
 
     boolean mouseScrolled(double mouseX, double mouseY, double verticalAmount, int screenHeight) {
-        if (!visible || verticalAmount == 0) return false;
+        if (!visible) return false;
         PopupLayout layout = popupLayout(screenHeight);
-        boolean overPopup = mouseX >= anchor.getX() && mouseX < anchor.getX() + anchor.getWidth()
-                && mouseY >= layout.top && mouseY < layout.bottom();
+        boolean overPopup = isMouseOverPopup(mouseX, mouseY, layout);
         boolean overAnchor = mouseX >= anchor.getX() && mouseX < anchor.getX() + anchor.getWidth()
                 && mouseY >= anchor.getY() && mouseY < anchor.getY() + anchor.getHeight();
         if (!overPopup && !overAnchor) return false;
+        if (verticalAmount == 0) return true;
         selected = Math.max(0, Math.min(values.size() - 1,
                 selected + (verticalAmount > 0 ? -1 : 1)));
         ensureVisible(layout.count);

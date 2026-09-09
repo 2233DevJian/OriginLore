@@ -1,0 +1,406 @@
+{
+  "minecraft:sweet_berries": {
+    "base": {
+      "customName": "新鲜浆果",
+      "loreJson": [
+        { "text": "酸甜可口的浆果，吃起来不错。", "color": "green", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 0.4,
+            "rule": {
+              "customName": "不太新鲜的浆果",
+              "loreJson": [
+                { "text": "存放很久的浆果，有些吃起来还有些酸味。", "color": "blue", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "effects": [
+                  { "id": "minecraft:nausea", "duration": 200, "amplifier": 0, "probability": 0.1 }
+                ]
+              }
+            }
+          },
+          {
+            "id": "rotten",
+            "weight": 0.6,
+            "rule": {
+              "customName": "变质浆果",
+              "loreJson": [
+                { "text": "已经腐败的浆果。我肯定饿疯了才会吃这种东西...", "color": "white", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "eatSeconds": 3.2,
+                "effects": [
+                  { "id": "minecraft:nausea", "duration": 400, "amplifier": 0, "probability": 0.9 },
+                  { "id": "minecraft:hunger", "duration": 600, "amplifier": 0, "probability": 0.9 }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:bread": {
+    "base": {
+      "customName": "面包",
+      "loreJson": [
+        { "text": "很普通的面包，旅行者们最喜爱的干粮之一。", "color": "white", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "pantry",
+            "weight": 0.5,
+            "rule": {
+              "customName": "面包",
+              "loreJson": [
+                { "text": "很普通的面包，旅行者们最喜爱的干粮之一。", "color": "white", "italic": true }
+              ],
+              "rarity": 0
+            }
+          },
+          {
+            "id": "stale",
+            "weight": 0.5,
+            "rule": {
+              "customName": "贮藏很久的面包",
+              "loreJson": [
+                { "text": "硬邦邦的面包，像是放了很久的样子，吃起来有点硌牙。", "color": "gray", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "eatSeconds": 2.4,
+                "effects": [
+                  { "id": "minecraft:nausea", "duration": 100, "amplifier": 0, "probability": 0.05 }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:apple": {
+    "base": {
+      "customName": "苹果",
+      "loreJson": [
+        { "text": "从橡树叶子里掉下来的，脆生生的，甜不甜全看运气。", "color": "green", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "polished",
+            "weight": 0.35,
+            "rule": {
+              "customName": "擦亮的苹果",
+              "loreJson": [
+                { "text": "不知道在谁的口袋里待了多久，表皮倒是挺干净。", "color": "white", "italic": true }
+              ],
+              "rarity": 0
+            }
+          },
+          {
+            "id": "bruised",
+            "weight": 0.65,
+            "rule": {
+              "customName": "磕碰过的苹果",
+              "loreJson": [
+                { "text": "有几处明显的淤伤——即便如此，这也是冒险者不可多得的水果之一。", "color": "gray", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "eatSeconds": 2.4
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:cooked_beef": {
+    "base": {
+      "customName": "煎牛排",
+      "loreJson": [
+        { "text": "火候刚好，外层焦香，切开还带点汁水。", "color": "green", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "well_done",
+            "weight": 0.7,
+            "rule": {
+              "customName": "全熟牛排",
+              "loreJson": [
+                { "text": "烤得太久了些，嚼起来费牙，但确实顶饱。", "color": "white", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "eatSeconds": 2.4
+              }
+            }
+          },
+          {
+            "id": "cold",
+            "weight": 0.3,
+            "rule": {
+              "customName": "冷掉的牛排",
+              "loreJson": [
+                { "text": "油脂凝成了白色的一层，不知道放了多少天。", "color": "gray", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "eatSeconds": 3.2,
+                "effects": [
+                  { "id": "minecraft:nausea", "duration": 200, "amplifier": 0, "probability": 0.15 }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:golden_carrot": {
+    "base": {
+      "customName": "金萝卜",
+      "loreJson": [
+        { "text": "薄薄一层金箔裹着胡萝卜，甜得有点不真实。", "color": "green", "italic": true }
+      ],
+      "rarity": 1
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "gilded",
+            "weight": 0.3,
+            "rule": {
+              "customName": "厚镀金萝卜",
+              "loreJson": [
+                { "text": "金箔裹得比寻常厚一倍，大概是哪位有钱人的干粮。", "color": "gold", "italic": true }
+              ],
+              "rarity": 2
+            }
+          },
+          {
+            "id": "chipped",
+            "weight": 0.7,
+            "rule": {
+              "customName": "掉了金箔的萝卜",
+              "loreJson": [
+                { "text": "金箔剥落了大半，剩下的部分看着有点寒酸。", "color": "white", "italic": true }
+              ],
+              "rarity": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:rotten_flesh": {
+    "base": {
+      "customName": "腐肉",
+      "loreJson": [
+        { "text": "散发着难以形容的气味。饿到极致的时候，它也不算太差。", "color": "gray", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "fresher",
+            "weight": 0.25,
+            "rule": {
+              "customName": "还算新鲜的腐肉",
+              "loreJson": [
+                { "text": "腐坏程度较轻，甚至能分辨出原来是什么部位。", "color": "dark_gray", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "effects": [
+                  { "id": "minecraft:hunger", "duration": 600, "amplifier": 0, "probability": 0.8 }
+                ]
+              }
+            }
+          },
+          {
+            "id": "putrid",
+            "weight": 0.75,
+            "rule": {
+              "customName": "彻底腐烂的肉块",
+              "loreJson": [
+                { "text": "已经看不出任何肉的形状，苍蝇倒是挺喜欢。", "color": "red", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "eatSeconds": 3.2,
+                "effects": [
+                  { "id": "minecraft:hunger", "duration": 600, "amplifier": 0, "probability": 0.9 },
+                  { "id": "minecraft:nausea", "duration": 300, "amplifier": 0, "probability": 0.4 }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:spider_eye": {
+    "base": {
+      "customName": "蜘蛛眼",
+      "loreJson": [
+        { "text": "仍然盯着你看。吃下去的后果自负。", "color": "red", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "dried",
+            "weight": 0.5,
+            "rule": {
+              "customName": "风干的蜘蛛眼",
+              "loreJson": [
+                { "text": "水分蒸发之后毒性浓缩了一些，眼球也瘪了下去。", "color": "dark_red", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "effects": [
+                  { "id": "minecraft:poison", "duration": 100, "amplifier": 1, "probability": 1.0 }
+                ]
+              }
+            }
+          },
+          {
+            "id": "pickled",
+            "weight": 0.5,
+            "rule": {
+              "customName": "泡制的蜘蛛眼",
+              "loreJson": [
+                { "text": "泡在某种液体里保存，毒性削弱了，味道也一并削弱了。", "color": "aqua", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "effects": [
+                  { "id": "minecraft:poison", "duration": 60, "amplifier": 0, "probability": 0.7 }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:golden_apple": {
+    "base": {
+      "customName": "金苹果",
+      "loreJson": [
+        { "text": "八块金锭换来的苹果，甜味里带着一点金属的气息。", "color": "gold", "italic": true }
+      ],
+      "rarity": 2
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "rule": {
+          "customName": "亲手镶金的苹果",
+          "loreJson": [
+            { "text": "金箔打得不太均匀，边角还有些翘起，但心意十足。", "color": "gold", "italic": true }
+          ],
+          "rarity": 2
+        }
+      },
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "heirloom",
+            "weight": 0.2,
+            "rule": {
+              "customName": "传世金苹果",
+              "loreJson": [
+                { "text": "雕着陌生纹章的古老金苹果，握在手里沉甸甸的。", "color": "light_purple", "italic": true }
+              ],
+              "rarity": 3
+            }
+          },
+          {
+            "id": "tarnished",
+            "weight": 0.8,
+            "rule": {
+              "customName": "失去光泽的金苹果",
+              "loreJson": [
+                { "text": "表面氧化发暗，抛光之后应该还能恢复原样。", "color": "white", "italic": true }
+              ],
+              "rarity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:enchanted_golden_apple": {
+    "base": {
+      "customName": "附魔金苹果",
+      "loreJson": [
+        { "text": "泛着虹彩的金苹果。传说它曾经是神明的口粮。", "color": "light_purple", "italic": true }
+      ],
+      "rarity": 3
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "intact",
+            "weight": 0.7,
+            "rule": {
+              "customName": "完好的附魔金苹果",
+              "loreJson": [
+                { "text": "光泽没有丝毫损耗，仿佛昨天才被人放进箱子。", "color": "light_purple", "italic": true }
+              ],
+              "rarity": 3
+            }
+          },
+          {
+            "id": "bitten",
+            "weight": 0.3,
+            "rule": {
+              "customName": "被咬过一口的附魔金苹果",
+              "loreJson": [
+                { "text": "缺口处的果肉仍然闪着光。谁舍得只咬一口就放下？", "color": "gold", "italic": true }
+              ],
+              "rarity": 3
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "minecraft:sweet_berries": {
+    "base": {
+      "customName": "Fresh Berries",
+      "loreJson": [
+        { "text": "Sweet and tart, and pleasant enough to eat.", "color": "green", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 0.4,
+            "rule": {
+              "customName": "Not-So-Fresh Berries",
+              "loreJson": [
+                { "text": "Berries that have been stored a long while. Some of them still taste sour.", "color": "blue", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "effects": [
+                  { "id": "minecraft:nausea", "duration": 200, "amplifier": 0, "probability": 0.1 }
+                ]
+              }
+            }
+          },
+          {
+            "id": "rotten",
+            "weight": 0.6,
+            "rule": {
+              "customName": "Spoiled Berries",
+              "loreJson": [
+                { "text": "Berries that have already gone off. I must be out of my mind with hunger to eat these...", "color": "white", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "eatSeconds": 3.2,
+                "effects": [
+                  { "id": "minecraft:nausea", "duration": 400, "amplifier": 0, "probability": 0.9 },
+                  { "id": "minecraft:hunger", "duration": 600, "amplifier": 0, "probability": 0.9 }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:bread": {
+    "base": {
+      "customName": "Bread",
+      "loreJson": [
+        { "text": "Perfectly ordinary bread, and a favourite ration among travellers.", "color": "white", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "pantry",
+            "weight": 0.5,
+            "rule": {
+              "customName": "Bread",
+              "loreJson": [
+                { "text": "Perfectly ordinary bread, and a favourite ration among travellers.", "color": "white", "italic": true }
+              ],
+              "rarity": 0
+            }
+          },
+          {
+            "id": "stale",
+            "weight": 0.5,
+            "rule": {
+              "customName": "Long-Stored Bread",
+              "loreJson": [
+                { "text": "Hard bread that looks like it has been sitting around for ages. It fights back a little on the way down.", "color": "gray", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "eatSeconds": 2.4,
+                "effects": [
+                  { "id": "minecraft:nausea", "duration": 100, "amplifier": 0, "probability": 0.05 }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:apple": {
+    "base": {
+      "customName": "Apple",
+      "loreJson": [
+        { "text": "Shook loose from oak leaves. Crisp, and sweet if you are lucky.", "color": "green", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "polished",
+            "weight": 0.35,
+            "rule": {
+              "customName": "Polished Apple",
+              "loreJson": [
+                { "text": "Nobody knows whose pocket it spent the last while in, but the skin is certainly clean.", "color": "white", "italic": true }
+              ],
+              "rarity": 0
+            }
+          },
+          {
+            "id": "bruised",
+            "weight": 0.65,
+            "rule": {
+              "customName": "Bruised Apple",
+              "loreJson": [
+                { "text": "A few obvious bruises — even so, this is still one of the few fruits an adventurer can count on.", "color": "gray", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "eatSeconds": 2.4
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:cooked_beef": {
+    "base": {
+      "customName": "Steak",
+      "loreJson": [
+        { "text": "Cooked just right. Charred outside, still juicy when you cut into it.", "color": "green", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "well_done",
+            "weight": 0.7,
+            "rule": {
+              "customName": "Well-Done Steak",
+              "loreJson": [
+                { "text": "Left on the fire a bit too long. Tough on the teeth, but it does fill you up.", "color": "white", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "eatSeconds": 2.4
+              }
+            }
+          },
+          {
+            "id": "cold",
+            "weight": 0.3,
+            "rule": {
+              "customName": "Cold Steak",
+              "loreJson": [
+                { "text": "The fat has set into a white layer. There is no telling how many days it has been sitting here.", "color": "gray", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "eatSeconds": 3.2,
+                "effects": [
+                  { "id": "minecraft:nausea", "duration": 200, "amplifier": 0, "probability": 0.15 }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:golden_carrot": {
+    "base": {
+      "customName": "Golden Carrot",
+      "loreJson": [
+        { "text": "A carrot wrapped in a thin sheet of gold. Suspiciously sweet.", "color": "green", "italic": true }
+      ],
+      "rarity": 1
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "gilded",
+            "weight": 0.3,
+            "rule": {
+              "customName": "Heavily Gilded Carrot",
+              "loreJson": [
+                { "text": "Twice the gold leaf of an ordinary one. Probably somebody rich packed this as a snack.", "color": "gold", "italic": true }
+              ],
+              "rarity": 2
+            }
+          },
+          {
+            "id": "chipped",
+            "weight": 0.7,
+            "rule": {
+              "customName": "Flaking Golden Carrot",
+              "loreJson": [
+                { "text": "Most of the gold leaf has peeled away, and what is left looks a little sorry for itself.", "color": "white", "italic": true }
+              ],
+              "rarity": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:rotten_flesh": {
+    "base": {
+      "customName": "Rotten Flesh",
+      "loreJson": [
+        { "text": "It smells in a way that defies description. When you are starving, it is not the worst option.", "color": "gray", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "fresher",
+            "weight": 0.25,
+            "rule": {
+              "customName": "Fairly Fresh Rotten Flesh",
+              "loreJson": [
+                { "text": "Only lightly spoiled. You can even tell which part of the body it came from.", "color": "dark_gray", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "effects": [
+                  { "id": "minecraft:hunger", "duration": 600, "amplifier": 0, "probability": 0.8 }
+                ]
+              }
+            }
+          },
+          {
+            "id": "putrid",
+            "weight": 0.75,
+            "rule": {
+              "customName": "Thoroughly Rotted Meat",
+              "loreJson": [
+                { "text": "Nothing about it looks like meat any more. The flies seem fond of it, though.", "color": "red", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "eatSeconds": 3.2,
+                "effects": [
+                  { "id": "minecraft:hunger", "duration": 600, "amplifier": 0, "probability": 0.9 },
+                  { "id": "minecraft:nausea", "duration": 300, "amplifier": 0, "probability": 0.4 }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:spider_eye": {
+    "base": {
+      "customName": "Spider Eye",
+      "loreJson": [
+        { "text": "It is still looking at you. Whatever happens next is on you.", "color": "red", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "dried",
+            "weight": 0.5,
+            "rule": {
+              "customName": "Dried Spider Eye",
+              "loreJson": [
+                { "text": "The moisture has gone and the venom has concentrated somewhat. The eyeball has shrivelled too.", "color": "dark_red", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "effects": [
+                  { "id": "minecraft:poison", "duration": 100, "amplifier": 1, "probability": 1.0 }
+                ]
+              }
+            }
+          },
+          {
+            "id": "pickled",
+            "weight": 0.5,
+            "rule": {
+              "customName": "Pickled Spider Eye",
+              "loreJson": [
+                { "text": "Preserved in some kind of brine. The venom is weaker, and so is the flavour.", "color": "aqua", "italic": true }
+              ],
+              "rarity": 0,
+              "food": {
+                "effects": [
+                  { "id": "minecraft:poison", "duration": 60, "amplifier": 0, "probability": 0.7 }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:golden_apple": {
+    "base": {
+      "customName": "Golden Apple",
+      "loreJson": [
+        { "text": "Eight gold ingots went into this apple. The sweetness carries a hint of metal.", "color": "gold", "italic": true }
+      ],
+      "rarity": 2
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "rule": {
+          "customName": "Hand-Gilded Apple",
+          "loreJson": [
+            { "text": "The gold leaf is beaten unevenly and the edges curl up a little, but the effort shows.", "color": "gold", "italic": true }
+          ],
+          "rarity": 2
+        }
+      },
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "heirloom",
+            "weight": 0.2,
+            "rule": {
+              "customName": "Heirloom Golden Apple",
+              "loreJson": [
+                { "text": "An old golden apple engraved with an unfamiliar crest. It sits heavy in the hand.", "color": "light_purple", "italic": true }
+              ],
+              "rarity": 3
+            }
+          },
+          {
+            "id": "tarnished",
+            "weight": 0.8,
+            "rule": {
+              "customName": "Tarnished Golden Apple",
+              "loreJson": [
+                { "text": "The surface has dulled with oxidation. A good polish should bring it back.", "color": "white", "italic": true }
+              ],
+              "rarity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:enchanted_golden_apple": {
+    "base": {
+      "customName": "Enchanted Golden Apple",
+      "loreJson": [
+        { "text": "A golden apple shimmering with every colour at once. Supposedly it used to be food for gods.", "color": "light_purple", "italic": true }
+      ],
+      "rarity": 3
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "intact",
+            "weight": 0.7,
+            "rule": {
+              "customName": "Intact Enchanted Golden Apple",
+              "loreJson": [
+                { "text": "Not a trace of wear on the sheen, as though somebody put it in this chest yesterday.", "color": "light_purple", "italic": true }
+              ],
+              "rarity": 3
+            }
+          },
+          {
+            "id": "bitten",
+            "weight": 0.3,
+            "rule": {
+              "customName": "Bitten Enchanted Golden Apple",
+              "loreJson": [
+                { "text": "The flesh at the bite mark is still glowing. Who takes one bite of this and puts it down?", "color": "gold", "italic": true }
+              ],
+              "rarity": 3
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

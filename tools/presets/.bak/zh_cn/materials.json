@@ -1,0 +1,235 @@
+{
+  "minecraft:iron_ingot": {
+    "base": {
+      "customName": "铁锭",
+      "loreJson": [
+        { "text": "成色均匀的标准铁锭，绝大多数工具的基础。", "color": "white", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "SMELTING",
+        "rule": {
+          "customName": "刚出炉的铁锭",
+          "loreJson": [
+            { "text": "还烫手。模具边缘留着一点毛刺，倒铁水的时候急了些。", "color": "green", "italic": true }
+          ],
+          "rarity": 0
+        }
+      },
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stamped",
+            "weight": 0.3,
+            "rule": {
+              "customName": "打上印记的铁锭",
+              "loreJson": [
+                { "text": "侧面压着一个陌生的铸坊标记，成色比寻常铁锭好一些。", "color": "blue", "italic": true }
+              ],
+              "rarity": 1
+            }
+          },
+          {
+            "id": "pitted",
+            "weight": 0.7,
+            "rule": {
+              "customName": "锈蚀的铁锭",
+              "loreJson": [
+                { "text": "表面布满锈斑，重新熔炼之前得先刮一遍。", "color": "dark_gray", "italic": true }
+              ],
+              "rarity": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:diamond": {
+    "base": {
+      "customName": "钻石",
+      "loreJson": [
+        { "text": "地底深处压出来的晶体，棱角割手，光泽冷得发蓝。", "color": "aqua", "italic": true }
+      ],
+      "rarity": 2
+    },
+    "sources": [
+      {
+        "type": "BLOCK_DROP",
+        "lootTableId": "minecraft:blocks/diamond_ore",
+        "rule": {
+          "customName": "原矿钻石",
+          "loreJson": [
+            { "text": "还嵌着一圈母岩，是直接从矿脉上敲下来的。", "color": "aqua", "italic": true }
+          ],
+          "rarity": 2
+        }
+      },
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "flawless",
+            "weight": 0.2,
+            "rule": {
+              "customName": "无瑕钻石",
+              "loreJson": [
+                { "text": "对着光转一圈也找不到任何内含物，这种东西不常见。", "color": "light_purple", "italic": true }
+              ],
+              "rarity": 3
+            }
+          },
+          {
+            "id": "included",
+            "weight": 0.8,
+            "rule": {
+              "customName": "含杂钻石",
+              "loreJson": [
+                { "text": "晶体里裹着一点黑色杂质，硬度还在，就是不太好看。", "color": "white", "italic": true }
+              ],
+              "rarity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:emerald": {
+    "base": {
+      "customName": "绿宝石",
+      "loreJson": [
+        { "text": "村民眼中唯一有价值的东西，绿色比钻石暖一些。", "color": "green", "italic": true }
+      ],
+      "rarity": 2
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "cut",
+            "weight": 0.4,
+            "rule": {
+              "customName": "切割绿宝石",
+              "loreJson": [
+                { "text": "按标准刻面切过，摆在柜台上比原矿好卖得多。", "color": "green", "italic": true }
+              ],
+              "rarity": 2
+            }
+          },
+          {
+            "id": "rough",
+            "weight": 0.6,
+            "rule": {
+              "customName": "粗绿宝石",
+              "loreJson": [
+                { "text": "没有打磨过的原石，边角还带着矿脉的形状。", "color": "white", "italic": true }
+              ],
+              "rarity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:coal": {
+    "base": {
+      "customName": "煤炭",
+      "loreJson": [
+        { "text": "黑乎乎的一块，能烧很久，矿洞里最常见的收获。", "color": "dark_gray", "italic": true }
+      ],
+      "rarity": 0
+    }
+  },
+  "minecraft:amethyst_shard": {
+    "base": {
+      "customName": "紫水晶碎片",
+      "loreJson": [
+        { "text": "从紫水晶母岩上剥下来的碎片，敲一下会发出很轻的响声。", "color": "light_purple", "italic": true }
+      ],
+      "rarity": 2
+    }
+  },
+  "minecraft:netherite_ingot": {
+    "base": {
+      "customName": "下界合金锭",
+      "loreJson": [
+        { "text": "摸上去比钻石沉，扔进岩浆里也不会化，这东西不太讲道理。", "color": "dark_gray", "italic": true }
+      ],
+      "rarity": 3
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "rule": {
+          "customName": "压制成的下界合金锭",
+          "loreJson": [
+            { "text": "四块碎片配四块金锭压成的一块，工序繁琐得让人怀疑值不值得。", "color": "gold", "italic": true }
+          ],
+          "rarity": 3
+        }
+      }
+    ]
+  },
+  "minecraft:nether_star": {
+    "base": {
+      "customName": "下界之星",
+      "loreJson": [
+        { "text": "凋灵倒下之后留在地上的东西。自己就会发光，摸上去还有一点温。", "color": "white", "italic": true }
+      ],
+      "rarity": 3
+    },
+    "sources": [
+      {
+        "type": "ENTITY_DROP",
+        "rule": {
+          "customName": "凋灵的下界之星",
+          "loreJson": [
+            { "text": "从凋灵残骸里取出来的核心，光芒比传闻中更刺眼。", "color": "gold", "italic": true }
+          ],
+          "rarity": 3
+        }
+      }
+    ]
+  },
+  "minecraft:heart_of_the_sea": {
+    "base": {
+      "customName": "海洋之心",
+      "loreJson": [
+        { "text": "一颗一直在渗水的蓝色宝石，握在手里能听见很远的海浪声。", "color": "aqua", "italic": true }
+      ],
+      "rarity": 3
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "charted",
+            "weight": 0.6,
+            "rule": {
+              "customName": "海图标记的海洋之心",
+              "loreJson": [
+                { "text": "照着埋藏宝藏的地图挖出来的那一颗，盒子里还留着沙。", "color": "aqua", "italic": true }
+              ],
+              "rarity": 3
+            }
+          },
+          {
+            "id": "drifted",
+            "weight": 0.4,
+            "rule": {
+              "customName": "漂流而来的海洋之心",
+              "loreJson": [
+                { "text": "外壳沾着干涸的盐粒，不知道在海里泡了多少年。", "color": "blue", "italic": true }
+              ],
+              "rarity": 2
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -9,14 +9,14 @@
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Build](https://github.com/2233DevJian/OriginLore/actions/workflows/build.yml/badge.svg)
 
-OriginLore decides what an item *is* based on where it *came from*. Chest loot, block drops, entity drops, fishing, archaeology, piglin bartering, trial vaults, crafting, smelting, stonecutting, smithing, the anvil and `/give` are each recognised as a distinct source, and every source can carry its own name, lore, rarity, food effects, enchantments, attribute modifiers and tool rules — including weighted random variants rolled the first time an item is created.
+OriginLore decides what an item *is* based on where it *came from*. Chest loot, block drops, entity drops, fishing, archaeology, piglin bartering, gifts, trial vaults, crafting, smelting, stonecutting, smithing, trading, harvesting and `/give` are recognised as distinct sources. Every source can carry its own name, lore, rarity, food effects, enchantments, attribute modifiers and tool rules, including weighted random variants drawn when an item is produced. Repairs, renaming and enchantment operations inherit the main item's identity.
 
 All rule resolution, variant rolls and item refreshing happen on the logical server and are written into **vanilla data components**. Players install nothing: a vanilla client reads and uses the result exactly as if a datapack or a command had written it. The optional client module exists only to give operators an in-game admin GUI and registry-aware tab completion.
 
 ## Highlights
 
 - **Three-tier rule model** — base rule → most specific matching source rule → the variant rolled on first creation. Unfilled fields inherit; they never blank out a value the item already had.
-- **14 recognised sources** with optional loot table / recipe ID matching, plus a safe `UNKNOWN` bucket for legacy items and mod-added creation paths. OriginLore never guesses a source.
+- **15 recognised sources** with optional loot table / recipe ID matching, plus an `UNKNOWN` bucket for legacy items and mod-added creation paths. OriginLore never guesses a source.
 - **Stable random variants** — rolled once, then persisted. Restarts, chunk reloads, splitting, stacking and reconnection never re-roll, and different variants never stack together.
 - **Reversible** — delete a field from the config and the item gets back the exact component patch it had before OriginLore first touched it, instead of being left with an empty value.
 - **Live refresh** — saving the config updates online inventories, ender chests, equipment, open containers, loaded block inventories and item entities incrementally. Unloaded chunks and offline saves are never scanned.
@@ -35,17 +35,19 @@ All rule resolution, variant rolls and item refreshing happen on the logical ser
 
 Target environment is fixed at Minecraft 1.21.1 and Java 21.
 
-Download `originlore-2.1.0.jar` from the [Releases page](https://github.com/2233DevJian/OriginLore/releases) and drop it into the instance's `mods` folder; building from source produces the same artifact in `build/libs`. Deploy that JAR only — never the `-dev` or `-sources` variants. On first launch the mod creates:
+Download `originlore-3.0.0.jar` from the [Releases page](https://github.com/2233DevJian/OriginLore/releases) and drop it into the instance's `mods` folder; building from source produces the same artifact in `build/libs`. Deploy that JAR only — never the `-dev` or `-sources` variants. On first launch the mod creates:
 
 ```text
 config/originlore/item_components.json
 ```
 
+New configurations enable the complete Chinese preset: 1,218 default, non-experimental survival items for Java 1.21.1. Player heads have no vanilla survival acquisition path; bundles require an experimental feature in this version. Base rules add Lore while preserving native names and properties. Existing configurations are retained; `/originlore preset apply vanilla_zh_cn` or `/originlore preset apply vanilla_en_us` adds missing preset entries without replacing existing ones.
+
 ## Quick start
 
 Join a world or server and press `O` to open the admin GUI (rebindable under Options → Controls). Holding an item in your main hand makes `O` jump straight to that item's rule editor instead — creating a new rule with the ID prefilled and locked if none exists yet — while an empty hand opens the item list. The server only sends the config to players at permission level 2+; without permission, without the mod on the server, with an incompatible protocol or while disconnected, editing is disabled rather than silently failing.
 
-> **GUI language:** the admin interface is currently Chinese-only. Source type names are the exception — they come from the game's language file, so they appear in English under `en_us`. The [English user guide](docs/en/USER_GUIDE.md) quotes every on-screen label as the Chinese string with an English gloss, so you can match what you see.
+The item-list language button switches the server's preset-managed text and the requesting administrator's OriginLore interface between Chinese and English. Manual wording and gameplay values are retained. Minecraft's global language and other administrators' interface preferences remain unchanged.
 
 The GUI covers:
 
@@ -62,11 +64,11 @@ Saving always goes to the logical server, including the integrated server of a s
 
 ## Rule model
 
-The config file uses schema v3:
+The config file uses schema v5:
 
 ```json
 {
-  "schemaVersion": 3,
+  "schemaVersion": 5,
   "revision": 0,
   "items": {
     "minecraft:sweet_berries": {
@@ -102,7 +104,8 @@ Supported source types:
 ```text
 BLOCK_DROP  CHEST_LOOT  ENTITY_DROP  FISHING  ARCHAEOLOGY
 BARTER      GIFT        VAULT        COMMAND  CRAFTING
-SMELTING    CUTTING     SMITHING     UNKNOWN
+SMELTING    CUTTING     SMITHING     TRADING  HARVEST
+UNKNOWN
 ```
 
 Legacy items and mod-added creation paths whose origin cannot be traced reliably land in `UNKNOWN`. You can configure `UNKNOWN` like any other source to adopt them in bulk.
@@ -111,6 +114,7 @@ Legacy items and mod-added creation paths whose origin cannot be traced reliably
 
 | Field | Meaning |
 | --- | --- |
+| `itemName` / `itemNameJson` | item name used by preset qualities; player anvil names take priority |
 | `customName` / `customNameJson` | plain-text name, or vanilla Text JSON |
 | `lore` / `loreJson` | plain-text lore lines, or Text JSON lines |
 | `rarityName` | `common`, `uncommon`, `rare`, `epic` |
@@ -119,10 +123,12 @@ Legacy items and mod-added creation paths whose origin cannot be traced reliably
 | `currentDamage` | current durability loss |
 | `fireResistant` | whether the fire-resistant component is present |
 | `enchantments` / `storedEnchantments` | enchantment ID → level map |
-| `food` | nutrition, saturation, eat time, always-edible and chance-based effects |
-| `attributes` | attribute, modifier ID, amount, operation and slot |
-| `attackDamageRange` | extra main-hand attack damage, rolled once and persisted |
-| `tool` | block set, mining speed, correct drops and per-block damage |
+| `food` | fixed or random nutrition, saturation and eat time; always-edible and chance-based effects |
+| `attributes` | attribute, modifier ID, fixed or random amount, operation and slot |
+| `attackDamage` | final unenchanted main-hand attack damage, rolled once and persisted |
+| `attackDamageRange` | legacy compatibility field for additional main-hand attack damage |
+| `projectileDamageMultiplier` | fixed or random damage multiplier for bow, crossbow and trident hits |
+| `tool` | block set, fixed or random mining speed, speed multiplier, correct drops and per-block damage |
 | `customModelData` | custom model data |
 | `hideTooltip` / `hideAdditionalTooltip` | tooltip-hiding components |
 | `setComponents` / `removeComponents` | advanced component JSON, set or remove |
@@ -133,10 +139,11 @@ See [config_example.json](config_example.json) for a full example, and [modpack_
 
 ## Source identity and hot refresh
 
-Adopted items store their source, concrete ID, variant ID, config revision, rolled random values and the original component patch of every managed field under `minecraft:custom_data.originlore`.
+Adopted items store their source, concrete ID, variant ID, config revision, random draw positions and the original component patch of every managed field under `minecraft:custom_data.originlore`. Configuration and item metadata both use version 4. Legacy random records infer their position once from the currently available range; a lost historical range cannot be recovered. See the [migration guide](docs/en/USER_GUIDE.md#16-random-ranges-and-migration).
 
 - Variants are rolled by weight only on first adoption and then survive restarts, duplication, splitting and chunk reloads unchanged.
-- Different variants carry different identities, so they cannot stack by mistake; identical variants stack normally even when one came from a furnace and the other from a smoker, as long as the resulting components match.
+- Different qualities do not stack together. Compatible food of the same item and quality keeps a first-in, first-out record for every serving, including source, random positions and processing risk; the tooltip shows the next serving. Native stack limits remain unchanged.
+- Random-range changes map the saved draw position into the new range. Maximum-durability changes preserve the remaining durability ratio unless current damage is explicitly configured. Weight changes affect future production only.
 - Furnaces, smokers and blast furnaces pause after finishing each OriginLore item and resume only once the output is taken, so the next item is rolled against the newest weights and a single output slot never mixes variants.
 - An item that already has a definite source keeps it when it passes through the `UNKNOWN` fallback; it is never downgraded.
 - After a config save, online player inventories, ender chests, equipment, open containers, loaded block inventories and item entities are refreshed incrementally.

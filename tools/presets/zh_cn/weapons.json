@@ -1,0 +1,2322 @@
+{
+  "minecraft:arrow": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "羽尾还算整齐，射出去不会乱飘。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bow": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的弓",
+              "loreJson": [
+                {
+                  "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。 弓臂弯得不大均匀，弦结倒还牢固，拉满时要留一点余地。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                230,
+                307
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.65,
+                "max": 0.85
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的弓",
+              "loreJson": [
+                {
+                  "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。 两端受力均匀，弦松开的瞬间干脆利落，没有拖泥带水的颤声。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                384,
+                384
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的弓",
+              "loreJson": [
+                {
+                  "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。 弓臂回弹有力，弦道也修得笔直，发射时几乎没有多余的震动。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                422,
+                461
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的弓",
+              "loreJson": [
+                {
+                  "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。 弓臂已经受潮，弦上起了毛，蓄起的力气有一半留在了吱响里。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                115,
+                173
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的弓",
+              "loreJson": [
+                {
+                  "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。 两端受力均匀，弦松开的瞬间干脆利落，没有拖泥带水的颤声。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                384,
+                384
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的弓",
+              "loreJson": [
+                {
+                  "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。 弓臂回弹有力，弦道也修得笔直，发射时几乎没有多余的震动。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                422,
+                461
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "FISHING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的弓",
+              "loreJson": [
+                {
+                  "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。 弓臂已经受潮，弦上起了毛，蓄起的力气有一半留在了吱响里。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                115,
+                173
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的弓",
+              "loreJson": [
+                {
+                  "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。 两端受力均匀，弦松开的瞬间干脆利落，没有拖泥带水的颤声。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                384,
+                384
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的弓",
+              "loreJson": [
+                {
+                  "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。 弓臂回弹有力，弦道也修得笔直，发射时几乎没有多余的震动。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                422,
+                461
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的弓",
+              "loreJson": [
+                {
+                  "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。 弓臂已经受潮，弦上起了毛，蓄起的力气有一半留在了吱响里。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                115,
+                173
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的弓",
+              "loreJson": [
+                {
+                  "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。 两端受力均匀，弦松开的瞬间干脆利落，没有拖泥带水的颤声。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                384,
+                384
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的弓",
+              "loreJson": [
+                {
+                  "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。 弓臂回弹有力，弦道也修得笔直，发射时几乎没有多余的震动。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                422,
+                461
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的弓",
+              "loreJson": [
+                {
+                  "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。 弓臂已经受潮，弦上起了毛，蓄起的力气有一半留在了吱响里。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                115,
+                173
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 33,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的弓",
+              "loreJson": [
+                {
+                  "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。 两端受力均匀，弦松开的瞬间干脆利落，没有拖泥带水的颤声。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                384,
+                384
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 7,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的弓",
+              "loreJson": [
+                {
+                  "text": "紫杉木弯成的弓身，弦绷得不算紧，但足够可靠。 弓臂回弹有力，弦道也修得笔直，发射时几乎没有多余的震动。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                422,
+                461
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:crossbow": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的弩",
+              "loreJson": [
+                {
+                  "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。 弓臂已经受潮，弦上起了毛，蓄起的力气有一半留在了吱响里。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                140,
+                209
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的弩",
+              "loreJson": [
+                {
+                  "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。 两端受力均匀，弦松开的瞬间干脆利落，没有拖泥带水的颤声。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                465,
+                465
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的弩",
+              "loreJson": [
+                {
+                  "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。 弓臂回弹有力，弦道也修得笔直，发射时几乎没有多余的震动。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                512,
+                558
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的弩",
+              "loreJson": [
+                {
+                  "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。 弓臂弯得不大均匀，弦结倒还牢固，拉满时要留一点余地。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                279,
+                372
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.65,
+                "max": 0.85
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的弩",
+              "loreJson": [
+                {
+                  "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。 两端受力均匀，弦松开的瞬间干脆利落，没有拖泥带水的颤声。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                465,
+                465
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的弩",
+              "loreJson": [
+                {
+                  "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。 弓臂回弹有力，弦道也修得笔直，发射时几乎没有多余的震动。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                512,
+                558
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的弩",
+              "loreJson": [
+                {
+                  "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。 弓臂已经受潮，弦上起了毛，蓄起的力气有一半留在了吱响里。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                140,
+                209
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的弩",
+              "loreJson": [
+                {
+                  "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。 两端受力均匀，弦松开的瞬间干脆利落，没有拖泥带水的颤声。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                465,
+                465
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的弩",
+              "loreJson": [
+                {
+                  "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。 弓臂回弹有力，弦道也修得笔直，发射时几乎没有多余的震动。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                512,
+                558
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的弩",
+              "loreJson": [
+                {
+                  "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。 弓臂已经受潮，弦上起了毛，蓄起的力气有一半留在了吱响里。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                140,
+                209
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的弩",
+              "loreJson": [
+                {
+                  "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。 两端受力均匀，弦松开的瞬间干脆利落，没有拖泥带水的颤声。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                465,
+                465
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的弩",
+              "loreJson": [
+                {
+                  "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。 弓臂回弹有力，弦道也修得笔直，发射时几乎没有多余的震动。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                512,
+                558
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的弩",
+              "loreJson": [
+                {
+                  "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。 弓臂已经受潮，弦上起了毛，蓄起的力气有一半留在了吱响里。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                140,
+                209
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 33,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的弩",
+              "loreJson": [
+                {
+                  "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。 两端受力均匀，弦松开的瞬间干脆利落，没有拖泥带水的颤声。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                465,
+                465
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 7,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的弩",
+              "loreJson": [
+                {
+                  "text": "比弓省力，代价是装填慢——所以第一箭最好别浪费。 弓臂回弹有力，弦道也修得笔直，发射时几乎没有多余的震动。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                512,
+                558
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:diamond_sword": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "打磨得极为锋利的钻石刃，光是握着就让人安心。",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的钻石剑",
+              "loreJson": [
+                {
+                  "text": "打磨得极为锋利的钻石刃，光是握着就让人安心。 刃口磕出了缺口，剑身仍直，只是余下的锋口经不起多少次碰撞。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                468,
+                702
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的钻石剑",
+              "loreJson": [
+                {
+                  "text": "打磨得极为锋利的钻石刃，光是握着就让人安心。 刃线磨得笔直，重心落在护手前方，握紧便能稳稳发力。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的钻石剑",
+              "loreJson": [
+                {
+                  "text": "打磨得极为锋利的钻石刃，光是握着就让人安心。 从剑脊到刃口过渡匀净，护手与剑柄贴合得看不见缝隙。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的钻石剑",
+              "loreJson": [
+                {
+                  "text": "打磨得极为锋利的钻石刃，光是握着就让人安心。 剑刃尚未磨匀，柄上的缠线也有些松，挥起来能觉出一点偏重。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                937,
+                1249
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的钻石剑",
+              "loreJson": [
+                {
+                  "text": "打磨得极为锋利的钻石刃，光是握着就让人安心。 刃线磨得笔直，重心落在护手前方，握紧便能稳稳发力。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的钻石剑",
+              "loreJson": [
+                {
+                  "text": "打磨得极为锋利的钻石刃，光是握着就让人安心。 从剑脊到刃口过渡匀净，护手与剑柄贴合得看不见缝隙。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的钻石剑",
+              "loreJson": [
+                {
+                  "text": "打磨得极为锋利的钻石刃，光是握着就让人安心。 刃口磕出了缺口，剑身仍直，只是余下的锋口经不起多少次碰撞。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                468,
+                702
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的钻石剑",
+              "loreJson": [
+                {
+                  "text": "打磨得极为锋利的钻石刃，光是握着就让人安心。 刃线磨得笔直，重心落在护手前方，握紧便能稳稳发力。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的钻石剑",
+              "loreJson": [
+                {
+                  "text": "打磨得极为锋利的钻石刃，光是握着就让人安心。 从剑脊到刃口过渡匀净，护手与剑柄贴合得看不见缝隙。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:fire_charge": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "捏着有点烫手。扔出去会留下一条火线，包括你自己的袖子。",
+          "color": "red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:firework_rocket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "能把你推上一截，顺便照亮夜空。别在低处对着墙用。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:firework_star": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "压好的火药球，炸开是什么颜色全看掺了什么进去。",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:golden_sword": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "纯金打的剑，亮是真亮，软也是真软。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的金剑",
+              "loreJson": [
+                {
+                  "text": "纯金打的剑，亮是真亮，软也是真软。 刃口磕出了缺口，剑身仍直，只是余下的锋口经不起多少次碰撞。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                10,
+                14
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的金剑",
+              "loreJson": [
+                {
+                  "text": "纯金打的剑，亮是真亮，软也是真软。 刃线磨得笔直，重心落在护手前方，握紧便能稳稳发力。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的金剑",
+              "loreJson": [
+                {
+                  "text": "纯金打的剑，亮是真亮，软也是真软。 从剑脊到刃口过渡匀净，护手与剑柄贴合得看不见缝隙。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的金剑",
+              "loreJson": [
+                {
+                  "text": "纯金打的剑，亮是真亮，软也是真软。 剑刃尚未磨匀，柄上的缠线也有些松，挥起来能觉出一点偏重。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                19,
+                26
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的金剑",
+              "loreJson": [
+                {
+                  "text": "纯金打的剑，亮是真亮，软也是真软。 刃线磨得笔直，重心落在护手前方，握紧便能稳稳发力。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的金剑",
+              "loreJson": [
+                {
+                  "text": "纯金打的剑，亮是真亮，软也是真软。 从剑脊到刃口过渡匀净，护手与剑柄贴合得看不见缝隙。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的金剑",
+              "loreJson": [
+                {
+                  "text": "纯金打的剑，亮是真亮，软也是真软。 刃口磕出了缺口，剑身仍直，只是余下的锋口经不起多少次碰撞。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                10,
+                14
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的金剑",
+              "loreJson": [
+                {
+                  "text": "纯金打的剑，亮是真亮，软也是真软。 刃线磨得笔直，重心落在护手前方，握紧便能稳稳发力。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的金剑",
+              "loreJson": [
+                {
+                  "text": "纯金打的剑，亮是真亮，软也是真软。 从剑脊到刃口过渡匀净，护手与剑柄贴合得看不见缝隙。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:iron_sword": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "铁质剑身带着冷硬的分量，剑脊厚实，刃口向两侧收薄。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "剑刃有缺口的铁剑",
+              "loreJson": [
+                {
+                  "text": "铁质剑身带着冷硬的分量，剑脊厚实，刃口向两侧收薄。 刃口磕出了缺口，剑身仍直，只是余下的锋口经不起多少次碰撞。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                75
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "铁匠打造的铁剑",
+              "loreJson": [
+                {
+                  "text": "铁质剑身带着冷硬的分量，剑脊厚实，刃口向两侧收薄。 刃线磨得笔直，重心落在护手前方，握紧便能稳稳发力。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精钢铁剑",
+              "loreJson": [
+                {
+                  "text": "铁质剑身带着冷硬的分量，剑脊厚实，刃口向两侧收薄。 从剑脊到刃口过渡匀净，护手与剑柄贴合得看不见缝隙。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                275
+              ],
+              "attackDamageRange": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 100,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制铁剑",
+              "loreJson": [
+                {
+                  "text": "剑身上还留着深浅不一的锤痕，刃口也磨得不甚齐整。虽然不太趁手，但好在制作较为简单。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                150,
+                200
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "剑刃有缺口的铁剑",
+              "loreJson": [
+                {
+                  "text": "铁质剑身带着冷硬的分量，剑脊厚实，刃口向两侧收薄。 刃口磕出了缺口，剑身仍直，只是余下的锋口经不起多少次碰撞。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                75
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "铁匠打造的铁剑",
+              "loreJson": [
+                {
+                  "text": "铁质剑身带着冷硬的分量，剑脊厚实，刃口向两侧收薄。 刃线磨得笔直，重心落在护手前方，握紧便能稳稳发力。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精钢铁剑",
+              "loreJson": [
+                {
+                  "text": "铁质剑身带着冷硬的分量，剑脊厚实，刃口向两侧收薄。 从剑脊到刃口过渡匀净，护手与剑柄贴合得看不见缝隙。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                275
+              ],
+              "attackDamageRange": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "剑刃有缺口的铁剑",
+              "loreJson": [
+                {
+                  "text": "铁质剑身带着冷硬的分量，剑脊厚实，刃口向两侧收薄。 刃口磕出了缺口，剑身仍直，只是余下的锋口经不起多少次碰撞。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                75
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "铁匠打造的铁剑",
+              "loreJson": [
+                {
+                  "text": "铁质剑身带着冷硬的分量，剑脊厚实，刃口向两侧收薄。 刃线磨得笔直，重心落在护手前方，握紧便能稳稳发力。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精钢铁剑",
+              "loreJson": [
+                {
+                  "text": "铁质剑身带着冷硬的分量，剑脊厚实，刃口向两侧收薄。 从剑脊到刃口过渡匀净，护手与剑柄贴合得看不见缝隙。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                275
+              ],
+              "attackDamageRange": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:mace": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "沉得不讲道理，挥空一次的成本比打中一次还高。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的重锤",
+              "loreJson": [
+                {
+                  "text": "沉得不讲道理，挥空一次的成本比打中一次还高。 握持处还留着粗糙的加工痕迹，接合处敲起来略有空响。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                300,
+                400
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的重锤",
+              "loreJson": [
+                {
+                  "text": "沉得不讲道理，挥空一次的成本比打中一次还高。 接合处紧密牢靠，握在手里分量扎实，发力时不会乱晃。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                500,
+                500
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的重锤",
+              "loreJson": [
+                {
+                  "text": "沉得不讲道理，挥空一次的成本比打中一次还高。 受力的地方留足了余量，握柄也修得合手，细看才见得出工夫。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                550,
+                600
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:netherite_sword": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黑得发亮，掉进岩浆里也捞得回来。这把剑不太在乎环境。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "SMITHING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 65,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的下界合金剑",
+              "loreJson": [
+                {
+                  "text": "黑得发亮，掉进岩浆里也捞得回来。这把剑不太在乎环境。 剑刃尚未磨匀，柄上的缠线也有些松，挥起来能觉出一点偏重。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1219,
+                1625
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              }
+            }
+          },
+          {
+            "id": "damaged",
+            "weight": 10,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的下界合金剑",
+              "loreJson": [
+                {
+                  "text": "黑得发亮，掉进岩浆里也捞得回来。这把剑不太在乎环境。 刃口磕出了缺口，剑身仍直，只是余下的锋口经不起多少次碰撞。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                609,
+                914
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 22,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的下界合金剑",
+              "loreJson": [
+                {
+                  "text": "黑得发亮，掉进岩浆里也捞得回来。这把剑不太在乎环境。 刃线磨得笔直，重心落在护手前方，握紧便能稳稳发力。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                2031,
+                2031
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的下界合金剑",
+              "loreJson": [
+                {
+                  "text": "黑得发亮，掉进岩浆里也捞得回来。这把剑不太在乎环境。 从剑脊到刃口过渡匀净，护手与剑柄贴合得看不见缝隙。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                2234,
+                2437
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:shield": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "一块木板加一块铁，挡住的第一下就回本了。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的盾牌",
+              "loreJson": [
+                {
+                  "text": "一块木板加一块铁，挡住的第一下就回本了。 握持处还留着粗糙的加工痕迹，接合处敲起来略有空响。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                202,
+                269
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的盾牌",
+              "loreJson": [
+                {
+                  "text": "一块木板加一块铁，挡住的第一下就回本了。 接合处紧密牢靠，握在手里分量扎实，发力时不会乱晃。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                336,
+                336
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的盾牌",
+              "loreJson": [
+                {
+                  "text": "一块木板加一块铁，挡住的第一下就回本了。 受力的地方留足了余量，握柄也修得合手，细看才见得出工夫。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                370,
+                403
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的盾牌",
+              "loreJson": [
+                {
+                  "text": "一块木板加一块铁，挡住的第一下就回本了。 迎着冲击的一面伤痕交错，柄与主体之间已经有些松动。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                101,
+                151
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的盾牌",
+              "loreJson": [
+                {
+                  "text": "一块木板加一块铁，挡住的第一下就回本了。 接合处紧密牢靠，握在手里分量扎实，发力时不会乱晃。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                336,
+                336
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的盾牌",
+              "loreJson": [
+                {
+                  "text": "一块木板加一块铁，挡住的第一下就回本了。 受力的地方留足了余量，握柄也修得合手，细看才见得出工夫。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                370,
+                403
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的盾牌",
+              "loreJson": [
+                {
+                  "text": "一块木板加一块铁，挡住的第一下就回本了。 迎着冲击的一面伤痕交错，柄与主体之间已经有些松动。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                101,
+                151
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 33,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的盾牌",
+              "loreJson": [
+                {
+                  "text": "一块木板加一块铁，挡住的第一下就回本了。 接合处紧密牢靠，握在手里分量扎实，发力时不会乱晃。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                336,
+                336
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 7,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的盾牌",
+              "loreJson": [
+                {
+                  "text": "一块木板加一块铁，挡住的第一下就回本了。 受力的地方留足了余量，握柄也修得合手，细看才见得出工夫。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                370,
+                403
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:spectral_arrow": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "被它射中的东西会一直发亮。从此再也藏不住了。",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_sword": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "把石头磨出刃口，笨重是笨重，可在铁之前它是唯一的选择。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的石剑",
+              "loreJson": [
+                {
+                  "text": "把石头磨出刃口，笨重是笨重，可在铁之前它是唯一的选择。 剑刃尚未磨匀，柄上的缠线也有些松，挥起来能觉出一点偏重。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                79,
+                105
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的石剑",
+              "loreJson": [
+                {
+                  "text": "把石头磨出刃口，笨重是笨重，可在铁之前它是唯一的选择。 刃线磨得笔直，重心落在护手前方，握紧便能稳稳发力。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的石剑",
+              "loreJson": [
+                {
+                  "text": "把石头磨出刃口，笨重是笨重，可在铁之前它是唯一的选择。 从剑脊到刃口过渡匀净，护手与剑柄贴合得看不见缝隙。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:trident": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "从溺尸手里抢来的武器，在水里比在岸上好用得多。",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的三叉戟",
+              "loreJson": [
+                {
+                  "text": "从溺尸手里抢来的武器，在水里比在岸上好用得多。 迎着冲击的一面伤痕交错，柄与主体之间已经有些松动。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                113
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的三叉戟",
+              "loreJson": [
+                {
+                  "text": "从溺尸手里抢来的武器，在水里比在岸上好用得多。 接合处紧密牢靠，握在手里分量扎实，发力时不会乱晃。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的三叉戟",
+              "loreJson": [
+                {
+                  "text": "从溺尸手里抢来的武器，在水里比在岸上好用得多。 受力的地方留足了余量，握柄也修得合手，细看才见得出工夫。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "磨损的三叉戟",
+              "loreJson": [
+                {
+                  "text": "从溺尸手里抢来的武器，在水里比在岸上好用得多。 迎着冲击的一面伤痕交错，柄与主体之间已经有些松动。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                113
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 33,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的三叉戟",
+              "loreJson": [
+                {
+                  "text": "从溺尸手里抢来的武器，在水里比在岸上好用得多。 接合处紧密牢靠，握在手里分量扎实，发力时不会乱晃。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 7,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的三叉戟",
+              "loreJson": [
+                {
+                  "text": "从溺尸手里抢来的武器，在水里比在岸上好用得多。 受力的地方留足了余量，握柄也修得合手，细看才见得出工夫。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:wind_charge": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "一小团被压住的风。扔出去能把人推下悬崖，也包括扔的那个人。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:wooden_sword": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "削出来的木剑，握把上还留着木刺。用不了多久就会开裂，但总好过空手。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "手工打制的木剑",
+              "loreJson": [
+                {
+                  "text": "削出来的木剑，握把上还留着木刺。用不了多久就会开裂，但总好过空手。 剑刃尚未磨匀，柄上的缠线也有些松，挥起来能觉出一点偏重。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                47
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "工整的木剑",
+              "loreJson": [
+                {
+                  "text": "削出来的木剑，握把上还留着木刺。用不了多久就会开裂，但总好过空手。 刃线磨得笔直，重心落在护手前方，握紧便能稳稳发力。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "精制的木剑",
+              "loreJson": [
+                {
+                  "text": "削出来的木剑，握把上还留着木刺。用不了多久就会开裂，但总好过空手。 从剑脊到刃口过渡匀净，护手与剑柄贴合得看不见缝隙。",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

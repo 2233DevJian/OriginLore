@@ -1,0 +1,235 @@
+{
+  "minecraft:iron_ingot": {
+    "base": {
+      "customName": "Iron Ingot",
+      "loreJson": [
+        { "text": "A standard ingot of even quality, and the basis of most tools there are.", "color": "white", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "SMELTING",
+        "rule": {
+          "customName": "Freshly Smelted Iron Ingot",
+          "loreJson": [
+            { "text": "Still hot enough to sting. A burr along the mould edge suggests the metal was poured in a hurry.", "color": "green", "italic": true }
+          ],
+          "rarity": 0
+        }
+      },
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stamped",
+            "weight": 0.3,
+            "rule": {
+              "customName": "Stamped Iron Ingot",
+              "loreJson": [
+                { "text": "An unfamiliar foundry mark is pressed into one side, and the metal is a grade better than usual.", "color": "blue", "italic": true }
+              ],
+              "rarity": 1
+            }
+          },
+          {
+            "id": "pitted",
+            "weight": 0.7,
+            "rule": {
+              "customName": "Rusted Iron Ingot",
+              "loreJson": [
+                { "text": "Pitted with rust all over. It needs a good scraping before it goes back in a furnace.", "color": "dark_gray", "italic": true }
+              ],
+              "rarity": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:diamond": {
+    "base": {
+      "customName": "Diamond",
+      "loreJson": [
+        { "text": "A crystal squeezed together far underground. The edges will cut you, and the lustre is cold and blue.", "color": "aqua", "italic": true }
+      ],
+      "rarity": 2
+    },
+    "sources": [
+      {
+        "type": "BLOCK_DROP",
+        "lootTableId": "minecraft:blocks/diamond_ore",
+        "rule": {
+          "customName": "Raw-Cut Diamond",
+          "loreJson": [
+            { "text": "Still seated in a ring of host rock, knocked straight out of the vein.", "color": "aqua", "italic": true }
+          ],
+          "rarity": 2
+        }
+      },
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "flawless",
+            "weight": 0.2,
+            "rule": {
+              "customName": "Flawless Diamond",
+              "loreJson": [
+                { "text": "Turn it once in the light and you cannot find a single inclusion. Stones like this are uncommon.", "color": "light_purple", "italic": true }
+              ],
+              "rarity": 3
+            }
+          },
+          {
+            "id": "included",
+            "weight": 0.8,
+            "rule": {
+              "customName": "Included Diamond",
+              "loreJson": [
+                { "text": "A fleck of black impurity sits inside the crystal. The hardness is still there, it just does not look the part.", "color": "white", "italic": true }
+              ],
+              "rarity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:emerald": {
+    "base": {
+      "customName": "Emerald",
+      "loreJson": [
+        { "text": "The only thing a villager considers to be of any value. Its green is warmer than a diamond's.", "color": "green", "italic": true }
+      ],
+      "rarity": 2
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "cut",
+            "weight": 0.4,
+            "rule": {
+              "customName": "Cut Emerald",
+              "loreJson": [
+                { "text": "Faceted to the standard cut, which makes it far easier to sell over a counter than rough stone.", "color": "green", "italic": true }
+              ],
+              "rarity": 2
+            }
+          },
+          {
+            "id": "rough",
+            "weight": 0.6,
+            "rule": {
+              "customName": "Rough Emerald",
+              "loreJson": [
+                { "text": "An unpolished stone whose edges still hold the shape of the vein it came from.", "color": "white", "italic": true }
+              ],
+              "rarity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:coal": {
+    "base": {
+      "customName": "Coal",
+      "loreJson": [
+        { "text": "A black lump that burns for a long while, and the most common thing you will haul out of a mine.", "color": "dark_gray", "italic": true }
+      ],
+      "rarity": 0
+    }
+  },
+  "minecraft:amethyst_shard": {
+    "base": {
+      "customName": "Amethyst Shard",
+      "loreJson": [
+        { "text": "A shard peeled off a budding amethyst block. Tap it and it gives a very faint ring.", "color": "light_purple", "italic": true }
+      ],
+      "rarity": 2
+    }
+  },
+  "minecraft:netherite_ingot": {
+    "base": {
+      "customName": "Netherite Ingot",
+      "loreJson": [
+        { "text": "Heavier than diamond to the touch and quite happy to sit in lava. The material does not much respect the rules.", "color": "dark_gray", "italic": true }
+      ],
+      "rarity": 3
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "rule": {
+          "customName": "Pressed Netherite Ingot",
+          "loreJson": [
+            { "text": "Four scraps and four gold ingots pressed into one. The process is tedious enough to make you question whether it is worth it.", "color": "gold", "italic": true }
+          ],
+          "rarity": 3
+        }
+      }
+    ]
+  },
+  "minecraft:nether_star": {
+    "base": {
+      "customName": "Nether Star",
+      "loreJson": [
+        { "text": "What the Wither leaves on the ground once it falls. It glows on its own, and it is faintly warm to hold.", "color": "white", "italic": true }
+      ],
+      "rarity": 3
+    },
+    "sources": [
+      {
+        "type": "ENTITY_DROP",
+        "rule": {
+          "customName": "Nether Star of the Wither",
+          "loreJson": [
+            { "text": "The core taken out of the Wither's remains. It glares considerably harder than the stories claim.", "color": "gold", "italic": true }
+          ],
+          "rarity": 3
+        }
+      }
+    ]
+  },
+  "minecraft:heart_of_the_sea": {
+    "base": {
+      "customName": "Heart of the Sea",
+      "loreJson": [
+        { "text": "A blue gem that is permanently damp. Hold it close and you can hear waves a very long way off.", "color": "aqua", "italic": true }
+      ],
+      "rarity": 3
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "charted",
+            "weight": 0.6,
+            "rule": {
+              "customName": "Charted Heart of the Sea",
+              "loreJson": [
+                { "text": "The one you dug up by following a buried treasure map. There is still sand in the box.", "color": "aqua", "italic": true }
+              ],
+              "rarity": 3
+            }
+          },
+          {
+            "id": "drifted",
+            "weight": 0.4,
+            "rule": {
+              "customName": "Drifted Heart of the Sea",
+              "loreJson": [
+                { "text": "Dried salt is crusted over the shell. There is no saying how many years it spent under water.", "color": "blue", "italic": true }
+              ],
+              "rarity": 2
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "minecraft:iron_pickaxe": {
+    "base": {
+      "customName": "手工铁镐",
+      "loreJson": [
+        { "text": "自己敲出来的铁镐，握柄缠了两圈布条防止磨手。", "color": "green", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "reinforced",
+            "weight": 0.25,
+            "rule": {
+              "customName": "加固铁镐",
+              "loreJson": [
+                { "text": "镐头额外包了一层铁片，专门用来对付硬岩层。", "color": "blue", "italic": true }
+              ],
+              "rarity": 1,
+              "maxDamageRange": [300, 360]
+            }
+          },
+          {
+            "id": "worn",
+            "weight": 0.75,
+            "rule": {
+              "customName": "用旧的铁镐",
+              "loreJson": [
+                { "text": "镐尖已经磨圆了，敲石头得多使几分力气。", "color": "gray", "italic": true }
+              ],
+              "rarity": 0,
+              "maxDamageRange": [120, 180]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:flint_and_steel": {
+    "base": {
+      "customName": "打火石与铁片",
+      "loreJson": [
+        { "text": "敲两下就有火星，野外生火最省事的办法。", "color": "white", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "oiled",
+            "weight": 0.4,
+            "rule": {
+              "customName": "上过油的打火石",
+              "loreJson": [
+                { "text": "铁片擦得发亮，一点就着。", "color": "green", "italic": true }
+              ],
+              "rarity": 0
+            }
+          },
+          {
+            "id": "dull",
+            "weight": 0.6,
+            "rule": {
+              "customName": "钝掉的打火石",
+              "loreJson": [
+                { "text": "铁片边缘已经磨平，得多敲几下才肯冒火星。", "color": "gray", "italic": true }
+              ],
+              "rarity": 0,
+              "maxDamageRange": [30, 45]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:fishing_rod": {
+    "base": {
+      "customName": "钓鱼竿",
+      "loreJson": [
+        { "text": "一根竹竿、一段线、一枚钩子，剩下的交给耐心。", "color": "green", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "tackled",
+            "weight": 0.3,
+            "rule": {
+              "customName": "老练渔夫的钓竿",
+              "loreJson": [
+                { "text": "卷线器上了油，鱼钩也换过新的，一看就是常在手里的家伙。", "color": "blue", "italic": true }
+              ],
+              "rarity": 1,
+              "maxDamageRange": [90, 120]
+            }
+          },
+          {
+            "id": "snarled",
+            "weight": 0.7,
+            "rule": {
+              "customName": "缠线的钓竿",
+              "loreJson": [
+                { "text": "鱼线乱成一团，光是解开就得花上半个小时。", "color": "gray", "italic": true }
+              ],
+              "rarity": 0,
+              "maxDamageRange": [30, 50]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:shears": {
+    "base": {
+      "customName": "剪刀",
+      "loreJson": [
+        { "text": "剪羊毛、剪树叶、剪藤蔓。偶尔也用来剪点别的。", "color": "white", "italic": true }
+      ],
+      "rarity": 0
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "sharp",
+            "weight": 0.35,
+            "rule": {
+              "customName": "锋利的剪刀",
+              "loreJson": [
+                { "text": "刃口磨得很薄，剪下去几乎没有阻力。", "color": "green", "italic": true }
+              ],
+              "rarity": 0
+            }
+          },
+          {
+            "id": "rusty",
+            "weight": 0.65,
+            "rule": {
+              "customName": "生锈的剪刀",
+              "loreJson": [
+                { "text": "铰链处锈住了，开合的时候会发出刺耳的声音。", "color": "dark_gray", "italic": true }
+              ],
+              "rarity": 0,
+              "maxDamageRange": [100, 150]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

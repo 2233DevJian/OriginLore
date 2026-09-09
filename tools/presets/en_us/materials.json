@@ -1,0 +1,90 @@
+{
+  "minecraft:amethyst_shard": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A shard peeled off a budding amethyst block. Tap it and it gives a very faint ring.",
+          "color": "light_purple",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:coal": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A black lump that burns for a long while, and the most common thing you will haul out of a mine.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:diamond": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A crystal squeezed together far underground. The edges will cut you, and the lustre is cold and blue.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:emerald": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The only thing a villager considers to be of any value. Its green is warmer than a diamond's.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:heart_of_the_sea": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A blue gem that is permanently damp. Hold it close and you can hear waves a very long way off.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:iron_ingot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A standard ingot of even quality, and the basis of most tools there are.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_star": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "What the Wither leaves on the ground once it falls. It glows on its own, and it is faintly warm to hold.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:netherite_ingot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Heavier than diamond to the touch and quite happy to sit in lava. The material does not much respect the rules.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

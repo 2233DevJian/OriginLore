@@ -1,0 +1,90 @@
+{
+  "minecraft:amethyst_shard": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "从紫水晶母岩上剥下来的碎片，敲一下会发出很轻的响声。",
+          "color": "light_purple",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:coal": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黑乎乎的一块，能烧很久，矿洞里最常见的收获。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:diamond": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "地底深处压出来的晶体，棱角割手，光泽冷得发蓝。",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:emerald": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "村民眼中唯一有价值的东西，绿色比钻石暖一些。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:heart_of_the_sea": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "一颗一直在渗水的蓝色宝石，握在手里能听见很远的海浪声。",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:iron_ingot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "成色均匀的标准铁锭，绝大多数工具的基础。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_star": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "凋灵倒下之后留在地上的东西。自己就会发光，摸上去还有一点温。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:netherite_ingot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "摸上去比钻石沉，扔进岩浆里也不会化，这东西不太讲道理。",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

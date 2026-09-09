@@ -1,0 +1,2322 @@
+{
+  "minecraft:arrow": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The fletching is still even, so it will not wander in flight.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bow": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A yew bow with the string drawn none too tight. Reliable enough all the same.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Bow",
+              "loreJson": [
+                {
+                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. The limbs bend unevenly. The string knots hold, though a full draw leaves little margin.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                230,
+                307
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.65,
+                "max": 0.85
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Bow",
+              "loreJson": [
+                {
+                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Both limbs take the load evenly and release with a clean snap.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                384,
+                384
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Bow",
+              "loreJson": [
+                {
+                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                422,
+                461
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Bow",
+              "loreJson": [
+                {
+                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                115,
+                173
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Bow",
+              "loreJson": [
+                {
+                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Both limbs take the load evenly and release with a clean snap.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                384,
+                384
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Bow",
+              "loreJson": [
+                {
+                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                422,
+                461
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "FISHING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Bow",
+              "loreJson": [
+                {
+                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                115,
+                173
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Bow",
+              "loreJson": [
+                {
+                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Both limbs take the load evenly and release with a clean snap.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                384,
+                384
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Bow",
+              "loreJson": [
+                {
+                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                422,
+                461
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Bow",
+              "loreJson": [
+                {
+                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                115,
+                173
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Bow",
+              "loreJson": [
+                {
+                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Both limbs take the load evenly and release with a clean snap.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                384,
+                384
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Bow",
+              "loreJson": [
+                {
+                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                422,
+                461
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Bow",
+              "loreJson": [
+                {
+                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                115,
+                173
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 33,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Bow",
+              "loreJson": [
+                {
+                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Both limbs take the load evenly and release with a clean snap.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                384,
+                384
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 7,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Bow",
+              "loreJson": [
+                {
+                  "text": "A yew bow with the string drawn none too tight. Reliable enough all the same. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                422,
+                461
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:crossbow": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Crossbow",
+              "loreJson": [
+                {
+                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                140,
+                209
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Crossbow",
+              "loreJson": [
+                {
+                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Both limbs take the load evenly and release with a clean snap.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                465,
+                465
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Crossbow",
+              "loreJson": [
+                {
+                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                512,
+                558
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Crossbow",
+              "loreJson": [
+                {
+                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. The limbs bend unevenly. The string knots hold, though a full draw leaves little margin.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                279,
+                372
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.65,
+                "max": 0.85
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Crossbow",
+              "loreJson": [
+                {
+                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Both limbs take the load evenly and release with a clean snap.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                465,
+                465
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Crossbow",
+              "loreJson": [
+                {
+                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                512,
+                558
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Crossbow",
+              "loreJson": [
+                {
+                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                140,
+                209
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Crossbow",
+              "loreJson": [
+                {
+                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Both limbs take the load evenly and release with a clean snap.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                465,
+                465
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Crossbow",
+              "loreJson": [
+                {
+                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                512,
+                558
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Crossbow",
+              "loreJson": [
+                {
+                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                140,
+                209
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Crossbow",
+              "loreJson": [
+                {
+                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Both limbs take the load evenly and release with a clean snap.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                465,
+                465
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Crossbow",
+              "loreJson": [
+                {
+                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                512,
+                558
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Crossbow",
+              "loreJson": [
+                {
+                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Damp limbs and a fraying string waste their tension in a long creak.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                140,
+                209
+              ],
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 33,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Crossbow",
+              "loreJson": [
+                {
+                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Both limbs take the load evenly and release with a clean snap.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                465,
+                465
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 7,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Crossbow",
+              "loreJson": [
+                {
+                  "text": "Easier on the arms than a bow, at the cost of a slow reload — so the first bolt had better count. Springy limbs and a straight string path send the shot away with little wasted vibration.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                512,
+                558
+              ],
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:diamond_sword": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A diamond blade ground extremely sharp. Reassuring just to hold.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Diamond Sword",
+              "loreJson": [
+                {
+                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                468,
+                702
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Sword",
+              "loreJson": [
+                {
+                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Sword",
+              "loreJson": [
+                {
+                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Diamond Sword",
+              "loreJson": [
+                {
+                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. The edge is uneven and the grip loosely wrapped; each swing pulls a little to one side.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                937,
+                1249
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Sword",
+              "loreJson": [
+                {
+                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Sword",
+              "loreJson": [
+                {
+                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Diamond Sword",
+              "loreJson": [
+                {
+                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                468,
+                702
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Diamond Sword",
+              "loreJson": [
+                {
+                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1561,
+                1561
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Diamond Sword",
+              "loreJson": [
+                {
+                  "text": "A diamond blade ground extremely sharp. Reassuring just to hold. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1717,
+                1873
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:fire_charge": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warm to hold. Throw it and it leaves a trail of fire behind, your own sleeves included.",
+          "color": "red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:firework_rocket": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "It will lift you a good way and light up the sky while it does. Best not used near the ground facing a wall.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:firework_star": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A packed ball of gunpowder. What colour it bursts into depends entirely on what went into it.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:golden_sword": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A sword made of pure gold. Genuinely bright, and genuinely soft.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Golden Sword",
+              "loreJson": [
+                {
+                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                10,
+                14
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Golden Sword",
+              "loreJson": [
+                {
+                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Golden Sword",
+              "loreJson": [
+                {
+                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Golden Sword",
+              "loreJson": [
+                {
+                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. The edge is uneven and the grip loosely wrapped; each swing pulls a little to one side.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                19,
+                26
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Golden Sword",
+              "loreJson": [
+                {
+                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Golden Sword",
+              "loreJson": [
+                {
+                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Golden Sword",
+              "loreJson": [
+                {
+                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                10,
+                14
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Golden Sword",
+              "loreJson": [
+                {
+                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                32,
+                32
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Golden Sword",
+              "loreJson": [
+                {
+                  "text": "A sword made of pure gold. Genuinely bright, and genuinely soft. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                38
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:iron_sword": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Notched Iron Sword",
+              "loreJson": [
+                {
+                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                75
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Smith-forged Iron Sword",
+              "loreJson": [
+                {
+                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Fine Steel Sword",
+              "loreJson": [
+                {
+                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                275
+              ],
+              "attackDamageRange": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 100,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Hand-forged Iron Sword",
+              "loreJson": [
+                {
+                  "text": "Hammer marks of uneven depth remain on the blade, and the edge is far from neatly ground. It is awkward in the hand, but at least it is simple to make.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                150,
+                200
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Notched Iron Sword",
+              "loreJson": [
+                {
+                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                75
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Smith-forged Iron Sword",
+              "loreJson": [
+                {
+                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Fine Steel Sword",
+              "loreJson": [
+                {
+                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                275
+              ],
+              "attackDamageRange": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Notched Iron Sword",
+              "loreJson": [
+                {
+                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                75
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Smith-forged Iron Sword",
+              "loreJson": [
+                {
+                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Fine Steel Sword",
+              "loreJson": [
+                {
+                  "text": "The iron blade has a cold, solid weight, its thick spine tapering to both edges. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                275
+              ],
+              "attackDamageRange": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:mace": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Absurdly heavy — a missed swing costs you more than a landed one.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Mace",
+              "loreJson": [
+                {
+                  "text": "Absurdly heavy — a missed swing costs you more than a landed one. Rough finishing marks remain at the grip, and the joint sounds a little hollow when tapped.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                300,
+                400
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Mace",
+              "loreJson": [
+                {
+                  "text": "Absurdly heavy — a missed swing costs you more than a landed one. A tight joint and a solid grip keep its weight steady under strain.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                500,
+                500
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Mace",
+              "loreJson": [
+                {
+                  "text": "Absurdly heavy — a missed swing costs you more than a landed one. Careful reinforcement and a fitted grip reveal the work only on close inspection.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                550,
+                600
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:netherite_sword": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Black and faintly gleaming, and it can be fished back out of lava. This sword does not much care about its surroundings.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "SMITHING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 65,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Netherite Sword",
+              "loreJson": [
+                {
+                  "text": "Black and faintly gleaming, and it can be fished back out of lava. This sword does not much care about its surroundings. The edge is uneven and the grip loosely wrapped; each swing pulls a little to one side.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                1219,
+                1625
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              }
+            }
+          },
+          {
+            "id": "damaged",
+            "weight": 10,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Netherite Sword",
+              "loreJson": [
+                {
+                  "text": "Black and faintly gleaming, and it can be fished back out of lava. This sword does not much care about its surroundings. Nicks break the edge. The blade is still straight, but its remaining steel will take few more blows.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                609,
+                914
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 22,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Netherite Sword",
+              "loreJson": [
+                {
+                  "text": "Black and faintly gleaming, and it can be fished back out of lava. This sword does not much care about its surroundings. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                2031,
+                2031
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Netherite Sword",
+              "loreJson": [
+                {
+                  "text": "Black and faintly gleaming, and it can be fished back out of lava. This sword does not much care about its surroundings. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                2234,
+                2437
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:shield": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A plank and a lump of iron. The first blow it turns has already paid for it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Shield",
+              "loreJson": [
+                {
+                  "text": "A plank and a lump of iron. The first blow it turns has already paid for it. Rough finishing marks remain at the grip, and the joint sounds a little hollow when tapped.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                202,
+                269
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Shield",
+              "loreJson": [
+                {
+                  "text": "A plank and a lump of iron. The first blow it turns has already paid for it. A tight joint and a solid grip keep its weight steady under strain.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                336,
+                336
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Shield",
+              "loreJson": [
+                {
+                  "text": "A plank and a lump of iron. The first blow it turns has already paid for it. Careful reinforcement and a fitted grip reveal the work only on close inspection.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                370,
+                403
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Shield",
+              "loreJson": [
+                {
+                  "text": "A plank and a lump of iron. The first blow it turns has already paid for it. Scars cross the striking face, and the grip has begun to loosen at its joint.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                101,
+                151
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Shield",
+              "loreJson": [
+                {
+                  "text": "A plank and a lump of iron. The first blow it turns has already paid for it. A tight joint and a solid grip keep its weight steady under strain.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                336,
+                336
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Shield",
+              "loreJson": [
+                {
+                  "text": "A plank and a lump of iron. The first blow it turns has already paid for it. Careful reinforcement and a fitted grip reveal the work only on close inspection.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                370,
+                403
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Shield",
+              "loreJson": [
+                {
+                  "text": "A plank and a lump of iron. The first blow it turns has already paid for it. Scars cross the striking face, and the grip has begun to loosen at its joint.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                101,
+                151
+              ]
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 33,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Shield",
+              "loreJson": [
+                {
+                  "text": "A plank and a lump of iron. The first blow it turns has already paid for it. A tight joint and a solid grip keep its weight steady under strain.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                336,
+                336
+              ]
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 7,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Shield",
+              "loreJson": [
+                {
+                  "text": "A plank and a lump of iron. The first blow it turns has already paid for it. Careful reinforcement and a fitted grip reveal the work only on close inspection.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                370,
+                403
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:spectral_arrow": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Whatever it hits keeps on glowing. Nothing hides after that.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_sword": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A blade ground into stone. Heavy it may be, but before iron it was the only choice there was.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Stone Sword",
+              "loreJson": [
+                {
+                  "text": "A blade ground into stone. Heavy it may be, but before iron it was the only choice there was. The edge is uneven and the grip loosely wrapped; each swing pulls a little to one side.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                79,
+                105
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Stone Sword",
+              "loreJson": [
+                {
+                  "text": "A blade ground into stone. Heavy it may be, but before iron it was the only choice there was. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Stone Sword",
+              "loreJson": [
+                {
+                  "text": "A blade ground into stone. Heavy it may be, but before iron it was the only choice there was. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:trident": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A weapon taken off a drowned, and far better in the water than on dry land.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 80,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Trident",
+              "loreJson": [
+                {
+                  "text": "A weapon taken off a drowned, and far better in the water than on dry land. Scars cross the striking face, and the grip has begun to loosen at its joint.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                113
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 18,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Trident",
+              "loreJson": [
+                {
+                  "text": "A weapon taken off a drowned, and far better in the water than on dry land. A tight joint and a solid grip keep its weight steady under strain.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Trident",
+              "loreJson": [
+                {
+                  "text": "A weapon taken off a drowned, and far better in the water than on dry land. Careful reinforcement and a fitted grip reveal the work only on close inspection.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Trident",
+              "loreJson": [
+                {
+                  "text": "A weapon taken off a drowned, and far better in the water than on dry land. Scars cross the striking face, and the grip has begun to loosen at its joint.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                75,
+                113
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "projectileDamageMultiplier": {
+                "min": 0.55,
+                "max": 0.7
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 33,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Trident",
+              "loreJson": [
+                {
+                  "text": "A weapon taken off a drowned, and far better in the water than on dry land. A tight joint and a solid grip keep its weight steady under strain.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                250,
+                250
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "projectileDamageMultiplier": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 7,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Trident",
+              "loreJson": [
+                {
+                  "text": "A weapon taken off a drowned, and far better in the water than on dry land. Careful reinforcement and a fitted grip reveal the work only on close inspection.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                275,
+                300
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "projectileDamageMultiplier": {
+                "min": 1.05,
+                "max": 1.2
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:wind_charge": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A small pocket of held-in wind. Thrown, it will push someone off a cliff — the thrower included.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:wooden_sword": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A whittled wooden sword, and the grip still has splinters on it. It will crack soon enough, but it beats empty hands.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Wooden Sword",
+              "loreJson": [
+                {
+                  "text": "A whittled wooden sword, and the grip still has splinters on it. It will crack soon enough, but it beats empty hands. The edge is uneven and the grip loosely wrapped; each swing pulls a little to one side.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                47
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Wooden Sword",
+              "loreJson": [
+                {
+                  "text": "A whittled wooden sword, and the grip still has splinters on it. It will crack soon enough, but it beats empty hands. The edge runs true and the balance sits just ahead of the guard, steady in a firm grip.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Wooden Sword",
+              "loreJson": [
+                {
+                  "text": "A whittled wooden sword, and the grip still has splinters on it. It will crack soon enough, but it beats empty hands. The spine tapers cleanly to the edge, and the guard meets the grip without a gap.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

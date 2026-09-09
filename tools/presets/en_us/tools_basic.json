@@ -1,0 +1,1978 @@
+{
+  "minecraft:stone_axe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Stone Axe",
+              "loreJson": [
+                {
+                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Stone Axe",
+              "loreJson": [
+                {
+                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Stone Axe",
+              "loreJson": [
+                {
+                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Stone Axe",
+              "loreJson": [
+                {
+                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                79,
+                105
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Stone Axe",
+              "loreJson": [
+                {
+                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Stone Axe",
+              "loreJson": [
+                {
+                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Stone Axe",
+              "loreJson": [
+                {
+                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Stone Axe",
+              "loreJson": [
+                {
+                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Stone Axe",
+              "loreJson": [
+                {
+                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Stone Axe",
+              "loreJson": [
+                {
+                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Stone Axe",
+              "loreJson": [
+                {
+                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Stone Axe",
+              "loreJson": [
+                {
+                  "text": "A flake knocked into an edge and bound to a wooden haft, and it is considerably heavier than the wooden one. It lasts considerably longer too. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:stone_hoe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Stone Hoe",
+              "loreJson": [
+                {
+                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                79,
+                105
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Stone Hoe",
+              "loreJson": [
+                {
+                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Stone Hoe",
+              "loreJson": [
+                {
+                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Stone Hoe",
+              "loreJson": [
+                {
+                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Stone Hoe",
+              "loreJson": [
+                {
+                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Stone Hoe",
+              "loreJson": [
+                {
+                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Stone Hoe",
+              "loreJson": [
+                {
+                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Stone Hoe",
+              "loreJson": [
+                {
+                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Stone Hoe",
+              "loreJson": [
+                {
+                  "text": "An edge struck off a flake, and it turns soil more cleanly than the wooden hoe. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:stone_pickaxe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Stone Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Stone Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Stone Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Stone Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                79,
+                105
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Stone Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Stone Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Stone Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Stone Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Stone Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Stone Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Stone Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Stone Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A point knapped out of stone, and it looks every bit as rough as that. It is already enough to get iron ore out of the rock. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:stone_shovel": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Stone Shovel",
+              "loreJson": [
+                {
+                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                79,
+                105
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Stone Shovel",
+              "loreJson": [
+                {
+                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Stone Shovel",
+              "loreJson": [
+                {
+                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Stone Shovel",
+              "loreJson": [
+                {
+                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Stone Shovel",
+              "loreJson": [
+                {
+                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Stone Shovel",
+              "loreJson": [
+                {
+                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Stone Shovel",
+              "loreJson": [
+                {
+                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                39,
+                59
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Stone Shovel",
+              "loreJson": [
+                {
+                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                131,
+                131
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Stone Shovel",
+              "loreJson": [
+                {
+                  "text": "A thinned flake for a blade, and it has some real weight behind it. It moves dirt noticeably faster than the wooden one. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                144,
+                157
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:wooden_axe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A blade whittled out of firewood, and it fells trees far faster than bare hands. It goes dull just as quickly.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Wooden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade whittled out of firewood, and it fells trees far faster than bare hands. It goes dull just as quickly. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                18,
+                27
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Wooden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade whittled out of firewood, and it fells trees far faster than bare hands. It goes dull just as quickly. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Wooden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade whittled out of firewood, and it fells trees far faster than bare hands. It goes dull just as quickly. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Wooden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade whittled out of firewood, and it fells trees far faster than bare hands. It goes dull just as quickly. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                47
+              ],
+              "attackDamageRange": {
+                "min": -2,
+                "max": -1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Wooden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade whittled out of firewood, and it fells trees far faster than bare hands. It goes dull just as quickly. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Wooden Axe",
+              "loreJson": [
+                {
+                  "text": "A blade whittled out of firewood, and it fells trees far faster than bare hands. It goes dull just as quickly. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:wooden_hoe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A wooden hoe for breaking up farmland, and it loosens after very little use. The ground still needs turning.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "ARCHAEOLOGY",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 85,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Wooden Hoe",
+              "loreJson": [
+                {
+                  "text": "A wooden hoe for breaking up farmland, and it loosens after very little use. The ground still needs turning. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                18,
+                27
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Wooden Hoe",
+              "loreJson": [
+                {
+                  "text": "A wooden hoe for breaking up farmland, and it loosens after very little use. The ground still needs turning. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Wooden Hoe",
+              "loreJson": [
+                {
+                  "text": "A wooden hoe for breaking up farmland, and it loosens after very little use. The ground still needs turning. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Wooden Hoe",
+              "loreJson": [
+                {
+                  "text": "A wooden hoe for breaking up farmland, and it loosens after very little use. The ground still needs turning. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                47
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Wooden Hoe",
+              "loreJson": [
+                {
+                  "text": "A wooden hoe for breaking up farmland, and it loosens after very little use. The ground still needs turning. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Wooden Hoe",
+              "loreJson": [
+                {
+                  "text": "A wooden hoe for breaking up farmland, and it loosens after very little use. The ground still needs turning. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:wooden_pickaxe": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A pickaxe made of wood, which stretches the word a little. It does still get through stone.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "damaged",
+            "weight": 70,
+            "qualityScore": 0.15,
+            "rule": {
+              "itemName": "Worn Wooden Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A pickaxe made of wood, which stretches the word a little. It does still get through stone. The working edge has rounded off, and cracks in the handle discourage a hard grip.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                18,
+                27
+              ],
+              "attackDamageRange": {
+                "min": -0.5,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.55,
+                  "max": 0.7
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 25,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Wooden Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A pickaxe made of wood, which stretches the word a little. It does still get through stone. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Wooden Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A pickaxe made of wood, which stretches the word a little. It does still get through stone. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Wooden Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A pickaxe made of wood, which stretches the word a little. It does still get through stone. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                47
+              ],
+              "attackDamageRange": {
+                "min": -1,
+                "max": -0.5
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Wooden Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A pickaxe made of wood, which stretches the word a little. It does still get through stone. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Wooden Pickaxe",
+              "loreJson": [
+                {
+                  "text": "A pickaxe made of wood, which stretches the word a little. It does still get through stone. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:wooden_shovel": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A flattened chip of wood lashed to a stick. Enough for dirt, though stone is out of the question.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "handmade",
+            "weight": 85,
+            "qualityScore": 0.3,
+            "rule": {
+              "itemName": "Handmade Wooden Shovel",
+              "loreJson": [
+                {
+                  "text": "A flattened chip of wood lashed to a stick. Enough for dirt, though stone is out of the question. The working end sits slightly off the handle and lacks a fine finish, making each task harder.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                35,
+                47
+              ],
+              "attackDamageRange": {
+                "min": -1.5,
+                "max": -0.75
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 0.65,
+                  "max": 0.85
+                }
+              }
+            }
+          },
+          {
+            "id": "standard",
+            "weight": 13,
+            "qualityScore": 0.5,
+            "rule": {
+              "itemName": "Well-made Wooden Shovel",
+              "loreJson": [
+                {
+                  "text": "A flattened chip of wood lashed to a stick. Enough for dirt, though stone is out of the question. A properly finished working end and a sound handle suit steady everyday work.",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                59,
+                59
+              ],
+              "attackDamageRange": {
+                "min": 0,
+                "max": 0
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          },
+          {
+            "id": "refined",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "rule": {
+              "itemName": "Refined Wooden Shovel",
+              "loreJson": [
+                {
+                  "text": "A flattened chip of wood lashed to a stick. Enough for dirt, though stone is out of the question. An accurately shaped working end and a fitted handle put nearly every effort to use.",
+                  "color": "blue",
+                  "italic": true
+                }
+              ],
+              "maxDamageRange": [
+                65,
+                71
+              ],
+              "attackDamageRange": {
+                "min": 0.5,
+                "max": 1
+              },
+              "tool": {
+                "miningSpeedMultiplier": {
+                  "min": 1.05,
+                  "max": 1.2
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

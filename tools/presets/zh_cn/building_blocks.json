@@ -1,0 +1,46 @@
+{
+  "minecraft:bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "黏土烧成的砖垒起来的方块，壁炉和烟囱的老朋友。",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "锯开的橡木，纹理清楚，是最常见也最好用的建材。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "平平无奇的灰色石头，地下世界最不缺的就是这个。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "切成规整方块再垒起来的石头，比圆石整齐得多。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

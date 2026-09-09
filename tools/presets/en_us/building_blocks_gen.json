@@ -1,0 +1,4457 @@
+{
+  "minecraft:acacia_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The orange-red acacia colour remains distinct. A door two blocks tall that keeps things out, provided you remember to shut it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The orange-red acacia colour remains distinct. Rails nailed into a fence — see-through, not walk-through.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The orange-red acacia colour remains distinct. A gate left in a fence line; latched, it holds as well as the rails do.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The orange-red acacia colour remains distinct. A board hung from chains, so the ground underneath stays clear.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The orange-red acacia colour remains distinct. A log with the bark still on; you can count the rings on the cut end.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The orange-red acacia colour remains distinct. Boards cut with the grain — they hold a nail and stay flat enough for furniture.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The orange-red acacia colour remains distinct. A board for a wall or a post; whatever it says is up to you.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The orange-red acacia colour remains distinct. Plank sawn to half height: cheaper flooring, and it does not creak.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The orange-red acacia colour remains distinct. A stair nailed together from boards, easier than scaffolding for a climb.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The orange-red acacia colour remains distinct. A flat wooden hatch: floor when it is shut, hole when it is not.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:acacia_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The orange-red acacia colour remains distinct. A length of wood with bark on all six faces, closest thing to a standing trunk.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:amethyst_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The bed a cluster grows from; knock it and it rings once.",
+          "color": "light_purple",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:andesite": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Grey-green andesite, rough under the palm and very solid.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:andesite_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Grey-green andesite, rough under the palm and very solid. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:andesite_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Grey-green andesite, rough under the palm and very solid. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:andesite_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Grey-green andesite, rough under the palm and very solid. A low wall that stops a walker and gives you a line to follow.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A bundle of bamboo pressed into a block, lighter than plank.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale yellow bamboo grain runs fine and straight. A door two blocks tall that keeps things out, provided you remember to shut it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale yellow bamboo grain runs fine and straight. Rails nailed into a fence — see-through, not walk-through.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale yellow bamboo grain runs fine and straight. A gate left in a fence line; latched, it holds as well as the rails do.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale yellow bamboo grain runs fine and straight. A board hung from chains, so the ground underneath stays clear.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_mosaic": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bamboo slivers set into a tight pattern; you only find the joins up close.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_mosaic_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bamboo slivers set into a tight pattern; you only find the joins up close. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_mosaic_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bamboo slivers set into a tight pattern; you only find the joins up close. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale yellow bamboo grain runs fine and straight. Boards cut with the grain — they hold a nail and stay flat enough for furniture.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale yellow bamboo grain runs fine and straight. A board for a wall or a post; whatever it says is up to you.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale yellow bamboo grain runs fine and straight. Plank sawn to half height: cheaper flooring, and it does not creak.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale yellow bamboo grain runs fine and straight. A stair nailed together from boards, easier than scaffolding for a climb.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bamboo_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Pale yellow bamboo grain runs fine and straight. A flat wooden hatch: floor when it is shut, hole when it is not.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Birch is pale in colour and fine in grain. A door two blocks tall that keeps things out, provided you remember to shut it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Birch is pale in colour and fine in grain. Rails nailed into a fence — see-through, not walk-through.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Birch is pale in colour and fine in grain. A gate left in a fence line; latched, it holds as well as the rails do.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Birch is pale in colour and fine in grain. A board hung from chains, so the ground underneath stays clear.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Birch is pale in colour and fine in grain. A log with the bark still on; you can count the rings on the cut end.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Birch is pale in colour and fine in grain. Boards cut with the grain — they hold a nail and stay flat enough for furniture.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Birch is pale in colour and fine in grain. A board for a wall or a post; whatever it says is up to you.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Birch is pale in colour and fine in grain. Plank sawn to half height: cheaper flooring, and it does not creak.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Birch is pale in colour and fine in grain. A stair nailed together from boards, easier than scaffolding for a climb.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Birch is pale in colour and fine in grain. A flat wooden hatch: floor when it is shut, hole when it is not.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:birch_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Birch is pale in colour and fine in grain. A length of wood with bark on all six faces, closest thing to a standing trunk.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blackstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Black volcanic rock from the Nether, glossy where it splits.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blackstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Black volcanic rock from the Nether, glossy where it splits. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blackstone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Black volcanic rock from the Nether, glossy where it splits. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:blackstone_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Black volcanic rock from the Nether, glossy where it splits. A low wall that stops a walker and gives you a line to follow.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:bone_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bone pressed into a white block, like a length of fossil dug up.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The brick slab have close-grained material and even edges. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The brick stairs have close-grained material and even edges. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The brick wall have close-grained material and even edges. A low wall that stops a walker and gives you a line to follow.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cherry wood shows a soft pink colour at the cut. A door two blocks tall that keeps things out, provided you remember to shut it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cherry wood shows a soft pink colour at the cut. Rails nailed into a fence — see-through, not walk-through.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cherry wood shows a soft pink colour at the cut. A gate left in a fence line; latched, it holds as well as the rails do.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cherry wood shows a soft pink colour at the cut. A board hung from chains, so the ground underneath stays clear.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cherry wood shows a soft pink colour at the cut. A log with the bark still on; you can count the rings on the cut end.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cherry wood shows a soft pink colour at the cut. Boards cut with the grain — they hold a nail and stay flat enough for furniture.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cherry wood shows a soft pink colour at the cut. A board for a wall or a post; whatever it says is up to you.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cherry wood shows a soft pink colour at the cut. Plank sawn to half height: cheaper flooring, and it does not creak.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cherry wood shows a soft pink colour at the cut. A stair nailed together from boards, easier than scaffolding for a climb.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cherry wood shows a soft pink colour at the cut. A flat wooden hatch: floor when it is shut, hole when it is not.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cherry_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cherry wood shows a soft pink colour at the cut. A length of wood with bark on all six faces, closest thing to a standing trunk.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper with a shallow pattern chiselled into the face, still orange in tone, and it will green with time.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_deepslate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Deepslate chiselled into a fret, usually set over a doorway.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_nether_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Nether brick chiselled with a device, ash settled in the grooves.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_polished_blackstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Blackstone chiselled with a skull — a piglin mark.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_quartz_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Quartz chiselled with a device, usually set at the top of a column.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_red_sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Red sandstone chiselled with the same devices the pale sort carries.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sandstone chiselled with a device, common in desert temples.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_stone_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A square device chiselled into the middle, left there by whoever laid it.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_tuff": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Tuff chiselled with a pattern shallow enough to hold dust.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:chiseled_tuff_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Tuff brick with a device worked into the face.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:coal_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Coal pressed into one block, and it burns far longer loose coal would.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:coal_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A clear coal seam crosses the stone and yields its material under a suitable pick.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobbled_deepslate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Deepslate broken into rubble, black at every fresh edge.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobbled_deepslate_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Deepslate broken into rubble, black at every fresh edge. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobbled_deepslate_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Deepslate broken into rubble, black at every fresh edge. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobbled_deepslate_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Deepslate broken into rubble, black at every fresh edge. A low wall that stops a walker and gives you a line to follow.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobblestone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Broken stone piled into a block, with grit worked into every gap.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobblestone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Broken stone piled into a block, with grit worked into every gap. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobblestone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Broken stone piled into a block, with grit worked into every gap. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cobblestone_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Broken stone piled into a block, with grit worked into every gap. A low wall that stops a walker and gives you a line to follow.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:copper_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper poured into a single block, still orange in tone, and it will green with time.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A door of copper plate, far heavier than a wooden one, still orange in tone, and it will green with time.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper bars woven into a grate, still orange in tone, and it will green with time.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:copper_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper grains are locked in stone and need smelting after they are mined.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A copper hatch that shows almost no seam when shut, still orange in tone, and it will green with time.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cracked_deepslate_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Deepslate brick split wide enough to catch a fingernail.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cracked_deepslate_tiles": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A few tiles have cracked; they tick underfoot.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cracked_nether_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Split nether brick, everywhere on a fortress wall.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cracked_polished_blackstone_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Split blackstone brick, common on the walls of a bastion.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cracked_stone_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cracks running through the brick face — still sound, no longer flat.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Crimson fungal timber has deep red fibres and does not burn. A door two blocks tall that keeps things out, provided you remember to shut it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Crimson fungal timber has deep red fibres and does not burn. Rails nailed into a fence — see-through, not walk-through.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Crimson fungal timber has deep red fibres and does not burn. A gate left in a fence line; latched, it holds as well as the rails do.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Crimson fungal timber has deep red fibres and does not burn. A board hung from chains, so the ground underneath stays clear.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_hyphae": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Crimson fungal timber has deep red fibres and does not burn. The stalk's own skin wrapped all the way round, a shade darker than the stem.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Crimson fungal timber has deep red fibres and does not burn. Boards cut with the grain — they hold a nail and stay flat enough for furniture.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Crimson fungal timber has deep red fibres and does not burn. A board for a wall or a post; whatever it says is up to you.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Crimson fungal timber has deep red fibres and does not burn. Plank sawn to half height: cheaper flooring, and it does not creak.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Crimson fungal timber has deep red fibres and does not burn. A stair nailed together from boards, easier than scaffolding for a climb.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_stem": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Crimson fungal timber has deep red fibres and does not burn. The thick stalk of a nether fungus — dry, stringy fibre inside.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:crimson_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Crimson fungal timber has deep red fibres and does not burn. A flat wooden hatch: floor when it is shut, hole when it is not.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut to a clean edge, still orange in tone, and it will green with time.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut down to half height, still orange in tone, and it will green with time.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper stepped into a stair, still orange in tone, and it will green with time.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cut_red_sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Red sandstone cut to a clean edge.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cut_red_sandstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Red sandstone cut to a clean edge. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cut_sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sandstone cut to a clean edge, tidier than the raw block.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:cut_sandstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sandstone cut to a clean edge, tidier than the raw block. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark oak has a deep colour and clearly shaded grain. A door two blocks tall that keeps things out, provided you remember to shut it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark oak has a deep colour and clearly shaded grain. Rails nailed into a fence — see-through, not walk-through.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark oak has a deep colour and clearly shaded grain. A gate left in a fence line; latched, it holds as well as the rails do.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark oak has a deep colour and clearly shaded grain. A board hung from chains, so the ground underneath stays clear.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark oak has a deep colour and clearly shaded grain. A log with the bark still on; you can count the rings on the cut end.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark oak has a deep colour and clearly shaded grain. Boards cut with the grain — they hold a nail and stay flat enough for furniture.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark oak has a deep colour and clearly shaded grain. A board for a wall or a post; whatever it says is up to you.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark oak has a deep colour and clearly shaded grain. Plank sawn to half height: cheaper flooring, and it does not creak.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark oak has a deep colour and clearly shaded grain. A stair nailed together from boards, easier than scaffolding for a climb.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark oak has a deep colour and clearly shaded grain. A flat wooden hatch: floor when it is shut, hole when it is not.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_oak_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark oak has a deep colour and clearly shaded grain. A length of wood with bark on all six faces, closest thing to a standing trunk.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_prismarine": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The darkest prismarine, with a heavier pattern running through it.",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_prismarine_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The darkest prismarine, with a heavier pattern running through it. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dark_prismarine_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The darkest prismarine, with a heavier pattern running through it. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark rock from far down — heavier than stone and slower to break.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bricks cut from deepslate, far darker than any stone brick. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bricks cut from deepslate, far darker than any stone brick. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bricks cut from deepslate, far darker than any stone brick. A low wall that stops a walker and gives you a line to follow.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bricks cut from deepslate, far darker than any stone brick.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_coal_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Coal grown into deepslate, and harder work to free than the sort above it.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_copper_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper grown into deepslate, and harder work to free than the sort above it.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_diamond_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Diamond grown into deepslate, and harder work to free than the sort above it.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_emerald_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Emerald grown into deepslate, and harder work to free than the sort above it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_gold_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Gold grown into deepslate, and harder work to free than the sort above it.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_iron_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Iron grown into deepslate, and harder work to free than the sort above it.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_lapis_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Lapis lazuli grown into deepslate, and harder work to free than the sort above it.",
+          "color": "blue",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_redstone_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Redstone grown into deepslate, and harder work to free than the sort above it.",
+          "color": "red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_tile_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Narrow tiles laid course on course, flat enough to walk true. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_tile_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Narrow tiles laid course on course, flat enough to walk true. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_tile_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Narrow tiles laid course on course, flat enough to walk true. A low wall that stops a walker and gives you a line to follow.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:deepslate_tiles": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Narrow tiles laid course on course, flat enough to walk true.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:diamond_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Nine diamonds pressed into one; keeping it beats spending it.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:diamond_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A clear diamond seam crosses the stone and yields its material under a suitable pick.",
+          "color": "aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:diorite": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A grey-and-white rock with no pattern worth naming.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:diorite_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A grey-and-white rock with no pattern worth naming. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:diorite_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A grey-and-white rock with no pattern worth naming. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:diorite_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A grey-and-white rock with no pattern worth naming. A low wall that stops a walker and gives you a line to follow.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:dried_kelp_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Kelp dried and pressed; better as fuel than as food.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:emerald_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Nine emeralds pressed into one, which makes villagers more polite.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:emerald_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A clear emerald seam crosses the stone and yields its material under a suitable pick.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:end_stone_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bricks cut from end stone, white enough to look cold. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:end_stone_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bricks cut from end stone, white enough to look cold. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:end_stone_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bricks cut from end stone, white enough to look cold. A low wall that stops a walker and gives you a line to follow.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:end_stone_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bricks cut from end stone, white enough to look cold.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper with a shallow pattern chiselled into the face, the surface dulling, a little green at the edges.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper poured into a single block, the surface dulling, a little green at the edges.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A door of copper plate, far heavier than a wooden one, the surface dulling, a little green at the edges.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper bars woven into a grate, the surface dulling, a little green at the edges.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A copper hatch that shows almost no seam when shut, the surface dulling, a little green at the edges.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut to a clean edge, the surface dulling, a little green at the edges.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut down to half height, the surface dulling, a little green at the edges.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:exposed_cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper stepped into a stair, the surface dulling, a little green at the edges.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gilded_blackstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Gold seeded through blackstone; one swing may still yield nothing.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sand fired until it clears — see straight through it, break it with one blow.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:glass_pane": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Thin glass, cheaper than a full block for filling a window.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gold_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Nine gold ingots pressed together — handsome, and of no real use.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:gold_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Gold grains are locked in stone and need smelting after they are mined.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:granite": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Igneous rock flecked pink, and harder than plain stone.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:granite_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Igneous rock flecked pink, and harder than plain stone. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:granite_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Igneous rock flecked pink, and harder than plain stone. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:granite_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Igneous rock flecked pink, and harder than plain stone. A low wall that stops a walker and gives you a line to follow.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:hay_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Hay pressed into a block: it settles a horse and cushions a long fall.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:honeycomb_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Combs fitted into a block — it smells sweet but does not grip your boots.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:iron_bars": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Iron bars welded into a grille: see through it, not past it.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:iron_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Nine ingots pressed into a block, often used as an anvil in a pinch.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:iron_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A door of iron plate that no bare hand will open — it wants a button or a lever.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:iron_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Iron grains are locked in stone and need smelting after they are mined.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:iron_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "An iron hatch, and like the door it only lifts on a redstone signal.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Jungle timber is reddish brown with visible broad grain. A door two blocks tall that keeps things out, provided you remember to shut it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Jungle timber is reddish brown with visible broad grain. Rails nailed into a fence — see-through, not walk-through.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Jungle timber is reddish brown with visible broad grain. A gate left in a fence line; latched, it holds as well as the rails do.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Jungle timber is reddish brown with visible broad grain. A board hung from chains, so the ground underneath stays clear.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Jungle timber is reddish brown with visible broad grain. A log with the bark still on; you can count the rings on the cut end.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Jungle timber is reddish brown with visible broad grain. Boards cut with the grain — they hold a nail and stay flat enough for furniture.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Jungle timber is reddish brown with visible broad grain. A board for a wall or a post; whatever it says is up to you.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Jungle timber is reddish brown with visible broad grain. Plank sawn to half height: cheaper flooring, and it does not creak.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Jungle timber is reddish brown with visible broad grain. A stair nailed together from boards, easier than scaffolding for a climb.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Jungle timber is reddish brown with visible broad grain. A flat wooden hatch: floor when it is shut, hole when it is not.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:jungle_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Jungle timber is reddish brown with visible broad grain. A length of wood with bark on all six faces, closest thing to a standing trunk.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lapis_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Lapis pressed into a block, blue heavy enough to look sunk.",
+          "color": "blue",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:lapis_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A clear lapis lazuli seam crosses the stone and yields its material under a suitable pick.",
+          "color": "blue",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mangrove has a deep red colour that contrasts with pale stone. A door two blocks tall that keeps things out, provided you remember to shut it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mangrove has a deep red colour that contrasts with pale stone. Rails nailed into a fence — see-through, not walk-through.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mangrove has a deep red colour that contrasts with pale stone. A gate left in a fence line; latched, it holds as well as the rails do.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mangrove has a deep red colour that contrasts with pale stone. A board hung from chains, so the ground underneath stays clear.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mangrove has a deep red colour that contrasts with pale stone. A log with the bark still on; you can count the rings on the cut end.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mangrove has a deep red colour that contrasts with pale stone. Boards cut with the grain — they hold a nail and stay flat enough for furniture.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mangrove has a deep red colour that contrasts with pale stone. A board for a wall or a post; whatever it says is up to you.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mangrove has a deep red colour that contrasts with pale stone. Plank sawn to half height: cheaper flooring, and it does not creak.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mangrove has a deep red colour that contrasts with pale stone. A stair nailed together from boards, easier than scaffolding for a climb.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mangrove has a deep red colour that contrasts with pale stone. A flat wooden hatch: floor when it is shut, hole when it is not.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mangrove_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mangrove has a deep red colour that contrasts with pale stone. A length of wood with bark on all six faces, closest thing to a standing trunk.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_cobblestone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Moss grown through every gap in the rubble, and damp to the touch.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_cobblestone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Moss grown through every gap in the rubble, and damp to the touch. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_cobblestone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Moss grown through every gap in the rubble, and damp to the touch. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_cobblestone_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Moss grown through every gap in the rubble, and damp to the touch. A low wall that stops a walker and gives you a line to follow.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_stone_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Moss has taken the mortar, which tells you this sat outside a long while. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_stone_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Moss has taken the mortar, which tells you this sat outside a long while. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_stone_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Moss has taken the mortar, which tells you this sat outside a long while. A low wall that stops a walker and gives you a line to follow.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mossy_stone_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Moss has taken the mortar, which tells you this sat outside a long while.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mud_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mud dried into brick — light, and ruined by standing water. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mud_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mud dried into brick — light, and ruined by standing water. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mud_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mud dried into brick — light, and ruined by standing water. A low wall that stops a walker and gives you a line to follow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:mud_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mud dried into brick — light, and ruined by standing water.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_brick_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A fence of nether brick, far less willing to burn than a wooden one.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Nether brick fired into a dark block that still feels faintly warm. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Nether brick fired into a dark block that still feels faintly warm. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Nether brick fired into a dark block that still feels faintly warm. A low wall that stops a walker and gives you a line to follow.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Nether brick fired into a dark block that still feels faintly warm.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_gold_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Gold scattered thin through netherrack; one swing knocks out a few nuggets.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:nether_quartz_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Quartz held in netherrack, which splits into something very white.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:netherite_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Nine netherite ingots pressed together, and it will not burn.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Oak has straight yellow-brown grain and a plain colour. A door two blocks tall that keeps things out, provided you remember to shut it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Oak has straight yellow-brown grain and a plain colour. Rails nailed into a fence — see-through, not walk-through.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Oak has straight yellow-brown grain and a plain colour. A gate left in a fence line; latched, it holds as well as the rails do.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Oak has straight yellow-brown grain and a plain colour. A board hung from chains, so the ground underneath stays clear.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Oak has straight yellow-brown grain and a plain colour. A log with the bark still on; you can count the rings on the cut end.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Oak has straight yellow-brown grain and a plain colour. A board for a wall or a post; whatever it says is up to you.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Oak has straight yellow-brown grain and a plain colour. Plank sawn to half height: cheaper flooring, and it does not creak.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Oak has straight yellow-brown grain and a plain colour. A stair nailed together from boards, easier than scaffolding for a climb.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Oak has straight yellow-brown grain and a plain colour. A flat wooden hatch: floor when it is shut, hole when it is not.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oak_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Oak has straight yellow-brown grain and a plain colour. A length of wood with bark on all six faces, closest thing to a standing trunk.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper with a shallow pattern chiselled into the face, rusted green right through.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper poured into a single block, rusted green right through.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A door of copper plate, far heavier than a wooden one, rusted green right through.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper bars woven into a grate, rusted green right through.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A copper hatch that shows almost no seam when shut, rusted green right through.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut to a clean edge, rusted green right through.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut down to half height, rusted green right through.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:oxidized_cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper stepped into a stair, rusted green right through.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:packed_mud": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mud packed hard; once properly dry it will bear a footstep.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_andesite": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Andesite ground even, as though a grey glaze had been laid over it.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_andesite_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Andesite ground even, as though a grey glaze had been laid over it. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_andesite_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Andesite ground even, as though a grey glaze had been laid over it. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Blackstone burnished until it almost shows a face.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bricks cut from blackstone; a whole wall of them stays dark. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bricks cut from blackstone; a whole wall of them stays dark. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bricks cut from blackstone; a whole wall of them stays dark. A low wall that stops a walker and gives you a line to follow.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Bricks cut from blackstone; a whole wall of them stays dark.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Blackstone burnished until it almost shows a face. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Blackstone burnished until it almost shows a face. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_blackstone_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Blackstone burnished until it almost shows a face. A low wall that stops a walker and gives you a line to follow.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_deepslate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Deepslate ground flat, and uniformly black.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_deepslate_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Deepslate ground flat, and uniformly black. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_deepslate_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Deepslate ground flat, and uniformly black. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_deepslate_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Deepslate ground flat, and uniformly black. A low wall that stops a walker and gives you a line to follow.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_diorite": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Diorite polished to a shine, and cold in colour.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_diorite_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Diorite polished to a shine, and cold in colour. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_diorite_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Diorite polished to a shine, and cold in colour. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_granite": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Granite polished until the flecks line up and throw a little light.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_granite_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Granite polished until the flecks line up and throw a little light. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_granite_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Granite polished until the flecks line up and throw a little light. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_tuff": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Tuff ground flat, still that grey-green.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_tuff_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Tuff ground flat, still that grey-green. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_tuff_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Tuff ground flat, still that grey-green. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:polished_tuff_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Tuff ground flat, still that grey-green. A low wall that stops a walker and gives you a line to follow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Stone from an ocean monument, its pattern shifting with the light.",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Prismarine cut into brick, far tidier than the raw block. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Prismarine cut into brick, far tidier than the raw block. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Prismarine cut into brick, far tidier than the raw block.",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Stone from an ocean monument, its pattern shifting with the light. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Stone from an ocean monument, its pattern shifting with the light. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:prismarine_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Stone from an ocean monument, its pattern shifting with the light. A low wall that stops a walker and gives you a line to follow.",
+          "color": "dark_aqua",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purpur_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Chorus fruit fired into purple stone, all over an end city.",
+          "color": "dark_purple",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purpur_pillar": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Purpur turned into a pillar, its grain running upright.",
+          "color": "dark_purple",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purpur_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Chorus fruit fired into purple stone, all over an end city. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "dark_purple",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:purpur_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Chorus fruit fired into purple stone, all over an end city. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "dark_purple",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:quartz_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Nether quartz pressed into a white block, clean of any flaw.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:quartz_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Small bricks cut from quartz, evenly white.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:quartz_pillar": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Quartz turned into a pillar, its grain upright.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:quartz_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Nether quartz pressed into a white block, clean of any flaw. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:quartz_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Nether quartz pressed into a white block, clean of any flaw. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:raw_copper_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Unsmelted copper ore pressed into a block, still bound for the furnace.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:raw_gold_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Unsmelted gold ore pressed into a block, still bound for the furnace.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:raw_iron_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Unsmelted iron ore pressed into a block, still bound for the furnace.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_nether_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Brick fired with nether wart folded in, which reddens it. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_nether_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Brick fired with nether wart folded in, which reddens it. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_nether_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Brick fired with nether wart folded in, which reddens it. A low wall that stops a walker and gives you a line to follow.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_nether_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Brick fired with nether wart folded in, which reddens it.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Red sand pressed into rock, deeper in colour than its pale cousin.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_sandstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Red sand pressed into rock, deeper in colour than its pale cousin. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_sandstone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Red sand pressed into rock, deeper in colour than its pale cousin. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:red_sandstone_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Red sand pressed into rock, deeper in colour than its pale cousin. A low wall that stops a walker and gives you a line to follow.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:redstone_ore": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A clear redstone seam crosses the stone and yields its material under a suitable pick.",
+          "color": "red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sand pressed into rock that still sheds grains under a blade.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sandstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sand pressed into rock that still sheds grains under a blade. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sandstone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sand pressed into rock that still sheds grains under a blade. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sandstone_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sand pressed into rock that still sheds grains under a blade. A low wall that stops a walker and gives you a line to follow.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_quartz": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Quartz ground flat, white as porcelain.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_quartz_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Quartz ground flat, white as porcelain. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_quartz_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Quartz ground flat, white as porcelain. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_red_sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Red sandstone ground smooth, and evenly red.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_red_sandstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Red sandstone ground smooth, and evenly red. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_red_sandstone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Red sandstone ground smooth, and evenly red. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_sandstone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sandstone ground smooth until it feels like pottery.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_sandstone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sandstone ground smooth until it feels like pottery. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_sandstone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sandstone ground smooth until it feels like pottery. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_stone": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Stone ground flat until not a grain is left under the hand.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:smooth_stone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Stone ground flat until not a grain is left under the hand. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:sponge": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sponge pulled from the sea floor, good for drinking up a whole pool.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Spruce has a deep brown colour with close grain along the edge. A door two blocks tall that keeps things out, provided you remember to shut it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Spruce has a deep brown colour with close grain along the edge. Rails nailed into a fence — see-through, not walk-through.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Spruce has a deep brown colour with close grain along the edge. A gate left in a fence line; latched, it holds as well as the rails do.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Spruce has a deep brown colour with close grain along the edge. A board hung from chains, so the ground underneath stays clear.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Spruce has a deep brown colour with close grain along the edge. A log with the bark still on; you can count the rings on the cut end.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Spruce has a deep brown colour with close grain along the edge. Boards cut with the grain — they hold a nail and stay flat enough for furniture.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Spruce has a deep brown colour with close grain along the edge. A board for a wall or a post; whatever it says is up to you.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Spruce has a deep brown colour with close grain along the edge. Plank sawn to half height: cheaper flooring, and it does not creak.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Spruce has a deep brown colour with close grain along the edge. A stair nailed together from boards, easier than scaffolding for a climb.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Spruce has a deep brown colour with close grain along the edge. A flat wooden hatch: floor when it is shut, hole when it is not.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:spruce_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Spruce has a deep brown colour with close grain along the edge. A length of wood with bark on all six faces, closest thing to a standing trunk.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The stone brick slab have close-grained material and even edges. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The stone brick stairs have close-grained material and even edges. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The stone brick wall have close-grained material and even edges. A low wall that stops a walker and gives you a line to follow.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The stone slab have close-grained material and even edges. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stone_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The stone stairs have close-grained material and even edges. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_acacia_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The orange-red acacia colour remains distinct. Bark shaved off a log, leaving paler wood and a smoother face.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_acacia_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "The orange-red acacia colour remains distinct. Wood stripped on all six faces, paler than it was with the bark on.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_bamboo_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A bamboo block with its skin shaved off, paler and flatter than before.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_birch_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Birch is pale in colour and fine in grain. Bark shaved off a log, leaving paler wood and a smoother face.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_birch_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Birch is pale in colour and fine in grain. Wood stripped on all six faces, paler than it was with the bark on.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_cherry_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cherry wood shows a soft pink colour at the cut. Bark shaved off a log, leaving paler wood and a smoother face.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_cherry_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Cherry wood shows a soft pink colour at the cut. Wood stripped on all six faces, paler than it was with the bark on.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_crimson_hyphae": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Crimson fungal timber has deep red fibres and does not burn. Hyphae stripped of their skin, and even in colour afterwards.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_crimson_stem": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Crimson fungal timber has deep red fibres and does not burn. A stalk with its outer skin shaved off, dry fibre underneath.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_dark_oak_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark oak has a deep colour and clearly shaded grain. Bark shaved off a log, leaving paler wood and a smoother face.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_dark_oak_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Dark oak has a deep colour and clearly shaded grain. Wood stripped on all six faces, paler than it was with the bark on.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_jungle_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Jungle timber is reddish brown with visible broad grain. Bark shaved off a log, leaving paler wood and a smoother face.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_jungle_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Jungle timber is reddish brown with visible broad grain. Wood stripped on all six faces, paler than it was with the bark on.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_mangrove_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mangrove has a deep red colour that contrasts with pale stone. Bark shaved off a log, leaving paler wood and a smoother face.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_mangrove_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Mangrove has a deep red colour that contrasts with pale stone. Wood stripped on all six faces, paler than it was with the bark on.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_oak_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Oak has straight yellow-brown grain and a plain colour. Bark shaved off a log, leaving paler wood and a smoother face.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_oak_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Oak has straight yellow-brown grain and a plain colour. Wood stripped on all six faces, paler than it was with the bark on.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_spruce_log": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Spruce has a deep brown colour with close grain along the edge. Bark shaved off a log, leaving paler wood and a smoother face.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_spruce_wood": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Spruce has a deep brown colour with close grain along the edge. Wood stripped on all six faces, paler than it was with the bark on.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_warped_hyphae": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warped timber is blue-green, with dry fireproof fibres. Hyphae stripped of their skin, and even in colour afterwards.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:stripped_warped_stem": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warped timber is blue-green, with dry fireproof fibres. A stalk with its outer skin shaved off, dry fibre underneath.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tinted_glass": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Glass folded with amethyst: light gets through, your view does not.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ash pressed into tuff — light, and it sheds grit when struck.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff_brick_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Small bricks cut from tuff, even in colour. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff_brick_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Small bricks cut from tuff, even in colour. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff_brick_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Small bricks cut from tuff, even in colour. A low wall that stops a walker and gives you a line to follow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff_bricks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Small bricks cut from tuff, even in colour.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ash pressed into tuff — light, and it sheds grit when struck. Cut to half height — handy for a path or for levelling a floor.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ash pressed into tuff — light, and it sheds grit when struck. A stepped block that saves the jump wherever the floor changes height.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:tuff_wall": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Ash pressed into tuff — light, and it sheds grit when struck. A low wall that stops a walker and gives you a line to follow.",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warped timber is blue-green, with dry fireproof fibres. A door two blocks tall that keeps things out, provided you remember to shut it.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_fence": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warped timber is blue-green, with dry fireproof fibres. Rails nailed into a fence — see-through, not walk-through.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_fence_gate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warped timber is blue-green, with dry fireproof fibres. A gate left in a fence line; latched, it holds as well as the rails do.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_hanging_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warped timber is blue-green, with dry fireproof fibres. A board hung from chains, so the ground underneath stays clear.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_hyphae": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warped timber is blue-green, with dry fireproof fibres. The stalk's own skin wrapped all the way round, a shade darker than the stem.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_planks": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warped timber is blue-green, with dry fireproof fibres. Boards cut with the grain — they hold a nail and stay flat enough for furniture.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_sign": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warped timber is blue-green, with dry fireproof fibres. A board for a wall or a post; whatever it says is up to you.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warped timber is blue-green, with dry fireproof fibres. Plank sawn to half height: cheaper flooring, and it does not creak.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warped timber is blue-green, with dry fireproof fibres. A stair nailed together from boards, easier than scaffolding for a climb.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_stem": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warped timber is blue-green, with dry fireproof fibres. The thick stalk of a nether fungus — dry, stringy fibre inside.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:warped_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Warped timber is blue-green, with dry fireproof fibres. A flat wooden hatch: floor when it is shut, hole when it is not.",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper with a shallow pattern chiselled into the face, still orange in tone, and it will green with time — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_copper_block": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper poured into a single block, still orange in tone, and it will green with time — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A door of copper plate, far heavier than a wooden one, still orange in tone, and it will green with time — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper bars woven into a grate, still orange in tone, and it will green with time — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A copper hatch that shows almost no seam when shut, still orange in tone, and it will green with time — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut to a clean edge, still orange in tone, and it will green with time — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut down to half height, still orange in tone, and it will green with time — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper stepped into a stair, still orange in tone, and it will green with time — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper with a shallow pattern chiselled into the face, the surface dulling, a little green at the edges — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper poured into a single block, the surface dulling, a little green at the edges — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A door of copper plate, far heavier than a wooden one, the surface dulling, a little green at the edges — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper bars woven into a grate, the surface dulling, a little green at the edges — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A copper hatch that shows almost no seam when shut, the surface dulling, a little green at the edges — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut to a clean edge, the surface dulling, a little green at the edges — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut down to half height, the surface dulling, a little green at the edges — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_exposed_cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper stepped into a stair, the surface dulling, a little green at the edges — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper with a shallow pattern chiselled into the face, rusted green right through — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper poured into a single block, rusted green right through — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A door of copper plate, far heavier than a wooden one, rusted green right through — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper bars woven into a grate, rusted green right through — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A copper hatch that shows almost no seam when shut, rusted green right through — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut to a clean edge, rusted green right through — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut down to half height, rusted green right through — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper stepped into a stair, rusted green right through — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper with a shallow pattern chiselled into the face, patina spread over most of it — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper poured into a single block, patina spread over most of it — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A door of copper plate, far heavier than a wooden one, patina spread over most of it — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper bars woven into a grate, patina spread over most of it — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A copper hatch that shows almost no seam when shut, patina spread over most of it — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut to a clean edge, patina spread over most of it — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut down to half height, patina spread over most of it — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:waxed_weathered_cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper stepped into a stair, patina spread over most of it — waxed, so it stops here.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_chiseled_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper with a shallow pattern chiselled into the face, patina spread over most of it.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper poured into a single block, patina spread over most of it.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_copper_door": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A door of copper plate, far heavier than a wooden one, patina spread over most of it.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_copper_grate": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper bars woven into a grate, patina spread over most of it.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_copper_trapdoor": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "A copper hatch that shows almost no seam when shut, patina spread over most of it.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_cut_copper": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut to a clean edge, patina spread over most of it.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_cut_copper_slab": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper cut down to half height, patina spread over most of it.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:weathered_cut_copper_stairs": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Copper stepped into a stair, patina spread over most of it.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "minecraft:wet_sponge": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "Sponge heavy with water; it wants the furnace before it is any use.",
+          "color": "yellow",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

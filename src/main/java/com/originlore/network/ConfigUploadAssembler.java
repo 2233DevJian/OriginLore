@@ -50,7 +50,8 @@ public final class ConfigUploadAssembler {
                                       long nowNanos) {
         if (playerId == null || transferId == null) return Result.rejected("missing upload identity");
         expire(nowNanos);
-        String validationError = validateEnvelope(chunkIndex, chunkCount, compressedSize, chunk);
+        String validationError = ChunkEnvelope.validate(chunkIndex, chunkCount, compressedSize, chunk,
+                maxChunkBytes, maxChunkCount, maxCompressedBytes, "upload");
         if (validationError != null) {
             uploads.remove(playerId);
             return Result.rejected(validationError);
@@ -108,19 +109,6 @@ public final class ConfigUploadAssembler {
 
     public synchronized int activeUploads() {
         return uploads.size();
-    }
-
-    private String validateEnvelope(int chunkIndex, int chunkCount, int compressedSize, byte[] chunk) {
-        if (chunkCount < 1 || chunkCount > maxChunkCount) return "invalid upload chunk count";
-        if (chunkIndex < 0 || chunkIndex >= chunkCount) return "invalid upload chunk index";
-        if (compressedSize < 1 || compressedSize > maxCompressedBytes) return "invalid compressed upload size";
-        if (chunk == null || chunk.length < 1 || chunk.length > maxChunkBytes) return "invalid upload chunk size";
-        if (chunkCount != (compressedSize + maxChunkBytes - 1) / maxChunkBytes) {
-            return "upload chunk count does not match its declared size";
-        }
-        int expectedSize = chunkIndex == chunkCount - 1
-                ? compressedSize - maxChunkBytes * (chunkCount - 1) : maxChunkBytes;
-        return chunk.length == expectedSize ? null : "upload chunk has an unexpected length";
     }
 
     private static long elapsed(long now, long then) {

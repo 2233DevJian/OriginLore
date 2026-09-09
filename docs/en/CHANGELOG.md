@@ -2,6 +2,23 @@
 
 # OriginLore Changelog
 
+## v3.0.0 (2026-09-09)
+
+### Added
+
+- Completed source-aware qualities and inheritance, including trading, harvesting, gifts and the player-inventory `UNKNOWN` fallback.
+- Upgraded config schema to v5 and item metadata to v4. Random draw positions survive range changes by mapping into the new range; weight changes affect future production only.
+- Added maximum-durability ratio preservation, maintenance/rename/enchant/grindstone/trim inheritance, and netherite-upgrade mapping for quality and remaining durability.
+- Added per-serving FIFO food records across splitting, stacking, containers, hoppers, item entities, automated crafting, trading and consumption, including ingredient-quality processing, risk retention, honey and persistent cake slices.
+- Added actual hit damage multipliers for bows, crossbows and tridents while preserving native enchantments, tool levels and unmodified attributes.
+- The admin GUI now supports Chinese/English switching, first-use preset activation, vanilla-value defaults in numeric fields, final total attack-damage editing, and fixed dropdown mouse capture.
+- Bundled complete bilingual presets for 1,218 default, non-experimental survival items in Java 1.21.1.
+
+### Tests
+
+- All 91 JUnit tests pass.
+- All 63 GameTests pass.
+- `writePresets`, `build` and `runGametest` completed successfully; the vanilla client was not started.
 ## v2.1.0 (2026-09-04)
 
 ### Added

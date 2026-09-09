@@ -1,0 +1,4802 @@
+{
+  "minecraft:apple": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "从橡树叶子里掉下来的，脆生生的，甜不甜全看运气。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "BLOCK_DROP",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的苹果",
+              "loreJson": [
+                {
+                  "text": "从橡树叶子里掉下来的，脆生生的，甜不甜全看运气。 表皮皱起，磕伤的地方已经发软，水分和清香都少了许多。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 0.84,
+                  "max": 1.44
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的苹果",
+              "loreJson": [
+                {
+                  "text": "从橡树叶子里掉下来的，脆生生的，甜不甜全看运气。 表皮完整，里面还有水分，洗去尘土便能尝到朴素的甜味。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 1.92,
+                  "max": 2.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的苹果",
+              "loreJson": [
+                {
+                  "text": "从橡树叶子里掉下来的，脆生生的，甜不甜全看运气。 表皮饱满，切开汁水充足，清香里没有久放的杂味。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 2.52,
+                  "max": 2.88
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的苹果",
+              "loreJson": [
+                {
+                  "text": "从橡树叶子里掉下来的，脆生生的，甜不甜全看运气。 表皮皱起，磕伤的地方已经发软，水分和清香都少了许多。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 0.84,
+                  "max": 1.44
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的苹果",
+              "loreJson": [
+                {
+                  "text": "从橡树叶子里掉下来的，脆生生的，甜不甜全看运气。 表皮完整，里面还有水分，洗去尘土便能尝到朴素的甜味。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 1.92,
+                  "max": 2.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的苹果",
+              "loreJson": [
+                {
+                  "text": "从橡树叶子里掉下来的，脆生生的，甜不甜全看运气。 表皮饱满，切开汁水充足，清香里没有久放的杂味。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 2.52,
+                  "max": 2.88
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的苹果",
+              "loreJson": [
+                {
+                  "text": "从橡树叶子里掉下来的，脆生生的，甜不甜全看运气。 表皮皱起，磕伤的地方已经发软，水分和清香都少了许多。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 0.84,
+                  "max": 1.44
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的苹果",
+              "loreJson": [
+                {
+                  "text": "从橡树叶子里掉下来的，脆生生的，甜不甜全看运气。 表皮完整，里面还有水分，洗去尘土便能尝到朴素的甜味。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 1.92,
+                  "max": 2.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的苹果",
+              "loreJson": [
+                {
+                  "text": "从橡树叶子里掉下来的，脆生生的，甜不甜全看运气。 表皮饱满，切开汁水充足，清香里没有久放的杂味。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 2.52,
+                  "max": 2.88
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:bread": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "很普通的面包，旅行者们最喜爱的干粮之一。",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的面包",
+              "loreJson": [
+                {
+                  "text": "外皮已经干裂，掰开便落下一把碎屑——作为填饱肚子而言，还算能吃的干粮。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 2.1,
+                  "max": 3.6
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的面包",
+              "loreJson": [
+                {
+                  "text": "很普通的面包，旅行者们最喜爱的干粮之一。 外层收得干爽，掰开还看得见细密的纹理，带在路上不占地方。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.8,
+                  "max": 6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的面包",
+              "loreJson": [
+                {
+                  "text": "很普通的面包，旅行者们最喜爱的干粮之一。 外层酥松，里面的组织细而均匀，余香比寻常干粮留得更久。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 6.3,
+                  "max": 7.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的面包",
+              "loreJson": [
+                {
+                  "text": "外皮已经干裂，掰开便落下一把碎屑——作为填饱肚子而言，还算能吃的干粮。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 2.1,
+                  "max": 3.6
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的面包",
+              "loreJson": [
+                {
+                  "text": "很普通的面包，旅行者们最喜爱的干粮之一。 外层收得干爽，掰开还看得见细密的纹理，带在路上不占地方。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.8,
+                  "max": 6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的面包",
+              "loreJson": [
+                {
+                  "text": "很普通的面包，旅行者们最喜爱的干粮之一。 外层酥松，里面的组织细而均匀，余香比寻常干粮留得更久。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 6.3,
+                  "max": 7.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ],
+        "processing": {
+          "riskRetention": 0.65,
+          "riskFloor": 0.1,
+          "effects": [
+            {
+              "id": "minecraft:hunger",
+              "duration": 300,
+              "amplifier": 0,
+              "probability": 0.6
+            },
+            {
+              "id": "minecraft:nausea",
+              "duration": 120,
+              "amplifier": 0,
+              "probability": 0.25
+            }
+          ]
+        }
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的面包",
+              "loreJson": [
+                {
+                  "text": "外皮已经干裂，掰开便落下一把碎屑——作为填饱肚子而言，还算能吃的干粮。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 2.1,
+                  "max": 3.6
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的面包",
+              "loreJson": [
+                {
+                  "text": "很普通的面包，旅行者们最喜爱的干粮之一。 外层收得干爽，掰开还看得见细密的纹理，带在路上不占地方。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.8,
+                  "max": 6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的面包",
+              "loreJson": [
+                {
+                  "text": "很普通的面包，旅行者们最喜爱的干粮之一。 外层酥松，里面的组织细而均匀，余香比寻常干粮留得更久。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 6.3,
+                  "max": 7.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的面包",
+              "loreJson": [
+                {
+                  "text": "外皮已经干裂，掰开便落下一把碎屑——作为填饱肚子而言，还算能吃的干粮。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 2.1,
+                  "max": 3.6
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的面包",
+              "loreJson": [
+                {
+                  "text": "很普通的面包，旅行者们最喜爱的干粮之一。 外层收得干爽，掰开还看得见细密的纹理，带在路上不占地方。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.8,
+                  "max": 6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的面包",
+              "loreJson": [
+                {
+                  "text": "很普通的面包，旅行者们最喜爱的干粮之一。 外层酥松，里面的组织细而均匀，余香比寻常干粮留得更久。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 6.3,
+                  "max": 7.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:cooked_beef": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "火候刚好，外层焦香，切开还带点汁水。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的牛排",
+              "loreJson": [
+                {
+                  "text": "火候刚好，外层焦香，切开还带点汁水。 外层烤得发硬，油脂结在表面，嚼一口得慢慢等它松开。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.48,
+                  "max": 7.68
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的牛排",
+              "loreJson": [
+                {
+                  "text": "火候刚好，外层焦香，切开还带点汁水。 热气虽已散去，肉纤维还算松软，焦香里没有明显的苦味。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  7,
+                  8
+                ],
+                "saturationRange": {
+                  "min": 10.24,
+                  "max": 12.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的牛排",
+              "loreJson": [
+                {
+                  "text": "火候刚好，外层焦香，切开还带点汁水。 表层薄脆，里面仍含着肉汁，火候停在了最合适的时候。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  8,
+                  9
+                ],
+                "saturationRange": {
+                  "min": 13.44,
+                  "max": 15.36
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的牛排",
+              "loreJson": [
+                {
+                  "text": "火候刚好，外层焦香，切开还带点汁水。 外层烤得发硬，油脂结在表面，嚼一口得慢慢等它松开。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.48,
+                  "max": 7.68
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的牛排",
+              "loreJson": [
+                {
+                  "text": "火候刚好，外层焦香，切开还带点汁水。 热气虽已散去，肉纤维还算松软，焦香里没有明显的苦味。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  7,
+                  8
+                ],
+                "saturationRange": {
+                  "min": 10.24,
+                  "max": 12.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的牛排",
+              "loreJson": [
+                {
+                  "text": "火候刚好，外层焦香，切开还带点汁水。 表层薄脆，里面仍含着肉汁，火候停在了最合适的时候。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  8,
+                  9
+                ],
+                "saturationRange": {
+                  "min": 13.44,
+                  "max": 15.36
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的牛排",
+              "loreJson": [
+                {
+                  "text": "火候刚好，外层焦香，切开还带点汁水。 外层烤得发硬，油脂结在表面，嚼一口得慢慢等它松开。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.48,
+                  "max": 7.68
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的牛排",
+              "loreJson": [
+                {
+                  "text": "火候刚好，外层焦香，切开还带点汁水。 热气虽已散去，肉纤维还算松软，焦香里没有明显的苦味。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  7,
+                  8
+                ],
+                "saturationRange": {
+                  "min": 10.24,
+                  "max": 12.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的牛排",
+              "loreJson": [
+                {
+                  "text": "火候刚好，外层焦香，切开还带点汁水。 表层薄脆，里面仍含着肉汁，火候停在了最合适的时候。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  8,
+                  9
+                ],
+                "saturationRange": {
+                  "min": 13.44,
+                  "max": 15.36
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "SMELTING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的牛排",
+              "loreJson": [
+                {
+                  "text": "火候刚好，外层焦香，切开还带点汁水。 外层烤得发硬，油脂结在表面，嚼一口得慢慢等它松开。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  5
+                ],
+                "saturationRange": {
+                  "min": 4.48,
+                  "max": 7.68
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的牛排",
+              "loreJson": [
+                {
+                  "text": "火候刚好，外层焦香，切开还带点汁水。 热气虽已散去，肉纤维还算松软，焦香里没有明显的苦味。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  7,
+                  8
+                ],
+                "saturationRange": {
+                  "min": 10.24,
+                  "max": 12.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的牛排",
+              "loreJson": [
+                {
+                  "text": "火候刚好，外层焦香，切开还带点汁水。 表层薄脆，里面仍含着肉汁，火候停在了最合适的时候。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  8,
+                  9
+                ],
+                "saturationRange": {
+                  "min": 13.44,
+                  "max": 15.36
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ],
+        "processing": {
+          "riskRetention": 0.35,
+          "riskFloor": 0.05,
+          "effects": [
+            {
+              "id": "minecraft:hunger",
+              "duration": 300,
+              "amplifier": 0,
+              "probability": 0.6
+            },
+            {
+              "id": "minecraft:nausea",
+              "duration": 120,
+              "amplifier": 0,
+              "probability": 0.25
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "minecraft:enchanted_golden_apple": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "泛着虹彩的金苹果。传说它曾经是神明的口粮。",
+          "color": "light_purple",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的附魔金苹果",
+              "loreJson": [
+                {
+                  "text": "泛着虹彩的金苹果。传说它曾经是神明的口粮。 金箔贴得松散，露出的果肉已有干痕，光泽还在，口感却差了。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 3.36,
+                  "max": 5.76
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的附魔金苹果",
+              "loreJson": [
+                {
+                  "text": "泛着虹彩的金苹果。传说它曾经是神明的口粮。 金层包覆完整，里面的果肉没有失水，握在手里沉甸甸的。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 7.68,
+                  "max": 9.6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的附魔金苹果",
+              "loreJson": [
+                {
+                  "text": "泛着虹彩的金苹果。传说它曾经是神明的口粮。 金层压得细密，果肉与光泽都保存得近乎完好，没有一点压伤。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 10.08,
+                  "max": 11.52
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的附魔金苹果",
+              "loreJson": [
+                {
+                  "text": "泛着虹彩的金苹果。传说它曾经是神明的口粮。 金箔贴得松散，露出的果肉已有干痕，光泽还在，口感却差了。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 3.36,
+                  "max": 5.76
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的附魔金苹果",
+              "loreJson": [
+                {
+                  "text": "泛着虹彩的金苹果。传说它曾经是神明的口粮。 金层包覆完整，里面的果肉没有失水，握在手里沉甸甸的。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 7.68,
+                  "max": 9.6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的附魔金苹果",
+              "loreJson": [
+                {
+                  "text": "泛着虹彩的金苹果。传说它曾经是神明的口粮。 金层压得细密，果肉与光泽都保存得近乎完好，没有一点压伤。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 10.08,
+                  "max": 11.52
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:golden_apple": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "八块金锭换来的苹果，甜味里带着一点金属的气息。",
+          "color": "gold",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的金苹果",
+              "loreJson": [
+                {
+                  "text": "八块金锭换来的苹果，甜味里带着一点金属的气息。 金箔贴得松散，露出的果肉已有干痕，光泽还在，口感却差了。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 3.36,
+                  "max": 5.76
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的金苹果",
+              "loreJson": [
+                {
+                  "text": "八块金锭换来的苹果，甜味里带着一点金属的气息。 金层包覆完整，里面的果肉没有失水，握在手里沉甸甸的。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 7.68,
+                  "max": 9.6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的金苹果",
+              "loreJson": [
+                {
+                  "text": "八块金锭换来的苹果，甜味里带着一点金属的气息。 金层压得细密，果肉与光泽都保存得近乎完好，没有一点压伤。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 10.08,
+                  "max": 11.52
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的金苹果",
+              "loreJson": [
+                {
+                  "text": "八块金锭换来的苹果，甜味里带着一点金属的气息。 金箔贴得松散，露出的果肉已有干痕，光泽还在，口感却差了。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 3.36,
+                  "max": 5.76
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的金苹果",
+              "loreJson": [
+                {
+                  "text": "八块金锭换来的苹果，甜味里带着一点金属的气息。 金层包覆完整，里面的果肉没有失水，握在手里沉甸甸的。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 7.68,
+                  "max": 9.6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的金苹果",
+              "loreJson": [
+                {
+                  "text": "八块金锭换来的苹果，甜味里带着一点金属的气息。 金层压得细密，果肉与光泽都保存得近乎完好，没有一点压伤。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 10.08,
+                  "max": 11.52
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ],
+        "processing": {
+          "riskRetention": 0.65,
+          "riskFloor": 0.1,
+          "effects": [
+            {
+              "id": "minecraft:hunger",
+              "duration": 300,
+              "amplifier": 0,
+              "probability": 0.6
+            },
+            {
+              "id": "minecraft:nausea",
+              "duration": 120,
+              "amplifier": 0,
+              "probability": 0.25
+            }
+          ]
+        }
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的金苹果",
+              "loreJson": [
+                {
+                  "text": "八块金锭换来的苹果，甜味里带着一点金属的气息。 金箔贴得松散，露出的果肉已有干痕，光泽还在，口感却差了。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 3.36,
+                  "max": 5.76
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的金苹果",
+              "loreJson": [
+                {
+                  "text": "八块金锭换来的苹果，甜味里带着一点金属的气息。 金层包覆完整，里面的果肉没有失水，握在手里沉甸甸的。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 7.68,
+                  "max": 9.6
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的金苹果",
+              "loreJson": [
+                {
+                  "text": "八块金锭换来的苹果，甜味里带着一点金属的气息。 金层压得细密，果肉与光泽都保存得近乎完好，没有一点压伤。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 10.08,
+                  "max": 11.52
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": true,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:golden_carrot": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "薄薄一层金箔裹着胡萝卜，甜得有点不真实。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的金胡萝卜",
+              "loreJson": [
+                {
+                  "text": "薄薄一层金箔裹着胡萝卜，甜得有点不真实。 金箔贴得松散，露出的果肉已有干痕，光泽还在，口感却差了。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 5.04,
+                  "max": 8.64
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的金胡萝卜",
+              "loreJson": [
+                {
+                  "text": "薄薄一层金箔裹着胡萝卜，甜得有点不真实。 金层包覆完整，里面的果肉没有失水，握在手里沉甸甸的。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 11.52,
+                  "max": 14.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的金胡萝卜",
+              "loreJson": [
+                {
+                  "text": "薄薄一层金箔裹着胡萝卜，甜得有点不真实。 金层压得细密，果肉与光泽都保存得近乎完好，没有一点压伤。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  6,
+                  7
+                ],
+                "saturationRange": {
+                  "min": 15.12,
+                  "max": 17.28
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CRAFTING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的金胡萝卜",
+              "loreJson": [
+                {
+                  "text": "薄薄一层金箔裹着胡萝卜，甜得有点不真实。 金箔贴得松散，露出的果肉已有干痕，光泽还在，口感却差了。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 5.04,
+                  "max": 8.64
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的金胡萝卜",
+              "loreJson": [
+                {
+                  "text": "薄薄一层金箔裹着胡萝卜，甜得有点不真实。 金层包覆完整，里面的果肉没有失水，握在手里沉甸甸的。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 11.52,
+                  "max": 14.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的金胡萝卜",
+              "loreJson": [
+                {
+                  "text": "薄薄一层金箔裹着胡萝卜，甜得有点不真实。 金层压得细密，果肉与光泽都保存得近乎完好，没有一点压伤。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  6,
+                  7
+                ],
+                "saturationRange": {
+                  "min": 15.12,
+                  "max": 17.28
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ],
+        "processing": {
+          "riskRetention": 0.65,
+          "riskFloor": 0.1,
+          "effects": [
+            {
+              "id": "minecraft:hunger",
+              "duration": 300,
+              "amplifier": 0,
+              "probability": 0.6
+            },
+            {
+              "id": "minecraft:nausea",
+              "duration": 120,
+              "amplifier": 0,
+              "probability": 0.25
+            }
+          ]
+        }
+      },
+      {
+        "type": "TRADING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 60,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的金胡萝卜",
+              "loreJson": [
+                {
+                  "text": "薄薄一层金箔裹着胡萝卜，甜得有点不真实。 金箔贴得松散，露出的果肉已有干痕，光泽还在，口感却差了。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 5.04,
+                  "max": 8.64
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 35,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的金胡萝卜",
+              "loreJson": [
+                {
+                  "text": "薄薄一层金箔裹着胡萝卜，甜得有点不真实。 金层包覆完整，里面的果肉没有失水，握在手里沉甸甸的。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 11.52,
+                  "max": 14.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的金胡萝卜",
+              "loreJson": [
+                {
+                  "text": "薄薄一层金箔裹着胡萝卜，甜得有点不真实。 金层压得细密，果肉与光泽都保存得近乎完好，没有一点压伤。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  6,
+                  7
+                ],
+                "saturationRange": {
+                  "min": 15.12,
+                  "max": 17.28
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "VAULT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的金胡萝卜",
+              "loreJson": [
+                {
+                  "text": "薄薄一层金箔裹着胡萝卜，甜得有点不真实。 金箔贴得松散，露出的果肉已有干痕，光泽还在，口感却差了。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 5.04,
+                  "max": 8.64
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 30,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的金胡萝卜",
+              "loreJson": [
+                {
+                  "text": "薄薄一层金箔裹着胡萝卜，甜得有点不真实。 金层包覆完整，里面的果肉没有失水，握在手里沉甸甸的。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  5,
+                  6
+                ],
+                "saturationRange": {
+                  "min": 11.52,
+                  "max": 14.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 5,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的金胡萝卜",
+              "loreJson": [
+                {
+                  "text": "薄薄一层金箔裹着胡萝卜，甜得有点不真实。 金层压得细密，果肉与光泽都保存得近乎完好，没有一点压伤。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  6,
+                  7
+                ],
+                "saturationRange": {
+                  "min": 15.12,
+                  "max": 17.28
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:rotten_flesh": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "散发着难以形容的气味。饿到极致的时候，它也不算太差。",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的腐肉",
+              "loreJson": [
+                {
+                  "text": "散发着难以形容的气味。饿到极致的时候，它也不算太差。 颜色已经深得不自然，气味也更浓烈，吃下去恐怕要付出些代价。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 0.28,
+                  "max": 0.48
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的腐肉",
+              "loreJson": [
+                {
+                  "text": "散发着难以形容的气味。饿到极致的时候，它也不算太差。 还能辨出原来的形状，但那股刺鼻的味道说明它本就不是好食材。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.64,
+                  "max": 0.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的腐肉",
+              "loreJson": [
+                {
+                  "text": "散发着难以形容的气味。饿到极致的时候，它也不算太差。 保存得相对完整，危险的成分却不会因为看着干净就消失。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.84,
+                  "max": 0.96
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的腐肉",
+              "loreJson": [
+                {
+                  "text": "散发着难以形容的气味。饿到极致的时候，它也不算太差。 颜色已经深得不自然，气味也更浓烈，吃下去恐怕要付出些代价。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 0.28,
+                  "max": 0.48
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的腐肉",
+              "loreJson": [
+                {
+                  "text": "散发着难以形容的气味。饿到极致的时候，它也不算太差。 还能辨出原来的形状，但那股刺鼻的味道说明它本就不是好食材。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.64,
+                  "max": 0.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的腐肉",
+              "loreJson": [
+                {
+                  "text": "散发着难以形容的气味。饿到极致的时候，它也不算太差。 保存得相对完整，危险的成分却不会因为看着干净就消失。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.84,
+                  "max": 0.96
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "FISHING",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的腐肉",
+              "loreJson": [
+                {
+                  "text": "散发着难以形容的气味。饿到极致的时候，它也不算太差。 颜色已经深得不自然，气味也更浓烈，吃下去恐怕要付出些代价。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 0.28,
+                  "max": 0.48
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的腐肉",
+              "loreJson": [
+                {
+                  "text": "散发着难以形容的气味。饿到极致的时候，它也不算太差。 还能辨出原来的形状，但那股刺鼻的味道说明它本就不是好食材。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.64,
+                  "max": 0.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的腐肉",
+              "loreJson": [
+                {
+                  "text": "散发着难以形容的气味。饿到极致的时候，它也不算太差。 保存得相对完整，危险的成分却不会因为看着干净就消失。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.84,
+                  "max": 0.96
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "GIFT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的腐肉",
+              "loreJson": [
+                {
+                  "text": "散发着难以形容的气味。饿到极致的时候，它也不算太差。 颜色已经深得不自然，气味也更浓烈，吃下去恐怕要付出些代价。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  3
+                ],
+                "saturationRange": {
+                  "min": 0.28,
+                  "max": 0.48
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的腐肉",
+              "loreJson": [
+                {
+                  "text": "散发着难以形容的气味。饿到极致的时候，它也不算太差。 还能辨出原来的形状，但那股刺鼻的味道说明它本就不是好食材。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  3,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.64,
+                  "max": 0.8
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的腐肉",
+              "loreJson": [
+                {
+                  "text": "散发着难以形容的气味。饿到极致的时候，它也不算太差。 保存得相对完整，危险的成分却不会因为看着干净就消失。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  4,
+                  4
+                ],
+                "saturationRange": {
+                  "min": 0.84,
+                  "max": 0.96
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:spider_eye": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "仍然盯着你看。吃下去的后果自负。",
+          "color": "red",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的蜘蛛眼",
+              "loreJson": [
+                {
+                  "text": "仍然盯着你看。吃下去的后果自负。 颜色已经深得不自然，气味也更浓烈，吃下去恐怕要付出些代价。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 1.12,
+                  "max": 1.92
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的蜘蛛眼",
+              "loreJson": [
+                {
+                  "text": "仍然盯着你看。吃下去的后果自负。 还能辨出原来的形状，但那股刺鼻的味道说明它本就不是好食材。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 2.56,
+                  "max": 3.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的蜘蛛眼",
+              "loreJson": [
+                {
+                  "text": "仍然盯着你看。吃下去的后果自负。 保存得相对完整，危险的成分却不会因为看着干净就消失。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 3.36,
+                  "max": 3.84
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_DROP",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的蜘蛛眼",
+              "loreJson": [
+                {
+                  "text": "仍然盯着你看。吃下去的后果自负。 颜色已经深得不自然，气味也更浓烈，吃下去恐怕要付出些代价。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 1.12,
+                  "max": 1.92
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.65
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的蜘蛛眼",
+              "loreJson": [
+                {
+                  "text": "仍然盯着你看。吃下去的后果自负。 还能辨出原来的形状，但那股刺鼻的味道说明它本就不是好食材。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 2.56,
+                  "max": 3.2
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的蜘蛛眼",
+              "loreJson": [
+                {
+                  "text": "仍然盯着你看。吃下去的后果自负。 保存得相对完整，危险的成分却不会因为看着干净就消失。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 3.36,
+                  "max": 3.84
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "minecraft:sweet_berries": {
+    "base": {
+      "loreJson": [
+        {
+          "text": "酸甜可口的浆果，吃起来不错。",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "type": "BLOCK_DROP",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的甜浆果",
+              "loreJson": [
+                {
+                  "text": "酸甜可口的浆果，吃起来不错。 表皮皱起，磕伤的地方已经发软，水分和清香都少了许多。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.14,
+                  "max": 0.24
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的甜浆果",
+              "loreJson": [
+                {
+                  "text": "酸甜可口的浆果，吃起来不错。 表皮完整，里面还有水分，洗去尘土便能尝到朴素的甜味。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 0.32,
+                  "max": 0.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的甜浆果",
+              "loreJson": [
+                {
+                  "text": "酸甜可口的浆果，吃起来不错。 表皮饱满，切开汁水充足，清香里没有久放的杂味。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 0.42,
+                  "max": 0.48
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "CHEST_LOOT",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 75,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的甜浆果",
+              "loreJson": [
+                {
+                  "text": "酸甜可口的浆果，吃起来不错。 表皮皱起，磕伤的地方已经发软，水分和清香都少了许多。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.14,
+                  "max": 0.24
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 23,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的甜浆果",
+              "loreJson": [
+                {
+                  "text": "酸甜可口的浆果，吃起来不错。 表皮完整，里面还有水分，洗去尘土便能尝到朴素的甜味。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 0.32,
+                  "max": 0.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 2,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的甜浆果",
+              "loreJson": [
+                {
+                  "text": "酸甜可口的浆果，吃起来不错。 表皮饱满，切开汁水充足，清香里没有久放的杂味。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 0.42,
+                  "max": 0.48
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "HARVEST",
+        "variants": [
+          {
+            "id": "stale",
+            "weight": 65,
+            "qualityScore": 0.15,
+            "spoilage": 0.8,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 1.8
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 0.35
+              }
+            ],
+            "rule": {
+              "itemName": "放陈的甜浆果",
+              "loreJson": [
+                {
+                  "text": "酸甜可口的浆果，吃起来不错。 表皮皱起，磕伤的地方已经发软，水分和清香都少了许多。",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  1,
+                  1
+                ],
+                "saturationRange": {
+                  "min": 0.14,
+                  "max": 0.24
+                },
+                "eatSecondsRange": {
+                  "min": 2.16,
+                  "max": 2.72
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": [
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 400,
+                    "amplifier": 0,
+                    "probability": 0.35
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 160,
+                    "amplifier": 0,
+                    "probability": 0.15
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "ordinary",
+            "weight": 32,
+            "qualityScore": 0.5,
+            "spoilage": 0.25,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.7
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 1.2
+              }
+            ],
+            "rule": {
+              "itemName": "寻常的甜浆果",
+              "loreJson": [
+                {
+                  "text": "酸甜可口的浆果，吃起来不错。 表皮完整，里面还有水分，洗去尘土便能尝到朴素的甜味。",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 0.32,
+                  "max": 0.4
+                },
+                "eatSecondsRange": {
+                  "min": 1.6,
+                  "max": 1.76
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          },
+          {
+            "id": "choice",
+            "weight": 3,
+            "qualityScore": 0.9,
+            "spoilage": 0.03,
+            "ingredientWeights": [
+              {
+                "quality": 0,
+                "multiplier": 0.2
+              },
+              {
+                "quality": 0.5,
+                "multiplier": 1
+              },
+              {
+                "quality": 1,
+                "multiplier": 3
+              }
+            ],
+            "rule": {
+              "itemName": "上好的甜浆果",
+              "loreJson": [
+                {
+                  "text": "酸甜可口的浆果，吃起来不错。 表皮饱满，切开汁水充足，清香里没有久放的杂味。",
+                  "color": "green",
+                  "italic": true
+                }
+              ],
+              "food": {
+                "nutritionRange": [
+                  2,
+                  2
+                ],
+                "saturationRange": {
+                  "min": 0.42,
+                  "max": 0.48
+                },
+                "eatSecondsRange": {
+                  "min": 1.28,
+                  "max": 1.6
+                },
+                "canAlwaysEat": false,
+                "appendEffects": true,
+                "effects": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

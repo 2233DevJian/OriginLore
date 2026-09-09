@@ -1,5 +1,7 @@
 package com.originlore.screen;
 
+import com.originlore.client.GuiText;
+
 import com.originlore.source.SourceContext.SourceType;
 import net.minecraft.text.Text;
 
@@ -12,10 +14,10 @@ final class SourceTypeDisplay {
 
     static Text name(String value) {
         SourceType type = SourceType.parse(value);
-        return Text.translatable("originlore.source." + type.name().toLowerCase(Locale.ROOT));
+        return GuiText.text("originlore.source." + type.name().toLowerCase(Locale.ROOT));
     }
 
     static Text selectionLabel(String value) {
-        return Text.translatable("originlore.source.selected", name(value));
+        return GuiText.text("originlore.source.selected", name(value));
     }
 }
