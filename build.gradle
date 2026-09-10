@@ -108,3 +108,11 @@ java {
     }
     withSourcesJar()
 }
+
+tasks.named("jar") {
+    from("LICENSE")
+}
+
+tasks.named("sourcesJar") {
+    from("LICENSE")
+}

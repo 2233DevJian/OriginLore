@@ -6,7 +6,7 @@
 ![Fabric Loader](https://img.shields.io/badge/Fabric_Loader-%E2%89%A50.19.2-dbd0b4?style=flat-square)
 ![Java](https://img.shields.io/badge/Java-21-ed8b00?style=flat-square)
 ![Install](https://img.shields.io/badge/Install-Server--side-3d8c40?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue?style=flat-square)](LICENSE)
 ![Build](https://github.com/2233DevJian/OriginLore/actions/workflows/build.yml/badge.svg)
 
 > **物随其源，质赋其形。**
@@ -111,5 +111,10 @@ UNKNOWN
 | 兼容性与测试说明 | [COMPATIBILITY_TESTS.md](COMPATIBILITY_TESTS.md) | [docs/en/COMPATIBILITY.md](docs/en/COMPATIBILITY.md) |
 | 版本更新日志 | [更新日志.md](更新日志.md) | [docs/en/CHANGELOG.md](docs/en/CHANGELOG.md) |
 
-## 📄 开源协议
-本项目采用 MIT License 授权开源。
+## 📄 许可协议
+
+OriginLore 由 [2233DevJian](https://github.com/2233DevJian) 创作，采用 [知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议（CC BY-NC-SA 4.0）](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)。完整条款见 [LICENSE](LICENSE)。
+
+分享与改编时需署名、提供许可信息并注明修改；仅限非商业性使用，分享改编作品时须按完整条款采用相同或兼容许可。该协议限制商业使用，不属于严格意义上的开源软件许可证。
+
+第三方材料保留各自的许可证。本次更换不撤销此前版本已授予的许可。

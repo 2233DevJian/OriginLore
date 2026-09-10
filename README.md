@@ -6,7 +6,7 @@
 ![Fabric Loader](https://img.shields.io/badge/Fabric_Loader-%E2%89%A50.19.2-dbd0b4?style=flat-square)
 ![Java](https://img.shields.io/badge/Java-21-ed8b00?style=flat-square)
 ![Install](https://img.shields.io/badge/Install-Server--side-3d8c40?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue?style=flat-square)](LICENSE)
 ![Build](https://github.com/2233DevJian/OriginLore/actions/workflows/build.yml/badge.svg)
 
 > **Where items come from defines what they are.**
@@ -101,4 +101,9 @@ Click "Save" at the bottom. The configuration will validate server-side, write a
 | Changelog | [docs/en/CHANGELOG.md](docs/en/CHANGELOG.md) | [更新日志.md](更新日志.md) |
 
 ## 📄 License
-Licensed under the open-source MIT License.
+
+OriginLore by [2233DevJian](https://github.com/2233DevJian) is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). See [LICENSE](LICENSE) for the full terms.
+
+Sharing and adaptation require attribution, a license reference and an indication of changes. Use must be noncommercial, and shared adaptations must use the same or a compatible license as specified in the full terms. This license restricts commercial use and is not an open-source software license.
+
+Third-party materials retain their own licenses. This change does not revoke permissions previously granted for earlier versions.

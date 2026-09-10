@@ -4,11 +4,18 @@
 
 ## v3.0.1 (2026-09-09)
 
+### Same-version update on 2026-09-10
+
+- Standardized the license as CC BY-NC-SA 4.0 across both READMEs and mod metadata, and included the full license text in the built JAR and sources JAR.
+- Updated the project pixel icon and included a reusable image-processing script.
+- Kept version `3.0.1`, replacing the existing release asset and updating the source tag. Permissions previously granted for earlier versions remain valid.
+- `build`, all 91 JUnit tests and packaged-preset verification pass. Release files were checked for local paths, credentials and private files.
+
 ### Presets and documentation
 
 - Updated all bilingual preset names and lore; quality variants now use independent descriptions instead of stacking base lore.
 - Reformatted the bilingual README, user guides, compatibility notes and changelogs.
-- Preset values, sources, weights and stable variant IDs are unchanged; this release updates copy and documentation only.
+- Preset values, sources, weights and stable variant IDs are unchanged; the initial release updated copy and documentation only.
 
 ### Verification
 
